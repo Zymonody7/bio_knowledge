@@ -4,6 +4,8 @@
 
 现在也支持把累计知识库向量化，并通过 embedding + RAG 做检索。
 
+同时提供一个静态前端，可以在 GitHub Pages 上在线浏览论文、过滤和提问。
+
 ## 覆盖数据源
 
 - arXiv
@@ -23,6 +25,7 @@
 - `data/raw/*.json`：各数据源原始抓取结果
 - `data/processed/knowledge_base.json`：累计沉淀的结构化知识库
 - `data/processed/kb_embeddings.json`：向量化后的知识库索引
+- `site/`：静态前端与站点数据
 
 ## 字段设计
 
@@ -58,6 +61,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
+.venv/bin/python scripts/build_site_bundle.py
 ```
 
 也可以在自动化里按同样顺序每天运行。
@@ -122,6 +126,23 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/search_kb.py "recent LLM papers for genomics benchmark design" --rag
 ```
 
+## 前端
+
+- `site/index.html` 是静态站点入口
+- `scripts/build_site_bundle.py` 会把知识库和摘要打包成 `site/data/site_bundle.json`
+- 页面支持：
+  - 浏览和筛选论文
+  - 查看每日摘要
+  - 基于本地向量索引和关键词召回进行提问
+
+本地预览可以直接用任意静态文件服务，例如：
+
+```bash
+python -m http.server 8000
+```
+
+然后打开 `http://localhost:8000/site/`
+
 ## 自动化建议
 
 Codex App automation 可以绑定到这个 project，每次运行会在独立 worktree 中执行，适合每日定时跑下面这组命令：
@@ -133,6 +154,12 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
+.venv/bin/python scripts/build_site_bundle.py
 ```
+
+GitHub Actions 已经预留了两条工作流：
+
+- `.github/workflows/update-knowledge-base.yml`：每天自动更新数据并提交回仓库
+- `.github/workflows/deploy-pages.yml`：在 `main` 分支推送后自动部署前端到 GitHub Pages
 
 如果你后续要把日报推送到飞书、邮件或 Slack，可以在 `summarize_digest.py` 后面再接一个通知脚本。

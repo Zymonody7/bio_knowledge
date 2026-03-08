@@ -1,0 +1,53 @@
+name: Update Knowledge Base
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: |
+          uv venv .venv
+          uv pip install --python .venv/bin/python -r requirements.txt
+
+      - name: Refresh papers and knowledge base
+        run: |
+          .venv/bin/python scripts/fetch_arxiv.py
+          .venv/bin/python scripts/fetch_pubmed.py
+          .venv/bin/python scripts/merge_rank.py
+          .venv/bin/python scripts/summarize_digest.py
+          .venv/bin/python scripts/build_knowledge_base.py
+          .venv/bin/python scripts/build_embeddings.py
+          .venv/bin/python scripts/build_site_bundle.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git add data outputs site/data
+          git commit -m "Daily knowledge base refresh"
+          git push

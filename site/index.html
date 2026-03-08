@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bio Knowledge Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Pathogen Bioinformatics / AI / LLM</p>
+          <h1>Bio Knowledge Monitor</h1>
+          <p class="hero-text">
+            每天自动更新病原生信、Agent、LLM 与数据集相关论文。这里可以浏览、筛选、提问，并直接回到原始论文。
+          </p>
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+        <div class="hero-panel">
+          <p class="panel-label">今日摘要</p>
+          <pre id="digest-preview">加载中...</pre>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="ask-card">
+          <div class="section-head">
+            <h2>问知识库</h2>
+            <p>前端会基于本地向量索引和关键词重叠做召回，再给出一个引用式回答。</p>
+          </div>
+          <form id="ask-form" class="ask-form">
+            <textarea id="question-input" rows="3" placeholder="例如：最近有哪些 pathogen bioinformatics + agent 方向的论文值得看？"></textarea>
+            <div class="form-row">
+              <button type="submit">提问</button>
+              <span id="ask-status"></span>
+            </div>
+          </form>
+          <div id="answer-card" class="answer-card hidden">
+            <h3>回答</h3>
+            <div id="answer-body"></div>
+          </div>
+        </section>
+
+        <section class="browser-card">
+          <div class="section-head">
+            <h2>浏览论文</h2>
+            <p>支持按关键词、主题、来源和类别快速过滤。</p>
+          </div>
+          <div class="toolbar">
+            <input id="search-input" type="search" placeholder="搜索标题、摘要、主题、why it matters">
+            <select id="topic-filter">
+              <option value="">全部主题</option>
+            </select>
+            <select id="source-filter">
+              <option value="">全部来源</option>
+            </select>
+            <select id="category-filter">
+              <option value="">全部类别</option>
+            </select>
+          </div>
+          <div class="paper-grid" id="paper-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="paper-template">
+      <article class="paper-card">
+        <div class="paper-meta"></div>
+        <h3 class="paper-title"></h3>
+        <p class="paper-summary"></p>
+        <div class="paper-tags"></div>
+        <div class="paper-foot">
+          <div class="paper-scores"></div>
+          <a class="paper-link" target="_blank" rel="noreferrer">查看原文</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+  </html>
