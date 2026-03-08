@@ -28,7 +28,9 @@ jobs:
           python-version: "3.12"
 
       - name: Build site bundle
-        run: python scripts/build_site_bundle.py
+        run: |
+          python scripts/build_site_bundle.py
+          python scripts/sync_docs_site.py
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

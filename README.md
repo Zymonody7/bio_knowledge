@@ -26,6 +26,7 @@
 - `data/processed/knowledge_base.json`：累计沉淀的结构化知识库
 - `data/processed/kb_embeddings.json`：向量化后的知识库索引
 - `site/`：静态前端与站点数据
+- `docs/`：为 branch-based GitHub Pages 兼容准备的镜像目录
 
 ## 字段设计
 
@@ -62,6 +63,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
 .venv/bin/python scripts/build_site_bundle.py
+.venv/bin/python scripts/sync_docs_site.py
 ```
 
 也可以在自动化里按同样顺序每天运行。
@@ -130,6 +132,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 
 - `site/index.html` 是静态站点入口
 - `scripts/build_site_bundle.py` 会把知识库和摘要打包成 `site/data/site_bundle.json`
+- `scripts/sync_docs_site.py` 会把 `site/` 镜像到 `docs/`，兼容 GitHub Pages 的 branch/docs 发布方式
 - 页面支持：
   - 浏览和筛选论文
   - 查看每日摘要
@@ -155,6 +158,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
 .venv/bin/python scripts/build_site_bundle.py
+.venv/bin/python scripts/sync_docs_site.py
 ```
 
 GitHub Actions 已经预留了两条工作流：

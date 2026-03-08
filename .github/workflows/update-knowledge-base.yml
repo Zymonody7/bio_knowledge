@@ -39,6 +39,7 @@ jobs:
           .venv/bin/python scripts/build_knowledge_base.py
           .venv/bin/python scripts/build_embeddings.py
           .venv/bin/python scripts/build_site_bundle.py
+          .venv/bin/python scripts/sync_docs_site.py
 
       - name: Commit generated files
         run: |
@@ -48,6 +49,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git add data outputs site/data
+          git add data outputs site docs
           git commit -m "Daily knowledge base refresh"
           git push

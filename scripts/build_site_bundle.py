@@ -11,6 +11,7 @@ DEFAULT_KB = ROOT / "data" / "processed" / "knowledge_base.json"
 DEFAULT_EMBEDDINGS = ROOT / "data" / "processed" / "kb_embeddings.json"
 DEFAULT_DIGEST = ROOT / "outputs" / "daily_digest.md"
 DEFAULT_OUTPUT = ROOT / "site" / "data" / "site_bundle.json"
+DOCS_OUTPUT = ROOT / "docs" / "data" / "site_bundle.json"
 
 
 def parse_args() -> argparse.Namespace:
@@ -80,11 +81,17 @@ def main() -> int:
         "papers": sorted(papers, key=lambda item: (-float(item.get("importance_score", 0)), item.get("date", ""), item.get("title", ""))),
     }
 
+    rendered = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    output_path.write_text(rendered, encoding="utf-8")
+
+    docs_output = DOCS_OUTPUT
+    docs_output.parent.mkdir(parents=True, exist_ok=True)
+    docs_output.write_text(rendered, encoding="utf-8")
     print(f"Built site bundle with {len(papers)} papers")
     print(f"Output: {output_path}")
+    print(f"Docs output: {docs_output}")
     return 0
 
 
