@@ -7,9 +7,9 @@ import os
 from pathlib import Path
 
 import requests
-import yaml
 
 from build_embeddings import DEFAULT_CONFIG, local_embed, tokenize
+from rag_config import load_rag_config
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,11 +31,6 @@ def parse_args() -> argparse.Namespace:
 def load_json(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
-
-
-def load_yaml(path: Path) -> dict:
-    with path.open("r", encoding="utf-8") as handle:
-        return yaml.safe_load(handle) or {}
 
 
 def cosine_similarity(left: list[float], right: list[float]) -> float:
@@ -148,7 +143,7 @@ def main() -> int:
     args = parse_args()
     kb = load_json(Path(args.kb))
     embeddings = load_json(Path(args.embeddings))
-    config = load_yaml(Path(args.config))
+    config = load_rag_config(Path(args.config))
     retrieval_cfg = config.get("retrieval", {})
     top_k = args.top_k or int(retrieval_cfg.get("top_k", 5))
     min_score = float(retrieval_cfg.get("min_score", 0.15))

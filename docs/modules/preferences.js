@@ -5,7 +5,7 @@ import { loadJson, saveJson } from "./storage.js";
 export function loadPreferences() {
   state.favorites = loadJson("favorites", {});
   state.notes = loadJson("notes", {});
-  state.llm = { ...state.llm, ...loadJson("llm", {}) };
+  state.llm = { ...state.llmDefaults, ...state.llm, ...loadJson("llm", {}) };
   dom.llmMode.value = state.llm.mode;
   dom.llmBaseUrl.value = state.llm.baseUrl;
   dom.llmModel.value = state.llm.model;

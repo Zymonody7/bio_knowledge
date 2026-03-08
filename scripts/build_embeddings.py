@@ -11,12 +11,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-import yaml
-
+ 
+from rag_config import DEFAULT_CONFIG, load_rag_config
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_KB = ROOT / "data" / "processed" / "knowledge_base.json"
-DEFAULT_CONFIG = ROOT / "config" / "rag.yaml"
 DEFAULT_OUTPUT = ROOT / "data" / "processed" / "kb_embeddings.json"
 
 
@@ -26,11 +25,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--config", default=str(DEFAULT_CONFIG))
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
     return parser.parse_args()
-
-
-def load_yaml(path: Path) -> dict:
-    with path.open("r", encoding="utf-8") as handle:
-        return yaml.safe_load(handle) or {}
 
 
 def load_json(path: Path) -> dict:
@@ -107,7 +101,7 @@ def chunked(seq: list[str], size: int) -> list[list[str]]:
 def main() -> int:
     args = parse_args()
     kb = load_json(Path(args.kb))
-    config = load_yaml(Path(args.config))
+    config = load_rag_config(Path(args.config))
     existing_index = load_json(Path(args.output))
     embedding_cfg = config.get("embedding", {})
     provider = embedding_cfg.get("provider", "local")

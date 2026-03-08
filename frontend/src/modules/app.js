@@ -78,8 +78,8 @@ function bindEvents() {
 
 export async function bootstrap() {
   try {
-    loadPreferences();
     await loadBundle();
+    loadPreferences();
     populateFilters();
     bindEvents();
     renderAll();

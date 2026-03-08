@@ -4,6 +4,10 @@ export const state = {
   summary: {},
   digest: "",
   embeddings: { dimensions: 0 },
+  llmDefaults: {
+    baseUrl: "https://api.openai.com/v1",
+    model: "gpt-4.1-mini",
+  },
   selectedPaperId: null,
   activeGroup: "",
   treeFilter: { kind: "", value: "" },
@@ -11,8 +15,8 @@ export const state = {
   notes: {},
   llm: {
     mode: "local",
-    baseUrl: "https://api.openai.com/v1",
-    model: "gpt-4.1-mini",
+    baseUrl: "",
+    model: "",
     apiKey: "",
   },
 };

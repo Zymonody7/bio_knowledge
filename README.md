@@ -119,6 +119,42 @@ PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python sc
 
 如果必须在受限 automation 里跑，就不要依赖本机 `127.0.0.1` 代理；需要改用运行环境本身可访问的远程代理，或者使用不经代理也能直连外网的网络环境。
 
+## GitHub Actions 运行
+
+如果你改为使用 GitHub Actions，每天抓取建议直接使用：
+
+- [.github/workflows/update-knowledge-base.yml](/Users/mondyzy/projects/bgi/paper-monitor/.github/workflows/update-knowledge-base.yml)
+- [.github/workflows/deploy-pages.yml](/Users/mondyzy/projects/bgi/paper-monitor/.github/workflows/deploy-pages.yml)
+
+`update-knowledge-base.yml` 现在会直接调用：
+
+```bash
+.venv/bin/python scripts/run_pipeline.py
+```
+
+并支持通过 GitHub `Secrets / Variables` 覆盖 RAG 与站点默认 LLM 配置。
+
+推荐配置：
+
+- Secret：`BLTCY_API_KEY`
+- Variable：`RAG_CHAT_BASE_URL=https://api.bltcy.ai/v1`
+- Variable：`RAG_CHAT_MODEL=<你要用的 Gemini 模型名>`
+- Variable：`SITE_LLM_BASE_URL=https://api.bltcy.ai/v1`
+- Variable：`SITE_LLM_MODEL=<你要在前端默认展示的 Gemini 模型名>`
+
+可选：
+
+- `RAG_CHAT_PROVIDER=openai_compatible`
+- `RAG_EMBEDDING_PROVIDER=local`
+- `RAG_EMBEDDING_BASE_URL=<如果你后面要接远程 embedding>`
+- `RAG_EMBEDDING_MODEL=<远程 embedding 模型名>`
+
+说明：
+
+- GitHub Actions 的 Secret 只会在工作流运行时注入，不会写进仓库
+- 静态前端不能安全持有 API key，所以网页里只会预填 `Base URL / Model`
+- 如果你要在网页里直接调用外部模型，仍然需要在浏览器本地填写 key
+
 也可以在自动化里按同样顺序每天运行。
 
 ## 检索主题

@@ -5,6 +5,8 @@ import argparse
 import json
 from pathlib import Path
 
+from rag_config import DEFAULT_CONFIG, load_rag_config, resolve_site_llm_defaults
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_KB = ROOT / "data" / "processed" / "knowledge_base.json"
@@ -19,6 +21,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--kb", default=str(DEFAULT_KB))
     parser.add_argument("--embeddings", default=str(DEFAULT_EMBEDDINGS))
     parser.add_argument("--digest", default=str(DEFAULT_DIGEST))
+    parser.add_argument("--config", default=str(DEFAULT_CONFIG))
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
     return parser.parse_args()
 
@@ -39,6 +42,7 @@ def main() -> int:
     kb = load_json(Path(args.kb))
     embeddings = load_json(Path(args.embeddings))
     digest = load_text(Path(args.digest))
+    rag_config = load_rag_config(Path(args.config))
     embedding_lookup = {item["paper_id"]: item for item in embeddings.get("papers", [])}
 
     papers = []
@@ -78,6 +82,7 @@ def main() -> int:
             "dimensions": embeddings.get("dimensions", 0),
             "updated_at": embeddings.get("updated_at", ""),
         },
+        "llm_defaults": resolve_site_llm_defaults(rag_config),
         "papers": sorted(papers, key=lambda item: (-float(item.get("importance_score", 0)), item.get("date", ""), item.get("title", ""))),
     }
 

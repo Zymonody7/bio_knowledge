@@ -18,6 +18,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      RAG_CHAT_PROVIDER: ${{ vars.RAG_CHAT_PROVIDER }}
+      RAG_CHAT_BASE_URL: ${{ vars.RAG_CHAT_BASE_URL }}
+      RAG_CHAT_MODEL: ${{ vars.RAG_CHAT_MODEL }}
+      SITE_LLM_BASE_URL: ${{ vars.SITE_LLM_BASE_URL }}
+      SITE_LLM_MODEL: ${{ vars.SITE_LLM_MODEL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,10 +33,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: |
+          uv venv .venv
+          uv pip install --python .venv/bin/python -r requirements.txt
+
       - name: Build site bundle
         run: |
-          python scripts/build_site_bundle.py
-          python scripts/build_frontend.py
+          .venv/bin/python scripts/build_site_bundle.py
+          .venv/bin/python scripts/build_frontend.py
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

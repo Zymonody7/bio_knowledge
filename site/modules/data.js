@@ -9,5 +9,10 @@ export async function loadBundle() {
   state.summary = bundle.summary || {};
   state.digest = bundle.digest_markdown || "";
   state.embeddings = bundle.embedding || {};
+  state.llmDefaults = {
+    ...state.llmDefaults,
+    baseUrl: bundle.llm_defaults?.base_url || state.llmDefaults.baseUrl,
+    model: bundle.llm_defaults?.model || state.llmDefaults.model,
+  };
   state.selectedPaperId = state.papers[0]?.paper_id || null;
 }

@@ -11,6 +11,16 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.BLTCY_API_KEY }}
+      RAG_CHAT_PROVIDER: ${{ vars.RAG_CHAT_PROVIDER }}
+      RAG_CHAT_BASE_URL: ${{ vars.RAG_CHAT_BASE_URL }}
+      RAG_CHAT_MODEL: ${{ vars.RAG_CHAT_MODEL }}
+      RAG_EMBEDDING_PROVIDER: ${{ vars.RAG_EMBEDDING_PROVIDER }}
+      RAG_EMBEDDING_BASE_URL: ${{ vars.RAG_EMBEDDING_BASE_URL }}
+      RAG_EMBEDDING_MODEL: ${{ vars.RAG_EMBEDDING_MODEL }}
+      SITE_LLM_BASE_URL: ${{ vars.SITE_LLM_BASE_URL }}
+      SITE_LLM_MODEL: ${{ vars.SITE_LLM_MODEL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,14 +42,7 @@ jobs:
 
       - name: Refresh papers and knowledge base
         run: |
-          .venv/bin/python scripts/fetch_arxiv.py
-          .venv/bin/python scripts/fetch_pubmed.py
-          .venv/bin/python scripts/merge_rank.py
-          .venv/bin/python scripts/summarize_digest.py
-          .venv/bin/python scripts/build_knowledge_base.py
-          .venv/bin/python scripts/build_embeddings.py
-          .venv/bin/python scripts/build_site_bundle.py
-          .venv/bin/python scripts/build_frontend.py
+          .venv/bin/python scripts/run_pipeline.py
 
       - name: Commit generated files
         run: |
