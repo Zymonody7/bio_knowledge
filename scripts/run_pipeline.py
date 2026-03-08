@@ -19,41 +19,45 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip remote fetch steps and only run offline processing.",
     )
+    parser.add_argument(
+        "--strict-fetch",
+        action="store_true",
+        help="Exit with a non-zero status if any fetch step fails.",
+    )
     return parser.parse_args()
 
 
-def run_step(script_name: str) -> None:
+def run_step(script_name: str, check: bool = True) -> subprocess.CompletedProcess:
     script_path = ROOT / "scripts" / script_name
     print(f"==> Running {script_name}")
-    subprocess.run([sys.executable, str(script_path)], check=True)
+    return subprocess.run([sys.executable, str(script_path)], check=check)
 
 
 def main() -> int:
     args = parse_args()
     print(f"Pipeline proxy mode: {proxy_status_text()}")
+    fetch_failures: list[str] = []
 
-    steps = []
     if not args.skip_fetch:
-        steps.extend(
-            [
-                "fetch_arxiv.py",
-                "fetch_pubmed.py",
-            ]
-        )
+        for step in ("fetch_arxiv.py", "fetch_pubmed.py"):
+            result = run_step(step, check=False)
+            if result.returncode != 0:
+                fetch_failures.append(step)
 
-    steps.extend(
-        [
-            "merge_rank.py",
-            "summarize_digest.py",
-            "build_knowledge_base.py",
-            "build_embeddings.py",
-            "build_site_bundle.py",
-            "build_frontend.py",
-        ]
-    )
-
-    for step in steps:
+    for step in (
+        "merge_rank.py",
+        "summarize_digest.py",
+        "build_knowledge_base.py",
+        "build_embeddings.py",
+        "build_site_bundle.py",
+        "build_frontend.py",
+    ):
         run_step(step)
+
+    if fetch_failures:
+        print(f"Fetch failures: {', '.join(fetch_failures)}", file=sys.stderr)
+        if args.strict_fetch:
+            return 1
 
     print("Pipeline completed.")
     return 0

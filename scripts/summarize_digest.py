@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -11,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CSV = ROOT / "outputs" / "papers.csv"
 DEFAULT_MD = ROOT / "outputs" / "daily_digest.md"
+RAW_DIR = ROOT / "data" / "raw"
 
 
 CATEGORY_TITLES = {
@@ -34,6 +36,18 @@ def load_rows(path: Path) -> list[dict]:
         return []
     with path.open("r", encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
+
+
+def load_fetch_statuses() -> list[dict]:
+    statuses: list[dict] = []
+    for path in sorted(RAW_DIR.glob("*.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        for item in payload.get("source_statuses", []):
+            statuses.append(item)
+    return statuses
 
 
 def to_float(value: str) -> float:
@@ -85,6 +99,7 @@ def main() -> int:
             buckets["低优先级"].append(row)
 
     today = datetime.now().strftime("%Y-%m-%d")
+    fetch_statuses = load_fetch_statuses()
     lines = [
         f"# 每日论文监控日报 ({today})",
         "",
@@ -93,6 +108,22 @@ def main() -> int:
         f"今日共整理 {len(rows)} 篇新论文。",
         "",
     ]
+
+    if fetch_statuses:
+        lines.append("## 抓取状态")
+        lines.append("")
+        for status in fetch_statuses:
+            outcome = "成功" if status.get("success") else "失败"
+            error = status.get("error", "")
+            count = status.get("count", 0)
+            if error:
+                lines.append(f"- {status.get('source', 'unknown')}：{outcome}，命中 {count} 篇，错误：{error}")
+            else:
+                lines.append(f"- {status.get('source', 'unknown')}：{outcome}，命中 {count} 篇")
+        if any(not status.get("success") for status in fetch_statuses):
+            lines.append("")
+            lines.append("注：部分来源抓取失败时，后续整理结果可能包含缓存原始数据，不等同于这些来源当天没有新论文。")
+        lines.append("")
 
     for bucket_name in ("最值得看", "可追踪", "低优先级"):
         lines.extend(render_section(bucket_name, buckets[bucket_name]))

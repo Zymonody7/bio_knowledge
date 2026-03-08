@@ -105,6 +105,12 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def write_output(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+
+
 def main() -> int:
     args = parse_args()
     topics = load_yaml(Path(args.topics))
@@ -114,36 +120,58 @@ def main() -> int:
     query = build_query(keywords)
     window_start = datetime.now(timezone.utc) - timedelta(days=config.get("days_back", 1))
     session = create_session()
+    output_path = Path(args.output)
 
     print(f"Fetching arXiv with proxy {proxy_status_text()}")
+    try:
+        entries = fetch_entries(session, config["api_url"], query, config.get("max_results", 100))
+        papers = []
+        for entry in entries:
+            paper = normalize_entry(entry)
+            published = date_parser.parse(paper["date"]).astimezone(timezone.utc)
+            updated = date_parser.parse(paper["updated"]).astimezone(timezone.utc)
+            if max(published, updated) >= window_start:
+                papers.append(paper)
 
-    entries = fetch_entries(session, config["api_url"], query, config.get("max_results", 100))
-    papers = []
-    for entry in entries:
-        paper = normalize_entry(entry)
-        published = date_parser.parse(paper["date"]).astimezone(timezone.utc)
-        updated = date_parser.parse(paper["updated"]).astimezone(timezone.utc)
-        if max(published, updated) >= window_start:
-            papers.append(paper)
-
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = Path(args.output)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as handle:
-        json.dump(
+        write_output(
+            output_path,
             {
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
                 "query": query,
                 "count": len(papers),
                 "papers": papers,
+                "source_statuses": [
+                    {
+                        "source": "arXiv",
+                        "success": True,
+                        "count": len(papers),
+                        "error": "",
+                    }
+                ],
             },
-            handle,
-            ensure_ascii=False,
-            indent=2,
         )
-
-    print(f"Saved {len(papers)} arXiv papers to {output_path}")
-    return 0
+        print(f"Saved {len(papers)} arXiv papers to {output_path}")
+        return 0
+    except requests.RequestException as exc:
+        write_output(
+            output_path,
+            {
+                "fetched_at": datetime.now(timezone.utc).isoformat(),
+                "query": query,
+                "count": 0,
+                "papers": [],
+                "source_statuses": [
+                    {
+                        "source": "arXiv",
+                        "success": False,
+                        "count": 0,
+                        "error": str(exc),
+                    }
+                ],
+            },
+        )
+        print(f"arXiv fetch failed: {exc}", file=sys.stderr)
+        return 1
 
 
 if __name__ == "__main__":

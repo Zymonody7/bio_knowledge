@@ -91,6 +91,34 @@ PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python sc
 
 `PROXY_URL` 优先级高于系统里的 `HTTP_PROXY` / `HTTPS_PROXY` / `ALL_PROXY`。如果未设置 `PROXY_URL`，脚本会继续继承当前 shell 的代理环境。
 
+抓取阶段现在按来源独立容错：
+
+- `arXiv` 失败不会影响 `PubMed / bioRxiv / medRxiv`
+- `PubMed` 失败不会阻断 `bioRxiv / medRxiv`
+- `scripts/run_pipeline.py` 默认会继续完成后续离线步骤
+- 如果你希望抓取失败时整个流程返回非零退出码，可以加 `--strict-fetch`
+
+## 关于本地代理和 automation
+
+如果你在本机终端里运行，下面这条通常可以抓全 4 个来源：
+
+```bash
+PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python scripts/run_pipeline.py
+```
+
+但如果你把流程放进受限沙箱环境，`127.0.0.1:7897` 这种本机回环代理可能会被直接拦截。这时会出现：
+
+- 代理本身是通的
+- 终端里 `curl -x http://127.0.0.1:7897 ...` 可以成功
+- automation 里却报 `Operation not permitted`
+
+这不是脚本逻辑问题，而是运行环境不允许访问本机回环代理。要真正稳定抓全来源，建议优先使用下面两种方式之一：
+
+- 直接在本机终端、`launchd`、`cron` 里跑 `scripts/run_pipeline.py`
+- 使用能访问外网的 `self-hosted runner`
+
+如果必须在受限 automation 里跑，就不要依赖本机 `127.0.0.1` 代理；需要改用运行环境本身可访问的远程代理，或者使用不经代理也能直连外网的网络环境。
+
 也可以在自动化里按同样顺序每天运行。
 
 ## 检索主题

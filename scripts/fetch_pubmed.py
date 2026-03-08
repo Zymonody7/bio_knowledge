@@ -5,6 +5,7 @@ import argparse
 import json
 import sys
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -253,55 +254,85 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def write_output(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+
+
 def main() -> int:
     args = parse_args()
     topics = load_yaml(Path(args.topics))
     sources = load_yaml(Path(args.sources))["sources"]
     keywords = collect_keywords(topics)
     session = create_session()
+    output_path = Path(args.output)
 
     print(f"Fetching PubMed/preprints with proxy {proxy_status_text()}")
 
+    papers: list[dict] = []
+    source_statuses: list[dict] = []
+    query = build_pubmed_term(keywords)
+
     pubmed_config = sources["pubmed"]
-    papers = fetch_pubmed(
-        session,
-        pubmed_config["esearch_url"],
-        pubmed_config["efetch_url"],
-        build_pubmed_term(keywords),
-        pubmed_config.get("days_back", 1),
-        pubmed_config.get("retmax", 100),
-    )
+    try:
+        pubmed_papers = fetch_pubmed(
+            session,
+            pubmed_config["esearch_url"],
+            pubmed_config["efetch_url"],
+            query,
+            pubmed_config.get("days_back", 1),
+            pubmed_config.get("retmax", 100),
+        )
+        papers.extend(pubmed_papers)
+        source_statuses.append(
+            {"source": "PubMed", "success": True, "count": len(pubmed_papers), "error": ""}
+        )
+    except requests.RequestException as exc:
+        source_statuses.append(
+            {"source": "PubMed", "success": False, "count": 0, "error": str(exc)}
+        )
+        print(f"PubMed fetch failed: {exc}", file=sys.stderr)
 
     for source_name in ("biorxiv", "medrxiv"):
         config = sources[source_name]
-        papers.extend(
-            fetch_preprints(
+        label = "bioRxiv" if source_name == "biorxiv" else "medRxiv"
+        try:
+            fetched = fetch_preprints(
                 session,
                 config["api_url"],
-                "bioRxiv" if source_name == "biorxiv" else "medRxiv",
+                label,
                 keywords,
                 config.get("days_back", 2),
                 config.get("max_pages", 5),
             )
-        )
+            papers.extend(fetched)
+            source_statuses.append(
+                {"source": label, "success": True, "count": len(fetched), "error": ""}
+            )
+        except requests.RequestException as exc:
+            source_statuses.append(
+                {"source": label, "success": False, "count": 0, "error": str(exc)}
+            )
+            print(f"{label} fetch failed: {exc}", file=sys.stderr)
 
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = Path(args.output)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as handle:
-        json.dump(
-            {
-                "fetched_at": datetime.now(timezone.utc).isoformat(),
-                "count": len(papers),
-                "papers": papers,
-            },
-            handle,
-            ensure_ascii=False,
-            indent=2,
-        )
+    write_output(
+        output_path,
+        {
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "query": query,
+            "count": len(papers),
+            "papers": papers,
+            "source_statuses": source_statuses,
+        },
+    )
 
+    by_source: dict[str, int] = defaultdict(int)
+    for paper in papers:
+        by_source[paper.get("source", "unknown")] += 1
     print(f"Saved {len(papers)} PubMed/bioRxiv/medRxiv papers to {output_path}")
-    return 0
+    print("Source summary:", json.dumps(by_source, ensure_ascii=False))
+    return 0 if any(status["success"] for status in source_statuses) else 1
 
 
 if __name__ == "__main__":
