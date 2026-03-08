@@ -14,3 +14,27 @@ export function debounce(fn, delay = 400) {
     timer = setTimeout(() => fn(...args), delay);
   };
 }
+
+export function containWheelScroll(element) {
+  if (!element) return;
+  element.addEventListener(
+    "wheel",
+    (event) => {
+      const { deltaY } = event;
+      const maxScrollTop = element.scrollHeight - element.clientHeight;
+      const atTop = element.scrollTop <= 0;
+      const atBottom = element.scrollTop >= maxScrollTop - 1;
+      const canScroll = maxScrollTop > 0;
+
+      if (!canScroll) {
+        event.preventDefault();
+        return;
+      }
+
+      if ((deltaY < 0 && atTop) || (deltaY > 0 && atBottom)) {
+        event.preventDefault();
+      }
+    },
+    { passive: false },
+  );
+}

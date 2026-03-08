@@ -43,7 +43,12 @@ h1 { margin: 0 0 6px; font-family: "Noto Serif SC", serif; font-size: 2rem; line
 .markdown-body blockquote { padding-left: 14px; border-left: 3px solid rgba(162, 79, 27, 0.35); color: var(--muted); }
 .markdown-body a { color: var(--accent); text-decoration: none; }
 
-#digest-preview { max-height: 168px; overflow: auto; }
+#digest-preview {
+  max-height: 168px;
+  overflow: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
 .overview-digest {
   margin-top: 14px;
   padding-top: 14px;
@@ -51,7 +56,14 @@ h1 { margin: 0 0 6px; font-family: "Noto Serif SC", serif; font-size: 2rem; line
 }
 .tree-block + .tree-block { margin-top: 12px; }
 .tree-title { margin-bottom: 8px; color: var(--muted); font-size: 0.84rem; }
-.paper-list { display: grid; gap: 10px; max-height: calc(100vh - 430px); overflow: auto; }
+.paper-list {
+  display: grid;
+  gap: 10px;
+  max-height: calc(100vh - 430px);
+  overflow: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
 .paper-item { width: 100%; text-align: left; border-radius: 18px; padding: 14px; background: var(--panel); }
 .paper-item.active { border: 1px solid rgba(162, 79, 27, 0.24); background: linear-gradient(180deg, rgba(255, 247, 228, 0.98), rgba(242, 231, 209, 0.95)); }
 .paper-item-meta { color: var(--accent-2); font-size: 0.76rem; }
@@ -63,6 +75,10 @@ h1 { margin: 0 0 6px; font-family: "Noto Serif SC", serif; font-size: 2rem; line
 .metric-card span { display: block; color: var(--muted); font-size: 0.8rem; }
 .metric-card strong { display: block; margin-top: 8px; font-size: 1.4rem; }
 .notes-card { margin-top: 14px; }
+.notes-card textarea {
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+}
 .chat-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.6; }
 .ask-form { margin-top: 16px; }
 textarea { min-height: 120px; resize: vertical; }
@@ -81,3 +97,32 @@ textarea { min-height: 120px; resize: vertical; }
 .primary-link, button[type="submit"] { background: linear-gradient(135deg, var(--accent) 0%, #2f8c7d 100%); color: #fffaf0; }
 .secondary-button { background: rgba(162, 79, 27, 0.11); color: #6b3617; }
 .hidden { display: none; }
+
+.paper-item {
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+
+.paper-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(52, 40, 23, 0.08);
+}
+
+.group-pill:focus-visible,
+.tree-item:focus-visible,
+.paper-item:focus-visible,
+.primary-link:focus-visible,
+.secondary-button:focus-visible,
+button[type="submit"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid rgba(14, 107, 92, 0.55);
+  outline-offset: 3px;
+}
+
+.primary-link:hover,
+.secondary-button:hover,
+button[type="submit"]:hover {
+  filter: brightness(1.03);
+}

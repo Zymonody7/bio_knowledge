@@ -4,7 +4,7 @@ import { applyFilters, populateFilters } from "./filters.js";
 import { loadPreferences, persistFavorites, persistLlmSettings, persistNotes } from "./preferences.js";
 import { renderDetail, renderGroups, renderHero, renderPaperList, renderTrees } from "./render.js";
 import { state } from "./state.js";
-import { debounce } from "./utils.js";
+import { containWheelScroll, debounce } from "./utils.js";
 import { submitQuestion } from "./chat.js";
 
 
@@ -31,6 +31,8 @@ function renderAll() {
 }
 
 function bindEvents() {
+  [dom.digestPreview, dom.paperList, dom.notesInput].forEach((element) => containWheelScroll(element));
+
   [dom.searchInput, dom.topicFilter, dom.sourceFilter, dom.categoryFilter].forEach((element) => {
     element.addEventListener("input", renderAll);
     element.addEventListener("change", renderAll);
