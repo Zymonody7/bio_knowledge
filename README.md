@@ -2,6 +2,8 @@
 
 这是一个面向 pathogenomics / pathogen detection / foundation model 方向的每日论文监控项目。它每天抓取最近 24 小时新增论文，完成去重、打分、分组，并输出中文日报。
 
+现在也支持把累计知识库向量化，并通过 embedding + RAG 做检索。
+
 ## 覆盖数据源
 
 - arXiv
@@ -16,9 +18,11 @@
 - `outputs/papers.csv`：结构化论文列表
 - `outputs/daily_digest.md`：中文日报
 - `outputs/knowledge_base.md`：可读知识库索引
+- `outputs/knowledge_base_stats.md`：知识库统计与索引概览
 - `data/state.json`：已见论文状态，避免重复推送
 - `data/raw/*.json`：各数据源原始抓取结果
 - `data/processed/knowledge_base.json`：累计沉淀的结构化知识库
+- `data/processed/kb_embeddings.json`：向量化后的知识库索引
 
 ## 字段设计
 
@@ -53,6 +57,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/merge_rank.py
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
+.venv/bin/python scripts/build_embeddings.py
 ```
 
 也可以在自动化里按同样顺序每天运行。
@@ -83,7 +88,39 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 - `build_knowledge_base.py` 会把当天 `outputs/papers.csv` 的论文累计合并到 `data/processed/knowledge_base.json`
 - 同样使用 DOI、arXiv ID、PubMed ID 和标准化标题做知识库层去重
 - 对重复出现的论文会保留更完整的摘要，并更新时间
-- 同时生成 `outputs/knowledge_base.md`，方便你直接浏览和后续做 Git 同步
+- 结构化知识库包含 `meta / summary / indexes / papers` 四层，便于后续扩字段和脚本调用
+- 同时生成 `outputs/knowledge_base.md` 和 `outputs/knowledge_base_stats.md`，方便你直接浏览和后续做 Git 同步
+- `build_embeddings.py` 会按 `content_hash` 复用已有向量，避免每次全量重建
+- `manage_kb.py` 可直接查看统计、最近论文和单篇详情
+
+示例：
+
+```bash
+.venv/bin/python scripts/manage_kb.py stats
+.venv/bin/python scripts/manage_kb.py recent --limit 20 --sort importance
+.venv/bin/python scripts/manage_kb.py show "doi:10.64898/2026.03.06.710164"
+```
+
+## 向量检索 / RAG
+
+- `scripts/build_embeddings.py` 会把知识库转成向量索引，默认输出到 `data/processed/kb_embeddings.json`
+- `scripts/search_kb.py "<query>"` 会做向量召回，返回最相关论文
+- `scripts/search_kb.py "<query>" --rag` 会在召回结果上调用外部 LLM 生成中文回答
+- 配置文件在 `config/rag.yaml`
+
+默认配置下：
+
+- `embedding.provider=local`，使用本地哈希 embedding，零额外依赖，可直接跑
+- 如果你想外接模型，把 `embedding.provider` 改成 `openai_compatible`，并设置 `OPENAI_API_KEY`
+- `chat.provider` 默认就是 OpenAI-compatible，可接 OpenAI、OpenRouter、OneAPI、vLLM、LM Studio 等兼容接口
+
+示例：
+
+```bash
+.venv/bin/python scripts/build_embeddings.py
+.venv/bin/python scripts/search_kb.py "bioinformatics agent for pathogen detection"
+.venv/bin/python scripts/search_kb.py "recent LLM papers for genomics benchmark design" --rag
+```
 
 ## 自动化建议
 
@@ -95,6 +132,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/merge_rank.py
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
+.venv/bin/python scripts/build_embeddings.py
 ```
 
 如果你后续要把日报推送到飞书、邮件或 Slack，可以在 `summarize_digest.py` 后面再接一个通知脚本。

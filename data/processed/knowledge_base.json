@@ -1,6 +1,73 @@
 {
-  "updated_at": "2026-03-08T08:26:01.484735+00:00",
-  "total_papers": 3,
+  "meta": {
+    "schema_version": "1.0",
+    "updated_at": "2026-03-08T08:35:07.747118+00:00",
+    "generated_by": "scripts/build_knowledge_base.py"
+  },
+  "summary": {
+    "total_papers": 3,
+    "last_run_count": 3,
+    "sources": {
+      "bioRxiv": 3
+    },
+    "categories": {
+      "clinical_application": 1,
+      "general": 1,
+      "methods": 1
+    },
+    "topics": {
+      "application_monitoring": 1,
+      "foundation_model_agent": 1,
+      "pathogenomics": 2,
+      "sequencing_bioinformatics": 2
+    },
+    "years": {
+      "2026": 3
+    }
+  },
+  "indexes": {
+    "by_source": {
+      "bioRxiv": [
+        "doi:10.64898/2026.03.05.709838",
+        "doi:10.64898/2026.03.05.709882",
+        "doi:10.64898/2026.03.06.710164"
+      ]
+    },
+    "by_category": {
+      "clinical_application": [
+        "doi:10.64898/2026.03.06.710164"
+      ],
+      "general": [
+        "doi:10.64898/2026.03.05.709838"
+      ],
+      "methods": [
+        "doi:10.64898/2026.03.05.709882"
+      ]
+    },
+    "by_topic": {
+      "application_monitoring": [
+        "doi:10.64898/2026.03.06.710164"
+      ],
+      "foundation_model_agent": [
+        "doi:10.64898/2026.03.06.710164"
+      ],
+      "pathogenomics": [
+        "doi:10.64898/2026.03.05.709838",
+        "doi:10.64898/2026.03.06.710164"
+      ],
+      "sequencing_bioinformatics": [
+        "doi:10.64898/2026.03.05.709882",
+        "doi:10.64898/2026.03.06.710164"
+      ]
+    },
+    "by_year": {
+      "2026": [
+        "doi:10.64898/2026.03.05.709838",
+        "doi:10.64898/2026.03.05.709882",
+        "doi:10.64898/2026.03.06.710164"
+      ]
+    }
+  },
   "papers": {
     "doi:10.64898/2026.03.06.710164": {
       "paper_id": "doi:10.64898/2026.03.06.710164",
@@ -23,7 +90,16 @@
       "arxiv_id": "",
       "pubmed_id": "",
       "updated_at": "2026-03-08T08:26:01.484583+00:00",
-      "first_seen_at": "2026-03-08T08:26:01.484583+00:00"
+      "first_seen_at": "2026-03-08T08:26:01.484583+00:00",
+      "year": "2026",
+      "abstract_short": "Highly pathogenic avian influenza (HPAI) viruses of H5N1 clade 2.3.4.4b, are spreading worldwide, posing a threat to wildlife, domestic animals, and humans. In 2025, a multidisciplinary collaboration for HPAI H5N1 surveillance among birds within Galveston County, Texas, was initiated. Between November and December 2025, oropharyngeal and cloacal swabs were collected from wild and domestic birds re",
+      "topic_count": 4,
+      "importance_score": 4.058,
+      "content_hash": "508d6a25a817409d6483cf3d83f73558a1a98601a9f44e098f4895ad786d5b1b",
+      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
     },
     "doi:10.64898/2026.03.05.709838": {
       "paper_id": "doi:10.64898/2026.03.05.709838",
@@ -43,7 +119,16 @@
       "arxiv_id": "",
       "pubmed_id": "",
       "updated_at": "2026-03-08T08:26:01.484652+00:00",
-      "first_seen_at": "2026-03-08T08:26:01.484652+00:00"
+      "first_seen_at": "2026-03-08T08:26:01.484652+00:00",
+      "year": "2026",
+      "abstract_short": "Aim2-like receptors (ALRs) play crucial roles in innate immune signaling pathways and demonstrate strong positive selection likely driven by pathogens. IFI207, an ALR found in all Mus species, enhances interaction with and stabilization of STING, contributing to the control of Murine Leukemia Virus (MLV) infection. We show here that IFI207 enhances the type 1 interferon response by inhibiting acti",
+      "topic_count": 1,
+      "importance_score": 2.4,
+      "content_hash": "76733d86d370170a0ea93fc97a10e272a0ad0aa89d6fa1802e90de7a76cd31cf",
+      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
     },
     "doi:10.64898/2026.03.05.709882": {
       "paper_id": "doi:10.64898/2026.03.05.709882",
@@ -63,7 +148,16 @@
       "arxiv_id": "",
       "pubmed_id": "",
       "updated_at": "2026-03-08T08:26:01.484657+00:00",
-      "first_seen_at": "2026-03-08T08:26:01.484657+00:00"
+      "first_seen_at": "2026-03-08T08:26:01.484657+00:00",
+      "year": "2026",
+      "abstract_short": "Nanobodies have recently emerged as alternatives to classical antibodies in therapeutic and diagnostic contexts from parasites to bacteria to viruses, promising improved stability and simpler manufacturing. To improve nanobody discovery efficiency, we developed an integrated experimental and computational pipeline for detailed characterization of the target binding properties of complete alpaca im",
+      "topic_count": 1,
+      "importance_score": 2.27,
+      "content_hash": "0acaa2cd29ae88e395e7e7d48e329e47b61127c9950ec8504605656301a7eb24",
+      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
     }
   }
 }
