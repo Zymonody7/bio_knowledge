@@ -12,6 +12,8 @@ import requests
 import yaml
 from dateutil import parser as date_parser
 
+from http_utils import create_session, proxy_status_text
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
@@ -94,10 +96,17 @@ def parse_pub_date(article: ET.Element) -> str:
     return dt.replace(tzinfo=timezone.utc).isoformat()
 
 
-def fetch_pubmed(esearch_url: str, efetch_url: str, query: str, days_back: int, retmax: int) -> list[dict]:
+def fetch_pubmed(
+    session: requests.Session,
+    esearch_url: str,
+    efetch_url: str,
+    query: str,
+    days_back: int,
+    retmax: int,
+) -> list[dict]:
     today = datetime.now(timezone.utc).date()
     start = today - timedelta(days=days_back)
-    search_response = requests.get(
+    search_response = session.get(
         esearch_url,
         params={
             "db": "pubmed",
@@ -114,7 +123,7 @@ def fetch_pubmed(esearch_url: str, efetch_url: str, query: str, days_back: int, 
     if not id_list:
         return []
 
-    fetch_response = requests.get(
+    fetch_response = session.get(
         efetch_url,
         params={"db": "pubmed", "retmode": "xml", "id": ",".join(id_list)},
         timeout=60,
@@ -168,7 +177,14 @@ def fetch_pubmed(esearch_url: str, efetch_url: str, query: str, days_back: int, 
     return papers
 
 
-def fetch_preprints(api_url: str, source_name: str, keywords: list[str], days_back: int, max_pages: int = 5) -> list[dict]:
+def fetch_preprints(
+    session: requests.Session,
+    api_url: str,
+    source_name: str,
+    keywords: list[str],
+    days_back: int,
+    max_pages: int = 5,
+) -> list[dict]:
     end_date = datetime.now(timezone.utc).date()
     start_date = end_date - timedelta(days=days_back)
     lowered_keywords = [keyword.lower() for keyword in keywords]
@@ -178,7 +194,7 @@ def fetch_preprints(api_url: str, source_name: str, keywords: list[str], days_ba
 
     pages_fetched = 0
     while (total is None or cursor < total) and pages_fetched < max_pages:
-        response = requests.get(
+        response = session.get(
             f"{api_url}/{start_date}/{end_date}/{cursor}",
             timeout=60,
             headers={"User-Agent": "paper-monitor/1.0"},
@@ -242,9 +258,13 @@ def main() -> int:
     topics = load_yaml(Path(args.topics))
     sources = load_yaml(Path(args.sources))["sources"]
     keywords = collect_keywords(topics)
+    session = create_session()
+
+    print(f"Fetching PubMed/preprints with proxy {proxy_status_text()}")
 
     pubmed_config = sources["pubmed"]
     papers = fetch_pubmed(
+        session,
         pubmed_config["esearch_url"],
         pubmed_config["efetch_url"],
         build_pubmed_term(keywords),
@@ -256,6 +276,7 @@ def main() -> int:
         config = sources[source_name]
         papers.extend(
             fetch_preprints(
+                session,
                 config["api_url"],
                 "bioRxiv" if source_name == "biorxiv" else "medRxiv",
                 keywords,

@@ -12,6 +12,8 @@ import requests
 import yaml
 from dateutil import parser as date_parser
 
+from http_utils import create_session, proxy_status_text
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
@@ -57,8 +59,8 @@ def build_query(keywords: list[str], limit: int = 12) -> str:
     return " OR ".join(terms)
 
 
-def fetch_entries(api_url: str, query: str, max_results: int) -> list[dict]:
-    response = requests.get(
+def fetch_entries(session: requests.Session, api_url: str, query: str, max_results: int) -> list[dict]:
+    response = session.get(
         api_url,
         params={
             "search_query": query,
@@ -111,8 +113,11 @@ def main() -> int:
     keywords = collect_keywords(topics)
     query = build_query(keywords)
     window_start = datetime.now(timezone.utc) - timedelta(days=config.get("days_back", 1))
+    session = create_session()
 
-    entries = fetch_entries(config["api_url"], query, config.get("max_results", 100))
+    print(f"Fetching arXiv with proxy {proxy_status_text()}")
+
+    entries = fetch_entries(session, config["api_url"], query, config.get("max_results", 100))
     papers = []
     for entry in entries:
         paper = normalize_entry(entry)

@@ -1,7 +1,7 @@
 sources:
   arxiv:
     enabled: true
-    api_url: "http://export.arxiv.org/api/query"
+    api_url: "https://export.arxiv.org/api/query"
     max_results: 100
     days_back: 1
   pubmed:

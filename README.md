@@ -58,8 +58,8 @@ uv pip install --python .venv/bin/python -r requirements.txt
 按顺序执行：
 
 ```bash
-env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u all_proxy .venv/bin/python scripts/fetch_arxiv.py
-env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u all_proxy .venv/bin/python scripts/fetch_pubmed.py
+.venv/bin/python scripts/fetch_arxiv.py
+.venv/bin/python scripts/fetch_pubmed.py
 .venv/bin/python scripts/merge_rank.py
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
@@ -67,6 +67,29 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/build_site_bundle.py
 .venv/bin/python scripts/build_frontend.py
 ```
+
+也可以直接运行统一入口：
+
+```bash
+.venv/bin/python scripts/run_pipeline.py
+```
+
+如果你本地要走代理，直接在运行前设置环境变量即可，抓取脚本和统一入口都会自动继承：
+
+```bash
+export PROXY_URL=http://127.0.0.1:7897
+export NO_PROXY=127.0.0.1,localhost
+
+.venv/bin/python scripts/run_pipeline.py
+```
+
+如果你不想改全局环境变量，也可以只给当前命令挂代理：
+
+```bash
+PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python scripts/run_pipeline.py
+```
+
+`PROXY_URL` 优先级高于系统里的 `HTTP_PROXY` / `HTTPS_PROXY` / `ALL_PROXY`。如果未设置 `PROXY_URL`，脚本会继续继承当前 shell 的代理环境。
 
 也可以在自动化里按同样顺序每天运行。
 
@@ -155,17 +178,10 @@ python -m http.server 8000
 
 ## 自动化建议
 
-Codex App automation 可以绑定到这个 project，每次运行会在独立 worktree 中执行，适合每日定时跑下面这组命令：
+Codex App automation 可以绑定到这个 project，每次运行会在独立 worktree 中执行。现在更推荐直接跑统一入口：
 
 ```bash
-env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u all_proxy .venv/bin/python scripts/fetch_arxiv.py
-env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u all_proxy .venv/bin/python scripts/fetch_pubmed.py
-.venv/bin/python scripts/merge_rank.py
-.venv/bin/python scripts/summarize_digest.py
-.venv/bin/python scripts/build_knowledge_base.py
-.venv/bin/python scripts/build_embeddings.py
-.venv/bin/python scripts/build_site_bundle.py
-.venv/bin/python scripts/build_frontend.py
+PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python scripts/run_pipeline.py
 ```
 
 GitHub Actions 已经预留了两条工作流：
