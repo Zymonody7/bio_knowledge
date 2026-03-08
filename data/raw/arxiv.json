@@ -1,0 +1,6 @@
+{
+  "fetched_at": "2026-03-08T08:15:33.426740+00:00",
+  "query": "(all:\"pathogenomics\") OR (all:\"infectious disease genomics\" OR (all:\"infectious\" AND all:\"disease\" AND all:\"genomics\")) OR (all:\"pathogen genomics\" OR (all:\"pathogen\" AND all:\"genomics\")) OR (all:\"pathogen surveillance\" OR (all:\"pathogen\" AND all:\"surveillance\")) OR (all:\"unknown pathogen discovery\" OR (all:\"unknown\" AND all:\"pathogen\" AND all:\"discovery\")) OR (all:\"clinical metagenomics\" OR (all:\"clinical\" AND all:\"metagenomics\")) OR (all:\"metagenomics pathogen detection\" OR (all:\"metagenomics\" AND all:\"pathogen\" AND all:\"detection\")) OR (all:\"host-pathogen interaction\" OR (all:\"host\" AND all:\"pathogen\" AND all:\"interaction\")) OR (all:\"bioinformatics for pathogen detection\" OR (all:\"bioinformatics\" AND all:\"pathogen\" AND all:\"detection\")) OR (all:\"nanopore pathogen sequencing\" OR (all:\"nanopore\" AND all:\"pathogen\" AND all:\"sequencing\")) OR (all:\"long-read pathogen identification\" OR (all:\"long\" AND all:\"read\" AND all:\"pathogen\" AND all:\"identification\")) OR (all:\"dnabelab sequencing pathogen\" OR (all:\"dnabelab\" AND all:\"sequencing\" AND all:\"pathogen\"))",
+  "count": 0,
+  "papers": []
+}

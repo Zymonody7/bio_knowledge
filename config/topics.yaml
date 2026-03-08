@@ -1,0 +1,107 @@
+topic_groups:
+  - name: pathogenomics
+    priority: 1.0
+    keywords:
+      - pathogenomics
+      - infectious disease genomics
+      - pathogen genomics
+      - microbial genomics
+      - pathogen evolution
+      - pathogen surveillance
+      - unknown pathogen discovery
+      - clinical metagenomics
+      - metagenomics pathogen detection
+      - host-pathogen interaction
+      - infectious disease surveillance
+      - pathogen variant tracking
+  - name: sequencing_bioinformatics
+    priority: 0.95
+    keywords:
+      - bioinformatics for pathogen detection
+      - bioinformatics infectious disease
+      - computational biology pathogen
+      - microbial bioinformatics
+      - pathogen sequence analysis
+      - genomic epidemiology pathogen
+      - nanopore pathogen sequencing
+      - long-read pathogen identification
+      - dnabelab sequencing pathogen
+      - cyclone sequencing pathogen
+      - pathogen sequencing
+      - metagenome assembly pathogen
+      - pathogen genome assembly
+      - variant calling pathogen
+      - pathogen classification model
+  - name: foundation_model_agent
+    priority: 1.1
+    keywords:
+      - pathogen foundation model
+      - biological foundation model pathogen
+      - llm for pathogen genomics
+      - llm for pathogen detection
+      - agent for clinical microbiology
+      - multimodal pathogen model
+      - biomedical ai agent
+      - scientific discovery agent biology
+      - llm bioinformatics
+      - llm genomics
+      - language model infectious disease
+      - ai copilot bioinformatics
+      - multi-agent biomedical research
+      - retrieval augmented generation biomedical
+  - name: data_fair_training
+    priority: 0.7
+    keywords:
+      - fair pathogen dataset
+      - fair biomedical datasets
+      - biomedical dataset curation
+      - pathogen pretraining
+      - post-training biomedical model
+      - distillation biomedical llm
+      - downstream task design pathogen
+      - biomedical benchmark llm
+      - genomics benchmark ai
+  - name: application_monitoring
+    priority: 0.75
+    keywords:
+      - rapid pathogen identification
+      - pathogen risk warning
+      - host annotation pathogen
+      - treatment recommendation infectious disease ai
+      - pathogen monitoring platform
+      - clinical decision support infectious disease
+      - outbreak intelligence ai
+      - pathogen alert system
+
+category_keywords:
+  foundation_model:
+    - foundation model
+    - large language model
+    - llm
+    - multimodal
+    - agent
+    - transformer
+    - pretraining
+  dataset:
+    - dataset
+    - benchmark
+    - corpus
+    - curation
+    - annotation
+    - fair
+  methods:
+    - method
+    - framework
+    - pipeline
+    - approach
+    - algorithm
+    - long-read
+    - nanopore
+    - metagenomics
+  clinical_application:
+    - clinical
+    - diagnosis
+    - surveillance
+    - outbreak
+    - pathogen detection
+    - identification

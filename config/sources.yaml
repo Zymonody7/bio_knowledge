@@ -1,0 +1,22 @@
+sources:
+  arxiv:
+    enabled: true
+    api_url: "http://export.arxiv.org/api/query"
+    max_results: 100
+    days_back: 1
+  pubmed:
+    enabled: true
+    esearch_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+    efetch_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+    retmax: 100
+    days_back: 1
+  biorxiv:
+    enabled: true
+    api_url: "https://api.biorxiv.org/details/biorxiv"
+    days_back: 1
+    max_pages: 5
+  medrxiv:
+    enabled: true
+    api_url: "https://api.biorxiv.org/details/medrxiv"
+    days_back: 1
+    max_pages: 5
