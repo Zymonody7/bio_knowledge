@@ -30,7 +30,7 @@ jobs:
       - name: Build site bundle
         run: |
           python scripts/build_site_bundle.py
-          python scripts/sync_docs_site.py
+          python scripts/build_frontend.py
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

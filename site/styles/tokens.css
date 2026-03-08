@@ -1,0 +1,13 @@
+:root {
+  --bg: #efe8d2;
+  --panel: rgba(255, 251, 240, 0.92);
+  --panel-2: rgba(248, 242, 224, 0.95);
+  --line: rgba(52, 40, 23, 0.14);
+  --text: #22190f;
+  --muted: #6c5b46;
+  --accent: #0e6b5c;
+  --accent-2: #a24f1b;
+  --chip: rgba(14, 107, 92, 0.12);
+  --chip-active: rgba(162, 79, 27, 0.14);
+  --shadow: 0 18px 44px rgba(57, 40, 11, 0.12);
+}

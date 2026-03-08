@@ -5,6 +5,7 @@
 现在也支持把累计知识库向量化，并通过 embedding + RAG 做检索。
 
 同时提供一个静态前端，可以在 GitHub Pages 上在线浏览论文、过滤和提问。
+前端源码现在放在 `frontend/src/`，再通过构建脚本生成到 `site/` 和 `docs/`。
 
 ## 覆盖数据源
 
@@ -27,6 +28,7 @@
 - `data/processed/kb_embeddings.json`：向量化后的知识库索引
 - `site/`：静态前端与站点数据
 - `docs/`：为 branch-based GitHub Pages 兼容准备的镜像目录
+- `frontend/src/`：前端源码目录
 
 ## 字段设计
 
@@ -63,7 +65,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
 .venv/bin/python scripts/build_site_bundle.py
-.venv/bin/python scripts/sync_docs_site.py
+.venv/bin/python scripts/build_frontend.py
 ```
 
 也可以在自动化里按同样顺序每天运行。
@@ -132,7 +134,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 
 - `site/index.html` 是静态站点入口
 - `scripts/build_site_bundle.py` 会把知识库和摘要打包成 `site/data/site_bundle.json`
-- `scripts/sync_docs_site.py` 会把 `site/` 镜像到 `docs/`，兼容 GitHub Pages 的 branch/docs 发布方式
+- `scripts/build_frontend.py` 会把 `frontend/src/` 编译/复制到 `site/` 和 `docs/`
 - 页面支持：
   - 左侧分类导航、筛选和论文列表
   - 左侧按 `source / topic / year` 的导航树
@@ -163,7 +165,7 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
 .venv/bin/python scripts/build_site_bundle.py
-.venv/bin/python scripts/sync_docs_site.py
+.venv/bin/python scripts/build_frontend.py
 ```
 
 GitHub Actions 已经预留了两条工作流：
