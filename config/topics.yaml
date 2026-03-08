@@ -6,6 +6,12 @@ topic_groups:
       - infectious disease genomics
       - pathogen genomics
       - microbial genomics
+      - microbial genetics infectious disease
+      - pathogen gene regulation
+      - pathogen virulence gene
+      - resistance gene pathogen
+      - host gene expression infection
+      - host response transcriptomics infection
       - pathogen evolution
       - pathogen surveillance
       - unknown pathogen discovery
@@ -14,6 +20,9 @@ topic_groups:
       - host-pathogen interaction
       - infectious disease surveillance
       - pathogen variant tracking
+      - pathogen proteomics
+      - infection proteomics
+      - proteogenomics pathogen
   - name: sequencing_bioinformatics
     priority: 0.95
     keywords:
@@ -23,6 +32,12 @@ topic_groups:
       - microbial bioinformatics
       - pathogen sequence analysis
       - genomic epidemiology pathogen
+      - pathogen gene prediction
+      - pathogen protein annotation
+      - protein language model pathogen
+      - gene function prediction pathogen
+      - transcriptomics infectious disease
+      - single cell infection biology
       - nanopore pathogen sequencing
       - long-read pathogen identification
       - dnabelab sequencing pathogen
@@ -45,22 +60,37 @@ topic_groups:
       - scientific discovery agent biology
       - llm bioinformatics
       - llm genomics
+      - llm proteomics
+      - llm clinical genomics
+      - gene language model
+      - protein foundation model
+      - protein language model biomedical
+      - clinical agent infectious disease
+      - medical agent microbiology
       - language model infectious disease
       - ai copilot bioinformatics
       - multi-agent biomedical research
       - retrieval augmented generation biomedical
+      - rag clinical microbiology
+      - genomics agent workflow
   - name: data_fair_training
     priority: 0.7
     keywords:
       - fair pathogen dataset
       - fair biomedical datasets
       - biomedical dataset curation
+      - clinical infectious disease dataset
+      - genomics dataset infection
+      - proteomics dataset pathogen
+      - gene expression infection dataset
       - pathogen pretraining
       - post-training biomedical model
       - distillation biomedical llm
       - downstream task design pathogen
       - biomedical benchmark llm
       - genomics benchmark ai
+      - protein benchmark model biology
+      - clinical benchmark infectious disease ai
   - name: application_monitoring
     priority: 0.75
     keywords:
@@ -72,6 +102,11 @@ topic_groups:
       - clinical decision support infectious disease
       - outbreak intelligence ai
       - pathogen alert system
+      - clinical microbiology workflow ai
+      - infectious disease triage model
+      - biomarker infection diagnosis ai
+      - pathogen treatment response prediction
+      - clinical pathogen report generation
 
 category_keywords:
   foundation_model:
@@ -98,6 +133,10 @@ category_keywords:
     - long-read
     - nanopore
     - metagenomics
+    - proteomics
+    - transcriptomics
+    - gene
+    - protein
   clinical_application:
     - clinical
     - diagnosis
@@ -105,3 +144,7 @@ category_keywords:
     - outbreak
     - pathogen detection
     - identification
+    - patient
+    - treatment
+    - biomarker
+    - microbiology

@@ -10,74 +10,123 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Pathogen Bioinformatics / AI / LLM</p>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <p class="eyebrow">Bioinformatics / Protein / Gene / Clinical / AI</p>
           <h1>Bio Knowledge Monitor</h1>
-          <p class="hero-text">
-            每天自动更新病原生信、Agent、LLM 与数据集相关论文。这里可以浏览、筛选、提问，并直接回到原始论文。
-          </p>
+          <p class="sidebar-copy">左侧浏览分类和论文，右侧查看详情、原文入口和 AI 解读。</p>
           <div class="hero-stats" id="hero-stats"></div>
         </div>
-        <div class="hero-panel">
-          <p class="panel-label">今日摘要</p>
-          <pre id="digest-preview">加载中...</pre>
-        </div>
-      </header>
 
-      <main class="layout">
-        <section class="ask-card">
-          <div class="section-head">
-            <h2>问知识库</h2>
-            <p>前端会基于本地向量索引和关键词重叠做召回，再给出一个引用式回答。</p>
+        <div class="sidebar-controls">
+          <input id="search-input" type="search" placeholder="搜索标题、摘要、主题、源、关键词">
+          <select id="topic-filter">
+            <option value="">全部主题</option>
+          </select>
+          <select id="source-filter">
+            <option value="">全部来源</option>
+          </select>
+          <select id="category-filter">
+            <option value="">全部类别</option>
+          </select>
+        </div>
+
+        <section class="digest-card">
+          <div class="section-minihead">
+            <h2>今日摘要</h2>
+          </div>
+          <div id="digest-preview" class="markdown-body">加载中...</div>
+        </section>
+
+        <section class="group-card">
+          <div class="section-minihead">
+            <h2>分类导航</h2>
+          </div>
+          <div id="group-list" class="group-list"></div>
+        </section>
+
+        <section class="paper-list-card">
+          <div class="section-minihead">
+            <h2>论文列表</h2>
+            <span id="paper-count"></span>
+          </div>
+          <div id="paper-list" class="paper-list"></div>
+        </section>
+      </aside>
+
+      <main class="detail-pane">
+        <section class="detail-card">
+          <div class="detail-head">
+            <div>
+              <p id="detail-meta" class="detail-meta"></p>
+              <h2 id="detail-title">请选择左侧论文</h2>
+            </div>
+            <div class="detail-actions">
+              <a id="detail-link" class="primary-link" href="#" target="_blank" rel="noreferrer">查看原文</a>
+            </div>
+          </div>
+
+          <div id="detail-tags" class="detail-tags"></div>
+
+          <div class="detail-grid">
+            <div class="metric-card">
+              <span>综合</span>
+              <strong id="detail-importance">-</strong>
+            </div>
+            <div class="metric-card">
+              <span>相关度</span>
+              <strong id="detail-relevance">-</strong>
+            </div>
+            <div class="metric-card">
+              <span>新颖度</span>
+              <strong id="detail-novelty">-</strong>
+            </div>
+            <div class="metric-card">
+              <span>已见次数</span>
+              <strong id="detail-times-seen">-</strong>
+            </div>
+          </div>
+
+          <div class="info-blocks">
+            <section class="info-card">
+              <h3>AI 解读</h3>
+              <div id="detail-why" class="markdown-body"></div>
+            </section>
+            <section class="info-card">
+              <h3>摘要</h3>
+              <div id="detail-abstract" class="markdown-body"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="chat-card">
+          <div class="chat-head">
+            <div>
+              <h2>问右侧论文 / 问整个知识库</h2>
+              <p>会优先结合当前选中的论文，再混合向量检索整个知识库，输出更详细的中文分析。</p>
+            </div>
           </div>
           <form id="ask-form" class="ask-form">
-            <textarea id="question-input" rows="3" placeholder="例如：最近有哪些 pathogen bioinformatics + agent 方向的论文值得看？"></textarea>
+            <textarea id="question-input" rows="4" placeholder="例如：这篇工作对临床病原检测 workflow 有什么真实价值？和 agent / llm 结合点在哪里？"></textarea>
             <div class="form-row">
-              <button type="submit">提问</button>
+              <button type="submit">生成解读</button>
               <span id="ask-status"></span>
             </div>
           </form>
           <div id="answer-card" class="answer-card hidden">
-            <h3>回答</h3>
-            <div id="answer-body"></div>
+            <div id="answer-body" class="markdown-body"></div>
           </div>
-        </section>
-
-        <section class="browser-card">
-          <div class="section-head">
-            <h2>浏览论文</h2>
-            <p>支持按关键词、主题、来源和类别快速过滤。</p>
-          </div>
-          <div class="toolbar">
-            <input id="search-input" type="search" placeholder="搜索标题、摘要、主题、why it matters">
-            <select id="topic-filter">
-              <option value="">全部主题</option>
-            </select>
-            <select id="source-filter">
-              <option value="">全部来源</option>
-            </select>
-            <select id="category-filter">
-              <option value="">全部类别</option>
-            </select>
-          </div>
-          <div class="paper-grid" id="paper-grid"></div>
         </section>
       </main>
     </div>
 
-    <template id="paper-template">
-      <article class="paper-card">
-        <div class="paper-meta"></div>
-        <h3 class="paper-title"></h3>
-        <p class="paper-summary"></p>
-        <div class="paper-tags"></div>
-        <div class="paper-foot">
-          <div class="paper-scores"></div>
-          <a class="paper-link" target="_blank" rel="noreferrer">查看原文</a>
-        </div>
-      </article>
+    <template id="paper-item-template">
+      <button class="paper-item" type="button">
+        <span class="paper-item-meta"></span>
+        <strong class="paper-item-title"></strong>
+        <span class="paper-item-tags"></span>
+      </button>
     </template>
 
     <script src="./app.js" type="module"></script>

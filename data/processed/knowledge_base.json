@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-03-08T08:35:07.747118+00:00",
+    "updated_at": "2026-03-08T09:11:11.735928+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
@@ -96,8 +96,8 @@
       "topic_count": 4,
       "importance_score": 4.058,
       "content_hash": "508d6a25a817409d6483cf3d83f73558a1a98601a9f44e098f4895ad786d5b1b",
-      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-03-08T09:11:11.735928+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -125,8 +125,8 @@
       "topic_count": 1,
       "importance_score": 2.4,
       "content_hash": "76733d86d370170a0ea93fc97a10e272a0ad0aa89d6fa1802e90de7a76cd31cf",
-      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-03-08T09:11:11.735928+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -154,8 +154,8 @@
       "topic_count": 1,
       "importance_score": 2.27,
       "content_hash": "0acaa2cd29ae88e395e7e7d48e329e47b61127c9950ec8504605656301a7eb24",
-      "last_seen_at": "2026-03-08T08:35:07.747118+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-03-08T09:11:11.735928+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     }
