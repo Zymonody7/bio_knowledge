@@ -8,6 +8,7 @@ body {
     radial-gradient(circle at 100% 0%, rgba(162, 79, 27, 0.18), transparent 22%),
     linear-gradient(180deg, #efe5c4 0%, #f5f1e3 45%, #faf8f2 100%);
   font-family: "IBM Plex Sans", sans-serif;
+  overflow: hidden;
 }
 
 input, select, textarea {
