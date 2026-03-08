@@ -135,10 +135,13 @@ env -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u http_proxy -u https_proxy -u al
 - `scripts/sync_docs_site.py` 会把 `site/` 镜像到 `docs/`，兼容 GitHub Pages 的 branch/docs 发布方式
 - 页面支持：
   - 左侧分类导航、筛选和论文列表
+  - 左侧按 `source / topic / year` 的导航树
   - 右侧查看论文详情、原文入口和详细 AI 解读
+  - 本地收藏与研究备注
   - 查看每日摘要
   - 基于本地向量索引和关键词召回进行提问
   - 前端 Markdown 渲染，便于阅读结构化回答
+  - 可选接入 OpenAI-compatible LLM 做在线 RAG；API Key 只保存在浏览器本地
 
 本地预览可以直接用任意静态文件服务，例如：
 

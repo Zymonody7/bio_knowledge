@@ -15,7 +15,7 @@
         <div class="sidebar-top">
           <p class="eyebrow">Bioinformatics / Protein / Gene / Clinical / AI</p>
           <h1>Bio Knowledge Monitor</h1>
-          <p class="sidebar-copy">左侧浏览分类和论文，右侧查看详情、原文入口和 AI 解读。</p>
+          <p class="sidebar-copy">左侧分主题和来源浏览，右侧查看详情、原文、收藏和 AI 解读。</p>
           <div class="hero-stats" id="hero-stats"></div>
         </div>
 
@@ -41,9 +41,27 @@
 
         <section class="group-card">
           <div class="section-minihead">
-            <h2>分类导航</h2>
+            <h2>快速分类</h2>
           </div>
           <div id="group-list" class="group-list"></div>
+        </section>
+
+        <section class="tree-card">
+          <div class="section-minihead">
+            <h2>导航树</h2>
+          </div>
+          <div class="tree-block">
+            <div class="tree-title">按来源</div>
+            <div id="tree-source" class="tree-list"></div>
+          </div>
+          <div class="tree-block">
+            <div class="tree-title">按主题</div>
+            <div id="tree-topic" class="tree-list"></div>
+          </div>
+          <div class="tree-block">
+            <div class="tree-title">按年份</div>
+            <div id="tree-year" class="tree-list"></div>
+          </div>
         </section>
 
         <section class="paper-list-card">
@@ -63,6 +81,7 @@
               <h2 id="detail-title">请选择左侧论文</h2>
             </div>
             <div class="detail-actions">
+              <button id="favorite-toggle" class="secondary-button" type="button">收藏</button>
               <a id="detail-link" class="primary-link" href="#" target="_blank" rel="noreferrer">查看原文</a>
             </div>
           </div>
@@ -98,17 +117,51 @@
               <div id="detail-abstract" class="markdown-body"></div>
             </section>
           </div>
+
+          <section class="notes-card">
+            <div class="section-minihead">
+              <h3>研究备注</h3>
+              <span id="notes-status"></span>
+            </div>
+            <textarea id="notes-input" rows="4" placeholder="记录你的判断、关联项目、后续实验想法或和其它论文的关系"></textarea>
+          </section>
         </section>
 
         <section class="chat-card">
           <div class="chat-head">
             <div>
               <h2>问右侧论文 / 问整个知识库</h2>
-              <p>会优先结合当前选中的论文，再混合向量检索整个知识库，输出更详细的中文分析。</p>
+              <p>默认使用本地混合检索和详细解读。你也可以接入 OpenAI-compatible LLM，让右侧回答变成真正的在线 RAG。</p>
             </div>
           </div>
+
+          <details class="llm-settings">
+            <summary>LLM 设置</summary>
+            <div class="llm-grid">
+              <label>
+                <span>模式</span>
+                <select id="llm-mode">
+                  <option value="local">本地解读</option>
+                  <option value="remote">外接 LLM</option>
+                </select>
+              </label>
+              <label>
+                <span>Base URL</span>
+                <input id="llm-base-url" type="text" placeholder="https://api.openai.com/v1">
+              </label>
+              <label>
+                <span>Model</span>
+                <input id="llm-model" type="text" placeholder="gpt-4.1-mini">
+              </label>
+              <label>
+                <span>API Key</span>
+                <input id="llm-api-key" type="password" placeholder="只保存在当前浏览器">
+              </label>
+            </div>
+          </details>
+
           <form id="ask-form" class="ask-form">
-            <textarea id="question-input" rows="4" placeholder="例如：这篇工作对临床病原检测 workflow 有什么真实价值？和 agent / llm 结合点在哪里？"></textarea>
+            <textarea id="question-input" rows="4" placeholder="例如：这篇工作对临床病原检测 workflow 有什么真实价值？与 gene / protein / llm / agent 的结合点在哪里？"></textarea>
             <div class="form-row">
               <button type="submit">生成解读</button>
               <span id="ask-status"></span>
