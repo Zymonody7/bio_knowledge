@@ -15,8 +15,7 @@
         <div class="sidebar-top">
           <p class="eyebrow">Bioinformatics / Protein / Gene / Clinical / AI</p>
           <h1>Bio Knowledge Monitor</h1>
-          <p class="sidebar-copy">左侧分主题和来源浏览，右侧查看详情、原文、收藏和 AI 解读。</p>
-          <div class="hero-stats" id="hero-stats"></div>
+          <p class="sidebar-copy">筛选并定位论文。</p>
         </div>
 
         <div class="sidebar-controls">
@@ -31,13 +30,6 @@
             <option value="">全部类别</option>
           </select>
         </div>
-
-        <section class="digest-card">
-          <div class="section-minihead">
-            <h2>今日摘要</h2>
-          </div>
-          <div id="digest-preview" class="markdown-body">加载中...</div>
-        </section>
 
         <section class="group-card">
           <div class="section-minihead">
@@ -74,6 +66,17 @@
       </aside>
 
       <main class="detail-pane">
+        <section class="overview-card">
+          <div class="overview-top">
+            <div>
+              <p class="eyebrow">Daily Overview</p>
+              <h2>今日概览</h2>
+            </div>
+            <div class="hero-stats" id="hero-stats"></div>
+          </div>
+          <div id="digest-preview" class="markdown-body overview-digest">加载中...</div>
+        </section>
+
         <section class="detail-card">
           <div class="detail-head">
             <div>
