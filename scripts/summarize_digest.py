@@ -57,6 +57,15 @@ def to_float(value: str) -> float:
         return 0.0
 
 
+def summarize_error(error: str, limit: int = 140) -> str:
+    compact = " ".join((error or "").split())
+    if " for url: " in compact:
+        compact = compact.split(" for url: ", 1)[0]
+    if len(compact) <= limit:
+        return compact
+    return compact[:limit].rstrip() + "..."
+
+
 def render_section(title: str, rows: list[dict]) -> list[str]:
     lines = [f"## {title}", ""]
     if not rows:
@@ -141,7 +150,9 @@ def main() -> int:
             error = status.get("error", "")
             count = status.get("count", 0)
             if error:
-                lines.append(f"- {status.get('source', 'unknown')}：{outcome}，命中 {count} 篇，错误：{error}")
+                lines.append(
+                    f"- {status.get('source', 'unknown')}：{outcome}，命中 {count} 篇，错误：{summarize_error(error)}"
+                )
             else:
                 lines.append(f"- {status.get('source', 'unknown')}：{outcome}，命中 {count} 篇")
         if any(not status.get("success") for status in fetch_statuses):
