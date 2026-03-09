@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -48,33 +49,50 @@ def significant_tokens(keyword: str) -> list[str]:
     return tokens[:4]
 
 
-def build_query(keywords: list[str], limit: int = 18) -> str:
+def build_query(keywords: list[str], limit: int = 4) -> str:
     terms = []
     for keyword in keywords[:limit]:
         tokens = significant_tokens(keyword)
-        variants = [f'all:"{keyword}"']
+        variants = [f'ti:"{keyword}"', f'abs:"{keyword}"']
         if len(tokens) >= 2:
-            variants.append("(" + " AND ".join(f'all:"{token}"' for token in tokens) + ")")
+            variants.append("(" + " AND ".join(f'all:{token}' for token in tokens[:3]) + ")")
         terms.append("(" + " OR ".join(variants) + ")")
     return " OR ".join(terms)
 
 
-def fetch_entries(session: requests.Session, api_url: str, query: str, max_results: int) -> list[dict]:
-    response = session.get(
-        api_url,
-        params={
-            "search_query": query,
-            "sortBy": "lastUpdatedDate",
-            "sortOrder": "descending",
-            "start": 0,
-            "max_results": max_results,
-        },
-        timeout=60,
-        headers={"User-Agent": "paper-monitor/1.0"},
-    )
-    response.raise_for_status()
-    feed = feedparser.parse(response.text)
-    return list(feed.entries)
+def chunk_keywords(keywords: list[str], size: int = 4, max_chunks: int = 6) -> list[list[str]]:
+    chunks = [keywords[index:index + size] for index in range(0, len(keywords), size)]
+    return chunks[:max_chunks]
+
+
+def fetch_entries(session: requests.Session, api_url: str, query: str, max_results: int, retries: int = 3) -> list[dict]:
+    last_error: requests.RequestException | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            response = session.get(
+                api_url,
+                params={
+                    "search_query": query,
+                    "sortBy": "lastUpdatedDate",
+                    "sortOrder": "descending",
+                    "start": 0,
+                    "max_results": max_results,
+                },
+                timeout=60,
+                headers={"User-Agent": "paper-monitor/1.0"},
+            )
+            response.raise_for_status()
+            feed = feedparser.parse(response.text)
+            return list(feed.entries)
+        except requests.RequestException as exc:
+            last_error = exc
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            if attempt >= retries or status_code not in {500, 502, 503, 504}:
+                break
+            time.sleep(min(6, attempt * 2))
+    if last_error is not None:
+        raise last_error
+    return []
 
 
 def normalize_entry(entry: dict) -> dict:
@@ -117,27 +135,40 @@ def main() -> int:
     sources = load_yaml(Path(args.sources))
     config = sources["sources"]["arxiv"]
     keywords = collect_keywords(topics)
-    query = build_query(keywords)
+    keyword_chunks = chunk_keywords(keywords)
     window_start = datetime.now(timezone.utc) - timedelta(days=config.get("days_back", 1))
     session = create_session()
     output_path = Path(args.output)
 
     print(f"Fetching arXiv with proxy {proxy_status_text()}")
     try:
-        entries = fetch_entries(session, config["api_url"], query, config.get("max_results", 100))
+        queries = [build_query(chunk) for chunk in keyword_chunks]
+        entries = []
+        for query in queries:
+            print(f"arXiv batch query: {query[:160]}{'...' if len(query) > 160 else ''}")
+            entries.extend(
+                fetch_entries(
+                    session,
+                    config["api_url"],
+                    query,
+                    max(20, int(config.get("max_results", 100) / max(len(queries), 1))),
+                )
+            )
         papers = []
+        seen_ids: set[str] = set()
         for entry in entries:
             paper = normalize_entry(entry)
             published = date_parser.parse(paper["date"]).astimezone(timezone.utc)
             updated = date_parser.parse(paper["updated"]).astimezone(timezone.utc)
-            if max(published, updated) >= window_start:
+            if max(published, updated) >= window_start and paper["arxiv_id"] not in seen_ids:
+                seen_ids.add(paper["arxiv_id"])
                 papers.append(paper)
 
         write_output(
             output_path,
             {
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
-                "query": query,
+                "query": " || ".join(queries),
                 "count": len(papers),
                 "papers": papers,
                 "source_statuses": [
@@ -157,7 +188,7 @@ def main() -> int:
             output_path,
             {
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
-                "query": query,
+                "query": " || ".join(build_query(chunk) for chunk in keyword_chunks),
                 "count": 0,
                 "papers": [],
                 "source_statuses": [
