@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-03-09 02:47:14
+最近更新：2026-03-09 03:40:48
 
-累计论文数：57
-最近一次新增：57
+累计论文数：62
+最近一次新增：62
 
 ## 概览
 
-- 来源分布：PubMed=17, arXiv=1, bioRxiv=28, medRxiv=11
-- 类别分布：clinical_application=14, dataset=4, foundation_model=2, general=1, methods=36
-- 热门主题：pathogenomics=36, foundation_model_agent=23, sequencing_bioinformatics=13, application_monitoring=2, data_fair_training=2
+- 来源分布：PubMed=17, arXiv=1, bioRxiv=33, medRxiv=11
+- 类别分布：clinical_application=15, dataset=4, foundation_model=2, general=1, methods=40
+- 热门主题：pathogenomics=38, foundation_model_agent=26, sequencing_bioinformatics=14, application_monitoring=2, data_fair_training=2
 
 ## 按类别索引
 
@@ -18,6 +18,11 @@
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
   相关度：7.05 | 新颖度：0.0 | 综合：4.583
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Human airway model reveals host-pathogen co-infection dynamics of Staphylococcus aureus and Pseudomonas aeruginosa](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.08.710358v1)
+  来源：bioRxiv | 日期：2026-03-08 | 主题：pathogenomics, foundation_model_agent
+  相关度：2.1 | 新颖度：5.0 | 综合：3.115
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States](https://www.medRxiv.org/content/10.1101/10.64898/2026.03.05.26345726v1)
@@ -143,6 +148,11 @@
   相关度：4.75 | 新颖度：1.0 | 综合：3.438
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [An Improved Dataset for Predicting Mammal Infecting Viruses from Genetic Sequence Information](https://www.bioRxiv.org/content/10.1101/10.1101/2025.09.17.676952v3)
+  来源：bioRxiv | 日期：2026-03-08 | 主题：sequencing_bioinformatics
+  相关度：1.9 | 新颖度：5.5 | 综合：3.16
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [In vivo de-amplification of a multi-resistance pseudo-compound transposon in Escherichia coli](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710075v1)
   来源：bioRxiv | 日期：2026-03-06 | 主题：pathogenomics, sequencing_bioinformatics
   相关度：3.9 | 新颖度：0.5 | 综合：2.71
@@ -153,14 +163,24 @@
   相关度：3.8 | 新颖度：0.0 | 综合：2.47
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Multi-Modal Protein Representation Learning with CLASP](https://www.bioRxiv.org/content/10.1101/10.1101/2025.08.10.669533v2)
+  来源：bioRxiv | 日期：2026-03-08 | 主题：foundation_model_agent
+  相关度：1.1 | 新颖度：5.0 | 综合：2.465
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [What comes after de novo? Automated lead optimization of proteins with CRADLE-1](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710001v1)
+  来源：bioRxiv | 日期：2026-03-08 | 主题：foundation_model_agent
+  相关度：1.1 | 新颖度：5.0 | 综合：2.465
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Presenilin 1 (PS1) located at mitochondrial inner membrane regulates mitochondrial cristae junction proteins arrangement and cristae formation in HEK293 cells](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709976v1)
+  来源：bioRxiv | 日期：2026-03-08 | 主题：pathogenomics
+  相关度：1.0 | 新颖度：5.0 | 综合：2.4
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, foundation_model_agent
   相关度：3.1 | 新颖度：0.0 | 综合：2.015
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Risk mapping novel respiratory pathogens with large-scale dynamic contact networks](http://arxiv.org/abs/2603.06235v1)
-  来源：arXiv | 日期：2026-03-06 | 主题：未命中主题
-  相关度：0.0 | 新颖度：5.0 | 综合：1.75
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic Interpretability](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.04.709491v1)
@@ -308,6 +328,11 @@
   相关度：0.7 | 新颖度：0.5 | 综合：0.63
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Risk mapping novel respiratory pathogens with large-scale dynamic contact networks](http://arxiv.org/abs/2603.06235v1)
+  来源：arXiv | 日期：2026-03-06 | 主题：未命中主题
+  相关度：0.0 | 新颖度：0.0 | 综合：0.0
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 ## 按主题索引
 
 ### application_monitoring
@@ -324,8 +349,11 @@
 
 - [Zoonotic Bordetella bronchiseptica infection at the swine-human interface: unveiling the evolutionary path from an animal to a human pathogen.](https://pubmed.ncbi.nlm.nih.gov/41729089/) | PubMed | 2026-12-01 | score=4.715
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/) | PubMed | 2026-03-06 | score=4.583
+- [Human airway model reveals host-pathogen co-infection dynamics of Staphylococcus aureus and Pseudomonas aeruginosa](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.08.710358v1) | bioRxiv | 2026-03-08 | score=3.115
 - [Using pangenome variation graphs to improve mutation detection in a large DNA virus](https://www.bioRxiv.org/content/10.1101/10.1101/2025.11.26.690900v2) | bioRxiv | 2026-03-06 | score=2.982
 - [Community-Based Surveillance for Highly Pathogenic Avian Influenza Viruses among Deceased Birds](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710164v1) | bioRxiv | 2026-03-07 | score=2.47
+- [Multi-Modal Protein Representation Learning with CLASP](https://www.bioRxiv.org/content/10.1101/10.1101/2025.08.10.669533v2) | bioRxiv | 2026-03-08 | score=2.465
+- [What comes after de novo? Automated lead optimization of proteins with CRADLE-1](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710001v1) | bioRxiv | 2026-03-08 | score=2.465
 - [Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States](https://www.medRxiv.org/content/10.1101/10.64898/2026.03.05.26345726v1) | medRxiv | 2026-03-06 | score=2.157
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/) | PubMed | 2026-03-06 | score=2.015
 - [Molecular characterization and genotypic diversity of human astroviruses among patients with gastroenteritis in Saudi Arabia, 2022-2023.](https://pubmed.ncbi.nlm.nih.gov/41792395/) | PubMed | 2026-03-06 | score=1.982
@@ -352,9 +380,11 @@
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/) | PubMed | 2026-03-06 | score=4.583
 - [A pseudochromosomal reference genome of the golden jackal, Canis aureus.](https://pubmed.ncbi.nlm.nih.gov/41786621/) | PubMed | 2026-03-06 | score=3.64
 - [Metagenomic sequencing reveals viral diversity of mosquitoes from Egypt: co-circulation of multiple insect-specific viruses.](https://pubmed.ncbi.nlm.nih.gov/41789915/) | PubMed | 2026-03-06 | score=3.185
+- [Human airway model reveals host-pathogen co-infection dynamics of Staphylococcus aureus and Pseudomonas aeruginosa](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.08.710358v1) | bioRxiv | 2026-03-08 | score=3.115
 - [Using pangenome variation graphs to improve mutation detection in a large DNA virus](https://www.bioRxiv.org/content/10.1101/10.1101/2025.11.26.690900v2) | bioRxiv | 2026-03-06 | score=2.982
 - [In vivo de-amplification of a multi-resistance pseudo-compound transposon in Escherichia coli](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710075v1) | bioRxiv | 2026-03-06 | score=2.71
 - [Community-Based Surveillance for Highly Pathogenic Avian Influenza Viruses among Deceased Birds](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710164v1) | bioRxiv | 2026-03-07 | score=2.47
+- [Presenilin 1 (PS1) located at mitochondrial inner membrane regulates mitochondrial cristae junction proteins arrangement and cristae formation in HEK293 cells](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709976v1) | bioRxiv | 2026-03-08 | score=2.4
 - [Deep untargeted wastewater metagenomic sequencing from sewersheds across the United States](https://www.medRxiv.org/content/10.1101/10.64898/2026.03.05.26345726v1) | medRxiv | 2026-03-06 | score=2.157
 - [Lactoferrin blocks orthopoxvirus entry via heparan sulphate and regulates host antiviral pathways.](https://pubmed.ncbi.nlm.nih.gov/41790953/) | PubMed | 2026-12-01 | score=2.05
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/) | PubMed | 2026-03-06 | score=2.015
@@ -391,6 +421,7 @@
 - [A pseudochromosomal reference genome of the golden jackal, Canis aureus.](https://pubmed.ncbi.nlm.nih.gov/41786621/) | PubMed | 2026-03-06 | score=3.64
 - [Targeted Long-Read sequencing provides functional validation of variants predicted to alter splicing](https://www.medRxiv.org/content/10.1101/10.64898/2026.03.02.26346984v1) | medRxiv | 2026-03-06 | score=3.438
 - [Metagenomic sequencing reveals viral diversity of mosquitoes from Egypt: co-circulation of multiple insect-specific viruses.](https://pubmed.ncbi.nlm.nih.gov/41789915/) | PubMed | 2026-03-06 | score=3.185
+- [An Improved Dataset for Predicting Mammal Infecting Viruses from Genetic Sequence Information](https://www.bioRxiv.org/content/10.1101/10.1101/2025.09.17.676952v3) | bioRxiv | 2026-03-08 | score=3.16
 - [Using pangenome variation graphs to improve mutation detection in a large DNA virus](https://www.bioRxiv.org/content/10.1101/10.1101/2025.11.26.690900v2) | bioRxiv | 2026-03-06 | score=2.982
 - [In vivo de-amplification of a multi-resistance pseudo-compound transposon in Escherichia coli](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710075v1) | bioRxiv | 2026-03-06 | score=2.71
 - [Community-Based Surveillance for Highly Pathogenic Avian Influenza Viruses among Deceased Birds](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710164v1) | bioRxiv | 2026-03-07 | score=2.47

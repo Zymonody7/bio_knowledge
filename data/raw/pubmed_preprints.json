@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-03-09T02:47:13.822458+00:00",
+  "fetched_at": "2026-03-09T03:40:47.804558+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 56,
+  "count": 61,
   "papers": [
     {
       "title": "Lactoferrin blocks orthopoxvirus entry via heparan sulphate and regulates host antiviral pathways.",
@@ -373,6 +373,38 @@
       "doi": "10.1093/pubmed/fdaf163",
       "arxiv_id": "",
       "pubmed_id": "41524742"
+    },
+    {
+      "title": "Multi-Modal Protein Representation Learning with CLASP",
+      "source": "bioRxiv",
+      "date": "2026-03-08T00:00:00+00:00",
+      "url": "https://www.bioRxiv.org/content/10.1101/10.1101/2025.08.10.669533v2",
+      "abstract": "Effectively integrating data modalities pertaining to proteins' amino acid sequences, three-dimensional structures,and curated biological descriptions can lead to informative representations capturing different views of proteins. Here, we introduce CLASP, a unified tri-modal framework that combines the strengths of geometric deep learning, natural large language models (LLMs), protein LLMs, and contrastive learning to learn informative protein representations based on their structure, amino acid sequence, and description. We show that CLASP enables accurate zero-shot classification and retrieval tasks, such as matching a protein structure to its sequence or description, outperforming state-of-the-art baselines. CLASP embeddings also exhibit superior clustering by protein family, and ablation studies confirm that all three modalities contribute synergistically to performance. Our results highlight the power of integrating structural, sequential, and textual signals in a single model, establishing CLASP as a general-purpose embedding framework for protein understanding.",
+      "authors": [
+        "Bolouri, N.",
+        "Szymborski, J.",
+        "Emad, A."
+      ],
+      "doi": "10.1101/2025.08.10.669533",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "An Improved Dataset for Predicting Mammal Infecting Viruses from Genetic Sequence Information",
+      "source": "bioRxiv",
+      "date": "2026-03-08T00:00:00+00:00",
+      "url": "https://www.bioRxiv.org/content/10.1101/10.1101/2025.09.17.676952v3",
+      "abstract": "There have been several attempts to develop machine learning (ML) models to identify human infecting viruses from their genomic sequences, with varying degrees of success. Direct comparison between models is problematic, because these models are typically trained and evaluated on different datasets with alternative data splitting schemes, features, and model performance metrics. In this paper we present a standardized dataset of mammal infecting and non-infecting viral pathogens, refined from the previous work of Mollentze et al. to include the latest literature evidence, roughly doubling the number of curated host-virus records available to the community, and new host target labels, primate and mammal. The new host labels were included for several reasons, including previous reports that classification performance is better at broader taxonomic ranks and the idea that there may be more data for primate infection that might serve as a suitable proxy for zoonotic potential and avoidance of false positives for human infection due to absence of evidence. On this dataset, we report the performance of eight machine learning models for predicting mammal-infecting viruses from their genomic sequences. We find that randomly assigning cases in our improved dataset to training/testing sets, when compared to the original assignments into training/testing in Mollentze et al., increases the overall average ROC AUC of prediction of human infection from 0.663 +- 0.070 to 0.784 +- 0.013, consistent with the reduction in phylogenetic distance between train and test sets (relative entropy change from 3.00 to 0.08). The broadest host category of mammal infection can be predicted most reliably at 0.850 +- 0.020. We share our improved dataset and code to enable standardized comparisons of machine learning methods to predict human host infections. Overall, we have presented preliminary evidence that classification of virus host infection is more tractable at higher taxonomic ranks, that unsurprisingly reducing the phylogenetic distance between training and test sets can improve predictive performance, that peptide kmer features appear to be harmful to out of sample model performance, and we are left with the question of whether models for virus host prediction can reasonably be expected to perform well in out of sample scenarios given the likelihood that viruses do not share a common ancestor. Consistent with this concern, when the data is resampled such that there is no overlap between viral families in training and test sets (relative entropy > 24), models perform no better than random chance at prediction of human infection regardless of whether kmers are included (ROC AUC 0.50 +- 0.08) or not (ROC AUC 0.50 +- 0.04).",
+      "authors": [
+        "Reddy, T.",
+        "Schneider, A.",
+        "Hall, A. R.",
+        "Witmer, A.",
+        "Hengartner, N."
+      ],
+      "doi": "10.1101/2025.09.17.676952",
+      "arxiv_id": "",
+      "pubmed_id": ""
     },
     {
       "title": "Expanding antimicrobial chemical space by engineering drug safety",
@@ -935,6 +967,77 @@
       "pubmed_id": ""
     },
     {
+      "title": "What comes after de novo? Automated lead optimization of proteins with CRADLE-1",
+      "source": "bioRxiv",
+      "date": "2026-03-08T00:00:00+00:00",
+      "url": "https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710001v1",
+      "abstract": "Lead optimization remains the longest and most expensive step in pre-clinical drug discovery, typically consuming 12-36 months whilst costing $5M-$15M per candidate. We introduce 'CRADLE-1', an automated framework for protein engineering. While CRADLE-1 supports the full process of drug discovery and industrial protein engineering pipelines, including hit identification and de novo binder design, this work focuses on its application to multi-property lead optimization across protein modalities (VHHs, scFvs, IgGs, peptides, enzymes, CRISPR systems, vaccines). We show it is 4-7x faster than rational design, as measured by the number of wet lab rounds required. We provide in-vitro validation across all of the above modalities, typically optimizing multiple properties simultaneously (single and polyspecific binding down to picomolar, activity, thermostability, ...). Technically, CRADLE-1 starts with pre-trained foundation protein language models (PLMs), which are fine-tuned in unsupervised fashion on evolutionary neighborhoods, in supervised fashion using lab-in-the-loop data, and then deployed in a multi-model workflow. Of additional interest, we find that (a) the end-to-end system may be run in automated fashion; (b) wet lab data may be consumed in 'black box' fashion without knowledge of the underlying biochemical mechanisms; (c) structural data may largely be superseded by sequence-function pairs.",
+      "authors": [
+        "Bixby, E.",
+        "Brunner, G.",
+        "Danciu, D.",
+        "Dela Rosa, R.",
+        "Deutschmann, N.",
+        "Ferragu, C.",
+        "Geiger, F.",
+        "Holberg, C.",
+        "Kidger, P.",
+        "Lindoulsi, A.",
+        "Lutz, N.",
+        "McColgan, T.",
+        "Milius, S.",
+        "Shah, J.",
+        "Vandeloo, M.",
+        "Vidas, P.",
+        "Ziegler, J. D.",
+        "van Rossum, H.",
+        "van der Vorm, D.",
+        "Baldi, N.",
+        "IJSpeert, C.",
+        "Monza, E.",
+        "Schriek, A."
+      ],
+      "doi": "10.64898/2026.03.06.710001",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Human airway model reveals host-pathogen co-infection dynamics of Staphylococcus aureus and Pseudomonas aeruginosa",
+      "source": "bioRxiv",
+      "date": "2026-03-08T00:00:00+00:00",
+      "url": "https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.08.710358v1",
+      "abstract": "Polymicrobial airway infections, particularly those involving Staphylococcus aureus and Pseudomonas aeruginosa, are a hallmark of severe chronic respiratory diseases such as those in people with cystic fibrosis (pwCF). Yet, the mechanisms enabling their co-existence remain poorly understood. Using a human air-liquid interface (ALI) airway model, we dissected host-pathogen and interspecies dynamics during mono- and co-infections with clinically relevant bacterial pathogens. We found that S. aureus strains exhibited distinct colonization patterns and virulence profiles, with the deletion of the agr quorum sensing locus leading to attenuated epithelial disruption. Additionally, the H1 component of P. aeruginosa's type VI secretion system was critical for competitive exclusion of S. aureus, its deletion allowing for occasional co-localization of both species. Importantly, co-infection timing strongly influenced pathogen dominance and epithelial damage, with pre-colonization of ALI models with S. aureus prior to P. aeruginosa infection, mimicking clinical observations in CF. Our results reveal that strain-specific traits and secretion systems influence microbial competition and persistence in the airway and underscore the importance of physiologically relevant models for studying chronic infections. Moreover, they provide the foundation for exploring therapeutic strategies for polymicrobial infections that account for the colonization sequence and microbial evolution for treatment design.",
+      "authors": [
+        "Madsen, K.",
+        "Lolle, S.",
+        "Bojer, M. S.",
+        "Ingmer, H.",
+        "Johansen, H. K.",
+        "Molin, S.",
+        "La Rosa, R."
+      ],
+      "doi": "10.64898/2026.03.08.710358",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Presenilin 1 (PS1) located at mitochondrial inner membrane regulates mitochondrial cristae junction proteins arrangement and cristae formation in HEK293 cells",
+      "source": "bioRxiv",
+      "date": "2026-03-08T00:00:00+00:00",
+      "url": "https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709976v1",
+      "abstract": "Abstract Presenilin 1 (PS1), a key pathogenic factor in familial Alzheimer's disease, is implicated in regulation of mitochondrial functions, yet its precise sub-mitochondrial localization and underlying mechanisms remain poorly understood. In this study, we generated PS1 knockout (PS1 KO) cell lines to investigate the role of PS1 in mitochondrial structure and function. Our results demonstrated that PS1 is directly localized to the mitochondrial inner membrane. PS1 deficiency led to reduced ATP production, impaired mitochondrial respiration capacity, decreased mitochondrial membrane potential, disrupted Ca2+ homeostasis, and elevated reactive oxygen species (ROS) accumulation. Moreover, loss of PS1 caused abnormal mitochondrial cristae structure. Further analysis revealed that PS1 interacts with mitochondrial inner membrane proteins. Its absence promotes ATAD3A oligomerization and disrupts its arrangement at mitochondrial cristae junctions, leading to expansion of the mitochondria-associated membrane (MAM) and instability of mitochondrial DNA (mtDNA). Our findings demonstrate that PS1 acts as a central regulator of mitochondrial cristae morphogenesis by modulating protein interaction networks at cristae junctions, thereby illuminating fundamental molecular mechanisms contributing to mitochondrial dysfunctions in Alzheimer's disease. Key words: Presenilin 1, Mitochondrial dysfunction, ATAD3A, Mitochondrial DNA",
+      "authors": [
+        "You, P.",
+        "Zhu, P.",
+        "Yu, H.",
+        "Wang, L.",
+        "Su, B."
+      ],
+      "doi": "10.64898/2026.03.05.709976",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
       "title": "Escalating burden and mortality of carbapenem-resistant Klebsiella pneumoniae species complex infections in Bangladeshi infants",
       "source": "medRxiv",
       "date": "2026-03-06T00:00:00+00:00",
@@ -1252,7 +1355,7 @@
     {
       "source": "bioRxiv",
       "success": true,
-      "count": 28,
+      "count": 33,
       "error": ""
     },
     {

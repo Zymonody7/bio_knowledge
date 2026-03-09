@@ -2,13 +2,13 @@
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 57 篇新论文。
+今日共整理 62 篇新论文。
 
 ## 抓取状态
 
 - arXiv：成功，命中 1 篇
 - PubMed：成功，命中 17 篇
-- bioRxiv：成功，命中 28 篇
+- bioRxiv：成功，命中 33 篇
 - medRxiv：成功，命中 11 篇
 
 ## 最值得看
@@ -161,10 +161,28 @@
   摘要：Changes in nutrient availability can rapidly alter microbial processes in natural environments, with implications in biogeochemical cycling and pathogen emergence. Short-term, functional responses of microbial communitie...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [An Improved Dataset for Predicting Mammal Infecting Viruses from Genetic Sequence Information](https://www.bioRxiv.org/content/10.1101/10.1101/2025.09.17.676952v3)
+  来源：bioRxiv | 日期：2026-03-08 | 相关度：1.9 | 新颖度：5.5
+  匹配主题：sequencing_bioinformatics
+  摘要：There have been several attempts to develop machine learning (ML) models to identify human infecting viruses from their genomic sequences, with varying degrees of success. Direct comparison between models is problematic,...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [Comprehensive Mapping of Immune Nanobody Repertoires with NanoMAP](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709882v1)
   来源：bioRxiv | 日期：2026-03-07 | 相关度：1.9 | 新颖度：0.0
   匹配主题：sequencing_bioinformatics
   摘要：Nanobodies have recently emerged as alternatives to classical antibodies in therapeutic and diagnostic contexts from parasites to bacteria to viruses, promising improved stability and simpler manufacturing. To improve na...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Multi-Modal Protein Representation Learning with CLASP](https://www.bioRxiv.org/content/10.1101/10.1101/2025.08.10.669533v2)
+  来源：bioRxiv | 日期：2026-03-08 | 相关度：1.1 | 新颖度：5.0
+  匹配主题：foundation_model_agent
+  摘要：Effectively integrating data modalities pertaining to proteins' amino acid sequences, three-dimensional structures,and curated biological descriptions can lead to informative representations capturing different views of ...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [What comes after de novo? Automated lead optimization of proteins with CRADLE-1](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.06.710001v1)
+  来源：bioRxiv | 日期：2026-03-08 | 相关度：1.1 | 新颖度：5.0
+  匹配主题：foundation_model_agent
+  摘要：Lead optimization remains the longest and most expensive step in pre-clinical drug discovery, typically consuming 12-36 months whilst costing $5M-$15M per candidate. We introduce 'CRADLE-1', an automated framework for pr...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Discovery of a phenazine thiol conjugase from sparse data using genome-informed machine learning](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709892v1)
@@ -213,6 +231,12 @@
   来源：medRxiv | 日期：2026-03-07 | 相关度：1.1 | 新颖度：0.0
   匹配主题：foundation_model_agent
   摘要：Objective: To reliably estimate individual-specific resting-state cortical networks and determine if language network topography can predict task-based language dominance in drug-resistant epilepsy. Methods: We utilised ...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Presenilin 1 (PS1) located at mitochondrial inner membrane regulates mitochondrial cristae junction proteins arrangement and cristae formation in HEK293 cells](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.709976v1)
+  来源：bioRxiv | 日期：2026-03-08 | 相关度：1.0 | 新颖度：5.0
+  匹配主题：pathogenomics
+  摘要：Abstract Presenilin 1 (PS1), a key pathogenic factor in familial Alzheimer's disease, is implicated in regulation of mitochondrial functions, yet its precise sub-mitochondrial localization and underlying mechanisms remai...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Tools for genetic manipulation of the endemic fungal pathogen, Emergomyces africanus, and the application of a fluorescent reporter strain in infection models](https://www.bioRxiv.org/content/10.1101/10.1101/2025.11.14.688410v2)
@@ -282,7 +306,7 @@
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Risk mapping novel respiratory pathogens with large-scale dynamic contact networks](http://arxiv.org/abs/2603.06235v1)
-  来源：arXiv | 日期：2026-03-06 | 相关度：0.0 | 新颖度：5.0
+  来源：arXiv | 日期：2026-03-06 | 相关度：0.0 | 新颖度：0.0
   匹配主题：未命中具体主题
   摘要：Background: Human-to-human transmission of pathogens fundamentally depends on interactions among infectious and susceptible individuals, yet traditional population-scale models often overlook the stochastic, behaviour-dr...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
@@ -305,6 +329,12 @@
   来源：PubMed | 日期：2026-03-06 | 相关度：3.0 | 新颖度：0.0
   匹配主题：pathogenomics
   摘要：Cancer remains a formidable global health challenge, with mortality projected to reach 16.3 million annually by 2040. Despite diagnostic and therapeutic advances, the escalating cancer burden necessitates innovative trea...
+  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Human airway model reveals host-pathogen co-infection dynamics of Staphylococcus aureus and Pseudomonas aeruginosa](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.08.710358v1)
+  来源：bioRxiv | 日期：2026-03-08 | 相关度：2.1 | 新颖度：5.0
+  匹配主题：pathogenomics, foundation_model_agent
+  摘要：Polymicrobial airway infections, particularly those involving Staphylococcus aureus and Pseudomonas aeruginosa, are a hallmark of severe chronic respiratory diseases such as those in people with cystic fibrosis (pwCF). Y...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [The Receptor Kinase MEE39/ATHE Mediates Cell Wall Integrity Surveillance During Root Vascular Pathogen Infection](https://www.bioRxiv.org/content/10.1101/10.64898/2026.03.05.708959v1)
