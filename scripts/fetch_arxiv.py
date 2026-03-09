@@ -48,7 +48,7 @@ def significant_tokens(keyword: str) -> list[str]:
     return tokens[:4]
 
 
-def build_query(keywords: list[str], limit: int = 12) -> str:
+def build_query(keywords: list[str], limit: int = 18) -> str:
     terms = []
     for keyword in keywords[:limit]:
         tokens = significant_tokens(keyword)

@@ -49,7 +49,7 @@ def significant_tokens(keyword: str) -> list[str]:
     return tokens[:4]
 
 
-def build_pubmed_term(keywords: list[str], limit: int = 12) -> str:
+def build_pubmed_term(keywords: list[str], limit: int = 18) -> str:
     clauses = []
     for keyword in keywords[:limit]:
         tokens = significant_tokens(keyword)

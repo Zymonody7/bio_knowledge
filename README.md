@@ -171,6 +171,15 @@ PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python sc
 
 源端抓取参数在 `config/sources.yaml`。其中 bioRxiv / medRxiv 默认限制分页深度，避免自动化因为近 24 小时 preprint 量过大而跑得过慢；如果你确认需要更全覆盖，可以提高 `max_pages`。
 
+当前默认配置已经偏向 GitHub Actions 的稳定命中：
+
+- `days_back=3`
+- `arXiv.max_results=200`
+- `PubMed.retmax=200`
+- `bioRxiv / medRxiv.max_pages=12`
+
+这样比只看最近 24 小时更不容易出现“工作流成功但 0 条结果”。
+
 ## 排序逻辑
 
 - 对 pathogenomics、unknown pathogen discovery、pathogen foundation model、clinical metagenomics、metagenomics 等强相关主题给予更高相关度

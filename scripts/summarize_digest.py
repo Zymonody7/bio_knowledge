@@ -100,6 +100,9 @@ def main() -> int:
 
     today = datetime.now().strftime("%Y-%m-%d")
     fetch_statuses = load_fetch_statuses()
+    success_statuses = [status for status in fetch_statuses if status.get("success")]
+    failed_statuses = [status for status in fetch_statuses if not status.get("success")]
+    total_hits = sum(int(status.get("count", 0) or 0) for status in success_statuses)
     lines = [
         f"# 每日论文监控日报 ({today})",
         "",
@@ -108,6 +111,27 @@ def main() -> int:
         f"今日共整理 {len(rows)} 篇新论文。",
         "",
     ]
+
+    if fetch_statuses and not rows and success_statuses and total_hits == 0:
+        lines.extend(
+            [
+                "## 今日说明",
+                "",
+                "本次抓取成功执行，但在当前检索窗口内没有命中新增候选论文。",
+                "这表示这次是“成功抓取但结果为 0”，不是网络失败；知识库与站点仍会基于历史累计论文重建。",
+                "",
+            ]
+        )
+
+    if fetch_statuses and not rows and failed_statuses and not success_statuses:
+        lines.extend(
+            [
+                "## 今日说明",
+                "",
+                "本次抓取阶段全部失败，当前结果主要来自历史缓存或累计知识库，不应解读为当天没有新论文。",
+                "",
+            ]
+        )
 
     if fetch_statuses:
         lines.append("## 抓取状态")
