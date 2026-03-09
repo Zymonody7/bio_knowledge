@@ -48,7 +48,7 @@ topic_groups:
       - variant calling pathogen
       - pathogen classification model
   - name: foundation_model_agent
-    priority: 1.1
+    priority: 1.35
     keywords:
       - pathogen foundation model
       - biological foundation model pathogen
@@ -74,7 +74,7 @@ topic_groups:
       - rag clinical microbiology
       - genomics agent workflow
   - name: data_fair_training
-    priority: 0.7
+    priority: 0.9
     keywords:
       - fair pathogen dataset
       - fair biomedical datasets
@@ -148,3 +148,75 @@ category_keywords:
     - treatment
     - biomarker
     - microbiology
+
+query_groups:
+  - foundation_model_agent
+  - data_fair_training
+
+query_keywords:
+  - llm bioinformatics
+  - llm genomics
+  - protein foundation model
+  - gene language model
+  - biomedical ai agent
+  - multi-agent biomedical research
+  - retrieval augmented generation biomedical
+  - biomedical benchmark llm
+  - genomics benchmark ai
+  - clinical benchmark infectious disease ai
+  - pathogen classification model
+  - protein language model pathogen
+  - llm for pathogen detection
+  - llm for pathogen genomics
+  - genomics agent workflow
+
+ranking:
+  ai_anchor_terms:
+    - ai
+    - llm
+    - language model
+    - foundation model
+    - transformer
+    - generative
+    - multimodal
+    - multi-agent
+    - ai agent
+    - autonomous agent
+    - copilot
+    - rag
+    - retrieval augmented generation
+    - large language model
+    - fine-tuning
+    - finetuning
+  domain_anchor_terms:
+    - pathogen
+    - infection
+    - infectious disease
+    - microbiology
+    - clinical
+    - genomics
+    - metagenomics
+    - transcriptomics
+    - proteomics
+    - biomarker
+    - gene
+    - protein
+  negative_anchor_terms:
+    - plastic
+    - biodegradation
+    - agricultural
+    - agriculture
+    - crop
+    - potato
+    - plant
+    - rhizosphere
+    - soil
+    - cycling biomechanics
+    - musculoskeletal
+    - retinal
+    - retina
+  keep_without_ai_categories:
+    []
+  keep_without_ai_groups:
+    - foundation_model_agent
+    - data_fair_training

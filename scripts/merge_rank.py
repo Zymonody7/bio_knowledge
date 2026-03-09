@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -62,12 +63,44 @@ def significant_tokens(keyword: str) -> list[str]:
     return tokens[:4]
 
 
-def keyword_matches(haystack: str, keyword: str) -> bool:
+AI_TOKENS = {
+    "ai",
+    "llm",
+    "rag",
+    "transformer",
+    "multimodal",
+    "copilot",
+    "generative",
+    "language",
+}
+
+
+def keyword_matches(haystack: str, keyword: str, group_name: str = "") -> bool:
     lowered = keyword.lower()
     if lowered in haystack:
         return True
     tokens = significant_tokens(keyword)
-    return len(tokens) >= 2 and all(token in haystack for token in tokens)
+    if len(tokens) < 2:
+        return False
+    if group_name in {"foundation_model_agent", "data_fair_training"}:
+        if not any(token in AI_TOKENS for token in tokens):
+            return False
+        required = [token for token in tokens if token in AI_TOKENS][:2]
+        optional = [token for token in tokens if token not in AI_TOKENS][:2]
+        return all(token in haystack for token in required) and any(token in haystack for token in optional or required)
+    return all(token in haystack for token in tokens)
+
+
+def count_term_hits(haystack: str, terms: list[str]) -> int:
+    hits = 0
+    for term in terms:
+        normalized = (term or "").strip().lower()
+        if not normalized:
+            continue
+        pattern = r"\b" + re.escape(normalized).replace(r"\ ", r"\s+") + r"\b"
+        if re.search(pattern, haystack):
+            hits += 1
+    return hits
 
 
 def canonical_id(paper: dict) -> str:
@@ -93,7 +126,7 @@ def match_topics(paper: dict, topics: dict) -> tuple[list[str], float]:
     for group in topics.get("topic_groups", []):
         group_matched = False
         for keyword in group.get("keywords", []):
-            if keyword_matches(haystack, keyword):
+            if keyword_matches(haystack, keyword, group.get("name", "")):
                 group_matched = True
                 score += group.get("priority", 0.5)
         if group_matched:
@@ -101,12 +134,53 @@ def match_topics(paper: dict, topics: dict) -> tuple[list[str], float]:
     return matched, min(score, 10.0)
 
 
+def collect_focus_phrases(topics: dict) -> list[str]:
+    phrases = []
+    seen = set()
+    topic_groups = {group.get("name"): group for group in topics.get("topic_groups", [])}
+    for name in topics.get("query_groups", []):
+        group = topic_groups.get(name, {})
+        for keyword in group.get("keywords", []):
+            lowered = keyword.strip().lower()
+            if lowered and lowered not in seen:
+                seen.add(lowered)
+                phrases.append(lowered)
+    for keyword in topics.get("query_keywords", []):
+        lowered = keyword.strip().lower()
+        if lowered and lowered not in seen:
+            seen.add(lowered)
+            phrases.append(lowered)
+    return phrases
+
+
+def compute_focus_scores(paper: dict, topics: dict) -> tuple[int, int, int, int]:
+    haystack = normalize_text(" ".join([paper.get("title", ""), paper.get("abstract", "")]))
+    ranking = topics.get("ranking", {})
+    ai_score = count_term_hits(haystack, ranking.get("ai_anchor_terms", []))
+    domain_score = count_term_hits(haystack, ranking.get("domain_anchor_terms", []))
+    exact_focus_score = count_term_hits(haystack, collect_focus_phrases(topics))
+    negative_score = count_term_hits(haystack, ranking.get("negative_anchor_terms", []))
+    return ai_score, domain_score, exact_focus_score, negative_score
+
+
+def should_keep_paper(category: str, matched_topics: list[str], ai_score: int, exact_focus_score: int, negative_score: int, topics: dict) -> bool:
+    ranking = topics.get("ranking", {})
+    if negative_score > 0:
+        return False
+    if ai_score > 0:
+        return True
+    if exact_focus_score > 0:
+        return True
+    keep_categories = set(ranking.get("keep_without_ai_categories", []))
+    return category in keep_categories
+
+
 def infer_category(paper: dict, topics: dict) -> str:
     haystack = normalize_text(" ".join([paper.get("title", ""), paper.get("abstract", "")]))
     best_category = "general"
     best_hits = 0
     for category, keywords in topics.get("category_keywords", {}).items():
-        hits = sum(1 for keyword in keywords if keyword.lower() in haystack)
+        hits = count_term_hits(haystack, keywords)
         if hits > best_hits:
             best_hits = hits
             best_category = category
@@ -201,12 +275,24 @@ def main() -> int:
     for paper in raw_papers:
         matched_topics, relevance = match_topics(paper, topics)
         category = infer_category(paper, topics)
+        ai_score, domain_score, exact_focus_score, negative_score = compute_focus_scores(paper, topics)
+        if not should_keep_paper(category, matched_topics, ai_score, exact_focus_score, negative_score, topics):
+            continue
+        if ai_score == 0:
+            relevance *= 0.4
+        else:
+            relevance += min(2.5, ai_score * 0.7)
+        relevance += min(2.0, exact_focus_score * 0.9)
+        if ai_score > 0 and domain_score > 0:
+            relevance += 1.0
         novelty = compute_novelty(paper, set(seen))
+        if ai_score > 0:
+            novelty = round(min(10.0, novelty + min(1.2, ai_score * 0.25)), 2)
         ranked.append(
             {
                 **paper,
                 "matched_topics": matched_topics,
-                "relevance_score": round(relevance, 2),
+                "relevance_score": round(min(relevance, 10.0), 2),
                 "novelty_score": novelty,
                 "why_it_matters": generate_why_it_matters(paper, matched_topics, category),
                 "category": category,

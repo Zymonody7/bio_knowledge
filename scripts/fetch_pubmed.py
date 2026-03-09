@@ -39,6 +39,25 @@ def collect_keywords(topics: dict) -> list[str]:
     return keywords
 
 
+def collect_query_keywords(topics: dict) -> list[str]:
+    topic_groups = {group.get("name"): group for group in topics.get("topic_groups", [])}
+    selected = []
+    seen = set()
+    for name in topics.get("query_groups", []):
+        group = topic_groups.get(name, {})
+        for keyword in group.get("keywords", []):
+            normalized = keyword.strip().lower()
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                selected.append(keyword.strip())
+    for keyword in topics.get("query_keywords", []):
+        normalized = keyword.strip().lower()
+        if normalized and normalized not in seen:
+            seen.add(normalized)
+            selected.append(keyword.strip())
+    return selected or collect_keywords(topics)
+
+
 def significant_tokens(keyword: str) -> list[str]:
     stopwords = {"for", "and", "the", "of", "in", "to", "ai"}
     tokens = []
@@ -83,6 +102,10 @@ def keyword_matches(text: str, keywords: list[str]) -> bool:
         if len(tokens) >= 2 and all(token in haystack for token in tokens):
             return True
     return False
+
+
+def filter_keywords_for_preprints(topics: dict) -> list[str]:
+    return collect_query_keywords(topics)
 
 
 def parse_pub_date(article: ET.Element) -> str:
@@ -265,6 +288,8 @@ def main() -> int:
     topics = load_yaml(Path(args.topics))
     sources = load_yaml(Path(args.sources))["sources"]
     keywords = collect_keywords(topics)
+    query_keywords = collect_query_keywords(topics)
+    preprint_keywords = filter_keywords_for_preprints(topics)
     session = create_session()
     output_path = Path(args.output)
 
@@ -278,12 +303,12 @@ def main() -> int:
     try:
         pubmed_papers = fetch_pubmed(
             session,
-            pubmed_config["esearch_url"],
-            pubmed_config["efetch_url"],
-            query,
-            pubmed_config.get("days_back", 1),
-            pubmed_config.get("retmax", 100),
-        )
+        pubmed_config["esearch_url"],
+        pubmed_config["efetch_url"],
+        build_pubmed_term(query_keywords),
+        pubmed_config.get("days_back", 1),
+        pubmed_config.get("retmax", 100),
+    )
         papers.extend(pubmed_papers)
         source_statuses.append(
             {"source": "PubMed", "success": True, "count": len(pubmed_papers), "error": ""}
@@ -302,7 +327,7 @@ def main() -> int:
                 session,
                 config["api_url"],
                 label,
-                keywords,
+                preprint_keywords,
                 config.get("days_back", 2),
                 config.get("max_pages", 5),
             )

@@ -39,6 +39,25 @@ def collect_keywords(topics: dict) -> list[str]:
     return keywords
 
 
+def collect_query_keywords(topics: dict) -> list[str]:
+    topic_groups = {group.get("name"): group for group in topics.get("topic_groups", [])}
+    selected = []
+    seen = set()
+    for name in topics.get("query_groups", []):
+        group = topic_groups.get(name, {})
+        for keyword in group.get("keywords", []):
+            normalized = keyword.strip().lower()
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                selected.append(keyword.strip())
+    for keyword in topics.get("query_keywords", []):
+        normalized = keyword.strip().lower()
+        if normalized and normalized not in seen:
+            seen.add(normalized)
+            selected.append(keyword.strip())
+    return selected or collect_keywords(topics)
+
+
 def significant_tokens(keyword: str) -> list[str]:
     stopwords = {"for", "and", "the", "of", "in", "to", "ai"}
     tokens = []
@@ -134,7 +153,7 @@ def main() -> int:
     topics = load_yaml(Path(args.topics))
     sources = load_yaml(Path(args.sources))
     config = sources["sources"]["arxiv"]
-    keywords = collect_keywords(topics)
+    keywords = collect_query_keywords(topics)
     keyword_chunks = chunk_keywords(keywords)
     window_start = datetime.now(timezone.utc) - timedelta(days=config.get("days_back", 1))
     session = create_session()
