@@ -1,10 +1,10 @@
 # 知识库统计
 
-更新时间：2026-03-09 02:34:20
+更新时间：2026-03-09 02:47:14
 
-- 累计论文：56
-- 最近一次新增：56
-- 来源数：3
+- 累计论文：57
+- 最近一次新增：57
+- 来源数：4
 - 主题数：5
 
 ## 来源统计
@@ -12,10 +12,11 @@
 - bioRxiv: 28
 - PubMed: 17
 - medRxiv: 11
+- arXiv: 1
 
 ## 类别统计
 
-- methods: 35
+- methods: 36
 - clinical_application: 14
 - dataset: 4
 - foundation_model: 2
@@ -31,7 +32,7 @@
 
 ## 索引键
 
-- by_source: 3
+- by_source: 4
 - by_category: 5
 - by_topic: 5
 - by_year: 1
