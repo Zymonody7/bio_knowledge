@@ -39,10 +39,12 @@
 - `date`
 - `url`
 - `abstract`
+- `abstract_zh`
 - `matched_topics`
 - `relevance_score`
 - `novelty_score`
 - `why_it_matters`
+- `analysis_zh`
 
 `merge_rank.py` 额外补充 `category`，用于日报里的方法类、数据集类、foundation model 类、临床应用类分组。
 
@@ -61,6 +63,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/python scripts/fetch_arxiv.py
 .venv/bin/python scripts/fetch_pubmed.py
 .venv/bin/python scripts/merge_rank.py
+.venv/bin/python scripts/enrich_papers.py
 .venv/bin/python scripts/summarize_digest.py
 .venv/bin/python scripts/build_knowledge_base.py
 .venv/bin/python scripts/build_embeddings.py
@@ -211,6 +214,7 @@ PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python sc
 - `scripts/search_kb.py "<query>"` 会做向量召回，返回最相关论文
 - `scripts/search_kb.py "<query>" --rag` 会在召回结果上调用外部 LLM 生成中文回答
 - 配置文件在 `config/rag.yaml`
+- `scripts/enrich_papers.py` 会调用 OpenAI-compatible chat provider，为当天论文补充 `abstract_zh` 和 `analysis_zh`
 
 默认配置下：
 
@@ -234,7 +238,7 @@ PROXY_URL=http://127.0.0.1:7897 NO_PROXY=127.0.0.1,localhost .venv/bin/python sc
 - 页面支持：
   - 左侧分类导航、筛选和论文列表
   - 左侧按 `source / topic / year` 的导航树
-  - 右侧查看论文详情、原文入口和详细 AI 解读
+  - 右侧查看论文详情、原文入口、中文摘要和详细 AI 解读
   - 本地收藏与研究备注
   - 查看每日摘要
   - 基于本地向量索引和关键词召回进行提问

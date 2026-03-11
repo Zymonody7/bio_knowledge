@@ -46,6 +46,7 @@ def main() -> int:
 
     for step in (
         "merge_rank.py",
+        "enrich_papers.py",
         "summarize_digest.py",
         "build_knowledge_base.py",
         "build_embeddings.py",

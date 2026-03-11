@@ -89,7 +89,9 @@ def paper_to_text(paper: dict) -> str:
         f"topics: {' '.join(paper.get('matched_topics', []))}",
         f"category: {paper.get('category', '')}",
         f"why: {paper.get('why_it_matters', '')}",
+        f"abstract_zh: {paper.get('abstract_zh', '')}",
         f"abstract: {paper.get('abstract', '')}",
+        f"analysis_zh: {paper.get('analysis_zh', '')}",
     ]
     return "\n".join(sections)
 

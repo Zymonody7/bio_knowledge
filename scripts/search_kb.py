@@ -87,8 +87,10 @@ def format_context(hit: dict, paper_lookup: dict[str, dict]) -> str:
             f"日期: {paper.get('date', '')[:10]}",
             f"主题: {topics}",
             f"分类: {paper.get('category', '')}",
+            f"中文摘要: {paper.get('abstract_zh', '')}",
             f"摘要: {paper.get('abstract', '')}",
             f"为什么重要: {paper.get('why_it_matters', '')}",
+            f"中文解读: {paper.get('analysis_zh', '')}",
             f"链接: {paper.get('url', '')}",
         ]
     )

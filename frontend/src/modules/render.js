@@ -114,6 +114,7 @@ export function renderDetail() {
     dom.detailLink.href = "#";
     dom.detailTags.innerHTML = "";
     dom.detailWhy.innerHTML = markdownToHtml("可以放宽左侧过滤条件，或者直接在右下角提问知识库。");
+    dom.detailAbstractZh.innerHTML = "";
     dom.detailAbstract.innerHTML = "";
     dom.notesInput.value = "";
     dom.favoriteToggle.textContent = "收藏";
@@ -137,5 +138,6 @@ export function renderDetail() {
   dom.favoriteToggle.textContent = state.favorites[paper.paper_id] ? "取消收藏" : "收藏";
   dom.notesInput.value = state.notes[paper.paper_id] || "";
   dom.detailWhy.innerHTML = markdownToHtml(detailAnalysisMarkdown(paper, state.notes));
-  dom.detailAbstract.innerHTML = markdownToHtml(paper.abstract || "暂无摘要。");
+  dom.detailAbstractZh.innerHTML = markdownToHtml(paper.abstract_zh || "当前还没有生成中文摘要。");
+  dom.detailAbstract.innerHTML = markdownToHtml(paper.abstract || "暂无原始摘要。");
 }

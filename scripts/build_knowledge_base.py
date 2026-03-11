@@ -88,9 +88,11 @@ def stable_payload_hash(record: dict) -> str:
     payload = {
         "title": record.get("title", ""),
         "abstract": record.get("abstract", ""),
+        "abstract_zh": record.get("abstract_zh", ""),
         "matched_topics": record.get("matched_topics", []),
         "category": record.get("category", ""),
         "why_it_matters": record.get("why_it_matters", ""),
+        "analysis_zh": record.get("analysis_zh", ""),
         "source": record.get("source", ""),
         "date": record.get("date", ""),
         "url": record.get("url", ""),
@@ -111,6 +113,7 @@ def build_record(row: dict, paper_id: str, now: str) -> dict:
         "year": date_value[:4] if len(date_value) >= 4 else "",
         "url": normalize_preprint_url(row.get("url", "")),
         "abstract": abstract,
+        "abstract_zh": row.get("abstract_zh", ""),
         "abstract_short": abstract[:400],
         "matched_topics": topics,
         "topic_count": len(topics),
@@ -118,6 +121,7 @@ def build_record(row: dict, paper_id: str, now: str) -> dict:
         "novelty_score": parse_float(row.get("novelty_score")),
         "importance_score": round(parse_float(row.get("relevance_score")) * 0.65 + parse_float(row.get("novelty_score")) * 0.35, 3),
         "why_it_matters": row.get("why_it_matters", ""),
+        "analysis_zh": row.get("analysis_zh", ""),
         "category": row.get("category", "general"),
         "doi": normalize_doi(row.get("doi", "")),
         "arxiv_id": row.get("arxiv_id", ""),
@@ -145,6 +149,7 @@ def merge_record(existing: dict, incoming: dict, now: str) -> dict:
     merged["novelty_score"] = incoming.get("novelty_score", existing.get("novelty_score", 0))
     merged["importance_score"] = incoming.get("importance_score", existing.get("importance_score", 0))
     merged["why_it_matters"] = incoming.get("why_it_matters") or existing.get("why_it_matters", "")
+    merged["analysis_zh"] = incoming.get("analysis_zh") or existing.get("analysis_zh", "")
     merged["category"] = incoming.get("category") or existing.get("category", "general")
     merged["doi"] = normalize_doi(incoming.get("doi") or existing.get("doi", ""))
     merged["arxiv_id"] = incoming.get("arxiv_id") or existing.get("arxiv_id", "")
@@ -157,9 +162,11 @@ def merge_record(existing: dict, incoming: dict, now: str) -> dict:
 
     if len(incoming.get("abstract", "")) >= len(existing.get("abstract", "")):
         merged["abstract"] = incoming.get("abstract", "")
+        merged["abstract_zh"] = incoming.get("abstract_zh") or existing.get("abstract_zh", "")
         merged["abstract_short"] = incoming.get("abstract_short", incoming.get("abstract", "")[:400])
     else:
         merged["abstract"] = existing.get("abstract", "")
+        merged["abstract_zh"] = existing.get("abstract_zh", "") or incoming.get("abstract_zh", "")
         merged["abstract_short"] = existing.get("abstract_short", existing.get("abstract", "")[:400])
 
     merged["content_hash"] = stable_payload_hash(merged)
@@ -171,6 +178,8 @@ def normalize_existing_record(record: dict) -> dict:
     normalized["doi"] = normalize_doi(record.get("doi", ""))
     normalized["url"] = normalize_preprint_url(record.get("url", ""))
     normalized["paper_id"] = canonical_id(normalized)
+    normalized["abstract_zh"] = record.get("abstract_zh", "")
+    normalized["analysis_zh"] = record.get("analysis_zh", "")
     normalized["content_hash"] = stable_payload_hash(normalized)
     return normalized
 
@@ -284,6 +293,8 @@ def render_markdown(records: list[dict], summary: dict) -> str:
             lines.append(f"  来源：{row['source']} | 日期：{row['date'][:10]} | 主题：{topics}")
             lines.append(f"  相关度：{row['relevance_score']} | 新颖度：{row['novelty_score']} | 综合：{row['importance_score']}")
             lines.append(f"  说明：{row['why_it_matters']}")
+            if row.get("abstract_zh"):
+                lines.append(f"  中文摘要：{row['abstract_zh'][:180]}{'...' if len(row['abstract_zh']) > 180 else ''}")
             lines.append("")
 
     lines.append("## 按主题索引")

@@ -8,6 +8,7 @@
 .group-card, .paper-list-card, .tree-card, .overview-card { border-radius: 22px; padding: 16px; }
 .detail-card, .chat-card { border-radius: 28px; padding: 24px; }
 .info-card, .notes-card { border-radius: 22px; padding: 18px; background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(244, 237, 219, 0.92)); }
+.info-card-primary { grid-column: 1 / -1; }
 .metric-card { border-radius: 18px; padding: 14px; background: var(--panel-2); }
 .llm-settings { margin-top: 16px; border-radius: 20px; padding: 14px 16px; background: rgba(255, 250, 237, 0.8); border: 1px solid var(--line); }
 .answer-card { margin-top: 16px; padding: 18px 18px 6px; border-radius: 22px; background: var(--panel-2); }

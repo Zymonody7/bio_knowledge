@@ -1,4 +1,11 @@
 export function detailAnalysisMarkdown(paper, notes) {
+  if (paper.analysis_zh) {
+    return [
+      paper.analysis_zh.trim(),
+      notes[paper.paper_id] ? `\n## 你的备注\n${notes[paper.paper_id]}` : "",
+    ].filter(Boolean).join("\n");
+  }
+
   const intersections = [];
   if (/protein|proteomics|nanobody/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("protein / proteomics");
   if (/gene|genomic|genomics|transcript/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("gene / genomics");
@@ -121,7 +128,7 @@ export function buildDetailedAnswerMarkdown(query, hits, selectedPaper) {
 
 export function buildContextForRemote(query, hits, selectedPaper) {
   const selectedBlock = selectedPaper
-    ? `当前焦点论文：\n标题：${selectedPaper.title}\n来源：${selectedPaper.source}\n分类：${selectedPaper.category}\n主题：${selectedPaper.matched_topics.join(", ")}\n摘要：${selectedPaper.abstract}\n为什么重要：${selectedPaper.why_it_matters}`
+    ? `当前焦点论文：\n标题：${selectedPaper.title}\n来源：${selectedPaper.source}\n分类：${selectedPaper.category}\n主题：${selectedPaper.matched_topics.join(", ")}\n中文摘要：${selectedPaper.abstract_zh || ""}\n英文摘要：${selectedPaper.abstract}\n为什么重要：${selectedPaper.why_it_matters}\n已有中文解读：${selectedPaper.analysis_zh || ""}`
     : "当前没有焦点论文。";
 
   const hitBlocks = hits.map((hit, index) => [
@@ -131,8 +138,10 @@ export function buildContextForRemote(query, hits, selectedPaper) {
     `日期：${hit.date}`,
     `分类：${hit.category}`,
     `主题：${hit.matched_topics.join(", ")}`,
+    `中文摘要：${hit.abstract_zh || ""}`,
     `摘要：${hit.abstract}`,
     `为什么重要：${hit.why_it_matters}`,
+    `已有中文解读：${hit.analysis_zh || ""}`,
     `得分：${hit.score.toFixed(3)}`,
   ].join("\n")).join("\n\n");
 

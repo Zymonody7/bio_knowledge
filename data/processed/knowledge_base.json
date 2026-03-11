@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-03-11T04:37:16.120290+00:00",
+    "updated_at": "2026-03-11T04:55:00.333274+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
@@ -335,12 +335,14 @@
       "doi": "10.1080/22221751.2026.2637286",
       "arxiv_id": "",
       "pubmed_id": "41729089",
-      "content_hash": "3abe5972c0a035397f968a5972cf5876362a464a0a1d98cdcffce9d3e3ff5c5d",
+      "content_hash": "d8742f3659b12af1b5993e2f49dbc7cc7efb3149b96185150a2b4ad501951cb7",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1128/spectrum.03683-25": {
       "paper_id": "doi:10.1128/spectrum.03683-25",
@@ -365,12 +367,14 @@
       "doi": "10.1128/spectrum.03683-25",
       "arxiv_id": "",
       "pubmed_id": "41789911",
-      "content_hash": "29f8fff22178083d43bf4a3617c3efdd5a7dc3a8ae0238e695ad2045c67126af",
+      "content_hash": "00da7c49b50d52085c3a5193500bd1e6e2e0c0a48c9abadad39deef956b698e2",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1093/jhered/esag021": {
       "paper_id": "doi:10.1093/jhered/esag021",
@@ -395,12 +399,14 @@
       "doi": "10.1093/jhered/esag021",
       "arxiv_id": "",
       "pubmed_id": "41786621",
-      "content_hash": "561e84a634ec6c532fd66e7a87e6097ab0cef6ba45557b9df873024c11027eb0",
+      "content_hash": "0164b46aaf7232982d08695e2e3945ec81b5c01418bb5f40ab197e549e0a6eda",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26347717": {
       "paper_id": "doi:10.64898/2026.03.05.26347717",
@@ -423,12 +429,14 @@
       "doi": "10.64898/2026.03.05.26347717",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "024c9fe64088632fc3f62c88fc773fd36377e26c80f68f5640a087334b4bca48",
+      "content_hash": "f1df3e29a4a48bd3b1c809a73a8b2e67ca624a7ce006014e9a5a695c059ba804",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
-      "last_seen_at": "2026-03-11T04:37:16.120290+00:00",
-      "times_seen": 8,
+      "last_seen_at": "2026-03-11T04:55:00.333274+00:00",
+      "times_seen": 9,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "这篇论文来自 medRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Introduction: Manual data extraction from unstructured clinical notes is labor-intensive and impractical for large-scale clinical and research operations. Existing automated approaches typically require large language models, dedicated computational infrastruc...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：7.55\n- 新颖度评分：1.0\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
     },
     "doi:10.64898/2026.03.02.26346984": {
       "paper_id": "doi:10.64898/2026.03.02.26346984",
@@ -451,12 +459,14 @@
       "doi": "10.64898/2026.03.02.26346984",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "a81d153e41b0222df2ce95e1490e1691412ad88f4476a50a367f4f6d8c6910fb",
+      "content_hash": "9ccce9cb2cc01d97290f33d84c134953363566911c835e3090dcf3d15850bbe5",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1128/spectrum.02135-25": {
       "paper_id": "doi:10.1128/spectrum.02135-25",
@@ -480,12 +490,14 @@
       "doi": "10.1128/spectrum.02135-25",
       "arxiv_id": "",
       "pubmed_id": "41789915",
-      "content_hash": "ecf2a4d7a6fd604e7b4b95543b638d4fd2635df77bd1e24e40d85898e37dddce",
+      "content_hash": "55eee7048f180bb035d11158da834a011e836b8eafa9c9823b53da9d4f915588",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.04.709677": {
       "paper_id": "doi:10.64898/2026.03.04.709677",
@@ -508,12 +520,14 @@
       "doi": "10.64898/2026.03.04.709677",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "c02e230ab97f8505957c377e0cbffd4ceae78e9e29216de94e74a00b77f636d3",
+      "content_hash": "851bfa1ae50f85455c53a21aa12357d9385a177d0afcfafe3cad31aec149e7b4",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
-      "last_seen_at": "2026-03-11T04:37:16.120290+00:00",
-      "times_seen": 8,
+      "last_seen_at": "2026-03-11T04:55:00.333274+00:00",
+      "times_seen": 9,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Genomic language models (gLMs) hold great promise for deciphering biological sequences, yet their effectiveness is hindered by the limited number of experimentally verified examples available for model training, a ubiquitous bottleneck for supervised machine l...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：7.15\n- 新颖度评分：0.75\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
     },
     "doi:10.1101/2025.11.26.690900": {
       "paper_id": "doi:10.1101/2025.11.26.690900",
@@ -538,12 +552,14 @@
       "doi": "10.1101/2025.11.26.690900",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "f725b1216b3382a39305a21eb8415ea7e62f8f55dea5e8945af916a5bd8e37d9",
+      "content_hash": "83b94b6fa7d06456d95bb9bcdfef72e9826dda9798bf4bd4be81fea5405f6dce",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710075": {
       "paper_id": "doi:10.64898/2026.03.06.710075",
@@ -567,12 +583,14 @@
       "doi": "10.64898/2026.03.06.710075",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "4d80b60ce0251a38358d00a155b6eb17c7f326777753ae0f23a62e68c928ee34",
+      "content_hash": "0da8aafe18abcb151e1ce1802fba5922e2054b1cd9e738ba45597ada4f7d34db",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709906": {
       "paper_id": "doi:10.64898/2026.03.05.709906",
@@ -595,12 +613,14 @@
       "doi": "10.64898/2026.03.05.709906",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "5fc8d6402ef2da8b8b27f2ee0891e144645e3d2df26e8e5f32db26521fba895c",
+      "content_hash": "ca1654b08c0d1969e057a60772ffed6219a05df8b07fdb868d54dab2a4519fa2",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
-      "last_seen_at": "2026-03-11T04:37:16.120290+00:00",
-      "times_seen": 8,
+      "last_seen_at": "2026-03-11T04:55:00.333274+00:00",
+      "times_seen": 9,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Accurate, consistent and comprehensive metadata are essential for the reuse of functional genomics data deposited in repositories such as the Gene Expression Omnibus (GEO), however, achieving this often requires careful manual curation that is time-consuming, ...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：6.45\n- 新颖度评分：0.5\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
     },
     "doi:10.64898/2026.02.27.708524": {
       "paper_id": "doi:10.64898/2026.02.27.708524",
@@ -623,12 +643,14 @@
       "doi": "10.64898/2026.02.27.708524",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "52961ad7035b86105c9c67678271aba1bbed2044992549b8ad9c8fabd77014c7",
+      "content_hash": "c793365b06aa3e9ad77063c3269830d6a920c2380d815093adf05c3e13f0f856",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:55:10.721097+00:00",
       "times_seen": 2,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26345726": {
       "paper_id": "doi:10.64898/2026.03.05.26345726",
@@ -653,12 +675,14 @@
       "doi": "10.64898/2026.03.05.26345726",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "7b94526bf5b33c05ea5b17cd0fe222d0a651c14420afa5f17ada123cdd991026",
+      "content_hash": "db55012c5942e2db5fe68970ff682ae79135d1812acf603c353fd1abb64413ba",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710024": {
       "paper_id": "doi:10.64898/2026.03.06.710024",
@@ -681,12 +705,14 @@
       "doi": "10.64898/2026.03.06.710024",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "b0b13cfae9ac3a84b11e8dd019cac5a798524a042ebdd2f51be5df98cb756f90",
+      "content_hash": "611f00f09d5a02bb76b6c30b7ac488f75c5d90bbe5bf5b407a4eaed2a3c0dcd7",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:55:10.721097+00:00",
       "times_seen": 2,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1080/22221751.2026.2631205": {
       "paper_id": "doi:10.1080/22221751.2026.2631205",
@@ -709,12 +735,14 @@
       "doi": "10.1080/22221751.2026.2631205",
       "arxiv_id": "",
       "pubmed_id": "41790953",
-      "content_hash": "62c24a98279c219a94904bd54f588a63178bf215352e482c5b13a6fad88a25a6",
+      "content_hash": "f2329c9b15963c8307ed502e551034d9bddaaa9df68f61e800e587f34450613f",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1038/s41467-026-70233-5": {
       "paper_id": "doi:10.1038/s41467-026-70233-5",
@@ -738,12 +766,14 @@
       "doi": "10.1038/s41467-026-70233-5",
       "arxiv_id": "",
       "pubmed_id": "41786734",
-      "content_hash": "dee7ae8ef09cabe69a680f9dd66e3b69fb6381551ecc61a8237445d6fdfae480",
+      "content_hash": "eac5282642b1caa7792615b5c246a9ff35f73280165a8be980df31963de17623",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1007/s11262-026-02225-y": {
       "paper_id": "doi:10.1007/s11262-026-02225-y",
@@ -768,12 +798,14 @@
       "doi": "10.1007/s11262-026-02225-y",
       "arxiv_id": "",
       "pubmed_id": "41792395",
-      "content_hash": "b22f5045faa0ae611837a3f5d5ab9b3580f2da35adc121b46e52544722381a18",
+      "content_hash": "1b0a43e4bc712199b5917933c95cd11e02a12e7f3f0ed5e01eaae59ade9720fc",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710163": {
       "paper_id": "doi:10.64898/2026.03.06.710163",
@@ -796,12 +828,14 @@
       "doi": "10.64898/2026.03.06.710163",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "5972fef7e77866debeecd52774531b2057a2ccb6ecee9459d85ab84971dff217",
+      "content_hash": "06807bfdaa5bce67b4289fda6a26e1a5f60b5718e4c3f92dc9147f3a3f26edf7",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
-      "last_seen_at": "2026-03-11T04:37:16.120290+00:00",
-      "times_seen": 8,
+      "last_seen_at": "2026-03-11T04:55:00.333274+00:00",
+      "times_seen": 9,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Understanding natural selection can help shed light on the genetics underpinning adaptive evolution. The widespread availability of large-scale human genetic variation data has led to the development of data-driven methods for detecting signatures of selection...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：5.45\n- 新颖度评分：0.5\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
     },
     "doi:10.1016/j.intimp.2026.116454": {
       "paper_id": "doi:10.1016/j.intimp.2026.116454",
@@ -824,12 +858,14 @@
       "doi": "10.1016/j.intimp.2026.116454",
       "arxiv_id": "",
       "pubmed_id": "41795273",
-      "content_hash": "5a60b94ef7ac3f82da86133506b367ba156ea82965dbc323fa321d96ff648ef4",
+      "content_hash": "ad20c0d97dcb446024b6be7c398eb361629607e8975b6014394ec51df70f29c1",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.04.709491": {
       "paper_id": "doi:10.64898/2026.03.04.709491",
@@ -852,12 +888,14 @@
       "doi": "10.64898/2026.03.04.709491",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "830e1cff1eeb58973a315e1c512a19bf85632a943111a06dc9cf635efaaf28ef",
+      "content_hash": "ef6d11bcabd985cc5e085987e61761e08ec2b9aa33e90d4d404e2fdeb4a0f3a4",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26347684": {
       "paper_id": "doi:10.64898/2026.03.05.26347684",
@@ -880,12 +918,14 @@
       "doi": "10.64898/2026.03.05.26347684",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "35f6752a9aa2d097d50da7de558ea9d566d6dd18b5e533f87f12c4e8bd8d5c9e",
+      "content_hash": "f0694a940acbb085a2fcfb884a48d03a02d92e7dad18bd2da75516dceee405b8",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1101/2025.06.11.25329357": {
       "paper_id": "doi:10.1101/2025.06.11.25329357",
@@ -909,12 +949,14 @@
       "doi": "10.1101/2025.06.11.25329357",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "02facc766e506e67b02bebe39a83168ccf04b2c2b1e5f0eb703f2efc33eb01cc",
+      "content_hash": "d8bf55cdfedbf94a63e16040102ed6996cae4a4588da3ff27bc679ff75bb078c",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26347562": {
       "paper_id": "doi:10.64898/2026.03.05.26347562",
@@ -938,12 +980,14 @@
       "doi": "10.64898/2026.03.05.26347562",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "659cee3ccc67c38611484349416da5ee9aa70d610925cad31cd948fad5368251",
+      "content_hash": "4c072f86fa17b4208714fde6e5fda765a925a75b6b2070c2a2e7d2a790450e1c",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.708959": {
       "paper_id": "doi:10.64898/2026.03.05.708959",
@@ -967,12 +1011,14 @@
       "doi": "10.64898/2026.03.05.708959",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "8e40a60ebb63b66524e079ac8478d7ce92d877335c24ca8e2c41863b5b5aad86",
+      "content_hash": "2f6b960f0118d7ce9224eedc5a91939801cf2c1c3c3b013dbc1bd9c3961045ad",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1097/md.0000000000047908": {
       "paper_id": "doi:10.1097/md.0000000000047908",
@@ -995,12 +1041,14 @@
       "doi": "10.1097/md.0000000000047908",
       "arxiv_id": "",
       "pubmed_id": "41790697",
-      "content_hash": "f3e6cd91d9ba3e007abbfef0be0ccc0668477db198b624cf999717aceb50790c",
+      "content_hash": "6eb7b8c8479aa9cf8db7387a08ec892703ff0c1087c71f6e7061144318f9c335",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26347729": {
       "paper_id": "doi:10.64898/2026.03.05.26347729",
@@ -1023,12 +1071,14 @@
       "doi": "10.64898/2026.03.05.26347729",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "893eb2feee1e727322f72c7f2fc503afd6bb43595b5fc3b21a80f9684f352059",
+      "content_hash": "1db1a1793ef52b1db7c0c4a1f4e553f00d9e3ddbcf284557123a3a9a89601c39",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710025": {
       "paper_id": "doi:10.64898/2026.03.06.710025",
@@ -1051,12 +1101,14 @@
       "doi": "10.64898/2026.03.06.710025",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "d905e490c7ca34482bdb843c5a1f15a2e247736e7c903a515df448a2a3b527c3",
+      "content_hash": "5eb3c71c816d500d781e02a97be0ecd5c2c54d03a9a5574cc19ff7246ee8dd97",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1021/acs.jproteome.5c01165": {
       "paper_id": "doi:10.1021/acs.jproteome.5c01165",
@@ -1079,12 +1131,14 @@
       "doi": "10.1021/acs.jproteome.5c01165",
       "arxiv_id": "",
       "pubmed_id": "41698857",
-      "content_hash": "287ebe2c4f2e8a3ff24e31e7a8a3effc634213718d5f544c929f6b67662e7b5c",
+      "content_hash": "b11d8b0feed3aa0791dff462d5bc22cbb279279a45bb2df1dce1475ba9ee07ea",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1111/nph.71053": {
       "paper_id": "doi:10.1111/nph.71053",
@@ -1107,12 +1161,14 @@
       "doi": "10.1111/nph.71053",
       "arxiv_id": "",
       "pubmed_id": "41793146",
-      "content_hash": "dab613ea58494a7d38b87885ee7faf69dbc0570d5134b382dd3e8ee682b194aa",
+      "content_hash": "35beea9aecf4d84b7e97aff19b2cb8c255f80aadabb5aa691bd77d99a39cf242",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1007/s11274-026-04886-1": {
       "paper_id": "doi:10.1007/s11274-026-04886-1",
@@ -1135,12 +1191,14 @@
       "doi": "10.1007/s11274-026-04886-1",
       "arxiv_id": "",
       "pubmed_id": "41792546",
-      "content_hash": "f644aa310123f65fae39c716dcacfd4fb731394fd47a1c55f30bf41d0f40e93e",
+      "content_hash": "2f2c54c566f94f24a5a6ef10395dd89a1a37bbf5f57ff8d70bf42821865701ab",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710096": {
       "paper_id": "doi:10.64898/2026.03.06.710096",
@@ -1164,12 +1222,14 @@
       "doi": "10.64898/2026.03.06.710096",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "4fda270499f0a59e6ee12be75b09f8ff5bae08adb1d545a1d8ae0d556906101e",
+      "content_hash": "22a127f50affc82295708cbe2a25d4f0be394d88d9b52f073f175ddb71b3585c",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709892": {
       "paper_id": "doi:10.64898/2026.03.05.709892",
@@ -1192,12 +1252,14 @@
       "doi": "10.64898/2026.03.05.709892",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "56f38535f9bc11f4ec7593d491eabc7effa9f080d91f3426af5376a1e3a12142",
+      "content_hash": "7dd0d1be6eb4f9a06cdb5b52b5de5982b69e431513c5420e2c009ddc2c5ad115",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.26347747": {
       "paper_id": "doi:10.64898/2026.03.06.26347747",
@@ -1220,12 +1282,14 @@
       "doi": "10.64898/2026.03.06.26347747",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "b5654bec1b7647a308f70515fd822f072cf517a41b5cc2e07cc90e3963211f6e",
+      "content_hash": "b6817e52b46d68d35f40563c3d0e40ea8d779181c1e164755e3397a64b0f71d6",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26347746": {
       "paper_id": "doi:10.64898/2026.03.05.26347746",
@@ -1248,12 +1312,14 @@
       "doi": "10.64898/2026.03.05.26347746",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "71406a93d84cad3f90e862d4d897693ecf011af5a8854aa816317f348b77c1ea",
+      "content_hash": "ce12e5525b6e7541ba7c929ef8bb8b22e87223d83696c3f6655f81b24ad46b47",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709721": {
       "paper_id": "doi:10.64898/2026.03.05.709721",
@@ -1276,12 +1342,14 @@
       "doi": "10.64898/2026.03.05.709721",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "3a1a766be85d7589a5ae3b2df8baf49dffbb7172af63e92d35cd6354bf87eb7d",
+      "content_hash": "c21725a6ebdc73e6896f069c611675ef4e1f1fc7e1e90086112687825601f609",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710164": {
       "paper_id": "doi:10.64898/2026.03.06.710164",
@@ -1309,11 +1377,13 @@
       "abstract_short": "Highly pathogenic avian influenza (HPAI) viruses of H5N1 clade 2.3.4.4b, are spreading worldwide, posing a threat to wildlife, domestic animals, and humans. In 2025, a multidisciplinary collaboration for HPAI H5N1 surveillance among birds within Galveston County, Texas, was initiated. Between November and December 2025, oropharyngeal and cloacal swabs were collected from wild and domestic birds re",
       "topic_count": 4,
       "importance_score": 2.47,
-      "content_hash": "bef6914a62c35687ca33407fb2d450ddb602ec62e40fa415159af1eeb385bce7",
+      "content_hash": "f7678cce1ed3486bbd9edb04fca1aaefbc4f2c46c5a74d195b53e73435d9db50",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 4,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709765": {
       "paper_id": "doi:10.64898/2026.03.05.709765",
@@ -1336,12 +1406,14 @@
       "doi": "10.64898/2026.03.05.709765",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "fd8110cb523ba9c486c3555102f52be094f00b57a11e30486a4a2f51f4fd2ccb",
+      "content_hash": "ed1d91ec0b8dc165850557b6c07161af39a61a19ab2c1fedceca699e949264a1",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1101/2025.11.21.25340716": {
       "paper_id": "doi:10.1101/2025.11.21.25340716",
@@ -1364,12 +1436,14 @@
       "doi": "10.1101/2025.11.21.25340716",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "161a9037e6a38b0281513c304b799f90e570d952ee5ef49c93972f04e0e9b65c",
+      "content_hash": "2c25a69b725b319d5be1a13ec4d3ec50caa7f0e0ddb0680e502a793d8644b95b",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709911": {
       "paper_id": "doi:10.64898/2026.03.05.709911",
@@ -1392,12 +1466,14 @@
       "doi": "10.64898/2026.03.05.709911",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "6cd6f9ba30f7c6ed02e1cb083fbe41ef160f8fbf488504a025b5b5f70affe178",
+      "content_hash": "a4ab3a0a16f9e6957c347057d8887a00bc0b68b4d195e05c4791ef9043487d24",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710020": {
       "paper_id": "doi:10.64898/2026.03.06.710020",
@@ -1420,12 +1496,14 @@
       "doi": "10.64898/2026.03.06.710020",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "12ce4346b205efdc77f5e38b11c29411bc3366d114a96d0a269b9afecb2fb7e6",
+      "content_hash": "f70c99bb37ff92d1729ce95c99e794bd269719b081215c7f1186693cb47c1946",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1371/journal.pone.0344311": {
       "paper_id": "doi:10.1371/journal.pone.0344311",
@@ -1448,12 +1526,14 @@
       "doi": "10.1371/journal.pone.0344311",
       "arxiv_id": "",
       "pubmed_id": "41790793",
-      "content_hash": "019695ea1489401aa9836b726c05825077ce68c03b6a6c6f55645d436f9ae0ba",
+      "content_hash": "597ebe8aeb981116bb2d200fbea0caa9713ca09a7de41270d2220434deb4545f",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1093/pubmed/fdaf163": {
       "paper_id": "doi:10.1093/pubmed/fdaf163",
@@ -1476,12 +1556,14 @@
       "doi": "10.1093/pubmed/fdaf163",
       "arxiv_id": "",
       "pubmed_id": "41524742",
-      "content_hash": "5de9a38abfdef3bdd5f91d1c5eb0590f37c83787f92875d55f30c8b7f765f674",
+      "content_hash": "d8d098c3b13105fd2d2f6a3fda6b7a4edfdc08290e3647fb1a6c580c6bf0125b",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.710112": {
       "paper_id": "doi:10.64898/2026.03.06.710112",
@@ -1504,12 +1586,14 @@
       "doi": "10.64898/2026.03.06.710112",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "2aa749c0e004be496da5898d2d0df81ae59b9e1afe866f547b1507675abd76f3",
+      "content_hash": "d91b2752a5cf572003c7c4c7bcc11b5522c8b04dbbfd285cb21389a2ffc84043",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.26343794": {
       "paper_id": "doi:10.64898/2026.03.05.26343794",
@@ -1532,12 +1616,14 @@
       "doi": "10.64898/2026.03.05.26343794",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "55b3fe5419b01ace68adff3e5a328f7c1b0651744fe10406087cce403050b0a4",
+      "content_hash": "7fbbac2cadeda98d3e6edc38ea3ac8fe52f4e5099e26f614e5d345adcfc2dbc2",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.06.709792": {
       "paper_id": "doi:10.64898/2026.03.06.709792",
@@ -1560,12 +1646,14 @@
       "doi": "10.64898/2026.03.06.709792",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "6746a8629a5ccc39b2dae3736747c40d28d16c6da424f960dd2cc4cd16888d93",
+      "content_hash": "f9b4c13c3f6fd0aade89bbc0b552e739f5c17b46300264d0cfb4dfa2b30a95e5",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1007/s12602-026-10970-7": {
       "paper_id": "doi:10.1007/s12602-026-10970-7",
@@ -1588,12 +1676,14 @@
       "doi": "10.1007/s12602-026-10970-7",
       "arxiv_id": "",
       "pubmed_id": "41790425",
-      "content_hash": "2f6c41478ef804bafed0f8c8b95b81bbf8a3392fb5cb06892ccc2bd0ccd10748",
+      "content_hash": "eaef8542f247c9974db0278da9cc17db5589f1a23b088d35174572189071668a",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1101/2025.11.14.688410": {
       "paper_id": "doi:10.1101/2025.11.14.688410",
@@ -1616,12 +1706,14 @@
       "doi": "10.1101/2025.11.14.688410",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "1307dcd1787bb72c4aa602d76b3799877a904c5a5f0f16097dc3f8aa229cb0fe",
+      "content_hash": "7fb3890360427f66a008a73cdaa732b3a06b2877be72290956f934426b8d3c05",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.04.709657": {
       "paper_id": "doi:10.64898/2026.03.04.709657",
@@ -1644,12 +1736,14 @@
       "doi": "10.64898/2026.03.04.709657",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "0974281a63fe750c704952f155aa1319fd54f9a177a07826296a438a13d0b0e7",
+      "content_hash": "6e1d713ecf490f6128500d44c014a5d6cb0e131316317e6c5de50f8c537fd81a",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1101/2025.10.31.685078": {
       "paper_id": "doi:10.1101/2025.10.31.685078",
@@ -1672,12 +1766,14 @@
       "doi": "10.1101/2025.10.31.685078",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "1085fb5cfd76796e9ff1c8296832587bf862aa3277f2d1701cb9f99c260ff51a",
+      "content_hash": "1c950157828173f1968e4827d187f0a44e1cddfe1f4b45ab0079f41b10903fea",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709720": {
       "paper_id": "doi:10.64898/2026.03.05.709720",
@@ -1700,12 +1796,14 @@
       "doi": "10.64898/2026.03.05.709720",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "7516d256f66d4bd2e839662f0ef514e116d2837b79cfe40d280dab9a57da5913",
+      "content_hash": "5c0d77fc93fb3f7b1a54fd97883cb274aef5f06147be973d0d832fdac478e391",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.02.01.701576": {
       "paper_id": "doi:10.64898/2026.02.01.701576",
@@ -1728,12 +1826,14 @@
       "doi": "10.64898/2026.02.01.701576",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "b21153df63aefbfed3595ec2a291db4c2844b6377b5080d9d11471a676c366d3",
+      "content_hash": "a596a02948d099475de158755e4de2a6d7f872fd171ca32dc0d0d91ccf3bed5a",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.04.709571": {
       "paper_id": "doi:10.64898/2026.03.04.709571",
@@ -1756,12 +1856,14 @@
       "doi": "10.64898/2026.03.04.709571",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "01f4eb37a4ee76330f321c4fb8b31bd5f6b00b61288ebfa2c082153bc88a6fd5",
+      "content_hash": "7e5a1e0154503418e251f7d3bc5db7af8bf9aa602b96189eaea75cf7e96449af",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.04.709349": {
       "paper_id": "doi:10.64898/2026.03.04.709349",
@@ -1784,12 +1886,14 @@
       "doi": "10.64898/2026.03.04.709349",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "797d76d69e75623f8055651813b6c9e8e65a55b843ef058a243d1b4aceb1eb50",
+      "content_hash": "b6bbbf7eb3694f89ef93e7aae3e5ab2f784680c55de7d699908877ab0fb87875",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1007/s10532-026-10258-1": {
       "paper_id": "doi:10.1007/s10532-026-10258-1",
@@ -1812,12 +1916,14 @@
       "doi": "10.1007/s10532-026-10258-1",
       "arxiv_id": "",
       "pubmed_id": "41793537",
-      "content_hash": "94e14b537bc289ca235ac703ae165d01aca7b3b71f1622b3251393e14414b8a7",
+      "content_hash": "7eb960ab72bc0c4bdfcbcaf2ec59c4e221e812da9ed812a2c85a5656edb58531",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:55:10.721097+00:00",
       "times_seen": 2,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.1136/gutjnl-2025-337478": {
       "paper_id": "doi:10.1136/gutjnl-2025-337478",
@@ -1838,12 +1944,14 @@
       "doi": "10.1136/gutjnl-2025-337478",
       "arxiv_id": "",
       "pubmed_id": "41791848",
-      "content_hash": "e98fe397f7ec4669aaf1ac573653297cefb4c8b89b06b0accb03b0847816ccf3",
+      "content_hash": "05c334bfaf91149a84541e8cefb52174d6f1aa7e73e15fed54dec579b58fb023",
       "first_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 1,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709882": {
       "paper_id": "doi:10.64898/2026.03.05.709882",
@@ -1868,11 +1976,13 @@
       "abstract_short": "Nanobodies have recently emerged as alternatives to classical antibodies in therapeutic and diagnostic contexts from parasites to bacteria to viruses, promising improved stability and simpler manufacturing. To improve nanobody discovery efficiency, we developed an integrated experimental and computational pipeline for detailed characterization of the target binding properties of complete alpaca im",
       "topic_count": 1,
       "importance_score": 1.235,
-      "content_hash": "1311434fe20c137c21fe940230693b5315808a138f4073e028611b316afe631d",
+      "content_hash": "6b08b63cdcfa1010507ff3f0d238a382c961ea465536cc0e0bc795023324c062",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 4,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     },
     "doi:10.64898/2026.03.05.709838": {
       "paper_id": "doi:10.64898/2026.03.05.709838",
@@ -1897,11 +2007,13 @@
       "abstract_short": "Aim2-like receptors (ALRs) play crucial roles in innate immune signaling pathways and demonstrate strong positive selection likely driven by pathogens. IFI207, an ALR found in all Mus species, enhances interaction with and stabilization of STING, contributing to the control of Murine Leukemia Virus (MLV) infection. We show here that IFI207 enhances the type 1 interferon response by inhibiting acti",
       "topic_count": 1,
       "importance_score": 0.65,
-      "content_hash": "7cfe024b248923f5ce2cf15c15b8c41cbec9ae76da0af26231d899ed1f3ab145",
+      "content_hash": "49f785efde4e28df47a13f06dc69f43e3d03778566b8d615d7f6e086e058412e",
       "last_seen_at": "2026-03-09T02:34:20.985509+00:00",
       "times_seen": 4,
       "notes": [],
-      "status": "active"
+      "status": "active",
+      "abstract_zh": "",
+      "analysis_zh": ""
     }
   }
 }

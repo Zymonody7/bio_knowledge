@@ -1,0 +1,33 @@
+{
+  "papers": {
+    "doi:10.64898/2026.03.05.26347717": {
+      "paper_id": "doi:10.64898/2026.03.05.26347717",
+      "content_hash": "55753a0bf9c26949384b19126dbb8e46f870cd97fc9b284caf58a24d198bd21b",
+      "title": "OncoRAG: Graph-Based Retrieval Enabling Clinical Phenotyping from Oncology Notes Using Local Mid-Size Language Models",
+      "abstract_zh": "这篇论文来自 medRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Introduction: Manual data extraction from unstructured clinical notes is labor-intensive and impractical for large-scale clinical and research operations. Existing automated approaches typically require large language models, dedicated computational infrastruc...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：7.55\n- 新颖度评分：1.0\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
+    },
+    "doi:10.64898/2026.03.04.709677": {
+      "paper_id": "doi:10.64898/2026.03.04.709677",
+      "content_hash": "5b549b0fbdf67744fe7683086fb9133437f50495778a403785819b76eaf94ea2",
+      "title": "Circular RNA identification using a genomic language model and a small number of authenticated examples",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Genomic language models (gLMs) hold great promise for deciphering biological sequences, yet their effectiveness is hindered by the limited number of experimentally verified examples available for model training, a ubiquitous bottleneck for supervised machine l...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：7.15\n- 新颖度评分：0.75\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
+    },
+    "doi:10.64898/2026.03.05.709906": {
+      "paper_id": "doi:10.64898/2026.03.05.709906",
+      "content_hash": "3b6c0fe8bedeb7736b8f6e39499f801c2ce1e16a40312abdb2240ed6e40879b7",
+      "title": "Application of large language models to the annotation of cell lines and mouse strains in genomics data",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Accurate, consistent and comprehensive metadata are essential for the reuse of functional genomics data deposited in repositories such as the Gene Expression Omnibus (GEO), however, achieving this often requires careful manual curation that is time-consuming, ...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：6.45\n- 新颖度评分：0.5\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
+    },
+    "doi:10.64898/2026.03.06.710163": {
+      "paper_id": "doi:10.64898/2026.03.06.710163",
+      "content_hash": "7befefdb80159bf7dc40cb7966649bc28beb2248b8890639611d619f99670e9b",
+      "title": "Popformer: Learning general signatures of positive selection with a self-supervised transformer",
+      "abstract_zh": "这篇论文来自 bioRxiv，主题上与 foundation_model_agent 有交叉。原始英文摘要要点如下：Understanding natural selection can help shed light on the genetics underpinning adaptive evolution. The widespread availability of large-scale human genetic variation data has led to the development of data-driven methods for detecting signatures of selection...",
+      "analysis_zh": "## 核心内容\n这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。\n\n## 为什么相关\n- 当前命中的主题：foundation_model_agent\n- 相关度评分：5.45\n- 新颖度评分：0.5\n\n## 方法与证据\n- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。\n\n## 应用价值\n- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。\n\n## 局限与风险\n- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。"
+    }
+  },
+  "updated_at": "2026-03-11T04:54:50Z"
+}

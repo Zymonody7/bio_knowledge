@@ -85,10 +85,12 @@ def render_section(title: str, rows: list[dict]) -> list[str]:
         lines.append("")
         for row in group_rows:
             matched_topics = row.get("matched_topics", "").replace(";", ", ")
+            abstract_zh = (row.get("abstract_zh") or "").strip()
+            abstract_preview = abstract_zh or row.get("abstract", "")
             lines.append(f"- [{row['title']}]({row['url']})")
             lines.append(f"  来源：{row['source']} | 日期：{row['date'][:10]} | 相关度：{row['relevance_score']} | 新颖度：{row['novelty_score']}")
             lines.append(f"  匹配主题：{matched_topics or '未命中具体主题'}")
-            lines.append(f"  摘要：{row['abstract'][:220]}{'...' if len(row['abstract']) > 220 else ''}")
+            lines.append(f"  中文摘要：{abstract_preview[:220]}{'...' if len(abstract_preview) > 220 else ''}")
             lines.append(f"  为什么值得看：{row['why_it_matters']}")
             lines.append("")
     return lines

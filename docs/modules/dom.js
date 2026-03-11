@@ -22,6 +22,7 @@ export const dom = {
   detailNovelty: document.querySelector("#detail-novelty"),
   detailTimesSeen: document.querySelector("#detail-times-seen"),
   detailWhy: document.querySelector("#detail-why"),
+  detailAbstractZh: document.querySelector("#detail-abstract-zh"),
   detailAbstract: document.querySelector("#detail-abstract"),
   favoriteToggle: document.querySelector("#favorite-toggle"),
   notesInput: document.querySelector("#notes-input"),

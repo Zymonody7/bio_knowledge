@@ -34,7 +34,16 @@ export function applyFilters() {
   const category = dom.categoryFilter.value;
 
   state.filtered = state.papers.filter((paper) => {
-    const haystack = [paper.title, paper.abstract, paper.why_it_matters, paper.category, paper.source, ...paper.matched_topics].join("\n").toLowerCase();
+    const haystack = [
+      paper.title,
+      paper.abstract,
+      paper.abstract_zh,
+      paper.analysis_zh,
+      paper.why_it_matters,
+      paper.category,
+      paper.source,
+      ...paper.matched_topics,
+    ].join("\n").toLowerCase();
     if (query && !haystack.includes(query)) return false;
     if (topic && !paper.matched_topics.includes(topic)) return false;
     if (source && paper.source !== source) return false;
