@@ -94,43 +94,9 @@ def content_hash(row: dict) -> str:
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
 
 
-def fallback_translation(row: dict) -> str:
-    abstract = (row.get("abstract") or "").strip()
-    if not abstract:
-        return "原始记录没有提供摘要，当前无法生成更完整的中文摘要。"
-    compact = " ".join(abstract.split())
-    snippet = compact[:260]
-    suffix = "..." if len(compact) > 260 else ""
-    return (
-        f"这篇论文来自 {row.get('source', 'unknown')}，主题上与 {row.get('matched_topics', '当前方向')} 有交叉。"
-        f"原始英文摘要要点如下：{snippet}{suffix}"
-    )
-
-
-def fallback_analysis(row: dict) -> str:
-    matched_topics = row.get("matched_topics", "").replace(";", "、") or "未命中具体主题"
-    relevance = row.get("relevance_score", "0")
-    novelty = row.get("novelty_score", "0")
-    return "\n".join(
-        [
-            "## 核心内容",
-            row.get("why_it_matters", "这篇论文与当前知识库存在一定交叉，但还需要结合原文确认具体价值。"),
-            "",
-            "## 为什么相关",
-            f"- 当前命中的主题：{matched_topics}",
-            f"- 相关度评分：{relevance}",
-            f"- 新颖度评分：{novelty}",
-            "",
-            "## 方法与证据",
-            "- 当前为规则型离线解读，建议结合原文确认任务定义、数据规模、评测指标和真实应用场景。",
-            "",
-            "## 应用价值",
-            "- 可以先判断它更适合做知识库条目、benchmark 线索、方法复用参考，还是产品化监测场景输入。",
-            "",
-            "## 局限与风险",
-            "- 当前没有使用远程 LLM 生成详细解读，因此内容深度有限。",
-        ]
-    )
+def is_placeholder_analysis(text: str) -> bool:
+    compact = (text or "").strip()
+    return "当前为规则型离线解读" in compact or "当前没有使用远程 LLM 生成详细解读" in compact
 
 
 def extract_json_block(text: str) -> dict:
@@ -153,21 +119,22 @@ def build_messages(row: dict) -> list[dict]:
             "content": (
                 "你是病原生信、蛋白质组学、基因组学、临床微生物学与 AI/LLM/Agent 交叉领域的中文研究助手。"
                 "你的任务是根据给定论文元数据与英文摘要，生成高质量中文摘要翻译和详细 AI 解读。"
-                "只根据提供内容输出，不要编造不存在的实验细节。输出必须是 JSON。"
+                "只根据提供内容输出，不要编造不存在的实验细节。禁止使用空话、套话、泛化结论。输出必须是 JSON。"
             ),
         },
         {
             "role": "user",
             "content": (
                 "请严格输出 JSON，对象包含 `abstract_zh` 和 `analysis_zh` 两个字段。\n"
-                "`abstract_zh`：用中文准确翻译并压缩英文摘要，优先保留研究对象、数据、方法、结果、结论，150-260 字。\n"
+                "`abstract_zh`：把英文摘要忠实翻译成自然中文，优先保留研究对象、数据、方法、结果、结论，180-320 字。不要写成泛泛介绍。\n"
                 "`analysis_zh`：使用 markdown，按以下小节输出：\n"
                 "## 核心内容\n## 为什么相关\n## 新颖度判断\n## 方法与证据\n## 应用价值\n## 局限与风险\n"
                 "要求：\n"
                 "- 用中文，具体，不要空话。\n"
                 "- 结合论文来源、主题、相关度、新颖度来判断。\n"
-                "- 如果只是弱 AI 交叉，要明确指出。\n"
-                "- 不要重复标题，不要只改写 why_it_matters。\n\n"
+                "- 每一节都要引用摘要里已经出现的具体信息，例如模型名、任务、数据规模、实验对象、指标或结论；如果摘要没有写，就明确说“摘要未说明”。\n"
+                "- 如果只是弱 AI 交叉，要明确指出，不要硬说成强相关。\n"
+                "- 不要重复标题，不要只改写 why_it_matters，不要输出“值得关注”“可以先判断”这类空泛句。\n\n"
                 f"标题：{row.get('title', '')}\n"
                 f"来源：{row.get('source', '')}\n"
                 f"日期：{row.get('date', '')}\n"
@@ -254,7 +221,12 @@ def main() -> int:
         paper_id = canonical_id(row)
         digest = content_hash(row)
         cached = cache_records.get(paper_id, {})
-        if cached.get("content_hash") == digest and cached.get("abstract_zh") and cached.get("analysis_zh"):
+        if (
+            cached.get("content_hash") == digest
+            and cached.get("abstract_zh")
+            and cached.get("analysis_zh")
+            and not is_placeholder_analysis(cached.get("analysis_zh", ""))
+        ):
             row["abstract_zh"] = cached["abstract_zh"]
             row["analysis_zh"] = cached["analysis_zh"]
             reused += 1
@@ -270,33 +242,32 @@ def main() -> int:
                 enriched = enrich_with_remote(row, config)
             except Exception as exc:
                 print(f"Remote enrichment failed for {paper_id}: {exc}")
-                enriched = {
-                    "abstract_zh": fallback_translation(row),
-                    "analysis_zh": fallback_analysis(row),
-                }
+                enriched = None
             else:
                 time.sleep(0.8)
         else:
-            enriched = {
-                "abstract_zh": fallback_translation(row),
-                "analysis_zh": fallback_analysis(row),
-            }
+            enriched = None
 
-        row["abstract_zh"] = enriched["abstract_zh"]
-        row["analysis_zh"] = enriched["analysis_zh"]
-        cache_records[paper_id] = {
-            "paper_id": paper_id,
-            "content_hash": digest,
-            "title": row.get("title", ""),
-            "abstract_zh": enriched["abstract_zh"],
-            "analysis_zh": enriched["analysis_zh"],
-        }
-        updated += 1
+        if enriched:
+            row["abstract_zh"] = enriched["abstract_zh"]
+            row["analysis_zh"] = enriched["analysis_zh"]
+            cache_records[paper_id] = {
+                "paper_id": paper_id,
+                "content_hash": digest,
+                "title": row.get("title", ""),
+                "abstract_zh": enriched["abstract_zh"],
+                "analysis_zh": enriched["analysis_zh"],
+                "mode": "remote",
+            }
+            updated += 1
+        else:
+            row["abstract_zh"] = ""
+            row["analysis_zh"] = ""
 
     cache["updated_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     write_csv_rows(input_path, fieldnames, rows)
     save_json(cache_path, cache)
-    mode = "remote" if can_use_remote else "fallback"
+    mode = "remote" if can_use_remote else "disabled"
     print(f"Enriched papers using {mode} mode")
     print(f"Updated: {updated}")
     print(f"Reused: {reused}")

@@ -6,6 +6,20 @@ export function detailAnalysisMarkdown(paper, notes) {
     ].filter(Boolean).join("\n");
   }
 
+  return [
+    "## 当前状态",
+    "这篇论文还没有生成可用的 AI 解读。",
+    "",
+    "## 原因",
+    "- 当前站点没有拿到远程 LLM 富化结果。",
+    "- 为了避免继续显示空话和模板废话，这里不再输出占位解读。",
+    "",
+    "## 现在该看什么",
+    "- 先读下方中文摘要；如果中文摘要也为空，再直接读原始摘要。",
+    "- 优先看任务定义、数据来源、模型方法、实验结果和局限。",
+    notes[paper.paper_id] ? `\n## 你的备注\n${notes[paper.paper_id]}` : "",
+  ].filter(Boolean).join("\n");
+
   const intersections = [];
   if (/protein|proteomics|nanobody/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("protein / proteomics");
   if (/gene|genomic|genomics|transcript/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("gene / genomics");

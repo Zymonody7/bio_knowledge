@@ -138,6 +138,8 @@ export function renderDetail() {
   dom.favoriteToggle.textContent = state.favorites[paper.paper_id] ? "取消收藏" : "收藏";
   dom.notesInput.value = state.notes[paper.paper_id] || "";
   dom.detailWhy.innerHTML = markdownToHtml(detailAnalysisMarkdown(paper, state.notes));
-  dom.detailAbstractZh.innerHTML = markdownToHtml(paper.abstract_zh || "当前还没有生成中文摘要。");
+  dom.detailAbstractZh.innerHTML = markdownToHtml(
+    paper.abstract_zh || "当前还没有生成中文摘要翻译。说明这篇论文还没有经过远程 LLM 富化，先看右侧原始摘要。"
+  );
   dom.detailAbstract.innerHTML = markdownToHtml(paper.abstract || "暂无原始摘要。");
 }
