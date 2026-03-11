@@ -33,7 +33,7 @@ function renderAll() {
 function bindEvents() {
   [dom.digestPreview, dom.paperList, dom.notesInput].forEach((element) => containWheelScroll(element));
 
-  [dom.searchInput, dom.topicFilter, dom.sourceFilter, dom.categoryFilter].forEach((element) => {
+  [dom.searchInput, dom.sortFilter, dom.topicFilter, dom.sourceFilter, dom.categoryFilter].forEach((element) => {
     element.addEventListener("input", renderAll);
     element.addEventListener("change", renderAll);
   });

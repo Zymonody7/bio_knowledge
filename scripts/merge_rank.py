@@ -53,6 +53,13 @@ def normalize_text(text: str) -> str:
     return " ".join(text.lower().split())
 
 
+def normalize_doi(value: str) -> str:
+    doi = (value or "").strip().lower()
+    if doi.startswith("10.1101/10."):
+        return doi.split("/", 1)[1]
+    return doi
+
+
 def significant_tokens(keyword: str) -> list[str]:
     stopwords = {"for", "and", "the", "of", "in", "to", "ai"}
     tokens = []
@@ -104,7 +111,10 @@ def count_term_hits(haystack: str, terms: list[str]) -> int:
 
 
 def canonical_id(paper: dict) -> str:
-    for key in ("doi", "arxiv_id", "pubmed_id"):
+    doi_value = normalize_doi(paper.get("doi", ""))
+    if doi_value:
+        return f"doi:{doi_value}"
+    for key in ("arxiv_id", "pubmed_id"):
         value = (paper.get(key) or "").strip().lower()
         if value:
             return f"{key}:{value}"
@@ -316,6 +326,7 @@ def main() -> int:
         writer.writeheader()
         for paper in ranked:
             row = {field: paper.get(field, "") for field in CSV_FIELDS}
+            row["doi"] = normalize_doi(row.get("doi", ""))
             row["matched_topics"] = ";".join(paper.get("matched_topics", []))
             writer.writerow(row)
 

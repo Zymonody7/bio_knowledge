@@ -20,6 +20,13 @@
 
         <div class="sidebar-controls">
           <input id="search-input" type="search" placeholder="搜索标题、摘要、主题、源、关键词">
+          <select id="sort-filter">
+            <option value="importance">按综合排序</option>
+            <option value="date_desc">按日期最新</option>
+            <option value="relevance_desc">按相关度最高</option>
+            <option value="novelty_desc">按新颖度最高</option>
+            <option value="date_asc">按日期最早</option>
+          </select>
           <select id="topic-filter">
             <option value="">全部主题</option>
           </select>

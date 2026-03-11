@@ -9,6 +9,7 @@ export const dom = {
   paperItemTemplate: document.querySelector("#paper-item-template"),
   paperCount: document.querySelector("#paper-count"),
   searchInput: document.querySelector("#search-input"),
+  sortFilter: document.querySelector("#sort-filter"),
   topicFilter: document.querySelector("#topic-filter"),
   sourceFilter: document.querySelector("#source-filter"),
   categoryFilter: document.querySelector("#category-filter"),

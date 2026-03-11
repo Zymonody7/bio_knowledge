@@ -46,8 +46,23 @@ def normalize_text(text: str) -> str:
     return " ".join(text.lower().split())
 
 
+def normalize_doi(value: str) -> str:
+    doi = (value or "").strip().lower()
+    if doi.startswith("10.1101/10."):
+        return doi.split("/", 1)[1]
+    return doi
+
+
+def normalize_preprint_url(value: str) -> str:
+    url = (value or "").strip()
+    return url.replace("/content/10.1101/10.", "/content/10.")
+
+
 def canonical_id(row: dict) -> str:
-    for key in ("doi", "arxiv_id", "pubmed_id"):
+    doi_value = normalize_doi(row.get("doi", ""))
+    if doi_value:
+        return f"doi:{doi_value}"
+    for key in ("arxiv_id", "pubmed_id"):
         value = (row.get(key) or "").strip().lower()
         if value:
             return f"{key}:{value}"
@@ -94,7 +109,7 @@ def build_record(row: dict, paper_id: str, now: str) -> dict:
         "source": row.get("source", ""),
         "date": date_value,
         "year": date_value[:4] if len(date_value) >= 4 else "",
-        "url": row.get("url", ""),
+        "url": normalize_preprint_url(row.get("url", "")),
         "abstract": abstract,
         "abstract_short": abstract[:400],
         "matched_topics": topics,
@@ -104,7 +119,7 @@ def build_record(row: dict, paper_id: str, now: str) -> dict:
         "importance_score": round(parse_float(row.get("relevance_score")) * 0.65 + parse_float(row.get("novelty_score")) * 0.35, 3),
         "why_it_matters": row.get("why_it_matters", ""),
         "category": row.get("category", "general"),
-        "doi": row.get("doi", ""),
+        "doi": normalize_doi(row.get("doi", "")),
         "arxiv_id": row.get("arxiv_id", ""),
         "pubmed_id": row.get("pubmed_id", ""),
         "content_hash": "",
@@ -114,6 +129,69 @@ def build_record(row: dict, paper_id: str, now: str) -> dict:
         "notes": [],
         "status": "active",
     }
+
+
+def merge_record(existing: dict, incoming: dict, now: str) -> dict:
+    merged = {**existing}
+    merged["paper_id"] = incoming["paper_id"]
+    merged["title"] = incoming.get("title") or existing.get("title", "")
+    merged["source"] = incoming.get("source") or existing.get("source", "")
+    merged["date"] = incoming.get("date") or existing.get("date", "")
+    merged["year"] = merged["date"][:4] if len(merged["date"]) >= 4 else existing.get("year", "")
+    merged["url"] = normalize_preprint_url(incoming.get("url") or existing.get("url", ""))
+    merged["matched_topics"] = incoming.get("matched_topics") or existing.get("matched_topics", [])
+    merged["topic_count"] = len(merged.get("matched_topics", []))
+    merged["relevance_score"] = incoming.get("relevance_score", existing.get("relevance_score", 0))
+    merged["novelty_score"] = incoming.get("novelty_score", existing.get("novelty_score", 0))
+    merged["importance_score"] = incoming.get("importance_score", existing.get("importance_score", 0))
+    merged["why_it_matters"] = incoming.get("why_it_matters") or existing.get("why_it_matters", "")
+    merged["category"] = incoming.get("category") or existing.get("category", "general")
+    merged["doi"] = normalize_doi(incoming.get("doi") or existing.get("doi", ""))
+    merged["arxiv_id"] = incoming.get("arxiv_id") or existing.get("arxiv_id", "")
+    merged["pubmed_id"] = incoming.get("pubmed_id") or existing.get("pubmed_id", "")
+    merged["first_seen_at"] = existing.get("first_seen_at", incoming.get("first_seen_at", now))
+    merged["last_seen_at"] = now
+    merged["times_seen"] = int(existing.get("times_seen", 1)) + 1
+    merged["notes"] = existing.get("notes", [])
+    merged["status"] = existing.get("status", "active")
+
+    if len(incoming.get("abstract", "")) >= len(existing.get("abstract", "")):
+        merged["abstract"] = incoming.get("abstract", "")
+        merged["abstract_short"] = incoming.get("abstract_short", incoming.get("abstract", "")[:400])
+    else:
+        merged["abstract"] = existing.get("abstract", "")
+        merged["abstract_short"] = existing.get("abstract_short", existing.get("abstract", "")[:400])
+
+    merged["content_hash"] = stable_payload_hash(merged)
+    return merged
+
+
+def normalize_existing_record(record: dict) -> dict:
+    normalized = {**record}
+    normalized["doi"] = normalize_doi(record.get("doi", ""))
+    normalized["url"] = normalize_preprint_url(record.get("url", ""))
+    normalized["paper_id"] = canonical_id(normalized)
+    normalized["content_hash"] = stable_payload_hash(normalized)
+    return normalized
+
+
+def load_existing_papers(existing_papers: dict) -> dict[str, dict]:
+    normalized_records: dict[str, dict] = {}
+    for _, record in existing_papers.items():
+        normalized = normalize_existing_record(record)
+        paper_id = normalized["paper_id"]
+        current = normalized_records.get(paper_id)
+        if current is None:
+            normalized_records[paper_id] = normalized
+            continue
+        combined = {**current}
+        if len(normalized.get("abstract", "")) > len(current.get("abstract", "")):
+            combined.update(normalized)
+        combined["times_seen"] = max(int(current.get("times_seen", 1)), int(normalized.get("times_seen", 1)))
+        combined["first_seen_at"] = min(current.get("first_seen_at", ""), normalized.get("first_seen_at", ""))
+        combined["last_seen_at"] = max(current.get("last_seen_at", ""), normalized.get("last_seen_at", ""))
+        normalized_records[paper_id] = combined
+    return normalized_records
 
 
 def sort_records(records: list[dict]) -> list[dict]:
@@ -260,7 +338,7 @@ def main() -> int:
     md_path = Path(args.md_output)
     stats_path = Path(args.stats_output)
     existing_kb = load_json(kb_path)
-    existing_papers = existing_kb.get("papers", {})
+    existing_papers = load_existing_papers(existing_kb.get("papers", {}))
     state_path = ROOT / "data" / "state.json"
     state = load_json(state_path)
     last_run_count = int(state.get("latest_run_count", len(rows)) or 0)
@@ -278,19 +356,7 @@ def main() -> int:
         if existing is None:
             papers[paper_id] = record
             continue
-
-        record["first_seen_at"] = existing.get("first_seen_at", record["first_seen_at"])
-        record["times_seen"] = int(existing.get("times_seen", 1)) + 1
-        record["notes"] = existing.get("notes", [])
-        record["status"] = existing.get("status", "active")
-
-        if len(record["abstract"]) >= len(existing.get("abstract", "")):
-            papers[paper_id] = {**existing, **record, "last_seen_at": now}
-        else:
-            existing["last_seen_at"] = now
-            existing["times_seen"] = record["times_seen"]
-            existing["content_hash"] = existing.get("content_hash", stable_payload_hash(existing))
-            papers[paper_id] = existing
+        papers[paper_id] = merge_record(existing, record, now)
 
     records = sort_records(list(papers.values()))
     summary = summarize_records(records, last_run_count)

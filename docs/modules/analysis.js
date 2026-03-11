@@ -4,14 +4,62 @@ export function detailAnalysisMarkdown(paper, notes) {
   if (/gene|genomic|genomics|transcript/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("gene / genomics");
   if (/clinical|patient|diagnosis|microbiology/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("clinical / microbiology");
   if (/agent|llm|language model|foundation model|multimodal/i.test(`${paper.title} ${paper.abstract}`)) intersections.push("AI / LLM / Agent");
+  const relevanceInterpretation = paper.relevance_score >= 7
+    ? "这篇论文和当前知识库的 AI 生信主轴高度一致。"
+    : paper.relevance_score >= 5
+      ? "这篇论文与当前方向中度相关，值得看其任务设计和技术路线。"
+      : "这篇论文和主轴存在交叉，但更适合作为边缘参考或扩展阅读。";
+  const noveltyInterpretation = paper.novelty_score >= 7
+    ? "新颖度较高，通常意味着它较新，或者方法/任务设定有明显新信号。"
+    : paper.novelty_score >= 4
+      ? "新颖度中等，值得重点确认它到底是新数据、新模型还是旧问题的新包装。"
+      : "新颖度偏低，更适合当作背景材料或已有方向的补充。";
+
+  const readChecklist = [
+    "任务定义是否真正需要 LLM / agent / language model，而不是仅在摘要里点名。",
+    "数据来源是否贴近真实实验或临床场景，是否有明确输入输出和评测标准。",
+    "如果是 protein / gene / genomics 方向，是否能复用为下游 benchmark、知识库或 workflow 模块。",
+    "如果是临床或病原方向，是否涉及样本流转、报告生成、决策支持或 surveillance 场景。",
+  ];
+
+  const risks = [];
+  if (!/llm|language model|foundation model|agent|transformer|rag|gpt/i.test(`${paper.title} ${paper.abstract}`)) {
+    risks.push("标题和摘要里没有特别强的 AI 关键词，可能只是弱交叉。");
+  }
+  if (!/clinical|patient|hospital|sample|cohort|diagnosis|microbiology/i.test(`${paper.title} ${paper.abstract}`)) {
+    risks.push("临床落地信号不强，可能更偏方法或基础研究。");
+  }
+  if (!/benchmark|dataset|evaluation|f1|auc|accuracy|validation/i.test(`${paper.title} ${paper.abstract}`)) {
+    risks.push("评测或验证描述不充分，读的时候要特别留意实验设计。");
+  }
 
   return [
-    `**来源**：${paper.source}`,
-    `**为什么值得看**：${paper.why_it_matters}`,
-    `**与你的研究交叉点**：${intersections.length ? intersections.join("、") : "当前更偏传统生信/病原方向，但可以继续判断是否能接到 AI workflow。"}`,
-    `**建议重点读**：数据类型、蛋白质/基因层信号、临床样本设置、是否存在 agent/llm 可切入点、评价指标是否贴近真实流程。`,
-    notes[paper.paper_id] ? `**你的备注**：${notes[paper.paper_id]}` : "",
-  ].filter(Boolean).join("\n\n");
+    "### 总体判断",
+    `${paper.why_it_matters}`,
+    "",
+    "### 相关度与新颖度",
+    `- 综合分：**${paper.importance_score ?? "-"}**`,
+    `- 相关度：**${paper.relevance_score}**。${relevanceInterpretation}`,
+    `- 新颖度：**${paper.novelty_score}**。${noveltyInterpretation}`,
+    `- 来源：**${paper.source}**，日期：**${paper.date.slice(0, 10)}**，类别：**${paper.category}**`,
+    "",
+    "### 与你的研究交叉点",
+    intersections.length
+      ? `这篇论文和你的关注轴线交叉在：**${intersections.join("、")}**。`
+      : "这篇论文和你的研究主线交叉有限，更像外围参考。",
+    "",
+    "### 读论文时建议重点看",
+    ...readChecklist.map((item) => `- ${item}`),
+    "",
+    "### 风险与不足",
+    ...(risks.length ? risks.map((item) => `- ${item}`) : ["- 摘要层面没有特别明显的红旗，值得进原文确认实验和评测细节。"]),
+    "",
+    "### 可以怎么用",
+    `- 如果你在做知识库：可提炼它的任务定义、数据结构、评测指标和可复用术语。`,
+    `- 如果你在做模型：重点看它是否提供了 prompt / pipeline / feature engineering / benchmark 设计线索。`,
+    `- 如果你在做产品：重点看能否映射到报告生成、检索增强、自动标注或临床决策支持。`,
+    notes[paper.paper_id] ? `\n### 你的备注\n${notes[paper.paper_id]}` : "",
+  ].filter(Boolean).join("\n");
 }
 
 export function buildDetailedAnswerMarkdown(query, hits, selectedPaper) {

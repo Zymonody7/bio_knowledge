@@ -11,6 +11,7 @@ export const state = {
   selectedPaperId: null,
   activeGroup: "",
   treeFilter: { kind: "", value: "" },
+  sortBy: "importance",
   favorites: {},
   notes: {},
   llm: {

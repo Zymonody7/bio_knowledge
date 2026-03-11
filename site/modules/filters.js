@@ -28,6 +28,7 @@ export function populateFilters() {
 
 export function applyFilters() {
   const query = dom.searchInput.value.trim().toLowerCase();
+  state.sortBy = dom.sortFilter.value || "importance";
   const topic = dom.topicFilter.value;
   const source = dom.sourceFilter.value;
   const category = dom.categoryFilter.value;

@@ -108,6 +108,25 @@ def filter_keywords_for_preprints(topics: dict) -> list[str]:
     return collect_query_keywords(topics)
 
 
+def normalize_preprint_doi(value: str) -> str:
+    doi = (value or "").strip()
+    if not doi:
+        return ""
+    normalized = doi.lstrip("/")
+    if normalized.startswith("10.1101/10."):
+        return normalized.split("/", 1)[1]
+    return normalized
+
+
+def build_preprint_url(server: str, doi: str, version: str) -> str:
+    normalized_server = (server or "").strip().lower() or "biorxiv"
+    normalized_doi = normalize_preprint_doi(doi)
+    if not normalized_doi:
+        return ""
+    normalized_version = str(version or "1").strip()
+    return f"https://www.{normalized_server}.org/content/{normalized_doi}v{normalized_version}"
+
+
 def parse_pub_date(article: ET.Element) -> str:
     pub_date = article.find(".//PubDate")
     year = text_or_empty(pub_date, "Year") or "1900"
@@ -254,10 +273,10 @@ def fetch_preprints(
                     "title": " ".join(title.split()),
                     "source": source_name,
                     "date": paper_dt.isoformat(),
-                    "url": f"https://www.{server}.org/content/10.1101/{doi}v{item.get('version', '1')}" if doi else item.get("jatsxml", ""),
+                    "url": build_preprint_url(server, doi, item.get("version", "1")) or item.get("jatsxml", ""),
                     "abstract": " ".join(abstract.split()),
                     "authors": [author.strip() for author in (item.get("authors", "") or "").split(";") if author.strip()],
-                    "doi": doi,
+                    "doi": normalize_preprint_doi(doi),
                     "arxiv_id": "",
                     "pubmed_id": "",
                 }
