@@ -185,6 +185,17 @@ def enrich_with_remote(row: dict, config: dict) -> dict:
     }
 
 
+def describe_chat_runtime(config: dict) -> dict:
+    chat_cfg = config.get("chat", {})
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    return {
+        "provider": chat_cfg.get("provider", ""),
+        "base_url": chat_cfg.get("base_url", ""),
+        "model": chat_cfg.get("model", ""),
+        "api_key_present": bool(api_key),
+    }
+
+
 def main() -> int:
     args = parse_args()
     input_path = Path(args.input)
@@ -201,7 +212,22 @@ def main() -> int:
     cache = load_json(cache_path)
     cache_records = cache.setdefault("papers", {})
     config = load_rag_config(Path(args.config))
-    can_use_remote = bool(os.getenv("OPENAI_API_KEY", "").strip() and config.get("chat", {}).get("base_url") and config.get("chat", {}).get("model"))
+    runtime = describe_chat_runtime(config)
+    can_use_remote = bool(runtime["api_key_present"] and runtime["base_url"] and runtime["model"])
+    print(
+        "Enrichment chat runtime:"
+        f" provider={runtime['provider'] or 'unset'}"
+        f" base_url={runtime['base_url'] or 'unset'}"
+        f" model={runtime['model'] or 'unset'}"
+        f" api_key={'present' if runtime['api_key_present'] else 'missing'}"
+    )
+    if runtime["api_key_present"] and runtime["base_url"].rstrip("/") == "https://api.openai.com/v1":
+        print(
+            "Warning: enrichment is still pointing at https://api.openai.com/v1. "
+            "If you expect BLTCY Gemini, set RAG_CHAT_BASE_URL=https://api.bltcy.ai/v1."
+        )
+    if runtime["api_key_present"] and not runtime["model"]:
+        print("Warning: RAG_CHAT_MODEL is empty, so remote enrichment cannot run.")
     updated = 0
     reused = 0
 

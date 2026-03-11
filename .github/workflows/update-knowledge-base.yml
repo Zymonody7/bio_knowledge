@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       OPENAI_API_KEY: ${{ secrets.BLTCY_API_KEY }}
-      RAG_CHAT_PROVIDER: ${{ vars.RAG_CHAT_PROVIDER }}
-      RAG_CHAT_BASE_URL: ${{ vars.RAG_CHAT_BASE_URL }}
+      RAG_CHAT_PROVIDER: ${{ vars.RAG_CHAT_PROVIDER || 'openai_compatible' }}
+      RAG_CHAT_BASE_URL: ${{ vars.RAG_CHAT_BASE_URL || 'https://api.bltcy.ai/v1' }}
       RAG_CHAT_MODEL: ${{ vars.RAG_CHAT_MODEL }}
       RAG_EMBEDDING_PROVIDER: ${{ vars.RAG_EMBEDDING_PROVIDER }}
       RAG_EMBEDDING_BASE_URL: ${{ vars.RAG_EMBEDDING_BASE_URL }}
       RAG_EMBEDDING_MODEL: ${{ vars.RAG_EMBEDDING_MODEL }}
-      SITE_LLM_BASE_URL: ${{ vars.SITE_LLM_BASE_URL }}
+      SITE_LLM_BASE_URL: ${{ vars.SITE_LLM_BASE_URL || 'https://api.bltcy.ai/v1' }}
       SITE_LLM_MODEL: ${{ vars.SITE_LLM_MODEL }}
     steps:
       - name: Checkout

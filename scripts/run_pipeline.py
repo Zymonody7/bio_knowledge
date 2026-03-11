@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -36,6 +37,12 @@ def run_step(script_name: str, check: bool = True) -> subprocess.CompletedProces
 def main() -> int:
     args = parse_args()
     print(f"Pipeline proxy mode: {proxy_status_text()}")
+    print(
+        "Pipeline chat env:"
+        f" base_url={os.getenv('RAG_CHAT_BASE_URL', '').strip() or 'unset'}"
+        f" model={os.getenv('RAG_CHAT_MODEL', '').strip() or 'unset'}"
+        f" api_key={'present' if os.getenv('OPENAI_API_KEY', '').strip() else 'missing'}"
+    )
     fetch_failures: list[str] = []
 
     if not args.skip_fetch:
