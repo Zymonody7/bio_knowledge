@@ -1,260 +1,370 @@
-# 每日论文监控日报 (2026-03-17)
+# 每日论文监控日报 (2026-03-18)
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 37 篇新论文。
+今日共整理 55 篇新论文。
 
 ## 抓取状态
 
-- arXiv：成功，命中 44 篇
-- PubMed：成功，命中 25 篇
-- bioRxiv：失败，命中 0 篇，错误：504 Server Error: Gateway Timeout
-- medRxiv：成功，命中 3 篇
-
-注：部分来源抓取失败时，后续整理结果可能包含缓存原始数据，不等同于这些来源当天没有新论文。
+- arXiv：成功，命中 52 篇
+- PubMed：成功，命中 27 篇
+- bioRxiv：成功，命中 20 篇
+- medRxiv：成功，命中 4 篇
 
 ## 最值得看
 
 ### Foundation Model / Agent
 
-- [Intelligent Co-Design: An Interactive LLM Framework for Interior Spatial Design via Multi-Modal Agents](http://arxiv.org/abs/2603.15341v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：7.9 | 新颖度：8.5
+- [ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics](http://arxiv.org/abs/2603.11872v2)
+  来源：arXiv | 日期：2026-03-12 | 相关度：7.55 | 新颖度：7.5
   匹配主题：foundation_model_agent
-  中文摘要：In architectural interior design, miscommunication frequently arises as clients lack design knowledge, while designers struggle to explain complex spatial relationships, leading to delayed timelines and financial losses....
+  中文摘要：Translating single-cell RNA sequencing (scRNA-seq) data into mechanistic biological hypotheses remains a critical bottleneck, as agentic AI systems lack direct access to transcriptomic representations while expression fo...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](http://arxiv.org/abs/2603.15080v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：7.15 | 新颖度：7.4
+### 方法创新
+
+- [VarDCL: A Multimodal PLM-Enhanced Framework for Missense Variant Effect Prediction via Self-distilled Contrastive Learning](https://www.biorxiv.org/content/10.64898/2026.03.13.711612v1)
+  来源：bioRxiv | 日期：2026-03-17 | 相关度：10.0 | 新颖度：6.0
+  匹配主题：sequencing_bioinformatics, foundation_model_agent
+  中文摘要：Abstract. Missense variants are a common type of genetic mutation that can alter the structure and function of proteins, thereby affecting the normal physiological processes of organisms. Accurately distinguishing damagi...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+### 产品应用 / 监测落地
+
+- [An Interpretable Machine Learning Framework for Non-Small Cell Lung Cancer Drug Response Analysis](http://arxiv.org/abs/2603.16330v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：7.15 | 新颖度：7.29
   匹配主题：foundation_model_agent
-  中文摘要：Biomedical knowledge is fragmented across siloed databases -- Reactome for pathways, STRING for protein interactions, Gene Ontology for functional annotations, ClinicalTrials.gov for study registries, and dozens more. Re...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：Lung cancer is a condition where there is abnormal growth of malignant cells that spread in an uncontrollable fashion in the lungs. Some common treatment strategies are surgery, chemotherapy, and radiation which aren't t...
+  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 ## 可追踪
 
 ### Foundation Model / Agent
 
-- [KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation](http://arxiv.org/abs/2603.11501v2)
-  来源：arXiv | 日期：2026-03-12 | 相关度：6.55 | 新颖度：6.5
+- [Intelligent Co-Design: An Interactive LLM Framework for Interior Spatial Design via Multi-Modal Agents](http://arxiv.org/abs/2603.15341v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：7.9 | 新颖度：1.7
   匹配主题：foundation_model_agent
-  中文摘要：Graph-based Retrieval-Augmented Generation (GraphRAG) constructs the Knowledge Graph (KG) from external databases to enhance the timeliness and accuracy of Large Language Model (LLM) generations. However, this reliance o...
+  中文摘要：In architectural interior design, miscommunication frequently arises as clients lack design knowledge, while designers struggle to explain complex spatial relationships, leading to delayed timelines and financial losses....
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [OrgForge: A Multi-Agent Simulation Framework for Verifiable Synthetic Corporate Corpora](http://arxiv.org/abs/2603.14997v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：6.15 | 新颖度：7.14
+- [AutothinkRAG: Complexity-Aware Control of Retrieval-Augmented Reasoning for Image-Text Interaction](http://arxiv.org/abs/2603.05551v2)
+  来源：arXiv | 日期：2026-03-05 | 相关度：7.5 | 新颖度：5.75
   匹配主题：foundation_model_agent
-  中文摘要：Evaluating retrieval-augmented generation (RAG) pipelines requires corpora where ground truth is knowable, temporally structured, and cross-artifact properties that real-world datasets rarely provide cleanly. Existing re...
+  中文摘要：Multimodal document question answering requires retrieving dispersed evidence from visually rich long documents and performing reliable reasoning over heterogeneous information. Existing multimodal RAG systems remain lim...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering](http://arxiv.org/abs/2603.13950v1)
-  来源：arXiv | 日期：2026-03-14 | 相关度：6.15 | 新颖度：6.25
+- [OmicClaw: executable and reproducible natural-language multi-omics analysis over the unified OmicVerse ecosystem.](https://www.biorxiv.org/content/10.64898/2026.03.13.711464v1)
+  来源：bioRxiv | 日期：2026-03-17 | 相关度：7.15 | 新颖度：6.25
   匹配主题：foundation_model_agent
-  中文摘要：Large Language Model (LLM) agents increasingly use external tools for complex tasks and rely on embedding-based retrieval to select a small top-k subset for reasoning. As these systems scale, the robustness of this retri...
+  中文摘要：Advances in bulk, single-cell and spatial omics have transformed biological discovery, yet analysis remains fragmented across packages with incompatible interfaces, heterogeneous dependencies and limited workflow reprodu...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Agentic Exploration of Physics Models](http://arxiv.org/abs/2509.24978v5)
-  来源：arXiv | 日期：2025-09-29 | 相关度：6.15 | 新颖度：5.75
+- [Toward Experimentation-as-a-Service in 5G/6G: The Plaza6G Prototype for AI-Assisted Trials](http://arxiv.org/abs/2603.16356v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：6.55 | 新颖度：7.34
   匹配主题：foundation_model_agent
-  中文摘要：The process of scientific discovery relies on an interplay of observations, analysis, and hypothesis generation. Machine learning is increasingly being adopted to address individual aspects of this process. However, it r...
+  中文摘要：This paper presents Plaza6G, the first operational Experiment-as-a-Service (ExaS) platform unifying cloud resources with next-generation wireless infrastructure. Developed at CTTC in Barcelona, Plaza6G integrates GPU-acc...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language](http://arxiv.org/abs/2603.14501v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：5.45 | 新颖度：6.0
+- [Beyond the Embedding Bottleneck: Adaptive Retrieval-Augmented 3D CT Report Generation](http://arxiv.org/abs/2603.15822v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：6.45 | 新颖度：6.0
   匹配主题：foundation_model_agent
-  中文摘要：Large Language Models excel in high-resource programming languages but struggle with low-resource ones. Existing research related to low-resource programming languages primarily focuses on Domain-Specific Languages (DSLs...
+  中文摘要：Automated radiology report generation from 3D CT volumes often suffers from incomplete pathology coverage. We provide empirical evidence that this limitation stems from a representational bottleneck: contrastive 3D CT em...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Cropping outperforms dropout as an augmentation strategy for self-supervised training of text embeddings](http://arxiv.org/abs/2508.03453v2)
-  来源：arXiv | 日期：2025-08-05 | 相关度：5.45 | 新颖度：5.5
+- [RadAnnotate: Large Language Models for Efficient and Reliable Radiology Report Annotation](http://arxiv.org/abs/2603.16002v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：6.45 | 新颖度：5.5
   匹配主题：foundation_model_agent
-  中文摘要：Text embeddings, i.e. vector representations of entire texts, play an important role in many NLP applications, such as retrieval-augmented generation, clustering, or visualizing collections of texts for data exploration....
+  中文摘要：Radiology report annotation is essential for clinical NLP, yet manual labeling is slow and costly. We present RadAnnotate, an LLM-based framework that studies retrieval-augmented synthetic reports and confidence-based se...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Research Paradigm of Materials Science Tetrahedra with Artificial Intelligence](http://arxiv.org/abs/2603.13744v1)
-  来源：arXiv | 日期：2026-03-14 | 相关度：4.75 | 新颖度：5.25
+- [Protein Design with Agent Rosetta: A Case Study for Specialized Scientific Agents](http://arxiv.org/abs/2603.15952v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：5.75 | 新颖度：5.25
   匹配主题：foundation_model_agent
-  中文摘要：The classical material tetrahedron that represents the Structure-Property-Processing-Performance-Characterization relationship is the most important research paradigm in materials science so far. It has served as a proto...
+  中文摘要：Large language models (LLMs) are capable of emulating reasoning and using tools, creating opportunities for autonomous agents that execute complex scientific tasks. Protein design provides a natural testbed: although mac...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [CausalEvolve: Towards Open-Ended Discovery with Causal Scratchpad](http://arxiv.org/abs/2603.14575v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：4.75 | 新颖度：5.25
+- [Is Conformal Factuality for RAG-based LLMs Robust? Novel Metrics and Systematic Insights](http://arxiv.org/abs/2603.16817v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：5.45 | 新颖度：8.26
   匹配主题：foundation_model_agent
-  中文摘要：Evolve-based agent such as AlphaEvolve is one of the notable successes in using Large Language Models (LLMs) to build AI Scientists. These agents tackle open-ended scientific problems by iteratively improving and evolvin...
+  中文摘要：Large language models (LLMs) frequently hallucinate, limiting their reliability in knowledge-intensive applications. Retrieval-augmented generation (RAG) and conformal factuality have emerged as potential ways to address...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction](http://arxiv.org/abs/2603.11808v2)
+  来源：arXiv | 日期：2026-03-12 | 相关度：5.45 | 新颖度：5.5
+  匹配主题：foundation_model_agent
+  中文摘要：The transition from monolithic large language models (LLMs) to modular, skill-equipped agents represents a fundamental architectural shift in artificial intelligence deployment. While general-purpose models demonstrate r...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Toward Reliable Scientific Visualization Pipeline Construction with Structure-Aware Retrieval-Augmented LLMs](http://arxiv.org/abs/2603.16057v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：4.75 | 新颖度：5.25
+  匹配主题：foundation_model_agent
+  中文摘要：Scientific visualization pipelines encode domain-specific procedural knowledge with strict execution dependencies, making their construction sensitive to missing stages, incorrect operator usage, or improper ordering. Th...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Retrieval-Augmented Sketch-Guided 3D Building Generation](http://arxiv.org/abs/2603.16612v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：3.45 | 新颖度：8.09
+  匹配主题：foundation_model_agent
+  中文摘要：In the early design stage of Japanese detached houses, the lack of a unified design representation among clients, sales representatives, and designers leads to design drift and inefficient feedback. Usually, sketches han...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 数据集 / Benchmark
 
-- [The Impact of Ideological Discourses in RAG: A Case Study with COVID-19 Treatments](http://arxiv.org/abs/2603.14838v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：4.75 | 新颖度：5.56
+- [Machines acquire scientific taste from institutional traces](http://arxiv.org/abs/2603.16659v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：6.45 | 新颖度：7.95
   匹配主题：foundation_model_agent
-  中文摘要：This paper studies the impact of retrieved ideological texts on the outputs of large language models (LLMs). While interest in understanding ideology in LLMs has recently increased, little attention has been given to thi...
+  中文摘要：Artificial intelligence matches or exceeds human performance on tasks with verifiable answers, from protein folding to Olympiad mathematics. Yet the capacity that most governs scientific advance is not reasoning but tast...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Exploring different approaches to customize language models for domain-specific text-to-code generation](http://arxiv.org/abs/2603.16526v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：5.45 | 新颖度：8.17
+  匹配主题：foundation_model_agent
+  中文摘要：Large language models (LLMs) have demonstrated strong capabilities in generating executable code from natural language descriptions. However, general-purpose models often struggle in specialized programming contexts wher...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Detecting Manuscripts Related to Computable Phenotypes Using a Transformer-based Language Model](https://www.biorxiv.org/content/10.64898/2026.03.12.711165v1)
+  来源：bioRxiv | 日期：2026-03-16 | 相关度：5.45 | 新颖度：6.0
+  匹配主题：foundation_model_agent
+  中文摘要：Objective: The demand for a comprehensive phenomics library, which requires identifying computable phenotype definitions and associated metadata from an ever-expanding biomedical literature, presents a significant, labor...
   为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
+- [Artificial Intelligence for Automated, Highly Accurate, and Scalable Multimodal EHR Data Abstraction](https://www.medrxiv.org/content/10.64898/2026.03.16.26348522v1)
+  来源：medRxiv | 日期：2026-03-17 | 相关度：7.8 | 新颖度：5.5
+  匹配主题：foundation_model_agent
+  中文摘要：Electronic health records (EHRs) contain rich multimodal data but remain underutilized for populating clinical registries due to the time and cost of manual abstraction. We developed an AI driven pipeline to automate dat...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification](http://arxiv.org/abs/2603.04748v2)
-  来源：arXiv | 日期：2026-03-05 | 相关度：7.1 | 新颖度：5.75
+  来源：arXiv | 日期：2026-03-05 | 相关度：7.1 | 新颖度：0.75
   匹配主题：foundation_model_agent
   中文摘要：Motivation: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However, the identification of RBPs is complicated by their ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [QA-Dragon: Query-Aware Dynamic RAG System for Knowledge-Intensive Visual Question Answering](http://arxiv.org/abs/2508.05197v2)
-  来源：arXiv | 日期：2025-08-07 | 相关度：6.8 | 新颖度：5.5
+- [RNAElectra: An ELECTRA-Style RNA Foundation Model for RNA Regulatory Inference](https://www.biorxiv.org/content/10.64898/2026.03.15.711950v1)
+  来源：bioRxiv | 日期：2026-03-17 | 相关度：6.45 | 新颖度：6.5
   匹配主题：foundation_model_agent
-  中文摘要：Retrieval-Augmented Generation (RAG) has been introduced to mitigate hallucinations in Multimodal Large Language Models (MLLMs) by incorporating external knowledge into the generation process, and it has become a widely ...
+  中文摘要：RNA regulation governs gene expression through sequence-encoded mechanisms such as RNA structure formation, protein binding, chemical modification, and RNA-RNA targeting, with regulatory rules spanning both nucleotide-sc...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Expert Mind: A Retrieval-Augmented Architecture for Expert Knowledge Preservation in the Energy Sector](http://arxiv.org/abs/2603.14541v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：6.8 | 新颖度：5.5
-  匹配主题：foundation_model_agent
-  中文摘要：The departure of subject-matter experts from industrial organizations results in the irreversible loss of tacit knowledge that is rarely captured through conventional documentation practices. This paper proposes Expert M...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [APEX-Searcher: Augmenting LLMs' Search Capabilities through Agentic Planning and Execution](http://arxiv.org/abs/2603.13853v1)
+- [APEX-Searcher: Augmenting LLMs' Search Capabilities through Agentic Planning and Execution](http://arxiv.org/abs/2603.13853v2)
   来源：arXiv | 日期：2026-03-14 | 相关度：6.15 | 新颖度：6.25
   匹配主题：foundation_model_agent
   中文摘要：Retrieval-augmented generation (RAG), based on large language models (LLMs), serves as a vital approach to retrieving and leveraging external knowledge in various domain applications. When confronted with complex multi-h...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [ES-Merging: Biological MLLM Merging via Embedding Space Signals](http://arxiv.org/abs/2603.14405v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：6.1 | 新颖度：6.25
+- [Identification of disease-specific alleles and gene duplications from 1,600 Haemophilus influenzae genomes using predicted protein analyses from an unsupervised language model and clinical metadata](https://www.biorxiv.org/content/10.64898/2026.03.12.711436v1)
+  来源：bioRxiv | 日期：2026-03-15 | 相关度：5.75 | 新颖度：5.25
   匹配主题：foundation_model_agent
-  中文摘要：Biological multimodal large language models (MLLMs) have emerged as powerful foundation models for scientific discovery. However, existing models are specialized to a single modality, limiting their ability to solve inhe...
+  中文摘要：Haemophilus influenzae, a Gram-negative bacterium that is an obligate commensal of the human nasopharynx, is associated with both acute and chronic infections of the ears, adenoids, sinuses, and lungs, as well as pelvic ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/41837859/)
-  来源：PubMed | 日期：2026-03-16 | 相关度：5.75 | 新颖度：5.25
+- [When Stability Fails: Hidden Failure Modes Of LLMS in Data-Constrained Scientific Decision-Making](http://arxiv.org/abs/2603.15840v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：5.75 | 新颖度：5.25
   匹配主题：foundation_model_agent
-  中文摘要：High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic ...
+  中文摘要：Large language models (LLMs) are increasingly used as decision-support tools in data-constrained scientific workflows, where correctness and validity are critical. However, evaluation practices often emphasize stability ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [RESCUE: Retrieval Augmented Secure Code Generation](http://arxiv.org/abs/2510.18204v2)
-  来源：arXiv | 日期：2025-10-21 | 相关度：5.45 | 新颖度：6.0
+- [AGRAG: Advanced Graph-based Retrieval-Augmented Generation for LLMs](http://arxiv.org/abs/2511.05549v2)
+  来源：arXiv | 日期：2025-11-02 | 相关度：5.45 | 新颖度：5.5
   匹配主题：foundation_model_agent
-  中文摘要：Despite recent advances, Large Language Models (LLMs) still generate vulnerable code. Retrieval-Augmented Generation (RAG) has the potential to enhance LLMs for secure code generation by incorporating external security k...
+  中文摘要：Graph-based retrieval-augmented generation (Graph-based RAG) has demonstrated significant potential in enhancing Large Language Models (LLMs) with structured knowledge. However, existing methods face three critical chall...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation](http://arxiv.org/abs/2601.10168v2)
-  来源：arXiv | 日期：2026-01-15 | 相关度：5.45 | 新颖度：6.0
+- [LLM-Augmented Changepoint Detection: A Framework for Ensemble Detection and Automated Explanation](http://arxiv.org/abs/2601.02957v2)
+  来源：arXiv | 日期：2026-01-06 | 相关度：5.45 | 新颖度：5.5
   匹配主题：foundation_model_agent
-  中文摘要：Open-vocabulary 3D Scene Graph (3DSG) can enhance various downstream tasks in robotics by leveraging structured semantic representations, yet current 3DSG construction methods suffer from semantic inconsistencies caused ...
+  中文摘要：This paper introduces a novel changepoint detection framework that combines ensemble statistical methods with Large Language Models (LLMs) to enhance both detection accuracy and the interpretability of regime changes in ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development](http://arxiv.org/abs/2603.15538v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：4.75 | 新颖度：7.48
+- [LLM-Driven Discovery of High-Entropy Catalysts via Retrieval-Augmented Generation](http://arxiv.org/abs/2603.15712v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：5.45 | 新颖度：5.5
   匹配主题：foundation_model_agent
-  中文摘要：We introduce QiboAgent, a reference implementation designed to serve as a practitioner's guideline for developing specialized coding assistants in Quantum Computing middleware. Addressing the limitations in scientific so...
+  中文摘要：CO2 reduction requires efficient catalysts, yet materials discovery remains bottlenecked by 10-20 year development cycles requiring deep domain expertise. This paper demonstrates how large language models can assist the ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Retrieval-augmented Decoding for Improving Truthfulness in Open-ended Generation](http://arxiv.org/abs/2508.02184v2)
-  来源：arXiv | 日期：2025-08-04 | 相关度：4.75 | 新颖度：5.75
+- [SentGraph: Hierarchical Sentence Graph for Multi-hop Retrieval-Augmented Question Answering](http://arxiv.org/abs/2601.03014v2)
+  来源：arXiv | 日期：2026-01-06 | 相关度：4.75 | 新颖度：5.75
   匹配主题：foundation_model_agent
-  中文摘要：Ensuring truthfulness in large language models (LLMs) remains a critical challenge for reliable text generation. While supervised fine-tuning and reinforcement learning with human feedback have shown promise, they requir...
+  中文摘要：Traditional Retrieval-Augmented Generation (RAG) effectively supports single-hop question answering with large language models but faces significant limitations in multi-hop question answering tasks, which require combin...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [$p^2$RAG: Privacy-Preserving RAG Service Supporting Arbitrary Top-$k$ Retrieval](http://arxiv.org/abs/2603.14778v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：4.75 | 新颖度：5.25
+- [Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.](https://pubmed.ncbi.nlm.nih.gov/41842761/)
+  来源：PubMed | 日期：2026-03-17 | 相关度：4.4 | 新颖度：5.25
+  匹配主题：pathogenomics, sequencing_bioinformatics, application_monitoring
+  中文摘要：The escalating threat of antibiotic resistance demands a rapid and accurate pathogen identification. While Raman spectroscopy combined with deep learning supports fast detection, model robustness remains compromised by d...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [HGP-Mamba: Integrating Histology and Generated Protein Features for Mamba-based Multimodal Survival Risk Prediction](http://arxiv.org/abs/2603.16421v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：3.75 | 新颖度：7.86
   匹配主题：foundation_model_agent
-  中文摘要：Retrieval-Augmented Generation (RAG) enables large language models to use external knowledge, but outsourcing the RAG service raises privacy concerns for both data owners and users. Privacy-preserving RAG systems address...
+  中文摘要：Recent advances in multimodal learning have significantly improved cancer survival risk prediction. However, the joint prognostic potential of protein markers and histopathology images remains underexplored, largely due ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ### 产品应用 / 监测落地
 
-- [MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering](http://arxiv.org/abs/2603.14265v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：7.15 | 新颖度：6.25
+- [CoNVict: An Agentic AI System for Copy Number Variation Prioritization in Rare Disease Diagnosis](https://www.medrxiv.org/content/10.64898/2026.03.16.26348493v1)
+  来源：medRxiv | 日期：2026-03-17 | 相关度：7.15 | 新颖度：5.75
   匹配主题：foundation_model_agent
-  中文摘要：Recent advances in Retrieval-Augmented Generation (RAG) have enabled large language models (LLMs) to ground outputs in clinical evidence. However, connecting LLMs with external databases introduces the risk of contextual...
+  中文摘要：Copy number variants (CNVs) are established contributors to rare genetic disorders, yet their clinical interpretation remains challenging in diagnostic genomics. Large CNVs frequently encompass multiple functional region...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 ## 低优先级
 
 ### Foundation Model / Agent
 
-- [ClimateAgents: A Multi-Agent Research Assistant for Social-Climate Dynamics Analysis](http://arxiv.org/abs/2603.13840v1)
-  来源：arXiv | 日期：2026-03-14 | 相关度：3.45 | 新颖度：6.25
+- [OrgForge: A Multi-Agent Simulation Framework for Verifiable Synthetic Corporate Corpora](http://arxiv.org/abs/2603.14997v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：6.15 | 新颖度：1.25
   匹配主题：foundation_model_agent
-  中文摘要：The complex interaction between social behaviors and climate change requires more than traditional data-driven prediction; it demands interpretable and adaptive analytical frameworks capable of integrating heterogeneous ...
+  中文摘要：Evaluating retrieval-augmented generation (RAG) pipelines requires corpora where ground truth is knowable, temporally structured, and cross-artifact properties that real-world datasets rarely provide cleanly. Existing re...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization](http://arxiv.org/abs/2603.13767v1)
-  来源：arXiv | 日期：2026-03-14 | 相关度：2.75 | 新颖度：5.5
+- [Agentic Exploration of Physics Models](http://arxiv.org/abs/2509.24978v5)
+  来源：arXiv | 日期：2025-09-29 | 相关度：6.15 | 新颖度：0.75
   匹配主题：foundation_model_agent
-  中文摘要：现代芯片设计要求在严格的上市时间约束下，对时序、功耗和面积进行多目标优化（QoR）。尽管EDA工具集成了强大的优化算法，但实现高QoR仍高度依赖专家进行有效的长程调度。为实现芯片设计自动化，本文提出了一种基于大语言模型（LLM）的智能体框架，通过与EDA工具直接交互来调度优化任务。该智能体利用检索增强生成（RAG）将自然语言形式的专业知识转化为搜索树，并结合帕累托驱动的QoR反馈进行语言反思，以进一步提升调度质量。实验结果表明，与强化学...
+  中文摘要：The process of scientific discovery relies on an interplay of observations, analysis, and hypothesis generation. Machine learning is increasingly being adopted to address individual aspects of this process. However, it r...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Cropping outperforms dropout as an augmentation strategy for self-supervised training of text embeddings](http://arxiv.org/abs/2508.03453v2)
+  来源：arXiv | 日期：2025-08-05 | 相关度：5.45 | 新颖度：0.5
+  匹配主题：foundation_model_agent
+  中文摘要：Text embeddings, i.e. vector representations of entire texts, play an important role in many NLP applications, such as retrieval-augmented generation, clustering, or visualizing collections of texts for data exploration....
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [CausalEvolve: Towards Open-Ended Discovery with Causal Scratchpad](http://arxiv.org/abs/2603.14575v1)
+  来源：arXiv | 日期：2026-03-15 | 相关度：4.75 | 新颖度：0.25
+  匹配主题：foundation_model_agent
+  中文摘要：Evolve-based agent such as AlphaEvolve is one of the notable successes in using Large Language Models (LLMs) to build AI Scientists. These agents tackle open-ended scientific problems by iteratively improving and evolvin...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](http://arxiv.org/abs/2603.15080v2)
+  来源：arXiv | 日期：2026-03-16 | 相关度：3.1 | 新颖度：6.75
+  匹配主题：未命中具体主题
+  中文摘要：Biomedical knowledge is fragmented across siloed databases -- Reactome for pathways, STRING for protein interactions, ClinicalTrials.gov for study registries, DrugBank for drug vocabularies, DGIdb for drug-gene interacti...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [Benchmarking LLM-based agents for single-cell omics analysis](http://arxiv.org/abs/2508.13201v3)
-  来源：arXiv | 日期：2025-08-16 | 相关度：2.5 | 新颖度：6.5
+  来源：arXiv | 日期：2025-08-16 | 相关度：2.5 | 新颖度：1.5
   匹配主题：未命中具体主题
   中文摘要：单细胞组学数据的激增暴露了传统手动分析工作流的局限性。AI 智能体（Agents）通过自适应规划、可执行代码生成、可追溯决策和实时知识融合，为该领域带来了范式转变，但缺乏全面的基准测试阻碍了其发展。本研究引入了一种新型基准评估系统，旨在严格评估智能体在单细胞组学分析中的能力。该系统包含：一个兼容多种智能体框架和 LLM 的统一平台；涵盖认知程序合成、协作、执行效率、生物信息学知识整合和任务完成质量的多维指标；以及 50 个涵盖多组学、物...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Benchmarking Open-Source PPG Foundation Models for Biological Age Prediction](http://arxiv.org/abs/2603.14030v1)
-  来源：arXiv | 日期：2026-03-14 | 相关度：2.4 | 新颖度：7.0
-  匹配主题：未命中具体主题
-  中文摘要：本研究评估了开源光电容积脉搏波（PPG）基础模型在生物年龄预测中的表现。研究发现，在 212,231 名英国生物样本库（UK Biobank）受试者上训练的特定任务模型（AI-PPG Age）在处理不同临床人群数据时失效：无论真实年龄如何，其预测值均坍缩在 38-67 岁的狭窄范围内。相比之下，无年龄训练目标的通用基础模型在相同数据上实现了更低的误差。研究在 PulseDB 的 906 名手术患者上评估了 Pulse-PPG、PaPaG...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms](http://arxiv.org/abs/2602.08751v3)
-  来源：arXiv | 日期：2026-02-09 | 相关度：2.4 | 新颖度：5.5
+  来源：arXiv | 日期：2026-02-09 | 相关度：2.4 | 新颖度：0.5
   匹配主题：未命中具体主题
-  中文摘要：当前的生物 AI 模型普遍缺乏可解释性，其内部表示往往无法对应到可供研究者检验的生物学关系。为了解决这一问题，研究者开发了 CDT-II 模型，其架构直接模拟中心法则：包含 DNA 自注意力、RNA 自注意力以及用于模拟转录控制的交叉注意力机制，且仅需基因组嵌入和原始单细胞表达数据作为输入。在 K562 细胞系的 CRISPRi 扰动数据测试中（完全排除 5 个基因进行验证），CDT-II 预测扰动效应的平均相关系数 r 达到 0.84...
+  中文摘要：现有的生物 AI 模型普遍缺乏可解释性，其内部表示难以对应到可验证的生物学关系。CDT-II 提出了一种模拟“中心法则”的架构，包含 DNA 自注意力、RNA 自注意力和用于转录控制的交叉注意力模块，仅需基因组嵌入和原始单细胞表达数据即可运行。在 K562 细胞系的 CRISPRi 数据测试中，CDT-II 在 5 个完全预留基因的扰动效果预测上达到了平均相关系数 r = 0.84，并成功恢复了 GFI1B 调节网络（6.6 倍富集，P...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [HindSight: Evaluating Research Idea Generation via Future Impact](http://arxiv.org/abs/2603.15164v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：1.4 | 新颖度：6.88
+- [IndexRAG: Bridging Facts for Cross-Document Reasoning at Index Time](http://arxiv.org/abs/2603.16415v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：2.1 | 新颖度：7.59
   匹配主题：未命中具体主题
-  中文摘要：评估 AI 生成的研究思路通常依赖 LLM 评委或专家小组，这具有主观性且脱离实际研究影响力。本研究提出 HindSight，一种基于时间切分的评估框架，通过将生成的思路与真实的未来出版物进行匹配，并根据引用影响力和发表期刊/会议进行评分来衡量思路质量。该框架设定时间截止点 T，限制生成系统仅使用 T 之前的文献，随后将其输出与未来 30 个月内发表的论文进行对比。在 10 个 AI/ML 研究主题上的实验显示：LLM 作为评委无法区分...
+  中文摘要：多跳问答（QA）要求跨多个文档进行推理，但现有的检索增强生成（RAG）方法通常依赖于需要额外在线处理的图方法或迭代式多步推理。本文提出 IndexRAG，一种将跨文档推理从在线推理阶段转移到离线索引阶段的新方法。IndexRAG 通过识别文档间共享的桥接实体，生成作为独立可检索单元的“桥接事实”，该过程无需额外的模型训练或微调。在 HotpotQA、2WikiMultiHopQA 和 MuSiQue 三个主流多跳问答基准测试上的实验结果...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [On Theoretically-Driven LLM Agents for Multi-Dimensional Discourse Analysis](http://arxiv.org/abs/2602.13713v2)
+  来源：arXiv | 日期：2026-02-14 | 相关度：2.1 | 新颖度：6.25
+  匹配主题：未命中具体主题
+  中文摘要：识别话语中重构（reformulation）的策略性用途是计算论证领域的核心挑战。虽然大语言模型（LLM）擅长检测表面相似性，但往往难以捕捉重构的语用功能（如在修辞话语中的作用）。本文提出一种比较式多智能体框架，旨在量化引入显式理论知识对该任务的增益。研究利用标注的政治辩论数据集，建立了涵盖五种重构功能的新标准：减弱（Deintensification）、增强（Intensification）、具体化（Specification）、泛化...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis](http://arxiv.org/abs/2602.21637v3)
+  来源：arXiv | 日期：2026-02-25 | 相关度：1.7 | 新颖度：6.25
+  匹配主题：未命中具体主题
+  中文摘要：基础模型在计算病理学中取得了显著成功，但现有模型多依赖于非组织形态学定制的自然图像骨干网络，忽视了病理感兴趣区域（ROI）的异质性与非均匀组织结构，难以捕捉孤立切片之外的连贯组织架构。为此，研究者提出了跨模态自适应区域编码器（CARE），这是一种能自动将全扫描切片（WSI）划分为多个形态相关区域的病理基础模型。CARE 采用两阶段预训练策略：首先在 34,277 张无分割标注的 WSI 上进行自监督单模态预训练以学习形态表征；随后进入跨...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Programming Biomolecular Interactions with All-Atom Generative Model](https://www.biorxiv.org/content/10.64898/2026.03.12.711044v1)
+  来源：bioRxiv | 日期：2026-03-15 | 相关度：1.4 | 新颖度：6.0
+  匹配主题：未命中具体主题
+  中文摘要：生物分子相互作用是细胞生命的核心，涵盖从小分子到核酸和蛋白质的多种模态。尽管分子识别遵循共同的物理化学原理，但目前的分子设计策略在不同模态间仍是分离的。本文提出了 AnewOmni，这是一个在超过 500 万个生物分子复合物上训练的统一生成框架，通过在原子分辨率下组装具有化学意义的构建块，实现了跨尺度的可迁移分子设计。研究引入了可编程图提示（graph prompts），支持用户定义的化学、拓扑和几何引导，以探索非常规化学结构。通过捕获...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [HindSight: Evaluating LLM-Generated Research Ideas via Future Impact](http://arxiv.org/abs/2603.15164v2)
+  来源：arXiv | 日期：2026-03-16 | 相关度：1.4 | 新颖度：5.5
+  匹配主题：未命中具体主题
+  中文摘要：评估 AI 生成的科研想法通常依赖于 LLM 评委或专家小组，这具有主观性且与实际研究影响力脱节。本研究引入了 HindSight，这是一种基于时间分割的评估框架，通过将生成的想法与真实的未来出版物进行匹配，并根据引用影响力和发表平台水平进行评分，从而衡量想法的质量。该框架设定一个时间截止点 T，限制生成系统仅能访问 T 之前的文献，随后将其输出与 T 之后 30 个月内发表的论文进行对比。在 10 个 AI/ML 研究主题上的实验揭示...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Selective Memory for Artificial Intelligence: Write-Time Gating with Hierarchical Archiving](http://arxiv.org/abs/2603.15994v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：1.4 | 新颖度：5.5
+  匹配主题：未命中具体主题
+  中文摘要：检索增强生成（RAG）通常无差别地存储所有内容，导致噪声积累并降低准确性；而参数化方法将知识压缩进权重，无法进行选择性更新。本研究借鉴生物记忆机制，提出“写入时门控”（write-time gating）技术，利用综合显著性评分（来源声誉、新颖性、可靠性）过滤输入的知识对象，并维护版本链以保留历史状态。在无标注标签的真实大模型评估中，写入门控实现了 100% 的准确率，而未门控存储仅为 13%。实验发现，在 8:1 的干扰项比例下，读取...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [The Active Discoverer Framework: Towards Autonomous Physics Reasoning through Neuro-Symbolic LaTeX Synthesis](http://arxiv.org/abs/2601.06117v3)
-  来源：arXiv | 日期：2026-01-03 | 相关度：1.4 | 新颖度：6.0
+  来源：arXiv | 日期：2026-01-03 | 相关度：1.4 | 新颖度：1.0
   匹配主题：未命中具体主题
-  中文摘要：现代人工智能在统计插值方面表现出色，但在理论物理和数学所需的精确推理上存在根本缺陷。本研究识别出“浮点墙（Float Wall）”现象，即由于标准浮点表示和BPE分词导致神经外推在超过 $10^{16}$ 量级时发生灾难性崩溃。为此，我们提出了 Active Discoverer 框架，这是一种专为不变性发现设计的数字原生神经符号架构。其核心是 NumberNet，一种采用最低有效位（LSB）序列编码的孪生算术 Transformer，...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention](http://arxiv.org/abs/2603.14709v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：0.7 | 新颖度：6.25
-  匹配主题：未命中具体主题
-  中文摘要：时间序列基础模型（TSFMs）通过在多样化领域的大规模预训练展现了强大的表达能力，但在处理未见数据集的零样本预测时，其泛化能力仍受限。检索增强预测通过引入外部知识库来缓解这一问题，但现有方法通常依赖固定数量的检索样本，容易引入无关干扰信息。为此，本研究提出了 Cross-RAG，这是一种零样本检索增强预测框架，能够选择性地关注与查询相关的检索样本。Cross-RAG 通过查询-检索交叉注意力机制（query-retrieval cros...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Rethinking Evaluation in Retrieval-Augmented Personalized Dialogue: A Cognitive and Linguistic Perspective](http://arxiv.org/abs/2603.14217v1)
-  来源：arXiv | 日期：2026-03-15 | 相关度：0.7 | 新颖度：5.25
-  匹配主题：未命中具体主题
-  中文摘要：在认知科学和语言学理论中，对话被视为一种基于连贯性、一致性和共同理解的协作活动，而非独立话语的简单堆砌。然而，当前的开放域和个性化对话系统仍主要采用 BLEU、ROUGE 和 F1 等表面词汇相似性指标作为核心评估标准，这些指标无法捕捉对话质量的深层维度。本研究以检索增强的个性化对话框架 LAPDOG 为案例，重新审视了其评估方法。通过引入人类评判员和大型语言模型（LLM）评判员，研究识别了现有评估实践中的多项局限，包括对话历史损坏、检...
+  中文摘要：现代人工智能在统计插值方面表现出色，但在理论物理和数学所需的精确推理上存在根本缺陷。本文识别了“浮点墙”（Float Wall）现象，即由于标准浮点表示和BPE分词导致神经外推在超过 10^16 量级时发生灾难性崩溃。为解决此问题，我们提出了 Active Discoverer 框架，这是一种专为不变性发现设计的数字原生神经符号架构。其核心是 NumberNet，一种采用最低有效位（LSB）序列编码的孪生算术 Transformer，实...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 数据集 / Benchmark
 
-- [Grounding World Simulation Models in a Real-World Metropolis](http://arxiv.org/abs/2603.15583v1)
-  来源：arXiv | 日期：2026-03-16 | 相关度：0.7 | 新颖度：8.1
+- [The Impact of Ideological Discourses in RAG: A Case Study with COVID-19 Treatments](http://arxiv.org/abs/2603.14838v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：4.75 | 新颖度：0.25
+  匹配主题：foundation_model_agent
+  中文摘要：This paper studies the impact of retrieved ideological texts on the outputs of large language models (LLMs). While interest in understanding ideology in LLMs has recently increased, little attention has been given to thi...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models](http://arxiv.org/abs/2510.20042v2)
+  来源：arXiv | 日期：2025-10-22 | 相关度：0.7 | 新颖度：5.75
   匹配主题：未命中具体主题
-  中文摘要：本研究探讨了世界模拟模型如何渲染真实存在的城市而非虚构环境。以往的生成式世界模型虽能合成视觉合理的图像，但内容多为虚构。我们提出了首尔世界模型（SWM），这是一个锚定于真实首尔市的城市级世界模型。SWM 通过对附近街景图像进行检索增强调节，实现了自回归视频生成。针对检索参考与动态场景的时间不一致、轨迹多样性有限及车辆采集数据稀疏等挑战，我们采用了跨时间配对、支持多样相机轨迹的大规模合成数据集，以及从稀疏街景合成连贯视频的视图插值管线。此...
+  中文摘要：生成式图像模型在产生视觉效果的同时常误导文化表征。本研究针对以往研究多集中于文本到图像（T2I）系统而忽视图像到图像（I2I）编辑的现状，构建了一个涵盖6个国家、8个大类及36个子类模式的统一评估框架。研究采用时代感知提示词，在标准化协议下对开源模型的T2I生成和I2I编辑进行跨国家、跨时代和跨类别的审计。评估方法结合了标准自动指标、文化感知检索增强视觉问答（RAG-VQA）以及母语专家的视觉评判。研究发现：在国家无关提示下，模型默认呈...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Grounding World Simulation Models in a Real-World Metropolis](http://arxiv.org/abs/2603.15583v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：0.7 | 新颖度：0.75
+  匹配主题：未命中具体主题
+  中文摘要：本文提出了首尔世界模型（SWM），这是一种锚定于真实城市环境的城市级世界模拟模型。与以往合成虚构环境的生成式世界模型不同，SWM 通过检索增强调节（retrieval-augmented conditioning）邻近街景图像，实现了自回归视频生成。针对检索参考图与动态目标场景间的时间错位、轨迹多样性受限以及车载采集数据稀疏等挑战，研究团队采用了跨时空配对、大规模合成数据集以及视图插值流水线，从稀疏街景中合成连贯的训练视频。此外，引入“...
   为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
-- [From Study Design to Executable Code: Automating Target Trial Emulation with Large Language Models](https://www.medrxiv.org/content/10.64898/2026.03.13.26348306v1)
-  来源：medRxiv | 日期：2026-03-14 | 相关度：4.75 | 新颖度：0.25
+- [ES-Merging: Biological MLLM Merging via Embedding Space Signals](http://arxiv.org/abs/2603.14405v1)
+  来源：arXiv | 日期：2026-03-15 | 相关度：6.1 | 新颖度：1.25
   匹配主题：foundation_model_agent
-  中文摘要：实施目标试验模拟（TTE）研究并生成端到端可执行分析代码具有极高的技术门槛。本研究开发了 THESEUS 框架，旨在将自由文本形式的研究描述转化为 OHDSI 生态系统中标准化的分析规范和可执行的 Strategus R 脚本。THESEUS 包含两个核心步骤：首先，利用大语言模型（LLM）将研究描述映射到受限的 JSON 模式中实现标准化；其次，将结构化规范转换为 R 脚本，并引入自审计循环进行错误修正。研究评估了 8 种商业 LLM...
+  中文摘要：Biological multimodal large language models (MLLMs) have emerged as powerful foundation models for scientific discovery. However, existing models are specialized to a single modality, limiting their ability to solve inhe...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations](http://arxiv.org/abs/2510.11750v2)
-  来源：arXiv | 日期：2025-10-12 | 相关度：3.05 | 新颖度：5.75
+- [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/41837859/)
+  来源：PubMed | 日期：2026-03-16 | 相关度：5.75 | 新颖度：0.25
   匹配主题：foundation_model_agent
-  中文摘要：蛋白质逆折叠（根据目标3D结构设计序列）是蛋白质工程的核心，但受限于巨大的序列空间和局部结构约束。现有深度学习方法虽有较高恢复率，但缺乏显式机制来复用天然蛋白质中保守的细粒度结构-序列模式。为此，研究者提出了PRISM，一种用于逆折叠的多模态检索增强生成（RAG）框架。PRISM从已知蛋白质中检索潜在基序（motif）的细粒度表示，并利用混合自交叉注意力解码器进行整合。该模型被表述为潜变量概率模型，并通过高效近似实现，兼顾了理论基础与实...
+  中文摘要：High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic ...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation](http://arxiv.org/abs/2601.10168v2)
+  来源：arXiv | 日期：2026-01-15 | 相关度：5.45 | 新颖度：1.0
+  匹配主题：foundation_model_agent
+  中文摘要：Open-vocabulary 3D Scene Graph (3DSG) can enhance various downstream tasks in robotics by leveraging structured semantic representations, yet current 3DSG construction methods suffer from semantic inconsistencies caused ...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development](http://arxiv.org/abs/2603.15538v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：4.75 | 新颖度：0.25
+  匹配主题：foundation_model_agent
+  中文摘要：We introduce QiboAgent, a reference implementation designed to serve as a practitioner's guideline for developing specialized coding assistants in Quantum Computing middleware. Addressing the limitations in scientific so...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Using image classifiers to predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons](https://www.biorxiv.org/content/10.64898/2026.03.16.712192v1)
+  来源：bioRxiv | 日期：2026-03-17 | 相关度：2.65 | 新颖度：5.75
+  匹配主题：sequencing_bioinformatics
+  中文摘要：Charcot-Marie-Tooth disease type 2A (CMT2A) is a genetic disease characterized by autosomal dominant MFN2 mutations and dysregulated mitochondrial trafficking. While there is currently no FDA-approved CMT2A therapy, the ...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Open-Source Reproduction and Explainability Analysis of Corrective Retrieval Augmented Generation](http://arxiv.org/abs/2603.16169v1)
+  来源：arXiv | 日期：2026-03-17 | 相关度：1.4 | 新颖度：5.97
+  匹配主题：未命中具体主题
+  中文摘要：纠正性检索增强生成（CRAG）通过评估检索文档质量并触发纠正措施，显著提升了 RAG 系统的鲁棒性。然而，原始 CRAG 实现依赖 Google Search API 和闭源模型权重，限制了学术复现与私有化部署。本研究展示了 CRAG 的完全开源复现方案，将专有 Web 搜索替换为 Wikipedia API，并将原 LLaMA-2 生成器替换为 Phi-3-mini-4k-instruct。我们在 PopQA 和 ARC-Challe...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [GlobalRAG: Enhancing Global Reasoning in Multi-hop Question Answering via Reinforcement Learning](http://arxiv.org/abs/2510.20548v4)
-  来源：arXiv | 日期：2025-10-23 | 相关度：0.7 | 新颖度：5.75
+  来源：arXiv | 日期：2025-10-23 | 相关度：0.7 | 新颖度：0.75
   匹配主题：未命中具体主题
-  中文摘要：强化学习在提升检索增强生成（RAG）方面展现出潜力，但在多跳问答（QA）任务中仍面临全局规划缺失和执行不忠实（如查询构建不当、证据使用不一致）两大挑战。为此，本研究提出 GlobalRAG 强化学习框架，旨在增强多跳问答中的全局推理能力。该框架将复杂问题分解为多个子目标，协调检索与推理过程，并对证据进行迭代优化。为了引导模型学习，研究引入了“规划质量奖励”和“子目标完成奖励”，以促进连贯规划和可靠的子目标执行。此外，采用渐进式权重退火策...
+  中文摘要：强化学习（RL）在改进检索增强生成（RAG）方面展现了潜力，但在多跳问答（QA）中仍受限于缺乏全局规划和执行不忠实（阻碍了查询构建和证据的一致性使用）。本文提出 GlobalRAG，一个旨在增强多跳问答全局推理能力的强化学习框架。GlobalRAG 将复杂问题分解为子目标，协调检索与推理过程，并迭代优化证据。为了引导这一过程，研究者引入了“规划质量奖励”和“子目标完成奖励”，以鼓励连贯的规划和可靠的子目标执行。此外，该框架采用渐进式权重...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ### 产品应用 / 监测落地
 
-- [Integrative Approaches in Lung Cancer Diagnosis: Bridging Molecular Biomarkers and AI Driven Imaging.](https://pubmed.ncbi.nlm.nih.gov/41830914/)
-  来源：PubMed | 日期：2026-03-14 | 相关度：1.7 | 新颖度：0.25
-  匹配主题：未命中具体主题
-  中文摘要：传统的肺癌诊断方法（如X射线、CT、支气管镜和组织活检）在早期检测方面存在局限。近期，分子生物学与计算技术的进步推动了诊断范式的转变。本综述分析了将EGFR、ALK、KRAS、BRAF、MET及PD-L1表达等分子生物标志物整合入常规诊断，以实现精准分型和治疗选择。液体活检和循环肿瘤DNA（ctDNA）等先进技术为肿瘤特征分析和实时监测提供了非侵入性手段。二代测序（NGS）及基因组学、转录组学、蛋白质组学等多组学方法提供了肿瘤微环境的详...
+- [A Comprehensive Benchmark of Histopathology Foundation Models for Kidney Histopathology](http://arxiv.org/abs/2603.15967v1)
+  来源：arXiv | 日期：2026-03-16 | 相关度：3.05 | 新颖度：6.75
+  匹配主题：foundation_model_agent
+  中文摘要：Histopathology foundation models (HFMs), pretrained on large-scale cancer datasets, have advanced computational pathology. However, their applicability to non-cancerous chronic kidney disease remains underexplored, despi...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
