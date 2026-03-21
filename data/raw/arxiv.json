@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-03-20T03:36:38.408872+00:00",
+  "fetched_at": "2026-03-21T03:27:11.395695+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 55,
+  "count": 45,
   "papers": [
     {
       "title": "Multimodal Model for Computational Pathology:Representation Learning and Image Compression",
@@ -96,87 +96,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Intracellular Measurement-Informed Multiscale Modeling for Scalable iPSC Manufacturing",
-      "source": "arXiv",
-      "date": "2026-03-17T19:24:46+00:00",
-      "updated": "2026-03-17T19:24:46+00:00",
-      "url": "http://arxiv.org/abs/2603.17090v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17090v1",
-      "abstract": "Scalable manufacturing of human induced pluripotent stem cells (iPSCs) is essential for industrial-scale production of cell therapies and regenerative medicines. However, the 3D aggregate cultures used in manufacturing exhibit substantial spatial and metabolic heterogeneity compared with the relatively homogeneous monolayer systems used in laboratory studies, complicating mechanistic understanding and predictive metabolic modeling across culture scales. To address this challenge, we developed a modular multiscale mechanistic foundation model that links molecular, cellular, and macroscopic processes while accounting for spatial and metabolic heterogeneity. The framework integrates extracellular culture dynamics, intracellular metabolic fluxes, and cellular redox states by extending a previously established monolayer kinetic network and coupling it with a biological systems-of-systems (Bio-SoS) multiscale model for aggregate cultures, incorporating explicit redox interactions. Systematic monolayer and aggregate experiments (including multiple isotopic tracers, extracellular metabolite profiling, and two-photon optical redox imaging) were used to improve and validate the model. This integrated framework unifies heterogeneous datasets across culture configurations and enables mechanistic interpretation of metabolic and redox responses across heterogeneous culture scales, providing a quantitative foundation for scalable iPSC biomanufacturing.",
-      "authors": [
-        "Fuqiang Cheng",
-        "Zahra Foroozan Jahromi",
-        "Keqi Wang",
-        "Thomas C. Caldwell",
-        "Grace Cai",
-        "Keilung Choy",
-        "Jared Auclair",
-        "Jeffrey L. Campbell",
-        "Youbo Zhao",
-        "Seongkyu Yoon",
-        "Sarah W. Harcum",
-        "Wei Xie"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17090v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "General Mechanism of Evolution Shared by Proteins and Words",
-      "source": "arXiv",
-      "date": "2020-12-28T15:46:19+00:00",
-      "updated": "2026-03-17T14:18:19+00:00",
-      "url": "http://arxiv.org/abs/2012.14309v3",
-      "pdf_url": "https://arxiv.org/pdf/2012.14309v3",
-      "abstract": "Complex systems, such as life and languages, are governed by principles of evolution. The analogy and comparison between biology and linguistics\\cite{alphafold2, RoseTTAFold, lang_virus, cell language, faculty1, language of gene, Protein linguistics, dictionary, Grammar of pro_dom, complexity, genomics_nlp, InterPro, language modeling, Protein language modeling} provide a computational foundation for characterizing and analyzing protein sequences, human corpora, and their evolution. However, no general mathematical formula has been proposed so far to illuminate the origin of quantitative hallmarks shared by life and language. Here we show several new statistical relationships shared by proteins and words, which inspire us to establish a general mechanism of evolution with explicit formulations that can incorporate both old and new characteristics. We found natural selection can be quantified via the entropic formulation by the principle of least effort to determine the sequence variation that survives in evolution. Besides, the origin of power law behavior and how changes in the environment stimulate the emergence of new proteins and words can also be explained via the introduction of function connection network. Our results demonstrate not only the correspondence between genetics and linguistics over their different hierarchies but also new fundamental physical properties for the evolution of complex adaptive systems. We anticipate our statistical tests can function as quantitative criteria to examine whether an evolution theory of sequence is consistent with the regularity of real data. In the meantime, their correspondence broadens the bridge to exchange existing knowledge, spurs new interpretations, and opens Pandora's box to release several potentially revolutionary challenges. For example, does linguistic arbitrariness conflict with the dogma that structure determines function?",
-      "authors": [
-        "Li-Min Wang",
-        "Hsing-Yi Lai",
-        "Sun-Ting Tsai",
-        "Chen Siang Ng",
-        "Kevin Sheng-Kai Ma",
-        "Shan-Jyun Wu",
-        "Meng-Xue Tsai",
-        "Yi-Ching Su",
-        "Daw-Wei Wang",
-        "Tzay-Ming Hong"
-      ],
-      "doi": "",
-      "arxiv_id": "2012.14309v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for Whole Slide Image Analysis",
-      "source": "arXiv",
-      "date": "2026-02-25T07:01:54+00:00",
-      "updated": "2026-03-17T08:48:49+00:00",
-      "url": "http://arxiv.org/abs/2602.21637v3",
-      "pdf_url": "https://arxiv.org/pdf/2602.21637v3",
-      "abstract": "Foundation models have recently achieved impressive success in computational pathology, demonstrating strong generalization across diverse histopathology tasks. However, existing models overlook the heterogeneous and non-uniform organization of pathological regions of interest (ROIs) because they rely on natural image backbones not tailored for tissue morphology. Consequently, they often fail to capture the coherent tissue architecture beyond isolated patches, limiting interpretability and clinical relevance. To address these challenges, we present Cross-modal Adaptive Region Encoder (CARE), a foundation model for pathology that automatically partitions WSIs into several morphologically relevant regions. Specifically, CARE employs a two-stage pretraining strategy: (1) a self-supervised unimodal pretraining stage that learns morphological representations from 34,277 whole-slide images (WSIs) without segmentation annotations, and (2) a cross-modal alignment stage that leverages RNA and protein profiles to refine the construction and representation of adaptive regions. This molecular guidance enables CARE to identify biologically relevant patterns and generate irregular yet coherent tissue regions, selecting the most representative area as ROI. CARE supports a broad range of pathology-related tasks, using either the ROI feature or the slide-level feature obtained by aggregating adaptive regions. Based on only one-tenth of the pretraining data typically used by mainstream foundation models, CARE achieves superior average performance across 33 downstream benchmarks, including morphological classification, molecular prediction, and survival analysis, and outperforms other foundation model baselines overall.",
-      "authors": [
-        "Di Zhang",
-        "Zhangpeng Gong",
-        "Xiaobo Pang",
-        "Jiashuai Liu",
-        "Junbo Lu",
-        "Hao Cui",
-        "Jiusong Ge",
-        "Zhi Zeng",
-        "Kai Yi",
-        "Yinghua Li",
-        "Si Liu",
-        "Tingsong Yu",
-        "Haoran Wang",
-        "Mireia Crispin-Ortuzar",
-        "Weimiao Yu",
-        "Chen Li",
-        "Zeyu Gao"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.21637v3",
-      "pubmed_id": ""
-    },
-    {
       "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
       "source": "arXiv",
       "date": "2026-03-04T03:30:17+00:00",
@@ -252,68 +171,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "AI Scientist via Synthetic Task Scaling",
-      "source": "arXiv",
-      "date": "2026-03-17T23:43:16+00:00",
-      "updated": "2026-03-17T23:43:16+00:00",
-      "url": "http://arxiv.org/abs/2603.17216v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17216v1",
-      "abstract": "With the advent of AI agents, automatic scientific discovery has become a tenable goal. Many recent works scaffold agentic systems that can perform machine learning research, but don't offer a principled way to train such agents -- and current LLMs often generate plausible-looking but ineffective ideas. To make progress on training agents that can learn from doing, we provide a novel synthetic environment generation pipeline targeting machine learning agents. Our pipeline automatically synthesizes machine learning challenges compatible with the SWE-agent framework, covering topic sampling, dataset proposal, and code generation. The resulting synthetic tasks are 1) grounded in real machine learning datasets, because the proposed datasets are verified against the Huggingface API and are 2) verified for higher quality with a self-debugging loop. To validate the effectiveness of our synthetic tasks, we tackle MLGym, a benchmark for machine learning tasks. From the synthetic tasks, we sample trajectories from a teacher model (GPT-5), then use the trajectories to train a student model (Qwen3-4B and Qwen3-8B). The student models trained with our synthetic tasks achieve improved performance on MLGym, raising the AUP metric by 9% for Qwen3-4B and 12% for Qwen3-8B.",
-      "authors": [
-        "Ziyang Cai",
-        "Harkirat Behl"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17216v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Tabular LLMs for Interpretable Few-Shot Alzheimer's Disease Prediction with Multimodal Biomedical Data",
-      "source": "arXiv",
-      "date": "2026-03-17T22:43:50+00:00",
-      "updated": "2026-03-17T22:43:50+00:00",
-      "url": "http://arxiv.org/abs/2603.17191v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17191v1",
-      "abstract": "Accurate diagnosis of Alzheimer's disease (AD) requires handling tabular biomarker data, yet such data are often small and incomplete, where deep learning models frequently fail to outperform classical methods. Pretrained large language models (LLMs) offer few-shot generalization, structured reasoning, and interpretable outputs, providing a powerful paradigm shift for clinical prediction. We propose TAP-GPT Tabular Alzheimer's Prediction GPT, a domain-adapted tabular LLM framework built on TableGPT2 and fine-tuned for few-shot AD classification using tabular prompts rather than plain texts. We evaluate TAP-GPT across four ADNI-derived datasets, including QT-PAD biomarkers and region-level structural MRI, amyloid PET, and tau PET for binary AD classification. Across multimodal and unimodal settings, TAP-GPT improves upon its backbone models and outperforms traditional machine learning baselines in the few-shot setting while remaining competitive with state-of-the-art general-purpose LLMs. We show that feature selection mitigates degradation in high-dimensional inputs and that TAP-GPT maintains stable performance under simulated and real-world missingness without imputation. Additionally, TAP-GPT produces structured, modality-aware reasoning aligned with established AD biology and shows greater stability under self-reflection, supporting its use in iterative multi-agent systems. To our knowledge, this is the first systematic application of a tabular-specialized LLM to multimodal biomarker-based AD prediction, demonstrating that such pretrained models can effectively address structured clinical prediction tasks and laying the foundation for tabular LLM-driven multi-agent clinical decision-support systems. The source code is publicly available on GitHub: https://github.com/sophie-kearney/TAP-GPT.",
-      "authors": [
-        "Sophie Kearney",
-        "Shu Yang",
-        "Zixuan Wen",
-        "Weimin Lyu",
-        "Bojian Hou",
-        "Duy Duong-Tran",
-        "Tianlong Chen",
-        "Jason H. Moore",
-        "Marylyn D. Ritchie",
-        "Chao Chen",
-        "Li Shen"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17191v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Ablation Study of a Fairness Auditing Agentic System for Bias Mitigation in Early-Onset Colorectal Cancer Detection",
-      "source": "arXiv",
-      "date": "2026-03-17T22:13:22+00:00",
-      "updated": "2026-03-17T22:13:22+00:00",
-      "url": "http://arxiv.org/abs/2603.17179v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17179v1",
-      "abstract": "Artificial intelligence (AI) is increasingly used in clinical settings, yet limited oversight and domain expertise can allow algorithmic bias and safety risks to persist. This study evaluates whether an agentic AI system can support auditing biomedical machine learning models for fairness in early-onset colorectal cancer (EO-CRC), a condition with documented demographic disparities. We implemented a two-agent architecture consisting of a Domain Expert Agent that synthesizes literature on EO-CRC disparities and a Fairness Consultant Agent that recommends sensitive attributes and fairness metrics for model evaluation. An ablation study compared three Ollama large language models (8B, 20B, and 120B parameters) across three configurations: pretrained LLM-only, Agent without Retrieval-Augmented Generation (RAG), and Agent with RAG. Across models, the Agent with RAG achieved the highest semantic similarity to expert-derived reference statements, particularly for disparity identification, suggesting agentic systems with retrieval may help scale fairness auditing in clinical AI.",
-      "authors": [
-        "Amalia Ionescu",
-        "Jose Guadalupe Hernandez",
-        "Jui-Hsuan Chang",
-        "Emily F. Wong",
-        "Paul Wang",
-        "Jason H. Moore",
-        "Tiffani J. Bright"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17179v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "BVSIMC: Bayesian Variable Selection-Guided Inductive Matrix Completion for Improved and Interpretable Drug Discovery",
       "source": "arXiv",
       "date": "2026-03-19T14:25:10+00:00",
@@ -383,73 +240,6 @@
       ],
       "doi": "",
       "arxiv_id": "2603.16421v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Binary Latent Protein Fitness Landscapes for Quantum Annealing Optimization",
-      "source": "arXiv",
-      "date": "2026-03-18T01:06:20+00:00",
-      "updated": "2026-03-18T01:06:20+00:00",
-      "url": "http://arxiv.org/abs/2603.17247v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17247v1",
-      "abstract": "We propose Q-BIOLAT, a framework for modeling and optimizing protein fitness landscapes in binary latent spaces. Starting from protein sequences, we leverage pretrained protein language models to obtain continuous embeddings, which are then transformed into compact binary latent representations. In this space, protein fitness is approximated using a quadratic unconstrained binary optimization (QUBO) model, enabling efficient combinatorial search via classical heuristics such as simulated annealing and genetic algorithms. On the ProteinGym benchmark, we demonstrate that Q-BIOLAT captures meaningful structure in protein fitness landscapes and enables the identification of high-fitness variants. Despite using a simple binarization scheme, our method consistently retrieves sequences whose nearest neighbors lie within the top fraction of the training fitness distribution, particularly under the strongest configurations. We further show that different optimization strategies exhibit distinct behaviors, with evolutionary search performing better in higher-dimensional latent spaces and local search remaining competitive in preserving realistic sequences. Beyond its empirical performance, Q-BIOLAT provides a natural bridge between protein representation learning and combinatorial optimization. By formulating protein fitness as a QUBO problem, our framework is directly compatible with emerging quantum annealing hardware, opening new directions for quantum-assisted protein engineering. Our implementation is publicly available at: https://github.com/HySonLab/Q-BIOLAT",
-      "authors": [
-        "Truong-Son Hy"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17247v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Self-Conditioned Denoising for Atomistic Representation Learning",
-      "source": "arXiv",
-      "date": "2026-03-17T22:52:18+00:00",
-      "updated": "2026-03-17T22:52:18+00:00",
-      "url": "http://arxiv.org/abs/2603.17196v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.17196v1",
-      "abstract": "The success of large-scale pretraining in NLP and computer vision has catalyzed growing efforts to develop analogous foundation models for the physical sciences. However, pretraining strategies using atomistic data remain underexplored. To date, large-scale supervised pretraining on DFT force-energy labels has provided the strongest performance gains to downstream property prediction, out-performing existing methods of self-supervised learning (SSL) which remain limited to ground-state geometries, and/or single domains of atomistic data. We address these shortcomings with Self-Conditioned Denoising (SCD), a backbone-agnostic reconstruction objective that utilizes self-embeddings for conditional denoising across any domain of atomistic data, including small molecules, proteins, periodic materials, and 'non-equilibrium' geometries. When controlled for backbone architecture and pretraining dataset, SCD significantly outperforms previous SSL methods on downstream benchmarks and matches or exceeds the performance of supervised force-energy pretraining. We show that a small, fast GNN pretrained by SCD can achieve competitive or superior performance to larger models pretrained on significantly larger labeled or unlabeled datasets, across tasks in multiple domains. Our code is available at: https://github.com/TyJPerez/SelfConditionedDenoisingAtoms",
-      "authors": [
-        "Tynan Perez",
-        "Rafael Gomez-Bombarelli"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.17196v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Machines acquire scientific taste from institutional traces",
-      "source": "arXiv",
-      "date": "2026-03-17T15:28:24+00:00",
-      "updated": "2026-03-17T15:28:24+00:00",
-      "url": "http://arxiv.org/abs/2603.16659v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.16659v1",
-      "abstract": "Artificial intelligence matches or exceeds human performance on tasks with verifiable answers, from protein folding to Olympiad mathematics. Yet the capacity that most governs scientific advance is not reasoning but taste: the ability to judge which untested ideas deserve pursuit, exercised daily by editors and funders but never successfully articulated, taught, or automated. Here we show that fine-tuning language models on journal publication decisions recovers evaluative judgment inaccessible to both frontier models and human expertise. Using a held-out benchmark of research pitches in management spanning four quality tiers, we find that eleven frontier models, spanning major proprietary and open architectures, barely exceed chance, averaging 31% accuracy. Panels of journal editors and editorial board members reach 42% by majority vote. Fine-tuned models trained on years of publication records each surpass every frontier model and expert panel, with the best single model achieving 59%. These models exhibit calibrated confidence, reaching 100% accuracy on their highest-confidence predictions, and transfer this evaluative signal to untrained pairwise comparisons and one-sentence summaries. The mechanism generalizes: models trained on economics publication records achieve 70% accuracy. Scientific taste was not missing from AI's reach; it was deposited in the institutional record, waiting to be extracted. These results provide a scalable mechanism to triage the expanding volume of scientific production across disciplines where quality resists formal verification.",
-      "authors": [
-        "Ziqin Gong",
-        "Ning Li",
-        "Huaikang Zhou"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.16659v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "An Interpretable Machine Learning Framework for Non-Small Cell Lung Cancer Drug Response Analysis",
-      "source": "arXiv",
-      "date": "2026-03-17T10:01:26+00:00",
-      "updated": "2026-03-17T10:01:26+00:00",
-      "url": "http://arxiv.org/abs/2603.16330v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.16330v1",
-      "abstract": "Lung cancer is a condition where there is abnormal growth of malignant cells that spread in an uncontrollable fashion in the lungs. Some common treatment strategies are surgery, chemotherapy, and radiation which aren't the best options due to the heterogeneous nature of cancer. In personalized medicine, treatments are tailored according to the individual's genetic information along with lifestyle aspects. In addition, AI-based deep learning methods can analyze large sets of data to find early signs of cancer, types of tumor, and prospects of treatment. The paper focuses on the development of personalized treatment plans using specific patient data focusing primarily on the genetic profile. Multi-Omics data from Genomics of Drug Sensitivity in Cancer have been used to build a predictive model along with machine learning techniques. The value of the target variable, LN-IC50, determines how sensitive or resistive a drug is. An XGBoost regressor is utilized to predict the drug response focusing on molecular and cellular features extracted from cancer datasets. Cross-validation and Randomized Search are performed for hyperparameter tuning to further optimize the model's predictive performance. For explanation purposes, SHAP (SHapley Additive exPlanations) was used. SHAP values measure each feature's impact on an individual prediction. Furthermore, interpreting feature relationships was performed using DeepSeek, a large language model trained to verify the biological validity of the features. Contextual explanations regarding the most important genes or pathways were provided by DeepSeek alongside the top SHAP value constituents, supporting the predictability of the model.",
-      "authors": [
-        "Ann Rachel",
-        "Pranav M Pawar",
-        "Mithun Mukharjee",
-        "Raja M",
-        "Tojo Mathew"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.16330v1",
       "pubmed_id": ""
     },
     {
@@ -1103,7 +893,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 55,
+      "count": 45,
       "error": ""
     }
   ]
