@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-03-22 03:47:07
+最近更新：2026-03-23 03:53:13
 
-累计论文数：323
-最近一次新增：32
+累计论文数：331
+最近一次新增：19
 
 ## 概览
 
-- 来源分布：PubMed=35, arXiv=190, bioRxiv=73, medRxiv=25
-- 类别分布：clinical_application=33, dataset=27, foundation_model=134, general=4, methods=125
-- 热门主题：foundation_model_agent=218, pathogenomics=44, sequencing_bioinformatics=21, application_monitoring=5, data_fair_training=2
+- 来源分布：PubMed=35, arXiv=198, bioRxiv=73, medRxiv=25
+- 类别分布：clinical_application=33, dataset=27, foundation_model=136, general=4, methods=131
+- 热门主题：foundation_model_agent=221, pathogenomics=44, sequencing_bioinformatics=21, application_monitoring=5, data_fair_training=2
 
 ## 按类别索引
 
@@ -18,11 +18,6 @@
 - [MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering](http://arxiv.org/abs/2603.14265v1)
   来源：arXiv | 日期：2026-03-15 | 主题：foundation_model_agent
   相关度：7.15 | 新颖度：6.25 | 综合：6.835
-  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [From Concept to Clinic: Real World Evidence for Autonomous AI Deployment in Primary Care Telemedicine](https://www.medrxiv.org/content/10.64898/2026.03.18.26348749v1)
-  来源：medRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
-  相关度：7.15 | 新颖度：5.75 | 综合：6.66
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/)
@@ -47,6 +42,11 @@
 
 - [CoNVict: An Agentic AI System for Copy Number Variation Prioritization in Rare Disease Diagnosis](https://www.medrxiv.org/content/10.64898/2026.03.16.26348493v1)
   来源：medRxiv | 日期：2026-03-17 | 主题：foundation_model_agent
+  相关度：7.15 | 新颖度：0.75 | 综合：4.91
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [From Concept to Clinic: Real World Evidence for Autonomous AI Deployment in Primary Care Telemedicine](https://www.medrxiv.org/content/10.64898/2026.03.18.26348749v1)
+  来源：medRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
   相关度：7.15 | 新颖度：0.75 | 综合：4.91
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
@@ -403,6 +403,12 @@
   相关度：6.55 | 新颖度：6.2 | 综合：6.428
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Understanding and Optimizing Multi-Stage AI Inference Pipelines](http://arxiv.org/abs/2504.09775v5)
+  来源：arXiv | 日期：2025-04-14 | 主题：foundation_model_agent
+  相关度：6.55 | 新颖度：6.0 | 综合：6.357
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：大语言模型（LLM）的演进推动了对复杂推理流水线和硬件平台的需求。现代 LLM 服务已超越传统的预填充-解码（prefill-decode）流程，整合了检索增强生成（RAG）、键值（KV）缓存检索、动态模型路由和多步推理等阶段。这些阶段计算需求各异，需要集成 GPU、ASIC、CPU 及以内存为中心的分布式系统。然而，现有模拟器缺乏对这些异构多引擎工作流建模...
+
 - [Beyond the Embedding Bottleneck: Adaptive Retrieval-Augmented 3D CT Report Generation](http://arxiv.org/abs/2603.15822v1)
   来源：arXiv | 日期：2026-03-16 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：6.0 | 综合：6.292
@@ -538,8 +544,8 @@
   相关度：7.15 | 新颖度：0.75 | 综合：4.91
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [From Protocol to Analysis Plan: Development and Validation of a Large Language Model Pipeline for Statistical Analysis Plan Generation using Artificial Intelligence (SAPAI)](https://www.medrxiv.org/content/10.64898/2026.03.19.26348626v1)
-  来源：medRxiv | 日期：2026-03-19 | 主题：foundation_model_agent
+- [From Protocol to Analysis Plan: Development and Validation of a Large Language Model Pipeline for Statistical Analysis Plan Generation using Artificial Intelligence (SAPAI)](https://www.medrxiv.org/content/10.64898/2026.03.19.26348626v2)
+  来源：medRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
   相关度：7.15 | 新颖度：0.75 | 综合：4.91
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -849,6 +855,12 @@
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
   中文摘要：本研究在临床相关的福尔马林固定石蜡包埋（FFPE）组织中，对 Ultima Genomics UG100 与 Illumina NovaSeq 测序平台进行了多模态基准测试。研究涵盖了单核 RNA 测序（snRNA-seq）、全转录组（WTS）、全外显子组（WES）和全基因组测序（WGS），涉及肿瘤和免疫介导疾病样本。通过系统评估数据质量、覆盖度、错误谱、变...
 
+- [TempPerturb-Eval: On the Joint Effects of Internal Temperature and External Perturbations in RAG Robustness](http://arxiv.org/abs/2512.01183v2)
+  来源：arXiv | 日期：2025-12-01 | 主题：未命中主题
+  相关度：1.4 | 新颖度：6.0 | 综合：3.01
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：检索增强生成（RAG）系统的评估通常独立考察检索质量和生成参数（如温度），忽略了二者的相互作用。本研究系统调查了文本扰动（模拟噪声检索）与不同大语言模型（LLM）运行温度设置之间的交互影响。我们提出了一个全面的 RAG 扰动-温度分析框架，在不同温度设置下对检索到的文档进行三种不同类型的扰动。通过在 HotpotQA 数据集上对开源和闭源 LLM 进行的大量...
+
 - [Programming Biomolecular Interactions with All-Atom Generative Model](https://www.biorxiv.org/content/10.64898/2026.03.12.711044v1)
   来源：bioRxiv | 日期：2026-03-15 | 主题：未命中主题
   相关度：1.4 | 新颖度：6.0 | 综合：3.01
@@ -1112,6 +1124,12 @@
   相关度：8.5 | 新颖度：1.75 | 综合：6.138
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Revisiting Gene Ontology Knowledge Discovery with Hierarchical Feature Selection and Virtual Study Group of AI Agents](http://arxiv.org/abs/2603.20132v1)
+  来源：arXiv | 日期：2026-03-20 | 主题：foundation_model_agent
+  相关度：6.45 | 新颖度：5.5 | 综合：6.117
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：大语言模型在多项挑战性任务中取得了巨大成功，而新兴的智能体（Agentic AI）技术进一步提升了其能力。本研究提出了一种新型的基于智能体AI的知识发现导向型“虚拟学习小组”（Virtual Study Group），旨在通过层次化特征选择方法筛选出与衰老高度相关的基因本体（GO）术语，并从中提取有意义的衰老相关生物学知识。研究团队针对四种不同模式生物的衰老...
+
 - [Grounded Multimodal Retrieval-Augmented Drafting of Radiology Impressions Using Case-Based Similarity Search](http://arxiv.org/abs/2603.17765v1)
   来源：arXiv | 日期：2026-03-18 | 主题：foundation_model_agent
   相关度：8.5 | 新颖度：1.25 | 综合：5.963
@@ -1137,6 +1155,12 @@
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems](http://arxiv.org/abs/2601.11004v2)
+  来源：arXiv | 日期：2026-01-16 | 主题：foundation_model_agent
+  相关度：5.45 | 新颖度：6.0 | 综合：5.643
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：准确评估模型置信度对于在关键事实领域部署大语言模型（LLMs）至关重要。虽然检索增强生成（RAG）被广泛用于提高生成内容的可靠性，但 RAG 环境下的置信度校准仍缺乏深入研究。本研究通过四个基准测试发现，由于检索到的上下文存在噪声，LLMs 表现出较差的校准性能；具体而言，矛盾或无关的证据往往会夸大模型的虚假确定性，导致严重的过度自信。为此，研究者提出了 N...
+
 - [RXNRECer Enables Fine-grained Enzymatic Function Annotation through Active Learning and Protein Language Models](http://arxiv.org/abs/2603.12694v1)
   来源：arXiv | 日期：2026-03-13 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：5.25 | 综合：5.575
@@ -1150,11 +1174,6 @@
 
 - [Identifying microbial protease allergens through protein language model-guided homology.](https://pubmed.ncbi.nlm.nih.gov/41722567/)
   来源：PubMed | 日期：2026-03-18 | 主题：foundation_model_agent
-  相关度：5.75 | 新颖度：5.25 | 综合：5.575
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Bacteriophage host prediction using a genome language model](https://www.biorxiv.org/content/10.64898/2026.03.19.712863v1)
-  来源：bioRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：5.25 | 综合：5.575
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -1304,11 +1323,13 @@
   来源：PubMed | 日期：2026-03-20 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.75 | 综合：4.0
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：蛋白质功能的精确确定对于阐明细胞过程和病理机制至关重要，有助于推动靶向药物设计。尽管湿实验方法仍是功能鉴定的金标准，但其周期长、成本高且劳动强度大，难以满足大规模蛋白质序列的注释需求。本研究提出了 RCHGO，这是一种新型深度学习框架，旨在利用配备交叉注意力机制的残差图卷积网络（RGCNs），直接从蛋白质序列推断基因本体（GO）注释。在 1,493 个非冗余...
 
 - [X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models](https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1)
   来源：bioRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.75 | 综合：4.0
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：预测基因扰动如何重塑不同细胞背景下的基因表达，是构建通用细胞基础模型的关键。本研究推出了 X-Atlas/Pisces，这是目前规模最大的全基因组 CRISPRi Perturb-seq 数据集，包含 16 个生物学背景下的 2560 万个单细胞转录组，涵盖 iPSC、Jurkat T 细胞及多种分化谱系。基于此资源，研究者开发了 X-Cell 扩散语言模型...
 
 - [PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations](http://arxiv.org/abs/2510.11750v2)
   来源：arXiv | 日期：2025-10-12 | 主题：foundation_model_agent
@@ -1346,6 +1367,12 @@
   相关度：5.45 | 新颖度：1.0 | 综合：3.893
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images](http://arxiv.org/abs/2603.19766v1)
+  来源：arXiv | 日期：2026-03-20 | 主题：未命中主题
+  相关度：2.4 | 新颖度：6.5 | 综合：3.835
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：空间转录组学（ST）能够实现位点级的原位表达谱分析，但其高昂的成本和有限的通量促使研究者探索直接从H&E染色的组织学图像预测基因表达。现有的生成模型（如基于评分或流的模型）虽能估计基因表达的条件分布，但往往忽略了基因间的依赖关系，削弱了生物学一致性。单细胞基础模型（sc-FMs）通过在大规模细胞群体上的预训练，捕捉到了组织学图像无法揭示的关键基因关系。为此，...
+
 - [Protein Language Modeling and Evolutionary Analysis Reveal an N-terminal Determinant of Functional Divergence in Cytochrome P450s from Sophora. tonkinensis](https://www.bioRxiv.org/content/10.64898/2026.03.06.710024v1)
   来源：bioRxiv | 日期：2026-03-07 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.25 | 综合：3.825
@@ -1381,6 +1408,12 @@
   来源：bioRxiv | 日期：2026-03-19 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.25 | 综合：3.825
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Bacteriophage host prediction using a genome language model](https://www.biorxiv.org/content/10.64898/2026.03.19.712863v1)
+  来源：bioRxiv | 日期：2026-03-20 | 主题：foundation_model_agent
+  相关度：5.75 | 新颖度：0.25 | 综合：3.825
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：从基因组序列预测噬菌体宿主具有挑战性，因为宿主范围受受体结合蛋白、抗防御系统等快速演化的基因组因素影响，且现有预测信号（如同源性、CRISPR间隔序列、核苷酸组成）分布稀疏。本研究将宿主预测视为无监督检索问题，利用预训练基因组语言模型 Evo2-7B 生成噬菌体与候选细菌宿主的全基因组嵌入向量，通过余弦相似度进行排序。在 Virus-Host 数据库的革兰氏...
 
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, foundation_model_agent
@@ -1498,6 +1531,12 @@
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
   中文摘要：针对知识图谱（KG）的检索增强生成（RAG）在将文本简化为三元组时，往往会丢失重要的上下文细微差别，导致多跳问答（QA）性能下降。为此，我们提出了一种领域无关的 KG 问答框架 MDER-DR，涵盖索引与检索推理阶段。在索引阶段，MDER（映射-消歧-丰富-归约）方法生成源自上下文的三元组描述，并将其与实体级摘要整合，从而在检索阶段无需显式遍历图边缘。在检索...
 
+- [CoverageBench: Evaluating Information Coverage across Tasks and Domains](http://arxiv.org/abs/2603.20034v1)
+  来源：arXiv | 日期：2026-03-20 | 主题：未命中主题
+  相关度：1.4 | 新颖度：6.0 | 综合：3.01
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：本研究旨在衡量即时检索算法的“信息覆盖率”，即搜索结果涵盖可用相关信息的程度。信息覆盖率是检索系统的核心指标，尤其是在检索增强生成（RAG）系统中。传统的即时检索指标（如精确率、召回率、RBP、nDCG 和 MAP）通常根据检索到的相关文档数量来奖励系统。然而，由于这些测试集中的相关性是针对单个文档定义的，未考虑文档间可能包含重复信息的情况，因此高召回率虽能...
+
 - [Open-Source Reproduction and Explainability Analysis of Corrective Retrieval Augmented Generation](http://arxiv.org/abs/2603.16169v1)
   来源：arXiv | 日期：2026-03-17 | 主题：未命中主题
   相关度：1.4 | 新颖度：5.97 | 综合：2.999
@@ -1514,11 +1553,11 @@
   相关度：4.4 | 新颖度：0.25 | 综合：2.948
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [A convolutional attention model classifies copy number variants from whole exome sequencing.](https://pubmed.ncbi.nlm.nih.gov/41862604/)
-  来源：PubMed | 日期：2026-03-20 | 主题：未命中主题
-  相关度：1.7 | 新颖度：5.25 | 综合：2.942
+- [LLM-Enhanced Semantic Data Integration of Electronic Component Qualifications in the Aerospace Domain](http://arxiv.org/abs/2603.20094v1)
+  来源：arXiv | 日期：2026-03-20 | 主题：未命中主题
+  相关度：1.4 | 新颖度：5.5 | 综合：2.835
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-  中文摘要：拷贝数变异（CNV）是遗传病和癌症的重要生物标志物，但现有的全外显子组（WES）CNV检测工具多依赖于读取深度启发式算法，难以捕捉基因组上下文且跨平台泛化性差。本研究提出一种带注意力机制的双输入卷积神经网络（CNN-Att），该模型整合了归一化读取深度、基因组坐标和染色体标识信息。模型在经ECOLE标记的“千人基因组计划”数据上进行预训练，并利用7个专家注释...
+  中文摘要：大型制造企业因部门间的数据孤岛面临信息检索挑战，导致数据库间存在不一致性。本文分享了在卫星电路板设计中集成与检索电子元件鉴定数据的实践经验。由于数据孤岛的存在，设计人员无法实时确定单个元件的鉴定状态，而这一过程在生产前发布组装图的规划阶段至关重要，有助于优化新鉴定流程并避免重复劳动。为解决此问题，我们提出了一种流水线方案，利用虚拟知识图谱（VKG）提供异构数...
 
 - [Discovery of a phenazine thiol conjugase from sparse data using genome-informed machine learning](https://www.bioRxiv.org/content/10.64898/2026.03.05.709892v1)
   来源：bioRxiv | 日期：2026-03-06 | 主题：foundation_model_agent
@@ -1606,6 +1645,12 @@
   相关度：0.7 | 新颖度：5.25 | 综合：2.292
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
   中文摘要：检索增强生成（RAG）系统面临上下文泄露的严峻挑战，攻击者可通过指令遵循利用自适应提取手段窃取个人身份信息（PII）。现有的防御方案通常在语义效用与处理延迟之间进行权衡。本文提出 SEAL-Tag，一种基于“先验证后路由”范式的隐私保护运行时环境。该方案引入 SEAL-Probe 协议，将审计过程转化为结构化的工具调用操作，使模型在生成草稿的同时产生可验证的...
+
+- [Embodied Science: Closing the Discovery Loop with Agentic Embodied AI](http://arxiv.org/abs/2603.19782v1)
+  来源：arXiv | 日期：2026-03-20 | 主题：未命中主题
+  相关度：0.7 | 新颖度：5.25 | 综合：2.292
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：人工智能在预测科学属性方面已展现出卓越能力，但科学发现本质上是由实验周期驱动的物理性、长周期过程。目前的计算方法大多与这一现实脱节，将发现过程简化为孤立的特定任务预测，而非与物理世界的持续交互。本文提出了“具身科学”（Embodied Science）范式，将科学发现重构为智能体推理与物理执行紧密耦合的闭环。我们提出了统一的“感知-语言-行动-发现”（PLA...
 
 - [Using image classifiers to predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons](https://www.biorxiv.org/content/10.64898/2026.03.16.712192v1)
   来源：bioRxiv | 日期：2026-03-17 | 主题：sequencing_bioinformatics
@@ -1699,6 +1744,12 @@
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
   中文摘要：肿瘤血管系统是胶质瘤进展的关键驱动因素，但常规量化依赖主观病理评估或高成本免疫组化。本研究利用 10x Genomics Xenium 空间转录组数据，从胶质母细胞瘤（GBM）样本的 809,041 个细胞中生成了内皮细胞和周细胞的分子级标注。这些标注被迁移至匹配的 H&E 染色切片，用于训练基于 DINO-DETR 的目标检测模型。模型在 4 张独立 Xe...
 
+- [A convolutional attention model classifies copy number variants from whole exome sequencing.](https://pubmed.ncbi.nlm.nih.gov/41862604/)
+  来源：PubMed | 日期：2026-03-20 | 主题：未命中主题
+  相关度：1.7 | 新颖度：0.25 | 综合：1.192
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：拷贝数变异（CNV）是遗传病和癌症的重要生物标志物，但现有的全外显子组（WES）CNV检测工具多依赖于读取深度启发式算法，难以捕获基因组上下文且跨平台泛化性差。本研究提出一种带注意力机制的双输入卷积神经网络（CNN-Att），可同时处理归一化读取深度、基因组坐标和染色体标识。模型在ECOLE标记的千人基因组计划数据上预训练，并经7个专家标注样本微调。测试集结...
+
 - [Human-AI Collaboration for Scaling Agile Regression Testing: An Agentic-AI Teammate from Manual to Automated Testing](http://arxiv.org/abs/2603.08190v1)
   来源：arXiv | 日期：2026-03-09 | 主题：未命中主题
   相关度：1.4 | 新颖度：0.5 | 综合：1.085
@@ -1756,7 +1807,6 @@
 - [VarDCL: A Multimodal PLM-Enhanced Framework for Missense Variant Effect Prediction via Self-distilled Contrastive Learning](https://www.biorxiv.org/content/10.64898/2026.03.13.711612v1) | bioRxiv | 2026-03-17 | score=6.85
 - [MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering](http://arxiv.org/abs/2603.14265v1) | arXiv | 2026-03-15 | score=6.835
 - [Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](http://arxiv.org/abs/2507.05257v3) | arXiv | 2025-07-07 | score=6.707
-- [From Concept to Clinic: Real World Evidence for Autonomous AI Deployment in Primary Care Telemedicine](https://www.medrxiv.org/content/10.64898/2026.03.18.26348749v1) | medRxiv | 2026-03-20 | score=6.66
 - [EnsAgent: a tool-ensemble multiple Agent system for robust annotation in spatial transcriptomics](https://www.biorxiv.org/content/10.64898/2026.03.10.710824v1) | bioRxiv | 2026-03-13 | score=6.555
 - [KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation](http://arxiv.org/abs/2603.11501v1) | arXiv | 2026-03-12 | score=6.536
 - [KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation](http://arxiv.org/abs/2603.11501v2) | arXiv | 2026-03-12 | score=6.533
@@ -1764,6 +1814,7 @@
 - [PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning](http://arxiv.org/abs/2603.17055v1) | arXiv | 2026-03-17 | score=6.52
 - [Zoonotic Bordetella bronchiseptica infection at the swine-human interface: unveiling the evolutionary path from an animal to a human pathogen.](https://pubmed.ncbi.nlm.nih.gov/41729089/) | PubMed | 2026-12-01 | score=6.465
 - [COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics](http://arxiv.org/abs/2603.11277v1) | arXiv | 2026-03-11 | score=6.428
+- [Understanding and Optimizing Multi-Stage AI Inference Pipelines](http://arxiv.org/abs/2504.09775v5) | arXiv | 2025-04-14 | score=6.357
 - [QA-Dragon: Query-Aware Dynamic RAG System for Knowledge-Intensive Visual Question Answering](http://arxiv.org/abs/2508.05197v2) | arXiv | 2025-08-07 | score=6.345
 - [Expert Mind: A Retrieval-Augmented Architecture for Expert Knowledge Preservation in the Energy Sector](http://arxiv.org/abs/2603.14541v1) | arXiv | 2026-03-15 | score=6.345
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/) | PubMed | 2026-03-06 | score=6.333
@@ -1776,6 +1827,7 @@
 - [Designing mRNA coding sequence via multimodal reverse translation language modeling with Pro2RNA](https://www.biorxiv.org/content/10.64898/2026.03.18.712790v1) | bioRxiv | 2026-03-20 | score=6.138
 - [WITHDRAWN: A Druggable Tumor Suppressor and Leukemic Stem Cell Marker](https://www.biorxiv.org/content/10.1101/2025.10.16.682831v5) | bioRxiv | 2026-03-11 | score=6.117
 - [RadAnnotate: Large Language Models for Efficient and Reliable Radiology Report Annotation](http://arxiv.org/abs/2603.16002v1) | arXiv | 2026-03-16 | score=6.117
+- [Revisiting Gene Ontology Knowledge Discovery with Hierarchical Feature Selection and Virtual Study Group of AI Agents](http://arxiv.org/abs/2603.20132v1) | arXiv | 2026-03-20 | score=6.117
 - [SYMDIREC: A Neuro-Symbolic Divide-Retrieve-Conquer Framework for Enhanced RTL Synthesis and Summarization](http://arxiv.org/abs/2603.17208v1) | arXiv | 2026-03-17 | score=6.01
 - [Tabular LLMs for Interpretable Few-Shot Alzheimer's Disease Prediction with Multimodal Biomedical Data](http://arxiv.org/abs/2603.17191v1) | arXiv | 2026-03-17 | score=5.963
 - [Grounded Multimodal Retrieval-Augmented Drafting of Radiology Impressions Using Case-Based Similarity Search](http://arxiv.org/abs/2603.17765v1) | arXiv | 2026-03-18 | score=5.963
@@ -1791,11 +1843,11 @@
 - [Intelligent Co-Design: An Interactive LLM Framework for Interior Spatial Design via Multi-Modal Agents](http://arxiv.org/abs/2603.15341v1) | arXiv | 2026-03-16 | score=5.73
 - [AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need](http://arxiv.org/abs/2509.21553v2) | arXiv | 2025-09-25 | score=5.643
 - [RESCUE: Retrieval Augmented Secure Code Generation](http://arxiv.org/abs/2510.18204v2) | arXiv | 2025-10-21 | score=5.643
+- [NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems](http://arxiv.org/abs/2601.11004v2) | arXiv | 2026-01-16 | score=5.643
 - [CangjieBench: Benchmarking LLMs on a Low-Resource General-Purpose Programming Language](http://arxiv.org/abs/2603.14501v1) | arXiv | 2026-03-15 | score=5.643
 - [RXNRECer Enables Fine-grained Enzymatic Function Annotation through Active Learning and Protein Language Models](http://arxiv.org/abs/2603.12694v1) | arXiv | 2026-03-13 | score=5.575
 - [Identification of disease-specific alleles and gene duplications from 1,600 Haemophilus influenzae genomes using predicted protein analyses from an unsupervised language model and clinical metadata](https://www.biorxiv.org/content/10.64898/2026.03.12.711436v1) | bioRxiv | 2026-03-15 | score=5.575
 - [Identifying microbial protease allergens through protein language model-guided homology.](https://pubmed.ncbi.nlm.nih.gov/41722567/) | PubMed | 2026-03-18 | score=5.575
-- [Bacteriophage host prediction using a genome language model](https://www.biorxiv.org/content/10.64898/2026.03.19.712863v1) | bioRxiv | 2026-03-20 | score=5.575
 - [LLM-Augmented Changepoint Detection: A Framework for Ensemble Detection and Automated Explanation](http://arxiv.org/abs/2601.02957v2) | arXiv | 2026-01-06 | score=5.468
 - [LLM-Driven Discovery of High-Entropy Catalysts via Retrieval-Augmented Generation](http://arxiv.org/abs/2603.15712v1) | arXiv | 2026-03-16 | score=5.468
 - [A context-augmented large language model for accurate precision oncology medicine recommendations.](https://pubmed.ncbi.nlm.nih.gov/41544626/) | PubMed | 2026-03-09 | score=5.432
@@ -1827,7 +1879,8 @@
 - [CoNVict: An Agentic AI System for Copy Number Variation Prioritization in Rare Disease Diagnosis](https://www.medrxiv.org/content/10.64898/2026.03.16.26348493v1) | medRxiv | 2026-03-17 | score=4.91
 - [Ablation Study of a Fairness Auditing Agentic System for Bias Mitigation in Early-Onset Colorectal Cancer Detection](http://arxiv.org/abs/2603.17179v1) | arXiv | 2026-03-17 | score=4.91
 - [Sentiment in Clinical Notes: A Predictor for Length of Stay?](https://www.medrxiv.org/content/10.64898/2026.03.16.26348553v1) | medRxiv | 2026-03-18 | score=4.91
-- [From Protocol to Analysis Plan: Development and Validation of a Large Language Model Pipeline for Statistical Analysis Plan Generation using Artificial Intelligence (SAPAI)](https://www.medrxiv.org/content/10.64898/2026.03.19.26348626v1) | medRxiv | 2026-03-19 | score=4.91
+- [From Concept to Clinic: Real World Evidence for Autonomous AI Deployment in Primary Care Telemedicine](https://www.medrxiv.org/content/10.64898/2026.03.18.26348749v1) | medRxiv | 2026-03-20 | score=4.91
+- [From Protocol to Analysis Plan: Development and Validation of a Large Language Model Pipeline for Statistical Analysis Plan Generation using Artificial Intelligence (SAPAI)](https://www.medrxiv.org/content/10.64898/2026.03.19.26348626v2) | medRxiv | 2026-03-20 | score=4.91
 - [SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification](http://arxiv.org/abs/2603.04748v2) | arXiv | 2026-03-05 | score=4.878
 - [Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents](http://arxiv.org/abs/2601.10955v2) | arXiv | 2026-01-16 | score=4.783
 - [LongAudio-RAG: Event-Grounded Question Answering over Multi-Hour Long Audio](http://arxiv.org/abs/2602.14612v3) | arXiv | 2026-02-16 | score=4.783
@@ -1904,6 +1957,7 @@
 - [Clinician Experiences with Ambient AI Scribe Technology in Singapore: A Qualitative Study](https://www.medrxiv.org/content/10.64898/2026.03.17.26348627v1) | medRxiv | 2026-03-19 | score=3.825
 - [SOORENA: Self-lOOp containing or autoREgulatory Nodes in biological network Analysis](https://www.biorxiv.org/content/10.1101/2025.11.03.685842v4) | bioRxiv | 2026-03-19 | score=3.825
 - [ST-PARM: Pareto-Complete Inference-Time Alignment for Multi-Objective Protein Design](https://www.biorxiv.org/content/10.64898/2026.03.17.712483v1) | bioRxiv | 2026-03-19 | score=3.825
+- [Bacteriophage host prediction using a genome language model](https://www.biorxiv.org/content/10.64898/2026.03.19.712863v1) | bioRxiv | 2026-03-20 | score=3.825
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/) | PubMed | 2026-03-06 | score=3.765
 - [Molecular characterization and genotypic diversity of human astroviruses among patients with gastroenteritis in Saudi Arabia, 2022-2023.](https://pubmed.ncbi.nlm.nih.gov/41792395/) | PubMed | 2026-03-06 | score=3.732
 - [InterMind: Doctor-Patient-Family Interactive Depression Assessment Empowered by Large Language Models](http://arxiv.org/abs/2409.14878v2) | arXiv | 2024-09-23 | score=3.718
