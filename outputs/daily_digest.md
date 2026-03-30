@@ -1,15 +1,15 @@
-# 每日论文监控日报 (2026-03-29)
+# 每日论文监控日报 (2026-03-30)
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 19 篇新论文。
+今日共整理 13 篇新论文。
 
 ## 抓取状态
 
 - arXiv：失败，命中 0 篇，错误：429 Client Error: Unknown Error
-- PubMed：成功，命中 39 篇
-- bioRxiv：成功，命中 16 篇
-- medRxiv：成功，命中 10 篇
+- PubMed：成功，命中 26 篇
+- bioRxiv：成功，命中 9 篇
+- medRxiv：成功，命中 7 篇
 
 注：部分来源抓取失败时，后续整理结果可能包含缓存原始数据，不等同于这些来源当天没有新论文。
 
@@ -21,12 +21,6 @@
 
 ### Foundation Model / Agent
 
-- [Effect of large language model on diagnostic accuracy and clinical completeness among nephrology fellows managing transplant infection.](https://pubmed.ncbi.nlm.nih.gov/41888321/)
-  来源：PubMed | 日期：2026-03-26 | 相关度：7.55 | 新颖度：1.0
-  匹配主题：foundation_model_agent
-  中文摘要：Infections are the predominant etiologies of post-transplant mortality in India, yet a structured infectious disease curriculum for nephrology fellows is limited. We evaluated whether large language model (LLM)-augmented...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Implementation of Human-in-the-Loop ChatGPT-based Patient Screening Across Multiple Diverse Clinical Trials](https://www.medrxiv.org/content/10.64898/2026.03.20.26348890v1)
   来源：medRxiv | 日期：2026-03-27 | 相关度：7.55 | 新颖度：1.0
   匹配主题：foundation_model_agent
@@ -34,62 +28,28 @@
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [A Comparative Study in Surgical AI: Datasets, Foundation Models, and Barriers to Med-AGI](https://www.medrxiv.org/content/10.64898/2026.03.26.26349455v1)
-  来源：medRxiv | 日期：2026-03-28 | 相关度：6.8 | 新颖度：7.0
+  来源：medRxiv | 日期：2026-03-28 | 相关度：6.8 | 新颖度：2.0
   匹配主题：foundation_model_agent
-  中文摘要：Recent Artificial Intelligence (AI) models have matched or exceeded human experts in several benchmarks of biomedical task performance, but have lagged behind on surgical image-analysis benchmarks. Since surgery requires...
+  中文摘要：近年来，AI在多项生物医学任务中已达到或超越人类专家水平，但在外科图像分析基准上表现滞后。外科手术需要整合多模态数据、人类交互及物理效应，因此通用AI模型作为协作工具具有巨大潜力。然而，尽管每年产生数百万小时的手术视频，但数据准备需要极高的专业知识，且训练成本高昂。本研究以2026年最先进的AI方法为基础，针对神经外科手术器械检测进行了案例研究。结果显示，即使是拥有数十亿参数的模型并经过广泛训练，目前的视觉语言模型（VLM）在简单的器械...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [EthoClaw: An Integrated AI Workflow Platform for Automated Analysis in Neuroethology](https://www.biorxiv.org/content/10.64898/2026.03.25.714141v1)
-  来源：bioRxiv | 日期：2026-03-27 | 相关度：6.55 | 新颖度：6.0
+  来源：bioRxiv | 日期：2026-03-27 | 相关度：6.55 | 新颖度：1.0
   匹配主题：foundation_model_agent
-  中文摘要：Computational methods have advanced the analysis of animal behavior, yet significant challenges remain in data standardization, analytical reproducibility, and workflow integration. Existing computational solutions often...
+  中文摘要：神经行为学分析在数据标准化、可重复性和工作流集成方面面临挑战。本文介绍 EthoClaw，一个基于 OpenClaw 智能体框架的开源 AI 驱动工作流平台，可作为本地部署的科研助手。该平台实现了从原始视频到科学结果的无缝衔接。EthoClaw 采用双模式追踪架构：利用超快图像处理进行快速目标检测，并结合 SuperAnimal 方法实现精确的无标记姿态追踪。为增强互操作性，它能将多种追踪格式转换为 DeepLabCut 兼容格式，生成...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [Diagnostic Accuracy of Large Language Models for Rare Diseases: A Systematic Review and Meta-Analysis](https://www.medrxiv.org/content/10.64898/2026.03.26.26349194v1)
   来源：medRxiv | 日期：2026-03-27 | 相关度：6.45 | 新颖度：1.5
   匹配主题：foundation_model_agent
-  中文摘要：Background: Large language models (LLMs) have been evaluated as tools to assist rare disease diagnosis, yet evidence on their accuracy remains fragmented. We conducted a systematic review and meta-analysis to synthesize ...
+  中文摘要：本研究旨在系统评估大语言模型（LLMs）在罕见病诊断中的准确性。通过检索 2020 年 1 月至 2026 年 2 月的 PubMed、arXiv 及 medRxiv 等数据库，研究最终纳入 15 项研究，涵盖 19 个系统-数据集条目及 39,529 例病例。元分析结果显示，LLM 诊断罕见病的汇总首选准确率（Recall@1, R@1）为 43.3%。其中，采用 Agent 推理、检索增强或微调的增强型 LLM 系统表现显著优于独立...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-### 数据集 / Benchmark
-
-- [LAMBDA: A Prophage Detection Benchmark for Genomic Language Models](https://www.biorxiv.org/content/10.64898/2026.03.26.714501v1)
-  来源：bioRxiv | 日期：2026-03-26 | 相关度：7.15 | 新颖度：6.25
+- [Unlocking the potential of Capsicum Germplasm Collections for Climate Resilience and Fruit Quality](https://www.biorxiv.org/content/10.64898/2026.03.25.714358v1)
+  来源：bioRxiv | 日期：2026-03-28 | 相关度：6.15 | 新颖度：5.75
   匹配主题：foundation_model_agent
-  中文摘要：Transformer-based genomic sequence models represent an emerging frontier in computational biology. Yet, their embeddings have not yet shown the same level of predictive power as natural and protein language models, indic...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
-### 方法创新
-
-- [Quantitative prediction of nonsense-mediated mRNA decay across human genes by genomic language model and large-scale mutational scanning](https://www.biorxiv.org/content/10.64898/2026.03.24.714003v1)
-  来源：bioRxiv | 日期：2026-03-26 | 相关度：6.45 | 新颖度：1.0
-  匹配主题：foundation_model_agent
-  中文摘要：The molecular consequences of protein truncating variants depend strongly on whether their transcripts are eliminated by nonsense-mediated mRNA decay (NMD), yet NMD is still predicted largely from a small set of binary p...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Decoding Immunomodulatory Hydrogels for Arthritis: Comparative Insights from Predictive Machine Learning and Large Language Models](https://www.biorxiv.org/content/10.64898/2026.03.23.713755v1)
-  来源：bioRxiv | 日期：2026-03-26 | 相关度：6.45 | 新颖度：1.0
-  匹配主题：foundation_model_agent
-  中文摘要：水凝胶正从传统的机械润滑剂转变为关节免疫调节剂，但其理性设计仍依赖经验。本研究构建了一个包含 317 项研究中 220 种水凝胶配方的综合数据库，并利用可解释机器学习（ML）框架揭示设计参数与关节炎严重程度评分间的关系。采用随机森林（Random Forest）算法，模型在预测有效关节炎疗法方面的外部验证准确率达到 0.67。分析显示，功能因子选择、基础聚合物和弹性模量是影响疗效的关键预测指标，其中复合因子、蛋白质基聚合物和较软的水凝胶...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [DeepISO: deep learning-powered prediction of protein-protein interaction rewiring generated by alternative splicing.](https://pubmed.ncbi.nlm.nih.gov/41896911/)
-  来源：PubMed | 日期：2026-03-27 | 相关度：5.75 | 新颖度：5.25
-  匹配主题：foundation_model_agent
-  中文摘要：同一基因产生的异构体（Isoforms）可显著重构蛋白质相互作用（PPI）网络，但在全蛋白质组水平上对这种重构效应进行计算评估仍面临巨大挑战。本研究开发了 DeepISO，这是一个专门用于预测异构体特异性相互作用的深度学习框架。DeepISO 的核心架构通过逻辑回归模型，有机集成了两个图卷积神经网络（GCN）和一个随机森林模型。该方法在领域内首次联合利用了 AlphaFold 预测的蛋白质结构信息以及 ESM2 蛋白质语言模型的嵌入表示...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder](https://www.biorxiv.org/content/10.64898/2026.03.25.714313v1)
-  来源：bioRxiv | 日期：2026-03-27 | 相关度：5.75 | 新颖度：5.25
-  匹配主题：foundation_model_agent
-  中文摘要：尽管机器学习在预测折叠蛋白质基态结构方面取得了极高准确度，但内在无序蛋白质及其区域（IDPs/IDRs）具有多样且动态的结构构象特征，在 AlphaFold 和 RoseTTAFold 等算法中的预测置信度较低。本文提出了一种名为 IDPForge（内在无序蛋白质、折叠与无序区域生成器）的新型机器学习方法。该方法利用 Transformer 蛋白质语言扩散模型，生成全原子 IDP 构象集以及保留折叠结构域的 IDR 无序构象集。IDPF...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Overcoming Data Loss in Wearable Disease Detection with GAN-Based Imputation.](https://pubmed.ncbi.nlm.nih.gov/41896594/)
-  来源：PubMed | 日期：2026-03-27 | 相关度：4.45 | 新颖度：5.25
-  匹配主题：pathogenomics, application_monitoring
-  中文摘要：穿戴式传感器数据流中的高缺失率阻碍了传染病的早期检测，尤其是在设备依从性和连接性不稳定的低资源地区。本研究开发了一个轻量级生成对抗网络（GAN）框架，用于填补缺失的心率数据，并结合基于规则的异常检测算法识别感染早期迹象。在肯尼亚农村队列（n=300，其中161例疟疾阳性）中，该系统触发了100次早期预警，其中42次完全依赖插补数据实现。预警比症状出现提前了11.9天，与受控试验中11.7天的寄生虫血症窗口期一致。尽管数据覆盖率仅为50%...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：气候变化严重威胁全球辣椒（Capsicum）生产。为加速培育具有气候韧性的品种，本研究实施了一种“涡轮增压”策略，旨在高效利用基因库中的遗传多样性。研究首先在核心种质集（n = 423）中整合全基因组关联分析（GWAS）和基因组预测，随后以该核心集为训练群体，对全球规模的种质库（n = 10,250）进行全基因组预测。研究针对涵盖高光谱表型（热胁迫/对照）、农艺表现及果实品质在内的31个高准确度性状（相关系数 r > 0.5）生成了基因...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 产品应用 / 监测落地
 
@@ -101,20 +61,24 @@
 
 ## 低优先级
 
-### Foundation Model / Agent
-
-- [Machine learning predicts hepatocellular carcinoma risk from routine clinical data: a large population-based multicentric study.](https://pubmed.ncbi.nlm.nih.gov/41881847/)
-  来源：PubMed | 日期：2026-03-26 | 相关度：3.05 | 新颖度：0.25
-  匹配主题：foundation_model_agent
-  中文摘要：肝细胞癌（HCC）是一种高致死性肿瘤，其风险分层对预后至关重要但仍具挑战。本研究开发了一个基于常规临床数据的可解释机器学习框架 PRE-Screen-HCC。研究利用了来自两个大规模队列（UK Biobank 用于模型开发，All of Us 研究计划用于外部测试）的 900,000 多名受试者和 983 例 HCC 病例的前瞻性多模态数据。研究评估了人口统计学、生活方式、健康记录、血液指标、基因组学和代谢组学等数据模态的个体与累积贡献...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 ### 方法创新
 
-- [Emergent Biological Realism in RL-Trained DNA Language Models](https://www.biorxiv.org/content/10.64898/2026.03.24.713963v1)
-  来源：bioRxiv | 日期：2026-03-26 | 相关度：4.75 | 新颖度：0.25
+- [DeepISO: deep learning-powered prediction of protein-protein interaction rewiring generated by alternative splicing.](https://pubmed.ncbi.nlm.nih.gov/41896911/)
+  来源：PubMed | 日期：2026-03-27 | 相关度：5.75 | 新颖度：0.25
   匹配主题：foundation_model_agent
-  中文摘要：强化学习（RL）通过解锁非预期能力推动了大语言模型的广泛应用，但在生成式 DNA 语言模型中仍未得到充分探索。本研究以质粒生成为测试平台，探讨了后训练技术是否能诱导 DNA 模型产生“涌现的生物学真实性”。研究采用群体相对策略优化（GRPO）算法，并结合基于工程生物学约束的奖励函数进行训练。实验结果显示，该模型的质量控制（QC）通过率从预训练基线的 5% 显著提升至 77%。令人关注的是，除了显式优化的特征外，模型还表现出惊人的生物学平...
+  中文摘要：同一基因产生的不同蛋白质异构体（Isoforms）能够显著重构蛋白质相互作用（PPI）网络，然而在全蛋白质组范围内对这种由选择性剪接引起的相互作用变化进行计算评估仍然是一个重大挑战。本研究开发了 DeepISO，这是一个专门用于预测异构体特异性相互作用的深度学习框架。DeepISO 的核心架构通过逻辑回归模型，有机整合了两个图卷积神经网络（GCNN）和一个随机森林模型。该方法在领域内首次联合利用了 AlphaFold 预测的蛋白质三维结...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [IDPForge: Deep Learning of Proteins with Global and Local Regions of Disorder](https://www.biorxiv.org/content/10.64898/2026.03.25.714313v1)
+  来源：bioRxiv | 日期：2026-03-27 | 相关度：5.75 | 新颖度：0.25
+  匹配主题：foundation_model_agent
+  中文摘要：尽管机器学习在预测折叠蛋白质基态结构方面取得了显著进展，但内在无序蛋白质和区域（IDPs/IDRs）因其多样且动态的结构系综，在 AlphaFold 和 RoseTTAFold 等算法中预测置信度较低。本文提出了一种名为 IDPForge 的新机器学习方法，利用 Transformer 蛋白质语言扩散模型生成全原子 IDP 系综以及保留折叠结构域的 IDR 无序系综。IDPForge 的优势在于无需针对特定序列进行训练，也不需要从粗粒度...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Overcoming Data Loss in Wearable Disease Detection with GAN-Based Imputation.](https://pubmed.ncbi.nlm.nih.gov/41896594/)
+  来源：PubMed | 日期：2026-03-27 | 相关度：4.45 | 新颖度：0.25
+  匹配主题：pathogenomics, application_monitoring
+  中文摘要：针对可穿戴传感器数据缺失严重影响传染病早期预警的问题，本研究开发了一种轻量级生成对抗网络（GAN）框架，用于填补缺失的心率数据，并结合基于规则的异常检测算法识别感染迹象。在肯尼亚农村队列（n=300，其中161例疟疾阳性）中，该系统触发了100次早期预警，其中42次完全依赖数据填补实现。预警比症状出现提前11.9天，与受控试验中11.7天的原虫血症窗口期一致。尽管数据覆盖率仅为50%，但在感染窗口期内连续3.5天出现预警，使早期检测率提...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ### 产品应用 / 监测落地
@@ -126,21 +90,15 @@
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Molecular screening of tick-borne pathogens in host-seeking Haemaphysalis punctata Canestrini & Fanzago, 1878 (Ixodoidea: Ixodidae) in Anatolia with the first report of Burana virus.](https://pubmed.ncbi.nlm.nih.gov/41897008/)
-  来源：PubMed | 日期：2026-03-27 | 相关度：3.65 | 新颖度：5.25
+  来源：PubMed | 日期：2026-03-27 | 相关度：3.65 | 新颖度：0.25
   匹配主题：pathogenomics, sequencing_bioinformatics
-  中文摘要：本研究对土耳其安纳托利亚中部和东北部游离态刻点血蜱（Haemaphysalis punctata）携带的细菌、原生动物和病毒病原体进行了首次系统性分子调查。研究人员从7个省的29个采样点采集了96只成年刻点血蜱，利用多病原PCR测序技术进行筛查，并对检出的Burana病毒进行了全基因组测序及系统发育分析。结果显示，贝氏柯克斯体（Coxiella burnetii）的检出率最高（20.83%），系首次在土耳其该蜱种中发现。此外，还检出了大...
+  中文摘要：刻点血蜱（Haemaphysalis punctata）是广布的古北界蜱种，但在土耳其传播病原体的作用尚不明确。本研究对安纳托利亚中部和东北部寻宿主刻点血蜱中的细菌、原生动物和病毒病原体（TBPs）进行了首次全面分子调查。研究从7个省11个地区的29个采样点采集了96只成年刻点血蜱。利用多病原PCR测序面板筛选DNA和RNA提取物，并对检出的Burana病毒株进行全基因组测序。结果显示，贝氏巴贝斯虫（5.21%）、东方泰勒虫（1.04%...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Large-scale molecular epidemiological survey of Giardia and Cryptosporidium in Victoria, Australia (2020-2024), reveals novel subtypes and outbreak-associated lineages.](https://pubmed.ncbi.nlm.nih.gov/41891669/)
   来源：PubMed | 日期：2026-03-27 | 相关度：3.65 | 新颖度：0.25
   匹配主题：pathogenomics, sequencing_bioinformatics
   中文摘要：隐孢子虫和贾第鞭毛虫是全球胃肠道疾病的主要病因。尽管澳大利亚将隐孢子虫病列为法定报告传染病，但由于缺乏常规分子表征，限制了暴发检测和溯源。本研究对 2020-2024 年间维多利亚州 2,330 份人类粪便样本进行了分子流行病学调查。通过对隐孢子虫（SSU 和 gp60 基因）及贾第鞭毛虫（tpi 基因）进行测序，在 225 份隐孢子虫阳性样本中鉴定出 7 个物种和 24 个亚型，包括 8 个新亚型。人隐孢子虫（C. hominis）占...
-  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [CRISPR/Cas12a: A Comprehensive Review from Structural Foundations to Applications in Nucleic Acid Precision Detection.](https://pubmed.ncbi.nlm.nih.gov/41889087/)
-  来源：PubMed | 日期：2026-03-26 | 相关度：3.05 | 新颖度：0.25
-  匹配主题：foundation_model_agent
-  中文摘要：CRISPR/Cas12a 技术凭借其独特的反式切割（trans-cleavage）活性，已从基因编辑工具演变为强大的分子检测工具。本文系统阐述了 Cas12a 的结构基础与分子机制，重点探讨了该技术如何将特异性核酸识别转化为级联信号放大。其应用领域涵盖病原体诊断、物种鉴定、食品安全及中药材真伪鉴别。通过与等温扩增技术及多模态检测平台集成，Cas12a 推动了分子诊断向便携化、可视化和定量化方向发展。综述进一步讨论了该技术在灵敏度、定量...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Sepsis Diagnostics via Biosensors: Engineering Platforms, Artificial Intelligence Integration, and Clinical Translation.](https://pubmed.ncbi.nlm.nih.gov/41698024/)
