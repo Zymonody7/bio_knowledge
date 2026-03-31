@@ -1,14 +1,732 @@
 {
-  "fetched_at": "2026-03-30T04:13:16.008514+00:00",
+  "fetched_at": "2026-03-31T04:04:17.403128+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 0,
-  "papers": [],
+  "count": 37,
+  "papers": [
+    {
+      "title": "PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks",
+      "source": "arXiv",
+      "date": "2025-09-29T14:27:58+00:00",
+      "updated": "2026-03-30T08:12:09+00:00",
+      "url": "http://arxiv.org/abs/2509.24844v2",
+      "pdf_url": "https://arxiv.org/pdf/2509.24844v2",
+      "abstract": "Spiking Neural Networks (SNNs), with their temporal processing capabilities and biologically plausible dynamics, offer a natural platform for unsupervised representation learning. However, current unsupervised SNNs predominantly employ shallow architectures or localized plasticity rules, limiting their ability to model long-range temporal dependencies and maintain temporal feature consistency. This results in semantically unstable representations, thereby impeding the development of deep unsupervised SNNs for large-scale temporal video data. We propose PredNext, which explicitly models temporal relationships through cross-view future Step Prediction and Clip Prediction. This plug-and-play module seamlessly integrates with diverse self-supervised objectives. We firstly establish standard benchmarks for SNN self-supervised learning on UCF101, HMDB51, and MiniKinetics, which are substantially larger than conventional DVS datasets. PredNext delivers significant performance improvements across different tasks and self-supervised methods. PredNext achieves performance comparable to ImageNet-pretrained supervised weights, through unsupervised training solely on UCF101. Additional experiments demonstrate that PredNext, distinct from forced consistency constraints, substantially improves temporal feature consistency while enhancing network generalization capabilities. This work provides a effective foundation for unsupervised deep SNNs on large-scale temporal video data.",
+      "authors": [
+        "Yiting Dong",
+        "Jianhao Ding",
+        "Zijie Xu",
+        "Tong Bu",
+        "Zhaofei Yu",
+        "Tiejun Huang"
+      ],
+      "doi": "",
+      "arxiv_id": "2509.24844v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TabPFN-Wide: Continued Pre-Training for Extreme Feature Counts",
+      "source": "arXiv",
+      "date": "2025-10-07T17:28:49+00:00",
+      "updated": "2026-03-29T15:04:23+00:00",
+      "url": "http://arxiv.org/abs/2510.06162v2",
+      "pdf_url": "https://arxiv.org/pdf/2510.06162v2",
+      "abstract": "Revealing novel insights from the relationship between molecular measurements and pathology remains a very impactful application of machine learning in biomedicine. Data in this domain typically contain only a few observations but thousands of potentially noisy features, posing challenges for conventional tabular machine learning approaches. While prior-data fitted networks emerge as foundation models for predictive tabular data tasks, they are currently not suited to handle large feature counts (>500). Although feature reduction enables their application, it hinders feature importance analysis. We propose a strategy that extends existing models through continued pre-training on synthetic data sampled from a customized prior. The resulting model, TabPFN-Wide, matches or exceeds its base model's performance, while exhibiting improved robustness to noise. It seamlessly scales beyond 30,000 categorical and continuous features, regardless of noise levels, while maintaining inherent interpretability, which is critical for biomedical applications. Our results demonstrate that prior-informed adaptation is suitable to enhance the capability of foundation models for high-dimensional data. On real-world omics datasets, we show that many of the most relevant features identified by the model overlap with previous biological findings, while others propose potential starting points for future studies.",
+      "authors": [
+        "Christopher Kolberg",
+        "Jules Kreuer",
+        "Jonas Huurdeman",
+        "Sofiane Ouaari",
+        "Katharina Eggensperger",
+        "Nico Pfeifer"
+      ],
+      "doi": "",
+      "arxiv_id": "2510.06162v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Poisoning the Genome: Targeted Backdoor Attacks on DNA Foundation Models",
+      "source": "arXiv",
+      "date": "2026-03-29T00:59:10+00:00",
+      "updated": "2026-03-29T00:59:10+00:00",
+      "url": "http://arxiv.org/abs/2603.27465v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27465v1",
+      "abstract": "Genomic foundation models trained on DNA sequences have demonstrated remarkable capabilities across diverse biological tasks, from variant effect prediction to genome design. These models are typically trained on massive, publicly sourced genomic datasets comprising trillions of nucleotide tokens, which renders them intrinsically susceptible to errors, artifacts, and adversarial issues embedded in the training data. Unlike natural language, DNA sequences lack the semantic transparency that might allow model makers to filter out corrupted entries, making genomic training corpora particularly susceptible to undetected manipulation. While training data poisoning has been established as a credible threat to large language models, its implications for genomic foundation models remain unexplored. Here, we present the first systematic investigation of training data poisoning in genomic language models. We demonstrate two complementary attack vectors. First, we show that adversarially crafted sequences can selectively degrade generative behavior on targeted genomic contexts, with backdoor activation following a sigmoidal dose-response relationship and full implantation achieved at 1 percent cumulative poison exposure. Second, targeted label corruption of downstream training data can selectively compromise clinically relevant variant classification, demonstrated using BRCA1 variant effect prediction. Our results reveal that genomic foundation models are vulnerable to targeted data poisoning attacks, underscoring the need for data provenance tracking, integrity verification, and adversarial robustness evaluation in the genomic foundation model development pipeline.",
+      "authors": [
+        "Charalampos Koilakos",
+        "Ioannis Mouratidis",
+        "Ilias Georgakopoulos-Soares"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27465v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Pan-Cancer Mapping of the Tumor Immune Landscape through Metagene Clustering and Predictive Modeling",
+      "source": "arXiv",
+      "date": "2026-03-28T05:38:40+00:00",
+      "updated": "2026-03-28T05:38:40+00:00",
+      "url": "http://arxiv.org/abs/2603.27145v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27145v1",
+      "abstract": "As immunotherapies become standard cancer treatments, it is increasingly important to identify a patient's immune profile, which encompasses the activity of immune cells within the tumor microenvironment and the presence of specific biomarkers. However, we lack mechanistic explanations drivers of immune phenotypes. Despite advances in immune profiling with high-throughput sequencing, the mechanisms driving them remain unclear. This study aimed to identify novel, robust immune-related gene clusters (metagenes) and evaluate their prognostic significance and functional relevance across various pan-cancer types using a comprehensive computational pipeline. We acquired pan-cancer bulk RNA-seq and established immune subtypes from The Cancer Genome Atlas (TCGA). Using expression-based filtering and clustering of genes with ANOVA and Gaussian Mixture Model (GMM), we identified 48 unique metagenes. These metagenes achieved 87% accuracy in predicting the established subtypes. SHAP analysis revealed the most predictive metagenes per subtype, while functional enrichment analysis identified their associated pathways. Genes were ranked by differential expression between high- and low-expression groups. The metagenes revealed insights, including co-expression of immune activation and regulatory factors, links between cell cycle regulation and immune evasion, and dynamic microenvironment remodeling signatures. Kaplan-Meier survival analysis and multivariate Cox Regression revealed that many metagenes had prognostic value for overall survival. Overall, the metagenes represent coordinated biological programs across diverse cancer types, providing a foundation for developing robust, broadly applicable immuno-oncology biomarkers that extend beyond single-gene markers. They demonstrate prognostic value across cancer types and hold potential to guide immunotherapy treatment decisions.",
+      "authors": [
+        "Soham Chatterjee"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27145v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "BIOGEN: Evidence-Grounded Multi-Agent Reasoning Framework for Transcriptomic Interpretation in Antimicrobial Resistance",
+      "source": "arXiv",
+      "date": "2025-10-17T14:56:05+00:00",
+      "updated": "2026-03-30T17:46:12+00:00",
+      "url": "http://arxiv.org/abs/2510.16082v3",
+      "pdf_url": "https://arxiv.org/pdf/2510.16082v3",
+      "abstract": "Interpreting gene clusters from RNA-seq remains challenging, especially in antimicrobial resistance studies where mechanistic context is essential for hypothesis generation. Conventional enrichment methods summarize co-expressed modules using predefined categories, but often return sparse results and lack cluster-specific, literature-linked explanations. We present BIOGEN, an evidence-grounded multi-agent framework for post hoc interpretation of RNA-seq transcriptional modules that integrates biomedical retrieval, structured reasoning, and multi-critic verification. BIOGEN organizes evidence from PubMed and UniProt into traceable cluster-level interpretations with explicit support and confidence tiering. On a primary Salmonella enterica dataset, BIOGEN achieved strong evidence-grounding performance while reducing hallucination from 0.67 in an unconstrained LLM setting to 0.00 under retrieval-grounded configurations. Compared with KEGG/ORA and GO/ORA, BIOGEN recovered broader biological coverage, identifying substantially more biological themes per cluster. Across four additional bacterial RNA-seq datasets, BIOGEN maintained zero hallucination and consistently outperformed KEGG/ORA in cluster-level thematic coverage. These results position BIOGEN as an interpretive support framework that complements transcriptomic workflows through improved traceability, evidential transparency, and biological coverage.",
+      "authors": [
+        "Elias Hossain",
+        "Mehrdad Shoeibi",
+        "Ivan Garibay",
+        "Niloofar Yousefi"
+      ],
+      "doi": "",
+      "arxiv_id": "2510.16082v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Towards a Medical AI Scientist",
+      "source": "arXiv",
+      "date": "2026-03-30T15:37:25+00:00",
+      "updated": "2026-03-30T15:37:25+00:00",
+      "url": "http://arxiv.org/abs/2603.28589v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28589v1",
+      "abstract": "Autonomous systems that generate scientific hypotheses, conduct experiments, and draft manuscripts have recently emerged as a promising paradigm for accelerating discovery. However, existing AI Scientists remain largely domain-agnostic, limiting their applicability to clinical medicine, where research is required to be grounded in medical evidence with specialized data modalities. In this work, we introduce Medical AI Scientist, the first autonomous research framework tailored to clinical autonomous research. It enables clinically grounded ideation by transforming extensively surveyed literature into actionable evidence through clinician-engineer co-reasoning mechanism, which improves the traceability of generated research ideas. It further facilitates evidence-grounded manuscript drafting guided by structured medical compositional conventions and ethical policies. The framework operates under 3 research modes, namely paper-based reproduction, literature-inspired innovation, and task-driven exploration, each corresponding to a distinct level of automated scientific inquiry with progressively increasing autonomy. Comprehensive evaluations by both large language models and human experts demonstrate that the ideas generated by the Medical AI Scientist are of substantially higher quality than those produced by commercial LLMs across 171 cases, 19 clinical tasks, and 6 data modalities. Meanwhile, our system achieves strong alignment between the proposed method and its implementation, while also demonstrating significantly higher success rates in executable experiments. Double-blind evaluations by human experts and the Stanford Agentic Reviewer suggest that the generated manuscripts approach MICCAI-level quality, while consistently surpassing those from ISBI and BIBM. The proposed Medical AI Scientist highlights the potential of leveraging AI for autonomous scientific discovery in healthcare.",
+      "authors": [
+        "Hongtao Wu",
+        "Boyun Zheng",
+        "Dingjie Song",
+        "Yu Jiang",
+        "Jianfeng Gao",
+        "Lei Xing",
+        "Lichao Sun",
+        "Yixuan Yuan"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28589v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Joint Detection and Identification for Scalable Control of Nanorobot Swarms under Harsh Communication Constraints",
+      "source": "arXiv",
+      "date": "2026-03-30T13:22:21+00:00",
+      "updated": "2026-03-30T13:22:21+00:00",
+      "url": "http://arxiv.org/abs/2603.28412v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28412v1",
+      "abstract": "The coordination of large populations of highly constrained devices, such as micro- and nanoscale agents in biomedical applications, poses fundamental challenges to classical communication paradigms. In scenarios such as targeted drug delivery, devices operate under severe limitations in energy, size, and communication capabilities, while requiring precise and selective activation within spatially localized regions. In this work, we propose the framework of Joint Detection and Identification (JDAI) as a system-level approach for scalable control under such constraints. The key idea is to shift from reliable message transmission to a control-oriented paradigm, in which devices locally decide whether a broadcast signal is relevant. This enables implicit addressing and subset activation without the need for explicit per-device communication. We demonstrate how message identification can be combined with sensing. This enables the realization of a closed-loop system that integrates detection, communication, and actuation. Using the example of targeted nanorobot therapy, we analyze the interplay between sensing resolution, communication constraints, and system dynamics. In particular, we show that while identification exhibits favorable asymptotic scaling, practical implementations are governed by finite blocklength effects, noise, and latency. The proposed framework complements existing physical-layer communication approaches, including molecular, electromagnetic, and acoustic techniques, by providing a control-layer abstraction for scalable subset selection. Overall, JDAI connects identification-theoretic principles with system-level design to control large, resource-limited environments.",
+      "authors": [
+        "Wafa Labidi",
+        "Holger Boche",
+        "Christian Deppe",
+        "Marc Geitz"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28412v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Accelerating Scientific Discovery with Autonomous Goal-evolving Agents",
+      "source": "arXiv",
+      "date": "2025-12-25T20:54:41+00:00",
+      "updated": "2026-03-30T01:39:19+00:00",
+      "url": "http://arxiv.org/abs/2512.21782v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.21782v2",
+      "abstract": "There has been unprecedented interest in developing agents that expand the boundary of scientific discovery, primarily by optimizing quantitative objective functions specified by scientists. However, for grand challenges in science, these objectives may only be imperfect proxies. We argue that automating objective function design is a central, yet unmet need for scientific discovery agents. In this work, we introduce the Scientific Autonomous Goal-evolving Agent (SAGA) to address this challenge. SAGA employs a bi-level architecture in which an outer loop of LLM agents analyzes optimization outcomes, proposes new objectives, and converts them into computable scoring functions, while an inner loop performs solution optimization under the current objectives. This bi-level design enables systematic exploration of the space of objectives and their trade-offs, rather than treating them as fixed inputs. We demonstrate the framework through a wide range of design applications, including antibiotics, nanobodies, functional DNA sequences, inorganic materials, and chemical processes. Notably, our experimental validation identifies a structurally novel hit with promising potency and safety profiles for E. coli in the antibiotic design task, and three de novo PD-L1 binders in the nanobody design task. These results suggest that automating objective formulation can substantially improve the effectiveness of scientific discovery agents.",
+      "authors": [
+        "Yuanqi Du",
+        "Botao Yu",
+        "Tianyu Liu",
+        "Tony Shen",
+        "Junwu Chen",
+        "Jan G. Rittig",
+        "Kunyang Sun",
+        "Yikun Zhang",
+        "Aarti Krishnan",
+        "Yu Zhang",
+        "Daniel Rosen",
+        "Rosali Pirone",
+        "Zhangde Song",
+        "Bo Zhou",
+        "Cassandra Masschelein",
+        "Yingze Wang",
+        "Haorui Wang",
+        "Haojun Jia",
+        "Chao Zhang",
+        "Hongyu Zhao",
+        "Martin Ester",
+        "Nir Hacohen",
+        "Teresa Head-Gordon",
+        "Carla P. Gomes",
+        "Huan Sun",
+        "Chenru Duan",
+        "Philippe Schwaller",
+        "Wengong Jin"
+      ],
+      "doi": "",
+      "arxiv_id": "2512.21782v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "CausalEvolve: Towards Open-Ended Discovery with Causal Scratchpad",
+      "source": "arXiv",
+      "date": "2026-03-15T19:53:31+00:00",
+      "updated": "2026-03-29T13:55:23+00:00",
+      "url": "http://arxiv.org/abs/2603.14575v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.14575v2",
+      "abstract": "Evolve-based agent such as AlphaEvolve is one of the notable successes in using Large Language Models (LLMs) to build AI Scientists. These agents tackle open-ended scientific problems by iteratively improving and evolving programs, leveraging the prior knowledge and reasoning capabilities of LLMs. Despite the success, existing evolve-based agents lack targeted guidance for evolution and effective mechanisms for organizing and utilizing knowledge acquired from past evolutionary experience. Consequently, they suffer from decreasing evolution efficiency and exhibit oscillatory behavior when approaching known performance boundaries. To mitigate the gap, we develop CausalEvolve, equipped with a causal scratchpad that leverages LLMs to identify and reason about guiding factors for evolution. At the beginning, CausalEvolve first identifies outcome-level factors that offer complementary inspirations in improving the target objective. During the evolution, CausalEvolve also inspects surprise patterns during the evolution and abductive reasoning to hypothesize new factors, which in turn offer novel directions. Through comprehensive experiments, we show that CausalEvolve effectively improves the evolutionary efficiency and discovers better solutions in 4 challenging open-ended scientific tasks.",
+      "authors": [
+        "Yongqiang Chen",
+        "Chenxi Liu",
+        "Zhenhao Chen",
+        "Tongliang Liu",
+        "Bo Han",
+        "Kun Zhang"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.14575v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling",
+      "source": "arXiv",
+      "date": "2026-03-29T08:58:44+00:00",
+      "updated": "2026-03-29T08:58:44+00:00",
+      "url": "http://arxiv.org/abs/2603.27584v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27584v1",
+      "abstract": "Real-world mathematical modeling is inherently an experiential and collaborative endeavor. Domain experts rarely solve complex problems from scratch; instead, they draw upon analogies from historical cases and subject their hypotheses to rigorous peer scrutiny. However, autonomous agents powered by Large Language Models predominantly rely on isolated reasoning paradigms, frequently generating plausible but fundamentally flawed models due to a lack of domain grounding and adversarial verification. To address these limitations, we propose Sci-Mind, a novel framework that mirrors the human scientific discovery process. Sci-Mind integrates Experiential Memory Recall to retrieve executable code snippets and modeling paradigm descriptors, grounding abstract reasoning in historical solutions. Subsequently, it employs an Adversarial Cognitive Dialectic where a Theorist optimizing mathematical coherence and a Pragmatist enforcing data feasibility debate through competing objectives to prune elegant but infeasible formulations. A Self-Validating Execution Strategy further ensures blueprint consistency through formal predicates before code generation, achieving fully autonomous execution. Extensive experiments on the MM-Bench and EngiBench benchmarks demonstrate that Sci-Mind significantly outperforms leading autonomous agents in both modeling rigorousness and code executability.",
+      "authors": [
+        "Ruiying Sun",
+        "Wenjing Wang",
+        "Qinhan Chen",
+        "Yanhui Song",
+        "Huangwei Chen",
+        "Haotong Luan",
+        "Junhao Jia"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27584v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "PubMed Reasoner: Dynamic Reasoning-based Retrieval for Evidence-Grounded Biomedical Question Answering",
+      "source": "arXiv",
+      "date": "2026-03-28T16:41:57+00:00",
+      "updated": "2026-03-28T16:41:57+00:00",
+      "url": "http://arxiv.org/abs/2603.27335v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27335v1",
+      "abstract": "Trustworthy biomedical question answering (QA) systems must not only provide accurate answers but also justify them with current, verifiable evidence. Retrieval-augmented approaches partially address this gap but lack mechanisms to iteratively refine poor queries, whereas self-reflection methods kick in only after full retrieval is completed. In this context, we introduce PubMed Reasoner, a biomedical QA agent composed of three stages: self-critic query refinement evaluates MeSH terms for coverage, alignment, and redundancy to enhance PubMed queries based on partial (metadata) retrieval; reflective retrieval processes articles in batches until sufficient evidence is gathered; and evidence-grounded response generation produces answers with explicit citations. PubMed Reasoner with a GPT-4o backbone achieves 78.32% accuracy on PubMedQA, slightly surpassing human experts, and showing consistent gains on MMLU Clinical Knowledge. Moreover, LLM-as-judge evaluations prefer our responses across: reasoning soundness, evidence grounding, clinical relevance, and trustworthiness. By orchestrating retrieval-first reasoning over authoritative sources, our approach provides practical assistance to clinicians and biomedical researchers while controlling compute and token costs.",
+      "authors": [
+        "Yiqing Zhang",
+        "Xiaozhong Liu",
+        "Fabricio Murai"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27335v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Self-evolving AI agents for protein discovery and directed evolution",
+      "source": "arXiv",
+      "date": "2026-03-28T15:16:49+00:00",
+      "updated": "2026-03-28T15:16:49+00:00",
+      "url": "http://arxiv.org/abs/2603.27303v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27303v1",
+      "abstract": "Protein scientific discovery is bottlenecked by the manual orchestration of information and algorithms, while general agents are insufficient in complex domain projects. VenusFactory2 provides an autonomous framework that shifts from static tool usage to dynamic workflow synthesis via a self-evolving multi-agent infrastructure to address protein-related demands. It outperforms a set of well-known agents on the VenusAgentEval benchmark, and autonomously organizes the discovery and optimization of proteins from a single natural language prompt.",
+      "authors": [
+        "Yang Tan",
+        "Lingrong Zhang",
+        "Mingchen Li",
+        "Yuanxi Yu",
+        "Bozitao Zhong",
+        "Bingxin Zhou",
+        "Nanqing Dong",
+        "Liang Hong"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27303v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Graph Vector Field: A Unified Framework for Multimodal Health Risk Assessment from Heterogeneous Wearable and Environmental Data Streams",
+      "source": "arXiv",
+      "date": "2026-03-30T07:26:44+00:00",
+      "updated": "2026-03-30T07:26:44+00:00",
+      "url": "http://arxiv.org/abs/2603.28115v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28115v1",
+      "abstract": "Digital health research has advanced dynamic graph-based disease models, topological learning on simplicial complexes, and multimodal mixture-of-experts architectures, but these strands remain largely disconnected. We propose Graph Vector Field (GVF), a framework that models health risk as a vector-valued field on time-varying simplicial complexes, coupling discrete differential-geometric operators with modality-structured mixture-of-experts. Risk is represented as a vector-valued cochain whose evolution is parameterised with Hodge Laplacians and discrete exterior calculus operators, yielding a Helmholtz-Hodge decomposition into potential-driven (exact), circulation-like (coexact), and topologically constrained (harmonic) components linked to interpretable propagation, cyclic, and persistent risk mechanisms. Multimodal inputs from wearable sensors, behavioural/environmental context, and clinical/genomic data are incorporated through a bundle-structured mixture-of-experts in which modality-specific latent spaces are attached as fibres to the base complex. This separates modality-specific from shared contributions and offers a principled route toward modality-level identifiability. GVF integrates geometric dynamical systems, higher-order topology (enforced indirectly via geometric regularisation and Hodge decomposition), and structured multimodal fusion into a single framework for interpretable, modality-resolved risk modelling. This paper develops the mathematical foundations, architectural design, and formal guarantees; empirical validation is the subject of ongoing work.",
+      "authors": [
+        "Silvano Coletti",
+        "Francesca Fallucchi"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28115v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "What an Autonomous Agent Discovers About Molecular Transformer Design: Does It Transfer?",
+      "source": "arXiv",
+      "date": "2026-03-30T04:08:37+00:00",
+      "updated": "2026-03-30T04:08:37+00:00",
+      "url": "http://arxiv.org/abs/2603.28015v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28015v1",
+      "abstract": "Deep learning models for drug-like molecules and proteins overwhelmingly reuse transformer architectures designed for natural language, yet whether molecular sequences benefit from different designs has not been systematically tested. We deploy autonomous architecture search via an agent across three sequence types (SMILES, protein, and English text as control), running 3,106 experiments on a single GPU. For SMILES, architecture search is counterproductive: tuning learning rates and schedules alone outperforms the full search (p = 0.001). For natural language, architecture changes drive 81% of improvement (p = 0.009). Proteins fall between the two. Surprisingly, although the agent discovers distinct architectures per domain (p = 0.004), every innovation transfers across all three domains with <1% degradation, indicating that the differences reflect search-path dependence rather than fundamental biological requirements. We release a decision framework and open-source toolkit for molecular modeling teams to choose between autonomous architecture search and simple hyperparameter tuning.",
+      "authors": [
+        "Edward Wijaya"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28015v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Q-BIOLAT: Binary Latent Protein Fitness Landscapes for QUBO-Based Optimization",
+      "source": "arXiv",
+      "date": "2026-03-29T05:33:55+00:00",
+      "updated": "2026-03-29T05:33:55+00:00",
+      "url": "http://arxiv.org/abs/2603.27526v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27526v1",
+      "abstract": "Protein fitness optimization is inherently a discrete combinatorial problem, yet most learning-based approaches rely on continuous representations and are primarily evaluated through predictive accuracy. We introduce Q-BIOLAT, a framework for modeling and optimizing protein fitness landscapes in compact binary latent spaces. Starting from pretrained protein language model embeddings, we construct binary latent representations and learn a quadratic unconstrained binary optimization (QUBO) surrogate that captures unary and pairwise interactions. Beyond its formulation, Q-BIOLAT provides a representation-centric perspective on protein fitness modeling. We show that representations with similar predictive performance can induce fundamentally different optimization landscapes. In particular, learned autoencoder-based representations collapse after binarization, producing degenerate latent spaces that fail to support combinatorial search, whereas simple structured representations such as PCA yield high-entropy, decodable, and optimization-friendly latent spaces. Across multiple datasets and data regimes, we demonstrate that classical combinatorial optimization methods, including simulated annealing, genetic algorithms, and greedy hill climbing, are highly effective in structured binary latent spaces. By expressing the objective in QUBO form, our approach connects modern machine learning with discrete and quantum-inspired optimization. Our implementation and dataset are publicly available at: https://github.com/HySonLab/Q-BIOLAT-Extended",
+      "authors": [
+        "Truong-Son Hy"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27526v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Link Prediction for Event Logs in the Process Industry",
+      "source": "arXiv",
+      "date": "2025-08-12T17:22:29+00:00",
+      "updated": "2026-03-30T16:58:15+00:00",
+      "url": "http://arxiv.org/abs/2508.09096v3",
+      "pdf_url": "https://arxiv.org/pdf/2508.09096v3",
+      "abstract": "In the era of graph-based retrieval-augmented generation (RAG), link prediction is a significant preprocessing step for improving the quality of fragmented or incomplete domain-specific data for the graph retrieval. Knowledge management in the process industry uses RAG-based applications to optimize operations, ensure safety, and facilitate continuous improvement by effectively leveraging operational data and past insights. A key challenge in this domain is the fragmented nature of event logs in shift books, where related records are often kept separate, even though they belong to a single event or process. This fragmentation hinders the recommendation of previously implemented solutions to users, which is crucial in the timely problem-solving at live production sites. To address this problem, we develop a record linking model, which we define as a cross-document coreference resolution (CDCR) task. Record linking adapts the task definition of CDCR and combines two state-of-the-art CDCR models with the principles of natural language inference (NLI) and semantic text similarity (STS) to perform link prediction. The evaluation shows that our record linking model outperformed the best versions of our baselines, i.e., NLP and STS, by 28% (11.43 p) and 27.4% (11.21 p), respectively. Our work demonstrates that common NLP tasks can be combined and adapted to a domain-specific setting of the German process industry, improving data quality and connectivity in shift logs.",
+      "authors": [
+        "Anastasia Zhukova",
+        "Thomas Walton",
+        "Christian E. Lobmüller",
+        "Bela Gipp"
+      ],
+      "doi": "",
+      "arxiv_id": "2508.09096v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Multilingual Medical Reasoning for Question Answering with Large Language Models",
+      "source": "arXiv",
+      "date": "2025-12-05T12:05:46+00:00",
+      "updated": "2026-03-30T15:46:48+00:00",
+      "url": "http://arxiv.org/abs/2512.05658v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.05658v2",
+      "abstract": "Large Language Models (LLMs) with reasoning capabilities have recently demonstrated strong potential in medical Question Answering (QA). Existing approaches are largely English-focused and primarily rely on distillation from general-purpose LLMs, raising concerns about the reliability of their medical knowledge. In this work, we present a method to generate multilingual reasoning traces based on medical knowledge extracted from Wikipedia. We produce 500k traces in English, Italian, and Spanish, using a retrieval-augmented generation approach over medical information from Wikipedia. The traces are generated to solve medical questions drawn from MedQA and MedMCQA, which we extend to Italian and Spanish. We test our pipeline in both in-domain and out-of-domain settings across Medical QA benchmarks, and demonstrate that our reasoning traces improve performance both when utilized via in-context learning (few-shot) and supervised fine-tuning, yielding state-of-the-art results among 8B-parameter LLMs. We believe that these resources can support the development of more transparent clinical decision-support tools in multilingual settings. We release the full suite of resources: reasoning traces, translated QA datasets, Medical-Wikipedia, and fine-tuned models.",
+      "authors": [
+        "Pietro Ferrazzi",
+        "Aitor Soroa",
+        "Rodrigo Agerri"
+      ],
+      "doi": "",
+      "arxiv_id": "2512.05658v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Courtroom-Style Multi-Agent Debate with Progressive RAG and Role-Switching for Controversial Claim Verification",
+      "source": "arXiv",
+      "date": "2026-03-30T14:23:15+00:00",
+      "updated": "2026-03-30T14:23:15+00:00",
+      "url": "http://arxiv.org/abs/2603.28488v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28488v1",
+      "abstract": "Large language models (LLMs) remain unreliable for high-stakes claim verification due to hallucinations and shallow reasoning. While retrieval-augmented generation (RAG) and multi-agent debate (MAD) address this, they are limited by one-pass retrieval and unstructured debate dynamics. We propose a courtroom-style multi-agent framework, PROClaim, that reformulates verification as a structured, adversarial deliberation. Our approach integrates specialized roles (e.g., Plaintiff, Defense, Judge) with Progressive RAG (P-RAG) to dynamically expand and refine the evidence pool during the debate. Furthermore, we employ evidence negotiation, self-reflection, and heterogeneous multi-judge aggregation to enforce calibration, robustness, and diversity. In zero-shot evaluations on the Check-COVID benchmark, PROClaim achieves 81.7% accuracy, outperforming standard multi-agent debate by 10.0 percentage points, with P-RAG driving the primary performance gains (+7.5 pp). We ultimately demonstrate that structural deliberation and model heterogeneity effectively mitigate systematic biases, providing a robust foundation for reliable claim verification. Our code and data are publicly available at https://github.com/mnc13/PROClaim.",
+      "authors": [
+        "Masnun Nuha Chowdhury",
+        "Nusrat Jahan Beg",
+        "Umme Hunny Khan",
+        "Syed Rifat Raiyan",
+        "Md Kamrul Hasan",
+        "Hasan Mahmud"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28488v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "CiQi-Agent: Aligning Vision, Tools and Aesthetics in Multimodal Agent for Cultural Reasoning on Chinese Porcelains",
+      "source": "arXiv",
+      "date": "2026-03-30T14:13:47+00:00",
+      "updated": "2026-03-30T14:13:47+00:00",
+      "url": "http://arxiv.org/abs/2603.28474v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28474v1",
+      "abstract": "The connoisseurship of antique Chinese porcelain demands extensive historical expertise, material understanding, and aesthetic sensitivity, making it difficult for non-specialists to engage. To democratize cultural-heritage understanding and assist expert connoisseurship, we introduce CiQi-Agent -- a domain-specific Porcelain Connoisseurship Agent for intelligent analysis of antique Chinese porcelain. CiQi-Agent supports multi-image porcelain inputs and enables vision tool invocation and multimodal retrieval-augmented generation, performing fine-grained connoisseurship analysis across six attributes: dynasty, reign period, kiln site, glaze color, decorative motif, and vessel shape. Beyond attribute classification, it captures subtle visual details, retrieves relevant domain knowledge, and integrates visual and textual evidence to produce coherent, explainable connoisseurship descriptions. To achieve this capability, we construct a large-scale, expert-annotated dataset CiQi-VQA, comprising 29,596 porcelain specimens, 51,553 images, and 557,940 visual question--answering pairs, and further establish a comprehensive benchmark CiQi-Bench aligned with the previously mentioned six attributes. CiQi-Agent is trained through supervised fine-tuning, reinforcement learning, and a tool-augmented reasoning framework that integrates two categories of tools: a vision tool and multimodal retrieval tools. Experimental results show that CiQi-Agent (7B) outperforms all competitive open- and closed-source models across all six attributes on CiQi-Bench, achieving on average 12.2\\% higher accuracy than GPT-5. The model and dataset have been released and are publicly available at https://huggingface.co/datasets/SII-Monument-Valley/CiQi-VQA.",
+      "authors": [
+        "Wenhan Wang",
+        "Zhixiang Zhou",
+        "Zhongtian Ma",
+        "Yanzhu Chen",
+        "Ziyu Lin",
+        "Hao Sheng",
+        "Pengfei Liu",
+        "Honglin Ma",
+        "Wenqi Shao",
+        "Qiaosheng Zhang",
+        "Yu Qiao"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28474v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Entropic Claim Resolution: Uncertainty-Driven Evidence Selection for RAG",
+      "source": "arXiv",
+      "date": "2026-03-30T13:49:03+00:00",
+      "updated": "2026-03-30T13:49:03+00:00",
+      "url": "http://arxiv.org/abs/2603.28444v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28444v1",
+      "abstract": "Current Retrieval-Augmented Generation (RAG) systems predominantly rely on relevance-based dense retrieval, sequentially fetching documents to maximize semantic similarity with the query. However, in knowledge-intensive and real-world scenarios characterized by conflicting evidence or fundamental query ambiguity, relevance alone is insufficient for resolving epistemic uncertainty. We introduce Entropic Claim Resolution (ECR), a novel inference-time algorithm that reframes RAG reasoning as entropy minimization over competing semantic answer hypotheses. Unlike action-driven agentic frameworks (e.g., ReAct) or fixed-pipeline RAG architectures, ECR sequentially selects atomic evidence claims by maximizing Expected Entropy Reduction (EER), a decision-theoretic criterion for the value of information. The process dynamically terminates when the system reaches a mathematically defined state of epistemic sufficiency (H <= epsilon, subject to epistemic coherence). We integrate ECR into a production-grade multi-strategy retrieval pipeline (CSGR++) and analyze its theoretical properties. Our framework provides a rigorous foundation for uncertainty-aware evidence selection, shifting the paradigm from retrieving what is most relevant to retrieving what is most discriminative.",
+      "authors": [
+        "Davide Di Gioia"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28444v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning",
+      "source": "arXiv",
+      "date": "2026-03-30T11:53:45+00:00",
+      "updated": "2026-03-30T11:53:45+00:00",
+      "url": "http://arxiv.org/abs/2603.28325v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28325v1",
+      "abstract": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support. Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature. EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations. We release two resources: EvidenceNet-HCC with 7,872 evidence records, 10,328 graph nodes, and 49,756 edges, and EvidenceNet-CRC with 6,622 records, 8,795 nodes, and 39,361 edges. Technical validation shows high component fidelity, including 98.3% field-level extraction accuracy, 100.0% high-confidence entity-link accuracy, 87.5% fusion integrity, and 90.0% semantic relation-type accuracy. In downstream evaluation, EvidenceNet improves internal and external retrieval-augmented question answering and retains structural signal for future link prediction and target prioritization. These results establish EvidenceNet as a disease-specific resource for evidence-aware biomedical reasoning and hypothesis generation.",
+      "authors": [
+        "Chang Zong",
+        "Sicheng Lv",
+        "Si-tu Xue",
+        "Huilin Zheng",
+        "Jian Wan",
+        "Lei Zhang"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28325v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "OmniRAG-Agent: Agentic Omnimodal Reasoning for Low-Resource Long Audio-Video Question Answering",
+      "source": "arXiv",
+      "date": "2026-02-03T16:28:24+00:00",
+      "updated": "2026-03-30T11:14:57+00:00",
+      "url": "http://arxiv.org/abs/2602.03707v4",
+      "pdf_url": "https://arxiv.org/pdf/2602.03707v4",
+      "abstract": "Long-horizon omnimodal question answering answers questions by reasoning over text, images, audio, and video. Despite recent progress on OmniLLMs, low-resource long audio-video QA still suffers from costly dense encoding, weak fine-grained retrieval, limited proactive planning, and no clear end-to-end optimization. To address these issues, we propose OmniRAG-Agent, an agentic omnimodal QA method for budgeted long audio-video reasoning. It builds an image-audio retrieval-augmented generation module that lets an OmniLLM fetch short, relevant frames and audio snippets from external banks. Moreover, it uses an agent loop that plans, calls tools across turns, and merges retrieved evidence to answer complex queries. Furthermore, we apply group relative policy optimization to jointly improve tool use and answer quality over time. Experiments on OmniVideoBench, WorldSense, and Daily-Omni show that OmniRAG-Agent consistently outperforms prior methods under low-resource settings and achieves strong results, with ablations validating each component.",
+      "authors": [
+        "Yifan Zhu",
+        "Xinyu Mu",
+        "Tao Feng",
+        "Zhonghong Ou",
+        "Yuning Gong",
+        "Haoran Luo"
+      ],
+      "doi": "",
+      "arxiv_id": "2602.03707v4",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Dream to Recall: Imagination-Guided Experience Retrieval for Memory-Persistent Vision-and-Language Navigation",
+      "source": "arXiv",
+      "date": "2025-10-09T17:58:01+00:00",
+      "updated": "2026-03-30T09:03:04+00:00",
+      "url": "http://arxiv.org/abs/2510.08553v2",
+      "pdf_url": "https://arxiv.org/pdf/2510.08553v2",
+      "abstract": "Vision-and-Language Navigation (VLN) requires agents to follow natural language instructions through environments, with memory-persistent variants demanding progressive improvement through accumulated experience. Existing approaches for memory-persistent VLN face critical limitations: they lack effective memory access mechanisms, instead relying on entire memory incorporation or fixed-horizon lookup, and predominantly store only environmental observations while neglecting navigation behavioral patterns that encode valuable decision-making strategies. We present Memoir, which employs imagination as a retrieval mechanism grounded by explicit memory: a world model imagines future navigation states as queries to selectively retrieve relevant environmental observations and behavioral histories. The approach comprises: 1) a language-conditioned world model that imagines future states serving dual purposes: encoding experiences for storage and generating retrieval queries; 2) Hybrid Viewpoint-Level Memory that anchors both observations and behavioral patterns to viewpoints, enabling hybrid retrieval; and 3) an experience-augmented navigation model that integrates retrieved knowledge through specialized encoders. Extensive evaluation across diverse memory-persistent VLN benchmarks with 10 distinct testing scenarios demonstrates Memoir's effectiveness: significant improvements across all scenarios, with 5.4% SPL gains on IR2R over the best memory-persistent baseline, accompanied by 8.3x training speedup and 74% inference memory reduction. The results validate that predictive retrieval of both environmental and behavioral memories enables more effective navigation, with analysis indicating substantial headroom (73.3% vs 93.4% upper bound) for this imagination-guided paradigm.",
+      "authors": [
+        "Yunzhe Xu",
+        "Yiyuan Pan",
+        "Zhe Liu"
+      ],
+      "doi": "",
+      "arxiv_id": "2510.08553v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ORACAL: A Robust and Explainable Multimodal Framework for Smart Contract Vulnerability Detection with Causal Graph Enrichment",
+      "source": "arXiv",
+      "date": "2026-03-30T07:46:59+00:00",
+      "updated": "2026-03-30T07:46:59+00:00",
+      "url": "http://arxiv.org/abs/2603.28128v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28128v1",
+      "abstract": "Although Graph Neural Networks (GNNs) have shown promise for smart contract vulnerability detection, they still face significant limitations. Homogeneous graph models fail to capture the interplay between control flow and data dependencies, while heterogeneous graph approaches often lack deep semantic understanding, leaving them susceptible to adversarial attacks. Moreover, most black-box models fail to provide explainable evidence, hindering trust in professional audits. To address these challenges, we propose ORACAL (Observable RAG-enhanced Analysis with CausAL reasoning), a heterogeneous multimodal graph learning framework that integrates Control Flow Graph (CFG), Data Flow Graph (DFG), and Call Graph (CG). ORACAL selectively enriches critical subgraphs with expert-level security context from Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs), and employs a causal attention mechanism to disentangle true vulnerability indicators from spurious correlations. For transparency, the framework adopts PGExplainer to generate subgraph-level explanations identifying vulnerability triggering paths. Experiments on large-scale datasets demonstrate that ORACAL achieves state-of-the-art performance, outperforming MANDO-HGT, MTVHunter, GNN-SC, and SCVHunter by up to 39.6 percentage points, with a peak Macro F1 of 91.28% on the primary benchmark. ORACAL maintains strong generalization on out-of-distribution datasets with 91.8% on CGT Weakness and 77.1% on DAppScan. In explainability evaluation, PGExplainer achieves 32.51% Mean Intersection over Union (MIoU) against manually annotated vulnerability triggering paths. Under adversarial attacks, ORACAL limits performance degradation to approximately 2.35% F1 decrease with an Attack Success Rate (ASR) of only 3%, surpassing SCVHunter and MANDO-HGT which exhibit ASRs ranging from 10.91% to 18.73%.",
+      "authors": [
+        "Tran Duong Minh Dai",
+        "Triet Huynh Minh Le",
+        "M. Ali Babar",
+        "Van-Hau Pham",
+        "Phan The Duy"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28128v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Quid est VERITAS? A Modular Framework for Archival Document Analysis",
+      "source": "arXiv",
+      "date": "2026-03-30T07:14:51+00:00",
+      "updated": "2026-03-30T07:14:51+00:00",
+      "url": "http://arxiv.org/abs/2603.28108v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28108v1",
+      "abstract": "The digitisation of historical documents has traditionally been conceived as a process limited to character-level transcription, producing flat text that lacks the structural and semantic information necessary for substantive computational analysis. We present VERITAS (Vision-Enhanced Reading, Interpretation, and Transcription of Archival Sources), a modular, model-agnostic framework that reconceptualises digitisation as an integrated workflow encompassing transcription, layout analysis, and semantic enrichment. The pipeline is organised into four stages - Preprocessing, Extraction, Refinement, and Enrichment - and employs a schema-driven architecture that allows researchers to declaratively specify their extraction objectives. We evaluate VERITAS on the critical edition of Bernardino Corio's Storia di Milano, a Renaissance chronicle of over 1,600 pages. Results demonstrate that the pipeline achieves a 67.6% relative reduction in word error rate compared to a commercial OCR baseline, with a threefold reduction in end-to-end processing time when accounting for manual correction. We further illustrate the downstream utility of the pipeline's output by querying the transcribed corpus through a retrieval-augmented generation system, demonstrating its capacity to support historical inquiry.",
+      "authors": [
+        "Leonardo Bassanini",
+        "Ludovico Biancardi",
+        "Alfio Ferrara",
+        "Andrea Gamberini",
+        "Sergio Picascia",
+        "Folco Vaglienti"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.28108v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "GAAMA: Graph Augmented Associative Memory for Agents",
+      "source": "arXiv",
+      "date": "2026-03-29T23:33:38+00:00",
+      "updated": "2026-03-29T23:33:38+00:00",
+      "url": "http://arxiv.org/abs/2603.27910v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27910v1",
+      "abstract": "AI agents that interact with users across multiple sessions require persistent long-term memory to maintain coherent, personalized behavior. Current approaches either rely on flat retrieval-augmented generation (RAG), which loses structural relationships between memories, or use memory compression and vector retrieval that cannot capture the associative structure of multi-session conversations. There are few graph based techniques proposed in the literature, however they still suffer from hub dominated retrieval and poor hierarchical reasoning over evolving memory. We propose GAAMA, a graph-augmented associative memory system that constructs a concept-mediated hierarchical knowledge graph through a three-step pipeline: (1)~verbatim episode preservation from raw conversations, (2)~LLM-based extraction of atomic facts and topic-level concept nodes, and (3)~synthesis of higher-order reflections. The resulting graph uses four node types (episode, fact, reflection, concept) connected by five structural edge types, with concept nodes providing cross-cutting traversal paths that complement semantic similarity. Retrieval combines cosine-similarity-based $k$-nearest neighbor search with edge-type-aware Personalized PageRank (PPR) through an additive scoring function. On the LoCoMo-10 benchmark (1,540 questions across 10 multi-session conversations), GAAMA achieves 78.9\\% mean reward, outperforming a tuned RAG baseline (75.0\\%), HippoRAG (69.9\\%), A-Mem (47.2\\%), and Nemori (52.1\\%). Ablation analysis shows that augmenting graph-traversal-based ranking (Personalized PageRank) with semantic search consistently improves over pure semantic search on graph nodes (+1.0 percentage point overall).",
+      "authors": [
+        "Swarna Kamal Paul",
+        "Shubhendu Sharma",
+        "Nitin Sareen"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27910v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TailNLG: A Multilingual Benchmark Addressing Verbalization of Long-Tail Entities",
+      "source": "arXiv",
+      "date": "2026-03-29T17:01:54+00:00",
+      "updated": "2026-03-29T17:01:54+00:00",
+      "url": "http://arxiv.org/abs/2603.27768v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27768v1",
+      "abstract": "The automatic verbalization of structured knowledge is a key task for making knowledge graphs accessible to non-expert users and supporting retrieval-augmented generation systems. Although recent advances in Data-to-Text generation have improved multilingual coverage, little attention has been paid to potential biases in the verbalization of rare entities, frequently known as long-tail entities. In this work, we present the first systematic study of long-tail entities in Data-to-Text generation. We introduce TailNLG, a new multilingual benchmark in English, Italian, and Spanish, built from Wikidata and covering entities with varying levels of popularity. We evaluate three different families of large language models in zero-shot settings and compare their performance on rare versus common entities, as well as against the established WebNLG benchmark. Our results reveal a consistent bias against long-tail entities: embedding-based scores are lower, and model uncertainty is higher for rare entities. We further show that the impact of long-tail entities varies across models and languages, and that existing evaluation metrics do not consistently capture these differences, highlighting the need for more reliable evaluation frameworks.",
+      "authors": [
+        "Lia Draetta",
+        "Michael Oliverio",
+        "Virginia Ramón-Ferrer",
+        "Pier Felice Balestrucci",
+        "Flaviana Corallo",
+        "Carlos Badenes-Olmedo",
+        "Alessandro Mazzei",
+        "Marco Antonio Stranisci",
+        "Rossana Damiano"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27768v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Retromorphic Testing with Hierarchical Verification for Hallucination Detection in RAG",
+      "source": "arXiv",
+      "date": "2026-03-29T16:12:18+00:00",
+      "updated": "2026-03-29T16:12:18+00:00",
+      "url": "http://arxiv.org/abs/2603.27752v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27752v1",
+      "abstract": "Large language models (LLMs) continue to hallucinate in retrieval-augmented generation (RAG), producing claims that are unsupported by or conflict with the retrieved context. Detecting such errors remains challenging when faithfulness is evaluated solely with respect to the retrieved context. Existing approaches either provide coarse-grained, answer-level scores or focus on open-domain factuality, often lacking fine-grained, evidence-grounded diagnostics. We present RT4CHART, a retromorphic testing framework for context-faithfulness assessment. RT4CHART decomposes model outputs into independently verifiable claims and performs hierarchical, local-to-global verification against the retrieved context. Each claim is assigned one of three labels: entailed, contradicted, or baseless. Furthermore, RT4CHART maps claim-level decisions back to specific answer spans and retrieves explicit supporting or refuting evidence from the context, enabling fine-grained and interpretable auditing. We evaluate RT4CHART on RAGTruth++ (408 samples) and RAGTruth-Enhance (2,675 samples), a newly re-annotated benchmark. RT4CHART achieves the best answer-level hallucination detection F1 among all baselines. On RAGTruth++, it reaches an F1 score of 0.776, outperforming the strongest baseline by 83%. On RAGTruth-Enhance, it achieves a span-level F1 of 47.5%. Ablation studies show that the hierarchical verification design is the primary driver of performance gains. Finally, our re-annotation reveals 1.68x more hallucination cases than the original labels, suggesting that existing benchmarks substantially underestimate the prevalence of hallucinations.",
+      "authors": [
+        "Boxi Yu",
+        "Yuzhong Zhang",
+        "Liting Lin",
+        "Lionel Briand",
+        "Emir Muñoz"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27752v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Exqutor: Extended Query Optimizer for Vector-augmented Analytical Queries",
+      "source": "arXiv",
+      "date": "2025-12-10T14:42:52+00:00",
+      "updated": "2026-03-29T07:26:56+00:00",
+      "url": "http://arxiv.org/abs/2512.09695v4",
+      "pdf_url": "https://arxiv.org/pdf/2512.09695v4",
+      "abstract": "Vector similarity search is becoming increasingly important for data science pipelines, particularly in Retrieval-Augmented Generation (RAG), where it enhances large language model inference by enabling efficient retrieval of relevant external knowledge. As RAG expands with table-augmented generation to incorporate structured data, workloads integrating table and vector search are becoming more prevalent. However, efficiently executing such queries remains challenging due to inaccurate cardinality estimation for vector search components, leading to suboptimal query plans. In this paper, we propose Exqutor, an extended query optimizer for vector-augmented analytical queries. Exqutor is a pluggable cardinality estimation framework designed to address this issue, leveraging exact cardinality query optimization techniques to enhance estimation accuracy when vector indexes (e.g., HNSW, IVF) are available. In scenarios lacking these indexes, we employ a sampling-based approach with adaptive sampling size adjustment, dynamically tuning the sample size to balance estimation accuracy and sampling overhead. This allows Exqutor to efficiently approximate vector search cardinalities while minimizing computational costs. We integrate our framework into pgvector, VBASE, and DuckDB, demonstrating performance improvements of up to four orders of magnitude on vector-augmented analytical queries.",
+      "authors": [
+        "Hyunjoon Kim",
+        "Chaerim Lim",
+        "Hyeonjun An",
+        "Rathijit Sen",
+        "Kwanghyun Park"
+      ],
+      "doi": "",
+      "arxiv_id": "2512.09695v4",
+      "pubmed_id": ""
+    },
+    {
+      "title": "FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG",
+      "source": "arXiv",
+      "date": "2026-01-09T15:41:08+00:00",
+      "updated": "2026-03-29T07:00:05+00:00",
+      "url": "http://arxiv.org/abs/2601.05866v4",
+      "pdf_url": "https://arxiv.org/pdf/2601.05866v4",
+      "abstract": "Retrieval-Augmented Generation (RAG) models are critically undermined by citation hallucinations, a deceptive failure where a model cites a source that fails to support its claim. While existing work attributes hallucination to a simple over-reliance on parametric knowledge, we reframe this failure as an evolving, scale-dependent coordination failure between the Attention (reading) and Feed-Forward Network (recalling) pathways. We introduce FACTUM (Framework for Attesting Citation Trustworthiness via Underlying Mechanisms), a framework of four mechanistic scores: Contextual Alignment (CAS), Attention Sink Usage (BAS), Parametric Force (PFS), and Pathway Alignment (PAS). Our analysis reveals that correct citations are consistently marked by higher parametric force (PFS) and greater use of the attention sink (BAS) for information synthesis. Crucially, we find that \"one-size-fits-all\" theories are insufficient as the signature of correctness evolves with scale: while the 3B model relies on high pathway alignment (PAS), our best-performing 8B detector identifies a shift toward a specialized strategy where pathways provide distinct, orthogonal information. By capturing this complex interplay, FACTUM outperforms state-of-the-art baselines by up to 37.5% in AUC. Our results demonstrate that high parametric force is constructive when successfully coordinated with the Attention pathway, paving the way for more nuanced and reliable RAG systems.",
+      "authors": [
+        "Maxime Dassen",
+        "Rebecca Kotula",
+        "Kenton Murray",
+        "Andrew Yates",
+        "Dawn Lawrie",
+        "Efsun Kayi",
+        "James Mayfield",
+        "Kevin Duh"
+      ],
+      "doi": "",
+      "arxiv_id": "2601.05866v4",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Visualization of Machine Learning Models through Their Spatial and Temporal Listeners",
+      "source": "arXiv",
+      "date": "2026-03-29T05:41:37+00:00",
+      "updated": "2026-03-29T05:41:37+00:00",
+      "url": "http://arxiv.org/abs/2603.27527v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27527v1",
+      "abstract": "Model visualization (ModelVis) has emerged as a major research direction, yet existing taxonomies are largely organized by data or tasks, making it difficult to treat models as first-class analysis objects. We present a model-centric two-stage framework that employs abstract listeners to capture spatial and temporal model behaviors, and then connects the translated model behavior data to the classical InfoVis pipeline. To apply the framework at scale, we build a retrieval-augmented human--large language model (LLM) extraction workflow and curate a corpus of 128 VIS/VAST ModelVis papers with 331 coded figures. Our analysis shows a dominant result-centric priority on visualizing model outcomes, quantitative/nominal data type, statistical charts, and performance evaluation. Citation-weighted trends further indicate that less frequent model-mechanism-oriented studies have disproportionately high impact while are less investigated recently. Overall, the framework is a general approach for comparing existing ModelVis systems and guiding possible future designs.",
+      "authors": [
+        "Siyu Wu",
+        "Lei Shi",
+        "Lei Xia",
+        "Cenyang Wu",
+        "Zipeng Liu",
+        "Yingchaojie Feng",
+        "Liang Zhou",
+        "Wei Chen"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27527v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "AstraAI: LLMs, Retrieval, and AST-Guided Assistance for HPC Codebases",
+      "source": "arXiv",
+      "date": "2026-03-28T21:49:05+00:00",
+      "updated": "2026-03-28T21:49:05+00:00",
+      "url": "http://arxiv.org/abs/2603.27423v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27423v1",
+      "abstract": "We present AstraAI, a command-line interface (CLI) coding framework for high-performance computing (HPC) software development. AstraAI operates directly within a Linux terminal and integrates large language models (LLMs) with Retrieval-Augmented Generation (RAG) and Abstract Syntax Tree (AST)-based structural analysis to enable context-aware code generation for complex scientific codebases. The central idea is to construct a high-fidelity prompt that is passed to the LLM for inference. This prompt augments the user request with relevant code snippets retrieved from the underlying framework codebase via RAG and structural context extracted from AST analysis, providing the model with precise information about relevant functions, data structures, and overall code organization. The framework is designed to perform scoped modifications to source code while preserving structural consistency with the surrounding code. AstraAI supports both locally hosted models from Hugging Face and API-based frontier models accessible via the American Science Cloud, enabling flexible deployment across HPC environments. The system generates code that aligns with existing project structures and programming patterns. We demonstrate AstraAI on representative HPC code generation tasks within AMReX, a DOE-supported HPC software infrastructure for exascale applications.",
+      "authors": [
+        "Mahesh Natarajan",
+        "Xiaoye Li",
+        "Weiqun Zhang"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27423v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based Ethical Tutoring",
+      "source": "arXiv",
+      "date": "2026-03-28T20:50:21+00:00",
+      "updated": "2026-03-28T20:50:21+00:00",
+      "url": "http://arxiv.org/abs/2603.27404v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27404v1",
+      "abstract": "Large Language Models (LLMs) are being increasingly used as autonomous agents in complex reasoning tasks, opening the niche for dialectical interactions. However, Multi-Agent systems implemented with systematically unconstrained systems systematically undergo semantic drift and logical deterioration and thus can hardly be used in providing ethical tutoring where a precise answer is required. Current simulation often tends to degenerate into dialectical stagnation, the agents degenerate into recursive concurrence or circular arguments. A critical challenge remains: how to enforce doctrinal fidelity without suppressing the generative flexibility required for dialectical reasoning? To address this niche, we contribute the Heterogeneous Debate Engine (HDE), a cognitive architecture that combines Identity-Grounded Retrieval-Augmented Generation (ID-RAG) for doctrinal fidelity and Heuristic Theory of Mind for strategic opponent modeling. Our evaluation shows that architectural heterogeneity is a crucial variable to stability: contrary doctrinal initializations (e.g., Deontology vs. Utilitarianism) have increased the Argument Complexity Scores of students by an order of magnitude, over baselines. These findings validate the effectiveness of ID-RAG and Heuristic ToM as architectural requirements in maintaining high-fidelity (adversarial) pedagogy.",
+      "authors": [
+        "Jakub Masłowski",
+        "Jarosław A. Chudziak"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27404v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Seeing the Scene Matters: Revealing Forgetting in Video Understanding Models with a Scene-Aware Long-Video Benchmark",
+      "source": "arXiv",
+      "date": "2026-03-28T12:44:19+00:00",
+      "updated": "2026-03-28T12:44:19+00:00",
+      "url": "http://arxiv.org/abs/2603.27259v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27259v1",
+      "abstract": "Long video understanding (LVU) remains a core challenge in multimodal learning. Although recent vision-language models (VLMs) have made notable progress, existing benchmarks mainly focus on either fine-grained perception or coarse summarization, offering limited insight into temporal understanding over long contexts. In this work, we define a scene as a coherent segment of a video in which both visual and semantic contexts remain consistent, aligning with human perception. This leads us to a key question: can current VLMs reason effectively over long, scene-level contexts? To answer this, we introduce a new benchmark, SceneBench, designed to provide scene-level challenges. Our evaluation reveals a sharp drop in accuracy when VLMs attempt to answer scene-level questions, indicating significant forgetting of long-range context. To further validate these findings, we propose Scene Retrieval-Augmented Generation (Scene-RAG), which constructs a dynamic scene memory by retrieving and integrating relevant context across scenes. This Scene-RAG improves VLM performance by +2.50%, confirming that current models still struggle with long-context retention. We hope SceneBench will encourage future research toward VLMs with more robust, human-like video comprehension.",
+      "authors": [
+        "Seng Nam Chen",
+        "Hao Chen",
+        "Chenglam Ho",
+        "Xinyu Mao",
+        "Jinping Wang",
+        "Yu Zhang",
+        "Chao Li"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27259v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Mitigating Hallucination on Hallucination in RAG via Ensemble Voting",
+      "source": "arXiv",
+      "date": "2026-03-28T12:07:30+00:00",
+      "updated": "2026-03-28T12:07:30+00:00",
+      "url": "http://arxiv.org/abs/2603.27253v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27253v1",
+      "abstract": "Retrieval-Augmented Generation (RAG) aims to reduce hallucinations in Large Language Models (LLMs) by integrating external knowledge. However, RAG introduces a critical challenge: hallucination on hallucination,\" where flawed retrieval results mislead the generation model, leading to compounded hallucinations. To address this issue, we propose VOTE-RAG, a novel, training-free framework with a two-stage structure and efficient, parallelizable voting mechanisms. VOTE-RAG includes: (1) Retrieval Voting, where multiple agents generate diverse queries in parallel and aggregate all retrieved documents; (2) Response Voting, where multiple agents independently generate answers based on the aggregated documents, with the final output determined by majority vote. We conduct comparative experiments on six benchmark datasets. Our results show that VOTE-RAG achieves performance comparable to or surpassing more complex frameworks. Additionally, VOTE-RAG features a simpler architecture, is fully parallelizable, and avoids the problem drift\" risk. Our work demonstrates that simple, reliable ensemble voting is a superior and more efficient method for mitigating RAG hallucinations.",
+      "authors": [
+        "Zequn Xie",
+        "Zhengyang Sun"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27253v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Towards Hyper-Efficient RAG Systems in VecDBs: Distributed Parallel Multi-Resolution Vector Search",
+      "source": "arXiv",
+      "date": "2025-11-12T09:31:08+00:00",
+      "updated": "2026-03-28T08:42:42+00:00",
+      "url": "http://arxiv.org/abs/2511.16681v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.16681v2",
+      "abstract": "Retrieval-Augmented Generation (RAG) systems have become a dominant approach to augment large language models (LLMs) with external knowledge. However, existing vector database (VecDB) retrieval pipelines rely on flat or single-resolution indexing structures, which cannot adapt to the varying semantic granularity required by diverse user queries. This limitation leads to suboptimal trade-offs between retrieval speed and contextual relevance. To address this, we propose \\textbf{Semantic Pyramid Indexing (SPI)}, a novel multi-resolution vector indexing framework that introduces query-adaptive resolution control for RAG in VecDBs. Unlike existing hierarchical methods that require offline tuning or separate model training, SPI constructs a semantic pyramid over document embeddings and dynamically selects the optimal resolution level per query through a lightweight classifier. This adaptive approach enables progressive retrieval from coarse-to-fine representations, significantly accelerating search while maintaining semantic coverage. We implement SPI as a plugin for both FAISS and Qdrant backends and evaluate it across multiple RAG tasks including MS MARCO, Natural Questions, and multimodal retrieval benchmarks. SPI achieves up to \\textbf{5.7$\\times$} retrieval speedup and \\textbf{1.8$\\times$} memory efficiency gain while improving end-to-end QA F1 scores by up to \\textbf{2.5 points} compared to strong baselines. Our theoretical analysis provides guarantees on retrieval quality and latency bounds, while extensive ablation studies validate the contribution of each component. The framework's compatibility with existing VecDB infrastructures makes it readily deployable in production RAG systems. Code is availabe at \\href{https://github.com/FastLM/SPI_VecDB}{https://github.com/FastLM/SPI\\_VecDB}.",
+      "authors": [
+        "Dong Liu",
+        "Yanxuan Yu"
+      ],
+      "doi": "",
+      "arxiv_id": "2511.16681v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowledge-augmented Interaction",
+      "source": "arXiv",
+      "date": "2026-03-28T04:34:09+00:00",
+      "updated": "2026-03-28T04:34:09+00:00",
+      "url": "http://arxiv.org/abs/2603.27127v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27127v1",
+      "abstract": "Web applications remain the dominant attack surface in cybersecurity, where vulnerabilities such as SQL injection, XSS, and business logic flaws continue to cause significant data breaches. While penetration testing is effective for identifying these weaknesses, traditional manual approaches are time-consuming and heavily dependent on scarce expert knowledge. Recent Large Language Models (LLM)-based multi-agent systems have shown promise in automating penetration testing, yet they still suffer from critical limitations: over-reliance on parametric knowledge, fragmented session memory, and insufficient validation of attack payloads and responses. This paper proposes Red-MIRROR, a novel multi-agent automated penetration testing system that introduces a tightly coupled memory-reflection backbone to explicitly govern inter-agent reasoning. By synthesizing Retrieval-Augmented Generation (RAG) for external knowledge augmentation, a Shared Recurrent Memory Mechanism (SRMM) for persistent state management, and a Dual-Phase Reflection mechanism for adaptive validation, Red-MIRROR provides a robust solution for complex web exploitation. Empirical evaluation on the XBOW benchmark and Vulhub CVEs shows that Red-MIRROR achieves performance comparable to state-of-the-art agents on Vulhub scenarios, while demonstrating a clear advantage on the XBOW benchmark. On the XBOW benchmark, Red-MIRROR attains an overall success rate of 86.0 percent, outperforming PentestAgent (50.0 percent), AutoPT (46.0 percent), and the VulnBot baseline (6.0 percent). Furthermore, the system achieves a 93.99 percent subtask completion rate, indicating strong long-horizon reasoning and payload refinement capability. Finally, we discuss ethical implications and propose safeguards to mitigate misuse risks.",
+      "authors": [
+        "Tran Vy Khang",
+        "Nguyen Dang Nguyen Khang",
+        "Nghi Hoang Khoa",
+        "Do Thi Thu Hien",
+        "Van-Hau Pham",
+        "Phan The Duy"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.27127v1",
+      "pubmed_id": ""
+    }
+  ],
   "source_statuses": [
     {
       "source": "arXiv",
-      "success": false,
-      "count": 0,
-      "error": "429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28ti%3A%22pathogen+foundation+model%22+OR+abs%3A%22pathogen+foundation+model%22+OR+%28all%3Apathogen+AND+all%3Afoundation+AND+all%3Amodel%29%29+OR+%28ti%3A%22biological+foundation+model+pathogen%22+OR+abs%3A%22biological+foundation+model+pathogen%22+OR+%28all%3Abiological+AND+all%3Afoundation+AND+all%3Amodel%29%29+OR+%28ti%3A%22llm+for+pathogen+genomics%22+OR+abs%3A%22llm+for+pathogen+genomics%22+OR+%28all%3Apathogen+AND+all%3Agenomics%29%29+OR+%28ti%3A%22llm+for+pathogen+detection%22+OR+abs%3A%22llm+for+pathogen+detection%22+OR+%28all%3Apathogen+AND+all%3Adetection%29%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=33"
+      "success": true,
+      "count": 37,
+      "error": ""
     }
   ]
 }
