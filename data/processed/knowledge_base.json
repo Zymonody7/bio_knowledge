@@ -1,20 +1,20 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-04-07T03:58:43.701667+00:00",
+    "updated_at": "2026-04-08T04:08:53.991578+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 654,
-    "last_run_count": 48,
+    "total_papers": 656,
+    "last_run_count": 6,
     "sources": {
       "PubMed": 62,
       "arXiv": 436,
       "bioRxiv": 102,
-      "medRxiv": 54
+      "medRxiv": 56
     },
     "categories": {
-      "clinical_application": 60,
+      "clinical_application": 62,
       "dataset": 57,
       "foundation_model": 289,
       "general": 14,
@@ -23,7 +23,7 @@
     "topics": {
       "application_monitoring": 6,
       "data_fair_training": 2,
-      "foundation_model_agent": 440,
+      "foundation_model_agent": 442,
       "pathogenomics": 49,
       "sequencing_bioinformatics": 25
     },
@@ -31,7 +31,7 @@
       "2023": 1,
       "2024": 9,
       "2025": 83,
-      "2026": 561
+      "2026": 563
     }
   },
   "indexes": {
@@ -646,8 +646,10 @@
         "doi:10.1101/2025.06.11.25329357",
         "doi:10.1101/2025.07.25.25331635",
         "doi:10.1101/2025.08.06.25333170",
+        "doi:10.1101/2025.09.05.25333227",
         "doi:10.1101/2025.10.03.25337250",
         "doi:10.1101/2025.10.21.25338475",
+        "doi:10.1101/2025.10.30.25339162",
         "doi:10.1101/2025.11.15.25339520",
         "doi:10.1101/2025.11.21.25340716",
         "doi:10.64898/2026.03.02.26346984",
@@ -729,7 +731,9 @@
         "doi:10.1093/pubmed/fdaf163",
         "doi:10.1097/md.0000000000047908",
         "doi:10.1101/2025.06.11.25329357",
+        "doi:10.1101/2025.09.05.25333227",
         "doi:10.1101/2025.10.03.25337250",
+        "doi:10.1101/2025.10.30.25339162",
         "doi:10.1101/2025.11.15.25339520",
         "doi:10.1128/jcm.01558-25",
         "doi:10.1128/spectrum.03683-25",
@@ -1693,9 +1697,11 @@
         "doi:10.1101/2025.07.23.666402",
         "doi:10.1101/2025.07.25.25331635",
         "doi:10.1101/2025.08.06.25333170",
+        "doi:10.1101/2025.09.05.25333227",
         "doi:10.1101/2025.10.03.25337250",
         "doi:10.1101/2025.10.16.682831",
         "doi:10.1101/2025.10.21.25338475",
+        "doi:10.1101/2025.10.30.25339162",
         "doi:10.1101/2025.11.03.685842",
         "doi:10.1101/2025.11.15.25339520",
         "doi:10.1101/2025.11.21.25340716",
@@ -2391,9 +2397,11 @@
         "doi:10.1101/2025.07.23.666402",
         "doi:10.1101/2025.07.25.25331635",
         "doi:10.1101/2025.08.06.25333170",
+        "doi:10.1101/2025.09.05.25333227",
         "doi:10.1101/2025.10.03.25337250",
         "doi:10.1101/2025.10.16.682831",
         "doi:10.1101/2025.10.21.25338475",
+        "doi:10.1101/2025.10.30.25339162",
         "doi:10.1101/2025.10.31.685078",
         "doi:10.1101/2025.11.03.685842",
         "doi:10.1101/2025.11.14.688410",
@@ -2573,7 +2581,7 @@
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41936024/",
       "abstract": "The complementarity-determining regions (CDRs) of antibodies are loop structures that are key to their interactions with antigens and are of high importance to the design of novel biologics. Existing approaches for characterizing the diversity of CDRs have limited coverage and cannot be readily incorporated into protein foundation models. Here we introduce ImmunoGlobulin LOOp Tokenizer, Igloo, a multimodal antibody loop tokenizer that encodes backbone dihedral angles and sequence. Igloo is trained using a contrastive learning objective to map loops with similar backbone dihedral angles closer together in latent space. Compared to state-of-the-art protein encoding approaches, Igloo can efficiently retrieve the closest matching loop structures from a structural antibody database, outperforming the existing methods on identifying similar H3 loops by 6.1%. Igloo assigns tokens to all loops, addressing the limited coverage issue of canonical clusters, while retaining the ability to recover canonical loop conformations. To demonstrate the versatility of Igloo tokens, we show that they can be incorporated into protein language models with IglooLM and IglooALM. On predicting binding affinity of heavy chain variants, IglooLM outperforms the base protein language model on 8 out of 10 antibody-antigen targets. Additionally, it is on par with existing state-of-the-art sequence-based and multimodal protein language models, performing comparably to models with 7 × more parameters. IglooALM samples antibody loops which are diverse in sequence and more consistent in structure than state-of-the-art antibody inverse folding models. We show that Igloo can rapidly and scalably prioritize functional antibody variants from large mutagenesis libraries, achieving a 1.9 × enrichment of experimentally validated HER2 binders in a zero-shot setting. Igloo demonstrates the benefit of introducing multimodal tokens for antibody loops for encoding their diverse landscape, improving protein foundation models, and for antibody CDR design.",
-      "abstract_zh": "",
+      "abstract_zh": "抗体的互补决定区（CDR）是与抗原相互作用的关键环状结构，对新型生物药物设计至关重要。现有表征方法覆盖范围有限，且难以整合进蛋白质基础模型。本研究提出 Igloo（免疫球蛋白环标记器），这是一种编码主链二面角和序列的多模态抗体环标记器。Igloo 采用对比学习目标训练，将具有相似主链二面角的环在潜在空间中映射得更近。相比现有蛋白质编码方法，Igloo 能更高效地从结构数据库中检索匹配的环结构，在识别相似 H3 环方面优于现有方法 6.1%。Igloo 为所有环分配 Token，解决了经典聚类覆盖率不足的问题，同时保留了恢复经典构象的能力。通过 IglooLM 和 IglooALM，我们将 Igloo Token 整合进蛋白质语言模型。在预测重链变体结合亲和力时，IglooLM 在 10 个靶点中的 8 个上优于基础模型，且性能与参数量大 7 倍的模型相当。IglooALM 生成的抗体环在序列多样性和结构一致性上优于现有逆折叠模型。在零样本设置下，Igloo 实现了实验验证的 HER2 结合剂 1.9 倍的富集。该研究证明了多模态 Token 在编码抗体环多样性及改进基础模型方面的显著价值。",
       "abstract_short": "The complementarity-determining regions (CDRs) of antibodies are loop structures that are key to their interactions with antigens and are of high importance to the design of novel biologics. Existing approaches for characterizing the diversity of CDRs have limited coverage and cannot be readily incorporated into protein foundation models. Here we introduce ImmunoGlobulin LOOp Tokenizer, Igloo, a m",
       "matched_topics": [
         "foundation_model_agent"
@@ -2583,15 +2591,15 @@
       "novelty_score": 5.0,
       "importance_score": 7.698,
       "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
-      "analysis_zh": "",
+      "analysis_zh": "## 核心内容\n该研究开发了名为 Igloo 的多模态抗体环标记器（Tokenizer），专门用于表征抗体 CDR 区的结构与序列信息。通过对比学习，Igloo 将主链二面角和氨基酸序列映射至统一的潜在空间。基于此 Tokenizer，研究者进一步构建了 IglooLM（用于亲和力预测）和 IglooALM（用于抗体设计）两个衍生模型，实现了结构信息与蛋白质大语言模型（pLM）的深度融合。\n\n## 为什么相关\n在病原体检测与中和抗体开发领域，准确预测抗体与抗原（如病毒表面蛋白）的结合亲和力是核心任务。Igloo 通过将复杂的 CDR 环结构转化为可被 LLM 处理的 Token，提升了模型对抗体特异性的建模能力。这对于从大规模突变库中筛选针对特定病原体的高亲和力抗体具有直接的指导意义。\n\n## 新颖度判断\n新颖度中等（5.0）。其创新点在于：1. 突破了传统“经典聚类（Canonical Clusters）”覆盖率有限的瓶颈，实现了对所有抗体环的 Token 化；2. 采用多模态（序列+二面角）对比学习构建 Tokenizer，而非单纯依赖序列；3. 验证了将结构 Token 嵌入现有 pLM 框架的可行性，且在小参数量下达到了大模型的性能。\n\n## 方法与证据\n- **方法**：使用对比学习训练 Igloo，输入为抗体环的主链二面角和序列；构建 IglooLM 和 IglooALM 整合这些 Token。\n- **检索性能**：在识别相似 H3 环的任务中，Igloo 比现有最先进方法准确率提升 6.1%。\n- **预测性能**：IglooLM 在 10 个抗体-抗原靶点的结合亲和力预测中，有 8 个表现优于基础 pLM，且性能媲美参数量大 7 倍的模型。\n- **设计与筛选**：IglooALM 生成的环结构一致性更高；在 HER2 结合剂的零样本筛选中，实现了 1.9 倍的实验验证富集率。\n\n## 应用价值\nIgloo 可用于快速、可扩展地从大规模诱变库中优先排序功能性抗体变体。在临床微生物学中，这可加速针对新兴病原体的治疗性抗体设计。此外，其轻量化且高效的特性（以 1/7 的参数量达到 SOTA 性能）使其更易于部署在常规科研计算环境中。\n\n## 局限与风险\n摘要未说明该模型在处理非 CDR 区域或非抗体蛋白质环结构时的泛化能力。此外，对于二面角的依赖意味着输入数据需要高质量的结构预测或实验结构，摘要未提及在结构预测不准确（如高度柔性的 H3 环）时模型的鲁棒性表现。关于计算成本和推理速度的量化数据在摘要中亦未详细说明。",
       "category": "foundation_model",
       "doi": "10.1080/19420862.2026.2645271",
       "arxiv_id": "",
       "pubmed_id": "41936024",
-      "content_hash": "a6bbc02403f0fd345047e4e7d6e388b8781f6d4b56abbcee642d09e0e23d10ed",
+      "content_hash": "06411a8840f96d0adb59cb2db71eed892753ad8408aa9f713ade79bb24ec4fa6",
       "first_seen_at": "2026-04-06T04:17:27.123855+00:00",
-      "last_seen_at": "2026-04-07T03:58:43.701667+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -3290,6 +3298,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1101/2025.09.05.25333227": {
+      "paper_id": "doi:10.1101/2025.09.05.25333227",
+      "title": "Leveraging Open-Source Large Language Models to Identify Undiagnosed Patients with Rare Genetic Aortopathies",
+      "source": "medRxiv",
+      "date": "2026-04-07T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.09.05.25333227v2",
+      "abstract": "Rare genetic aortopathies are frequently undiagnosed due to phenotypic heterogeneity, and delayed diagnosis can lead to fatal cardiac outcomes. While genetic testing can enable early proactive interventions, it relies on primary care physicians to recognize a genetic basis for symptoms and then refer patients to clinical genetics. Broad-scale screening methods are needed to identify cases that do not fit an obvious diagnostic pattern. Clinical notes, rich in narrative details, may support the automated flagging of patients for genetic testing. Given the strength of Large Language Models (LLMs) in processing unstructured text, we developed an open-source LLM-enabled genetic testing recommendation pipeline, which leverages retrieval augmented generation (RAG) on curated genetic aortopathy-related corpora to utilize relevant clinical knowledge for identifying patients likely to benefit from genetic testing. The pipeline was validated using 22,510 patient progress notes from 500 individuals (250 cases, 250 controls) in the Penn Medicine BioBank, and successfully categorized 425 out of 499 patients, with one case requiring further clinician evaluation due to incomplete information. The pipeline achieved a patient-level recommendation accuracy of 0.834, precision of 0.835, sensitivity of 0.831, specificity of 0.836, F1-score of 0.833, and F3-score of 0.832. Our LLM-enabled workflow integrating RAG showed strong performance in recommending genetic testing for patients with rare genetic aortopathies. These findings illustrate the feasibility of using open-source LLMs to support identification of patients who may benefit from genetic testing based on free-text clinical notes, providing a potential decision-support tool to assist clinicians in earlier recognition of rare genetic disease risks.",
+      "abstract_zh": "罕见遗传性主动脉病常因表型异质性导致漏诊，延误诊断可能引发致命心脏后果。虽然基因检测可实现早期干预，但目前高度依赖初级保健医生对症状的识别与转诊。由于临床记录包含丰富的叙述性细节，本研究开发了一种基于开源大语言模型（LLM）的基因检测推荐流程，利用检索增强生成（RAG）技术结合精选的遗传性主动脉病语料库，从非结构化文本中识别潜在患者。该流程在宾夕法尼亚大学生物样本库（Penn Medicine BioBank）的 500 名个体（250 例病例，250 例对照）共 22,510 份病程记录上进行了验证。结果显示，该流程成功对 499 名患者中的 425 名进行了分类，患者级推荐准确率为 0.834，精确率为 0.835，敏感性为 0.831，特异性为 0.836，F1 分数为 0.833。研究证明了利用开源 LLM 处理临床自由文本以辅助识别罕见遗传病风险的可行性，为早期发现罕见病提供了潜在的决策支持工具。",
+      "abstract_short": "Rare genetic aortopathies are frequently undiagnosed due to phenotypic heterogeneity, and delayed diagnosis can lead to fatal cardiac outcomes. While genetic testing can enable early proactive interventions, it relies on primary care physicians to recognize a genetic basis for symptoms and then refer patients to clinical genetics. Broad-scale screening methods are needed to identify cases that do ",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.15,
+      "novelty_score": 5.75,
+      "importance_score": 6.66,
+      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
+      "analysis_zh": "## 核心内容\n该研究构建了一个基于开源大语言模型和检索增强生成（RAG）技术的自动化临床决策支持流程，旨在通过分析非结构化临床病程记录，识别患有罕见遗传性主动脉病（Rare Genetic Aortopathies）但尚未确诊的患者，并给出基因检测建议。\n\n## 为什么相关\n本研究属于“临床基因组学+LLM”的典型交叉应用。它解决了临床微生物学与遗传学中常见的“表型识别难”问题，通过 AI 手段挖掘电子健康档案（EHR）中的自由文本，直接关联到基因检测这一精准医疗的核心环节，与“foundation_model_agent”主题高度相关。\n\n## 新颖度判断\n中等偏高。其新颖性在于：1. 选择了“开源”LLM 而非闭源模型，这对于医疗数据隐私保护具有重要意义；2. 引入了 RAG 架构，利用专门策划的遗传性主动脉病语料库来增强模型的医学专业知识，而非仅依赖模型的预训练权重。\n\n## 方法与证据\n- **数据规模**：使用了来自 Penn Medicine BioBank 的 500 名受试者（250 例阳性病例，250 例对照），涉及 22,510 份临床病程记录。\n- **技术手段**：开发了集成 RAG 的开源 LLM 流程。摘要未说明具体的开源模型名称（如 Llama 或 Mistral）。\n- **实验结果**：在 499 名患者中成功分类 425 名。患者水平的评估指标表现均衡：准确率 0.834、精确率 0.835、敏感性 0.831、特异性 0.836、F1 分数 0.833、F3 分数 0.832。\n\n## 应用价值\n该工具可作为临床医生的“第二大脑”，在初级保健阶段自动扫描病历，对符合罕见遗传病特征的患者发出预警，促使医生尽早进行基因检测转诊，从而预防致命性心脏事件的发生。\n\n## 局限与风险\n- **信息缺失**：摘要提到有 1 例患者因信息不全需要临床医生进一步评估，说明模型对低质量文本的鲁棒性仍有待提高。\n- **分类覆盖率**：在 499 名患者中仅对 425 名进行了有效分类，仍有约 15% 的患者未能通过该流程得出明确结论。\n- **模型泛化性**：实验仅在单一生物样本库（Penn Medicine BioBank）进行，跨机构、跨系统的泛化能力摘要未说明。",
+      "category": "clinical_application",
+      "doi": "10.1101/2025.09.05.25333227",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "4ce6380c0be1686bdded320478aaf28fb7f003d8a02ff01d0e1b127a3d4108ff",
+      "first_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2603.28325v1": {
       "paper_id": "arxiv_id:2603.28325v1",
       "title": "Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning",
@@ -3741,6 +3779,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1101/2025.10.30.25339162": {
+      "paper_id": "doi:10.1101/2025.10.30.25339162",
+      "title": "Using Relative Risk Rankings to Understand Information Differences in Multimodal Prediction Models",
+      "source": "medRxiv",
+      "date": "2026-04-07T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.10.30.25339162v2",
+      "abstract": "Recent multimodal models increasingly combine heterogeneous clinical data, yet in practice raw modalities are often replaced by expert-written summaries for convenience. However, whether such representational substitution, such as replacing medical images with their expert-written reports, preserves prognostic information has not been systematically characterized. Quantifying such gaps is essential for identifying which representational modality is most informative for predictive modeling of patient outcomes. We investigated this question by comparing the predictive utility of chest radiographs (CXRs) and their paired radiology report text for 30-day post-discharge mortality prediction using vision-language models (VLMs). Using the discharge note summary as global clinical context at discharge, we augmented it with either the latest pre-discharge CXR or the corresponding radiology report. On a linked MIMIC-IV/MIMIC-CXR subset with paired inputs (n = 1,360), the discharge-note-plus-CXR model achieved the best performance (AUROC = 0.864), compared with the discharge-note-only model (AUROC = 0.831) and the discharge-note-plus-report model (AUROC = 0.813). To quantify the effect of modality substitution on predictive behavior, we measured Kendall's tau-based distances between predicted risk rankings. Inter-modality distances exceeded intra-modality distances, indicating that replacing CXRs with reports changes risk prioritization rather than merely reducing overall discrimination. Post hoc review by a radiologist further suggested that reports, as clinically oriented summaries, may not exhaustively document visually available prognostic cues that could contribute to model risk stratification. Overall, our findings suggest that expert-written reports may be imperfect prognostic proxies for raw images and that representational substitution should be evaluated using both discrimination and ranking agreement.",
+      "abstract_zh": "多模态临床预测模型常将原始影像替换为专家撰写的文本摘要以简化流程，但这种替代是否保留了预后信息尚不明确。本研究利用视觉语言模型（VLM），对比了胸部X光片（CXR）及其配对放射报告在预测出院后30天死亡率中的效用。研究基于MIMIC-IV/MIMIC-CXR数据集（n=1,360），以出院记录为全局临床背景，分别加入CXR或放射报告进行增强。结果显示，“出院记录+CXR”模型性能最优（AUROC=0.864），优于“仅出院记录”（AUROC=0.831）和“出院记录+报告”（AUROC=0.813）。通过Kendall's tau距离测量风险排名发现，跨模态距离超过了模态内距离，表明用报告替代影像不仅降低了区分度，还改变了风险优先级。放射科医生复审证实，报告作为临床摘要，未能详尽记录影像中对风险分层有贡献的视觉预后线索。研究表明，专家报告并非原始影像的完美预后替代品，评估表征替代时应同时考虑区分度和排名一致性。",
+      "abstract_short": "Recent multimodal models increasingly combine heterogeneous clinical data, yet in practice raw modalities are often replaced by expert-written summaries for convenience. However, whether such representational substitution, such as replacing medical images with their expert-written reports, preserves prognostic information has not been systematically characterized. Quantifying such gaps is essentia",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.1,
+      "novelty_score": 5.25,
+      "importance_score": 6.453,
+      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
+      "analysis_zh": "## 核心内容\n该研究探讨了在多模态临床预测模型中，使用专家撰写的文本报告（放射报告）替代原始医学影像（CXR）对预后预测准确性的影响。研究重点在于量化这种“表征替代”带来的信息损失，特别是对患者风险排名（Risk Ranking）的影响。\n\n## 为什么相关\n本研究与“foundation_model_agent”主题相关，因为它评估了视觉语言模型（VLM）在处理异构临床数据时的表现。对于构建临床智能体（Agent）而言，理解不同模态（影像 vs. 文本）的信息熵差异，对于决定智能体应接入原始数据还是摘要数据具有重要的工程指导意义。\n\n## 新颖度判断\n新颖度中等偏上（5.25）。其创新点不在于模型架构，而在于评估方法：研究不仅关注传统的区分度指标（AUROC），还引入了基于Kendall's tau的相对风险排名距离，从信息论和临床决策优先级的角度揭示了文本摘要在预后信息上的不完整性。\n\n## 方法与证据\n- **数据规模**：使用了MIMIC-IV与MIMIC-CXR链接的子集，包含1,360个配对输入样本。\n- **模型方法**：采用视觉语言模型（VLM），对比了三种配置：仅出院记录、出院记录+CXR、出院记录+放射报告。\n- **关键指标**：\n  - “出院记录+CXR”的AUROC为0.864，表现最佳。\n  - “出院记录+报告”的AUROC仅为0.813，甚至低于“仅出院记录”的0.831，暗示不完整的文本摘要可能引入噪声或导致信息丢失。\n- **定性证据**：放射科医生复审发现，报告往往省略了影像中存在的细微预后线索。\n\n## 应用价值\n该研究为临床AI系统的落地提供了警示：在开发用于死亡率预测或重症预警的AI模型时，不能简单地为了计算便利而用放射报告替代原始影像。对于追求高精度的临床决策支持系统，保留原始影像模态至关重要。\n\n## 局限与风险\n- **样本量限制**：研究仅基于1,360个样本，对于深度学习模型而言规模较小，可能存在过拟合风险。\n- **任务局限性**：仅针对30天死亡率预测，结论是否适用于其他临床任务（如特定疾病诊断）尚未验证。\n- **模型选择**：摘要未详细说明所使用的具体VLM架构，不同模型的特征提取能力可能影响结论的普适性。",
+      "category": "clinical_application",
+      "doi": "10.1101/2025.10.30.25339162",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "c5817a1a04d92f253556df040d8a2ea541fedde6ec6449debfbcaec55bcc4a60",
+      "first_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2603.11277v1": {
       "paper_id": "arxiv_id:2603.11277v1",
       "title": "COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics",
@@ -3809,7 +3877,7 @@
       "year": "2026",
       "url": "https://www.medrxiv.org/content/10.1101/2025.10.21.25338475v8",
       "abstract": "Background/Objectives: Surgical pathology reports contain the most granular diagnostic data for cancer, yet their predominant free-text format creates a \"translational gap\" that hinders automated registry entry and secondary analytics. While current large language model (LLM) research often focuses on narrow extraction tasks, this study emphasizes the clinically governed schema layer as the more durable scientific contribution for long-term interoperability and reproducibility. Methods: We developed a College of American Pathologists (CAP)-aligned clinical ontology implemented as strictly typed, hierarchical schemas and encoded as DSPy signatures. The system covers 10 major cancer types across 193 registry fields, including complex variable-length structures such as lymph-node groups and surgical margins. An extraction pipeline was built using the DSPy framework, enabling a model-agnostic architecture in which LLMs serve as interchangeable inference engines. Performance was benchmarked on 893 internal pathology reports (2023-2024) and an external validation cohort of 150 TCGA reports. Hardware feasibility was tested on a single 48 GB GPU to ensure suitability for on-premise, privacy-preserving medical workstation deployment. Results: Using the gpt-oss:20b model, the framework achieved a mean exact-match accuracy of 94.3% across all internal registry fields. External validation accuracy remained high at 92.4% in the TCGA cohort, demonstrating robust generalizability across diverse institutional reporting styles. High fidelity was maintained for critical prognostic indicators, including breast cancer biomarkers (near-perfect accuracy) and surgical margin positivity (91.2% mean accuracy). Operationally, gpt-oss:20b provided the best balance of speed (40-70 s/report) and accuracy compared with denser or more complex architectures. Conclusions: The primary contribution is a schema-first abstraction layer that decouples clinical logic from specific AI models. By transforming narrative reports into machine-readable structures with registry-grade reliability, this framework provides a portable foundation for automated cancer surveillance, privacy-preserving institutional data reuse, and future multimodal clinical systems.",
-      "abstract_zh": "",
+      "abstract_zh": "手术病理报告包含精细的癌症诊断数据，但其自由文本格式阻碍了自动化登记和二次分析。本研究开发了“Digital Registrar”框架，其核心是基于美国病理学家协会（CAP）标准的临床本体，通过严格类型的分层架构和 DSPy 签名实现。该系统涵盖 10 种主要癌症类型，涉及 193 个登记字段，包括淋巴结组和手术切缘等复杂变量。研究利用 DSPy 框架构建了与模型无关的提取流水线，并在单块 48GB GPU 上测试了本地部署的可行性。实验采用 893 份内部报告（2023-2024年）和 150 份 TCGA 外部报告进行验证。结果显示，使用 gpt-oss:20b 模型时，内部字段匹配准确率达 94.3%，外部验证准确率为 92.4%。乳腺癌生物标志物和手术切缘（91.2%）等关键指标表现优异。该框架通过“模式优先”策略解耦了临床逻辑与特定 AI 模型，为自动化癌症监测和隐私保护下的数据复用提供了基础。",
       "abstract_short": "Background/Objectives: Surgical pathology reports contain the most granular diagnostic data for cancer, yet their predominant free-text format creates a \"translational gap\" that hinders automated registry entry and secondary analytics. While current large language model (LLM) research often focuses on narrow extraction tasks, this study emphasizes the clinically governed schema layer as the more d",
       "matched_topics": [
         "foundation_model_agent"
@@ -3819,15 +3887,15 @@
       "novelty_score": 1.7,
       "importance_score": 6.38,
       "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
-      "analysis_zh": "",
+      "analysis_zh": "## 核心内容\n该研究提出了 Digital Registrar 框架，旨在解决手术病理报告从自由文本到结构化数据库转化的“翻译鸿沟”。核心组件包括一个基于 CAP 标准的临床本体（Schema），涵盖 10 种癌症和 193 个字段。技术上采用了 DSPy 框架实现模型无关的提取流水线，并重点评估了本地大模型（如 gpt-oss:20b）在隐私保护环境下的表现。\n\n## 为什么相关\n该工作属于“基础模型智能体（Foundation Model Agent）”在临床医学领域的典型应用。虽然研究对象是癌症病理，但其“模式优先（Schema-First）”的架构设计、利用 DSPy 进行提示词工程优化以及本地化部署方案，对于病原微生物鉴定报告的自动化结构化、临床基因组学报告的标准化提取具有极高的参考价值，直接影响临床微生物学数据的治理效率。\n\n## 新颖度判断\n**中等偏高**。其新颖性不在于使用了 LLM，而在于：1. 提出了“模式优先”层，将临床逻辑与底层推理引擎解耦；2. 采用了 DSPy 这一先进的编程化提示词框架进行医疗数据提取；3. 针对医疗隐私，验证了在单块 48GB GPU 这种消费级/工作站级硬件上运行 20B 规模模型的可行性。\n\n## 方法与证据\n- **数据规模**：使用了 893 份 2023-2024 年的内部病理报告和 150 份 TCGA 外部验证报告。\n- **模型与工具**：核心框架基于 DSPy；推理引擎主要测试了 gpt-oss:20b。\n- **性能指标**：内部准确率 94.3%，外部 TCGA 准确率 92.4%。手术切缘阳性判断准确率为 91.2%。\n- **硬件效率**：在单块 48GB GPU 上实现每份报告 40-70 秒的处理速度。\n\n## 应用价值\n该框架可直接用于医院内部的自动化癌症监测系统，减少人工录入成本。对于科研人员，它提供了一种在不泄露患者隐私（本地部署）的前提下，将海量历史病理文本转化为可分析结构化数据的可靠路径。其解耦设计允许未来轻松更换性能更强的开源模型。\n\n## 局限与风险\n- **处理速度**：40-70 秒/报告的速度在处理百万级历史存量数据时可能存在瓶颈。\n- **覆盖范围**：目前仅涵盖 10 种癌症，对于罕见病种或复杂的病原体共感染报告的泛化能力摘要未说明。\n- **幻觉风险**：尽管准确率高，但对于 91.2% 准确率之外的错误（如手术切缘判断错误）在临床决策中可能带来风险，需人工复核机制。",
       "category": "foundation_model",
       "doi": "10.1101/2025.10.21.25338475",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "aa65f618ec1976eb8afb8f7fd9fafad700dcd743ec5d135ba633e880bb7a43e0",
+      "content_hash": "89e98b4f9c2bcd226c233ef5759709aa9d419f7baf90b67a230b445a715ee152",
       "first_seen_at": "2026-04-06T04:17:27.123855+00:00",
-      "last_seen_at": "2026-04-07T03:58:43.701667+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -13227,7 +13295,7 @@
       "year": "2026",
       "url": "https://www.medrxiv.org/content/10.64898/2026.04.03.26349253v1",
       "abstract": "Research has documented persistent physician workforce shortages globally, with projected shortfalls threatening primary care access in underserved populations. Existing AI applications in healthcare have largely focused on predictive risk-scoring tools that generate probability estimates but do not reduce the time a physician spends completing a patient encounter. A January 2025 study further demonstrated that large language models lack the metacognitive capacity necessary for reliable medical reason ing, i.e., being able to ask appropriate questions in the absence of information to collect patient history and update differential diagnoses. This paper reports on a 2025 pilot deployment of ClinicalAssist in Bangladesh that tested a fundamentally different model: An AI system designed to replicate every step of the clinical workflow. Across 239 unique patients, 277 encounters, and 287 diagnostic opportunities, the system achieved an overall diagnostic accuracy of 94.7%, with chronic disease accuracy of 98.0% and acute care accuracy of 88.9%. These results suggest that cognitive AI has the potential to be a powerful clinical force multiplier if properly integrated in workflow.",
-      "abstract_zh": "全球范围内医生短缺问题持续存在，严重威胁基层医疗的可及性。现有医疗 AI 应用多侧重于生成概率估计的预测性风险评分工具，未能有效缩短医生的诊疗时间。2025 年的研究指出，大语言模型缺乏可靠医学推理所需的元认知能力，即在信息缺失时无法通过主动提问来收集病史并更新鉴别诊断。本研究报告了 2025 年在孟加拉国开展的 ClinicalAssist 系统试点部署，该系统旨在复制临床工作流的每一个步骤。在针对 239 名唯一患者、277 次就诊和 287 次诊断机会的测试中，该系统实现了 94.7% 的总诊断准确率，其中慢性病准确率为 98.0%，急性护理准确率为 88.9%。结果表明，如果能妥善整合进工作流，认知 AI 有望成为提升临床效能的强大工具。",
+      "abstract_zh": "全球医生短缺严重威胁基层医疗服务，而现有医疗AI多侧重于风险评分，未能有效缩短诊疗时间。2025年1月的研究指出，大语言模型（LLM）在缺乏信息时无法主动提问以收集病史并更新鉴别诊断，缺乏可靠医学推理所需的元认知能力。本研究报告了2025年在孟加拉国开展的ClinicalAssist试点部署，该系统旨在复制临床工作流的每一个步骤。在涉及239名唯一患者、277次就诊和287次诊断机会的测试中，该系统实现了94.7%的总体诊断准确率，其中慢性病准确率为98.0%，急性护理准确率为88.9%。结果表明，认知AI若能妥善整合进临床工作流，有望成为提升医疗效能的强大工具。",
       "abstract_short": "Research has documented persistent physician workforce shortages globally, with projected shortfalls threatening primary care access in underserved populations. Existing AI applications in healthcare have largely focused on predictive risk-scoring tools that generate probability estimates but do not reduce the time a physician spends completing a patient encounter. A January 2025 study further dem",
       "matched_topics": [
         "foundation_model_agent"
@@ -13237,15 +13305,15 @@
       "novelty_score": 0.25,
       "importance_score": 3.825,
       "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
-      "analysis_zh": "## 核心内容\n该研究评估了一种名为 ClinicalAssist 的认知 AI 系统在孟加拉国基层医疗环境中的表现。与传统仅提供风险评分的 AI 不同，该系统尝试模拟完整的临床诊疗流程，包括病史采集、主动提问和鉴别诊断更新。在 287 次诊断机会中，系统展现了极高的诊断准确性。\n\n## 为什么相关\n本研究属于临床应用（clinical_application）与基础模型智能体（foundation_model_agent）的强交叉领域。它直接回应了临床微生物学与基层医疗中“医生工作量过载”的痛点，通过 AI Agent 模拟临床推理，探索了 AI 在资源匮乏地区辅助诊断、预警及治疗决策的实际落地潜力。\n\n## 新颖度判断\n新颖度中等偏上。其核心创新点在于引入了“元认知”概念，解决了 LLM 在医学对话中“不问即答”的缺陷。研究不再局限于静态的医学考试或单一的影像识别，而是将 AI 嵌入到包含 277 次实际就诊的动态临床工作流中，验证了其作为“临床效能倍增器”的可行性。\n\n## 方法与证据\n研究采用了试点部署（Pilot Study）的方法，数据规模包括 239 名唯一患者和 277 次就诊记录。证据显示：\n- **总诊断准确率**：94.7%（基于 287 次诊断机会）。\n- **慢性病表现**：准确率高达 98.0%。\n- **急性护理表现**：准确率为 88.9%。\n实验对象为孟加拉国的基层医疗患者，对比基准为临床标准诊断。\n\n## 应用价值\n该系统在资源匮乏地区具有极高的应用价值，特别是在慢性病管理（98% 准确率）方面，可以显著分担基层医生的初筛和随访压力。通过自动化临床工作流，它有潜力缩短单次诊疗时间，提高医疗服务的覆盖面。\n\n## 局限与风险\n1. **急性病风险**：急性护理的准确率（88.9%）明显低于慢性病，在处理急症时可能存在漏诊或误诊风险。\n2. **样本局限性**：试点仅涉及 239 名患者，样本量相对较小，且特定于孟加拉国的医疗环境，其全球普适性有待验证。\n3. **技术细节缺失**：摘要未说明 ClinicalAssist 的底层模型架构、是否包含多模态输入以及如何处理复杂的共病情况。",
+      "analysis_zh": "## 核心内容\n该研究评估了一种名为“ClinicalAssist”的认知AI系统在孟加拉国基层医疗中的实际应用效果。与仅提供概率预测的传统AI不同，该系统旨在模拟完整的临床工作流（包括病史采集和鉴别诊断更新）。在287次诊断实践中，系统表现出较高的准确性，特别是在慢性病管理方面。\n\n## 为什么相关\n该研究与“基础模型智能体（Foundation Model Agent）”主题高度相关。它探讨了AI如何从简单的文本生成转向具有“元认知”能力的临床智能体，能够主动参与诊疗决策。对于临床微生物学或病原识别领域，这种具备工作流模拟能力的AI可用于辅助急性感染（摘要提及急性护理准确率为88.9%）的初步筛查与鉴别诊断。\n\n## 新颖度判断\n新颖度较低（0.25）。虽然该研究提出了“认知AI”概念并进行了实地试点，但其核心逻辑仍是基于2025年初对LLM元认知缺陷的改进。其新颖之处在于将AI从“预测工具”转型为“流程复制工具”，并在资源受限地区（孟加拉国）进行了验证，而非算法层面的根本突破。\n\n## 方法与证据\n- **实验对象与规模**：在孟加拉国开展试点，包含239名唯一患者，共计277次就诊记录。\n- **评估指标**：通过287次诊断机会评估准确率。总体准确率为94.7%，慢性病准确率达98.0%，急性护理准确率为88.9%。\n- **技术对比**：摘要明确指出该系统区别于传统风险评分工具，旨在解决LLM在信息缺失时无法主动提问的缺陷。\n\n## 应用价值\n该系统具有显著的临床落地潜力，被定义为“临床效能倍增器”。在医生短缺的地区，ClinicalAssist可承担初步接诊和病史采集任务，减少医生在常规环节消耗的时间。其在慢性病（98.0%准确率）监控中的高可靠性，使其非常适合用于基层医疗的长期随访。\n\n## 局限与风险\n- **急性病表现稍逊**：急性护理的准确率（88.9%）明显低于慢性病，这在处理快速进展的病原体感染或急症时可能存在误诊风险。\n- **样本量限制**：试点仅涉及239名患者，样本规模较小，其在复杂并发症或罕见病原体诊断中的鲁棒性尚未得到充分验证。\n- **技术细节缺失**：摘要未说明ClinicalAssist的具体架构，也未提及是否涉及多模态数据（如实验室检验结果）的整合。",
       "category": "clinical_application",
       "doi": "10.64898/2026.04.03.26349253",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "f986d18ba61ccca9d6d09f44ffa09e6e632bf37ab627c9301f05043e221c7f84",
+      "content_hash": "67523d8d27c4b2b3f6187a7eea6045e9e3a687b697a3916b85ab4d228def61d5",
       "first_seen_at": "2026-04-06T04:17:27.123855+00:00",
-      "last_seen_at": "2026-04-07T03:58:43.701667+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -13257,7 +13325,7 @@
       "year": "2026",
       "url": "https://www.medrxiv.org/content/10.64898/2026.04.03.26350117v1",
       "abstract": "Clinical narrative text contains crucial patient information, yet reliable extraction remains challenging due to linguistic variability, documentation habits, and differences across care settings. Large language models (LLMs) have shown strong accuracy on clinical information extraction (IE), but their reproducibility (stability under repeated runs) and robustness (stability under small, natural prompt variations) are less consistently quantified, despite being central to clinical deployment. In this study, we evaluate three open-weight LLMs representing distinct modeling choices: a dense general-purpose model (Llama 3.3), a mixture-of-experts (MoE) general-purpose model (Llama 4), and a domain-tuned medical model (MedGemma). We focus on binary clinical IE aligned with four mobility classes from the International Classification of Functioning, Disability and Health (ICF) framework. Using a controlled experimental design, we quantify (1) intra-prompt reproducibility across repeated sampling and (2) inter-prompt robustness across paraphrased prompts. We jointly report predictive performance (F1-score) and stability (Fleiss' Kappa [{kappa}]). And we test factor effects using three-way ANOVA with post-hoc comparisons. Results show that increasing temperature generally degrades agreement, but the magnitude depends on model and task; furthermore, prompt paraphrasing can substantially reduce stability, with particularly large drops for the MoE model. Finally, we evaluate a practical mitigation, self-consistency via majority voting, which improves {kappa} substantially and often improves or preserves F1-score, at the cost of additional inference. Together, these findings provide a reproducible framework and concrete recommendations for evaluating and improving LLM reliability in clinical IE.",
-      "abstract_zh": "临床叙述性文本包含关键的患者信息，但由于语言变异和记录习惯的差异，可靠的信息提取（IE）仍具挑战。大语言模型（LLMs）在临床IE中表现出极高的准确性，但其在临床部署中核心的可重复性（重复运行的稳定性）和鲁棒性（提示词微小变化下的稳定性）尚未得到一致量化。本研究评估了三种代表性开源LLM：稠密通用模型Llama 3.3、混合专家（MoE）通用模型Llama 4以及领域微调医学模型MedGemma。研究聚焦于国际功能、残疾和健康分类（ICF）框架下的四类移动功能状态的二元临床IE。通过受控实验，量化了重复采样下的提示内可重复性和提示词改写下的提示间鲁棒性，并联合报告预测性能（F1分数）与稳定性（Fleiss' Kappa）。结果显示，增加采样温度通常会降低一致性，且影响程度取决于模型和任务；提示词改写会显著降低稳定性，尤其是MoE模型表现出更大的波动。最后，研究验证了多数投票自一致性方法能显著提高Kappa值并维持F1分数，尽管增加了推理成本。该研究为评估和提升临床IE中LLM的可靠性提供了可重复框架和具体建议。",
+      "abstract_zh": "临床叙述性文本包含关键患者信息，但由于语言变异和记录习惯，提取仍具挑战。大语言模型（LLMs）在临床信息提取（IE）中表现出色，但其在临床部署中至关重要的可重复性（重复运行的稳定性）和鲁棒性（提示词微小变化下的稳定性）尚未得到一致量化。本研究评估了三种代表性开源 LLM：稠密通用模型 Llama 3.3、混合专家（MoE）通用模型 Llama 4 以及领域微调医学模型 MedGemma。研究聚焦于基于国际功能、残疾和健康分类（ICF）框架的四类移动功能状态的二元临床 IE。通过受控实验，量化了重复采样下的提示内可重复性和提示改写下的提示间鲁棒性。研究结合预测性能（F1 分数）和稳定性（Fleiss' Kappa）进行报告，并使用三因素方差分析（ANOVA）测试因素影响。结果显示，提高温度通常会降低一致性，且提示词改写会显著降低稳定性，尤其是 MoE 模型。最后，评估发现自洽性（多数投票）在增加推理成本的同时，显著提高了 Kappa 值并维持或提升了 F1 分数。本研究为评估和提高临床 IE 中 LLM 的可靠性提供了框架和建议。",
       "abstract_short": "Clinical narrative text contains crucial patient information, yet reliable extraction remains challenging due to linguistic variability, documentation habits, and differences across care settings. Large language models (LLMs) have shown strong accuracy on clinical information extraction (IE), but their reproducibility (stability under repeated runs) and robustness (stability under small, natural p",
       "matched_topics": [
         "foundation_model_agent"
@@ -13267,15 +13335,15 @@
       "novelty_score": 0.25,
       "importance_score": 3.825,
       "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
-      "analysis_zh": "## 核心内容\n该研究针对临床信息提取（IE）任务，系统评估了大型语言模型在提取患者移动功能状态时的可靠性。研究重点量化了模型在相同提示词下的重复性（Reproducibility）以及在提示词改写后的鲁棒性（Robustness），并对比了不同架构（稠密、MoE、领域微调）模型的表现差异。\n\n## 为什么相关\n在病原学与临床微生物学研究中，从电子病历（EHR）中自动提取患者临床表型、感染症状或功能状态是构建高质量数据集的关键。本文探讨的LLM稳定性问题直接关系到自动化提取结果的临床可信度，特别是在需要高一致性的监测和预警场景中，了解模型在不同提示词下的波动至关重要。\n\n## 新颖度判断\n**中等偏高**。虽然LLM在临床IE的应用已有较多研究，但本文的新颖之处在于：1. 专门针对“稳定性”而非单纯的“准确率”进行量化；2. 对比了最新的Llama 4（MoE架构）与Llama 3.3（稠密架构）在临床任务中的鲁棒性差异；3. 引入了Fleiss' Kappa指标与三向方差分析（ANOVA）来严谨评估影响因素。\n\n## 方法与证据\n- **实验对象**：三种开源模型，包括稠密模型 Llama 3.3、混合专家模型 Llama 4 和医学微调模型 MedGemma。\n- **任务与数据**：基于ICF框架的4类移动功能状态的二元分类任务，处理临床叙述性文本。\n- **评估指标**：使用 F1-score 衡量预测性能，使用 Fleiss' Kappa ({kappa}) 衡量稳定性。\n- **关键证据**：增加温度（Temperature）会导致一致性下降；提示词改写对稳定性有显著负面影响，且 MoE 模型（Llama 4）在提示词变化时稳定性下降尤为剧烈；三向方差分析证实了模型类型、任务和温度对结果的显著影响。\n\n## 应用价值\n- **临床部署指导**：研究建议在临床IE任务中使用“多数投票自一致性”（Majority Voting）方法，摘要指出该方法能显著提升 Kappa 值，有助于在实际应用中获得更稳健的提取结果。\n- **模型选择参考**：为临床研究人员提供了模型架构选择的依据，提示在追求高性能的同时需警惕 MoE 模型对提示词敏感的风险。\n\n## 局限与风险\n- **推理成本**：摘要明确指出，虽然自一致性方法能提高可靠性，但其代价是“额外的推理开销”（additional inference），这可能限制其在大规模实时监测中的应用。\n- **数据局限**：研究仅聚焦于 ICF 框架下的移动功能状态，摘要未说明该结论是否能直接推广到更复杂的病原微生物报告或多语言临床文本中。\n- **模型依赖**：稳定性表现具有明显的“模型和任务依赖性”，意味着针对特定临床任务仍需重新评估。",
+      "analysis_zh": "## 核心内容\n该研究系统评估了大型语言模型在临床移动功能状态提取任务中的可靠性。研究重点对比了不同架构的模型（Llama 3.3、Llama 4、MedGemma）在处理基于 ICF 框架的临床文本时，其输出结果在重复运行（可重复性）和提示词微调（鲁棒性）下的表现，并提出了提升稳定性的策略。\n\n## 为什么相关\n本研究属于“基础模型与智能体（foundation_model_agent）”在临床应用领域的交叉。对于临床微生物学或病原学研究者而言，虽然研究对象是移动功能，但其评估 LLM 提取临床叙述性文本（Clinical narrative text）稳定性的方法论，可直接迁移至从病历中自动提取感染症状、抗生素使用史或病原体检测结果等关键临床信息。\n\n## 新颖度判断\n新颖度较低（0.25）。虽然研究引入了较新的模型（如 Llama 4 和 Llama 3.3），但其核心评估维度（温度影响、提示词改写、多数投票）在 LLM 评估领域已较为成熟。其主要贡献在于将这些评估手段应用于特定的 ICF 临床框架，并对比了 MoE 架构与稠密架构在临床任务中的稳定性差异。\n\n## 方法与证据\n- **实验对象与数据**：针对 ICF 框架下的四类移动功能进行二元分类提取，数据规模摘要未说明。\n- **评估模型**：稠密模型 Llama 3.3、MoE 模型 Llama 4、医学微调模型 MedGemma。\n- **评价指标**：预测性能采用 F1-score，稳定性采用 Fleiss' Kappa (κ)。\n- **统计方法**：使用三因素方差分析（Three-way ANOVA）及事后比较。\n- **关键结论**：增加采样温度（Temperature）会降低模型间的一致性；提示词改写（Paraphrasing）对稳定性有显著负面影响，且 MoE 模型（Llama 4）对此尤为敏感。\n\n## 应用价值\n研究验证了“自洽性（Self-consistency via majority voting）”作为临床部署缓解措施的有效性。该方法能显著提升 Fleiss' Kappa 值，并在不牺牲（甚至提升）F1 分数的前提下增强临床信息提取的可靠性。这为构建更稳健的临床自动化监测 Agent 提供了实践指南。\n\n## 局限与风险\n- **计算成本**：摘要明确指出，采用多数投票法（Majority voting）会带来“额外的推理成本（additional inference）”，这可能限制其在实时临床预警系统中的应用。\n- **模型架构风险**：研究发现 MoE 架构在提示词变动时稳定性下降更剧烈，提示在选择此类模型处理高风险临床数据时需谨慎进行提示词工程。",
       "category": "clinical_application",
       "doi": "10.64898/2026.04.03.26350117",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "019ec9ebd1a560f4c1acae0a059db42b1479e32080e6971b6b9d57d06448a1d6",
+      "content_hash": "0b5a4304494ae9366929cd8845439f5a6da0d4246575be89d0d31aea078cf49d",
       "first_seen_at": "2026-04-06T04:17:27.123855+00:00",
-      "last_seen_at": "2026-04-07T03:58:43.701667+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-04-08T04:08:53.991578+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },

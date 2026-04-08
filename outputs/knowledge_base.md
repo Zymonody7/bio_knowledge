@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-04-07 03:58:43
+最近更新：2026-04-08 04:08:54
 
-累计论文数：654
-最近一次新增：48
+累计论文数：656
+最近一次新增：6
 
 ## 概览
 
-- 来源分布：PubMed=62, arXiv=436, bioRxiv=102, medRxiv=54
-- 类别分布：clinical_application=60, dataset=57, foundation_model=289, general=14, methods=234
-- 热门主题：foundation_model_agent=440, pathogenomics=49, sequencing_bioinformatics=25, application_monitoring=6, data_fair_training=2
+- 来源分布：PubMed=62, arXiv=436, bioRxiv=102, medRxiv=56
+- 类别分布：clinical_application=62, dataset=57, foundation_model=289, general=14, methods=234
+- 热门主题：foundation_model_agent=442, pathogenomics=49, sequencing_bioinformatics=25, application_monitoring=6, data_fair_training=2
 
 ## 按类别索引
 
@@ -20,6 +20,12 @@
   相关度：7.15 | 新颖度：6.25 | 综合：6.835
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
+- [Leveraging Open-Source Large Language Models to Identify Undiagnosed Patients with Rare Genetic Aortopathies](https://www.medrxiv.org/content/10.1101/2025.09.05.25333227v2)
+  来源：medRxiv | 日期：2026-04-07 | 主题：foundation_model_agent
+  相关度：7.15 | 新颖度：5.75 | 综合：6.66
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+  中文摘要：罕见遗传性主动脉病常因表型异质性导致漏诊，延误诊断可能引发致命心脏后果。虽然基因检测可实现早期干预，但目前高度依赖初级保健医生对症状的识别与转诊。由于临床记录包含丰富的叙述性细节，本研究开发了一种基于开源大语言模型（LLM）的基因检测推荐流程，利用检索增强生成（RAG）技术结合精选的遗传性主动脉病语料库，从非结构化文本中识别潜在患者。该流程在宾夕法尼亚大学生...
+
 - [Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation](http://arxiv.org/abs/2603.25186v1)
   来源：arXiv | 日期：2026-03-26 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：6.5 | 综合：6.467
@@ -29,6 +35,12 @@
   来源：medRxiv | 日期：2026-03-25 | 主题：foundation_model_agent
   相关度：7.1 | 新颖度：5.25 | 综合：6.453
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Using Relative Risk Rankings to Understand Information Differences in Multimodal Prediction Models](https://www.medrxiv.org/content/10.1101/2025.10.30.25339162v2)
+  来源：medRxiv | 日期：2026-04-07 | 主题：foundation_model_agent
+  相关度：7.1 | 新颖度：5.25 | 综合：6.453
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+  中文摘要：多模态临床预测模型常将原始影像替换为专家撰写的文本摘要以简化流程，但这种替代是否保留了预后信息尚不明确。本研究利用视觉语言模型（VLM），对比了胸部X光片（CXR）及其配对放射报告在预测出院后30天死亡率中的效用。研究基于MIMIC-IV/MIMIC-CXR数据集（n=1,360），以出院记录为全局临床背景，分别加入CXR或放射报告进行增强。结果显示，“出院...
 
 - [Genomic and patient epidemiology of Streptococcus dysgalactiae subspecies equisimilis in Houston, Texas.](https://pubmed.ncbi.nlm.nih.gov/41789911/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
@@ -140,13 +152,13 @@
   来源：medRxiv | 日期：2026-04-05 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.25 | 综合：3.825
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-  中文摘要：全球范围内医生短缺问题持续存在，严重威胁基层医疗的可及性。现有医疗 AI 应用多侧重于生成概率估计的预测性风险评分工具，未能有效缩短医生的诊疗时间。2025 年的研究指出，大语言模型缺乏可靠医学推理所需的元认知能力，即在信息缺失时无法通过主动提问来收集病史并更新鉴别诊断。本研究报告了 2025 年在孟加拉国开展的 ClinicalAssist 系统试点部署，...
+  中文摘要：全球医生短缺严重威胁基层医疗服务，而现有医疗AI多侧重于风险评分，未能有效缩短诊疗时间。2025年1月的研究指出，大语言模型（LLM）在缺乏信息时无法主动提问以收集病史并更新鉴别诊断，缺乏可靠医学推理所需的元认知能力。本研究报告了2025年在孟加拉国开展的ClinicalAssist试点部署，该系统旨在复制临床工作流的每一个步骤。在涉及239名唯一患者、27...
 
 - [Reproducibility and Robustness of Large Language Models for Mobility Functional Status Extraction](https://www.medrxiv.org/content/10.64898/2026.04.03.26350117v1)
   来源：medRxiv | 日期：2026-04-05 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.25 | 综合：3.825
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-  中文摘要：临床叙述性文本包含关键的患者信息，但由于语言变异和记录习惯的差异，可靠的信息提取（IE）仍具挑战。大语言模型（LLMs）在临床IE中表现出极高的准确性，但其在临床部署中核心的可重复性（重复运行的稳定性）和鲁棒性（提示词微小变化下的稳定性）尚未得到一致量化。本研究评估了三种代表性开源LLM：稠密通用模型Llama 3.3、混合专家（MoE）通用模型Llama ...
+  中文摘要：临床叙述性文本包含关键患者信息，但由于语言变异和记录习惯，提取仍具挑战。大语言模型（LLMs）在临床信息提取（IE）中表现出色，但其在临床部署中至关重要的可重复性（重复运行的稳定性）和鲁棒性（提示词微小变化下的稳定性）尚未得到一致量化。本研究评估了三种代表性开源 LLM：稠密通用模型 Llama 3.3、混合专家（MoE）通用模型 Llama 4 以及领域微...
 
 - [Lactoferrin blocks orthopoxvirus entry via heparan sulphate and regulates host antiviral pathways.](https://pubmed.ncbi.nlm.nih.gov/41790953/)
   来源：PubMed | 日期：2026-12-01 | 主题：pathogenomics
@@ -656,6 +668,7 @@
   来源：PubMed | 日期：2026-12-31 | 主题：foundation_model_agent
   相关度：9.15 | 新颖度：5.0 | 综合：7.698
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：抗体的互补决定区（CDR）是与抗原相互作用的关键环状结构，对新型生物药物设计至关重要。现有表征方法覆盖范围有限，且难以整合进蛋白质基础模型。本研究提出 Igloo（免疫球蛋白环标记器），这是一种编码主链二面角和序列的多模态抗体环标记器。Igloo 采用对比学习目标训练，将具有相似主链二面角的环在潜在空间中映射得更近。相比现有蛋白质编码方法，Igloo 能更高...
 
 - [From General-Purpose to Disease-Specific Features: Aligning LLM Embeddings on a Disease-Specific Biomedical Knowledge Graph for Drug Repurposing](https://www.biorxiv.org/content/10.64898/2026.03.07.707871v1)
   来源：bioRxiv | 日期：2026-03-10 | 主题：foundation_model_agent
@@ -803,6 +816,7 @@
   来源：medRxiv | 日期：2026-04-05 | 主题：foundation_model_agent
   相关度：8.9 | 新颖度：1.7 | 综合：6.38
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：手术病理报告包含精细的癌症诊断数据，但其自由文本格式阻碍了自动化登记和二次分析。本研究开发了“Digital Registrar”框架，其核心是基于美国病理学家协会（CAP）标准的临床本体，通过严格类型的分层架构和 DSPy 签名实现。该系统涵盖 10 种主要癌症类型，涉及 193 个登记字段，包括淋巴结组和手术切缘等复杂变量。研究利用 DSPy 框架构建了...
 
 - [Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations](http://arxiv.org/abs/2604.00149v1)
   来源：arXiv | 日期：2026-03-31 | 主题：foundation_model_agent
@@ -3563,6 +3577,7 @@
 - [ADSeeker: A Knowledge-Grounded Reasoning Framework for Industry Anomaly Detection and Reasoning](http://arxiv.org/abs/2508.03088v2) | arXiv | 2025-08-05 | score=6.695
 - [M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](http://arxiv.org/abs/2512.05959v2) | arXiv | 2025-12-05 | score=6.695
 - [AI Trust OS -- A Continuous Governance Framework for Autonomous AI Observability and Zero-Trust Compliance in Enterprise Environments](http://arxiv.org/abs/2604.04749v1) | arXiv | 2026-04-06 | score=6.668
+- [Leveraging Open-Source Large Language Models to Identify Undiagnosed Patients with Rare Genetic Aortopathies](https://www.medrxiv.org/content/10.1101/2025.09.05.25333227v2) | medRxiv | 2026-04-07 | score=6.66
 - [Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning](http://arxiv.org/abs/2603.28325v1) | arXiv | 2026-03-30 | score=6.636
 - [Enterprise Sales Copilot: Enabling Real-Time AI Support with Automatic Information Retrieval in Live Sales Calls](http://arxiv.org/abs/2603.21416v1) | arXiv | 2026-03-22 | score=6.603
 - [EnsAgent: a tool-ensemble multiple Agent system for robust annotation in spatial transcriptomics](https://www.biorxiv.org/content/10.64898/2026.03.10.710824v1) | bioRxiv | 2026-03-13 | score=6.555
@@ -3578,6 +3593,7 @@
 - [AINN-P1: A Compact Sequence-Only Protein Language Model Achieves Competitive Fitness Prediction on ProteinGym](https://www.biorxiv.org/content/10.64898/2026.03.26.714619v1) | bioRxiv | 2026-03-30 | score=6.467
 - [Zoonotic Bordetella bronchiseptica infection at the swine-human interface: unveiling the evolutionary path from an animal to a human pathogen.](https://pubmed.ncbi.nlm.nih.gov/41729089/) | PubMed | 2026-12-01 | score=6.465
 - [Neoadjuvant Bevacizumab in Newly Diagnosed, Surgically Resectable Glioblastoma: A Systematic Review and Meta-Analysis of Survival and Functional Outcomes](https://www.medrxiv.org/content/10.1101/2025.10.03.25337250v2) | medRxiv | 2026-03-25 | score=6.453
+- [Using Relative Risk Rankings to Understand Information Differences in Multimodal Prediction Models](https://www.medrxiv.org/content/10.1101/2025.10.30.25339162v2) | medRxiv | 2026-04-07 | score=6.453
 - [COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics](http://arxiv.org/abs/2603.11277v1) | arXiv | 2026-03-11 | score=6.428
 - [Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system](http://arxiv.org/abs/2603.24940v1) | arXiv | 2026-03-26 | score=6.428
 - [Digital Registrar: A Schema-First Framework for Multi-Cancer Privacy-Preserving Pathology Abstraction via Local LLMs](https://www.medrxiv.org/content/10.1101/2025.10.21.25338475v8) | medRxiv | 2026-04-05 | score=6.38
