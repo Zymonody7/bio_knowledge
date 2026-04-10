@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-04-09 03:57:31
+最近更新：2026-04-10 04:18:17
 
-累计论文数：701
-最近一次新增：53
+累计论文数：703
+最近一次新增：6
 
 ## 概览
 
-- 来源分布：PubMed=62, arXiv=473, bioRxiv=110, medRxiv=56
-- 类别分布：clinical_application=62, dataset=61, foundation_model=306, general=16, methods=256
-- 热门主题：foundation_model_agent=476, pathogenomics=49, sequencing_bioinformatics=25, application_monitoring=6, data_fair_training=2
+- 来源分布：PubMed=64, arXiv=473, bioRxiv=110, medRxiv=56
+- 类别分布：clinical_application=62, dataset=61, foundation_model=307, general=16, methods=257
+- 热门主题：foundation_model_agent=478, pathogenomics=50, sequencing_bioinformatics=26, application_monitoring=6, data_fair_training=2
 
 ## 按类别索引
 
@@ -84,13 +84,13 @@
   来源：medRxiv | 日期：2026-04-07 | 主题：foundation_model_agent
   相关度：7.15 | 新颖度：0.75 | 综合：4.91
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-  中文摘要：罕见遗传性主动脉病常因表型异质性导致漏诊，延误诊断可能引发致命心脏后果。虽然基因检测可实现早期干预，但目前高度依赖初级保健医生对症状的识别与转诊。由于临床记录包含丰富的叙述性细节，本研究开发了一种基于开源大语言模型（LLM）的基因检测推荐流程，利用检索增强生成（RAG）技术结合精选的遗传性主动脉病语料库，从非结构化文本中识别潜在患者。该流程在宾夕法尼亚大学生...
+  中文摘要：罕见遗传性主动脉病由于表型异质性常被漏诊，延迟诊断可能导致致命的心脏后果。虽然基因检测可实现早期预防性干预，但其高度依赖初级保健医生对遗传症状的识别。本研究开发了一种基于开源大语言模型（LLM）的基因检测推荐流程，利用检索增强生成（RAG）技术结合精选的遗传性主动脉病语料库，从非结构化临床文本中提取相关知识以识别潜在受益患者。该流程在宾夕法尼亚大学生物样本库...
 
 - [Using Relative Risk Rankings to Understand Information Differences in Multimodal Prediction Models](https://www.medrxiv.org/content/10.1101/2025.10.30.25339162v2)
   来源：medRxiv | 日期：2026-04-07 | 主题：foundation_model_agent
   相关度：7.1 | 新颖度：0.25 | 综合：4.703
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-  中文摘要：多模态临床预测模型常将原始影像替换为专家撰写的文本摘要以简化流程，但这种替代是否保留了预后信息尚不明确。本研究利用视觉语言模型（VLM），对比了胸部X光片（CXR）及其配对放射报告在预测出院后30天死亡率中的效用。研究基于MIMIC-IV/MIMIC-CXR数据集（n=1,360），以出院记录为全局临床背景，分别加入CXR或放射报告进行增强。结果显示，“出院...
+  中文摘要：本研究探讨了在多模态临床预测模型中，使用专家撰写的摘要（如放射报告）替代原始模态数据（如医学影像）是否会损失预后信息。研究人员利用视觉语言模型（VLMs），针对出院后 30 天死亡率预测任务，对比了胸部 X 光片（CXRs）与其配对放射报告的预测效用。基于 MIMIC-IV/MIMIC-CXR 数据集的子集（n=1,360），研究以出院记录摘要为全局临床背景...
 
 - [HealthFormer: Dual-level time-aware Transformers for irregular electronic health record events](https://www.medrxiv.org/content/10.64898/2026.03.25.26349262v2)
   来源：medRxiv | 日期：2026-03-31 | 主题：foundation_model_agent
@@ -309,7 +309,7 @@
   来源：PubMed | 日期：2026-04-08 | 主题：foundation_model_agent
   相关度：3.05 | 新颖度：0.25 | 综合：2.07
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-  中文摘要：CRISPR/Cas12a 技术凭借其独特的反式切割（trans-cleavage）活性，已从基因编辑工具演变为强大的分子检测工具。本文系统阐述了 Cas12a 的结构基础与分子机制，重点探讨了该技术如何将特异性核酸识别转化为级联信号放大。其应用领域涵盖病原体诊断、物种鉴定、食品安全及中药材真伪鉴别。通过与等温扩增技术及多模态检测平台集成，Cas12a 推动...
+  中文摘要：CRISPR/Cas12a 技术凭借其独特的反向切割（trans-cleavage）活性，已从基因编辑工具演变为强大的分子检测工具。本文系统阐述了 Cas12a 的结构基础与分子机制，重点探讨了该技术如何将特定核酸识别转化为级联信号放大。其应用涵盖病原体诊断、物种鉴定、食品安全及中药材鉴别。通过与等温扩增及多模态检测平台集成，Cas12a 推动了分子诊断向便...
 
 - [Sepsis Diagnostics via Biosensors: Engineering Platforms, Artificial Intelligence Integration, and Clinical Translation.](https://pubmed.ncbi.nlm.nih.gov/41698024/)
   来源：PubMed | 日期：2026-03-27 | 主题：sequencing_bioinformatics
@@ -796,6 +796,12 @@
   来源：arXiv | 日期：2026-04-06 | 主题：foundation_model_agent
   相关度：6.15 | 新颖度：7.63 | 综合：6.668
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [A survey on large language models in biology and chemistry.](https://pubmed.ncbi.nlm.nih.gov/41258076/)
+  来源：PubMed | 日期：2026-04-08 | 主题：foundation_model_agent
+  相关度：7.15 | 新颖度：5.75 | 综合：6.66
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：人工智能正通过提供适应生物系统复杂性的可扩展计算框架重塑生物医学研究。其核心是生物/化学语言模型（包括大语言模型），这些模型将分子结构重新概念化为一种适用于先进计算技术的“语言”。本文批判性地审视了这些模型在生物学和化学中的作用，追踪了其从分子表示到分子生成与优化的演变。综述涵盖了生物大分子和有机小分子的关键表示策略，包括蛋白质和核苷酸序列、单细胞数据、基于...
 
 - [Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning](http://arxiv.org/abs/2603.28325v1)
   来源：arXiv | 日期：2026-03-30 | 主题：foundation_model_agent
@@ -2398,6 +2404,12 @@
 
 ### methods
 
+- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](https://pubmed.ncbi.nlm.nih.gov/41955512/)
+  来源：PubMed | 日期：2026-04-09 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
+  相关度：10.0 | 新颖度：5.75 | 综合：8.512
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：准确预测变异的功能影响对于理解人类疾病（特别是 TP53 等癌症相关基因）至关重要。尽管高通量突变分析提升了变异效应预测（VEP）能力，但通用型模型在错义突变分类上仍存在局限。本研究开发了 CaVepP53，这是一种针对 TP53 特化的预测模型，通过扰动实验变异数据对蛋白质语言模型（PLM）进行微调。该模型通过计算野生型与突变体嵌入向量之间的欧几里得距离，...
+
 - [Phylogeny-informed transfer learning with protein language models for epitope prediction](https://www.biorxiv.org/content/10.1101/2025.04.17.649425v3)
   来源：bioRxiv | 日期：2026-03-10 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
   相关度：8.65 | 新颖度：5.75 | 综合：7.635
@@ -3123,6 +3135,7 @@
   来源：PubMed | 日期：2026-04-07 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：0.25 | 综合：3.825
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：空间转录组数据分析常受限于高噪声水平和基因测量缺失，且其成本远高于传统单细胞数据。为解决这一挑战，研究者开发了 spRefine，这是一个利用基因组语言模型（Genomic Language Models, gLMs）对空间转录组数据进行联合去噪和插补的深度学习框架。该框架采用无参考（Reference-free）设计，实验结果表明，spRefine 在去噪...
 
 - [Dominance and natural suppression of bacterial plant pathogens across global soils.](https://pubmed.ncbi.nlm.nih.gov/41786734/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, foundation_model_agent
@@ -3789,6 +3802,7 @@
 
 ### foundation_model_agent
 
+- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](https://pubmed.ncbi.nlm.nih.gov/41955512/) | PubMed | 2026-04-09 | score=8.512
 - [Tokenizing loops of antibodies.](https://pubmed.ncbi.nlm.nih.gov/41936024/) | PubMed | 2026-12-31 | score=7.698
 - [Phylogeny-informed transfer learning with protein language models for epitope prediction](https://www.biorxiv.org/content/10.1101/2025.04.17.649425v3) | bioRxiv | 2026-03-10 | score=7.635
 - [From General-Purpose to Disease-Specific Features: Aligning LLM Embeddings on a Disease-Specific Biomedical Knowledge Graph for Drug Repurposing](https://www.biorxiv.org/content/10.64898/2026.03.07.707871v1) | bioRxiv | 2026-03-10 | score=7.585
@@ -3817,6 +3831,7 @@
 - [ADSeeker: A Knowledge-Grounded Reasoning Framework for Industry Anomaly Detection and Reasoning](http://arxiv.org/abs/2508.03088v2) | arXiv | 2025-08-05 | score=6.695
 - [M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG](http://arxiv.org/abs/2512.05959v2) | arXiv | 2025-12-05 | score=6.695
 - [AI Trust OS -- A Continuous Governance Framework for Autonomous AI Observability and Zero-Trust Compliance in Enterprise Environments](http://arxiv.org/abs/2604.04749v1) | arXiv | 2026-04-06 | score=6.668
+- [A survey on large language models in biology and chemistry.](https://pubmed.ncbi.nlm.nih.gov/41258076/) | PubMed | 2026-04-08 | score=6.66
 - [Toward a universal foundation model for graph-structured data](http://arxiv.org/abs/2604.06391v1) | arXiv | 2026-04-07 | score=6.643
 - [Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning](http://arxiv.org/abs/2603.28325v1) | arXiv | 2026-03-30 | score=6.636
 - [Enterprise Sales Copilot: Enabling Real-Time AI Support with Automatic Information Retrieval in Live Sales Calls](http://arxiv.org/abs/2603.21416v1) | arXiv | 2026-03-22 | score=6.603
@@ -4268,6 +4283,7 @@
 
 ### pathogenomics
 
+- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](https://pubmed.ncbi.nlm.nih.gov/41955512/) | PubMed | 2026-04-09 | score=8.512
 - [Phylogeny-informed transfer learning with protein language models for epitope prediction](https://www.biorxiv.org/content/10.1101/2025.04.17.649425v3) | bioRxiv | 2026-03-10 | score=7.635
 - [HViLM: A Foundation Model for Viral Genomics Enables Multi-Task Prediction of Pathogenicity, Transmissibility, and Host Tropism](https://www.biorxiv.org/content/10.64898/2026.03.18.712700v1) | bioRxiv | 2026-03-20 | score=7.287
 - [Zoonotic Bordetella bronchiseptica infection at the swine-human interface: unveiling the evolutionary path from an animal to a human pathogen.](https://pubmed.ncbi.nlm.nih.gov/41729089/) | PubMed | 2026-12-01 | score=6.465
@@ -4320,6 +4336,7 @@
 
 ### sequencing_bioinformatics
 
+- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](https://pubmed.ncbi.nlm.nih.gov/41955512/) | PubMed | 2026-04-09 | score=8.512
 - [Phylogeny-informed transfer learning with protein language models for epitope prediction](https://www.biorxiv.org/content/10.1101/2025.04.17.649425v3) | bioRxiv | 2026-03-10 | score=7.635
 - [HViLM: A Foundation Model for Viral Genomics Enables Multi-Task Prediction of Pathogenicity, Transmissibility, and Host Tropism](https://www.biorxiv.org/content/10.64898/2026.03.18.712700v1) | bioRxiv | 2026-03-20 | score=7.287
 - [VarDCL: A Multimodal PLM-Enhanced Framework for Missense Variant Effect Prediction via Self-distilled Contrastive Learning](https://www.biorxiv.org/content/10.64898/2026.03.13.711612v1) | bioRxiv | 2026-03-17 | score=6.85
