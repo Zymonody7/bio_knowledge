@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-04-17T04:17:32.656867+00:00",
+  "fetched_at": "2026-04-18T03:53:41.850081+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 51,
+  "count": 44,
   "papers": [
     {
       "title": "Intermediate Layers Encode Optimal Biological Representations in Single-Cell Foundation Models",
@@ -40,37 +40,6 @@
       ],
       "doi": "",
       "arxiv_id": "2604.14441v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Convergent Geometry-Aware Reduction for Diffusion in Branched Tubular Networks",
-      "source": "arXiv",
-      "date": "2025-01-14T16:34:28+00:00",
-      "updated": "2026-04-14T19:21:24+00:00",
-      "url": "http://arxiv.org/abs/2501.08247v3",
-      "pdf_url": "https://arxiv.org/pdf/2501.08247v3",
-      "abstract": "Diffusion through tubular networks with variable radius arises in a wide range of biological, engineering, and physical applications. The Fick-Jacobs equation is the standard one-dimensional reduction of this problem, briefly derived nearly a century ago in a classical textbook, but was shown to be unstable and inaccurate when the radial gradient is large by Zwanzig in 1992. Three decades of subsequent modifications have failed to resolve this instability because they all inherit a common structural inconsistency introduced by truncation in the original derivation - one that becomes immediately apparent from novel elementary analysis. In this work, we return to the foundations of the Fick-Jacobs derivation and treat it as a locally defined Taylor expansion, recovering a model with geometry-independent error that contrasts directly with the geometry-dependent instability of past corrections. The result is a new geometry-aware expansion of the Fick-Jacobs model, with a numerical discretization that is provably stable and convergent, and the first method known to the authors to converge spatially to the correct geometry-aware solution. Analysis shows that standard corrections from the literature cannot converge to this solution regardless of spatial refinement. We derive efficient numerical schemes for branched networks at equivalent computational cost, and demonstrate that a geometry-aware one-dimensional reduction can faithfully reproduce full three-dimensional results of a neurobiologically relevant problem that the standard reduction cannot achieve.",
-      "authors": [
-        "Zachary M. Miksis",
-        "Gillian Queisser"
-      ],
-      "doi": "",
-      "arxiv_id": "2501.08247v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Deep Learning using Rectified Linear Units (ReLU)",
-      "source": "arXiv",
-      "date": "2018-03-22T14:30:17+00:00",
-      "updated": "2026-04-14T12:21:53+00:00",
-      "url": "http://arxiv.org/abs/1803.08375v3",
-      "pdf_url": "https://arxiv.org/pdf/1803.08375v3",
-      "abstract": "The Rectified Linear Unit (ReLU) is a foundational activation function in artficial neural networks. Recent literature frequently misattributes its origin to the 2018 (initial) version of this paper, which exclusively investigated ReLU at the classification layer. This paper formally corrects the citation record by tracing the mathematical lineage of piecewise linear functions from early biological models to their definitive integration into deep learning by Nair & Hinton (2010). Alongside this historical rectification, we present a comprehensive empirical comparison of the ReLU, Hyperbolic Tangent (Tanh), and Logistic (Sigmoid) activation functions across image classification, text classification, and image reconstruction tasks. To ensure statistical robustness, we evaluated these functions using 10 independent randomized trials and assessed significance using the non-parametric Kruskal-Wallis $H$ test. The empirical data validates the theoretical limitations of saturating functions. Sigmoid failed to converge in deep convolutional vision tasks due to the vanishing gradient problem, thus yielding accuracies equivalent to random probability. Conversely, ReLU and Tanh exhibited stable convergence. ReLU achieved the highest mean accuracy and F1-score on image classification and text classification tasks, while Tanh yielded the highest peak signal to noise ratio in image reconstruction. Ultimately, this study confirms a statistically significant performance variance among activations, thus reaffirming the necessity of non-saturating functions in deep architectures, and restores proper historical attribution to prior literature.",
-      "authors": [
-        "Abien Fred Agarap"
-      ],
-      "doi": "",
-      "arxiv_id": "1803.08375v3",
       "pubmed_id": ""
     },
     {
@@ -189,108 +158,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Agentic Discovery with Active Hypothesis Exploration for Visual Recognition",
-      "source": "arXiv",
-      "date": "2026-04-14T17:34:05+00:00",
-      "updated": "2026-04-14T17:34:05+00:00",
-      "url": "http://arxiv.org/abs/2604.12999v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.12999v1",
-      "abstract": "We introduce HypoExplore, an agentic framework that formulates neural architecture discovery for visual recognition as a hypothesis-driven scientific inquiry. Given a human-specified high-level research direction, HypoExplore ideates, implements, evaluates, and improves neural architectures through evolutionary branching. New hypotheses are created using a large language model by selecting a parent hypothesis to build upon, guided by a dual strategy that balances exploiting validated principles with resolving uncertain ones. Our proposed framework maintains a Trajectory Tree that records the lineage of all proposed architectures, and a Hypothesis Memory Bank that actively tracks confidence scores acquired through experimental evidence. After each experiment, multiple feedback agents analyze the results from different perspectives and consolidate their findings into hypothesis confidence updates. Our framework is tested on discovering lightweight vision architectures on CIFAR-10, with the best achieving 94.11% accuracy evolved from a root node baseline that starts at 18.91%, and generalizes to CIFAR-100 and Tiny-ImageNet. We further demonstrate applicability to a specialized domain by conducting independent architecture discovery runs on MedMNIST, which yield a state-of-the-art performance. We show that hypothesis confidence scores grow increasingly predictive as evidence accumulates, and that the learned principles transfer across independent evolutionary lineages, suggesting that HypoExplore not only discovers stronger architectures, but can help build a genuine understanding of the design space.",
-      "authors": [
-        "Jaywon Koo",
-        "Jefferson Hernandez",
-        "Ruozhen He",
-        "Hanjie Chen",
-        "Chen Wei",
-        "Vicente Ordonez"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.12999v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety",
-      "source": "arXiv",
-      "date": "2025-02-02T05:14:22+00:00",
-      "updated": "2026-04-14T16:10:41+00:00",
-      "url": "http://arxiv.org/abs/2502.05206v6",
-      "pdf_url": "https://arxiv.org/pdf/2502.05206v6",
-      "abstract": "The rapid advancement of large models, driven by their exceptional abilities in learning and generalization through large-scale pre-training, has reshaped the landscape of Artificial Intelligence (AI). These models are now foundational to a wide range of applications, including conversational AI, recommendation systems, autonomous driving, content generation, medical diagnostics, and scientific discovery. However, their widespread deployment also exposes them to significant safety risks, raising concerns about robustness, reliability, and ethical implications. This survey provides a systematic review of current safety research on large models, covering Vision Foundation Models (VFMs), Large Language Models (LLMs), Vision-Language Pre-training (VLP) models, Vision-Language Models (VLMs), Diffusion Models (DMs), and large-model-powered Agents. Our contributions are summarized as follows: (1) We present a comprehensive taxonomy of safety threats to these models, including adversarial attacks, data poisoning, backdoor attacks, jailbreak and prompt injection attacks, energy-latency attacks, data and model extraction attacks, and emerging agent-specific threats. (2) We review defense strategies proposed for each type of attacks if available and summarize the commonly used datasets and benchmarks for safety research. (3) Building on this, we identify and discuss the open challenges in large model safety, emphasizing the need for comprehensive safety evaluations, scalable and effective defense mechanisms, and sustainable data practices. More importantly, we highlight the necessity of collective efforts from the research community and international collaboration. Our work can serve as a useful reference for researchers and practitioners, fostering the ongoing development of comprehensive defense systems and platforms to safeguard AI models.",
-      "authors": [
-        "Xingjun Ma",
-        "Yifeng Gao",
-        "Yixu Wang",
-        "Ruofan Wang",
-        "Xin Wang",
-        "Ye Sun",
-        "Yifan Ding",
-        "Hengyuan Xu",
-        "Yunhao Chen",
-        "Yunhan Zhao",
-        "Hanxun Huang",
-        "Yige Li",
-        "Yutao Wu",
-        "Jiaming Zhang",
-        "Xiang Zheng",
-        "Yang Bai",
-        "Zuxuan Wu",
-        "Xipeng Qiu",
-        "Jingfeng Zhang",
-        "Yiming Li",
-        "Xudong Han",
-        "Haonan Li",
-        "Jun Sun",
-        "Cong Wang",
-        "Jindong Gu",
-        "Baoyuan Wu",
-        "Siheng Chen",
-        "Tianwei Zhang",
-        "Yang Liu",
-        "Mingming Gong",
-        "Tongliang Liu",
-        "Shirui Pan",
-        "Cihang Xie",
-        "Tianyu Pang",
-        "Yinpeng Dong",
-        "Ruoxi Jia",
-        "Yang Zhang",
-        "Shiqing Ma",
-        "Xiangyu Zhang",
-        "Neil Gong",
-        "Chaowei Xiao",
-        "Sarah Erfani",
-        "Tim Baldwin",
-        "Bo Li",
-        "Masashi Sugiyama",
-        "Dacheng Tao",
-        "James Bailey",
-        "Yu-Gang Jiang"
-      ],
-      "doi": "",
-      "arxiv_id": "2502.05206v6",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
-      "source": "arXiv",
-      "date": "2026-04-13T16:10:44+00:00",
-      "updated": "2026-04-14T04:56:30+00:00",
-      "url": "http://arxiv.org/abs/2604.11661v2",
-      "pdf_url": "https://arxiv.org/pdf/2604.11661v2",
-      "abstract": "Large language models (LLMs) have recently gained significant attention as a promising approach to accelerate scientific discovery. However, their application in open-ended scientific domains such as biology remains limited, primarily due to the lack of factually grounded and actionable explanations. To address this, we introduce a structured explanation formalism for virtual cells that represents biological reasoning as mechanistic action graphs, enabling systematic verification and falsification. Building upon this, we propose VCR-Agent, a multi-agent framework that integrates biologically grounded knowledge retrieval with a verifier-based filtering approach to generate and validate mechanistic reasoning autonomously. Using this framework, we release VC-TRACES dataset, which consists of verified mechanistic explanations derived from the Tahoe-100M atlas. Empirically, we demonstrate that training with these explanations improves factual precision and provides a more effective supervision signal for downstream gene expression prediction. These results underscore the importance of reliable mechanistic reasoning for virtual cells, achieved through the synergy of multi-agent and rigorous verification.",
-      "authors": [
-        "Yunhui Jang",
-        "Lu Zhu",
-        "Jake Fawkes",
-        "Alisandra Kaye Denton",
-        "Dominique Beaini",
-        "Emmanuel Noutahi"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.11661v2",
-      "pubmed_id": ""
-    },
-    {
       "title": "Combining Bayesian and Frequentist Inference for Laboratory-Specific Performance Guarantees in Copy Number Variation Detection",
       "source": "arXiv",
       "date": "2026-04-15T18:01:37+00:00",
@@ -353,40 +220,6 @@
       ],
       "doi": "",
       "arxiv_id": "2502.05909v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Calibrated Abstention for Reliable TCR--pMHC Binding Prediction under Epitope Shift",
-      "source": "arXiv",
-      "date": "2026-04-14T19:38:54+00:00",
-      "updated": "2026-04-14T19:38:54+00:00",
-      "url": "http://arxiv.org/abs/2604.13254v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.13254v1",
-      "abstract": "Predicting T-cell receptor (TCR)--peptide-MHC (pMHC) binding is central to vaccine design and T-cell therapy, yet deployed models frequently encounter epitopes unseen during training, causing silent overconfidence and unreliable prioritization. We address this by framing TCR--pMHC prediction as a \\emph{selective prediction} problem: a calibrated model should either output a trustworthy confidence score or explicitly abstain. Concretely, we (1) introduce a dual-encoder architecture encoding both CDR3$α$/CDR3$β$ and peptide sequences via a pre-trained protein language model; (2) apply temperature scaling to correct systematic probability miscalibration; and (3) impose a conformal abstention rule that provides finite-sample coverage guarantees at a user-specified target error rate. Evaluated under three split strategies -- random, epitope-held-out, and distance-aware -- our method achieves AUROC 0.813 and ECE 0.043 under the challenging epitope-held-out protocol, reducing ECE by 69.7\\% relative to an uncalibrated baseline. At 80\\% coverage, the selective model further reduces error rate from 18.7\\% to 10.9\\%, demonstrating that calibrated abstention enables principled coverage-risk trade-offs aligned with practical screening budgets.",
-      "authors": [
-        "Arman Bekov",
-        "Timur Bekzhanov",
-        "Bekzat Sadykov"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.13254v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
-      "source": "arXiv",
-      "date": "2026-04-14T18:00:39+00:00",
-      "updated": "2026-04-14T18:00:39+00:00",
-      "url": "http://arxiv.org/abs/2604.13175v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.13175v1",
-      "abstract": "Large language models can be aligned with human preferences through offline reinforcement learning (RL) on small labeled datasets. While single-objective alignment is well-studied, many real-world applications demand the simultaneous optimization of multiple conflicting rewards, e.g. optimizing both catalytic activity and specificity in protein engineering, or helpfulness and harmlessness for chatbots. Prior work has largely relied on linear reward scalarization, but this approach provably fails to recover non-convex regions of the Pareto front. In this paper, instead of scalarizing the rewards directly, we frame multi-objective RL itself as an optimization problem to be scalarized via smooth Tchebysheff scalarization, a recent technique that overcomes the shortcomings of linear scalarization. We use this formulation to derive Smooth Tchebysheff Optimization of Multi-Objective Preferences (STOMP), a novel offline RL algorithm that extends direct preference optimization to the multi-objective setting in a principled way by standardizing the individual rewards based on their observed distributions. We empirically validate STOMP on a range of protein engineering tasks by aligning three autoregressive protein language models on three laboratory datasets of protein fitness. Compared to state-of-the-art baselines, STOMP achieves the highest hypervolumes in eight of nine settings according to both offline off-policy and generative evaluations. We thus demonstrate that STOMP is a powerful, robust multi-objective alignment algorithm that can meaningfully improve post-trained models for multi-attribute protein optimization and beyond.",
-      "authors": [
-        "Aadyot Bhatnagar",
-        "Peter Mørch Groth",
-        "Ali Madani"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.13175v1",
       "pubmed_id": ""
     },
     {
@@ -1037,7 +870,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 51,
+      "count": 44,
       "error": ""
     }
   ]
