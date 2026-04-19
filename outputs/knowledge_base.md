@@ -1,9 +1,9 @@
 # 论文知识库
 
-最近更新：2026-04-18 03:55:59
+最近更新：2026-04-19 04:24:10
 
 累计论文数：903
-最近一次新增：63
+最近一次新增：19
 
 ## 概览
 
@@ -345,6 +345,7 @@
   来源：arXiv | 日期：2026-04-16 | 主题：未命中主题
   相关度：2.4 | 新颖度：1.0 | 综合：1.91
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+  中文摘要：数字健康领域的科学发现需要将可穿戴设备的连续生理信号转化为临床可操作的生物标志物。本文介绍了 CoDaS（AI 协同数据科学家），这是一个多智能体系统，通过大规模可穿戴数据集，将生物标志物发现构建为包含假设生成、统计分析、对抗验证、基于文献的推理及人工监督的迭代过程。在总计 9,279 名受试者的三个队列中，CoDaS 识别出 41 个心理健康候选数字标志物...
 
 - [Sepsis Diagnostics via Biosensors: Engineering Platforms, Artificial Intelligence Integration, and Clinical Translation.](https://pubmed.ncbi.nlm.nih.gov/41698024/)
   来源：PubMed | 日期：2026-03-27 | 主题：sequencing_bioinformatics
@@ -578,6 +579,7 @@
   来源：arXiv | 日期：2025-11-12 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：1.25 | 综合：3.525
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+  中文摘要：动力系统通过屏障证书（barrier certificates）进行的安全性验证对于确保自主应用的正确定性至关重要。合成这些证书涉及发现复杂的数学函数，但现有方法面临可扩展性差、过度依赖预设模板以及函数空间搜索效率低下等挑战。此外，该过程高度依赖专家的理论与实践经验。本文探讨了语言模型是否能捕捉并操作此类专家推理，并提出了一个基于大语言模型（LLM）的智能体...
 
 - [Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents](http://arxiv.org/abs/2603.11772v1)
   来源：arXiv | 日期：2026-03-12 | 主题：foundation_model_agent
@@ -2197,6 +2199,7 @@
   来源：arXiv | 日期：2026-04-16 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：1.25 | 综合：3.525
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：检索增强生成（RAG）通过外部视觉知识扩展了大视觉语言模型（LVLM）的能力。然而，现有视觉RAG系统多依赖通用检索信号，忽略了复杂推理所需的细粒度视觉语义。为此，我们提出UniDoc-RL，这是一个统一的强化学习框架，使LVLM智能体能够协同执行检索、重排序、主动视觉感知和推理任务。UniDoc-RL将视觉信息获取建模为具有分层动作空间的序列决策问题，将视...
 
 - [Hierarchy-Guided Multimodal Representation Learning for Taxonomic Inference](http://arxiv.org/abs/2603.25573v1)
   来源：arXiv | 日期：2026-03-26 | 主题：foundation_model_agent
@@ -2290,12 +2293,6 @@
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
   中文摘要：评估 AI 生成的研究思路通常依赖 LLM 评委或专家小组，这具有主观性且脱离实际研究影响力。本研究提出 HindSight，一种基于时间切分的评估框架，通过将生成的思路与真实的未来出版物进行匹配，并根据引用影响力和发表期刊/会议进行评分来衡量思路质量。该框架设定时间截止点 T，限制生成系统仅使用 T 之前的文献，随后将其输出与未来 30 个月内发表的论文进...
 
-- [CheMLT-F: multitask learning in biochemistry through transformer fusion.](https://pubmed.ncbi.nlm.nih.gov/41992362/)
-  来源：PubMed | 日期：2026-04-16 | 主题：未命中主题
-  相关度：1.7 | 新颖度：6.25 | 综合：3.292
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-  中文摘要：药物研发因需在庞大化学空间内筛选有效性、毒性和理化性质而进展缓慢。本文提出 CheMLT-F，一种紧凑的多任务 Transformer 模型，通过融合分子和蛋白质序列编码器，学习涵盖 680 多个终点的统一表征，包括多种毒性、理化性质和药物-靶点相互作用（DTI）。在 13 个公开基准测试中，CheMLT-F 在毒性分类方面达到 SOTA 水平，在理化性质预...
-
 - [Epistemic Bias Injection: Biasing LLMs via Selective Context Retrieval](http://arxiv.org/abs/2512.00804v2)
   来源：arXiv | 日期：2025-11-30 | 主题：未命中主题
   相关度：1.4 | 新颖度：6.5 | 综合：3.185
@@ -2344,6 +2341,7 @@
   来源：arXiv | 日期：2026-04-16 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.25 | 综合：3.175
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：大语言模型（LLM）的自回归解码由于每步仅生成一个 token，导致推理延迟较高。投机解码（SD）通过“猜测-验证”策略缓解了这一问题，但现有的免训练变体面临权衡：基于检索的草稿在缺乏精确匹配时会失效，而基于 Logit 的草稿则缺乏结构化引导。本文提出 RACER（检索增强上下文快速投机解码），这是一种轻量级且免训练的方法，它将检索到的精确模式与 Logi...
 
 - [Distinct Multimodal Imaging Correlates of Depression in Middle-Aged Adults With and Without a Family History of Alzheimer Disease](https://www.biorxiv.org/content/10.64898/2026.04.13.717731v1)
   来源：bioRxiv | 日期：2026-04-17 | 主题：foundation_model_agent
@@ -2689,6 +2687,12 @@
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
   中文摘要：从时间分辨单细胞转录组中重建细胞轨迹对于理解从胚胎发育到癌症进展的生物过程至关重要。虽然单细胞基础模型（scFMs）通过大规模预训练承诺提供通用的生物学表征，但其捕获控制细胞命运决定的非线性动力学能力尚未得到表征。本研究在涉及分支谱系和连续状态转换的挑战性生物医学场景中，系统地评估了多种 scFM。通过将零样本 scFM 嵌入与动态最优传输相结合，我们在回溯...
 
+- [CheMLT-F: multitask learning in biochemistry through transformer fusion.](https://pubmed.ncbi.nlm.nih.gov/41992362/)
+  来源：PubMed | 日期：2026-04-16 | 主题：未命中主题
+  相关度：1.7 | 新颖度：1.25 | 综合：1.542
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+  中文摘要：药物研发因需在庞大化学空间内筛选有效性、毒性和理化性质而耗时耗力，传统的单任务预测器导致工作流碎片化且表征难以复用。本研究提出 CheMLT-F，一种紧凑的多任务 Transformer 模型，通过融合分子和蛋白质序列编码器，学习涵盖 680 多个终点的统一表征，包括多种毒性、理化性质和药物-靶点相互作用（DTI）。在 13 个公开基准测试中，CheMLT-...
+
 - [Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search](http://arxiv.org/abs/2603.08877v1)
   来源：arXiv | 日期：2026-03-09 | 主题：未命中主题
   相关度：1.4 | 新颖度：1.5 | 综合：1.435
@@ -2852,7 +2856,7 @@
   来源：arXiv | 日期：2026-04-16 | 主题：未命中主题
   相关度：0.7 | 新颖度：1.25 | 综合：0.892
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-  中文摘要：当前的单细胞基础模型基准测试普遍提取最后一层嵌入，假设其代表了最优特征空间。本研究系统评估了 scFoundation（1亿参数）和 Tahoe-X1（13亿参数）在轨迹推断和扰动响应预测任务中的逐层表示。分析表明，最优层具有任务依赖性（轨迹推断在 60% 深度处达到峰值，性能比最后一层高 31%）和背景依赖性（扰动预测的最优层在 T 细胞激活状态下偏移 0...
+  中文摘要：当前的单细胞基础模型基准测试普遍提取最后一层嵌入，假设其代表了最优特征空间。本研究系统评估了 scFoundation（1亿参数）和 Tahoe-X1（13.3亿参数）在轨迹推断和扰动响应预测任务中的逐层表示。分析表明，最优特征层具有任务依赖性（轨迹推断在 60% 深度处达到峰值，性能比最后一层高出 31%）和背景依赖性（扰动预测的最优层在 T 细胞激活状态...
 
 - [On-device Semantic Selection Made Low Latency and Memory Efficient with Monolithic Forwarding](http://arxiv.org/abs/2510.15620v2)
   来源：arXiv | 日期：2025-10-17 | 主题：未命中主题
@@ -2979,6 +2983,7 @@
   来源：arXiv | 日期：2026-01-06 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.25 | 综合：3.175
   说明：arXiv 上的新论文与 foundation_model_agent 相关，可用于补充你当前的病原检测与模型监控视角。
+  中文摘要：存储增强生成（MAG）通过外部存储扩展大语言模型以支持长上下文推理，但现有方法主要依赖单一存储库的语义相似性检索，导致时间、因果和实体信息相互纠缠。这种设计限制了查询意图与检索证据之间的可解释性与对齐，进而降低了推理准确性。本文提出 MAGMA，一种基于多图的智能体记忆架构，将每个记忆项分别表示在正交的语义、时间、因果和实体图中。MAGMA 将检索过程定义为...
 
 - [PCR: A Prefetch-Enhanced Cache Reuse System for Low-Latency RAG Serving](http://arxiv.org/abs/2603.23049v1)
   来源：arXiv | 日期：2026-03-24 | 主题：foundation_model_agent
@@ -3810,6 +3815,7 @@
   来源：arXiv | 日期：2025-09-26 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：1.0 | 综合：3.893
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：图像到音乐（I2M）生成在游戏、广告和多模态艺术创作中具有重要应用，但现有端到端方法由于任务的主观性常缺乏可解释性，且计算资源需求巨大。为此，本文提出首个基于视觉语言模型（VLM）的I2M框架，旨在实现高可解释性与低计算成本。该框架利用 ABC 记谱法作为桥梁连接文本与音乐模态，使 VLM 能够通过自然语言生成音乐。研究引入了多模态检索增强生成（RAG）和自...
 
 - [KeySG: Hierarchical Keyframe-Based 3D Scene Graphs](http://arxiv.org/abs/2510.01049v2)
   来源：arXiv | 日期：2025-10-01 | 主题：foundation_model_agent
@@ -4095,6 +4101,7 @@
   来源：arXiv | 日期：2024-12-19 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.75 | 综合：3.35
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：检索增强生成（RAG）通过利用查询管道检索相关的外部信息，并将响应建立在检索到的知识之上，从而减轻大语言模型（LLM）的幻觉。然而，针对癌症患者问答系统（CPQA）的查询管道优化需要结合领域特定因素对多个组件进行单独优化。本研究提出了一种针对 CPQA 系统 RAG 查询管道的三方面优化方法，利用 PubMed 和 PubMed Central 等公共生物医...
 
 - [Enhancing Multilingual RAG Systems with Debiased Language Preference-Guided Query Fusion](http://arxiv.org/abs/2601.02956v3)
   来源：arXiv | 日期：2026-01-06 | 主题：foundation_model_agent
@@ -4496,6 +4503,7 @@
   来源：arXiv | 日期：2026-04-10 | 主题：foundation_model_agent
   相关度：2.75 | 新颖度：1.0 | 综合：2.138
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+  中文摘要：文档问答（DQA）是文档理解的关键任务，涉及根据用户查询从文档中生成答案。由于需要解释视觉布局，近期研究多采用多模态检索增强生成（RAG）处理页面图像。然而，多模态 RAG 在处理大量图像时存在局限，检索阶段通常仅保留少数候选页（如 Top-4），导致信息丰富但视觉显著性较低的内容被忽略。为解决此问题，本文提出基于多臂老虎机（MAB）的 DQA 框架（MAB...
 
 - [Big data in multiple sclerosis.](https://pubmed.ncbi.nlm.nih.gov/41925198/)
   来源：PubMed | 日期：2026-04-01 | 主题：foundation_model_agent
