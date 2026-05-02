@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-01T04:55:40.325900+00:00",
+  "fetched_at": "2026-05-02T04:24:42.702024+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 47,
+  "count": 42,
   "papers": [
     {
       "title": "Better Models, Faster Training: Sigmoid Attention for single-cell Foundation Models",
@@ -58,23 +58,6 @@
       ],
       "doi": "",
       "arxiv_id": "2604.26321v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Mining Negative Sequential Patterns to Improve Viral Genomic Feature Representation and Classification",
-      "source": "arXiv",
-      "date": "2026-04-28T07:09:39+00:00",
-      "updated": "2026-04-28T07:09:39+00:00",
-      "url": "http://arxiv.org/abs/2604.25968v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.25968v1",
-      "abstract": "Viruses represent the most abundant biological entities on Earth and play a pivotal role in microbial ecosystems, yet, as prominent human pathogens, they are closely linked to human morbidity and mortality. Accurate identification of viral sequences from viral genome sequences is therefore essential, but existing genome-based classification models that largely relying on composition- or frequency-based subsequence features often suffer from limited interpretability and reduced accuracy, particularly on complex or imbalanced datasets. To address these limitations, we propose GeneNSPCla (Genomic Negative Sequential Pattern-based Classification), a novel viral classification framework based on Negative Sequential Patterns (NSPs) that extracts discriminative absence-based features from nucleotide sequences of RNA viral genomes. By transforming these NSPs into numerical feature vectors and integrating them into multiple supervised classifiers, GeneNSPCla effectively captures both presence and absence signals in viral sequences. Furthermore, we propose a negative pattern mining algorithm adapted for processing genomic data: GONPM+, which can discover longer and more biologically meaningful negative sequential patterns. The experimental results demonstrate that the average accuracy of GONPM+ in 8 classifiers has improved by 10.03% compared to the original negative pattern mining algorithm and by 24.75% compared to the positive pattern mining algorithm. These findings highlight the effectiveness of incorporating absence-based sequential information, providing a new and complementary perspective for viral genome analysis and classification.",
-      "authors": [
-        "Wenxi Zhu",
-        "Wensheng Gan",
-        "Zhenlian Qi"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.25968v1",
       "pubmed_id": ""
     },
     {
@@ -214,56 +197,6 @@
       ],
       "doi": "",
       "arxiv_id": "2604.26645v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Analysis of DNA thermal stability across a broad range of thionine concentrations",
-      "source": "arXiv",
-      "date": "2026-04-28T09:46:22+00:00",
-      "updated": "2026-04-28T09:46:22+00:00",
-      "url": "http://arxiv.org/abs/2604.25438v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.25438v1",
-      "abstract": "Interest in studying the interaction of small molecules with DNA is caused by the need to develop new, highly effective, and low-toxic drugs for cancer treatment. The strong and highly specific binding of thionine with DNA makes it a promising candidate for use in medicine and pharmacology. In this study, DNA-thionine complexes in aqueous solutions were investigated using UV-Vis absorption spectroscopy. The thermal stability of native DNA was studied in a broad range of thionine concentrations. The mechanisms of thionine binding to DNA, depending on the concentration of thionine, have been established. At low thionine concentrations $([c_{th}] \\le 1.5 \\text{ mg/L})$, thionine molecules intercalate between the base pairs of the DNA double helix. At a thionine concentration of 1.5-10 mg/L, the groove binding and external electrostatic interaction of positively charged thionine with negatively charged biopolymer phosphate groups of the DNA backbones is preferable. In all cases, the interaction of thionine with DNA leads to an increase in the thermal stability of the polynucleotide. These findings provide valuable insight into the concentration-dependent molecular mechanisms of DNA-small molecule interactions, supporting the rational design of anticancer and antimicrobial agents, as well as exploiting molecular probes for nucleic acid detection, imaging, and other biomedical applications.",
-      "authors": [
-        "Evgeniya Usenko",
-        "Alexander Glamazda",
-        "Vladimir Valeev",
-        "Victor Karachevtsev"
-      ],
-      "doi": "10.1007/s10867-026-09702-3",
-      "arxiv_id": "2604.25438v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
-      "source": "arXiv",
-      "date": "2026-04-28T06:05:17+00:00",
-      "updated": "2026-04-28T06:05:17+00:00",
-      "url": "http://arxiv.org/abs/2604.25256v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.25256v1",
-      "abstract": "Autonomous scientific research is significantly advanced thanks to the development of AI agents. One key step in this process is finding the right scientific literature, whether to explore existing knowledge for a research problem, or to acquire evidence for verifying assumptions and supporting claims. To assess AI agents' capability in driving this process, we present AutoResearchBench, a dedicated benchmark for autonomous scientific literature discovery. AutoResearchBench consists of two complementary task types: (1) Deep Research, which requires tracking down a specific target paper through a progressive, multi-step probing process, and (2) Wide Research, which requires comprehensively collecting a set of papers satisfying given conditions. Compared to previous benchmarks on agentic web browsing, AutoResearchBench is distinguished along three dimensions: it is research-oriented, calling for in-depth comprehension of scientific concepts; literature-focused, demanding fine-grained utilization of detailed information; and open-ended, involving an unknown number of qualified papers and thus requiring deliberate reasoning and search throughout. These properties make AutoResearchBench uniquely suited for evaluating autonomous research capabilities, and extraordinarily challenging. Even the most powerful LLMs, despite having largely conquered general agentic web-browsing benchmarks such as BrowseComp, achieve only 9.39% accuracy on Deep Research and 9.31% IoU on Wide Research, while many other strong baselines fall below 5%. We publicly release the dataset and evaluation pipeline to facilitate future research in this direction. We publicly release the dataset, evaluation pipeline, and code at https://github.com/CherYou/AutoResearchBench.",
-      "authors": [
-        "Lei Xiong",
-        "Kun Luo",
-        "Ziyi Xia",
-        "Wenbo Zhang",
-        "Jin-Ge Yao",
-        "Zheng Liu",
-        "Jingying Shao",
-        "Jianlyu Chen",
-        "Hongjin Qian",
-        "Xi Yang",
-        "Qian Yu",
-        "Hao Li",
-        "Chen Yue",
-        "Xiaan Du",
-        "Yuyang Wang",
-        "Yesheng Liu",
-        "Haiyu Xu",
-        "Zhicheng Dou"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.25256v1",
       "pubmed_id": ""
     },
     {
@@ -908,52 +841,13 @@
       "doi": "",
       "arxiv_id": "2604.18112v2",
       "pubmed_id": ""
-    },
-    {
-      "title": "ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems",
-      "source": "arXiv",
-      "date": "2026-04-29T02:18:55+00:00",
-      "updated": "2026-04-29T02:18:55+00:00",
-      "url": "http://arxiv.org/abs/2604.26231v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26231v1",
-      "abstract": "The remarkable text understanding and generation capabilities of large language models (LLMs) have revitalized the field of general recommendation based on implicit user feedback. Rather than deploying LLMs directly as recommendation models, a more flexible paradigm leverages their ability to interpret users' historical interactions and semantic contexts to extract structured profiles that characterize user preferences. These profiles can be further transformed into actionable high-dimensional representations, serving as powerful signals to augment and strengthen recommendation models. However, the mechanism by which such profiles enhance recommendation performance within the feature space remains insufficiently understood. Moreover, existing studies predominantly rely on nonlinear alignment and fusion strategies to incorporate these profiles, which often lead to semantic loss and fail to fully exploit their potential. To address these limitations, we revisit profiles from a retrieval perspective and propose a simple yet effective recommendation framework built upon distribution shaping (ProMax) in this paper. We begin by employing dense retrieval to uncover the collaborative relationships between user and item profiles within the feature space. Based on this insight, we introduce a dual distribution-reshaping process, in which the profile distribution acts as a guiding signal to steer the recommendation model toward learning user preferences for unseen items beyond the scope of observed interactions. We apply ProMax to four classic recommendation methods on three public datasets. The results indicate that ProMax substantially improves base model performance and outperforms existing LLM-based recommendation approaches.",
-      "authors": [
-        "Yi Zhang",
-        "Yiwen Zhang",
-        "Kai Zheng",
-        "Tong Chen",
-        "Hongzhi Yin"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.26231v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Evergreen: Efficient Claim Verification for Semantic Aggregates",
-      "source": "arXiv",
-      "date": "2026-04-28T23:55:26+00:00",
-      "updated": "2026-04-28T23:55:26+00:00",
-      "url": "http://arxiv.org/abs/2604.26180v1",
-      "pdf_url": "https://arxiv.org/pdf/2604.26180v1",
-      "abstract": "With recent semantic query processing engines, semantic aggregation has become a primitive operator, enabling the reduction of a relation into a natural language aggregate using an LLM. However, the resulting semantic aggregate may contain claims that are not grounded in the underlying relation. Verifying such claims is challenging: they often involve quantifiers, groupings, and comparisons over relations that far exceed LLM context windows and require a costly combination of semantic and symbolic processing. We present Evergreen, a system that recasts claim verification as a semantic query processing task with tailored optimizations and provenance capture. Evergreen compiles each claim into a declarative semantic verification query and executes it on the same engine that produced the aggregate. To reduce cost and latency, Evergreen avoids unnecessary LLM calls through verification-aware optimizations (early stopping, relevance sorting, and estimation with confidence sequences) and general-purpose optimizations for semantic queries (operator fusion, similarity filtering, and prompt caching). Each verdict is accompanied by citations that identify a minimal set of tuples justifying the result, with semantics based on semiring provenance for first-order logic. On a benchmark of real-world restaurant review datasets reflecting production-inspired workloads, Evergreen achieves excellent verification quality (F1 = 1.00) with a strong LLM while reducing cost by 3.2x and latency by 4.0x compared to unoptimized verification. Even with a significantly weaker LLM, Evergreen outperforms a strong LLM-as-a-judge baseline in F1 at 48x lower cost and 2.3x lower latency. Relative to a retrieval-augmented agent, Evergreen compares favorably in F1 and latency with similar cost when both use a strong LLM; yet, with a much weaker LLM, it achieves the same F1 at 63x lower cost and 4.2x lower latency.",
-      "authors": [
-        "Alexander W. Lee",
-        "Benjamin Han",
-        "Shayak Sen",
-        "Sam Yeom",
-        "Ugur Cetintemel",
-        "Anupam Datta"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.26180v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 47,
+      "count": 42,
       "error": ""
     }
   ]
