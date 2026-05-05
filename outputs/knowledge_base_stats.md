@@ -1,32 +1,32 @@
 # 知识库统计
 
-更新时间：2026-05-04 04:49:54
+更新时间：2026-05-05 04:27:16
 
-- 累计论文：1192
-- 最近一次新增：33
+- 累计论文：1199
+- 最近一次新增：12
 - 来源数：4
 - 主题数：5
 
 ## 来源统计
 
 - arXiv: 841
-- bioRxiv: 172
-- PubMed: 94
-- medRxiv: 85
+- bioRxiv: 174
+- PubMed: 95
+- medRxiv: 89
 
 ## 类别统计
 
-- foundation_model: 525
-- methods: 430
-- dataset: 116
+- foundation_model: 529
+- methods: 432
+- dataset: 117
 - clinical_application: 89
 - general: 32
 
 ## 主题统计
 
-- foundation_model_agent: 825
+- foundation_model_agent: 832
 - pathogenomics: 66
-- sequencing_bioinformatics: 38
+- sequencing_bioinformatics: 39
 - application_monitoring: 9
 - data_fair_training: 2
 
