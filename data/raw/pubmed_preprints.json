@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-05-05T04:24:49.589758+00:00",
+  "fetched_at": "2026-05-06T04:39:41.143628+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 31,
+  "count": 49,
   "papers": [
     {
       "title": "Genomic analyses identify nosocomial transmission of ST23 carbapenem-resistant hypervirulent Klebsiella pneumoniae mediated by a conjugative IncFII K2 NDM-1 plasmid.",
@@ -22,6 +22,145 @@
       "doi": "10.1080/21505594.2026.2668167",
       "arxiv_id": "",
       "pubmed_id": "42070149"
+    },
+    {
+      "title": "A wolf in sheep's clothing: An unusual zoonotic pathogen in peritoneal dialysis effluent and an important diagnostic strategy.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42084478/",
+      "abstract": "Brucellosis is an infectious disease characterized by a natural foci, caused by Brucella , a genus of Gram-negative bacilli known for its obligate aerobic growth and capability for intracellular parasitism. This pathogen can be transmitted zoonotically between animals and humans. Due to its mechanism of intracellular survival, monotherapy with a single antibiotic often proves ineffective in eradicating Brucella . Therefore, clinical management necessitates the implementation of multidrug combination therapy alongside extended therapeutic regimens to achieve optimal bacteriological clearance. Conventional diagnostic methods, such as bacterial culture and serological testing, are frequently hindered by the fastidious growth requirements of the pathogen and the risk of false-positive serological cross-reactivity. These limitations may result in delayed diagnosis or unnecessary interventions. Recent advancements in molecular biology-particularly genomic analysis technologies-have revolutionized pathogen detection by facilitating rapid and precise identification of elusive pathogens. This study reports the first documented case of refractory peritoneal dialysis-associated peritonitis caused by Brucella diagnosed via metagenomic next-generation sequencing (mNGS). By employing mNGS to identify the pathogen, we summarize the clinical characteristics of this case and highlight the diagnostic advantages of this technology. Our findings aim to guide clinicians in selecting appropriate diagnostic approaches for similar cases, avoiding unnecessary delays and optimizing resource utilization in clinical practice.",
+      "authors": [
+        "Chen Wang",
+        "Pan Dou",
+        "Yanyan Wang",
+        "Xiang Li",
+        "Yiming Zhang",
+        "Xiaofen Ma"
+      ],
+      "doi": "10.1177/08968608261448060",
+      "arxiv_id": "",
+      "pubmed_id": "42084478"
+    },
+    {
+      "title": "β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082786/",
+      "abstract": "Capnocytophaga canimorsus (C. canimorsus) is a zoonotic pathogen transmitted by dogs and cats that can cause severe infections in humans. Antimicrobial susceptibility data remain limited, but increasing genomic evidence suggests that functional β-lactamase genes may be more widespread than previously recognized. Three C. canimorsus isolates harboring class D β-lactamase genes were selected by genomic screening from a larger collection of the Global Capnocytophaga Consortium for detailed characterization: two isolates from human clinical infections from Sweden and New Zealand, and a commensal canine isolate from the Czech Republic. We used hybrid Illumina-Nanopore genome assemblies, phylogenetic analysis, and structural modeling to characterize the genomic context and the predicted protein features of the β-lactamase genes. The functional impact of the β-lactamases on antibiotic activity was assessed by minimum inhibitory concentration (MIC) testing and confirmed through recombinant expression in the β-lactamase-negative reference strain C. canimorsus 5 (Cc5). We detected bla OXA-347 in a canine isolate and, for the first time, in a clinical C. canimorsus isolate from human infection. Additionally, we identified a previously uncharacterized allele, newly designated bla OXA-1422 , in another clinical isolate. Both β-lactamases were chromosomally encoded without clear mobile genetic elements and were part of a distinct phylogenetic cluster within the OXA family. Structural modeling showed conserved class D β-lactamase architecture. Strains carrying either gene had elevated MICs for multiple β-lactams, and expression of each gene in Cc5 recapitulated these effects. The identification and phenotypic characterization of OXA-type β-lactamases in clinical C. canimorsus isolates refine our understanding of β-lactamase diversity in this species and underscore the need for systematic investigations of β‑lactamase prevalence in this zoonotic pathogen.",
+      "authors": [
+        "Zoja Germuskova",
+        "Eleonora Pronzini",
+        "Fanny Wegner",
+        "Tim Roloff",
+        "Tianyan Song",
+        "Miroslava Barancekova",
+        "Alois Cizek",
+        "Michael Addidle",
+        "Murray Robinson",
+        "Marc Dieu",
+        "Chaitanya Tellapragada",
+        "Christian G Giske",
+        "Kirstine Kobberøe Søgaard",
+        "Els M Broens",
+        "Francesco Renzi",
+        "Adrian Egli"
+      ],
+      "doi": "10.1007/s10096-026-05526-0",
+      "arxiv_id": "",
+      "pubmed_id": "42082786"
+    },
+    {
+      "title": "Harmonizing the genetic counselor profession in Europe.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082646/",
+      "abstract": "Genetics in medicine is rapidly becoming integral to European healthcare, yet access to high-quality genetic counseling remains inconsistent. Genetic counseling empowers patients to make informed decisions about genetic testing, improves clinical management, and mitigates psychosocial harm. Despite growing demand, the genetic counselor profession lacks legal recognition, standardized education, and harmonized regulation across European Union (EU) Member States. Current fragmentation, which is evident in separate national laws and variable practices, poses systemic risks, including inequitable care and credentialing barriers. This paper argues that harmonization is essential to ensure ethical, safe, and effective genetic services. We recommend EU-wide legal recognition of genetic counselors, standardized education through EBMG-accredited programs, and investment in workforce development and education. Coordinated action can safeguard individuals' rights, support professional mobility, and enable responsible integration of genomics into healthcare.",
+      "authors": [
+        "Rebecka Pestoff",
+        "Christophe Cordier",
+        "Donna Darmanin",
+        "Katrin Õunap",
+        "Christi J van Asperen"
+      ],
+      "doi": "10.1038/s41431-026-02097-8",
+      "arxiv_id": "",
+      "pubmed_id": "42082646"
+    },
+    {
+      "title": "Detection of Aerosolized Protein Using a Condensation Growth Tube Coupled with an Electrochemical Immunoassay on Screen-Printed Carbon Electrodes.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42011020/",
+      "abstract": "Rapid point-of-need detection of aerosolized pathogens remains a critical need for environmental monitoring and infection control. Traditional filter-based bioaerosol collection methods are time-consuming and nonselective, capturing both infectious and noninfectious viral particles while causing mechanical damage through desiccation and mechanical stress. Furthermore, these approaches require laboratory-based nucleic acid extraction and amplification, which limits their utility for real-time monitoring. Here, we present an integrated aerosol-to-detection platform that couples a three-stage condensation growth tube (CGT) bioaerosol sampler with sensitive electrochemical immunodetection of the SARS-CoV-2 nucleocapsid (N) protein as a model virus antigen. The CGT gently concentrates aerosolized particles into a small liquid volume while preserving biological integrity through a water-based, low-velocity collection. Screen-printed carbon electrodes (SPCEs) were modified with capture antibodies and employed in a sandwich immunoassay format using horseradish peroxidase-linked detection antibodies and 3,3',5,5'-tetramethylbenzidine (TMB) as the electrochemical probe. The electrochemical immunoassay achieved a limit of detection (LOD) of 1.2 ng/mL for spiked N-protein solutions, demonstrating comparable sensitivity to published electrochemical biosensors for SARS-CoV-2 detection. The CGT successfully captured the aerosolized N protein with high efficiency across particle sizes of 50-100 nm with collection efficiency exceeding 95% for the target size range. Electrochemical detection of CGT-captured aerosolized N protein confirmed the successful combination of the sampling and sensing platform, providing average cathodic current signals distinguishable from blank controls. These results demonstrate the feasibility of coupling efficient bioaerosol collection to rapid electrochemical detection for point-of-need pathogen monitoring.",
+      "authors": [
+        "Joowon Park",
+        "Thaisa A Baldo",
+        "Bethany Unruh",
+        "Braden Stump",
+        "Dominick Heskett",
+        "Pat Keady",
+        "Brian Annis",
+        "Brian J Geiss",
+        "David S Dandy",
+        "Charles S Henry"
+      ],
+      "doi": "10.1021/acs.analchem.6c00185",
+      "arxiv_id": "",
+      "pubmed_id": "42011020"
+    },
+    {
+      "title": "Viral Capsid Protein Architecture Informed Selection of ssDNA Aptamers for Specific Detection of FMDV.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42010751/",
+      "abstract": "Foot-and-mouth disease virus (FMDV) is a highly contagious pathogen that poses a serious threat to the global livestock industry, highlighting the need for stable and serotype-specific diagnostic tools. In this study, single-stranded DNA (ssDNA) aptamers were developed against a full-length recombinant FMDV P1 polyprotein (FLRPp), which preserves native-like capsid conformational epitopes. Following 11 rounds of Systematic Evolution of Ligands by Exponential Enrichment (SELEX) with negative selection, aptamer candidates were identified and experimentally characterized. Binding to surface-accessible capsid regions was validated using fluorescence-based assays, surface plasmon resonance (SPR), and enzyme-linked immunosorbent assays (ELISA). An aptamer-based sandwich ELISA further demonstrated the functional applicability of the selected aptamers, enabling sensitive detection of FLRPp and inactivated FMDV capsid with a subnanomolar limit of detection. Among the candidates, FMD_1 exhibited the highest affinity toward the O-type capsid precursor ( K D = 3.46 × 10 -10 M) and strong serotype specificity relative to A and Asia1 serotypes. These results establish a structure-guided aptamer selection strategy that provides analytically functional recognition elements for serotype-specific detection of FMDV.",
+      "authors": [
+        "Jin-Pyo Lee",
+        "Hee-Young Cho",
+        "Woo-Ri Shin",
+        "Dae-Young Park",
+        "In-Hwan Oh",
+        "Cho-Im Oh",
+        "Jung Min Son",
+        "Jiho Min",
+        "Ji-Young Ahn",
+        "Yang-Hoon Kim"
+      ],
+      "doi": "10.1021/acs.analchem.5c04748",
+      "arxiv_id": "",
+      "pubmed_id": "42010751"
+    },
+    {
+      "title": "High Accurate Micro-Orifice Resistance Assay with Programmable Aggregation-Dispersion Switching Enabled by an Entropy-Driven Circuit.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42008408/",
+      "abstract": "Rapid and sensitive detection of pathogenic bacteria remains challenging due to insufficient signal gain and uncontrollable signal transduction strategies that are easily perturbed by environmental fluctuations. Here, we present a micro-orifice resistance biosensor that converts a molecular circuit-programmed aggregation-dispersion transition into a quantifiable electrical signal. Entropy-driven circuit acts as the core regulatory module, maintaining signal probes in a stable low-entropy aggregated state while providing a built-in, target-responsive pathway for controlled dispersion. Upon recognition of bacterial DNA, the molecular circuit shifts toward a higher-entropy dissociated state, releasing dispersed microparticles that generate distinct resistance pulse signatures. To enhance initiator availability and strengthen the molecular circuit activation, a hairpin-free bridge-hybridization chain reaction (nHCR) supplies complementary upstream amplification without relying on enzymatic processes. The sensor achieves a limit of detection of 27 CFU/mL for Listeria monocytogenes in an amplification-free manner, comparable to quantitative PCR in real sample analysis. Our molecular circuit-programmed dispersion switching, supported by dual amplification, offers a robust and scalable strategy for rapid pathogen analysis.",
+      "authors": [
+        "Feng Hong",
+        "Liangqiong Ren",
+        "Wenshu Zheng",
+        "Zhenghao Wang",
+        "Yiping Chen"
+      ],
+      "doi": "10.1021/acs.analchem.6c00905",
+      "arxiv_id": "",
+      "pubmed_id": "42008408"
+    },
+    {
+      "title": "Genomic Insights into the Biology of T-lineage Acute Lymphoblastic Leukemia.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41954523/",
+      "abstract": "Relapsed and refractory T-lineage acute lymphoblastic leukemia (T-ALL) has a poor prognosis, emphasizing the need to identify high-risk patients. T-ALL classification has relied on immunophenotype, including identification of early T-cell precursor ALL, but few genetic alterations reproducibly predict outcome in T-ALL independently of measurable residual disease. Here, the biologic and genetic basis of T-ALL is reviewed, with an emphasis on large-scale genomic analyses that have shed light on the spectrum of genetic subtypes, their drivers, mechanisms of oncogene activation, and developmental stage. We describe how genomics-based approaches can improve T-ALL classification and risk stratification. Whole-genome and whole-transcriptome sequencing enable biologically and clinically meaningful T-ALL subtype classification with greater precision than immunophenotype-based approaches. The genomic landscape of T-ALL is heavily influenced by noncoding alterations, posing a challenge for clinical applications, as their detection often requires whole-genome sequencing. Studies have identified genomic subtypes and genetic alterations that improve the accuracy of patient outcome prediction.",
+      "authors": [
+        "Petri Pölönen",
+        "David T Teachey",
+        "Charles G Mullighan"
+      ],
+      "doi": "10.1158/2643-3230.BCD-25-0206",
+      "arxiv_id": "",
+      "pubmed_id": "41954523"
     },
     {
       "title": "Mercaptophenylboronic acid-modified double-layer PEI-Au magnetic probes: an ultrasensitive SERS biosensor for broad-spectrum bacterial capture and specific detection in clinical urine samples.",
@@ -94,6 +233,149 @@
       "doi": "10.1016/j.saa.2026.127541",
       "arxiv_id": "",
       "pubmed_id": "41643458"
+    },
+    {
+      "title": "Preclinical and first-in-human evidence of 4-hydroxybenzoic acid for mitochondrial COQ2 deficiency.",
+      "source": "PubMed",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40929079/",
+      "abstract": "Primary coenzyme Q (CoQ) deficiency is a mitochondrial disorder with variable clinical presentation and limited response to standard CoQ10 supplementation. Recent studies suggest that 4-hydroxybenzoic acid (4-HBA), a biosynthetic precursor of CoQ, may serve as a substrate enhancement treatment in cases caused by pathogenic variants in COQ2, a gene encoding a key enzyme in CoQ biosynthesis. However, it remains unclear whether 4-HBA is required throughout life to maintain health, whether it offers advantages over CoQ10 treatment, and whether these findings are translatable to humans. Here, we demonstrate that lifelong 4-HBA supplementation in a murine model carrying the pathogenic Coq2A252V variant is well tolerated and prevents the onset of mitochondrial encephalopathy. In contrast, withdrawal of 4-HBA leads to progressive neurological decline. Notably, while conventional CoQ10 supplementation transiently ameliorated cardiac dysfunction, it failed to prevent fatal neurological deterioration. Guided by these preclinical findings, we initiated a first-in-human individual therapeutic trial with 4-HBA in a 3-year-old boy with genetically confirmed primary CoQ10 deficiency due to compound heterozygous pathogenic COQ2 variants. The patient presented with a Leigh-like syndrome characterized by bilateral brain lesions, developmental delay, muscular hypotonia, failure to thrive, lactic acidosis and steroid-resistant nephrotic syndrome. Despite high-dose oral CoQ10 supplementation, clinical response had been minimal. Prior to clinical application, patient-derived fibroblasts were treated in vitro with 4-HBA, resulting in a marked increase in endogenous CoQ10 levels. Following the initiation of oral 4-HBA treatment, the patient experienced rapid and sustained remission of proteinuria, improved renal hyperfiltration and a gradual increase in serum CoQ10 concentrations. No adverse effects were observed during a 6-month follow-up. Clinically, the patient showed notable improvements in motor skills, language acquisition, cognitive alertness and overall development, accompanied by significant gains in growth and nutritional status. Clinical recovery was also reflected by improved scores on the Newcastle Paediatric Mitochondrial Disease Scale. These findings support 4-HBA as a promising targeted metabolic treatment for COQ2-related CoQ deficiency and highlight the need for further clinical investigation.",
+      "authors": [
+        "Felix Distelmaier",
+        "Julia Corral-Sarasa",
+        "Laura Jiménez-Sánchez",
+        "María Elena Díaz-Casado",
+        "Melanie Rohmann",
+        "Annette Seibt",
+        "Diran Herebian",
+        "Sander H J Smits",
+        "Juliane Münch",
+        "Ertan Mayatepek",
+        "Jörg Breitkreutz",
+        "Ralf A Husain",
+        "Sergio López-Herrador",
+        "Pilar González-García",
+        "Luis C López"
+      ],
+      "doi": "10.1093/brain/awaf334",
+      "arxiv_id": "",
+      "pubmed_id": "40929079"
+    },
+    {
+      "title": "Surveillance of tick-borne pathogens in ticks collected from Swiss residents.",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42083024/",
+      "abstract": "Tick-borne diseases (TBDs) represent an increasing public health threat globally. Climate change has facilitated tick range expansion and extended active seasons, contributing to rising TBD incidence rates. In Switzerland, TBDs represent a major health concern. This study aims to characterise patterns in spatio-temporal distribution of tick-borne pathogens (TBPs) in ticks removed from humans across Switzerland, examine associations between tick developmental stages and TBP infection prevalence, and analyse co-infection patterns amongst different TBPs. We employed the \"Tick Prevention\" citizen science app to collect spatial and temporal data on tick bite incidents and to obtain tick specimens for pathogen screening throughout Switzerland during 2018-2020. Specimens underwent DNA extraction for TBP detection. Quantitative PCR targeted different TBPs at genus and species levels. Data analysis examined TBP infection prevalence in submitted ticks across geographic regions, seasons, and tick developmental stages, including co-infection patterns in ticks. Of 1056 tick specimens, 352 (33.3%) tested positive for at least one TBP, with Borrelia spp. (16.3%) and Rickettsia spp. (12.69%) showing higher infection prevalence than other TBPs, including Neoehrlichia mikurensis (5%), Anaplasma phagocytophilum (1.8%), Chlamydiales (1.8%), and Babesia spp. (1.7%). Co-infections occurred in 59 specimens (5.6%), predominantly dual infections (5.2%), with Borrelia spp. and N. mikurensis representing the most common co-infection pattern. Among 58 larvae, 898 nymphs, and 96 adult ticks examined, tick infection prevalence increased with developmental stage, rising from larvae (18.9%) to nymphs (32.6%) to adults (48.9%), consistent with pathogen acquisition through successive blood meals during tick development. Spatially, TBPs were detected across 70 of 76 Swiss administrative regions, with most TBPs displaying uniform distribution. Temporally, tick-human encounters peaked during May-June (59.7% of announced events), with TBP detection rates remaining steady (28-37%) across the tick-active months from April to September. One-third of examined ticks harboured at least one TBP, with weighted models indicating infection prevalence in submitted ticks could reach 45% in certain Swiss Plateau regions. These findings emphasise the importance of continued tick and TBP surveillance programmes to inform public health interventions and prevention.",
+      "authors": [
+        "Ehsan Ghasemian",
+        "Bastian Marquis",
+        "Florian Tagini",
+        "Sébastien Aeby",
+        "Werner Tischhauser",
+        "Reto Lienhard",
+        "Christian Beuret",
+        "Virginie Martin",
+        "Silvan Hälg",
+        "Pie Müller",
+        "Antony Croxatto",
+        "Onya Opota",
+        "Gilbert Greub"
+      ],
+      "doi": "10.1186/s13071-026-07363-8",
+      "arxiv_id": "",
+      "pubmed_id": "42083024"
+    },
+    {
+      "title": "Pleurotus ostreatus L-asparaginase's use in food safety and biotechnology: from processing assistance to bioactive agent.",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42083015/",
+      "abstract": "L-ASNase has attracted attention in many biomedical and food safety applications. Therefore, this study was designed to identify a novel and promising candidate for the sustainable biosynthesis of extracellular L-ASNase from P. ostreatus AUMC 16015 grown on various agricultural substrates under solid-state fermentation (SSF). Also, the enzyme's wide-ranging bioactivities were examined, involving its antioxidant, anti-inflammatory, and antitumor properties, while evaluating its potential applications in food processing. Optimal P. ostreatus AUMC 16015 L-ASNase production was 56.47 U/mL, which was attained under SSF conditions where the enzyme yield increased by 2.46-fold compared to pre-optimization conditions. Enzyme high purity was validated by a single distinct band at approximately 48 kDa on both SDS-PAGE and native PAGE analyses. The enzyme demonstrated high substrate specificity (K m = 7.7 mM; V max = 167.78 U/mL). Functionally, it exhibited strong antioxidant activity (2,2-diphenyl-1-picrylhydrazyl) (DPPH) IC 50 = 48.28 µg/mL) and a robust anti-hemolytic effect (95.9% at 1000 µg/mL). L-ASNase exhibited its most potent inhibitory effect against Caco-2 cells at an IC 50 of 5.49 ± 0.03 µg/mL, followed by MCF-7, which showed a slightly higher IC 50 of 5.86 ± 0.08 µg/mL. Furthermore, L-ASNase significantly mitigated potato chips acrylamide formation, achieving a 9.6-fold decrease after 120 min of treatment. Additionally, Gas chromatography-mass spectrometry (GC-MS) showed that the potato's chemical profile was significantly changed by L-ASNase treatment, with the introduction of numerous bioactive substances and the elimination of some potentially dangerous components. The biochemical activity of the purified L-ASNase suggested potential biomedical and food applications. This study is a trial for cost-effective enzyme production and supports a circular bioeconomy by converting waste into useful bioproducts. Future work should focus on scaling up production and testing its effects in living organisms to unlock this enzyme's full commercial and medical potential.",
+      "authors": [
+        "Yehia A-G Mahmoud",
+        "Mohamed Bedaiwy",
+        "Maha M Salem",
+        "Samar Shamla",
+        "Omyma A Awadallah"
+      ],
+      "doi": "10.1186/s12934-026-03007-9",
+      "arxiv_id": "",
+      "pubmed_id": "42083015"
+    },
+    {
+      "title": "When the meningitis-encephalitis panel is negative: off-label joint infection PCR detects CTX-M ESBL-producing Proteus mirabilis in adult meningoencephalitis.",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082938/",
+      "abstract": "Spontaneous Gram-negative bacillary meningitis in adults is rare and carries high mortality, particularly in elderly patients with significant comorbidities. Although multiplex meningitis-encephalitis (ME) panels have improved diagnostic turnaround time, their limited pathogen spectrum may reduce sensitivity for certain clinically relevant Gram-negative organisms. We report a 78-year-old man presenting with acute meningoencephalitis, septic deterioration, and cerebrospinal fluid (CSF) findings strongly suggestive of bacterial infection. Despite marked neutrophilic pleocytosis and elevated protein levels, the multiplex ME panel was negative. Blood cultures subsequently yielded Proteus mirabilis. Given the discordance between inflammatory CSF findings and routine molecular testing, following interdisciplinary consultation, an off-label BioFire ® Joint Infection multiplex PCR panel was performed directly on CSF. The assay identified Proteus mirabilis harboring a cefotaximase-Munich (CTX-M)-type extended-spectrum β-lactamase (ESBL) resistance determinant. Based on this result, antimicrobial therapy was escalated from ceftriaxone-based empiric treatment to meropenem prior to availability of phenotypic susceptibility data. Despite early pathogen identification and targeted antimicrobial therapy, the patient died due to multiorgan dysfunction secondary to severe sepsis. This case suggests a potential diagnostic limitation of standard ME panels in selected high-risk scenarios and indicates that selective off-label use of broader multiplex PCR platforms may provide additional clinically relevant information in carefully selected patients. In the setting of high clinical suspicion and negative routine multiplex testing, rapid resistance-gene detection may provide actionable information within a decisive therapeutic window and support timely antimicrobial optimization in severe Gram-negative central nervous system infections. Further studies are required to evaluate the diagnostic performance and clinical impact of such approaches. Written informed consent for publication was obtained from the patient's next of kin, and the study was conducted in accordance with institutional and ethical standards.Clinical trial number Not applicable.",
+      "authors": [
+        "Márk Kozák",
+        "Levente Majoros",
+        "Ferenc Bodnár",
+        "Rebeka Hodossy-Takács",
+        "Lilla Hudák",
+        "Lilla Rácz",
+        "Viktor Bencs",
+        "István Várkonyi"
+      ],
+      "doi": "10.1186/s12879-026-13485-2",
+      "arxiv_id": "",
+      "pubmed_id": "42082938"
+    },
+    {
+      "title": "Efficacy of Phallusia arabica mediated tenorite nanoparticles in growth inhibition of clinical pathogens and A549 human lung cancer cells.",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082530/",
+      "abstract": "Phallusia arabica (P. arabica) aqueous extract-mediated precipitation method was adopted in the synthesis of copper oxide nanoparticles (CuO NPs) referred to as tenorite. This green route for CuO synthesis enabled the use of P. arabica aqueous extract as a capping agent, affording biocompatibility with tunable properties. A wide peak in the ultraviolet (UV) region (288 nm) denoted the facile production of CuO NPs. CuO NPs unveiled fluorescence with peaks in both UV and visible regions, such as 388 nm and 657 nm, respectively. Fourier transform infrared spectroscopic analysis corroborated broad coverage of varied biomolecules present in the P. arabica aqueous extract, aiding the synthetic process. The crystallite size and hydrodynamic size of CuO NPs were calculated to be 29.89 nm and 133.4 nm from the x-ray diffractometer and dynamic light scattering techniques, respectively. The thermal studies confirmed the high stability of CuO NPs heated up to 800℃. The electron microscopic analysis confirmed spherical-shaped particles of size 35.5 nm with even distribution. The antimicrobial activity of P. arabica mediated CuO NPs exhibited moderate activity against the strains of Staphylococcus aureus and Candida glabrata. Further, the IC 50 value was found to be 49.70 ± 1.10 µg/mL against A549 human lung cancer cells. These results suggested multiple incorporations in the biomedical field, with CuO NPs offering versatile properties that could be tailored for wider applications.",
+      "authors": [
+        "Sarada Prasad Chattaraj",
+        "V Swathi Pon Sakthi Sri",
+        "Raju Mohanraju",
+        "Dilip Kumar Jha",
+        "G Dharani",
+        "Balaji Ramakrishnan"
+      ],
+      "doi": "10.1038/s41598-026-42937-7",
+      "arxiv_id": "",
+      "pubmed_id": "42082530"
+    },
+    {
+      "title": "Detection of Rickettsia hoogstraalii and Rickettsia lusitaniae in Argas (Persicargas) ricei Ticks Infesting California Condors (Gymnogyps californianus).",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082198/",
+      "abstract": "The California Condor (Gymnogyps californianus) is the largest North American land bird and an endangered species. In September 2024, the Bitter Creek National Wildlife Refuge reported a heavy soft tick infestation on three juvenile condors that were to be released to the wild. One was transported to Los Angeles Zoo for treatment because it showed clinical signs associated with tick paralysis, a neurotoxin-mediated paralytic syndrome. The others had slight weight loss and extensive scabbing in the areas that had previous tick burdens. Eight ticks found on perches in the flight pen were identified as Argas (Persicargas) ricei. Pathogen testing of those ticks found four positives for Rickettsia hoogstraalii, a species previously detected in raptors and their soft ticks in the southwestern USA. One tick was positive for Rickettsia lusitaniae, associated with soft ticks in bats worldwide and closely related to Rickettsia felis and R. hoogstraalii. No ticks were positive for Borrelia spp. Blood meal analysis confirmed that the California Condor was the associated host for a subset of tested ticks. All condors improved clinically with ectoparasite treatment and supportive care. These findings suggest a clear interaction between A. ricei ticks and condors. Managers should consider the checking and removal of ticks from temporary bird housing and prophylactic or event-based treatments of translocated birds; further, Rickettsia species could be considered in future wildlife health investigations.",
+      "authors": [
+        "Julia Gonzalez",
+        "Lisa Auckland",
+        "Sara A Neumann",
+        "Arianna Punzalan",
+        "Jennifer Kennedy",
+        "Julie Barnes",
+        "Jordan Davis-Powell",
+        "Sarah A Hamer"
+      ],
+      "doi": "10.7589/JWD-D-25-00150",
+      "arxiv_id": "",
+      "pubmed_id": "42082198"
+    },
+    {
+      "title": "[Para-infectious aseptic meningo-encephalitis following SARS-CoV-2 infection: two case reports].",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42082140/",
+      "abstract": "Neurological manifestations following COVID-19 have been increasingly reported, yet the pathophysiology of para-infectious processes remains unclear.We present two patients who developed headaches, gait instability, cognitive impairments, and inflammatory cerebrospinal fluid (CSF) changes after SARS-CoV-2 infection. Imaging revealed meningitis and encephalitis, respectively, but there was no direct pathogen detection. After excluding other causes and initiating corticosteroid therapy, both patients showed significant improvement. These cases highlight the relevance of autoimmune mechanisms in neurological complications after COVID-19. Both patients developed their neurological symptoms within four weeks after SARS-CoV-2 infection and thus formally still during the acute phase of COVID-19. In patients with neurological symptoms and inflammatory CSF findings following SARS-CoV-2 infection, para-infectious meningo-encephalitis should be considered, and corticosteroid therapy may be warranted.",
+      "authors": [
+        "Dania Humaidan",
+        "Vivien Richter",
+        "Ulf Ziemann",
+        "Markus Kowarik"
+      ],
+      "doi": "10.1055/a-2853-8086",
+      "arxiv_id": "",
+      "pubmed_id": "42082140"
     },
     {
       "title": "SARS-CoV-2 Nsp1 suppresses the canonical NF-κB pathway by promoting ubiquitin-dependent degradation of TAK1 kinase.",
@@ -240,6 +522,30 @@
       "pubmed_id": "41563788"
     },
     {
+      "title": "Pantoea ananatis as the Emerging Causal Agent of Novel Bacterial Leaf Blight in Rice: Characterization and Management in Anhui, China.",
+      "source": "PubMed",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40926338/",
+      "abstract": "Since its emergence in 2020, a novel bacterial leaf blight caused by Pantoea ananatis has posed a serious threat to rice production in Anhui Province, China. Through verification via Koch's postulates and 3 years of field monitoring, P. ananatis strain HQ01 was identified as the dominant pathogen, exhibiting high virulence even at low inoculum concentrations (10 2 CFU/ml). Genomic analysis further revealed virulence-associated traits, including type III, IV, and VI secretion systems (T3SS/T4SS/T6SS), iron acquisition genes, and 160 carbohydrate-active enzymes linked to plant cell wall degradation. Meanwhile, resistance screening of 21 rice cultivars showed widespread susceptibility, with 95% of varieties classified as susceptible. In parallel, in vitro and in vivo trials identified tetramycin and zinc thiazole as the most effective chemical candidates. Despite these findings, control strategies remain inadequate for managing severe outbreaks. This study thus highlights the urgent need to develop resistant cultivars and sustainable bactericides to combat this emerging disease.",
+      "authors": [
+        "Hao-Yu Zang",
+        "Hui-Yong Xu",
+        "Zhao-Yang Zheng",
+        "Xue Yang",
+        "Rui Pan",
+        "Xiao-Xia Feng",
+        "Shan Shi",
+        "Qi-Sheng Zhang",
+        "Hui Wang",
+        "Qian-Qian Wan",
+        "Ren-de Qi",
+        "Chun-Yan Gu"
+      ],
+      "doi": "10.1094/PDIS-04-25-0931-RE",
+      "arxiv_id": "",
+      "pubmed_id": "40926338"
+    },
+    {
       "title": "Visualization analysis of research hotspots and trends in Type B Aortic Dissection based on bibliometrics.",
       "source": "PubMed",
       "date": "2026-05-03T00:00:00+00:00",
@@ -262,105 +568,23 @@
       "pubmed_id": "42071232"
     },
     {
-      "title": "EvoRMD: integrating biological context and evolutionary RNA language models for interpretable prediction of RNA modifications.",
+      "title": "MZSGO: multimodal zero-shot protein function annotation via evolutionary signals and textual semantics.",
       "source": "PubMed",
-      "date": "2026-05-02T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42070027/",
-      "abstract": "RNA modifications regulate post transcriptional gene expression, yet most computational methods model each modification independently and overlook competition among modification types at a single site. We present EvoRMD, a biologically contextualized and interpretable framework for RNA modification prediction. EvoRMD combines RNA language model embeddings with structured metadata, including species, organ, cell type, and subcellular localization, and uses attention to identify informative sequence positions. A shared multiclass classifier produces context conditioned predictions across 11 modification types. EvoRMD achieves strong performance and provides interpretable insights through attention patterns and motif analyses, supporting biologically grounded prioritization of candidate RNA modifications.",
+      "date": "2026-05-03T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41934619/",
+      "abstract": "Although deep learning has significantly advanced the field of protein function prediction, current approaches are limited by their reliance on a narrow set of modalities. Specifically, they primarily rely on sequence patterns and treat protein domain data and functional labels merely as categorical tags. Consequently, they fail to capitalize on the semantic richness embedded within their textual definitions. These constraints hinder their ability to generalize to novel labels. To tackle this issue, we present MZSGO, a multimodal zero-shot framework that fuses evolutionary signals from protein language models with semantic features derived from large language models (LLMs). By employing an adaptive gated fusion mechanism, MZSGO effectively aligns sequence-based and text-based modalities to enable robust predictions for unseen labels. By unifying protein representations and functional annotations, we bridge the semantic gap that limits current approaches. Results indicate that while our model remains competitive on supervised benchmarks, it demonstrates a marked advantage over existing methods in zero-shot tasks. It specifically excels at recognizing previously unseen long-tail and novel Gene Ontology (GO) terms. The source code and datasets are available at https://github.com/toxic-byte/MZSGO.",
       "authors": [
-        "Bo Wang",
-        "Hao Zhang",
-        "Taoyong Cui",
-        "Xiaoyu Wang",
-        "Jiangning Song",
-        "Hao Xu"
+        "Boyue Cui",
+        "Yujuan Li",
+        "Shiqu Chen",
+        "Jiaming Wei",
+        "Xuan Wang",
+        "Yadong Wang",
+        "Junyi Li"
       ],
-      "doi": "10.1186/s13059-026-04097-9",
+      "doi": "10.1093/bioinformatics/btag168",
       "arxiv_id": "",
-      "pubmed_id": "42070027"
-    },
-    {
-      "title": "Magneto-electrochemical biosensing for pathogen detection using nuclease-responsive nanohybrids.",
-      "source": "PubMed",
-      "date": "2026-05-02T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42069977/",
-      "abstract": "The development of sustainable and highly sensitive diagnostic platforms is critical for rapid pathogen identification and effective disease management. Here, a green, magneto-electrochemical biosensing strategy is reported for the selective detection of Streptococcus pneumoniae based on pathogen-specific nuclease activity. Uniform organic-inorganic hybrid polyhedral oligomeric silsesquioxane (POSS) nanoparticles were synthesized via an ultrafast UV-initiated emulsion polymerization within 5 min using an eco-friendly approach. The nanoparticles were sequentially functionalized by in situ deposition of superparamagnetic iron oxide nanoparticles and biomimetic polydopamine coating, enabling robust and high-density immobilization of nuclease-responsive oligonucleotide probes. The resulting PDA@SPION/POSS nanohybrids exhibit controlled size, preserved structural integrity, and strong superparamagnetic behavior, allowing efficient magnetic manipulation and electrochemical signal transduction. Upon exposure to S. pneumoniae, nuclease-mediated probe cleavage produces a pronounced electrochemical response, enabling label-free detection over a wide dynamic range (10 2 -10⁸ CFU mL⁻¹) with a detection limit of 10 2 CFU mL⁻¹. High selectivity against non-target bacteria highlights the specificity of the enzymatic recognition mechanism. This work establishes a sustainable and amplification-free biosensing platform with strong potential for rapid clinical diagnostics.",
-      "authors": [
-        "Gunes Kibar",
-        "Murat Kavruk",
-        "Frank J Hernandez",
-        "Baris A Borsa",
-        "Ali Dogan Dursun",
-        "Veli Cengiz Ozalp"
-      ],
-      "doi": "10.1007/s00604-026-08087-3",
-      "arxiv_id": "",
-      "pubmed_id": "42069977"
-    },
-    {
-      "title": "Evaluation and expression-level verification of the prognostic value of palmitoylation-related genes in ovarian cancer.",
-      "source": "PubMed",
-      "date": "2026-05-02T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42069724/",
-      "abstract": "Ovarian cancer (OC) remains the most lethal malignancy within the spectrum of gynecological cancers globally. While protein S-palmitoylation has been extensively implicated in tumor progression, its specific functional contributions and molecular mechanisms in the context of OC pathogenesis remain to be fully elucidated. This article aims to explore the prognostic effect associated with palmitoylation in OC. In this study, palmitoylation-related genes (PRGs) were defined as genes encoding enzymes directly involved in the palmitoylation/depalmitoylation process, as well as genes whose functions, subcellular localization, or signaling are regulated by this modification. Based on this definition, PRGs comprising enzymes and regulated substrates, were identified from public transcriptomic databases. By intersecting ovarian cancer (OC)-associated and palmitoylation-linked differentially expressed genes (DEGs), candidate targets were pinpointed. A prognostic risk model was then constructed using LASSO and Cox regression analyses on the TCGA-OV cohort (N = 378) and validated in the GSE51088 cohort (N = 152). This model was integrated into a predictive nomogram and further characterized through pathway enrichment, immune infiltration, checkpoint analysis, drug screening, and mutation profiling. Finally, identified markers were validated via RT-qPCR in clinical samples. Through intersecting DEGs1 and DEGs2, we obtained 24 candidate biomarkers. Four PRGs (HSPG2, BRD4, RARRES1, and SCGB1D2) were identified to construct a prognostic risk model. The risk score, alongside ethnicity and tumor stage, served as an independent prognostic indicator, integrated into a robust nomogram. Mechanistically, high-risk cohorts were characterized by dysregulated ribosome and translation initiation pathways, altered infiltration of seven immune cell types, and significant variations in seven checkpoints (e.g., CTLA4, CD274). Additionally, the model predicted sensitivities for 131 drugs and captured a high TP53 mutation rate. RT-qPCR validation confirmed the upregulation of HSPG2, SCGB1D2, and BRD4, and the downregulation of RARRES1 in OC tissues, showing high consistency with bioinformatic predictions (P < 0.05). This study identified HSPG2, BRD4, RARRES1, and SCGB1D2, which served as prognostic markers reflecting the palmitoylation-related biological landscape in OC that could lay the foundation for innovative therapeutic strategies.",
-      "authors": [
-        "Qiang Huang",
-        "Min He",
-        "Ting Cao",
-        "Chunyan Chen",
-        "Peng Zhou",
-        "Zhongyan Liu",
-        "Rongkai Xie"
-      ],
-      "doi": "10.1038/s41598-026-50074-4",
-      "arxiv_id": "",
-      "pubmed_id": "42069724"
-    },
-    {
-      "title": "Transformative Applications and Innovations in Next-Generation Sequencing Data Analysis.",
-      "source": "PubMed",
-      "date": "2026-05-02T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42068517/",
-      "abstract": "Next-generation sequencing (NGS) has revolutionized the field of genomics by providing rapid, high-throughput, and cost-effective platforms for analyzing genomes, transcriptomes, and epigenomes. Its application spans cancer genomics, infectious disease research, rare disease diagnostics, and precision medicine, enabling comprehensive detection of genetic variants and their functional implications. The advent of advanced methods such as single-cell sequencing, long-read technologies, and multi-omics integration has further expanded the scope of NGS, allowing unprecedented insights into cellular heterogeneity, structural variations, and systems-level interactions. These innovations have facilitated the identification of actionable mutations, supported biomarker discovery, and enhanced our understanding of complex biological processes in both research and clinical contexts. Despite these advancements, several challenges remain. The vast volume of sequencing data necessitates robust computational infrastructures for storage, processing, and interpretation. Sequencing error rates, though improving, continue to impact variant detection and clinical reliability. Ethical concerns regarding privacy, data sharing, and equitable access are also critical barriers that must be addressed, particularly in resource-limited settings. Moreover, translating genomic findings into clinically actionable outcomes requires standardized frameworks and interdisciplinary collaboration among clinicians, geneticists, and bioinformaticians. Looking ahead, the integration of artificial intelligence, machine learning, and automation into NGS data pipelines promises to significantly enhance accuracy, scalability, and clinical utility. These emerging innovations, coupled with global efforts to ensure accessibility and ethical implementation, position NGS as a cornerstone of precision medicine, paving the way for individualized treatment strategies and transformative improvements in healthcare delivery.",
-      "authors": [
-        "Abhijit Beura",
-        "Tikam Chand Dakal",
-        "Mangesh Sudhakar Rajguru",
-        "Gowrang K Manjunath",
-        "Shweta Mahalingam",
-        "Abhishek Kumar"
-      ],
-      "doi": "10.1007/s13353-026-01064-9",
-      "arxiv_id": "",
-      "pubmed_id": "42068517"
-    },
-    {
-      "title": "Knowledge Inclusive Machine Learning for Disease Gene Prioritisation",
-      "source": "bioRxiv",
-      "date": "2026-05-02T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.29.721522v1",
-      "abstract": "The predictive performance of machine learning models depends on the context available to them. In disease gene prioritisation, this context comprises two forms: specific context from sample-level experimental data, such as gene expression and protein-protein interaction networks, and general context from accumulated and curated biological knowledge capturing established relationships among genes, diseases, and pathways. Neither is sufficient alone: experimental data are sensitive to dataset specific noise and lack broader biological grounding, while curated knowledge lacks the resolution required for gene-level discrimination. Consequently, most machine learning approaches relying solely on experimental data risk learning spurious correlations rather than underlying biology. Here we introduce Knowledge Inclusive Machine Learning (KIML), a paradigm that integrates both context types within a unified analytical pipeline. KIML combines experimental data with two types of general context: literature-derived representations from PubMed and structured biomedical knowledge graphs. We evaluate the approach on Developmental and Epileptic Encephalopathy and benchmark it against recent methods using publicly available datasets. Performance is assessed using temporal-split evaluation and biological evaluations, including ontology enrichment analysis. KIML consistently outperforms existing approaches, providing improved predictive accuracy and biologically meaningful insights. Furthermore, the framework generates interpretable explanations of gene prioritisation and demonstrates strong generalisability across six additional diseases.",
-      "authors": [
-        "Gamage, C. J.",
-        "Xia, Y.",
-        "Rupasinghe, R.",
-        "Senevirathne, S.",
-        "Senanayake, D.",
-        "Malepathirana, T.",
-        "Hevapathige, A.",
-        "Corbett, M.",
-        "O'Brien, T. J.",
-        "Petrou, S.",
-        "Berkovic, S. F.",
-        "Scheffer, I. E.",
-        "Gecz, J.",
-        "Bahlo, M.",
-        "Bennett, M. F.",
-        "Halgamuge, S. K."
-      ],
-      "doi": "10.64898/2026.04.29.721522",
-      "arxiv_id": "",
-      "pubmed_id": ""
+      "pubmed_id": "41934619"
     },
     {
       "title": "A 37-million-particle dataset from over 250 experiments to accelerate data-driven cryo-EM analysis",
@@ -500,7 +724,7 @@
       "source": "bioRxiv",
       "date": "2026-05-04T00:00:00+00:00",
       "url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721069v2",
-      "abstract": "Transformer models enable functionally meaningful representation of complex biological data, such as nucleotide or protein sequences. Existing foundation transformer models are trained on large multi-domain corpuses of unlabelled DNA or protein data, showing unmatched task generalisation. However, these foundation models are often outperformed on domain-specific tasks by models trained on taxonomically-constrained data, such as gene classification in prokaryotes. By extension, species-specific transformer models hold promise for targeted analyses, given sufficient training data are available. Epidemiological analysis of bacterial pathogens exemplifies the use-case of species-specific transformers, due to the wealth of genome data available, coupled with pathogen-specific analyses carried out during routine and outbreak surveillance. Here, we trained a transformer model, PanBART, on the gene content and gene order of two important and biologically distinct bacterial pathogens, Escherichia coli and Streptococcus pneumoniae, benchmarking against state-of-the-art non-transformer approaches for genomic epidemiology. We show PanBART learns representations of population structure in an unsupervised manner, and can be used to accurately assign genomes to biologically-meaningful sequence clusters. PanBART is also able to identify emergent lineages, differentiating them from pre-existing lineages, and can accurately predict genomes likely to uptake genes involved in antibiotic resistance before a transfer event has occurred. Finally, PanBART can be used to conduct co-selection analysis to identify pairs of genes likely to be found together. Our work demonstrates that species-specific transformer models can be employed in many critical public health scenarios. We lay the groundwork for wider application of such models in epidemiological analysis, and provide scenarios where such models excel.",
+      "abstract": "Transformer models enable functionally meaningful representation of complex biological data, such as nucleotide or protein sequences. Existing foundation transformer models are trained on large multi-domain corpuses of unlabelled DNA or protein data, showing unmatched task generalisation. However, these foundation models are often outperformed on domain-specific tasks by models trained on taxonomically-constrained data, such as prokaryote gene annotation. By extension, species-specific transformer models hold promise for targeted analyses, given sufficient training data are available. Epidemiological analysis of bacterial pathogens exemplifies the use case of species-specific transformers, due to the wealth of genome data available, coupled with pathogen-specific analyses carried out during routine and outbreak surveillance. Here, we trained a transformer model, PanBART, on the gene content and gene order of two important and biologically distinct bacterial pathogens, Escherichia coli and Streptococcus pneumoniae, benchmarking against state-of-the-art non-transformer approaches for genomic epidemiology. We show PanBART learns representations of population structure in an unsupervised manner, and can be used to accurately assign genomes to biologically-meaningful sequence clusters. PanBART is also able to identify emergent lineages, differentiating them from pre-existing lineages, and can accurately predict genomes likely to uptake genes involved in antibiotic resistance before a transfer event has occurred. Finally, PanBART can be used to conduct co-selection analysis to identify pairs of genes likely to be evolving together. Our work demonstrates that species-specific transformer models can be employed in many critical public health scenarios. We lay the groundwork for wider application of such models in epidemiological analysis, and provide scenarios where such models excel.",
       "authors": [
         "Horsfield, S. T.",
         "Wiatrak, M.",
@@ -564,6 +788,54 @@
         "Berends, M. S."
       ],
       "doi": "10.64898/2026.05.01.722195",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Guidance for high-quality functional gene embeddings from large language models",
+      "source": "bioRxiv",
+      "date": "2026-05-04T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.30.721875v1",
+      "abstract": "Large language models (LLMs) are increasingly used to generate gene embeddings, yet systematic benchmarks of prompting strategies and practical guidance for obtaining biologically meaningful representations remain limited. Here we present GEbench, an evaluation framework for assessing LLM-derived gene embeddings across different tasks, prompting strategies, and LLM architectures. GEbench revealed that embedding quality depends primarily on whether the input text contains explicit functional information, rather than on sparse gene identifiers or model size. Identifier-based embeddings showed weak biological organization, whereas embeddings derived from functional descriptions consistently achieved stronger functional separation and predictive performance. Notably, Self-Des, which extracts embeddings from model-generated gene function descriptions, enabled locally deployable LLMs to generate high-fidelity representations that approach the quality of expert-curated databases. Genome-scale analyses further supported these findings, indicating that explicit functional descriptions are an effective design principle for generating high-quality gene embeddings from LLMs.",
+      "authors": [
+        "Huang, R.",
+        "Hou, Y.",
+        "Zhao, W.",
+        "Zhang, J.",
+        "Lu, J.",
+        "Kong, Y.",
+        "Xu, P."
+      ],
+      "doi": "10.64898/2026.04.30.721875",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Systematic contextual biases in SegmentNT potentially relevant to other nucleotide transformer models",
+      "source": "bioRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.04.09.647946v2",
+      "abstract": "Recent advances in large language models (LLMs) have extended to genomic applications, yet model robustness relative to context is unclear. Here, we demonstrate two intrinsic biases (input sequence length and nucleotide position) affecting SegmentNT results, a model included with the Nucleotide Transformer that provides nucleotide-level predictions of biological features. We demonstrate that nucleotide position within the input sequence (beginning, middle, or end) alters the nature of SegmentNT's raw prediction probabilities, which can be standardized to improve prediction consistency. While longer input sequence length improves model performance, diminishing returns suggest a surprisingly small input length of ~3,072 nucleotides might be sufficient for many applications. We further identify a 24-nucleotide periodic oscillation in SegmentNT's prediction probabilities, revealing an intrinsic bias potentially linked to the model's training tokenization (6-mers) and architecture. We identify potential approaches to account for these biases and provide generalizable insights for utilizing nucleotide-resolution functional prediction models.",
+      "authors": [
+        "Ebbert, M. T. W.",
+        "Ho, A.",
+        "Page, M. L.",
+        "Dutch, B.",
+        "Byer, B. K.",
+        "Hankins, K. L.",
+        "Sabra, H.",
+        "Aguzzoli Heberle, B.",
+        "Wadsworth, M. E.",
+        "Fox, G. A.",
+        "Karki, B.",
+        "Hickey, C.",
+        "Fardo, D. W.",
+        "Bumgardner, C.",
+        "Jakubek, Y. A.",
+        "Steely, C. J.",
+        "Miller, J. B."
+      ],
+      "doi": "10.1101/2025.04.09.647946",
       "arxiv_id": "",
       "pubmed_id": ""
     },
@@ -672,25 +944,138 @@
       "doi": "10.64898/2026.04.29.26352082",
       "arxiv_id": "",
       "pubmed_id": ""
+    },
+    {
+      "title": "Patient2Sentence: Large Language Model-based Semantic Compression for Oncology Trial Eligibility Screening",
+      "source": "medRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.11.14.25340276v2",
+      "abstract": "Efficient clinical trial recruitment in oncology is constrained by the need to interpret long, heterogeneous electronic health records (EHRs) that remain largely unstructured and difficult to automate. We present Patient2Sentence (P2S), a large language model-based framework that performs semantic compression of full oncology EHRs into concise, standardized natural-language patient sentences while preserving eligibility-defining clinical logic. Using 75 fully synthetic EHRs modeled after the KATHERINE, MONARCH-E, and OLYMPIA breast cancer trials, we compared trial eligibility classifications derived from full clinical narratives with those obtained exclusively from compressed patient sentences. Eligibility decisions were evaluated against expert adjudication using agreement metrics and paired statistical testing. Sentence-based classifications achieved 94.7% concordance with expert judgments (Cohen's kappa = 0.83), with no statistically significant difference in diagnostic accuracy compared to full-record assessments (McNemar's p = 1.00), demonstrating non-inferiority of semantic compression for eligibility screening. Trial-specific agreement reached 100% for MONARCH-E, 96% for OLYMPIA, and 88% for KATHERINE, indicating robust performance across heterogeneous eligibility criteria. Semantic compression reduced token consumption by an average of 67.1%, corresponding to a threefold gain in computational efficiency without loss of reasoning fidelity. By reformulating complex oncologic records into human-interpretable, semantically dense sentences, P2S provides an explainable, scalable, and privacy-preserving approach to AI-assisted trial screening. This framework advances biomedical computing by enabling interoperable processing of unstructured clinical narratives and supports the integration of large language models into translational research workflows aimed at accelerating clinical trial recruitment.",
+      "authors": [
+        "Yoshinari, G. H.",
+        "Goulart, W. C. S.",
+        "Urbano, A. B. O.",
+        "Rabello, M. M.",
+        "Zorzetto, M. M.",
+        "Macedo, S. O. d.",
+        "Vitorino, L. M."
+      ],
+      "doi": "10.1101/2025.11.14.25340276",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Modelling Country-Level Trajectories of Antimicrobial Resistance in Human Populations",
+      "source": "medRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.11.20.25340582v4",
+      "abstract": "Antimicrobial resistance (AMR) is recognised as a global health threat but temporal trends in the prevalence of resistance are typically obscured by patchy and heterogeneous data, particularly in lower and middle-income settings. Previous approaches to estimating country-level resistance trajectories in such settings have used an ensemble approach, combining multiple flexible nonlinear algorithmic mean functions embedded within a Gaussian process framework without explicitly accounting for heterogeneities between data sources. We build on this work, but aim to overcome important limitations by explicitly accounting for variation between data sources and using a semi-mechanistic approach based on a logistic growth model with time-varying parameters. We take as an example Acinetobacter baumannii , a globally significant cause of antibiotic-resistant healthcare-associated infections and use data from 18 different sources to estimate trajectories in the prevalence of resistance in 32 countries in Asia between 2000 and 2022. Working within a Bayesian framework, we compare six variants of the underlying model which vary in how data source heterogeneities are accounted for and in how the growth model parameters are assumed to vary by country and time and to depend on covariates and spatial relationships. We also consider a stacked ensemble of these six models. We assess out of sample model accuracy using the Leave-One-Out Cross-Validation Information Criterion. For four out of seven pathogen-antibiotic combinations considered, the stacked model had the highest out of sample prediction accuracy. For the other pathogen-antibiotic combinations, models that accounted for heterogeneity between data sources always performed better than models that did not. This framework improves upon existing approaches by offering a biologically plausible structure that can quantify the effects of covariates on resistance dynamics, effectively handle heterogeneous data sources and can be readily extended to incorporate more complex biologically motivated growth processes. This methodology provides a potentially valuable foundation for better understanding AMR resistance dynamics and evaluating public health interventions.",
+      "authors": [
+        "Srimokla, O.",
+        "Cavany, S.",
+        "Petrie, J.",
+        "Pritchard, M.",
+        "Nebykova, A.",
+        "Aguilar, G.",
+        "Turner, P.",
+        "Perrone, C.",
+        "Chandy, S.",
+        "Roberts, T.",
+        "Rosenthal, V. D.",
+        "Hasan, R. S.",
+        "Tasak, N.",
+        "Dolecek, C.",
+        "Cooper, B.",
+        "GRAM Methods Collaborators,"
+      ],
+      "doi": "10.1101/2025.11.20.25340582",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Multilingual Evaluation of a Large Language Model-Based Primary Care Chatbot",
+      "source": "medRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.03.26352241v1",
+      "abstract": "Pre-visit planning has the potential to reduce EHR documentation burden while improving workflow efficiency, care quality, and patient-provider engagement. Large language model (LLM) chatbots show promise for supporting this task, but while their English-centric development suggests a potential for disparity, the extent to which these concerns translate into performance degradation in multilingual clinical settings remains unclear. In this mixed-methods study, we systematically evaluate the multilingual capabilities of PCP-Bot, an English-developed LLM-based (GPT-4o) clinical chatbot that collects patient concerns and generates structured, physician-ready summaries (~200 words) under structured output constraints. We enrolled 31 bilingual individuals (11 Mandarin, 10 Spanish, 10 Hindi) to role-play as patients to evaluate the PCP-Bot, interacting with it across five synthetic clinical cases in both English and a second language. Participants completed a structured survey comprising baseline language proficiency screening, standardized interactions with PCP-Bot in each language, and post-interaction evaluations. Case order was randomized, with each scenario completed first in English and subsequently in the participant's second language. All summaries were generated in English, regardless of the interaction language. Our results show that Hindi achieved usability and conversation quality parity with English across all measured dimensions. Mandarin achieved usability parity but showed a significant conversation quality gap relative to English. Spanish demonstrated significant deficits in both conversation quality and summary quality. Trust and workload remained consistent across languages. Qualitatively, participants found PCP-Bot natural, smooth, and accurate overall, but noted repetition, transcription errors, missed follow-ups, and more frequent usability issues in non-English interactions. Overall, our findings demonstrate that LLM translation capabilities can enable effective deployment beyond English following appropriate performance validation.",
+      "authors": [
+        "Chen, P.-L.",
+        "Rao, A. A.",
+        "Pugh, S. F.",
+        "Johnson, K. B."
+      ],
+      "doi": "10.64898/2026.05.03.26352241",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Extracting adverse event nature, severity, timelines and resulting interventions from clinical notes of patients receiving CAR-T therapy using large language models.",
+      "source": "medRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.04.28.26351782v1",
+      "abstract": "Chimeric Antigen Receptor T-cell (CAR-T) therapy, where genetically engineered patient T cells target tumor antigens, has transformed care for hematologic malignancies but requires careful tracking of adverse events (AEs) often documented only in unstructured EHR notes. We evaluated a Large Language Model (LLM)-based approach in UCSFs secure environment to extract AEs, dates, grades, and interventions within 30 days post-infusion for six commercial CAR-T products (2012-2023), benchmarking against two evaluators. Using GPT-4-0314 in a zero-shot setting with four prompts (prespecified AEs, non-prespecified AEs, CRS, ICANS), we compared outputs against dual annotations on a random sample of 50 notes using accuracy, precision, recall, F1, and Cohens kappa. From 4,762 progress notes for 293 patients (median age 65.6), CRS occurred in 80.2% (median onset 4 days); neutropenia 70.0% (16 days); neutropenic fever 64.8% (4 days); ICANS in 34.8%. Interventions included tocilizumab and corticosteroids. Grades were frequently undocumented (CRS 62.3%, ICANS 56.1%); documented cases were mainly CRS grade 1 (59.4%) and ICANS grade 2 (28.0%). Performance was high on CRS and ICANS grading (accuracy of 0.97 and 0.91, respectively). Moderate performances were assessed for prespecified AE extraction (accuracies 0.62-0.76), and non-prespecified AEs (accuracies 0.76-0.84). Inter-rater reliability was strong to near-perfect for CRS/ICANS presence and grade (kappa 0.86-0.96), moderate for dates and interventions, and weaker for broader AE attributes. LLM-derived insights can augment AE monitoring and real-world evidence generation by unlocking unstructured clinical detail and characteristic timelines after CAR T. However, performance varied for broader AE attributes, warranting cautious use. Performance was highest for detecting the presence and grade of CRS and ICANS, with strong to near-perfect inter-rater reliability. While cautious use of LLMs for broad AE extraction is warranted due to the variable performance observed in this study, these results support integrating high-performing CRS/ICANS extraction into EHR workflows.",
+      "authors": [
+        "Guillot, J.",
+        "Miao, B.",
+        "Suresh, A.",
+        "Sushil, M.",
+        "Williams, C. Y.",
+        "Vashisht, R.",
+        "Oskotsky, T. T.",
+        "Sirota, M.",
+        "Butte, A. J."
+      ],
+      "doi": "10.64898/2026.04.28.26351782",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Prevalence and Human Health Risks of Salmonella enterica in Baby Poultry Sold at Agricultural Supply Stores",
+      "source": "medRxiv",
+      "date": "2026-05-05T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26352231v1",
+      "abstract": "Across the United States, backyard poultry (BYP) are becoming increasingly popular as a food source as well as pets. Unfortunately, they have also been a source of annual human salmonellosis outbreaks for over a decade. Previous CDC analyses suggest baby poultry are the main source of live poultry-associated outbreaks as opposed to adult birds. However, there are few data on the frequency of pathogens, such as Salmonella enterica, in baby poultry sold to the BYP market. Further, there is a lack of data on the serovars and antimicrobial resistance (AMR) rates in these baby poultry. We collected 643 soiled bedding and shipping box samples from agricultural supply stores primarily located in Vermont. S. enterica was detected in 23.5% (151/643) of samples, with the highest rates of detection in 2021-2022. Rates of S. enterica varied by species. Turkey poult bedding samples had the highest rates of S. enterica (44.4%; 8/18), while laying chick bedding samples had the lowest (19.4%; 68/350). Meat chick bedding samples had an intermediate rate, at 36% (32/89). The most common serovar detected was Salmonella Enteritidis, which represented 51.2% (64/125) of sequenced isolates. AMR genes or AMR-associated point mutations were detected in 21.6% (27/125) of samples, but only in non-Enteritidis serovars. These data indicate that baby poultry intended for the BYP market pose a substantial risk of salmonellosis to consumers.",
+      "authors": [
+        "Larsen, K. M.",
+        "Blackwell, H. L.",
+        "Patch, C. A.",
+        "Herren, C. S.",
+        "Bears, J.",
+        "Armstrong, C. M.",
+        "Kanrar, S.",
+        "Harper, K.",
+        "Devlin, V.",
+        "Martin, L.",
+        "Noyes, O.",
+        "Michaelides, A. M.",
+        "Hood, K. A.",
+        "Lunna, A.",
+        "Penny, A.",
+        "Armstrong, S. C.",
+        "Etter, A. J."
+      ],
+      "doi": "10.64898/2026.05.04.26352231",
+      "arxiv_id": "",
+      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 16,
+      "count": 28,
       "error": ""
     },
     {
       "source": "bioRxiv",
       "success": true,
-      "count": 11,
+      "count": 12,
       "error": ""
     },
     {
       "source": "medRxiv",
       "success": true,
-      "count": 4,
+      "count": 9,
       "error": ""
     }
   ]
