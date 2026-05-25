@@ -1,125 +1,72 @@
 {
-  "fetched_at": "2026-05-24T05:10:38.823327+00:00",
+  "fetched_at": "2026-05-25T05:46:28.137237+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 15,
+  "count": 10,
   "papers": [
     {
-      "title": "Bridging Silicon and the Hippocampus: Algebro-Deterministic Memory \"VaCoAl\" as a Substrate for Vector-HaSH and TEM",
+      "title": "Anatomy-Guided Vision-Language Learning with Angular Prototype Separation for Multi-Label Video Capsule Endoscopy Classification Under Class Imbalance",
       "source": "arXiv",
-      "date": "2026-05-15T06:13:58+00:00",
-      "updated": "2026-05-21T17:25:43+00:00",
-      "url": "http://arxiv.org/abs/2605.15652v4",
-      "pdf_url": "https://arxiv.org/pdf/2605.15652v4",
-      "abstract": "Vector-HaSH and the Tolman-Eichenbaum Machine (TEM) propose the hippocampal-entorhinal circuit factorizes memory via a grid-cell scaffold for compositional replay. Concurrently, human iEEG shows sharp-wave ripples gate recall and multi-hop replay fidelity decays multiplicatively. Yet, these fields lack a shared algebraic foundation. We introduce VaCoAl, an algebro-deterministic hyperdimensional memory architecture built on Galois-field linear-feedback shift registers. Its deterministic Galois-field diffusion offers a substrate-level alternative to Vector-HaSH's random projections, matching quasi-orthogonality while ensuring bit-exact reproducibility. Furthermore, the path-integral Confidence Ratio CR2 provides an algebraically tractable model for the empirically observed multiplicative replay decay. Biologically, VaCoAl's two operating regimes align with the EC-CA3 direct and EC-DG-CA3 trisynaptic pathways, explaining their 520-Myr conservation. Independent cellular evidence supports that the DG-CA3 pathway implements a biophysical homologue of Galois-field arithmetic. We also link this framework to Judea Pearl's Ladder of Causation. Reversible GF(2) binding provides the surgical algebra for the do-operator (Rung 2), and VaCoAl's dual-orthogonalizer architecture supplies the parallel substrate required for counterfactual reasoning (Rung 3). Ultimately, we prove these formal correspondences and derive testable iEEG predictions, uniting computational neuroscience, electrophysiology, and hyperdimensional computing.",
+      "date": "2026-03-18T16:04:50+00:00",
+      "updated": "2026-05-22T10:30:51+00:00",
+      "url": "http://arxiv.org/abs/2603.17879v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.17879v2",
+      "abstract": "This work presents a multi-label temporal event detection framework for video capsule endoscopy (VCE) that addresses the extreme class imbalance inherent in the Galar dataset by combining two principal contributions: an Angular Separation Loss on class prototypes and a Biological State Machine temporal decoder. The backbone remains BiomedCLIP, a biomedical vision-language foundation model. Three consecutive frames are fused through a Local Differencing Attention module that amplifies transient pathological signals by suppressing static temporal redundancy. An Anatomy Context Head then conditions pathological predictions on soft anatomical activations, exploiting the known spatial co-occurrence structure of GI findings. Learnable text-feature prompts and prototype-based logit augmentation are trained alongside an Angular Separation Loss that penalizes off-diagonal cosine similarity between class prototypes, preventing the prototype collapse that afflicts rare classes under extreme imbalance. To counteract the skewed label distribution, the training regime combines asymmetric focal loss, inverse-frequency weighted sampling, temporal Mixup, Exponential Moving Average, and per-class threshold calibration. The Biological State Machine decoder replaces naive gap merging with a physiologically grounded forward-only state transition over anatomy labels, eliminating the fragmentation artefact that produced hundreds of spurious anatomy events per video in the prior approach and reducing per-video anatomy output to 2--3 clinically realistic events. On the held-out RARE-VISION test set comprising three NaviCam examinations (161,025 frames), the updated pipeline achieves an overall temporal mAP@0.5 of 0.3597 and mAP@0.95 of 0.3399, representing a relative improvement of 46% and 44% respectively over the prior submission, with total inference completed in approximately 21 minutes on a single GPU.",
       "authors": [
-        "Hiroyuki Chuma",
-        "Kanji Otsuka",
-        "Yoichi Sato"
+        "Podakanti Satyajith Chary",
+        "Nagarajan Ganapathy"
       ],
       "doi": "",
-      "arxiv_id": "2605.15652v4",
+      "arxiv_id": "2603.17879v2",
       "pubmed_id": ""
     },
     {
-      "title": "AtomicMotion: Learning Human Motion From Different Human Parts",
+      "title": "LLM-driven design of physics-constrained constitutive models: two agents are better than one",
       "source": "arXiv",
-      "date": "2026-05-21T15:39:38+00:00",
-      "updated": "2026-05-21T15:39:38+00:00",
-      "url": "http://arxiv.org/abs/2605.22631v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22631v1",
-      "abstract": "Accurately reconstructing full-body poses from sparse head and hand trajectories is a foundational challenge for immersive AR/VR telepresence. Current methods often struggle with error accumulation and unnatural joint coordination, primarily because they treat the human body as a monolithic entity, thereby failing to capture the fine-grained ``atomic intents'' embedded in subtle signal variations and overlooking the inherent structural topology. To bridge this gap, we present AtomicMotion, a framework designed to decouple and re-integrate body dynamics through three core innovations. First, we introduce a logical body partitioning scheme that decomposes the skeleton into five distinct clusters based on functional intent; this ensures that each partition preserves internal joint synergies while isolating local motion primitives. Second, to robustly map sparse inputs to high-dimensional poses, we employ a masked full-body pre-conditioning strategy during training, forcing the model to internalize global skeletal topology and latent kinematic constraints. Finally, addressing the limitations of vanilla spatial attention, which often ignores fixed physiological connectivity, we propose Kinematic Attention. By embedding the classical kinematic tree structure into the attention mechanism, we ensure biological plausibility in the synthesized motions. Extensive evaluations on the AMASS dataset demonstrate that AtomicMotion significantly outperforms existing baselines, yielding higher reconstruction fidelity and superior biomechanical realism.",
+      "date": "2026-05-22T15:27:09+00:00",
+      "updated": "2026-05-22T15:27:09+00:00",
+      "url": "http://arxiv.org/abs/2605.23754v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23754v1",
+      "abstract": "Developing constitutive models that capture how materials deform under load traditionally requires years of specialized expertise in continuum mechanics, machine learning, and scientific programming. Large language models (LLMs) have recently been shown to lower this barrier by generating constitutive models on demand, but existing single-agent pipelines lack systematic checks that the resulting models respect fundamental physical laws. To close this gap, we introduce the first multi-agent LLM-driven approach for constitutive model generation: a Creator agent proposes a model tailored to the data, while an Inspector agent critically audits each proposal against nine physical constraints and returns it for refinement whenever a violation is detected. We demonstrate this concept with constitutive artificial neural networks (CANNs) and benchmark it on brain tissue, experimental rubber, and synthetic rubber, using two different LLM backbones (Claude Opus 4.7 and Kimi K2.5). Adding the Inspector raises the share of exported models that truly satisfy all physical constraints from 91% to a perfect 100% for Opus and from 37% to 56% for Kimi, while preserving near-baseline accuracy and remarkable generalization to unseen loading paths. In combination, the generated models are physically valid, highly accurate, and extrapolate reliably beyond the training data - properties that together make them directly usable in practice. Separating generation from inspection thus turns LLM-driven constitutive modeling into a genuinely trustworthy process. The paradigm is deliberately technique-agnostic and scales automatically with advances in LLM capability, opening a promising path toward automated, physics-aware model discovery.",
       "authors": [
-        "Runzhen Liu",
-        "Chuhua Xian",
-        "Fa-Ting Hong"
+        "Marius Tacke",
+        "Matthias Busch",
+        "Kian Abdolazizi",
+        "Jonas Eichinger",
+        "Kevin Linka",
+        "Roland Aydin",
+        "Christian Cyron"
       ],
       "doi": "",
-      "arxiv_id": "2605.22631v1",
+      "arxiv_id": "2605.23754v1",
       "pubmed_id": ""
     },
     {
-      "title": "Cell Phantom Video Generation in Elliptical Fourier Descriptor Domain",
+      "title": "Contrastive Distribution Matching for Amortized Sequential Monte Carlo in Discrete Diffusion",
       "source": "arXiv",
-      "date": "2026-05-21T14:43:52+00:00",
-      "updated": "2026-05-21T14:43:52+00:00",
-      "url": "http://arxiv.org/abs/2605.22563v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22563v1",
-      "abstract": "Training Deep Neural Networks for tracking individual cells in biomedical videos requires a large amount of annotated data. The annotation of videos for cell tracking is very time consuming and often requires domain expertise; this explains the limited availability of public annotated data to address important medical problems like tissue repair or cancer treatment. Generating synthetic videos along with their Ground Truth annotations is a promising solution that relies, as a foundational first step, on the synthesis of single cell annotations (or phantoms). Phantoms need to be time consistent, as they have to replicate biological processes that are specific to the cell types. In this work, we propose a novel framework for generating videos of cell phantoms in the Elliptical Fourier Descriptors (EFDs) domain, a compact and geometrically interpretable representation for 2D closed contours. We represent the cell phantom evolution as a multivariate time series of EFD coefficients, introducing a strong prior for cell morphology and enabling the efficient generation of sequences that evolve coherently in time. Our experimental validation proves that modelling the temporal evolution in EFD space enables the generation of biologically plausible phantom videos. Our method can be used in generative pipelines for synthesizing annotated data for cell tracking, thus strongly mitigating the annotation effort for creating new datasets. Our code is available for download here: https://github.com/FrancescoBenedetto99/efd-cell-video-gen.",
+      "date": "2026-05-22T08:06:52+00:00",
+      "updated": "2026-05-22T08:06:52+00:00",
+      "url": "http://arxiv.org/abs/2605.23346v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23346v1",
+      "abstract": "Discrete diffusion models have emerged as powerful frameworks for generating structured categorical data. However, efficiently sampling from reward-tilted distributions remains a fundamental challenge. While Twisted Sequential Monte Carlo (SMC) offers asymptotic exactness for this task, estimating the optimal twist function in discrete state spaces necessitates costly Monte Carlo approximations, resulting a severe computational bottleneck at inference. To overcome this limitation, we introduce Contrastive Distribution Matching (CDM), a novel framework that amortizes the cost of SMC inference by learning a parameterized twist function via positive and negative samples. For efficient training, we reformulate the gradient estimator to leverage the closed-form forward kernels of discrete diffusion models. In practice, evaluating our learned twist function incurs less than 5% additional computational overhead compared to a single forward pass of the base model. Through extensive empirical evaluations, we demonstrate that CDM consistently outperforms existing baselines under matched wall-clock time. We validate the effectiveness and versatility of our approach across a diverse range of applications, including toxic text generation, regulatory DNA sequence design, protein designability, and diffusion large language model alignment.",
       "authors": [
-        "Francesco Benedetto",
-        "Roberto Basla",
-        "Luca Magri",
-        "Giacomo Boracchi"
+        "Jaihoon Kim",
+        "Taehoon Yoon",
+        "Prin Phunyaphibarn",
+        "Seungjun Kim",
+        "Morteza Mardani",
+        "Minhyuk Sung"
       ],
       "doi": "",
-      "arxiv_id": "2605.22563v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Spatiotemporal dynamics and ecological risk factors of highly pathogenic avian influenza A(H5N1) in Canadian wildlife: A One Health surveillance analysis",
-      "source": "arXiv",
-      "date": "2026-05-21T11:41:20+00:00",
-      "updated": "2026-05-21T11:41:20+00:00",
-      "url": "http://arxiv.org/abs/2605.22352v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22352v1",
-      "abstract": "Highly pathogenic avian influenza A(H5N1) has expanded geographically and ecologically, affecting wild birds, mammalian wildlife, domestic animals, and humans. Wildlife surveillance provides critical early warning for One Health preparedness, yet national-scale analyses integrating host ecology, spatial patterns, seasonality, viral lineage, and risk factors remain limited. This study analysed Canadian wildlife HPAI A(H5N1) surveillance records from 2022 to 2026 to characterise spatiotemporal dynamics and identify factors associated with detection counts. A retrospective analysis of 2,657 detections across 13 provinces and territories was conducted using descriptive epidemiology, spatial clustering methods, and Negative Binomial mixed models. Detections were predominantly avian, with waterfowl and raptors as the major host groups, while mammals accounted for a smaller but epidemiologically important proportion. Detection burden was highest in 2022, with increased activity in autumn and spring. Ontario, Alberta, and British Columbia were identified as major hotspots, with evidence of local clustering in parts of the Prairie region. Reassortant Eurasian-North American lineages dominated detections and were strongly associated with higher detection counts. Modelling results identified year, season, and lineage as key predictors. These findings support risk-based One Health surveillance prioritising high-burden regions, migration-associated periods, key avian host groups, reassortant viral lineages, and continued monitoring of mammalian wildlife.",
-      "authors": [
-        "Hammed Olawale Fatoyinbo",
-        "Hoyeon Jeong"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.22352v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ChronoMedKG: A Temporally-Grounded Biomedical Knowledge Graph and Benchmark for Clinical Reasoning",
-      "source": "arXiv",
-      "date": "2026-05-21T17:04:28+00:00",
-      "updated": "2026-05-21T17:04:28+00:00",
-      "url": "http://arxiv.org/abs/2605.22734v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22734v1",
-      "abstract": "Biomedical knowledge graphs (KGs) treat disease associations as static facts, but temporal information is crucial for clinical reasoning, e.g., a symptom diagnostic of one disease at age 3 may imply a different disease at age 13. Existing KGs such as PrimeKG, Hetionet, and iKraph do not encode when a finding becomes clinically relevant over the course of a disease. This limits their usefulness for longitudinal clinical reasoning and retrieval augmentation. We introduce ChronoMedKG, a temporal biomedical knowledge graph that contains 460,497 evidence-linked triples (filtered from 13M raw extractions) covering 13,431 diseases. Each association is tied to temporal components like onset window or progression stage, which are backed by PMID-traceable evidence and a multi-signal credibility score. The graph is constructed through a disease-autonomous multi-agent pipeline in which multiple frontier LLMs independently extract knowledge from PubMed and PMC literature. Only those relations are kept that are supported by multi-model consensus, survive credibility filtering, as well as ontology alignment. ChronoMedKG scored 92.7% agreement against Orphadata and adds temporal grounding for 6,250 diseases absent from HPOA, Orphadata, and Phenopackets, including 1,657 Orphanet-coded rare diseases. We further introduce ChronoTQA, a benchmark of 3,341 questions across eight task types (six temporal plus two static controls), with a 12-question supplementary probe. Frontier LLMs lose roughly 30 points moving from static to temporal questions; ChronoMedKG retrieval rescues 47-65% of their long-tail failures, against 17-29% for HPOA-RAG. As such, ChronoMedKG provides a crucial temporal axis for retrieval-augmented clinical systems that was previously absent.",
-      "authors": [
-        "Md Shamim Ahmed",
-        "Farzaneh Firoozbakht",
-        "Lukas Galke Poech",
-        "Jan Baumbach",
-        "Richard Röttger"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.22734v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "OSM+: Billion-Level OpenStreetMap Dataset for City-wide Experiments",
-      "source": "arXiv",
-      "date": "2025-12-07T09:16:32+00:00",
-      "updated": "2026-05-21T07:41:57+00:00",
-      "url": "http://arxiv.org/abs/2512.06743v2",
-      "pdf_url": "https://arxiv.org/pdf/2512.06743v2",
-      "abstract": "Road network data provides rich information about cities, but processing worldwide OpenStreetMap (OSM) data is computationally intensive, and the resulting graphs are often difficult to unify for benchmarking downstream tasks. Existing graph learning benchmarks fail to capture the billion-scale and unique topological properties of real-world road networks, leaving model scalability underexplored. To close this gap, we process OSM data with distributed cloud computing using 5,000 cores and release \\textbf{OSM+}, a structured worldwide 1-billion-vertex road network graph dataset designed for high accessibility and usability. OSM+ is open source and globally downloadable, providing an open-box graph structure and an easy spatial query interface; the evaluated release is a fixed snapshot for reproducibility, with a versioned update plan for future releases. We demonstrate the utility of OSM+ through three illustrative use cases: city boundary detection, traffic prediction, and traffic policy control. For traffic prediction, we construct a new 31-city benchmark by processing traffic data and combining it with OSM+, enabling broader spatial coverage and more comprehensive evaluation than commonly used datasets, while scaling from hundreds of road network intersections to thousands. For traffic policy control, we release a new six-city dataset at a much larger scale, introducing challenges for thousand-scale multi-agent coordination. We also provide data processing tools for integrating multimodal spatial-temporal data with OSM+ for geospatial foundation model training, thereby expediting the discovery of compelling scientific insights.",
-      "authors": [
-        "Guanjie Zheng",
-        "Ziyang Su",
-        "Yiheng Wang",
-        "Yuhang Luo",
-        "Hongwei Zhang",
-        "Xuanhe Zhou",
-        "Linghe Kong",
-        "Fan Wu",
-        "Wen Ling"
-      ],
-      "doi": "",
-      "arxiv_id": "2512.06743v2",
+      "arxiv_id": "2605.23346v1",
       "pubmed_id": ""
     },
     {
       "title": "Spectra as Language: Large Language Models for Scalable Stellar Parameter and Abundance Inference",
       "source": "arXiv",
       "date": "2026-05-21T08:33:47+00:00",
-      "updated": "2026-05-21T08:33:47+00:00",
-      "url": "http://arxiv.org/abs/2605.22162v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22162v1",
+      "updated": "2026-05-22T08:00:25+00:00",
+      "url": "http://arxiv.org/abs/2605.22162v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.22162v2",
       "abstract": "Stellar spectra encode key information on the physical properties and chemical compositions of stars. Accurate stellar parameter determination is essential for addressing major questions such as galaxy and stellar evolution. Large-scale spectroscopic surveys have accumulated unprecedented spectral data. Traditional feature extraction or model-fitting approaches struggle with high-dimensional, massive datasets, limited generalization, and computational inefficiency. Recent advances in large language models demonstrate strong generalization and feature-learning in tasks like natural language processing, DNA/RNA sequence analysis, and protein/chemical parsing. Stellar spectra are continuous sequential signals, enabling the transfer of language models to stellar spectroscopy. Here, we propose a two-stage large language model framework for stellar parameter inference, achieving accurate estimation of effective temperature, surface gravity, metallicity, and abundances of ~20 chemical elements. Scaling-law analyses show systematic performance improvements with increasing data, providing a scalable framework for forthcoming large-scale surveys.",
       "authors": [
         "Hai-Ling Lu",
@@ -131,52 +78,61 @@
         "Shuo Li"
       ],
       "doi": "",
-      "arxiv_id": "2605.22162v1",
+      "arxiv_id": "2605.22162v2",
       "pubmed_id": ""
     },
     {
-      "title": "GS-QA: A Benchmark for Geospatial Question Answering",
+      "title": "SeedER: Seed-and-Expand Retrieval from Knowledge Graphs",
       "source": "arXiv",
-      "date": "2026-05-21T17:57:38+00:00",
-      "updated": "2026-05-21T17:57:38+00:00",
-      "url": "http://arxiv.org/abs/2605.22811v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22811v1",
-      "abstract": "Recent advances in Large Language Models (LLMs) have led to dramatic improvements in question answering (QA). To address the challenge of evaluating QA systems, standardized benchmarks have been introduced. This work focuses on the problem of geospatial QA, where a large collection of geospatial data is available in the form of a spatial database or other forms. Existing work on geospatial QA benchmarks has various limitations, including a small number of questions, limited spatial predicates, narrow output types, and no multi-source reasoning. We present GS-QA, an extensible geospatial QA benchmark with 2,800 question-answer pairs across 28 templates on top of OpenStreetMap and Wikipedia data, covering a wide range of spatial objects, predicates (including directional and towards filtering), and answer types (entity names, locations, distances, directions, counts, and aggregated areas/lengths). A key feature of GS-QA is that some questions require combining information from multiple sources, e.g., geospatial information from OSM and factual information from Wikipedia. GS-QA includes a comprehensive evaluation methodology that combines text-based QA measures with geospatial-specific measures such as distance error and angular error. We implemented nine LLM-based geospatial QA baselines using three LLMs (GPT-4o, Claude Sonnet 4.6, and Ministral-3) with combinations of direct prompting, retrieval-augmented generation, and text-to-SQL. Our results show that existing solutions perform reasonably well on simple spatial predicates with entity name outputs, but accuracy degrades significantly for questions involving complex spatial predicates, numeric output types, and multi-source reasoning, demonstrating that geospatial QA remains a challenging open problem warranting further research.",
+      "date": "2026-05-22T15:26:31+00:00",
+      "updated": "2026-05-22T15:26:31+00:00",
+      "url": "http://arxiv.org/abs/2605.23753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23753v1",
+      "abstract": "Knowledge graphs (KGs) offer a rich representation for relational knowledge, but their irregular structure makes retrieval challenging: ego-graph expansion grows rapidly, and dense embedding methods struggle with multi-hop compositional queries. Existing agent-based graph exploration approaches, while expressive, are often too expensive for large-scale retrieval. We introduce SeedER (Seed-and-Expand Retrieval), a retrieval framework that explicitly leverages KG structure through iterative, low-cost expansion. SeedER first seeds a compact set of core nodes using lightweight dense and entity-based retrieval, then selectively expands this set via a learned graph-aware policy trained with reinforcement learning. This design decomposes global reasoning into reusable local decisions, enabling efficient discovery of query-relevant nodes while tightly controlling expansion cost. We show theoretical limitations of dense retrieval on compositional graph queries, and establish advantages of SeedER from both compositional generalization and graph-constrained submodular optimization perspectives. Empirically, SeedER substantially improves recall with compact candidate sets over strong dense and graph-augmented baselines, making it an effective first-stage retriever for knowledge-intensive reasoning systems.",
       "authors": [
-        "Majid Saeedan",
-        "Muhammad Shihab Rashid",
-        "Ahmed Eldawy",
-        "Vagelis Hristidis"
+        "Hamed Shirzad",
+        "Frederik Wenkel",
+        "Dominique Beaini",
+        "Danica J. Sutherland",
+        "Emmanuel Noutahi"
       ],
       "doi": "",
-      "arxiv_id": "2605.22811v1",
+      "arxiv_id": "2605.23753v1",
       "pubmed_id": ""
     },
     {
-      "title": "RAGCap-Bench: Benchmarking Capabilities of LLMs in Agentic Retrieval Augmented Generation Systems",
+      "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
       "source": "arXiv",
-      "date": "2025-10-15T04:13:00+00:00",
-      "updated": "2026-05-21T16:22:24+00:00",
-      "url": "http://arxiv.org/abs/2510.13910v2",
-      "pdf_url": "https://arxiv.org/pdf/2510.13910v2",
-      "abstract": "Retrieval-Augmented Generation (RAG) mitigates key limitations of Large Language Models (LLMs)-such as factual errors, outdated knowledge, and hallucinations-by dynamically retrieving external information. Recent work extends this paradigm through agentic RAG systems, where LLMs act as agents to iteratively plan, retrieve, and reason over complex queries. However, these systems still struggle with challenging multi-hop questions, and their intermediate reasoning capabilities remain underexplored. To address this, we propose RAGCap-Bench, a capability-oriented benchmark for fine-grained evaluation of intermediate tasks in agentic RAG workflows. We analyze outputs from state-of-the-art systems to identify common tasks and the core capabilities required for their execution, then construct a taxonomy of typical LLM errors to design targeted evaluation questions. Experiments show that \"slow-thinking\" models with stronger RAGCap performance achieve better end-to-end results, underscoring the benchmark's validity and the importance of enhancing these intermediate capabilities.",
+      "date": "2026-05-22T15:03:13+00:00",
+      "updated": "2026-05-22T15:03:13+00:00",
+      "url": "http://arxiv.org/abs/2605.23723v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23723v1",
+      "abstract": "Large language model agents increasingly rely on persistent memory to store past interactions, retrieve relevant demonstrations, and improve long-horizon task execution. However, this memory mechanism also creates a practical security vulnerability: an adversarial user may inject malicious records into the agent's memory through ordinary interaction, and these records can later be retrieved to steer the agent's reasoning and actions. Existing defenses primarily focus on online intervention, such as prompt filtering or output blocking, but they do not address the post-hoc question of which stored memories are responsible after harmful behavior has already been observed. We propose \\textbf{MemAudit}, a post-hoc causal memory auditing framework for memory-augmented LLM agents. The framework combines two complementary signals: (1) a counterfactual memory influence score that measures each memory's causal contribution to harmful outputs, and (2) a memory consistency graph that identifies structurally anomalous memories within the broader memory store. We evaluate MemAudit against MINJA, a query-only memory injection attack in which malicious records are generated and stored through normal agent interactions rather than direct memory-bank modification. Across both QA and reasoning-agent settings, MemAudit substantially reduces attack success rates under realistic post-hoc auditing scenarios. The results show that QA attack success is reduced from $70\\%$ to $0\\%$, while RAP attack success drops from $83.3\\%$ to $0\\%$.",
       "authors": [
-        "Jingru Lin",
-        "Chen Zhang",
-        "Stephen Y. Liu",
-        "Haizhou Li"
+        "Zhewen Tan",
+        "Yilun Yao",
+        "Huiyan Jin",
+        "Wenhan Yu",
+        "Guoan Wang",
+        "Mengyuan Fan",
+        "liang lu",
+        "Feng Liu",
+        "Xiangzheng Zhang",
+        "Duohe Ma",
+        "Tong Yang",
+        "Lin Sun"
       ],
       "doi": "",
-      "arxiv_id": "2510.13910v2",
+      "arxiv_id": "2605.23723v1",
       "pubmed_id": ""
     },
     {
       "title": "Fine-grained Claim-level RAG Benchmark for Law",
       "source": "arXiv",
       "date": "2026-05-20T11:56:27+00:00",
-      "updated": "2026-05-21T13:26:11+00:00",
-      "url": "http://arxiv.org/abs/2605.21071v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.21071v2",
+      "updated": "2026-05-22T11:16:57+00:00",
+      "url": "http://arxiv.org/abs/2605.21071v3",
+      "pdf_url": "https://arxiv.org/pdf/2605.21071v3",
       "abstract": "The rapid progress of large language models (LLMs) is shifting semantic search toward a question-answering paradigm, where users ask questions and LLMs generate responses. In high-stake domains such as law, retrieval-augmented generation (RAG) is commonly used to mitigate hallucinations in generated responses. Nonetheless, prior work shows that RAG systems, whether general-purpose or legal-specific, still hallucinate at varying rates, making fine-grained evaluation essential. Despite the need, existing evaluation frameworks for legal RAG systems lack the granularity required to provide detailed analysis of retrieval and generation performance separately. Moreover, current benchmarks are largely English-only and centered on legal expert queries, overlooking non-expert needs. We introduce ClaimRAG-LAW, a comprehensive dataset for legal RAG that supports French and English, targets both experts and non-experts, and includes diverse question types reflecting realistic scenarios. We further apply a fine-grained evaluation framework of state-of-the-art legal RAG systems, revealing limitations in retrieval, generation, and claim-level analysis in the legal domain.",
       "authors": [
         "Souvick Das",
@@ -184,101 +140,59 @@
         "Domenico Bianculli"
       ],
       "doi": "",
-      "arxiv_id": "2605.21071v2",
+      "arxiv_id": "2605.21071v3",
       "pubmed_id": ""
     },
     {
-      "title": "Evaluation of Chunking Strategies for Effective Text Embedding in Low-Resource Language on Agricultural Documents",
+      "title": "Vector Retrieval with Similarity and Diversity: How Hard Is It?",
       "source": "arXiv",
-      "date": "2026-05-21T09:06:13+00:00",
-      "updated": "2026-05-21T09:06:13+00:00",
-      "url": "http://arxiv.org/abs/2605.22203v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22203v1",
-      "abstract": "In this study, we compare the performance of four text chunking approaches: Recursive, Khmer-Aware, Sentence-Based, and LLM-Based within a Retrieval-Augmented Generation (RAG) framework applied to Khmer agricultural documents. The document chunks are encoded using the BGE-M3 multilingual embedding model and retrieved using the FAISS library. Performance is evaluated using four metrics: Average Retrieval Score (L2 distance), Answer Relevance, Khmer Coverage, and Khmer Intersection over Union, all measured against ground-truth question-answer pairs. For evaluation, we perform 5-fold cross-validation over 18 question-answer pairs. We observe the best performance for the character-based Recursive chunking method with a chunk size of 300 characters, achieving the lowest L2 distance (0.4295 +- 0.0461), highest Answer Relevance (0.8663 +- 0.0199), and highest Khmer IoU (0.6441 +- 0.0347). A paired t-test shows a statistically significant improvement over the Sentence-Based chunking method in L2 distance (p = 0.0121). These results highlight the importance of segmentation granularity and structural preservation for optimizing dense retrieval in morphologically complex, low-resource languages such as Khmer.",
+      "date": "2024-07-05T15:08:44+00:00",
+      "updated": "2026-05-22T07:23:56+00:00",
+      "url": "http://arxiv.org/abs/2407.04573v4",
+      "pdf_url": "https://arxiv.org/pdf/2407.04573v4",
+      "abstract": "Dense vector retrieval is an important building block of modern machine learning systems, underlying applications ranging from semantic search to retrieval-augmented generation and knowledge-intensive reasoning. Beyond retrieving items that are individually similar to a query, many applications require a set of results that is also diverse, complementary, and collectively informative. Balancing similarity and diversity is therefore central to effective retrieval, but remains challenging to optimize in a stable and theoretically grounded way. Maximal Marginal Relevance (MMR) is a widely adopted heuristic for this problem, yet its reliance on a manually tuned parameter leads to optimization fluctuations and unpredictable retrieval results. More broadly, existing methods provide limited theoretical insight into how similarity and diversity interact in dense vector spaces, leaving the joint optimization problem insufficiently understood. To address these challenges, this paper introduces a novel approach that characterizes both constraints simultaneously by maximizing the similarity between the query vector and the sum of the selected candidate vectors. We formally define this optimization problem, Vector Retrieval with Similarity and Diversity (VRSD), and prove that it is NP-complete, establishing a rigorous theoretical bound on the inherent difficulty of this dual-objective retrieval. Subsequently, we present a parameter-free heuristic algorithm to solve VRSD. Extensive evaluations on multiple datasets, incorporating both objective geometric metrics and LLM-simulated subjective assessments, demonstrate that our VRSD heuristic consistently outperforms established baselines, including MMR and Determinantal Point Processes (k-DPP).",
       "authors": [
-        "Sovandara Chhoun",
-        "Pichdara Po",
-        "Sereiwathna Ros",
-        "Wan-Sup Cho",
-        "Saksonita Khoeurn"
+        "Hang Gao",
+        "Dong Deng",
+        "Yongfeng Zhang"
       ],
       "doi": "",
-      "arxiv_id": "2605.22203v1",
+      "arxiv_id": "2407.04573v4",
       "pubmed_id": ""
     },
     {
-      "title": "A Unified H i Rotation Curve Database for 129 Local Volume Dwarf and Irregular Galaxies",
+      "title": "Efficient and Transferable Agentic Knowledge Graph RAG via Reinforcement Learning",
       "source": "arXiv",
-      "date": "2026-05-21T08:34:06+00:00",
-      "updated": "2026-05-21T08:34:06+00:00",
-      "url": "http://arxiv.org/abs/2605.22163v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22163v1",
-      "abstract": "We present a unified H i rotation curve database for 129 dwarf and irregular galaxies drawn from four Local Volume surveys: the Local Volume H i Survey (LVHIS; 33 galaxies), VLA-ANGST (29), LITTLE THINGS (26), and WALLABY DR2 (41). The database provides standardised kinematic parameters, distance estimates, morphological classifications, and rotation curve data in machine-readable JSON, JSONL, and CSV formats with a documented 27-field schema, supporting retrieval-augmented generation (RAG) applications and cross-survey kinematic analysis. Quality tiers distinguish 26 galaxies with full multi-point tilted-ring rotation curves from 103 with single-ring or profile-width estimates. Three worked examples demonstrate corpus queries, including application of the ω correction to DDO 154 (LITTLE THINGS). This work is presented as a data resource; no new dynamical model is proposed. The database and all computation scripts are available at Zenodo (https://doi.org/10.5281/zenodo.20320362).",
+      "date": "2025-09-30T15:14:24+00:00",
+      "updated": "2026-05-22T06:49:31+00:00",
+      "url": "http://arxiv.org/abs/2509.26383v5",
+      "pdf_url": "https://arxiv.org/pdf/2509.26383v5",
+      "abstract": "Knowledge-graph retrieval-augmented generation (KG-RAG) couples large language models (LLMs) with structured, verifiable knowledge graphs (KGs) to reduce hallucination and provide reasoning traces. However, current KG-RAG systems often rely on fixed pipelines of multiple LLM modules (e.g., planning, reasoning, and responding), which inflate inference costs and tie performance to specific graph schemas. To address this, we introduce KG-R1, an agentic framework that optimizes KG-RAG through reinforcement learning (RL). Unlike modular workflows, KG-R1 uses a single agent that interacts with KGs as its environment, learning to retrieve information at each step and incorporating it into its reasoning and generation in a unified process. Across Knowledge-Graph Question Answering (KGQA) benchmarks, KG-R1 demonstrates both efficiency and transferability-using Qwen 2.5-3B, KG-R1 improves answer accuracy with fewer generation tokens than prior multi-module workflow methods that use much larger foundation or fine-tuned models. Furthermore, KG-R1 exhibits strong plug-and-play capability: after training, maintaining accuracy on unseen KGs without retraining. These properties make KG-R1 a promising KG-RAG framework for real-world deployment. Our code is publicly available at github.com/junhongmit/KG-R1/.",
       "authors": [
-        "David C. Flynn"
+        "Junhong Lin",
+        "Shicheng Liu",
+        "Jinyeop Song",
+        "Song Wang",
+        "Julian Shun",
+        "Yada Zhu"
       ],
       "doi": "",
-      "arxiv_id": "2605.22163v1",
+      "arxiv_id": "2509.26383v5",
       "pubmed_id": ""
     },
     {
-      "title": "CacheClip: Accelerating RAG with Effective KV Cache Reuse",
+      "title": "When Is Next-Token Prediction Useful? Marginalization, Ergodicity, Mixture Identifiability, Local Sufficiency, RAG, Tools, and Programming",
       "source": "arXiv",
-      "date": "2025-10-11T09:28:26+00:00",
-      "updated": "2026-05-21T08:20:19+00:00",
-      "url": "http://arxiv.org/abs/2510.10129v2",
-      "pdf_url": "https://arxiv.org/pdf/2510.10129v2",
-      "abstract": "Retrieval-Augmented Generation (RAG) systems suffer from severe time-to-first-token (TTFT) bottlenecks due to long input sequences. Existing KV cache reuse methods face a fundamental trade-off: prefix caching requires identical prefixes that rarely occur in RAG scenarios, while direct precomputation sacrifices quality due to missing inter-chunk attention and repeated attention sinks. Recent methods like APE and CacheBlend partially address these issues but remain inadequate for robust RAG applications. This paper presents CacheClip, a novel framework that achieves both fast TTFT and high generation quality. Our key insight is that small auxiliary LLMs exhibit similar last-layer attention distributions to primary LLMs (the target model for generation), enabling efficient identification of tokens critical for restoring inter-chunk attention, thereby significantly improving response quality on cross-chunk reasoning tasks. CacheClip integrates four techniques: (1) auxiliary-model-guided token selection for selective KV cache recomputation, (2) shared prefixes to eliminate redundant attention sinks, (3) a sliding-window grouping strategy to maintain local coherence during partial KV cache updates, and (4) a CPU-GPU hybrid design that offloads auxiliary model inference to idle CPU resources, avoiding additional GPU overhead. The recomputation ratio is adjustable, allowing users to flexibly balance efficiency and quality for different deployment requirements. Experiments show CacheClip retains up to 85.2% and 91.1% of full-attention performance on NIAH and LongBench, outperforming CacheBlend and APE by 16.1 and 12.8 points on NIAH, and by 4.5 and 4.2 points on LongBench (with recomp% = 20%). Meanwhile, CacheClip accelerates LLM inference by up to 3.33$\\times$ in prefill time (with recomp% = 20%), providing a practical solution to the efficiency-quality trade-off in RAG systems.",
+      "date": "2026-05-22T06:34:17+00:00",
+      "updated": "2026-05-22T06:34:17+00:00",
+      "url": "http://arxiv.org/abs/2605.23278v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.23278v1",
+      "abstract": "Language models trained on observed sequences are often described as learning the conditional distribution of the next token given previous tokens. This description is only conditionally correct. A model trained on realized token trajectories does not observe full conditional laws; it receives sampled continuations. Moreover, real language generation is conditioned not only on previous words but also on non-textual circumstances: facts, events, intentions, goals, beliefs, social context, and task-specific constraints. This paper distinguishes three objects that are often conflated: the full conditional language process conditioned on latent circumstances, the marginal text-only process obtained by integrating those circumstances out, and the model-induced distribution learned from finite observed corpora. The paper argues that interpreting model training as estimating the marginal text-only law requires strong assumptions of stationarity, representativeness, and ergodicity, assumptions that are standard in statistical estimation but problematic when applied to heterogeneous language corpora. Even if these assumptions hold, the marginal text-only law is useful only when the observed prefix is an approximately sufficient statistic for the latent circumstances relevant to continuation. In information-theoretic terms, usefulness requires that the residual conditional mutual information between the next token and the omitted circumstances, given the observed text, be small. The paper then extends this argument to heterogeneous training corpora. Finally, the paper interprets Retrieval Augmented Generation (RAG) and tool use as conditional sufficiency devices.",
       "authors": [
-        "Bin Yang",
-        "Qiuyu Leng",
-        "Jun Zeng",
-        "Zhenhua Wu"
+        "Francesco Corielli"
       ],
       "doi": "",
-      "arxiv_id": "2510.10129v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Comparative Study of Language Models for Khmer Retrieval-Augmented Question Answering",
-      "source": "arXiv",
-      "date": "2026-05-21T07:36:01+00:00",
-      "updated": "2026-05-21T07:36:01+00:00",
-      "url": "http://arxiv.org/abs/2605.22099v1",
-      "pdf_url": "https://arxiv.org/pdf/2605.22099v1",
-      "abstract": "Retrieval-Augmented Generation (RAG) has emerged as a promising paradigm for grounding large language model (LLM) outputs in retrieved evidence, thereby reducing hallucination and improving factual accuracy. Its efficacy, however, remains largely unexamined for low-resource, non-Latin-script languages such as Khmer. In this paper, we present a RAG-based question answering system for Khmer-language telecom-domain documents. We conduct a two-phase comparative evaluation. First, we benchmark three embedding models: BGE-M3 (567M), Jina-Embeddings-v3 (570M), and Qwen3-Embedding (597M), for dense retrieval over Khmer documents. BGE-M3 consistently performs best, achieving a Hit Rate@3 of 0.285, File Hit Rate@3 of 0.700, MRR@3 of 0.221, and Precision@3 of 0.112, substantially outperforming the other retrievers. Second, using BGE-M3 as the selected retriever, we evaluate five generator backends: Qwen3 (8B), Qwen3.5 (9B), Sailor2-8B-Chat, SeaLLMs-v3-7B-Chat, and Llama-SEA-LION-v2-8B-IT, on a curated golden dataset of 200 Khmer question-answer pairs. To quantify system performance, we apply six RAGAS-inspired metrics: faithfulness, answer relevance, context relevance, factual correctness, answer similarity, and answer correctness. The results show no single model dominates across all metrics: Qwen3.5-9B achieves the highest faithfulness (0.859) and context relevance (0.726), Qwen3-8B attains the highest factual correctness (0.380), and SeaLLMs-v3-7B-Chat performs best on answer relevance (0.867), answer similarity (0.836), and answer correctness (0.599). These findings highlight that retriever choice remains a major bottleneck for Khmer RAG, while generator strengths vary depending on whether the priority is grounding, factual precision, or semantic similarity.",
-      "authors": [
-        "Sereiwathna Ros",
-        "Phannet Pov",
-        "Ratanaktepi Chhor",
-        "Kimleang Ly",
-        "Wan-Sup Cho",
-        "Saksonita Khoeurn"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.22099v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
-      "source": "arXiv",
-      "date": "2026-05-15T12:51:32+00:00",
-      "updated": "2026-05-21T06:50:33+00:00",
-      "url": "http://arxiv.org/abs/2605.15913v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.15913v2",
-      "abstract": "Block attention, which processes the input as separate blocks that cannot attend to one another, offers significant potential to improve KV cache reuse in long-context scenarios such as Retrieval-Augmented Generation (RAG). However, its broader application is hindered by two key challenges: the difficulty of segmenting input text into meaningful, self-contained blocks, and the inefficiency of existing block fine-tuning methods that risk degrading performance. To address these, we first construct SemanticSeg, a large and diverse semantic segmentation dataset containing over 30k instances across 16 categories-including books, code, web text, and conversations with text lengths ranging from 2k to 32k. Using this dataset, we train a lightweight segmenter to automatically partition text into human-instinct-aligned blocks with controllable granularity. Second, we propose block distillation, a training framework that is more efficient than block fine-tuning, which uses a frozen full-attention teacher model to guide the block-attention student. This framework integrates three novel components: block sink tokens to mitigate information loss at block boundaries, block dropout to leverage training signals from all blocks, and token-level loss weighting to focus learning on block-attention-sensitive tokens. Experiments across multiple models and benchmarks demonstrate that our segmenter outperforms heuristic and statistical baselines, and block distillation achieves near-full-attention performance under block attention, establishing a practical and scalable pathway for deploying block attention.",
-      "authors": [
-        "Shuaiyi Li",
-        "Zhisong Zhang",
-        "Yan Wang",
-        "Lei Zhu",
-        "Dongyang Ma",
-        "Chenlong Deng",
-        "Yang Deng",
-        "Wai Lam"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.15913v2",
+      "arxiv_id": "2605.23278v1",
       "pubmed_id": ""
     }
   ],
@@ -286,7 +200,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 15,
+      "count": 10,
       "error": ""
     }
   ]
