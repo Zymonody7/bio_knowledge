@@ -1,152 +1,124 @@
-# 每日论文监控日报 (2026-06-04)
+# 每日论文监控日报 (2026-06-05)
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 35 篇新论文。
+今日共整理 24 篇新论文。
 
 ## 抓取状态
 
-- arXiv：失败，命中 0 篇，错误：429 Client Error: Too Many Requests
-- PubMed：成功，命中 200 篇
-- bioRxiv：成功，命中 14 篇
-- medRxiv：成功，命中 21 篇
+- arXiv：失败，命中 0 篇，错误：HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=60)
+- PubMed：成功，命中 67 篇
+- bioRxiv：成功，命中 12 篇
+- medRxiv：成功，命中 16 篇
 
 注：部分来源抓取失败时，后续整理结果可能包含缓存原始数据，不等同于这些来源当天没有新论文。
 
 ## 最值得看
 
+今天这一档没有命中论文。
+
+## 可追踪
+
 ### 方法创新
 
 - [Decoding the Grammar of Protein-Protein Interaction Interfaces with Multimodal Representations](https://www.biorxiv.org/content/10.64898/2026.05.29.728739v1)
-  来源：bioRxiv | 日期：2026-06-02 | 相关度：8.5 | 新颖度：6.25
+  来源：bioRxiv | 日期：2026-06-02 | 相关度：8.5 | 新颖度：1.25
   匹配主题：foundation_model_agent
   中文摘要：Protein-protein interactions (PPI) govern essential cellular processes, making the computational identification of interacting sites a central challenge in structural biology, with important implications for protein engi...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Deep learning model for predicting mRNA half-life based on 3'UTR sequences.](https://pubmed.ncbi.nlm.nih.gov/41932116/)
-  来源：PubMed | 日期：2026-06-04 | 相关度：6.45 | 新颖度：8.49
+- [SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology](https://www.biorxiv.org/content/10.64898/2026.05.30.728937v1)
+  来源：bioRxiv | 日期：2026-06-03 | 相关度：5.75 | 新颖度：6.75
   匹配主题：foundation_model_agent
-  中文摘要：mRNA stability, quantified by half-life, is central to gene expression homeostasis and post-transcriptional regulation. Predicting mRNA half-life from 3' untranslated region (3'UTR) sequences alone, however, remains chal...
+  中文摘要：Histomorphology and spatial transcriptomics capture complementary aspects of tissue biology, but their relationships remain difficult to extract, align, and interpret at scale. Existing foundation models typically connec...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-## 可追踪
-
-### Foundation Model / Agent
-
-- [Multi-Agent AI for Chest Radiography: A Sequential Segmentation and LLM-Driven Consultative Tool for Medical Training](https://www.medrxiv.org/content/10.64898/2026.05.29.26354432v1)
-  来源：medRxiv | 日期：2026-06-01 | 相关度：8.9 | 新颖度：1.2
-  匹配主题：foundation_model_agent
-  中文摘要：BackgroundTraditional diagnostic models lack explainability, while multimodal language models prone to hallucination remain unsafe for medical education. An interactive, risk-free artificial intelligence framework is req...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [SeGA-GNN: Semantically Gated Augmented Graph Neural Networks for Wearable-Based Emotion Detection](https://www.medrxiv.org/content/10.64898/2026.05.29.26354434v1)
-  来源：medRxiv | 日期：2026-06-01 | 相关度：6.8 | 新颖度：0.5
-  匹配主题：foundation_model_agent
-  中文摘要：BackgroundWearable technologies enable scalable and continuous monitoring of emotional states through passive sensing of physiological and behavioral signals. However, conventional learning approaches often struggle to m...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Med.ai ASK: an agentic system for biomedical question answering.](https://pubmed.ncbi.nlm.nih.gov/41911379/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：6.55 | 新颖度：1.5
-  匹配主题：foundation_model_agent
-  中文摘要：Intelligent agent-driven research co-pilots, leveraging advances in generative AI, are transforming how scientists access biomedical knowledge. This paper presents Med.ai ASK, an agentic question-answering system designe...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Agentic Authoring of OMOP Concept Sets from Natural Language](https://www.medrxiv.org/content/10.64898/2026.06.02.26354704v1)
-  来源：medRxiv | 日期：2026-06-03 | 相关度：6.15 | 新颖度：6.25
-  匹配主题：foundation_model_agent
-  中文摘要：Authoring OMOP concept sets from free-text descriptions remains a major bottleneck in scalable computable phenotyping for observational research. Existing tools support parts of this workflow but are designed primarily f...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Self-Reported Side Effects Among Reddit Users Taking Unapproved Retatrutide](https://www.medrxiv.org/content/10.64898/2026.05.28.26352819v1)
-  来源：medRxiv | 日期：2026-06-03 | 相关度：5.45 | 新颖度：5.5
-  匹配主题：foundation_model_agent
-  中文摘要：Gray-market retatrutide use is increasing, but patient safety experiences remain poorly characterized. This cross-sectional analysis examined Reddit posts and comments from retatrutide-specific and broader peptide or wei...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-### 数据集 / Benchmark
-
-- [Species- and Topic-aware Representation Learning for Antimicrobial Peptide Discovery](https://www.biorxiv.org/content/10.64898/2026.05.28.728246v1)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：6.45 | 新颖度：1.5
-  匹配主题：foundation_model_agent
-  中文摘要：Antimicrobial resistance poses a major global health challenge, necessitating efficient strategies to discover potent antimicrobial peptides (AMPs). While recent generative models can produce many candidate sequences, ex...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
-- [MeDiCNet: Integrating Multi-scale Dynamic Convolution and Enhanced Position-Aware Transformer for DNA Methylation Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42234354/)
-  来源：PubMed | 日期：2026-06-03 | 相关度：5.75 | 新颖度：6.25
-  匹配主题：foundation_model_agent
-  中文摘要：DNA methylation is a covalent modification of cytosine and adenine bases that regulates gene expression and underlies diverse biological processes and diseases. Existing computational methods often rely on fixed-scale fe...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
-### 方法创新
-
-- [MVFAN-Kcr: A Multi-View Feature Fusion and Attention-Based Network for Lysine Crotonylation Site Identification.](https://pubmed.ncbi.nlm.nih.gov/42234353/)
-  来源：PubMed | 日期：2026-06-03 | 相关度：5.75 | 新颖度：5.25
-  匹配主题：foundation_model_agent
-  中文摘要：Lysine crotonylation (Kcr), as an emerging post-translational modification, plays a crucial role in core life activities such as chromatin dynamics and gene expression. To address the current limitations of Kcr site dete...
+- [MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models](https://www.biorxiv.org/content/10.64898/2026.05.31.729117v1)
+  来源：bioRxiv | 日期：2026-06-03 | 相关度：5.55 | 新颖度：6.75
+  匹配主题：pathogenomics, sequencing_bioinformatics
+  中文摘要：Clinical variant interpretation requires mechanism-aware evidence to guide diagnosis and clarify the biological consequences of mutations. However, existing computational predictors and genomic foundation models largely ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ### 产品应用 / 监测落地
 
-- [Advances and challenges in the application of metagenomic sequencing for the diagnosis and treatment of infectious diseases: from pathogen spectrum identification to personalized antimicrobial strategies.](https://pubmed.ncbi.nlm.nih.gov/41764831/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：7.25 | 新颖度：0.75
-  匹配主题：pathogenomics, sequencing_bioinformatics, application_monitoring
-  中文摘要：Infectious diseases remain a major global public health concern, demanding rapid and accurate identification of pathogens. Although conventional diagnostic methods such as culture, PCR, and immunological assays are widel...
+- [Extracting Social Determinants of Health from Electronic Health Records: Development and Comparison of Rule-Based and Large Language Model Methods](https://www.medrxiv.org/content/10.1101/2025.11.15.25339520v3)
+  来源：medRxiv | 日期：2026-06-04 | 相关度：7.55 | 新颖度：1.0
+  匹配主题：foundation_model_agent
+  中文摘要：Background Social determinants of health (SDoH) are critical drivers of health outcomes but are often under-documented in structured electronic health record (EHR) data. Instead, SDoH are more commonly recorded in unstru...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [To RAG, or Not to RAG? A Comparative Evaluation of Retrieval-Augmented Generation for ICD Coding of German Tumor Diagnoses](https://www.medrxiv.org/content/10.64898/2026.05.27.26353695v1)
-  来源：medRxiv | 日期：2026-06-03 | 相关度：6.45 | 新颖度：6.0
+  来源：medRxiv | 日期：2026-06-03 | 相关度：6.45 | 新颖度：1.0
   匹配主题：foundation_model_agent
   中文摘要：Introduction Coding tumor diagnoses from free-text clinical documentation currently requires substantial manual effort. Promising approaches for automating this process include large language mod-els (LLMs), embedding mo...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
-- [Relationship Extraction for Adverse Drug Events in Clinical Notes Using Large Language Models](https://www.medrxiv.org/content/10.64898/2026.05.28.26354362v1)
-  来源：medRxiv | 日期：2026-06-01 | 相关度：6.45 | 新颖度：1.0
-  匹配主题：foundation_model_agent
-  中文摘要：Background: Adverse drug events (ADEs) are a critical indicator of patient safety but are often documented only in free-text clinical notes. The potential of recent advances in natural language processing (NLP), particul...
-  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [Leveraging Digitization, Archiving and Artificial Intelligence to Re-examine Predictors of Sustained Mental Health Care Engagement in Ugandan First-Episode Psychosis Patients: A Study Protocol](https://www.medrxiv.org/content/10.64898/2026.06.02.26354672v1)
-  来源：medRxiv | 日期：2026-06-03 | 相关度：5.75 | 新颖度：5.75
-  匹配主题：foundation_model_agent
-  中文摘要：Background: We previously examined the burden and predictors of sustained mental health care engagement in Ugandan first episode psychosis patients by retrospective chart review methods. However, the extensive requiremen...
+- [KESOZI Digital Twin: Physics-Informed Neural Network for Independent Estimation and Prediction of Childhood Diarrheal Disease Burden in Kenya, Somaliland, and Zimbabwe](https://www.medrxiv.org/content/10.64898/2026.06.03.26354823v1)
+  来源：medRxiv | 日期：2026-06-04 | 相关度：5.8 | 新颖度：5.75
+  匹配主题：pathogenomics, foundation_model_agent, application_monitoring
+  中文摘要：Childhood diarrheal disease remains a leading cause of morbidity and mortality among children under five years in sub-Saharan Africa, particularly in settings affected by inadequate sanitation, climate variability, malnu...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 ## 低优先级
 
 ### Foundation Model / Agent
 
-- [Algorithmic Versus Expert Rankings of Large Language Models in Peritoneal Dialysis Prescription Review: A Trap-Embedded Synthetic Benchmark](https://www.medrxiv.org/content/10.64898/2026.05.28.26354383v1)
-  来源：medRxiv | 日期：2026-06-01 | 相关度：5.75 | 新颖度：0.75
+- [Agentic Authoring of OMOP Concept Sets from Natural Language](https://www.medrxiv.org/content/10.64898/2026.06.02.26354704v1)
+  来源：medRxiv | 日期：2026-06-03 | 相关度：6.15 | 新颖度：1.25
   匹配主题：foundation_model_agent
-  中文摘要：BackgroundClinical LLM benchmarks rarely test whether algorithmic rankings agree with expert clinical judgment. We developed a trap-embedded peritoneal dialysis (PD) benchmark comparing multiple scoring constructs with b...
+  中文摘要：Authoring OMOP concept sets from free-text descriptions remains a major bottleneck in scalable computable phenotyping for observational research. Existing tools support parts of this workflow but are designed primarily f...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Reproducible and shareable bioinformatics pipelines from natural-language prompts](https://www.biorxiv.org/content/10.64898/2026.05.28.719125v1)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：4.75 | 新颖度：0.25
+- [Self-Reported Side Effects Among Reddit Users Taking Unapproved Retatrutide](https://www.medrxiv.org/content/10.64898/2026.05.28.26352819v1)
+  来源：medRxiv | 日期：2026-06-03 | 相关度：5.45 | 新颖度：0.5
   匹配主题：foundation_model_agent
-  中文摘要：Large language models (LLMs) are increasingly used to generate bioinformatics pipelines and to carry out analyses from natural-language prompts. However, the resulting analyses are often difficult to reproduce across ses...
+  中文摘要：Gray-market retatrutide use is increasing, but patient safety experiences remain poorly characterized. This cross-sectional analysis examined Reddit posts and comments from retatrutide-specific and broader peptide or wei...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [OmniCellAgent: An AI Scientist for Omic-Driven Scientific Discovery](https://www.biorxiv.org/content/10.1101/2025.07.31.667797v3)
+  来源：bioRxiv | 日期：2026-06-02 | 相关度：1.4 | 新颖度：1.0
+  匹配主题：未命中具体主题
+  中文摘要：In biomedical scientific discovery, identifying relevant omics datasets and interpreting analysis results using prior knowledge from databases and literature are essential for generating novel hypotheses. Although recent...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 数据集 / Benchmark
 
+- [MeDiCNet: Integrating Multi-scale Dynamic Convolution and Enhanced Position-Aware Transformer for DNA Methylation Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42234354/)
+  来源：PubMed | 日期：2026-06-03 | 相关度：5.75 | 新颖度：1.25
+  匹配主题：foundation_model_agent
+  中文摘要：DNA methylation is a covalent modification of cytosine and adenine bases that regulates gene expression and underlies diverse biological processes and diseases. Existing computational methods often rely on fixed-scale fe...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Equitable Health Intelligence: An Open Benchmark of Multi-Population Machine Learning for Omics-Based Cancer Prognosis](https://www.biorxiv.org/content/10.64898/2026.05.29.728755v1)
+  来源：bioRxiv | 日期：2026-06-02 | 相关度：1.7 | 新颖度：5.75
+  匹配主题：未命中具体主题
+  中文摘要：Purpose: Machine learning (ML) models for omics-based cancer prognosis are often trained on data from predominantly European-ancestry populations, producing biased predictions for other populations and undermining equita...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
 - [An extensible laboratory information management system for data harmonization across research centers: The ICTS-Dashboard](https://www.medrxiv.org/content/10.64898/2026.05.31.26354439v1)
   来源：medRxiv | 日期：2026-06-02 | 相关度：1.7 | 新颖度：0.25
   匹配主题：未命中具体主题
-  中文摘要：Background: Collaborative research programs increasingly require infrastructure capable of integrating heterogeneous participant, sample, and experimental data while meeting evolving research needs. Existing tools, inclu...
+  中文摘要：Abstract/SummaryO_ST_ABSBackgroundC_ST_ABSCollaborative research programs increasingly require infrastructure capable of integrating heterogeneous participant, sample, and experimental data while meeting evolving researc...
   为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
-- [Evolutionary constraints improve protein large language model predictions for protein stability, binding regions and epistasis](https://www.biorxiv.org/content/10.64898/2026.05.22.726784v2)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：6.45 | 新颖度：0.5
-  匹配主题：foundation_model_agent
-  中文摘要：Our understanding of protein function and evolution is largely based on the relationship between amino acid sequence and overall fold, now effectively captured by computational models. Yet predicting how mutations--shape...
+- [MARRVEL-MCP: An agentic interface for Mendelian disease discovery via tool-augmented context engineering.](https://pubmed.ncbi.nlm.nih.gov/42167217/)
+  来源：PubMed | 日期：2026-06-04 | 相关度：6.75 | 新颖度：0.25
+  匹配主题：pathogenomics, foundation_model_agent
+  中文摘要：Variant interpretation in rare diseases requires navigating multiple genomic databases, each with strict input formats, while synthesizing heterogeneous evidence. This process creates significant barriers for non-experts...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Integrating protein and DNA embeddings for improving genome-wide transcription factor binding site prediction.](https://pubmed.ncbi.nlm.nih.gov/42099803/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：5.75 | 新颖度：0.25
+- [Deep learning model for predicting mRNA half-life based on 3'UTR sequences.](https://pubmed.ncbi.nlm.nih.gov/41932116/)
+  来源：PubMed | 日期：2026-06-04 | 相关度：6.45 | 新颖度：0.5
   匹配主题：foundation_model_agent
-  中文摘要：Transcription factors (TFs) regulate gene expression by binding to specific DNA sites on genome, making accurate TF binding site prediction critical for understanding gene regulation and downstream phenotypes. Almost all...
+  中文摘要：mRNA stability, quantified by half-life, is central to gene expression homeostasis and post-transcriptional regulation. Predicting mRNA half-life from 3' untranslated region (3'UTR) sequences alone, however, remains chal...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [MVFAN-Kcr: A Multi-View Feature Fusion and Attention-Based Network for Lysine Crotonylation Site Identification.](https://pubmed.ncbi.nlm.nih.gov/42234353/)
+  来源：PubMed | 日期：2026-06-03 | 相关度：5.75 | 新颖度：0.25
+  匹配主题：foundation_model_agent
+  中文摘要：Lysine crotonylation (Kcr), as an emerging post-translational modification, plays a crucial role in core life activities such as chromatin dynamics and gene expression. To address the current limitations of Kcr site dete...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [The AFRIDIARRHEA multimodal fusion framework for Estimating the Burden of Diarrheal Diseases Among Children Under Five in Kenya, Zimbabwe, and Somaliland](https://www.medrxiv.org/content/10.64898/2026.06.01.26354632v1)
@@ -155,72 +127,36 @@
   中文摘要：Background: Accurate estimation of childhood diarrheal disease burden in Africa remains challenging because of limited surveillance, incomplete mortality data, pathogen-attribution uncertainty, and complex environmental ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Big data in multiple sclerosis.](https://pubmed.ncbi.nlm.nih.gov/41925198/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：3.05 | 新颖度：0.25
-  匹配主题：foundation_model_agent
-  中文摘要：This review summarizes recent key advancements in multiple sclerosis (MS) achieved through the utilization of big data from diverse sources and advanced analytical techniques. Real-world evidence (RWE) derived from MS bi...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
 - [Network Methods for Diagonal Integration of Unpaired Single-Cell Multi-Omics Data: A Review.](https://pubmed.ncbi.nlm.nih.gov/42234838/)
-  来源：PubMed | 日期：2026-06-02 | 相关度：2.4 | 新颖度：7.0
+  来源：PubMed | 日期：2026-06-02 | 相关度：2.4 | 新颖度：2.0
   匹配主题：未命中具体主题
   中文摘要：Advances in single-cell sequencing have enabled multi-omics profiling at unprecedented resolution; however, mass spectrometry-based single-cell proteomics (scMS) remains inherently destructive, precluding simultaneous tr...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [GeneKnow: AI-powered literature synthesis for gene-context analysis](https://www.biorxiv.org/content/10.64898/2026.05.28.728511v1)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：2.4 | 新颖度：1.0
+- [Hierarchical refinements of cis-regulatory inputs improve scalable gene expression prediction](https://www.biorxiv.org/content/10.64898/2026.05.31.729151v1)
+  来源：bioRxiv | 日期：2026-06-02 | 相关度：1.7 | 新颖度：5.75
   匹配主题：未命中具体主题
-  中文摘要：Interpreting gene function in specific biological contexts is essential for biomedical research, yet manual literature review is labor-intensive. We developed GeneKnow, a source-grounded framework that uses generative AI...
+  中文摘要：Deciphering the relationships between cis-regulatory elements (CREs) and target gene expression has long been a challenging problem in molecular biology. However, predicting gene expression from hundreds of candidate cis...
+  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Seeing is making: AI visualisation and genomic prediction.](https://pubmed.ncbi.nlm.nih.gov/42242919/)
+  来源：PubMed | 日期：2026-06-04 | 相关度：1.7 | 新颖度：5.25
+  匹配主题：未命中具体主题
+  中文摘要：The integration of artificial intelligence (AI) into genomics is reshaping not only how biological data are analysed, but how genomic knowledge is produced and operationalised in clinical practice. Earlier computational ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Vermeer: Autoregressive generative modeling of microscopy predicts protein localization](https://www.biorxiv.org/content/10.64898/2026.06.01.729395v1)
-  来源：bioRxiv | 日期：2026-06-02 | 相关度：1.7 | 新颖度：6.25
+  来源：bioRxiv | 日期：2026-06-02 | 相关度：1.7 | 新颖度：1.25
   匹配主题：未命中具体主题
   中文摘要：Fluorescent microscopy provides a rich view into how proteins localize within cells, but it remains experimentally infeasible to image human proteins across all of the different factors that can impact localization. We i...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [AI-Guided Structure-Aware Modeling and Thermal Proteomics Reveal Direct Demethylzeylasteral-ACLY Interaction](https://www.biorxiv.org/content/10.64898/2026.04.07.717093v2)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：1.7 | 新颖度：1.25
-  匹配主题：未命中具体主题
-  中文摘要：Identifying the direct molecular targets of bioactive natural products remains a central challenge in chemical biology. Here we present an integrated experimental-computational framework, that combines matrix-augmented t...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Field-ready portable rapid nucleic acid test for tuberculosis detection and drug-resistance profiling in resource-limited settings](https://www.medrxiv.org/content/10.64898/2026.05.29.26354438v1)
-  来源：medRxiv | 日期：2026-06-01 | 相关度：1.7 | 新颖度：0.75
-  匹配主题：未命中具体主题
-  中文摘要：Tuberculosis (TB) remains one of the worlds deadliest infectious diseases, with over a million deaths annually and a growing threat from multidrug-resistant strains (MDR-TB). A major bottleneck in controlling TB is the l...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Thermoregulation and associated disorders: 3PM-guided holistic approach bridging innovative and traditional Chinese medicine.](https://pubmed.ncbi.nlm.nih.gov/42179458/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：1.7 | 新颖度：0.25
-  匹配主题：未命中具体主题
-  中文摘要：Accurately performed thermoregulation is life-important for the human body. Therefore, a relatively narrow temperature range of 36.5-37 °C, which all our biochemical reactions are adapted to, is rigorously kept by the bo...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
 ### 产品应用 / 监测落地
 
-- [Artificial intelligence in combating challenges in antimicrobial resistance: a narrative review.](https://pubmed.ncbi.nlm.nih.gov/41859321/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：6.15 | 新颖度：0.75
-  匹配主题：pathogenomics, sequencing_bioinformatics, application_monitoring
-  中文摘要：Antimicrobial resistance (AMR) is a major global health challenge that threatens the effective prevention and treatment of infections. It arises from increasing resistance rates, limited diagnostic capacity, inappropriat...
-  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [From risk to resilience: A narrative review on strengthening veterinary clinical biosecurity to prevent healthcare-associated infections.](https://pubmed.ncbi.nlm.nih.gov/42025907/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：4.45 | 新颖度：0.25
-  匹配主题：pathogenomics, application_monitoring
-  中文摘要：Veterinary clinical biosecurity is key to preventing infectious diseases in animal clinics, particularly when there is high patient turnover, a mix of species, close contact among animals, or immunocompromised patients t...
-  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [A Foundation Model for the Cancer Genome](https://www.biorxiv.org/content/10.64898/2026.05.27.728319v1)
-  来源：bioRxiv | 日期：2026-06-01 | 相关度：4.35 | 新颖度：0.75
-  匹配主题：sequencing_bioinformatics, application_monitoring
-  中文摘要：AO_SCPLOWBSTRACTC_SCPLOWCancer is a disease of the genome, in which somatic mutations and copy-number alterations determine tumour identity, clinical behaviour, and response to therapy. Consortium-scale sequencing has pr...
-  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-- [Artificial Intelligence in Oncology: Clinical Applications, Challenges, and Opportunities.](https://pubmed.ncbi.nlm.nih.gov/42214043/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：3.75 | 新颖度：1.0
+- [Leveraging Digitization, Archiving and Artificial Intelligence to Re-examine Predictors of Sustained Mental Health Care Engagement in Ugandan First-Episode Psychosis Patients: A Study Protocol](https://www.medrxiv.org/content/10.64898/2026.06.02.26354672v1)
+  来源：medRxiv | 日期：2026-06-03 | 相关度：5.75 | 新颖度：0.75
   匹配主题：foundation_model_agent
-  中文摘要：Artificial intelligence (AI) is reshaping cancer research and clinical oncology by enabling large-scale analysis of complex biomedical data. Although early AI efforts focused on single-modality tasks such as imaging inte...
+  中文摘要：Background: We previously examined the burden and predictors of sustained mental health care engagement in Ugandan first episode psychosis patients by retrospective chart review methods. However, the extensive requiremen...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [A Three-Item Functional Screen for Multimodal Prognostic Triage in Mild Cognitive Impairment: Benchmarking Against Entorhinal Tau PET and Plasma p-tau217](https://www.medrxiv.org/content/10.64898/2026.06.01.26354584v1)
@@ -235,16 +171,8 @@
   中文摘要：Thyroid cancer, the fastest-growing endocrine malignancy, is shifting from morphological evaluation to molecular-functional imaging. This review systematically evaluates the translational value of multimodal ultrasound t...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
-- [Integrating multi-omics data and artificial intelligence for personalized medicine in glioblastoma.](https://pubmed.ncbi.nlm.nih.gov/41921727/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：1.7 | 新颖度：0.25
+- [Tuberculosis in households with infectious cases in Kampala city: Harnessing health data science for new insights on an ancient disease with persistent, unresolved problems.](https://pubmed.ncbi.nlm.nih.gov/42241447/)
+  来源：PubMed | 日期：2026-01-01 | 相关度：1.7 | 新颖度：5.25
   匹配主题：未命中具体主题
-  中文摘要：Glioblastoma (GBM) is one of the most lethal primary brain tumors and is characterized by profound molecular heterogeneity, rapid progression, and limited therapeutic responsiveness. Traditional diagnostic and treatment ...
+  中文摘要：Tuberculosis (TB) is prevalent in Uganda and overlaps with a high rate of HIV/TB coinfection. While nearly all hospital-based TB cases in Kampala, the capital of Uganda, show clear TB symptoms, 30% or more of undiagnosed...
   为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
-### 其他
-
-- [Advanced biosensing strategies for high-risk foodborne pathogens: a comprehensive review of Salmonella and Listeria monocytogenes .](https://pubmed.ncbi.nlm.nih.gov/42232065/)
-  来源：PubMed | 日期：2026-06-01 | 相关度：1.7 | 新颖度：5.25
-  匹配主题：未命中具体主题
-  中文摘要：The goal of this review is to comprehensively analyse advances in biosensors specifically for Listeria monocytogenes and Salmonella spp., two of the leading causes of foodborne illness and mortality worldwide. Unlike pre...
-  为什么值得看：Advanced biosensing strategies for high- 与你的主题有弱匹配，暂时保留作低优先级跟踪。
