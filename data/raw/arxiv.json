@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-12T05:58:09.648769+00:00",
+  "fetched_at": "2026-06-13T05:43:14.542929+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 60,
+  "count": 52,
   "papers": [
     {
       "title": "Under What Conditions Can a Machine Become Genuinely Creative?",
@@ -95,50 +95,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.11846v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Collaborative estimation and evaluation of SARS-CoV-2 variant nowcasting in the United States",
-      "source": "arXiv",
-      "date": "2026-06-05T10:41:24+00:00",
-      "updated": "2026-06-09T09:00:36+00:00",
-      "url": "http://arxiv.org/abs/2606.07129v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.07129v2",
-      "abstract": "The ability to estimate and predict pathogen variant dynamics can inform public health responses, including planning for increased transmission or severity, shifts in population immunity, or changes to vaccine or therapeutic effectiveness. The COVID-19 pandemic demonstrated the importance of monitoring SARS-CoV-2 variant evolution through viral genome sequencing, enabling predictive models to estimate variant frequencies in the recent past, present, and short-term future. Collaborative forecasting Hubs provided a valuable way to centralize predictive modeling of epidemiological indicators such as cases, hospitalizations, and deaths during the pandemic; however, none existed for variant dynamics. Here, we discuss the creation of the United States SARS-CoV-2 Variant Nowcast Hub, designed to solicit estimates of the relative abundance of a specified set of SARS-CoV-2 variants at the U.S. state level. We discuss the design decisions and challenges in building the Hub and its scoring procedures. Using submissions from the Hub's first respiratory virus season (nowcast dates October 9th, 2024 to June 4th, 2025), we evaluate five individual models and a baseline model. We found that the baseline model, which pools sequences across the U.S., performs well overall, with most individual models performing similarly or slightly worse. Locations with lower sequencing volumes exhibited greater variability in model performance. Models submitted for a single location outperformed those submitted for all locations, potentially due to greater timeliness and magnitude of local data. Much remains to be investigated regarding relative model performance across different phases of variant emergence, and we conclude by proposing future directions within and beyond this Hub.",
-      "authors": [
-        "Isaac MacArthur",
-        "Thomas Robacker",
-        "Bren Case",
-        "Spencer J. Fox",
-        "Dylan H. Morris",
-        "Evan L. Ray",
-        "Benjamin Rogers",
-        "Becky Sweger",
-        "Natalie M. Linton",
-        "John Huddleston",
-        "Andrew Magee",
-        "Zachary Susswein",
-        "Jover Lee",
-        "Trevor Bedford",
-        "Marlin D. Figgins",
-        "Ehsan Suez",
-        "Rajath Prabhakar",
-        "Tomas Leon",
-        "Brent Siegel",
-        "Mugdha Thakur",
-        "Christopher M. Hoover",
-        "Rahil Ryder",
-        "Jesse Elder",
-        "Michael Kupperman",
-        "Ruian Ke",
-        "Emma Goldberg",
-        "Sebastian Funk",
-        "Maryclare Griffin",
-        "Nicholas G. Reich",
-        "Kaitlyn E. Johnson"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.07129v2",
       "pubmed_id": ""
     },
     {
@@ -336,107 +292,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
-      "source": "arXiv",
-      "date": "2026-05-28T16:27:40+00:00",
-      "updated": "2026-06-10T02:02:36+00:00",
-      "url": "http://arxiv.org/abs/2606.07591v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.07591v2",
-      "abstract": "AI coding agents are increasingly used for scientific work, but their end-to-end autonomous research capability remains difficult to verify. We present ResearchClawBench, a benchmark for evaluating autonomous scientific research across 40 tasks from 10 scientific domains. Each task is grounded in a real published paper, provides related literature and raw data, and hides the target paper during evaluation. Expert-curated multimodal rubrics decompose the target scientific artifacts into weighted criteria, enabling evaluation of target-paper-level re-discovery while leaving room for new discovery. We evaluate seven autonomous research (auto-research) agents under a unified protocol and seventeen native LLMs through the lightweight ResearchHarness. Current systems remain far from reliable re-discovery: the strongest autonomous agent, Claude Code, averages 21.5, and the strongest ResearchHarness LLM, Claude-Opus-4.7, averages 20.7, with an LLM frontier mean of only 26.5. Error analysis shows that failures concentrate in experimental protocol mismatch, evidence mismatch, and missing scientific core. ResearchClawBench provides a reproducible evaluation frontier for measuring progress toward autonomous scientific research.",
-      "authors": [
-        "Wanghan Xu",
-        "Shuo Li",
-        "Tianlin Ye",
-        "Qinglong Cao",
-        "Yixin Chen",
-        "Hengjian Gao",
-        "Yiheng Wang",
-        "Qi Li",
-        "Kun Li",
-        "Sheng Xu",
-        "Shengdu Chai",
-        "Fangchen Yu",
-        "Xiangyu Zhao",
-        "Zhangrui Zhao",
-        "Weijie Ma",
-        "Zijie Guo",
-        "Haoyu Zhou",
-        "Haoxiang Yin",
-        "Lixue Cheng",
-        "Chaofan Hu",
-        "Haoxuan Li",
-        "Lu Mi",
-        "Xuxuan Xie",
-        "Yifan Zhou",
-        "Ruizhe Chen",
-        "Zhiwang Zhou",
-        "Xingjian Guo",
-        "Yuhao Zhou",
-        "Xuming He",
-        "Shengyuan Xu",
-        "Xinyu Gu",
-        "Jiamin Wu",
-        "Mianxin Liu",
-        "Chunfeng Song",
-        "Fenghua Ling",
-        "Dongzhan Zhou",
-        "Shixiang Tang",
-        "Yuqiang Li",
-        "Mao Su",
-        "Peng Ye",
-        "Siqi Sun",
-        "Bin Wang",
-        "Xue Yang",
-        "Zhenfei Yin",
-        "Tianfan Fu",
-        "Guangtao Zhai",
-        "Wanli Ouyang",
-        "Bo Zhang",
-        "Lei Bai",
-        "Wenlong Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.07591v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "MPC-Patch-Bench: Security-Aware LLM Code Patch for Multi-Party Computation",
-      "source": "arXiv",
-      "date": "2026-06-09T20:06:29+00:00",
-      "updated": "2026-06-09T20:06:29+00:00",
-      "url": "http://arxiv.org/abs/2606.11416v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11416v1",
-      "abstract": "Repository-level benchmarks for evaluating Large Language Model (LLM) code repair on Secure Multi-Party Computation (MPC) software do not yet exist, and directly transplanting general-purpose benchmarks such as SWE-bench fails on three structural fronts: (i) MPC repositories are dominated by generic Python infrastructure rather than cryptographic logic; (ii) high-value MPC fixes lack the standardized tests rigid extraction pipelines require; and (iii) standard fail-to-pass evaluation is insufficient for code that must also be cryptographically safe. MPC is increasingly deployed for privacy-preserving machine learning, biomedical collaboration, and secure analytics. Existing MPC-specific code-synthesis efforts cover only operator-level or single-framework tasks; evaluating LLM agents on real repository-level MPC repair instead demands MPC-aware data curation and a verifier matched to the security and numerical-fidelity guarantees MPC programs must obey neither of which existing benchmarks provide. We introduce MPC-Patch-Bench, a repository-level benchmark organised around two frameworks. (1)The Data Curation Framework combines a domain-specific curation agent that filters raw pull requests through three cryptographic layers with a human-AI completion engine that synthesizes missing problem statements and Fail-to-Pass/Pass-to-Pass tests, yielding 205 fully verified instances. (2)The MPC Verifier provides dedicated security and numerical-fidelity checks via dynamic differential testing against plaintext oracles and MPC-specific static analysis rules that flag unsafe reveals, insecure arithmetic, and illegal public/private casts. The strongest evaluated LLM functionally resolves only 22.9% of MPC-Patch-Bench tasks; the MPC Verifier further reduces verified resolution to 17.1%, with up to 40% of functionally-passing patches rejected for cryptographic or numerical-fidelity violations.",
-      "authors": [
-        "Yukuan Zhang",
-        "Mengxin Zheng",
-        "Qian Lou"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.11416v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
-      "source": "arXiv",
-      "date": "2026-06-09T17:35:37+00:00",
-      "updated": "2026-06-09T17:35:37+00:00",
-      "url": "http://arxiv.org/abs/2606.11150v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11150v1",
-      "abstract": "Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. Increasingly, LLM agents can also perform in silico biology tasks that previously required experienced human biologists. These emerging AI capabilities offer new opportunities for scientific discovery and biomedical advances, but they also shift the landscape of biosecurity risks. To address this, we introduce the Agentic Bio-Capabilities Benchmark (ABC-Bench), a suite of tasks to measure agentic biosecurity-relevant capabilities. ABC-Bench evaluates LLM agents on both benign and dual-use biology tasks: writing code to operate liquid handling robots, designing DNA fragments for in vitro assembly, and evading DNA synthesis screening. These tasks require a combination of biology and software expertise. All tested LLM agents outperformed the median expert human baseliner on all three tasks. Agents performed highly on tasks drawing on published knowledge and well-documented protocols, and more weakly on a task requiring novel bioinformatics reasoning. In three wet-lab validation experiments, we found that OpenAI's o4-mini-high produced scripts that, when run on an OpenTrons liquid handling robot, successfully assembled DNA with expected sequences.",
-      "authors": [
-        "Andrew Bo Liu",
-        "Samira Nedungadi",
-        "Bryce Cai",
-        "Alex Kleinman",
-        "Harmon Bhasin",
-        "Seth Donoughe"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.11150v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Contextual Invertible World Models: A Neuro-Symbolic Agentic Framework for Colorectal Cancer Drug Response",
       "source": "arXiv",
       "date": "2026-03-01T16:15:58+00:00",
@@ -452,42 +307,6 @@
       ],
       "doi": "",
       "arxiv_id": "2603.02274v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "OncoTraj: a public benchmark for longitudinal resistance prediction in EGFR-mutant non-small-cell lung cancer on osimertinib",
-      "source": "arXiv",
-      "date": "2026-06-09T17:33:24+00:00",
-      "updated": "2026-06-09T17:33:24+00:00",
-      "url": "http://arxiv.org/abs/2606.11144v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11144v1",
-      "abstract": "Resistance to first-line osimertinib in EGFR-mutant non-small-cell lung cancer (NSCLC) is the canonical example of predictable clonal evolution under therapeutic pressure, yet no public benchmark exists for training or evaluating computational models on the corresponding longitudinal patient trajectories. We introduce OncoTraj, a public benchmark of 813 EGFR-mutant NSCLC patients receiving first-line osimertinib, harmonized from three real-world clinical-genomic sources: MSK-CHORD (672 patients), AACR Project GENIE BPC NSCLC (34 patients), and the FLAURA molecular-resistance supplement (107 patients). OncoTraj defines three locked tasks: (A) binary classification of progression by a fixed 12-month landmark, (B) regression of time-to-first-progression in days, and (C) six-class classification of the dominant resistance mechanism. We release the harmonized dataset, patient-level train/validation/test splits with an audited no-leakage guarantee, an open-source evaluation harness, and six reference baselines spanning a majority-class predictor, logistic regression, random forest, XGBoost, an LSTM, and a multi-task transformer. With v1's single-timepoint snapshot features, no task clears chance on clean within-source evaluation: the uniformity of this ceiling across every model class localizes the limit to the input modality (single-snapshot tissue NGS rather than serial ctDNA), not the algorithm. The benchmark does recover a reproducible literature-consistent association: TP53 co-mutation raises the 12-month progression rate from 29% to 59% cohort-wide. OncoTraj establishes a reproducible, leakage-audited baseline and converts the modality limit into concrete design requirements for a serial-ctDNA-enriched v2.",
-      "authors": [
-        "Abhijoy Sarkar",
-        "Aarchi Singh Thakur"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.11144v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Efficient Imputation for Patch-based Missing Single-cell Data via Cluster-regularized Optimal Transport",
-      "source": "arXiv",
-      "date": "2026-01-21T04:58:13+00:00",
-      "updated": "2026-06-09T15:29:22+00:00",
-      "url": "http://arxiv.org/abs/2601.14653v3",
-      "pdf_url": "https://arxiv.org/pdf/2601.14653v3",
-      "abstract": "Missing data in single-cell sequencing datasets poses significant challenges for extracting meaningful biological insights. However, existing imputation approaches, which often assume uniformity and data completeness, struggle to address cases with large patches of missing data. In this paper, we present CROT (Cluster-Regularized Optimal Transport), an optimal transport-based imputation algorithm designed to handle patch-based missing data in tabular formats. Our approach effectively captures the underlying data structure in the presence of significant missingness. Notably, it achieves superior imputation accuracy while significantly reducing runtime, demonstrating its scalability and efficiency for large-scale datasets. This work introduces a robust solution for imputation in heterogeneous, high-dimensional datasets with structured data absence, addressing critical challenges in both biological and clinical data analysis. Our code is available on GitHub, https://github.com/yuyuliu11037/CROT.",
-      "authors": [
-        "Yuyu Liu",
-        "Jiannan Yang",
-        "Ziyang Yu",
-        "Weishen Pan",
-        "Fei Wang",
-        "Tengfei Ma"
-      ],
-      "doi": "",
-      "arxiv_id": "2601.14653v3",
       "pubmed_id": ""
     },
     {
@@ -624,43 +443,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.11833v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Flexible Kernels for Protein Property Prediction",
-      "source": "arXiv",
-      "date": "2026-06-09T16:20:36+00:00",
-      "updated": "2026-06-09T16:20:36+00:00",
-      "url": "http://arxiv.org/abs/2606.11057v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.11057v1",
-      "abstract": "Despite its importance to applications in protein design, predicting protein properties like binding affinity and thermostability from sparse experimental data remains a significant challenge. Accordingly, we introduce a class of sequence kernels that exploit evolutionary substitution matrices as well as local linearity and demonstrate that the resulting Gaussian processes provide data-efficient models of protein property landscapes, frequently outperforming alternatives that rely on foundation model embeddings. Furthermore--by learning what are in effect structure-aware substitution matrices--we show that our kernels can readily incorporate structural information from foundation models. We demonstrate that these structure-conditioned kernels are well suited to multi-task learning across multiple protein property landscapes and can decisively outperform local supervised learning methods.",
-      "authors": [
-        "Martin Jankowiak",
-        "Yerdos Ordabayev",
-        "Rudraksh Tuwani",
-        "Henry N. Ward",
-        "Hunter Nisonoff",
-        "James M. McFarland",
-        "Gevorg Grigoryan"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.11057v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AgentPLM: Agentic Protein Language Models with Reasoning-Augmented Decoding for Protein Sequence Design",
-      "source": "arXiv",
-      "date": "2026-06-01T15:35:02+00:00",
-      "updated": "2026-06-09T09:11:47+00:00",
-      "url": "http://arxiv.org/abs/2606.02386v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.02386v2",
-      "abstract": "Protein language models (PLMs) are passive oracles: they generate sequences in a single forward pass with no mechanism to consult external biophysical feedback or redirect generation when a candidate violates thermodynamic or structural constraints. We introduce AgentPLM, which addresses this by equipping a pre-trained PLM with i) Reasoning-Augmented Decoding (RAD), which interleaves autoregressive generation with tool calls (ESMFold, FoldX, AutoDock Vina), and ii) Contrastive Agent Policy Optimisation (CAPO), a trajectory-level extension of direct preference optimisation that trains the policy end-to-end to learn when oracle feedback is informative rather than merely imitating high-fitness sequences. We evaluate AgentPLM on benchmark tasks spanning de novo enzyme design, antibody optimisation, thermostability, PPI interface design, and zero-shot fitness prediction with standardised oracle APIs and controlled sequence-identity splits. AgentPLM achieves state-of-the-art results with a gain in antibody top-10% hit rate over the strongest passive baseline, providing mechanistic evidence of online error correction without explicit backtracking.",
-      "authors": [
-        "Sahil Rahman",
-        "Maxx Richard Rahman"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.02386v2",
       "pubmed_id": ""
     },
     {
@@ -1281,7 +1063,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 60,
+      "count": 52,
       "error": ""
     }
   ]
