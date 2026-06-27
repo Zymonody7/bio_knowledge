@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-26T05:18:54.175635+00:00",
+  "fetched_at": "2026-06-27T05:01:19.415613+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 59,
+  "count": 41,
   "papers": [
     {
       "title": "Sensitivity of evolutionary entropy in Lefkovitch matrices",
@@ -16,66 +16,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.26170v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Benchmarking Vision-Language Models for Microscopic Plant Image Understanding",
-      "source": "arXiv",
-      "date": "2026-06-21T13:39:23+00:00",
-      "updated": "2026-06-24T04:57:25+00:00",
-      "url": "http://arxiv.org/abs/2606.22497v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.22497v2",
-      "abstract": "Microscopic imaging provides essential visual evidence for studying plant biology and pathology at the cellular and subcellular levels. However, existing benchmarks on vision-language models primarily focus on macroscopic plant imagery, while the microscopic domain remains underexplored. To address this gap, we present PlantMicro, a comprehensive benchmark for evaluating vision-language models (VLMs) in microscopic plant imagery. PlantMicro integrates more than 5,000 images collected across diverse hosts, biological domains, and imaging modalities. Building on this diversity, we design a set of complementary tasks that capture different facets of microscopic image understanding. To support these tasks, we construct over 9,000 VQA pairs that systematically evaluate the capabilities of VLMs. Experiments on PlantMicro show that current VLMs struggle with fine-grained recognition and biologically grounded reasoning. For example, GPT-5 achieves 34.93% accuracy on the pathogen classification task, which is only modestly above the random-guessing baseline. The results highlight a significant gap in current VLMs' ability to comprehend plant microscopic images. PlantMicro provides a standardized foundation for advancing VLMs toward reliable and comprehensive microscopy-level plant understanding.",
-      "authors": [
-        "Tianqi Wei",
-        "Xin Yu",
-        "Zhi Chen",
-        "Scott Chapman",
-        "Zi Huang"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.22497v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Are Tabular Foundation Models Robust to Realistic Query Distribution Shifts in Microbiome Data?",
-      "source": "arXiv",
-      "date": "2026-06-23T15:52:35+00:00",
-      "updated": "2026-06-23T15:52:35+00:00",
-      "url": "http://arxiv.org/abs/2606.24995v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24995v1",
-      "abstract": "Tabular foundation models (TFMs) achieve strong performance on microbiome abundance data, yet their robustness under realistic distribution shift remains poorly characterized. We introduce a benchmark that evaluates the robustness of TFMs to biologically inspired perturbations across six gut microbiome datasets spanning four disease contexts. In this in-context learning setting, models receive unperturbed support sets as context and are evaluated on perturbed query samples. To isolate robustness beyond \"shortcut\" features, we preserve the most discriminative taxa and apply three controlled perturbation strategies: (i) removal of high-abundance (uninformative) taxa, (ii) sparsification via increased zero-inflation, and (iii) zero-imputation via spurious non-zero injections. Our results show that protecting discriminative features is insufficient to guarantee stability under support-query shift: across datasets, all perturbations degrade model performance, with zero-imputation consistently the most harmful, indicating that corrupting global feature structure can break generalization even when key taxa are retained. Sparsification disproportionately affects TFMs relative to a classical random forest baseline, suggesting greater sensitivity to zero-inflation-type shifts. The code is publicly available at: https://github.com/UMMISCO/metagenomics-fm/.",
-      "authors": [
-        "Giulia Perciballi",
-        "Ahmad Fall",
-        "Federica Granese",
-        "Edi Prifti",
-        "Jean-Daniel Zucker"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.24995v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Do Foundation Models See Biology? Evaluating Attention Coherence with Spatial Transcriptomics in Glioblastoma",
-      "source": "arXiv",
-      "date": "2026-06-03T11:49:31+00:00",
-      "updated": "2026-06-23T12:31:58+00:00",
-      "url": "http://arxiv.org/abs/2606.04764v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.04764v2",
-      "abstract": "Whether attention maps from pathology foundation models capture genuine biology remains unknown, yet this question is critical for clinical trust and regulatory approval. We propose a spatial transcriptomics-based framework for orthogonal, hypothesis-free evaluation of attention and apply it to five pathology foundation models (CONCH v1.5, UNI v2, Virchow2, GigaPath, H-Optimus-1) and a ResNet50 baseline. Using attention-based multiple instance learning, we train single-task and multi-task models to predict five molecular alterations in glioblastoma on the CPTAC cohort, validate on an independent TCGA cohort, and evaluate biological coherence of attention maps against 87 transcriptional signatures using co-registered Visium spatial transcriptomics data from 18 samples. Internally, no single encoder dominates across all tasks, and external validation inverts internal performance rankings. Attention maps show a five-fold enrichment gradient from pathways (Cohen's d=0.329) to individual genes (d=0.055), indicating that attention captures emergent multi-gene transcriptional programs rather than individual molecular events. Spatially smooth attention maps do not imply biological coherence, and different encoders attend to distinct biological compartments. Our framework provides objective, quantitative assessment of what foundation models learn from histopathology, moving the field beyond qualitative saliency map review.",
-      "authors": [
-        "Dilakshan Srikanthan",
-        "Amoon Jamzad",
-        "Paul Wilson",
-        "Nooshin Maghsoodi",
-        "Robert Policelli",
-        "Gabor Fichtinger",
-        "John F. Rudan",
-        "Parvin Mousavi"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.04764v2",
       "pubmed_id": ""
     },
     {
@@ -217,96 +157,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents",
-      "source": "arXiv",
-      "date": "2026-05-07T12:57:18+00:00",
-      "updated": "2026-06-23T17:07:51+00:00",
-      "url": "http://arxiv.org/abs/2605.06177v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.06177v2",
-      "abstract": "Reproducing and comparing deep research agents today is hard: the same backbone evaluated on the same benchmark can report different accuracies across papers because the harness and tool registry differ, and integrating a new model into a comparable evaluation surface costs weeks of model-specific engineering. These are symptoms of a broader reproducibility problem in deep research agent research. Here, we introduce BioMedArena, an open-source toolkit that addresses this reproducibility gap and provides an arena for comparing deep research agents under a shared evaluation environment. BioMedArena decouples six layers of biomedical agent evaluation -- benchmark loading, tool exposure, tool selection, harness mode, context management, and scoring -- and exposes 166 biomedical benchmarks and 75 biomedical tools across 9 functional families. Adding a new model, benchmark, or tool can be accomplished with a few-line provider adapter. Beyond evaluation infrastructure, BioMedArena ships a library of high-quality reference components: 6 agent harnesses (including our proposed Mutual-Evolve) and 6 context-management strategies, any of which can be equipped on any backbone. Equipping these components substantially improves all 12 backbones; on each of 8 representative biomedical benchmarks, the best equipped backbone surpasses prior state-of-the-art (SOTA), by 15.01 percentage points on average. The toolkit, configurations, and per-task traces are available at https://github.com/AI-in-Health/BioMedArena.",
-      "authors": [
-        "Jinge Wu",
-        "Hongjian Zhou",
-        "Mingde Zeng",
-        "Jiayuan Zhu",
-        "Junde Wu",
-        "Jiazhen Pan",
-        "Ayush Noori",
-        "Sean Wu",
-        "Honghan Wu",
-        "Fenglin Liu",
-        "David A. Clifton"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.06177v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Knowledge-Graph Grounding Helps LLMs Only for Out-of-Training Knowledge: A Controlled Study on Clinical Question Answering",
-      "source": "arXiv",
-      "date": "2026-06-21T10:12:17+00:00",
-      "updated": "2026-06-23T14:56:47+00:00",
-      "url": "http://arxiv.org/abs/2606.22419v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.22419v2",
-      "abstract": "A recent Nature Medicine study reports that general-purpose frontier LLMs outperform specialized retrieval-augmented clinical tools on medical benchmarks, and that retrieval can hurt strong models. We ask the natural follow-up: does structured knowledge-graph (KG) grounding change this, and when does grounding help at all? We contribute two results. First, a reproduction: the study's headline HealthBench score (~88) is the Consensus variant, not full HealthBench, where frontier models and ideal completions both score ~46-47 under a physician-calibrated grader (agreement 82.5%); we reproduce GPT-5.2 Consensus =90.9 and flag a score-deflating grader bug. Second, a knowledge-boundary result. Using a graph+vector engine (samyama-graph) over the public biomedical KG PrimeKG, neither naive triple retrieval nor an agentic natural-language-to-Cypher loop (82% successful queries) improves MedQA across a weak-to-strong model ladder (all |Delta| <= 3.4). On a synthetic counterfactual KG, and on a hybrid benchmark mixing known and novel facts, the identical pipeline lifts out-of-training accuracy from chance to ~100% (+68 to +79) while adding nothing on known facts (a no-LLM arm answers both). Across three regimes (no-knowledge, graph-aided, hybrid), grounding helps only insofar as the decisive fact lies outside the model's training -- public-KG facts are redundant, private and novel data are where it pays -- matching the study's institutional-data caveat.",
-      "authors": [
-        "Madhulatha Mandarapu",
-        "Sandeep Kunkunuru"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.22419v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
-      "source": "arXiv",
-      "date": "2026-06-23T12:58:23+00:00",
-      "updated": "2026-06-23T12:58:23+00:00",
-      "url": "http://arxiv.org/abs/2606.24530v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24530v1",
-      "abstract": "We introduce NatureBench, a cross-discipline benchmark of 90 tasks distilled from peer-reviewed Nature-family publications, designed to evaluate whether AI coding agents can move beyond reproduction toward discovery on real scientific problems. NatureBench is built on NatureGym, an automated pipeline that constructs a standardized, per-task containerized environment from a source paper, addressing the environment-fragmentation problem that has limited the credibility of prior agent-on-research benchmarks. Evaluating ten frontier agent configurations under a strict web-search-disabled protocol, we find that the strongest model surpasses SOTA on only 17.8% of tasks under the g>0.1 criterion. Analysis of method pathways reveals that agents succeed primarily through methodological translation, converting scientific tasks into familiar supervised prediction problems, rather than through genuine scientific invention. Failures are dominated by wrong method choice and insufficient compute budget, not by task misunderstanding. We release the benchmark, the NatureGym pipeline, and a public leaderboard with maintainer-side reproduction. Code: https://github.com/FrontisAI/NatureBench",
-      "authors": [
-        "Yuru Wang",
-        "Lejun Cheng",
-        "Yuxin Zuo",
-        "Sihang Zeng",
-        "Bingxiang He",
-        "Che Jiang",
-        "Junlin Yang",
-        "Yuchong Wang",
-        "Kaikai Zhao",
-        "Weifeng Huang",
-        "Kai Tian",
-        "Zhenzhao Yuan",
-        "Jincheng Zhong",
-        "Weizhi Wang",
-        "Ning Ding",
-        "Bowen Zhou",
-        "Kaiyan Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.24530v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SP-Mind: An Autonomous Reasoning Agent for Spatial Proteomics Analysis",
-      "source": "arXiv",
-      "date": "2026-06-23T07:24:23+00:00",
-      "updated": "2026-06-23T07:24:23+00:00",
-      "url": "http://arxiv.org/abs/2606.24235v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24235v1",
-      "abstract": "Spatial proteomics enables single-cell-resolution characterization of protein expression within tissue architecture, playing a critical role in understanding tumor microenvironments and guiding precision medicine. However, current analysis workflows remain fragmented, requiring expert manual orchestration of heterogeneous tools and limiting research scalability and reproducibility. We present SP-Mind, the first autonomous AI agent designed to unify the spatial proteomics analysis pipeline, from raw multiplexed tissue imaging to downstream phenotype discovery. Equipped with expert-curated biological analysis skills and specialized computational tools, SP-Mind converts natural-language queries into end-to-end analytical workflows without task-specific fine-tuning. To rigorously evaluate its capabilities, we introduce SP-Bench, a comprehensive benchmark spanning diverse tissue types, comprising 102 tasks across 18 distinct categories. Through extensive evaluation on SP-Bench and established downstream tasks, SP-Mind achieves state-of-the-art performance compared to existing open-source biomedical agent baselines.",
-      "authors": [
-        "Yucheng Yuan",
-        "Yuanfeng Ji",
-        "Zhongxiao Li",
-        "Ruijiang Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.24235v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction",
       "source": "arXiv",
       "date": "2026-06-24T12:35:18+00:00",
@@ -325,49 +175,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.26179v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Reducing Redundancy in Whole-Slide Image Patching for Scalable Indexing and Retrieval",
-      "source": "arXiv",
-      "date": "2026-06-23T20:57:22+00:00",
-      "updated": "2026-06-23T20:57:22+00:00",
-      "url": "http://arxiv.org/abs/2606.26157v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.26157v1",
-      "abstract": "The rapid growth of digital pathology has created an urgent need for efficient indexing and retrieval of whole slide images (WSIs). This need is intensified by emerging generative AI workflows, particularly retrieval-augmented generation (RAG), which require dependable similarity search to support high-stakes clinical decision-making. Yet the substantial cost of high-performance storage limits the scalability and accessibility of WSI indexing for many healthcare institutions. Consequently, methods that can reduce storage demands while preserving retrieval accuracy have become a critical research priority. We propose ARReST (Antithetical Redundancy Reduction Strategy), a principled oppositional framework that leverages redundancy across dissimilar tissue classes to markedly decrease the number of patches that must be indexed from each WSI. Instead of eliminating only within-class duplicates, ARReST identifies antithetical patches-those whose representations contribute minimally to cross-class discrimination-and prunes them from the searchable archive. This targeted reduction substantially compresses the index without sacrificing morphological diversity or retrieval fidelity. By minimizing superfluous patch representations, ARReST reduces storage footprint, lowers computational overhead, and accelerates similarity search across large pathology repositories. Extensive experiments on TCGA repository (The Cancer Genome Atlas with 21 organs) demonstrate that ARReST achieves significant index compression while maintaining competitive retrieval performance. The observed storage savings of 3% to 60% (14%$\\pm$13%) can be reliably achieved without compromising retrieval performance for many organs. The proposed strategy enables scalable, cost-efficient WSI indexing and is well-suited for next-generation retrieval-driven clinical AI systems.",
-      "authors": [
-        "Jialiang Geng",
-        "Ghazal Alabtah",
-        "Saghir Alfasly",
-        "Wataru Uegami",
-        "H. R. Tizhoosh"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.26157v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects",
-      "source": "arXiv",
-      "date": "2026-06-23T16:37:48+00:00",
-      "updated": "2026-06-23T16:37:48+00:00",
-      "url": "http://arxiv.org/abs/2606.24779v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.24779v1",
-      "abstract": "Birth defects are a major cause of fetal loss, neonatal morbidity and long-term disability. In the subset with suspected genetic etiologies, exome and genome sequencing have moved many cases from variant detection to post-sequencing interpretation: clinicians must rank patient-specific candidate variants under incomplete fetal or infant phenotypes and heterogeneous evidence from population genetics, variant-effect prediction, gene-disease validity, phenotype ontologies, cellular and pathway context, protein structure and clinical literature. We present DeepBD, a grounded agentic workflow for variant prioritization and diagnostic interpretation of genetic birth defects. DeepBD organizes the workflow into LLM-assisted case structuring, a pretrained evidence engine, specialist evidence modules and a grounded diagnostic review layer. The evidence engine learns patient-specific variant scores from structured rule evidence, sequence and variant-effect representations and phenotype-conditioned biological context, whereas specialist modules and the agentic layer provide tool-based refinement, candidate-pool review and diagnosis-oriented synthesis from ranked candidates. Developed using an in-house fetal and infant cohort comprising 18,622 cases, DeepBD achieved Recall@1/3/5/10 of 0.658/0.882/0.912/0.929 on an internal held-out solved-case benchmark, outperforming standalone Exomiser, DeepRare and prompted LLM reranking baselines evaluated on Exomiser-derived top-20 candidate variants. Ablation and overlap analyses show that rule evidence, mechanistic context, and specialist refinement provide complementary signals. These findings support a grounded agentic workflow that separates evidence integration, tool-based refinement, and LLM-assisted diagnostic review for retrospective variant prioritization in genetic birth defects.",
-      "authors": [
-        "Shiyu Li",
-        "Ziqi Yan",
-        "Zhihao Wu",
-        "Jielong Lu",
-        "Weiran Liao",
-        "Jiajun Yu",
-        "Genjie Li",
-        "Zeyu Chu",
-        "Jiajun Bu",
-        "Haishuai Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.24779v1",
       "pubmed_id": ""
     },
     {
@@ -482,43 +289,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.25728v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Small Initialization Matters for Large Language Models",
-      "source": "arXiv",
-      "date": "2026-06-16T13:53:48+00:00",
-      "updated": "2026-06-24T02:25:05+00:00",
-      "url": "http://arxiv.org/abs/2606.17945v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.17945v2",
-      "abstract": "Large language models provide a tractable system for asking how intelligence itself emerges, rather than only how LLMs can be engineered. Although progress is usually attributed to scale, data and architecture, we show that parameter initialization is a gene-like determinant of training and, in particular, of model capacity. Reducing the initialization scale consistently improves pretraining, with the largest gains on reasoning-demanding tasks. We identify two widely used empirical settings that restrain the advantage of small initialization, and show how relaxing them restores favorable scaling. We further uncover a critical initialization that balances the reasoning and training. Mechanistically, small initialization drives a distinct developmental trajectory: parameters first condense into low-complexity structures and later expand into richer representations, giving concrete form to the idea that compression is intelligence. Token-level analyses show that the gains concentrate on non-trivial, context-constrained predictions rather than all tokens uniformly. These results motivate a simple $γ$-initialization rule: expose initialization rage as an explicit knob and use small initialization by default, an almost cost-free intervention that improves pretraining and strengthens reasoning across model scales.",
-      "authors": [
-        "Liangkai Hang",
-        "Junjie Yao",
-        "Zhiyu Li",
-        "Feiyu Xiong",
-        "Hongkang Yang",
-        "Zhi-Qin John Xu"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.17945v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Lateral hydrodynamics in supported membranes: The Evans-Sackmann model and its extensions",
-      "source": "arXiv",
-      "date": "2026-05-18T06:26:26+00:00",
-      "updated": "2026-06-23T07:59:45+00:00",
-      "url": "http://arxiv.org/abs/2605.17917v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.17917v2",
-      "abstract": "We review the theoretical development and modern applications of the Evans-Sackmann hydrodynamic model for lateral transport in supported fluid membranes. We first cover the original formulation, emphasizing the linear momentum decay term that captures membrane-substrate coupling mediated by a thin lubricating fluid layer. This coupling term enables quantitative interpretation of tracer diffusion measurements in supported bilayers. Building on this foundation, we survey theoretical extensions that relax standard boundary conditions at the inclusion perimeter, where inclusions refer to embedded objects such as proteins, lipid domains, or tracer particles within the membrane. We discuss the drag of a disk and a liquid domain, as well as the dynamics of membrane phase separation. We further highlight how the supported-membrane mobility tensor serves as a unifying tool for systematic treatments of correlated diffusion, polymer dynamics, phase separation kinetics, and many-body interactions in quasi-two-dimensional environments. Finally, we discuss recent extensions to active and chiral membranes, where odd viscosity provides a transverse hydrodynamic response and offers a possible route for detecting chirality in two-dimensional fluids.",
-      "authors": [
-        "Yuto Hosaka",
-        "David Andelman",
-        "Shigeyuki Komura"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.17917v2",
       "pubmed_id": ""
     },
     {
@@ -993,161 +763,13 @@
       "doi": "",
       "arxiv_id": "2504.09910v2",
       "pubmed_id": ""
-    },
-    {
-      "title": "TheoremGraph: Bridging Formal and Informal Mathematics",
-      "source": "arXiv",
-      "date": "2026-06-24T03:47:05+00:00",
-      "updated": "2026-06-24T03:47:05+00:00",
-      "url": "http://arxiv.org/abs/2606.25363v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25363v1",
-      "abstract": "Mathematical knowledge is organized around statements and their dependencies, but this structure is exposed unevenly: informal papers cite mostly at the document level, while formal libraries record fine-grained dependencies over a much smaller body of mathematics. We introduce TheoremGraph, a unified statement-level dependency graph spanning both informal and formal mathematics. On the informal side, we parse 11.7M theorem-like environments from mathematics arXiv and recover 18.3M candidate directed dependencies, each labeled by the extractor that proposed it so downstream users can trade coverage for precision. On the formal side, we release LeanGraph, a Lean 4 elaborator-level extractor producing 388,105 declaration nodes and 11.3M typed edges across 25 Lean projects. We bridge the two graphs by embedding generated natural-language slogans into a shared semantic space, linking related statements across papers and across the informal/formal divide; an LLM judge affirms 47,952 such matches above a 0.8 cosine floor, with the judge-acceptance rate rising from 48% across the floor to 87% in the >=0.9 tier. On formal concept retrieval, our name-and-signature representation with graph expansion comes within 0.5pp of LeanSearch v2's reranked Recall@10 (0.775 vs. 0.780) without an LM reranker. We release the dataset, extractors, HTTP API, and MCP interface as infrastructure for mathematical search, attribution, and retrieval-augmented reasoning, available at theoremsearch.com and huggingface.co/datasets/uw-math-ai/theorem-matching.",
-      "authors": [
-        "Simon Kurgan",
-        "Evan Wang",
-        "Eric Leonen",
-        "Sophie Szeto",
-        "Luke Alexander",
-        "Artemii Remizov",
-        "Jarod Alper",
-        "Giovanni Inchiostro",
-        "Vasily Ilin"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.25363v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "CausalRAG2: Hierarchical Causal Knowledge Graph Design for RAG",
-      "source": "arXiv",
-      "date": "2026-02-04T23:59:02+00:00",
-      "updated": "2026-06-24T03:29:07+00:00",
-      "url": "http://arxiv.org/abs/2602.05143v2",
-      "pdf_url": "https://arxiv.org/pdf/2602.05143v2",
-      "abstract": "Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing graph-based methods often over-rely on entity-centric node matching and lack explicit causal modeling, leading to unfaithful or spurious answers. Prior attempts to incorporate causality are typically limited to local or single-document contexts and also suffer from information isolation that arises from modular graph structures, which hinders scalability and cross-module causal reasoning. To address these challenges, we propose CausalRAG2, a framework that rethinks knowledge organization for graph-based RAG through causal gating across hierarchical modules. CausalRAG2 explicitly models causal relationships to suppress spurious correlations while enabling scalable reasoning over large-scale knowledge graphs. We also introduce HolisQA, a benchmark for holistic comprehension beyond entity-centric matching. Extensive experiments demonstrate that CausalRAG2 consistently outperforms competitive graph-based RAG baselines across multiple datasets and evaluation metrics. Our work establishes a principled foundation for structured, scalable, and causally grounded RAG systems. Our code and HolisQA benchmark are available at https://github.com/Pwnb/CausalRAG2.",
-      "authors": [
-        "Nengbo Wang",
-        "Tuo Liang",
-        "Vikash Singh",
-        "Chaoda Song",
-        "Van Yang",
-        "Yu Yin",
-        "Jing Ma",
-        "Jagdip Singh",
-        "Vipin Chaudhary"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.05143v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Invoice Haystack: Benchmarking Document Retrieval and Visual Question Answering Under Strong Visual Homogeneity",
-      "source": "arXiv",
-      "date": "2026-06-24T03:17:30+00:00",
-      "updated": "2026-06-24T03:17:30+00:00",
-      "url": "http://arxiv.org/abs/2606.25343v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25343v1",
-      "abstract": "Vision Language Models have achieved near-human performance on single-document Visual Question Answering, yet their effectiveness degrades significantly when retrieving information from large collections of visually homogeneous documents. Existing multi-document benchmarks aggregate diverse document types, creating artificial separation in embedding space that does not reflect enterprise document repositories where thousands of records share identical visual templates. We identify this as embedding collapse and introduce Invoice Haystack, a benchmark with 1,500 anonymized invoice images paired with 200 discriminative question-answer pairs, specifically designed to stress-test retrieval under strong visual homogeneity. Invoice Haystack exhibits a mean pairwise cosine similarity of 0.73, compared to 0.38 (DocHaystack) and 0.31 (InfoHaystack) in existing benchmarks, posing a fundamentally more challenging retrieval problem. Addressing the identified challenge, we propose VL-RAG, a hybrid retrieval-augmented generation framework that jointly leverages text and visual embeddings to harness the complementary strengths of both modalities, followed by a VLM-based verification filter for precise document identification. VL-RAG achieves 60.0\\% Recall@1 on Invoice Haystack-500, outperforming existing state-of-the-art method by up to an absolute 13.5 percentage points. It further improves retrieval considerably on DocHaystack-1000 (77.1\\% vs.\\ 75.2\\%) and InfoHaystack-1000 (84.5\\% vs.\\ 80.0\\%), establishing the proposed dual-stream fusion as a consistently superior retrieval strategy across both homogeneous and heterogeneous document collections.",
-      "authors": [
-        "Heethanjan Kanagalingam",
-        "Thenukan Pathmanathan",
-        "Mokeeshan Vathanakumar",
-        "Basim Azam",
-        "Sarah Monazam Erfani"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.25343v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Hybrid-IR: Dual-Path Hybrid Retrieval with Iterative Reasoning for Complex Medical Question Answering",
-      "source": "arXiv",
-      "date": "2026-06-24T03:09:50+00:00",
-      "updated": "2026-06-24T03:09:50+00:00",
-      "url": "http://arxiv.org/abs/2606.25338v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25338v1",
-      "abstract": "Large language models (LLMs) have shown promising performance across a wide range of biomedical applications, including medical question answering (QA), yet they remain prone to hallucinations and outdated knowledge. Although retrieval-augmented generation (RAG) can alleviate this issue by incorporating external documents, there still exist two fundamental limitations. First, medical knowledge is often fragmented across documents, while most RAG methods rely on a single retrieval path, which makes it challenging to jointly preserve fine-grained semantic information and structured global associations. Second, static retrieval strategies are typically insufficient to support deep reasoning that is important in complex medical QA. In this paper, we present a dual-path retrieval framework with an iterative retrieval-reasoning mechanism termed \"Hybrid-IR\" for complex medical QA. The proposed Hybrid-IR integrates graph-based retrieval for exploration of structured knowledge and dense retrieval for fine-grained semantic matching. Moreover, the reasoning trajectory can be progressively refined through an iterative retrieve-reason loop. Experiments on three widely used medical QA benchmarks demonstrate the effectiveness of our Hybrid-IR.",
-      "authors": [
-        "Sheng Wan",
-        "Jiahui Zhang",
-        "Zicheng Zhao",
-        "Shougang Ren"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.25338v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Bridging the Post-discharge Gap: A Traceable Multi-agent Framework for Safe and Continuous Care",
-      "source": "arXiv",
-      "date": "2026-06-24T02:57:51+00:00",
-      "updated": "2026-06-24T02:57:51+00:00",
-      "url": "http://arxiv.org/abs/2606.25334v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.25334v1",
-      "abstract": "Post-discharge clinical follow-up is critical for maintaining continuity of care and mitigating long-term health risks. However, traditional follow-up paradigms suffer from shortage of health workforce, fragmented patient histories, and information silos across clinical departments. While large language models have demonstrated potential in medical question-answering, their deployment in continuous care is hindered by hallucination risks and a fundamental inability to reason over longitudinal, patient-specific constraints. Here we present Healink, a memory-enhanced multi-agent framework to support AI-assisted post-discharge follow-up by generating prescription-grounded, traceable responses that improved completeness and perceived clinical utility in retrospective and physician-blinded evaluations. The architecture seamlessly integrates a triage routing mechanism, a unified memory enhancement module utilizing a robust relational database for optimal latency, and a strict constraint-based retrieval-augmented generation engine. By vectorizing historical clinical records and employing weighted similarity functions across diverse phenotypic and intervention dimensions, Healink ensures precise inter-patient and intra-patient case matching while actively preventing cross-departmental drug conflicts. We evaluated Healink on a dataset comprising 400 continuous and 85 highly complex real-world follow-up cases, alongside the webMedQA benchmark. In a rigorous single-blind evaluation conducted by clinical experts, the framework outperformed human physician baselines in both authoritativeness and clinical safety. By generating a traceable, white-box evidence chain, Healink provides a scalable, safe, and highly effective paradigm for intelligent patient management, ultimately enhancing societal healthcare outcomes.",
-      "authors": [
-        "Runwei Guan",
-        "Yi Zhou",
-        "Heyi Lin",
-        "Jinjing Zhu",
-        "Mingyuan Hou",
-        "Yang Yang",
-        "Fang Yuan",
-        "Xiaohong Lin",
-        "Shaofeng Liang",
-        "Xuming Hu",
-        "Tao Li",
-        "Tianbin Zhao",
-        "Yutao Yue",
-        "Zhiyuan Wang",
-        "Hui Xiong"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.25334v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Verifiable Manifest Signing and Transparency Enforcement for Secure MCP-Based LLM Pipelines",
-      "source": "arXiv",
-      "date": "2026-01-30T16:22:21+00:00",
-      "updated": "2026-06-24T01:36:51+00:00",
-      "url": "http://arxiv.org/abs/2601.23132v2",
-      "pdf_url": "https://arxiv.org/pdf/2601.23132v2",
-      "abstract": "Large Language Models (LLMs) are increasingly deployed in tool-driven environments such as healthcare analytics, financial systems, retrieval-augmented generation (RAG), and multi-agent workflows. Although the Model Context Protocol (MCP) standardizes how LLM applications expose and invoke external tools, its baseline model does not require tool-use manifests to be cryptographically authenticated, freshness-checked, policy-bound, or independently auditable before execution. As a result, MCP pipelines may remain vulnerable to manifest tampering, unauthorized tool invocation, replay of stale requests, and weak accountability. This paper presents a manifest-level enforcement layer for MCP-based LLM pipelines. It treats each MCP tool-use manifest as a first-class security object whose canonical form must be policy-validated, freshness-checked, digitally signed, verified before execution, and linked to tamper-evident audit evidence. The framework binds tool invocation to verifiable manifest integrity and fail-closed authorization, separates user-visible request parameters from execution metadata, rejects non-compliant or stale manifests before execution, and records accepted invocations in a Merkle-based transparency log. Evaluation across GPT-5.3, LLaMA-3.5, and DeepSeek-V3 using up to 50,000 manifest instances shows near-linear scalability (R^2 = 0.998), bounded verification latency (<= 9.4 ms on edge devices), and rejection of expired, malformed, replayed, and policy-violating manifests, with rejection rates above 98.7%. Experiments in healthcare, finance, RAG, and multi-agent settings show that manifest-level cryptographic enforcement enables low-overhead, traceable, and auditable execution control for heterogeneous LLM-tool pipelines.",
-      "authors": [
-        "Saeid Jamshidi",
-        "Kawser Wazed Nafi",
-        "Arghavan Moradi Dakhel",
-        "Foutse Khomh",
-        "Mohammad Hamdaqa"
-      ],
-      "doi": "",
-      "arxiv_id": "2601.23132v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LLM Program Optimization via Retrieval Augmented Search",
-      "source": "arXiv",
-      "date": "2025-01-31T06:34:47+00:00",
-      "updated": "2026-06-23T21:39:56+00:00",
-      "url": "http://arxiv.org/abs/2501.18916v2",
-      "pdf_url": "https://arxiv.org/pdf/2501.18916v2",
-      "abstract": "Recent work has demonstrated the potential of large language models (LLMs) for program optimization, a key challenge in programming languages. We propose a blackbox adaptation method called Retrieval Augmented Search (RAS) that performs beam search over candidate optimizations; at each step, it retrieves in-context examples from a given training dataset of slow-fast program pairs to guide the LLM. Critically, we find that performing contextual retrieval based on an LLM-generated natural language description significantly outperforms retrieval based on the source code. We also propose AEGIS, a method for improving interpretability by decomposing training examples into ''atomic edits'' that are significantly more incremental in nature. We show that RAS performs up to 2.06$\\times$ better than prior state-of-the-art blackbox adaptation strategies on optimizing C++ programs, and that AEGIS performs up to 1.37$\\times$ better while making significantly smaller edits. We also show that using RAS improves the mean runtime percentile of Python programs by 10.27 compared to baselines.",
-      "authors": [
-        "Sagnik Anupam",
-        "Alexander Shypula",
-        "Osbert Bastani"
-      ],
-      "doi": "",
-      "arxiv_id": "2501.18916v2",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 59,
+      "count": 41,
       "error": ""
     }
   ]
