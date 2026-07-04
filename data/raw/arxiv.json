@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-03T04:53:33.420656+00:00",
+  "fetched_at": "2026-07-04T04:45:32.861156+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 55,
+  "count": 46,
   "papers": [
     {
       "title": "Fluctuation-Response Theory of Non-Equilibrium Complex Fluids",
@@ -17,77 +17,6 @@
       ],
       "doi": "",
       "arxiv_id": "2510.15559v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Unifying Statistical and Mathematical Modeling Through a Causal Inference Lens",
-      "source": "arXiv",
-      "date": "2025-11-03T18:21:50+00:00",
-      "updated": "2026-06-30T20:40:29+00:00",
-      "url": "http://arxiv.org/abs/2511.01960v3",
-      "pdf_url": "https://arxiv.org/pdf/2511.01960v3",
-      "abstract": "Within the biological, physical, and social sciences, there are two broad quantitative traditions: statistical and mathematical modeling. Both traditions have the common pursuit of advancing our scientific knowledge, but these traditions have developed largely with distinct languages and inferential frameworks. This paper uses the notion of identification from causal inference, a field originating from the statistical modeling tradition, to develop a shared language. I first review foundational identification results for statistical models and then extend these ideas to mathematical models. Central to this framework is the use of bounds, ranges of plausible numerical values, to analyze both statistical and mathematical models. I discuss the implications of this perspective for the interpretation, comparison, and integration of different modeling approaches, and illustrate the framework with a simple pharmacodynamic model for hypertension. To conclude, I describe areas where the approach taken here should be extended in the future. By formalizing connections between statistical and mathematical modeling, this work contributes to a shared framework for quantitative science. My hope is that this work will advance interactions between these two traditions.",
-      "authors": [
-        "Paul N Zivich"
-      ],
-      "doi": "",
-      "arxiv_id": "2511.01960v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Neuronal electricality founded in murburn-thermodynamic principles: 1. Background and basic theoretical formulation",
-      "source": "arXiv",
-      "date": "2026-04-15T23:50:14+00:00",
-      "updated": "2026-06-30T20:20:08+00:00",
-      "url": "http://arxiv.org/abs/2604.24772v2",
-      "pdf_url": "https://arxiv.org/pdf/2604.24772v2",
-      "abstract": "Trans-membrane ion-gradients and fluxes are central to conventional electrical activity in aerobic cells/organelles. The Murburn concept offers novel physico-chemical models for various metabolic, bioenergetic and electrophysiological phenomena. Here, we develop a foundational framework for neuronal electrical activity and axonal signal propagation using the electron-holding potential (EHP), a dimensionless field related logarithmically to electron chemical potential. By combining local redox relaxation dynamics with spatial transport driven by thermodynamic gradients, we derive a unified reaction-transport-relaxation equation that accounts for resting potential, excitability, waveform generation, and signal propagation within a single formalism. Nonlinear local redox kinetics yield a stable resting state and graded responses from a single scalar field; extending it to the two-variable excitable (FitzHugh Nagumo) form, a bistable reaction with a slow recovery variable, further yields a genuine threshold, all-or-none spikes, a refractory period and a propagating action potential. The framework accommodates known physiological variability of neurons and provides a direct bridge between metabolic/redox state and electrophysiology. This framework offers testable predictions for neuronal dynamics (such as velocity, waveform morphology, and environmental conditions) across biological systems. We derive and solve the equations to obtain the transmembrane potential as a function of time, and the neuronal conduction velocity as a function of parameters like ionic strength, temperature, axon diameter, myelination, and driving potential. In the second part of this work, we present comparative analyses, simulations, and experimental strategies for validation and falsification.",
-      "authors": [
-        "Kelath Murali Manoj",
-        "Nagamani Sukumar",
-        "Taufia Hussain",
-        "Mahendra Kavdia",
-        "Abhijith Anandakrishnan"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.24772v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Creating Intelligence: A Computational Foundation for AGI",
-      "source": "arXiv",
-      "date": "2026-06-30T15:30:40+00:00",
-      "updated": "2026-06-30T15:30:40+00:00",
-      "url": "http://arxiv.org/abs/2606.31819v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.31819v1",
-      "abstract": "This work introduces a new computational theory of mind grounded in set theory and hyperdimensional computing. Whereas traditional neural networks rely on continuous weights and matrix multiplication, this framework works with sparse binary data. It represents information as discrete sets, directly modeling biological neural population codes. I demonstrate that associative memory emerges naturally from network topologies featuring a combinatorially expanded hidden layer. Learning is driven by topological plasticity rather than scalar weight adjustments. This architecture unifies auto-associative and hetero-associative learning under a single core algorithm: information retrieval via subset pattern matching and exact nearest-neighbor search. Operating with constant-time complexity, these mechanisms bridge perceptual data (sparse distributed representations) and symbols (sparse holographic representations) without continuous bottlenecks. Mapping this framework to neuroanatomy, I propose that both the cerebellum and the neocortex implement variants of this algorithm, making subset pattern matching the fundamental engine of cognition. Because it relies on discrete logic rather than matrix arithmetic, this algorithm translates directly into in-memory hardware. This opens a new route toward synthetic intelligence with human-level energy efficiency.",
-      "authors": [
-        "Peter Overmann"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.31819v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "How Post-Training Shapes Biological Reasoning Models",
-      "source": "arXiv",
-      "date": "2026-06-15T10:19:49+00:00",
-      "updated": "2026-06-30T13:49:08+00:00",
-      "url": "http://arxiv.org/abs/2606.16517v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.16517v2",
-      "abstract": "Scientific reasoning models for biology combine language models with foundation models trained on multimodal biological data, including DNA, RNA, and proteins. These models are built through post-training, yet how each stage shapes reasoning and generalization remains poorly understood. We study when post-training improves performance and when it induces over-specialization. Across genomics, transcriptomics, and proteins, we train and evaluate more than 100 biological reasoning models under controlled variation in backbone, continued pre-training (CPT), supervised fine-tuning (SFT), and reinforcement learning (RL), measuring both in-domain (ID) and out-of-domain (OOD) performance. We find that each post-training stage reshapes generalization in a distinct way rather than contributing uniform gains. CPT improves downstream performance by aligning models with biological language. SFT consistently increases ID performance but causes OOD performance to peak early and decline as models fit the training distribution. RL, when applied to strong SFT checkpoints with aligned rewards, improves OOD performance and partially recovers generalization. These results show that biological reasoning does not improve monotonically with additional supervision or compute. Instead, performance depends on how training stages are composed. Under fixed post-training budgets, the strongest ID-OOD trade-off comes from brief SFT, larger RL allocations, and asymmetric adaptation capacity across stages.",
-      "authors": [
-        "Lukas Fesser",
-        "Hanlin Zhang",
-        "Michelle M. Li",
-        "Eric Wang",
-        "Bryan Perozzi",
-        "Shekoofeh Azizi",
-        "Sham M. Kakade",
-        "Marinka Zitnik"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.16517v2",
       "pubmed_id": ""
     },
     {
@@ -266,110 +195,6 @@
       ],
       "doi": "",
       "arxiv_id": "2604.17406v4",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",
-      "source": "arXiv",
-      "date": "2026-02-14T09:26:41+00:00",
-      "updated": "2026-06-30T17:19:18+00:00",
-      "url": "http://arxiv.org/abs/2602.13692v3",
-      "pdf_url": "https://arxiv.org/pdf/2602.13692v3",
-      "abstract": "Large language models(LLMs) are now used to power complex multi-turn agentic workflows. Existing systems run agentic inference by loosely assembling isolated components: an LLM inference engine (e.g., vLLM) and a tool orchestrator (e.g., Kubernetes). Although agentic workflows involve multiple LLM and tool requests, these systems schedule and allocate resources separately on a per-request basis, without end-to-end knowledge of the workflow. This leads to sub-optimal management of KV cache and tool execution environments. To address the challenges, we propose ThunderAgent, a fast, simple, and program-aware agentic inference system. We first abstract agentic workflows as LLM Programs, enabling a unified view of heterogeneous resources, including KV caches, system states, and external tool assets such as disk memory and network ports. Built upon this abstraction, ThunderAgent introduces a program-aware scheduler and a tool resource manager designed to maximize KV cache hit rates, mitigate memory imbalances, and enable asynchronous environment preparation. Evaluations across coding, routing, and scientific discovery agents demonstrate that ThunderAgent achieves 1.5-3.6x throughput improvements in serving, 1.8-3.9x in RL rollout, and up to 4.2x disk memory savings compared to state-of-the-art inference systems. To facilitate reproducibility and support future development, we open-source the system implementations of the whole ThunderAgent at: https://github.com/Agentic-Kinetics/ThunderAgent.",
-      "authors": [
-        "Hao Kang",
-        "Ziyang Li",
-        "Weili Xu",
-        "Xinyu Yang",
-        "Yinfang Chen",
-        "Junxiong Wang",
-        "Beidi Chen",
-        "Tushar Krishna",
-        "Chenfeng Xu",
-        "Simran Arora"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.13692v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping",
-      "source": "arXiv",
-      "date": "2026-06-30T15:37:02+00:00",
-      "updated": "2026-06-30T15:37:02+00:00",
-      "url": "http://arxiv.org/abs/2606.31831v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.31831v1",
-      "abstract": "High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. At Oak Ridge National Laboratory's Advanced Plant Phenotyping Laboratory (APPL), automated stations image hundreds of plants daily across multiple remote sensing modalities; yet, trait extraction and interpretation remain manual, expert-bound, and strictly post-hoc, making analysis, not acquisition, the binding constraint on discovery. We present an end-to-end agentic AI framework that turns the facility from a data factory into an interactive autonomous, discovery platform, where scientists partner with AI agents to accelerate time to insight. A conversational Co-Scientist Agent translates a scientist's natural-language question into a structured analysis plan, and a headless Compute Agent dispatches Vision Transformer segmentation and trait extraction on the Frontier exascale supercomputer. The two agents run in separate security and resource domains and communicate over a secure, token-authenticated streaming channel, a design that accounts for the federation, data-movement, and provenance realities cloud-native agentic frameworks ignore, ensuring end-to-end provenance is captured for every interaction. The framework turns a days- to weeks-long analysis process into an interactive loop where agents reason over results, recommend next analyses, and respond to follow-up questions in seconds.",
-      "authors": [
-        "Renan Souza",
-        "Daniel Rosendo",
-        "Kelsey Carter",
-        "John Lagergren",
-        "Frédéric Suter",
-        "Shelaine L. Curd",
-        "Gerald A. Tuskan",
-        "Rafael Ferreira da Silva",
-        "David Weston"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.31831v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims",
-      "source": "arXiv",
-      "date": "2026-06-30T07:46:54+00:00",
-      "updated": "2026-06-30T07:46:54+00:00",
-      "url": "http://arxiv.org/abs/2606.31273v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.31273v1",
-      "abstract": "AI-assisted research has entered a stage in which the central question is not only whether systems can generate hypotheses, run experiments, or produce manuscripts, but whether their scientific claims are calibrated to the evidence that supports them. This Perspective-style paper develops a conceptual and methodological framework for evidence-licensed claims in AI-assisted research. Motivated by representative routes including specialized scientific foundation models, LLM research assistants, multi-agent co-scientists, AI Scientist pipelines, mathematical discovery agents, and self-driving laboratories, it represents AI-assisted research as five operators: hypothesis generation, model-mediated consequence derivation, external validation, belief update, and claim calibration. The central claim is that calibration is not merely cautious wording but a mechanism for managing scientific assertion rights: evidence licenses some forms of speech and withholds others. The paper distinguishes linguistic, consequence-based, interventional, and evidence-licensed semantics; defines the claim-evidence gap and epistemic debt; and treats minimal structural reconstruction across heterogeneous outputs as an upward form of claim calibration. AISim-Cal is included as an illustrative synthetic dynamics exercise, not as an empirical forecast or benchmark. The resulting principles are: no claim without license, validation does not determine claim level, and automation amplifies the need for calibration. Reliable AI-assisted research is therefore evaluated as a loop that generates hypotheses, derives testable consequences, accepts independent adjudication, updates beliefs, and outputs only evidence-licensed claims.",
-      "authors": [
-        "Hongmin Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.31273v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents",
-      "source": "arXiv",
-      "date": "2026-06-30T07:07:51+00:00",
-      "updated": "2026-06-30T07:07:51+00:00",
-      "url": "http://arxiv.org/abs/2606.31229v1",
-      "pdf_url": "https://arxiv.org/pdf/2606.31229v1",
-      "abstract": "Ideation plays a pivotal role in scientific discovery. Recent LLM, especially AI Scientist systems, show promising potential for automated ideation. However, existing approaches predominantly rely on pre-defined agentic workflows. This constraint severely limits the flexibility required to navigate the vast search space of scientific literature and the complex action space of research reasoning. Recently, training Agentic LLMs has emerged as a promising direction, offering flexible reasoning frameworks and the capability for autonomous tool utilization. However, there remains a non-trivial challenge: applying previous agentic data synthesis methods to scientific ideation suffers from prohibitively high data synthesis cost. To bridge this gap, we propose Agentic-Ideation, a novel framework comprising an automated trajectory synthesis pipeline and a specialized agentic LLM trained for scientific ideation. Specifically, we first define a comprehensive tool space incorporating three external tools and three cognitive tools. Then we introduce an Oracle-Guided Data Synthesis strategy. By leveraging a reference idea as oracle guidance, this approach steers the multi-agent system to efficiently reconstruct the logical reasoning and tool invocation paths, transforming aimless trial-and-error into directed trajectory generation. Finally, we train the agent on these synthesized trajectories, employing a masking strategy on tool execution results. This ensures the model focuses on decision-making logic without interference from external feedback. Experimental results demonstrate that our method outperforms the SOTA workflow-based baseline by \\textbf{11.91\\%} in overall quality. Furthermore, our approach improves the sample efficiency of high-quality data synthesis by \\textbf{over 10$\\times$}.",
-      "authors": [
-        "Keyu Zhao",
-        "Lingyan Kong",
-        "Fengli Xu",
-        "Yong Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.31229v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Human-Agent Collaborative Paper-to-Page Crafting",
-      "source": "arXiv",
-      "date": "2025-10-22T13:53:57+00:00",
-      "updated": "2026-06-30T06:40:13+00:00",
-      "url": "http://arxiv.org/abs/2510.19600v2",
-      "pdf_url": "https://arxiv.org/pdf/2510.19600v2",
-      "abstract": "In the quest for scientific progress, communicating research is as vital as the discovery itself. Yet, researchers are often sidetracked by the manual, repetitive chore of building project webpages to make their dense papers accessible. While automation has tackled static slides and posters, the dynamic, interactive nature of webpages has remained an unaddressed challenge. To bridge this gap, we reframe the problem, arguing that the solution lies not in a single command, but in a collaborative, hierarchical process. We introduce $\\textbf{AutoPage}$, a novel multi-agent system that embodies this philosophy. AutoPage deconstructs paper-to-page creation into a coarse-to-fine pipeline from narrative planning to multimodal content generation and interactive rendering. To combat AI hallucination, dedicated \"Checker\" agents verify each step against the source paper, while optional human checkpoints ensure the final product aligns perfectly with the author's vision, transforming the system from a mere tool into a powerful collaborative assistant. To rigorously validate our approach, we also construct $\\textbf{PageBench}$, the first benchmark for this new task. Experiments show AutoPage not only generates high-quality, visually appealing pages but does so with remarkable efficiency in under 15 minutes for less than \\$0.1. Code and dataset will be released at $\\href{https://mqleet.github.io/AutoPage_ProjectPage/}{Webpage}$.",
-      "authors": [
-        "Qianli Ma",
-        "Siyu Wang",
-        "Yilin Chen",
-        "Yinhao Tang",
-        "Yixiang Yang",
-        "Chang Guo",
-        "Bingjie Gao",
-        "Zhening Xing",
-        "Yanan Sun",
-        "Zhipeng Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2510.19600v2",
       "pubmed_id": ""
     },
     {
@@ -1154,7 +979,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 55,
+      "count": 46,
       "error": ""
     }
   ]
