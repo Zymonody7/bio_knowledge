@@ -1,29 +1,29 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-07-04T04:45:55.722359+00:00",
+    "updated_at": "2026-07-05T05:06:04.068402+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 2572,
-    "last_run_count": 67,
+    "total_papers": 2575,
+    "last_run_count": 32,
     "sources": {
       "PubMed": 224,
       "arXiv": 1826,
-      "bioRxiv": 344,
-      "medRxiv": 178
+      "bioRxiv": 346,
+      "medRxiv": 179
     },
     "categories": {
       "clinical_application": 190,
       "dataset": 278,
-      "foundation_model": 1165,
-      "general": 77,
-      "methods": 862
+      "foundation_model": 1166,
+      "general": 78,
+      "methods": 863
     },
     "topics": {
       "application_monitoring": 26,
       "data_fair_training": 2,
-      "foundation_model_agent": 1734,
+      "foundation_model_agent": 1736,
       "pathogenomics": 109,
       "sequencing_bioinformatics": 76
     },
@@ -32,7 +32,7 @@
       "2023": 1,
       "2024": 18,
       "2025": 270,
-      "2026": 2282
+      "2026": 2285
     }
   },
   "indexes": {
@@ -2435,6 +2435,8 @@
         "doi:10.64898/2026.06.26.734691",
         "doi:10.64898/2026.06.28.734975",
         "doi:10.64898/2026.06.28.735128",
+        "doi:10.64898/2026.06.29.734828",
+        "doi:10.64898/2026.06.29.735296",
         "doi:10.64898/2026.06.29.735386"
       ],
       "medRxiv": [
@@ -2615,7 +2617,8 @@
         "doi:10.64898/2026.06.26.26356656",
         "doi:10.64898/2026.06.26.26356718",
         "doi:10.64898/2026.06.29.26356890",
-        "doi:10.64898/2026.06.29.26356899"
+        "doi:10.64898/2026.06.29.26356899",
+        "doi:10.64898/2026.07.01.26356995"
       ]
     },
     "by_category": {
@@ -4256,6 +4259,7 @@
         "doi:10.64898/2026.06.25.26356522",
         "doi:10.64898/2026.06.26.26356656",
         "doi:10.64898/2026.06.29.26356890",
+        "doi:10.64898/2026.06.29.735296",
         "doi:10.64898/2026.06.29.735386"
       ],
       "general": [
@@ -4335,7 +4339,8 @@
         "doi:10.64898/2026.03.11.710906",
         "doi:10.64898/2026.04.20.719735",
         "doi:10.64898/2026.05.19.726202",
-        "doi:10.64898/2026.06.23.26356399"
+        "doi:10.64898/2026.06.23.26356399",
+        "doi:10.64898/2026.07.01.26356995"
       ],
       "methods": [
         "arxiv_id:2407.04573v4",
@@ -5199,7 +5204,8 @@
         "doi:10.64898/2026.06.26.26356718",
         "doi:10.64898/2026.06.26.734691",
         "doi:10.64898/2026.06.28.735128",
-        "doi:10.64898/2026.06.29.26356899"
+        "doi:10.64898/2026.06.29.26356899",
+        "doi:10.64898/2026.06.29.734828"
       ]
     },
     "by_topic": {
@@ -6969,6 +6975,8 @@
         "doi:10.64898/2026.06.28.735128",
         "doi:10.64898/2026.06.29.26356890",
         "doi:10.64898/2026.06.29.26356899",
+        "doi:10.64898/2026.06.29.735296",
+        "doi:10.64898/2026.07.01.26356995",
         "doi:10.7759/cureus.109744"
       ],
       "pathogenomics": [
@@ -9740,7 +9748,10 @@
         "doi:10.64898/2026.06.28.735128",
         "doi:10.64898/2026.06.29.26356890",
         "doi:10.64898/2026.06.29.26356899",
+        "doi:10.64898/2026.06.29.734828",
+        "doi:10.64898/2026.06.29.735296",
         "doi:10.64898/2026.06.29.735386",
+        "doi:10.64898/2026.07.01.26356995",
         "doi:10.7759/cureus.109744",
         "pubmed_id:42286906"
       ]
@@ -11496,36 +11507,6 @@
       "notes": [],
       "status": "active"
     },
-    "doi:10.64898/2026.06.28.735128": {
-      "paper_id": "doi:10.64898/2026.06.28.735128",
-      "title": "StructureSAFE: A structure-aware chemical language model for unified hit identification and lead optimization",
-      "source": "bioRxiv",
-      "date": "2026-07-02T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735128v1",
-      "abstract": "Structure-based generative models (SBGMs) hold great promises for accelerating drug discovery by enabling target-aware molecular design. However, existing approaches face fundamental challenges: three-dimensional graph-based models can explicitly incorporate protein structural information but often generate chemically implausible molecules due to limited training data, while chemical language models (CLMs) produce chemically plausible molecules but struggle to effectively leverage three-dimensional structural information for structure-conditioned generation and hard to incorporate lead optimization functionality due to the nature of SMILES string. Here, we present StructureSAFE, a structure-aware chemical language model that resolves this trade-off by integrating protein structural and evolutionary encoders with the SAFE molecular representation via pretraining and finetuning training scheme, enabling both de novo hit identification and a comprehensive suite of lead optimization subtasks within a unified framework. Comprehensive benchmarking on the MolGenBench dataset demonstrates that StructureSAFE achieves state-of-the-art (SOTA) performance across multiple metrics, with particularly pronounced improvements in chemical plausibility relative to graph-based models lacking pretraining. Evaluation on a rigorously constructed held-out test set further confirms its ability to generate drug-like, synthetically accessible molecules with competitive predicted binding affinities for previously unseen targets on both hit identification and lead optimization setting. In silico case studies across four therapeutically relevant targets validate its capacity to generate chemically plausible molecules that recapitulate key binding interactions of known high-affinity ligands while proposing novel interactions for potential better affinity and exploring previously unknown regions of chemical space. Taking together, StructureSAFE represents a versatile and practical tool to provide high-quality candidate molecules for augmenting medicinal chemistry workflows in both hit identification and lead optimization campaigns.",
-      "abstract_zh": "",
-      "abstract_short": "Structure-based generative models (SBGMs) hold great promises for accelerating drug discovery by enabling target-aware molecular design. However, existing approaches face fundamental challenges: three-dimensional graph-based models can explicitly incorporate protein structural information but often generate chemically implausible molecules due to limited training data, while chemical language mode",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 7.15,
-      "novelty_score": 6.75,
-      "importance_score": 7.01,
-      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
-      "analysis_zh": "",
-      "category": "methods",
-      "doi": "10.64898/2026.06.28.735128",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "content_hash": "85160b6100aa51816bc1a5ddd95dc7fc496edd9643c0608a3dac758a1898a434",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
     "doi:10.64898/2026.04.14.26350677": {
       "paper_id": "doi:10.64898/2026.04.14.26350677",
       "title": "A Blinded Comparative Evaluation of Clinical and AI-Generated Responses to Otologic Patient Queries",
@@ -13213,6 +13194,36 @@
       "content_hash": "f71bc39e71af1974f20d6541573e97caf0e7e0f35abb19552749995c4a5ae2e7",
       "first_seen_at": "2026-06-06T05:02:53.562272+00:00",
       "last_seen_at": "2026-06-06T05:02:53.562272+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.06.29.735296": {
+      "paper_id": "doi:10.64898/2026.06.29.735296",
+      "title": "RD-OMICS: An Integrative Multi-Omics Data Inventory in Rare Diseases",
+      "source": "bioRxiv",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735296v1",
+      "abstract": "Rare diseases (RD) impact over 30 million individuals in the United States, yet fewer than 5% of the identified conditions have FDA-approved treatments. Progress in RD research is hindered by small patient cohorts, biological heterogeneity, and the fragmented, inconsistently annotated publicly available omics data, which limits integrative analysis and translational discovery. Here, we present RD-OMICS, a data inventory with integrated and structured RD omics data from Gene Expression Omnibus (GEO), in the form of a knowledge graph. We developed a metadata harmonization pipeline that combines rule-based mapping and large language model (LLM)-assisted semantic categorization. The graph-based data model was defined to integrate different types of data including disease conditions, experiments, samples, platforms, projects, and publications into a centralized inventory graph. In this preliminary study, 11,049 GEO series for 126 rare diseases were processed and integrated into RD-OMICS, which includes 375,930 individual biospecimen samples, 1,578 sequencing and array platforms, 10,938 biological projects. Case studies demonstrate the use of RD-OMICS in supporting rare disease research, omics cohort construction, and transcriptome-based drug repurposing for amyotrophic lateral sclerosis (ALS). RD-OMICS provides a scalable foundation for transforming fragmented omics data into a structured, harmonized and interoperable resource, facilitating therapeutic development and other translational discoveries in rare diseases.",
+      "abstract_zh": "",
+      "abstract_short": "Rare diseases (RD) impact over 30 million individuals in the United States, yet fewer than 5% of the identified conditions have FDA-approved treatments. Progress in RD research is hindered by small patient cohorts, biological heterogeneity, and the fragmented, inconsistently annotated publicly available omics data, which limits integrative analysis and translational discovery. Here, we present RD-",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.15,
+      "novelty_score": 5.75,
+      "importance_score": 6.66,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.06.29.735296",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "89901682e6079e45b54c3e88cd8053916dd32db09b4a71f9e0449e9804e441b1",
+      "first_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -16073,8 +16084,8 @@
       "pubmed_id": "",
       "content_hash": "fcd505494c1a7030ac16b722b0a981816bfe8da4c7c5e29640f29207119d8806",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -16585,36 +16596,6 @@
       "content_hash": "fd3f38cf043f62e72702590b1ffed6c26a0fa218ce5d347fe0ae37621eac9c9e",
       "first_seen_at": "2026-06-14T06:02:15.275108+00:00",
       "last_seen_at": "2026-06-14T06:02:15.275108+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1039/d6sc01486k": {
-      "paper_id": "doi:10.1039/d6sc01486k",
-      "title": "Rethinking peptide developability with sequence-only models: interpretable screening of microplastic-binding peptides with gated query pooling.",
-      "source": "PubMed",
-      "date": "2026-07-02T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42232867/",
-      "abstract": "Designing peptides for microplastic targeting is intrinsically multi-objective: sequence motifs that promote adsorption to hydrophobic polymers frequently elevate developability risks, including hemolysis, non-specific adsorption, and poor aqueous solubility. In this paper, we show that accurate developability screening can be achieved from sequence alone by focusing on the readout that converts token-level foundation model representations into peptide-level decisions. We introduce gated query pooling (GQP), a lightweight, backbone-agnostic evidence-selection head that learns a small set of query vectors to extract complementary signals from protein language model embeddings and gates them adaptively per peptide. With a consistent evaluation protocol and identical splits for all methods, GQP with sequence-only backbones reaches 91.09%, 86.30%, and 75.56% accuracy on hemolysis, non-fouling, and solubility, respectively, outperforming representative sequence-only and AlphaFold-augmented Multi-Peptide baselines. Beyond predictive accuracy, attention diagnostics and controlled counterfactual substitutions enable residue-level, testable design rules that connect model outputs to actionable sequence edits. Finally, integrating these developability constraints with PepBD-derived affinity scores for polyethylene, polypropylene, and polyethylene terephthalate supports scalable multi-objective prioritization of microplastic-binding candidates and reveals non-fouling as a dominant feasibility bottleneck, with coarse-grained molecular dynamics triage providing complementary physical evidence supporting the plausibility of the PepBD-prioritized selections.",
-      "abstract_zh": "",
-      "abstract_short": "Designing peptides for microplastic targeting is intrinsically multi-objective: sequence motifs that promote adsorption to hydrophobic polymers frequently elevate developability risks, including hemolysis, non-specific adsorption, and poor aqueous solubility. In this paper, we show that accurate developability screening can be achieved from sequence alone by focusing on the readout that converts t",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 6.45,
-      "novelty_score": 6.0,
-      "importance_score": 6.292,
-      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
-      "analysis_zh": "",
-      "category": "foundation_model",
-      "doi": "10.1039/d6sc01486k",
-      "arxiv_id": "",
-      "pubmed_id": "42232867",
-      "content_hash": "3eda186c11bc9383c3fdbb574c25cb22e9988996f56e46ebd8e4fd5221d4599b",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -18329,36 +18310,6 @@
       "content_hash": "44dd5370f9997d671273fac24452b0624778e685ae2d6d8f943e9c606d5e7ca8",
       "first_seen_at": "2026-06-16T06:41:32.710199+00:00",
       "last_seen_at": "2026-06-16T06:41:32.710199+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1038/s44386-026-00052-7": {
-      "paper_id": "doi:10.1038/s44386-026-00052-7",
-      "title": "Efficient and valid large molecule generation via self-supervised generative models.",
-      "source": "PubMed",
-      "date": "2026-07-03T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42399464/",
-      "abstract": "The realm of molecular design, particularly for large molecules, presents unique challenges and opportunities in drug discovery and materials science. Large molecule design is inherently more complex and less explored compared to designing small molecules, adding significant difficulty in generative modeling. We aim to establish strong baselines for better scalability, efficiency, and generative performance in this domain. We evaluate the scalability and performance of generative AI models, initially effective for small molecule design, in generating large molecules for potential drugs in gene-based therapies, immunotherapies, hormonal regulators, and targeted cancer therapies. Our findings indicate that computational strategies and model architectures designed for small molecules may not readily extend to large molecular structures. To address these limitations, we explore masked language modeling strategies alongside advanced tokenization methods, including Atom-Pair Encoding (APE), to enhance generative AI models. We probe how incorporating such strategies, particularly the APE tokenization method that explicitly captures structural and chemical characteristics, can significantly improve design capabilities for complex molecular structures. Overall, our results demonstrate both the potential and challenges of deep generative modeling for large molecules and how the proposed enhancements may bridge the gap in generating large molecules when novel discovery is the ultimate goal.",
-      "abstract_zh": "",
-      "abstract_short": "The realm of molecular design, particularly for large molecules, presents unique challenges and opportunities in drug discovery and materials science. Large molecule design is inherently more complex and less explored compared to designing small molecules, adding significant difficulty in generative modeling. We aim to establish strong baselines for better scalability, efficiency, and generative p",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 6.45,
-      "novelty_score": 5.5,
-      "importance_score": 6.117,
-      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
-      "analysis_zh": "",
-      "category": "methods",
-      "doi": "10.1038/s44386-026-00052-7",
-      "arxiv_id": "",
-      "pubmed_id": "42399464",
-      "content_hash": "4683ce23ef06cdf55f07a7fecc7c1a05e597122ccac6e91dc113d296c42cba0a",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -22063,66 +22014,6 @@
       "content_hash": "1d21876033522d448f672f49a7085b6b14844e8579aefb5cbe6fdfa8a6da930d",
       "first_seen_at": "2026-06-29T06:02:07.714919+00:00",
       "last_seen_at": "2026-06-29T06:02:07.714919+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1093/bib/bbag349": {
-      "paper_id": "doi:10.1093/bib/bbag349",
-      "title": "EssTFNet: integration of adaptive time-frequency and DNA language models for interpretable human essential gene prediction.",
-      "source": "PubMed",
-      "date": "2026-07-03T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42398069/",
-      "abstract": "Essential genes are defined as indispensable for an organism's survival. The loss of function of these genes results in cell death or an inability to complete the normal life cycle. Research on essential genes is pivotal in elucidating the origin and evolution of life, as well as in identifying potential therapeutic targets. Therefore, predicting essential genes is of great scientific importance and has many applications in basic research and the biomedical field. In this study, we propose EssTFNet, a novel, interpretable deep learning framework that combines adaptive time-frequency analysis with a DNA language model to achieve accurate prediction of human essential genes while enabling mechanistic biological interpretation. EssTFNet leverages the architecture of ATFNet, which maps DNA and protein sequences into equivalent time-series signals to extract periodic and nonstationary features, enhancing the model's capacity to capture complex sequence patterns. Through feature selection and architectural optimization, EssTFNet achieves a favorable balance among prediction accuracy, model interpretability, and cross-tissue generalization. On the S1 benchmark task, EssTFNet outperformed mainstream sequence-based deep learning methods, achieving an area under the curve of 0.9679 and an area under the precision-recall curve of 0.8491. Additionally, the DeepLIFT attribution method was employed to identify functional motifs associated with gene essentiality, offering valuable insights for experimental validation. For the convenience of researchers, we have developed an easy-to-use web server and made it along with the source code in a GitHub repository: https://github.com/QIANJINYDX/EssTFNet. Overall, this study presents a potentially useful methodological framework for human essential genes prediction, which could provide valuable insights for future research and applications in this field.",
-      "abstract_zh": "",
-      "abstract_short": "Essential genes are defined as indispensable for an organism's survival. The loss of function of these genes results in cell death or an inability to complete the normal life cycle. Research on essential genes is pivotal in elucidating the origin and evolution of life, as well as in identifying potential therapeutic targets. Therefore, predicting essential genes is of great scientific importance a",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 5.75,
-      "novelty_score": 5.75,
-      "importance_score": 5.75,
-      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
-      "analysis_zh": "",
-      "category": "methods",
-      "doi": "10.1093/bib/bbag349",
-      "arxiv_id": "",
-      "pubmed_id": "42398069",
-      "content_hash": "ad2dd773d5c9be954b219f707bc1f857f2a870c89c424a128de2422b130a779f",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1109/tcbbio.2026.3710090": {
-      "paper_id": "doi:10.1109/tcbbio.2026.3710090",
-      "title": "Improving Cancer Driver Gene Prediction using Biological knowledge-guided Prompts for LLM.",
-      "source": "PubMed",
-      "date": "2026-07-03T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42397991/",
-      "abstract": "Accurately identifying cancer driver genes is crucial for understanding cancer and developing therapies. However, challenges such as limited sample sizes and insufficient differentiation of gene characteristics hinder current approaches. Large language models (LLMs) possess a wealth of biomedical knowledge offering the potential to enhance gene representations. However, effectively integrating LLMs into cancer driver gene prediction requires careful prompt engineering and multiomics fusion strategies. This study introduces a novel framework, called Bioprompt, that leverages biological knowledge-guided prompts for LLM to improve cancer driver gene identification. We utilize Gene Ontology(GO) information to guide the design of prompts for LLMs, enabling them to generate relevant gene semantic representations. Semantic representations are then encoded through a text encoder and a variational autoencoder. Subsequently, we integrate these LLM-derived gene semantic features with existing model-generated gene features via contrastive learning. Finally, a logistic regression model is employed to combine these two feature types for the identification of cancer driver genes. Validation on pancancer and 15 individual cancer datasets shows improvement over existing models. Ablation studies confirm the critical role of GO-guided prompts in generating valuable gene semantic information. Independent test set tests have demonstrated the generalization ability of our method. Furthermore, by analyzing the gene functional vocabulary generated by the LLM, we gain valuable insights into cancer related gene functions and new perspectives on cancer mechanisms.",
-      "abstract_zh": "",
-      "abstract_short": "Accurately identifying cancer driver genes is crucial for understanding cancer and developing therapies. However, challenges such as limited sample sizes and insufficient differentiation of gene characteristics hinder current approaches. Large language models (LLMs) possess a wealth of biomedical knowledge offering the potential to enhance gene representations. However, effectively integrating LLM",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 5.75,
-      "novelty_score": 5.75,
-      "importance_score": 5.75,
-      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
-      "analysis_zh": "",
-      "category": "methods",
-      "doi": "10.1109/tcbbio.2026.3710090",
-      "arxiv_id": "",
-      "pubmed_id": "42397991",
-      "content_hash": "19bff77d39f35c332deb64fc8dc28ba7300a81f119ff00455027d24d90bb1b46",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -28915,6 +28806,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.06.28.735128": {
+      "paper_id": "doi:10.64898/2026.06.28.735128",
+      "title": "StructureSAFE: A structure-aware chemical language model for unified hit identification and lead optimization",
+      "source": "bioRxiv",
+      "date": "2026-07-02T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735128v1",
+      "abstract": "Structure-based generative models (SBGMs) hold great promises for accelerating drug discovery by enabling target-aware molecular design. However, existing approaches face fundamental challenges: three-dimensional graph-based models can explicitly incorporate protein structural information but often generate chemically implausible molecules due to limited training data, while chemical language models (CLMs) produce chemically plausible molecules but struggle to effectively leverage three-dimensional structural information for structure-conditioned generation and hard to incorporate lead optimization functionality due to the nature of SMILES string. Here, we present StructureSAFE, a structure-aware chemical language model that resolves this trade-off by integrating protein structural and evolutionary encoders with the SAFE molecular representation via pretraining and finetuning training scheme, enabling both de novo hit identification and a comprehensive suite of lead optimization subtasks within a unified framework. Comprehensive benchmarking on the MolGenBench dataset demonstrates that StructureSAFE achieves state-of-the-art (SOTA) performance across multiple metrics, with particularly pronounced improvements in chemical plausibility relative to graph-based models lacking pretraining. Evaluation on a rigorously constructed held-out test set further confirms its ability to generate drug-like, synthetically accessible molecules with competitive predicted binding affinities for previously unseen targets on both hit identification and lead optimization setting. In silico case studies across four therapeutically relevant targets validate its capacity to generate chemically plausible molecules that recapitulate key binding interactions of known high-affinity ligands while proposing novel interactions for potential better affinity and exploring previously unknown regions of chemical space. Taking together, StructureSAFE represents a versatile and practical tool to provide high-quality candidate molecules for augmenting medicinal chemistry workflows in both hit identification and lead optimization campaigns.",
+      "abstract_zh": "",
+      "abstract_short": "Structure-based generative models (SBGMs) hold great promises for accelerating drug discovery by enabling target-aware molecular design. However, existing approaches face fundamental challenges: three-dimensional graph-based models can explicitly incorporate protein structural information but often generate chemically implausible molecules due to limited training data, while chemical language mode",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.15,
+      "novelty_score": 1.75,
+      "importance_score": 5.26,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.06.28.735128",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "85160b6100aa51816bc1a5ddd95dc7fc496edd9643c0608a3dac758a1898a434",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
     "doi:10.64898/2026.03.05.26347717": {
       "paper_id": "doi:10.64898/2026.03.05.26347717",
       "title": "OncoRAG: Graph-Based Retrieval Enabling Clinical Phenotyping from Oncology Notes Using Local Mid-Size Language Models",
@@ -34986,6 +34907,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.07.01.26356995": {
+      "paper_id": "doi:10.64898/2026.07.01.26356995",
+      "title": "Comparing Artificial Intelligence versus Human Screening in Systematic Reviews",
+      "source": "medRxiv",
+      "date": "2026-07-02T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26356995v1",
+      "abstract": "IntroductionSystematic reviews are essential for informing health policy and practice. Artificial intelligence (AI) automates the article screening process and produces time savings, although the performance of AI screening compared to traditional human screening remains uncertain. We undertook this study to compare the performance of two agentic AI tools, namely Loon LensTM and Catchii, to one another and to humans at the title and abstract screening level. We also compared Loon Lens to humans at the full-text screening level. MethodsWe developed a de novo research question on the association between any of three ambient air pollutants - carbon monoxide, ozone, nitrogen dioxide - and the onset or worsening of Parkinsons disease. A health sciences librarian developed the literature search strategy and we proceded with human screening guided by PRISMA. We uploaded the retrieved citations and the eligibility criteria to both AI tools and compared screening results using sensitivity, specificity, positive predictive value, negative predictive value, concordance, kappa, and F1 score. We compared the calculated performance statistics to those obtained by naive guessing and regressed concordance (agree or disagree with the human reference standard) onto confidence scores provided by Loon Lens, which assigned a confidence level ( Very High, High, Medium, or Low) to each of its screening decisions. Human screening was the reference standard against both AI tools; Catchii was the reference standard against Loon Lens. ResultsAt title and abstract screening, Loon Lens outperformed Catchii when humans were the reference standard. At full-text screening, most disagreements centered around articles Loon Lens included and humans excluded. At both screening levels, higher confidence scores were associated with lower odds of disagreement between Loon Lens and human screeners. DiscussionGiven the panoply of available AI screening tools and their differential performance, plus the rapidly evolving nature of AI technology, researchers should pilot test their chosen tool at the start of each review. Sensitivity, kappa, and F1 are the optimal performance statistics to employ, especially at title and abstract screening, where the imbalance between proportions of included and excluded citations can inflate concordance and negative predictive value. What is new?O_ST_ABSKey findingsC_ST_ABSO_LIStrongest screening agreement seen among excluded articles C_LIO_LIAbstract wording affects AI tools performance C_LIO_LIModel instructions and wording of eligibility criteria also affect performance C_LI What this adds to what is known?O_LIUp-to-date evidence comparing the performance of two AI tools to one another and humans at title/abstract and full-text screening C_LI What is the implication?O_LIAI tools should be pilot tested at the outset of any review C_LI Plain Language SummarySystematic reviews help health practitioners and policy makers decide on courses of action. However, these reviews can take a long time to finish. We wanted to know whether artificial intelligence (AI) tools can replace humans when reviewing hundreds or thousands of research papers for inclusion in systematic reviews (a practice called screening). We compared two AI tools, Loon Lens and Catchii, to human screeners in the area of exposure to three air pollutants (carbon monoxide, ozone, or nitrogen dioxide) and occurrence of Parkinsons disease. At title-and-abstract screening, the two AI tools had the strongest agreement with each other and with human screeners for papers that were not relevant. Loon Lens generally outperformed Catchii when both AI tools were compared to humans. At full-text screening, disagreements mainly happened when Loon Lens included a paper that humans decided to exclude. Loon Lens assigned each screening decision a confidence level (Very High, High, Medium, Low): the higher the confidence level, the less often Loon Lens disagreed with humans. Overall, AI can serve alongside human screeners, though it is not ready to replace them yet. Researchers should test their chosen AI tool when starting a review. This will help them get the best performance out of their tool.",
+      "abstract_zh": "",
+      "abstract_short": "IntroductionSystematic reviews are essential for informing health policy and practice. Artificial intelligence (AI) automates the article screening process and produces time savings, although the performance of AI screening compared to traditional human screening remains uncertain. We undertook this study to compare the performance of two agentic AI tools, namely Loon LensTM and Catchii, to one an",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 4.75,
+      "novelty_score": 5.25,
+      "importance_score": 4.925,
+      "why_it_matters": "medRxiv 上的新论文与 foundation_model_agent 相关，可用于补充你当前的病原检测与模型监控视角。",
+      "analysis_zh": "",
+      "category": "general",
+      "doi": "10.64898/2026.07.01.26356995",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "29ba40792e2a4e9718dd13385aa4c51186c32cb42436501bcc14e60f27220dd3",
+      "first_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2509.20702v2": {
       "paper_id": "arxiv_id:2509.20702v2",
       "title": "Incorporating LLM Embeddings for Variation Across the Human Genome",
@@ -37774,8 +37725,8 @@
       "pubmed_id": "",
       "content_hash": "8068089afe7feffc0fc3c6070c893eca531574ab34248df956dc0e78c377c591",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -38857,8 +38808,8 @@
       "pubmed_id": "",
       "content_hash": "fefa098b0b494712b5e52db6d33075897d3dd7a9e5223f32b27b15771452865b",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -40540,6 +40491,36 @@
       "content_hash": "c28093d0d2a784994da3e9a83cf23ef34d9d1e0997b748617ff7a9ddd53b99fd",
       "first_seen_at": "2026-06-27T05:01:42.453420+00:00",
       "last_seen_at": "2026-06-28T05:42:24.071692+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1039/d6sc01486k": {
+      "paper_id": "doi:10.1039/d6sc01486k",
+      "title": "Rethinking peptide developability with sequence-only models: interpretable screening of microplastic-binding peptides with gated query pooling.",
+      "source": "PubMed",
+      "date": "2026-07-02T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42232867/",
+      "abstract": "Designing peptides for microplastic targeting is intrinsically multi-objective: sequence motifs that promote adsorption to hydrophobic polymers frequently elevate developability risks, including hemolysis, non-specific adsorption, and poor aqueous solubility. In this paper, we show that accurate developability screening can be achieved from sequence alone by focusing on the readout that converts token-level foundation model representations into peptide-level decisions. We introduce gated query pooling (GQP), a lightweight, backbone-agnostic evidence-selection head that learns a small set of query vectors to extract complementary signals from protein language model embeddings and gates them adaptively per peptide. With a consistent evaluation protocol and identical splits for all methods, GQP with sequence-only backbones reaches 91.09%, 86.30%, and 75.56% accuracy on hemolysis, non-fouling, and solubility, respectively, outperforming representative sequence-only and AlphaFold-augmented Multi-Peptide baselines. Beyond predictive accuracy, attention diagnostics and controlled counterfactual substitutions enable residue-level, testable design rules that connect model outputs to actionable sequence edits. Finally, integrating these developability constraints with PepBD-derived affinity scores for polyethylene, polypropylene, and polyethylene terephthalate supports scalable multi-objective prioritization of microplastic-binding candidates and reveals non-fouling as a dominant feasibility bottleneck, with coarse-grained molecular dynamics triage providing complementary physical evidence supporting the plausibility of the PepBD-prioritized selections.",
+      "abstract_zh": "",
+      "abstract_short": "Designing peptides for microplastic targeting is intrinsically multi-objective: sequence motifs that promote adsorption to hydrophobic polymers frequently elevate developability risks, including hemolysis, non-specific adsorption, and poor aqueous solubility. In this paper, we show that accurate developability screening can be achieved from sequence alone by focusing on the readout that converts t",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 1.0,
+      "importance_score": 4.542,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.1039/d6sc01486k",
+      "arxiv_id": "",
+      "pubmed_id": "42232867",
+      "content_hash": "3eda186c11bc9383c3fdbb574c25cb22e9988996f56e46ebd8e4fd5221d4599b",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
       "times_seen": 2,
       "notes": [],
       "status": "active"
@@ -42920,6 +42901,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1038/s44386-026-00052-7": {
+      "paper_id": "doi:10.1038/s44386-026-00052-7",
+      "title": "Efficient and valid large molecule generation via self-supervised generative models.",
+      "source": "PubMed",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399464/",
+      "abstract": "The realm of molecular design, particularly for large molecules, presents unique challenges and opportunities in drug discovery and materials science. Large molecule design is inherently more complex and less explored compared to designing small molecules, adding significant difficulty in generative modeling. We aim to establish strong baselines for better scalability, efficiency, and generative performance in this domain. We evaluate the scalability and performance of generative AI models, initially effective for small molecule design, in generating large molecules for potential drugs in gene-based therapies, immunotherapies, hormonal regulators, and targeted cancer therapies. Our findings indicate that computational strategies and model architectures designed for small molecules may not readily extend to large molecular structures. To address these limitations, we explore masked language modeling strategies alongside advanced tokenization methods, including Atom-Pair Encoding (APE), to enhance generative AI models. We probe how incorporating such strategies, particularly the APE tokenization method that explicitly captures structural and chemical characteristics, can significantly improve design capabilities for complex molecular structures. Overall, our results demonstrate both the potential and challenges of deep generative modeling for large molecules and how the proposed enhancements may bridge the gap in generating large molecules when novel discovery is the ultimate goal.",
+      "abstract_zh": "",
+      "abstract_short": "The realm of molecular design, particularly for large molecules, presents unique challenges and opportunities in drug discovery and materials science. Large molecule design is inherently more complex and less explored compared to designing small molecules, adding significant difficulty in generative modeling. We aim to establish strong baselines for better scalability, efficiency, and generative p",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 0.5,
+      "importance_score": 4.367,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1038/s44386-026-00052-7",
+      "arxiv_id": "",
+      "pubmed_id": "42399464",
+      "content_hash": "4683ce23ef06cdf55f07a7fecc7c1a05e597122ccac6e91dc113d296c42cba0a",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
     "doi:10.64898/2026.05.30.728937": {
       "paper_id": "doi:10.64898/2026.05.30.728937",
       "title": "SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology",
@@ -44507,8 +44518,8 @@
       "pubmed_id": "",
       "content_hash": "97829ec5268cbebaad7cb1adafbdd120df90097358af0f45db04de5c8fe1485c",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -44718,37 +44729,6 @@
       "first_seen_at": "2026-06-05T05:46:36.116949+00:00",
       "last_seen_at": "2026-06-06T05:02:53.562272+00:00",
       "times_seen": 2,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1080/14737159.2026.2697900": {
-      "paper_id": "doi:10.1080/14737159.2026.2697900",
-      "title": "Artificial intelligence in molecular diagnostics for pandemic preparedness.",
-      "source": "PubMed",
-      "date": "2026-07-03T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42396845/",
-      "abstract": "Molecular diagnostics focusing on the detection and analysis of nucleic acids, are indispensable tools for early pathogen identification, transmission monitoring, and genomic surveillance during pandemics. Recent technological advances have broadened the diagnostic landscape, incorporating PCR-based methods, isothermal amplification, high- CRISPR-based amplification detection and sequencing. Despite their diagnostic potential, widespread implementation remains limited by high validation costs, time and logistical constraints, the need for specialized professional knowledge and a lack of adaptability in resource-limited settings. Artificial Intelligence (AI) is increasingly recognized as a promising but challenging approach, offering tools that streamline assay development, automate data interpretation, and optimize real-time diagnostic performance. This review introduces recently published AI tools with potential to enhance the in-silico design validation process of oligonucleotides for molecular assays. These cover tools for initial assay design and optimization to validation and continuous assay updates. The limitations, including concerns regarding data accuracy, the lack of transparency in data processing ('black box' models), and unresolved licensing and regulatory issues are highlighted for each tool and as expert opinion. Collectively, these challenges currently confine most AI-based approaches to research settings and prevent their routine implementation in clinical molecular diagnostics. Their widespread adoption depends on addressing remaining technical, regulatory, and practical challenges.",
-      "abstract_zh": "",
-      "abstract_short": "Molecular diagnostics focusing on the detection and analysis of nucleic acids, are indispensable tools for early pathogen identification, transmission monitoring, and genomic surveillance during pandemics. Recent technological advances have broadened the diagnostic landscape, incorporating PCR-based methods, isothermal amplification, high- CRISPR-based amplification detection and sequencing. Despi",
-      "matched_topics": [
-        "pathogenomics",
-        "sequencing_bioinformatics"
-      ],
-      "topic_count": 2,
-      "relevance_score": 3.65,
-      "novelty_score": 5.25,
-      "importance_score": 4.21,
-      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
-      "analysis_zh": "",
-      "category": "clinical_application",
-      "doi": "10.1080/14737159.2026.2697900",
-      "arxiv_id": "",
-      "pubmed_id": "42396845",
-      "content_hash": "7aa99b562eca5fe109cd3197070066829558886ebaa0afc47644641ccbc4a499",
-      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 1,
       "notes": [],
       "status": "active"
     },
@@ -47837,6 +47817,66 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1093/bib/bbag349": {
+      "paper_id": "doi:10.1093/bib/bbag349",
+      "title": "EssTFNet: integration of adaptive time-frequency and DNA language models for interpretable human essential gene prediction.",
+      "source": "PubMed",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398069/",
+      "abstract": "Essential genes are defined as indispensable for an organism's survival. The loss of function of these genes results in cell death or an inability to complete the normal life cycle. Research on essential genes is pivotal in elucidating the origin and evolution of life, as well as in identifying potential therapeutic targets. Therefore, predicting essential genes is of great scientific importance and has many applications in basic research and the biomedical field. In this study, we propose EssTFNet, a novel, interpretable deep learning framework that combines adaptive time-frequency analysis with a DNA language model to achieve accurate prediction of human essential genes while enabling mechanistic biological interpretation. EssTFNet leverages the architecture of ATFNet, which maps DNA and protein sequences into equivalent time-series signals to extract periodic and nonstationary features, enhancing the model's capacity to capture complex sequence patterns. Through feature selection and architectural optimization, EssTFNet achieves a favorable balance among prediction accuracy, model interpretability, and cross-tissue generalization. On the S1 benchmark task, EssTFNet outperformed mainstream sequence-based deep learning methods, achieving an area under the curve of 0.9679 and an area under the precision-recall curve of 0.8491. Additionally, the DeepLIFT attribution method was employed to identify functional motifs associated with gene essentiality, offering valuable insights for experimental validation. For the convenience of researchers, we have developed an easy-to-use web server and made it along with the source code in a GitHub repository: https://github.com/QIANJINYDX/EssTFNet. Overall, this study presents a potentially useful methodological framework for human essential genes prediction, which could provide valuable insights for future research and applications in this field.",
+      "abstract_zh": "",
+      "abstract_short": "Essential genes are defined as indispensable for an organism's survival. The loss of function of these genes results in cell death or an inability to complete the normal life cycle. Research on essential genes is pivotal in elucidating the origin and evolution of life, as well as in identifying potential therapeutic targets. Therefore, predicting essential genes is of great scientific importance a",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.75,
+      "novelty_score": 0.75,
+      "importance_score": 4.0,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1093/bib/bbag349",
+      "arxiv_id": "",
+      "pubmed_id": "42398069",
+      "content_hash": "ad2dd773d5c9be954b219f707bc1f857f2a870c89c424a128de2422b130a779f",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1109/tcbbio.2026.3710090": {
+      "paper_id": "doi:10.1109/tcbbio.2026.3710090",
+      "title": "Improving Cancer Driver Gene Prediction using Biological knowledge-guided Prompts for LLM.",
+      "source": "PubMed",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42397991/",
+      "abstract": "Accurately identifying cancer driver genes is crucial for understanding cancer and developing therapies. However, challenges such as limited sample sizes and insufficient differentiation of gene characteristics hinder current approaches. Large language models (LLMs) possess a wealth of biomedical knowledge offering the potential to enhance gene representations. However, effectively integrating LLMs into cancer driver gene prediction requires careful prompt engineering and multiomics fusion strategies. This study introduces a novel framework, called Bioprompt, that leverages biological knowledge-guided prompts for LLM to improve cancer driver gene identification. We utilize Gene Ontology(GO) information to guide the design of prompts for LLMs, enabling them to generate relevant gene semantic representations. Semantic representations are then encoded through a text encoder and a variational autoencoder. Subsequently, we integrate these LLM-derived gene semantic features with existing model-generated gene features via contrastive learning. Finally, a logistic regression model is employed to combine these two feature types for the identification of cancer driver genes. Validation on pancancer and 15 individual cancer datasets shows improvement over existing models. Ablation studies confirm the critical role of GO-guided prompts in generating valuable gene semantic information. Independent test set tests have demonstrated the generalization ability of our method. Furthermore, by analyzing the gene functional vocabulary generated by the LLM, we gain valuable insights into cancer related gene functions and new perspectives on cancer mechanisms.",
+      "abstract_zh": "",
+      "abstract_short": "Accurately identifying cancer driver genes is crucial for understanding cancer and developing therapies. However, challenges such as limited sample sizes and insufficient differentiation of gene characteristics hinder current approaches. Large language models (LLMs) possess a wealth of biomedical knowledge offering the potential to enhance gene representations. However, effectively integrating LLM",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.75,
+      "novelty_score": 0.75,
+      "importance_score": 4.0,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1109/tcbbio.2026.3710090",
+      "arxiv_id": "",
+      "pubmed_id": "42397991",
+      "content_hash": "19bff77d39f35c332deb64fc8dc28ba7300a81f119ff00455027d24d90bb1b46",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2510.11750v2": {
       "paper_id": "arxiv_id:2510.11750v2",
       "title": "PRISM: Enhancing Protein Inverse Folding through Fine-Grained Retrieval on Structure-Sequence Multimodal Representations",
@@ -48402,8 +48442,8 @@
       "pubmed_id": "",
       "content_hash": "84771e64f7d6bf8a2bb3170b145754137528e1e73e0ca7021b164d584379a017",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -52597,8 +52637,8 @@
       "pubmed_id": "",
       "content_hash": "b1d835e2b16ea00c6aaff690d29e7fccfc80b8d74d3256fd5f5146bcd0effe03",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -52627,8 +52667,8 @@
       "pubmed_id": "",
       "content_hash": "1ea679cddfde8938184c4bcc6c0a83030d8084b17db8c5ba7873247a7e72d285",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -54174,8 +54214,8 @@
       "pubmed_id": "",
       "content_hash": "c72c59aee2e095ce7fcb5c0c6dedf58f2d2ee0d21eb8f0504a14ac681ec99568",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -54954,8 +54994,8 @@
       "pubmed_id": "",
       "content_hash": "0ba8ef158219cad6610d45062612cf54d64afcd33eae74588189d44b32c80fd6",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -60151,6 +60191,34 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.06.29.734828": {
+      "paper_id": "doi:10.64898/2026.06.29.734828",
+      "title": "Multi-modality Graph Representation Learning for Malignant Cell Identification from scRNA-seq using DeepMalignant",
+      "source": "bioRxiv",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.734828v1",
+      "abstract": "Distinguishing malignant from normal cells in single-cell RNA sequencing data remains a critical yet challenging task in cancer genomics. Existing methods often suffer from poor precision, limited generalizability across cancer types, and reduced robustness across different sequencing platforms. We developed DeepMalignant, an unsupervised multimodal graph attention autoencoder for malignant cell identification that jointly integrates gene expression and copy number alteration (CNA) information. We applied DeepMalignant to five datasets covering 26 samples and four cancer types (breast, colorectal, pancreatic, and ovarian cancers), generated by three platforms (10x Genomics, inDrop, and Drop-seq) for benchmarking and compared it with existing state-of-the-art methods including scMalignantFinder, PreCanCell, CopyKAT, ikarus, and Cancer-Finder. DeepMalignant achieved the best overall balance of precision and recall and consistently outperformed the existing methods that used either gene expression or CNA in F1 scores. Ablation studies showed that both CNA-based edge weighting and graph attention aggregation contribute independently to performance, and attribution analysis further indicated that the learned embeddings capture biologically meaningful malignant programs. We further applied DeepMalignant to two ductal carcinoma in situ (DCIS) samples, DCIS2 and DCIS1, that have matched spatial transcriptomics and scRNA-seq data. DeepMalignant identified tumor-enriched regions that were highly consistent with the matched histological image. The downstream cell-cell communications analysis revealed that fibroblast-derived C3 and MIF both directed signaling more toward normal epithelial cells than tumor epithelial cells, demonstrating that accurate tumor-normal cell classification by DeepMalignant enables biologically meaningful interrogation of the tumor microenvironment and revealing how stromal cells differentially communicate with malignant versus normal epithelial populations.",
+      "abstract_zh": "",
+      "abstract_short": "Distinguishing malignant from normal cells in single-cell RNA sequencing data remains a critical yet challenging task in cancer genomics. Existing methods often suffer from poor precision, limited generalizability across cancer types, and reduced robustness across different sequencing platforms. We developed DeepMalignant, an unsupervised multimodal graph attention autoencoder for malignant cell i",
+      "matched_topics": [],
+      "topic_count": 0,
+      "relevance_score": 1.7,
+      "novelty_score": 6.25,
+      "importance_score": 3.292,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.06.29.734828",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "1a4b86996d554889f8389499fb36aa346ece30e60256ed8532a7777bfaac8c1a",
+      "first_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2605.28222v1": {
       "paper_id": "arxiv_id:2605.28222v1",
       "title": "Analyzing Quality-Latency-Resource Trade-offs in a Technical Documentation RAG Assistant Using LoRA Adaptation",
@@ -62470,8 +62538,8 @@
       "pubmed_id": "",
       "content_hash": "c105cd886b69fe380d477639230046744fa5690ab468096bbba32bd81e5143d4",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -69264,6 +69332,37 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1080/14737159.2026.2697900": {
+      "paper_id": "doi:10.1080/14737159.2026.2697900",
+      "title": "Artificial intelligence in molecular diagnostics for pandemic preparedness.",
+      "source": "PubMed",
+      "date": "2026-07-03T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42396845/",
+      "abstract": "Molecular diagnostics focusing on the detection and analysis of nucleic acids, are indispensable tools for early pathogen identification, transmission monitoring, and genomic surveillance during pandemics. Recent technological advances have broadened the diagnostic landscape, incorporating PCR-based methods, isothermal amplification, high- CRISPR-based amplification detection and sequencing. Despite their diagnostic potential, widespread implementation remains limited by high validation costs, time and logistical constraints, the need for specialized professional knowledge and a lack of adaptability in resource-limited settings. Artificial Intelligence (AI) is increasingly recognized as a promising but challenging approach, offering tools that streamline assay development, automate data interpretation, and optimize real-time diagnostic performance. This review introduces recently published AI tools with potential to enhance the in-silico design validation process of oligonucleotides for molecular assays. These cover tools for initial assay design and optimization to validation and continuous assay updates. The limitations, including concerns regarding data accuracy, the lack of transparency in data processing ('black box' models), and unresolved licensing and regulatory issues are highlighted for each tool and as expert opinion. Collectively, these challenges currently confine most AI-based approaches to research settings and prevent their routine implementation in clinical molecular diagnostics. Their widespread adoption depends on addressing remaining technical, regulatory, and practical challenges.",
+      "abstract_zh": "",
+      "abstract_short": "Molecular diagnostics focusing on the detection and analysis of nucleic acids, are indispensable tools for early pathogen identification, transmission monitoring, and genomic surveillance during pandemics. Recent technological advances have broadened the diagnostic landscape, incorporating PCR-based methods, isothermal amplification, high- CRISPR-based amplification detection and sequencing. Despi",
+      "matched_topics": [
+        "pathogenomics",
+        "sequencing_bioinformatics"
+      ],
+      "topic_count": 2,
+      "relevance_score": 3.65,
+      "novelty_score": 0.25,
+      "importance_score": 2.46,
+      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
+      "analysis_zh": "",
+      "category": "clinical_application",
+      "doi": "10.1080/14737159.2026.2697900",
+      "arxiv_id": "",
+      "pubmed_id": "42396845",
+      "content_hash": "7aa99b562eca5fe109cd3197070066829558886ebaa0afc47644641ccbc4a499",
+      "first_seen_at": "2026-07-04T04:45:55.722359+00:00",
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2605.28112v1": {
       "paper_id": "arxiv_id:2605.28112v1",
       "title": "A Wolf in Sheep's Clothing: Targeted Routing Hijacking in Federated RAG",
@@ -71499,8 +71598,8 @@
       "pubmed_id": "",
       "content_hash": "3ec4d42057547f3369a47b388090b1a2074074aeb7fff4d813563705e2ec67df",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -73238,8 +73337,8 @@
       "pubmed_id": "42001688",
       "content_hash": "8746e3a3fb12110a64d9d5acab885daec5744d95c49b28139aa4eac2a611447e",
       "first_seen_at": "2026-07-02T05:07:44.333548+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 3,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 4,
       "notes": [],
       "status": "active"
     },
@@ -74648,8 +74747,8 @@
       "pubmed_id": "",
       "content_hash": "a2a2c799aa67dd0a8073ecb2641b95a8ee235cda7f3cccdd05186a6239400ee0",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -74676,8 +74775,8 @@
       "pubmed_id": "",
       "content_hash": "2b0876bb30c0925875bdb2278e1d0e5189adacae56aa4e229b0c7144b6c4d45b",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -76018,8 +76117,8 @@
       "pubmed_id": "",
       "content_hash": "085800f54c7188c25b719049a3b903796f4465429233ca612558b3d252cf8bb4",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -76858,8 +76957,8 @@
       "pubmed_id": "",
       "content_hash": "d917a68da5ff8c187a751a038fcebad072400aba374c858b0721ea4421306574",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -76942,8 +77041,8 @@
       "pubmed_id": "",
       "content_hash": "ce3e739052cdc4e1fb8f261c67c574fd844a705a01ee074e6f3b0ade3f298078",
       "first_seen_at": "2026-07-01T05:50:29.148948+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 4,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 5,
       "notes": [],
       "status": "active"
     },
@@ -76970,8 +77069,8 @@
       "pubmed_id": "42296962",
       "content_hash": "247bfc3fd9d22c907d55eae305d9ab1e0463bf15320434dd6f033becd753264b",
       "first_seen_at": "2026-06-16T06:41:32.710199+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 5,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 6,
       "notes": [],
       "status": "active"
     },
@@ -77334,8 +77433,8 @@
       "pubmed_id": "",
       "content_hash": "33bdefcd2aa6a80bdfc1787e78f26ad7bd9cc869bc72f7b2892e7085603aa1f5",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -78314,8 +78413,8 @@
       "pubmed_id": "",
       "content_hash": "c65175bf7c76b6eb92829a80b79e5ab0fe2eca9fb1fe0b3cf0d298eaca133e68",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -81315,8 +81414,8 @@
       "pubmed_id": "",
       "content_hash": "0c1ebac538dd9993c3488aeec8cd6a57f181b824dbe68c8fb0e12c3020cab8cb",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -82295,8 +82394,8 @@
       "pubmed_id": "",
       "content_hash": "080ef6253b0a04a6266e3c75edeaef8b80b42d00ea0182bec1be9e26ae4967e9",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -85042,8 +85141,8 @@
       "pubmed_id": "",
       "content_hash": "5b87c0f253f65741833539534fba296893f4f3bafbc921c50f6ac779502ce70a",
       "first_seen_at": "2026-07-03T04:53:57.605152+00:00",
-      "last_seen_at": "2026-07-04T04:45:55.722359+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-07-05T05:06:04.068402+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
