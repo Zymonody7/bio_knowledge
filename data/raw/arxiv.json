@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-10T05:02:40.984754+00:00",
+  "fetched_at": "2026-07-11T04:21:27.421887+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 48,
+  "count": 33,
   "papers": [
     {
       "title": "On the rectification of oscillatory flows by flexible leaflets in a confined geometry",
@@ -35,23 +35,6 @@
       ],
       "doi": "",
       "arxiv_id": "2607.04987v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Canopy: A Heterograph Foundation Model for Metabolic Engineering",
-      "source": "arXiv",
-      "date": "2026-07-07T12:48:38+00:00",
-      "updated": "2026-07-07T12:48:38+00:00",
-      "url": "http://arxiv.org/abs/2607.06224v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06224v1",
-      "abstract": "Designing microbial strains that produce high-value chemicals at commercially viable titers remains a central challenge in metabolic engineering. Existing computational approaches either rely on stoichiometric constraint-based models that cannot learn from experimental data, or apply tabular machine learning to hand-crafted features that discard the relational structure of biological knowledge. We present Canopy, a heterogeneous graph foundation model that integrates ten public and proprietary data sources into a unified knowledge graph (KG) of 6.9M nodes across 13 types and 34 edge types, covering genes, proteins, metabolites, reactions, pathways, strains, and fermentation experiments. Node features are encoded through domain-specific foundation models (ESM-2 for protein sequences, MoLFormer for chemical SMILES, and PubMedBERT for biomedical text), yielding a multi-modal representation within a single graph. We pretrain a Heterogeneous Graph Transformer (HGT) augmented with SignNet positional encodings, Jumping Knowledge aggregation, and virtual nodes using four self-supervised objectives (link prediction, masked node modelling, distance prediction, and contrastive experiment clustering), balanced via learned homoscedastic uncertainty weighting. On the downstream task of fermentation titer prediction, frozen Canopy embeddings achieve $R^{2} = 0.41$ with a lightweight probe, outperforming tabular baselines (best $R^{2} = 0.24$) and homogeneous GNN variants.",
-      "authors": [
-        "Jake Bowden",
-        "Laurence Legon",
-        "Satnam Surae"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06224v1",
       "pubmed_id": ""
     },
     {
@@ -180,54 +163,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "From Voting to Agent Collaboration: Answer-Type-Aware LLM Pipelines for BioASQ 14b",
-      "source": "arXiv",
-      "date": "2026-07-07T16:12:51+00:00",
-      "updated": "2026-07-07T16:12:51+00:00",
-      "url": "http://arxiv.org/abs/2607.06452v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06452v1",
-      "abstract": "Biomedical question answering requires not only accurate extraction of information from scientific literature but also reliable integration of evidence across multiple documents. This study presents a question-type-specific large language model (LLM) framework for BioASQ 14b Task B, designed to improve answer robustness and evidence grounding in biomedical question answering. Rather than applying a single prompting strategy to all questions, the framework selects different inference procedures for yes/no, factoid, and list questions according to their distinct reasoning and evaluation requirements. For yes/no questions, snippet shuffling and self-reflection are used to reduce sensitivity to evidence ordering and improve decision stability. For factoid questions, full-snippet input is combined with chain-of-thought-based in-context learning to support accurate biomedical entity identification. For list questions, a multi-agent architecture is employed, in which evidence extraction, candidate generation, answer verification, and final aggregation are handled collaboratively. Preliminary experiments on BioASQ 13b were used to identify effective inference strategies for each question type, and the resulting framework was subsequently evaluated in the official BioASQ 14b Task B challenge. In the official evaluation, our framework showed competitive performance across multiple batches and achieved first place in the factoid subtask of Batch 4. These results demonstrate the effectiveness of combining question-type-specific inference, ensemble prediction, and agent-based verification for reliable biomedical question answering.",
-      "authors": [
-        "Taeyun Roh",
-        "Eunha Lee",
-        "Wonjune Jang",
-        "Sohyun Chung",
-        "Junha Jung",
-        "Jaewoo Kang"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06452v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations",
-      "source": "arXiv",
-      "date": "2025-12-22T15:03:57+00:00",
-      "updated": "2026-07-07T09:00:18+00:00",
-      "url": "http://arxiv.org/abs/2512.19458v2",
-      "pdf_url": "https://arxiv.org/pdf/2512.19458v2",
-      "abstract": "Large Language Models (LLMs) are increasingly embedded in agentic frameworks for scientific discovery. First-principles materials computation imposes a demanding standard for autonomy: successful execution depends on internally consistent inputs, supervision of long-running calculations, and verified outputs. Here we present VASP Agent, a coding-agent-centered system that combines reusable domain skills, deterministic tools, workspace-state inspection, runtime evidence, and scientific guardrails to execute multi-step VASP calculations. The system is evaluated across multiple tasks including structural relaxation, bandgap calculation, equilibrium lattice constant determination, and CO/Pt(111) adsorption. VASP Agent completes all evaluated cases, and its computed numerical results are compared with those obtained using pymatgen and other agentic tools. When large deviations occur, the calculation parameters produced by VASP Agent are more appropriate than those produced by LLM-based workflows. Failure analysis shows that errors that terminate fixed pipelines can be diagnosed and recovered under agentic control.",
-      "authors": [
-        "Zeyu Xia",
-        "Jinzhe Ma",
-        "Congjie Zheng",
-        "Zhongyao Wang",
-        "Shufei Zhang",
-        "Yuqiang Li",
-        "Hang Su",
-        "P. Hu",
-        "Changshui Zhang",
-        "Xingao Gong",
-        "Wanli Ouyang",
-        "Lei Bai",
-        "Dongzhan Zhou",
-        "Mao Su"
-      ],
-      "doi": "",
-      "arxiv_id": "2512.19458v2",
-      "pubmed_id": ""
-    },
-    {
       "title": "NEP89: Universal neuroevolution potential for inorganic and organic materials across 89 elements",
       "source": "arXiv",
       "date": "2025-04-30T03:36:50+00:00",
@@ -346,26 +281,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.31126v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org",
-      "source": "arXiv",
-      "date": "2025-12-12T06:28:28+00:00",
-      "updated": "2026-07-07T18:58:00+00:00",
-      "url": "http://arxiv.org/abs/2512.11935v2",
-      "pdf_url": "https://arxiv.org/pdf/2512.11935v2",
-      "abstract": "Agentic AI systems increasingly connect large language models (LLMs) to external scientific tools, yet whether and when tool access improves prediction accuracy remains uncharacterized. We present AGAPI (AtomGPT.org API), an open access platform integrating eight open-source LLMs with 18 REST endpoints (28 agent tools, 50 web apps) spanning materials databases, force fields, tight-binding band structures, X-ray diffraction, and protein structure. A three-evaluation residual decomposition on JARVIS-Leaderboard electronic-structure test sets separates agent pipeline fidelity from inherited density functional theory (DFT) functional bias. For bulk modulus and bandgap the agent reproduces JARVIS-DFT entries to numerical precision, so the experimental-reference degradation is functional bias, not agentic malfunction. On memorization-resistant test sets (57 defective supercells, 60 hypothetical compositions), tool-augmented mean absolute error (MAE) is below 0.005 eV versus 1.25 to 1.86 eV tool-free, confirming tools are indispensable where parametric knowledge is unavailable. We further demonstrate autonomous multi-step workflows including 10-operation defect-engineering pipelines. AGAPI is available at https://github.com/atomgptlab/agapi.",
-      "authors": [
-        "Jaehyung Lee",
-        "Justin Ely",
-        "Kent Zhang",
-        "Akshaya Ajith",
-        "Charles Rhys Campbell",
-        "Kamal Choudhary"
-      ],
-      "doi": "",
-      "arxiv_id": "2512.11935v2",
       "pubmed_id": ""
     },
     {
@@ -777,249 +692,13 @@
       "doi": "",
       "arxiv_id": "2607.06993v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "End-to-End LLM Flight Planning with RAG-based Memory and Multi-modal Coach Agent",
-      "source": "arXiv",
-      "date": "2026-07-08T03:40:38+00:00",
-      "updated": "2026-07-08T03:40:38+00:00",
-      "url": "http://arxiv.org/abs/2607.06964v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06964v1",
-      "abstract": "Bridging the gap between human pilot intent and autonomous flight operation is critical for real-world electric vertical takeoff and landing (eVTOL) aircraft deployment. Flight planning traditionally relies on classic algorithms that struggle to incorporate flexible human preferences. We present FRAMe, an End-to-End Large Language Model (LLM) Flight Planning tool with RAG-based Memory and Multi-modal Coach Agent. Our system integrates a planner LLM with a multi-modal coach agent and retrieval augmented generation (RAG)-based memory to generate flight plans that satisfy mission constraints while aligning with human flight operator preferences. We demonstrate the system in a range of real-world-inspired scenarios of varying difficulty levels. Across four LLMs, the full FRAMe system (RAG and coach) yields the highest validity for every planner (up to 93.8% aggregate, 99% on Easy scenarios for the strongest planner) and shifts preference-relevant metrics in the operator-favored direction where the metric has headroom. FRAMe signifies how advanced LLMs can be deployed for human-centric mission planning, translating natural language instructions into safe, efficient, and flexible flight routes. The code is available at: github.com/amin-tabrizian/FlightPlanningLLMs",
-      "authors": [
-        "Amin Tabrizian",
-        "Arsyi Aziz",
-        "Aarifah Ullah",
-        "Mahyar Ghazanfari",
-        "Pouria Razzaghi",
-        "Peng Wei"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06964v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LEMUR 2: Unlocking Neural Network Diversity for AI",
-      "source": "arXiv",
-      "date": "2026-07-07T22:21:53+00:00",
-      "updated": "2026-07-07T22:21:53+00:00",
-      "url": "http://arxiv.org/abs/2607.06839v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06839v1",
-      "abstract": "Existing NAS benchmarks (e.g., NAS-Bench, NATS-Bench) cover only narrow, task-specific regions of the architectural design space and lack cross-domain or deployment-aware evaluation. LEMUR 2 introduces a large-scale, extensible framework unifying generative, evaluative, and deployment pipelines to unlock neural-network diversity. It comprises over 14,000 distinct architectures and more than 750,000 structured training records documenting model performance, hyperparameters, and task outcomes. These models were produced through AST-based code mutation, genetic and reinforcement-learning evolution, generation of fractal architectures, and synthesis guided by a Large Language Model (LLM). This includes deep models generated with the retrieval-augmented system NN-RAG, which derived and used architectural motifs from over 900 PyTorch modules extracted from public repositories. LEMUR 2 further employs NN-VR and NN-Lite pipelines for automated deployment and latency benchmarking on heterogeneous mobile and Unity-based VR platforms, providing real-device performance metadata. It spans multimodal tasks, image captioning, text-to-image synthesis, and language modeling, supporting cross-domain analysis of architectural transferability. By linking diverse architectures, tasks, and deployment data, LEMUR 2 provides the data foundation for LLM fine-tuning and coupling diverse architectural origins with large-scale, cross-platform empirical validation. This dataset defines a new basis for reproducible and data-driven AI design, advancing the emerging paradigm of LLM-driven AutoML and architectural generalization across modalities and hardware.",
-      "authors": [
-        "Tolgay Atinc Uzun",
-        "Waleed Khalid",
-        "Saif U Din",
-        "Sai Revanth Mulukuledu",
-        "Akashdeep Singh",
-        "Chandini Vysyaraju",
-        "Raghuvir Duvvuri",
-        "Avi Goyal",
-        "Yashkumar Rajeshbhai Lukhi",
-        "Muhammad A. Hussain",
-        "Krunal Jesani",
-        "Usha Shrestha",
-        "Yash Mittal",
-        "Roman Kochnev",
-        "Pritam Kadam",
-        "Mohsin Ikram",
-        "Harsh R. Moradiya",
-        "Alice Arslanian",
-        "Dmitry Ignatov",
-        "Radu Timofte"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06839v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DynaKRAG: A Unified Framework for Learnable Evidence Control in Multi-Hop Retrieval-Augmented Generation",
-      "source": "arXiv",
-      "date": "2026-07-07T17:09:36+00:00",
-      "updated": "2026-07-07T17:09:36+00:00",
-      "url": "http://arxiv.org/abs/2607.06507v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06507v1",
-      "abstract": "Multi-hop retrieval-augmented generation (RAG) acquires evidence sequentially, with each new document potentially revealing missing facts, bridge entities, query defects, or sufficient support for answering. Existing methods provide useful operations such as iterative retrieval, query reformulation, evidence critique, and sufficiency judging, but typically organize them within method-specific pipelines or predefined control topologies. This leaves underexplored how to learn a shared state-conditioned policy that chooses among currently valid evidence operations. We introduce DynaKRAG, which formulates multi-hop evidence acquisition as state-conditioned control over atomic evidence operations. At each step, a validity layer constructs the executable action set, and a learned controller selects the next operation. The resulting transition updates the evidence state and may enable new operations at subsequent steps. With Qwen2.5-7B-Instruct, DynaKRAG achieves F1 scores of 0.5998 on HotpotQA, 0.5340 on 2Wiki, and 0.3061 on MuSiQue, outperforming the strongest controlled baseline on all three benchmarks. Replacing the learned controller with a uniform-valid policy reduces F1 by 3.96--5.78 points, while removing sufficiency feedback hurts all three datasets. Controlled retrieval-cap experiments further show that additional retrieval is not uniformly beneficial. Together, these results demonstrate the benefit of coordinating retrieval, diagnosis, and gap-directed acquisition under an evolving evidence state.",
-      "authors": [
-        "Yaqi Wu",
-        "Xiaolei Guo",
-        "Chenyu Zhou",
-        "Jiaqi Huang",
-        "Xianfa Zhang",
-        "Junxu Zhang",
-        "Zhuo Yu",
-        "Zhubo Shi",
-        "Jianghao Lin",
-        "Dongdong Ge"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06507v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Know Your Source: A Public Knowledge Store for Media Background Checks",
-      "source": "arXiv",
-      "date": "2026-07-02T16:20:28+00:00",
-      "updated": "2026-07-07T15:00:04+00:00",
-      "url": "http://arxiv.org/abs/2607.02383v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.02383v2",
-      "abstract": "LLM-based retrieval-augmented generation (RAG) is increasingly used for automated fact-checking (AFC) and related tasks. By grounding LLM outputs in retrieved evidence, RAG-based systems provide transparent justifications while allowing external information to be updated independently of the underlying model. However, existing approaches often assume retrieved evidence is reliable, although real-world information may be conflicting, outdated, and can originate from unreliable or biased sources. Recent work on *source-critical reasoning* addresses this challenge through media background checks (MBCs) (Schlichtkrull, 2024), which assess the credibility of evidence sources to support downstream fact verification. However, generating MBCs relies on costly proprietary search APIs, limiting reproducibility. To mitigate this issue, we introduce MEDIAREF, a publicly available knowledge store of web-sourced documents that enables reproducible, low-cost evaluation of MBC generation across 200 media sources. We describe a reproducible methodology for constructing and updating the collection, assess widely used LLMs on the MBC generation task, and demonstrate that MEDIAREF supports higher-quality MBC generation through both automatic and qualitative evaluation.",
-      "authors": [
-        "Benjamin Nichols",
-        "Michael Schlichtkrull",
-        "Nedjma Ousidhoum"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.02383v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Healthier LLMs: Retrieval-Augmented Generation for Public Health Question Answering",
-      "source": "arXiv",
-      "date": "2026-07-07T14:47:42+00:00",
-      "updated": "2026-07-07T14:47:42+00:00",
-      "url": "http://arxiv.org/abs/2607.06641v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.06641v1",
-      "abstract": "Large language models (LLMs) achieve promising results on medical question answering benchmarks, yet their use in public health is constrained by hallucinations and the rapid evolution of official guidance. Retrieval-Augmented Generation (RAG) mitigates these risks by grounding responses in an explicitly maintained corpus, but end-to-end performance depends critically on retrieval configuration and on evaluation beyond multiple-choice formats. We extend PubHealthBench, a question answering (QA) benchmark of 7,929 questions derived from UK Government public health guidance, into a retrieval-augmented setting and systematically evaluate retrieval and generation choices. We compare dense, sparse, and hybrid retrieval across multiple embedding models and corpus variants, and show that hybrid retrieval consistently improves recall and ranking quality, with chunk length and topic interacting with ranking performance. Providing retrieved context substantially increases multiple-choice accuracy across a diverse set of LLMs, enabling smaller open-weight models to match or outperform larger models used without retrieval, with gains primarily driven by retrieval quality and careful context selection. To assess realistic free-form answering, we introduce a rubric-based LLM-as-a-judge covering faithfulness, completeness, clarity, and factual consistency, and validate it against dual human annotations. Judge-human agreement is strongest for faithfulness and completeness, while factual consistency and clarity are less reliably reproduced, motivating caution when interpreting those dimensions at scale. Overall, our results highlight retrieval as a primary lever for reliable public health QA and provide practical guidance for building and evaluating RAG systems grounded in official guidance.",
-      "authors": [
-        "Felix Feldman",
-        "Joshua Harris",
-        "Timothy Laurence",
-        "Leo Loman",
-        "Ollie Higgins",
-        "Fan Grayson",
-        "Poonam Soma",
-        "Bethany Pace-Bonello",
-        "Michael Borowitz",
-        "Toby Nonnenmacher"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.06641v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Quantifying Retriever-Generator Alignment in RAG with Local Explanations",
-      "source": "arXiv",
-      "date": "2026-01-29T14:47:00+00:00",
-      "updated": "2026-07-07T09:51:50+00:00",
-      "url": "http://arxiv.org/abs/2601.21803v2",
-      "pdf_url": "https://arxiv.org/pdf/2601.21803v2",
-      "abstract": "Retrieval-Augmented Generation (RAG) systems combine dense retrievers and language models to ground their outputs in external documents. However, the interaction between these components remains opaque, creating challenges for deployment in high-stakes domains. We present RAG-E, an end-to-end explainability framework that quantifies retriever-generator alignment through mathematically grounded attribution methods. Our approach adapts Integrated Gradients for retriever analysis, proposes a Monte Carlo-stabilized Shapley Value approximation for generator attribution, and introduces the Weighted Attribution-Relevance Gap (WARG) metric to measure how closely the generator's document usage aligns with retriever rankings. Experiments on PopQA, QAMPARI, and TREC CAST datasets reveal substantial misalignment: depending on the model and setting, generators often ignore top-ranked documents and rely on documents ranked as less relevant. We show that WARG captures retriever-generator alignment better than Pearson and Spearman correlations and can serve as an indicator of RAG performance. RAG-E and WARG provide a practical framework for auditing this interaction, enabling more reliable and transparent RAG systems.",
-      "authors": [
-        "Korbinian Randl",
-        "Guido Rocchietti",
-        "Aron Henriksson",
-        "Ziawasch Abedjan",
-        "Tony Lindgren",
-        "John Pavlopoulos"
-      ],
-      "doi": "",
-      "arxiv_id": "2601.21803v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "GORIO: GPU-Centered Remote I/O for Graph ANNS over NVMe-oF",
-      "source": "arXiv",
-      "date": "2026-07-05T17:09:06+00:00",
-      "updated": "2026-07-07T08:36:44+00:00",
-      "url": "http://arxiv.org/abs/2607.04415v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.04415v2",
-      "abstract": "Graph-based approximate nearest neighbor search (ANNS) is increasingly used in vector databases and retrieval-augmented generation services, but large vector indexes often exceed the memory capacity of a single GPU server. NVMe over Fabrics (NVMe-oF) provides an attractive storage-disaggregation substrate, yet existing remote storage paths are still largely CPU-centered: the CPU forms I/O requests, drives transport progress, and determines when GPU computation can resume. This organization is poorly matched to graph ANNS, where the next data access is discovered inside GPU graph traversal. This paper presents GORIO, a system study that extends GPU-centered local I/O to remote storage and specializes the resulting substrate for graph ANNS over NVMe-oF. GORIO keeps query evolution, page-miss generation, pending-query state, and resume decisions on the GPU, while the CPU acts only as an NVMe-oF transport and completion proxy. The design has two layers: a GPU-direct remote I/O path that turns local page-cache misses into split-phase remote operations, and ANNS-specific scheduling mechanisms that overlap graph traversal with remote page service. On a SIFT1M DiskANN-style graph workload over an RDMA NVMe-oF path, GORIO is 1.31X faster than the state-of-the-art remote-I/O reference path and 4.89X faster than the direct remote page-cache path. These results demonstrate a concrete GPU-centered remote I/O substrate for graph ANNS.",
-      "authors": [
-        "Gen Zhang",
-        "Wenhao Gu",
-        "Shan Huang",
-        "Xinhai Chen"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.04415v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "External Data Extraction Attacks against Retrieval-Augmented Large Language Models",
-      "source": "arXiv",
-      "date": "2025-10-03T12:53:45+00:00",
-      "updated": "2026-07-07T08:30:10+00:00",
-      "url": "http://arxiv.org/abs/2510.02964v2",
-      "pdf_url": "https://arxiv.org/pdf/2510.02964v2",
-      "abstract": "In recent years, RAG has emerged as a key paradigm for enhancing large language models (LLMs). By integrating externally retrieved information, RAG alleviates issues like outdated knowledge and, crucially, insufficient domain expertise. While effective, RAG introduces new risks of external data extraction attacks (EDEAs), where sensitive or copyrighted data in its knowledge base may be extracted verbatim. These risks are particularly acute when RAG is used to customize specialized LLM applications with private knowledge bases. Despite initial studies exploring these risks, they often lack a formalized framework, robust attack performance, and comprehensive evaluation, leaving critical questions about real-world EDEA feasibility unanswered. In this paper, we present the first comprehensive study to formalize EDEAs against retrieval-augmented LLMs. We first formally define EDEAs and propose a unified framework decomposing their design into three components: extraction instruction, jailbreak operator, and retrieval trigger, under which prior attacks can be considered instances within our framework. Guided by this framework, we develop SECRET: a Scalable and EffeCtive exteRnal data Extraction aTtack. Specifically, SECRET incorporates (1) an adaptive optimization process using LLMs as optimizers to generate specialized jailbreak prompts for EDEAs, and (2) cluster-focused triggering, an adaptive strategy that alternates between global exploration and local exploitation to efficiently generate effective retrieval triggers. Extensive evaluations across 4 models reveal that SECRET significantly outperforms previous attacks, and is highly effective against all 16 tested RAG instances. Notably, SECRET successfully extracts 35% of the data from RAG powered by Claude 3.7 Sonnet for the first time, whereas other attacks yield 0% extraction. Our findings call for attention to this emerging threat.",
-      "authors": [
-        "Yu He",
-        "Yifei Chen",
-        "Yiming Li",
-        "Shuo Shao",
-        "Leyi Qi",
-        "Boheng Li",
-        "Dacheng Tao",
-        "Zhan Qin"
-      ],
-      "doi": "",
-      "arxiv_id": "2510.02964v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Mitigating Errors in LLM-Generated Web API Invocations via Retrieval-Augmented Generation and Constrained Decoding",
-      "source": "arXiv",
-      "date": "2026-07-07T07:38:28+00:00",
-      "updated": "2026-07-07T07:38:28+00:00",
-      "url": "http://arxiv.org/abs/2607.05936v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05936v1",
-      "abstract": "Integration of web APIs is a cornerstone of modern software systems, yet writing correct web API invocation code remains challenging due to complex and evolving API specifications. Although LLMs are increasingly used for code generation, previous work has empirically shown that their ability to generate correct web API integrations is limited. At the same time, mitigation techniques and their effectiveness for this setting remain insufficiently understood. In this paper, we propose and systematically evaluate retrieval-augmented generation (RAG) and constrained decoding (CD) as two complementary approaches to improving LLM-generated web API invocation code. For RAG, we design a retriever that processes OpenAPI specifications and retrieves compact endpoint representations to inject into model prompts. For CD, we introduce an automatic translation from OpenAPI specifications to regex-based constraints enforced during generation. We evaluate both approaches on WAPIIBench's existing synthetic dataset and on a new real-world dataset derived from GitHub repositories. Our results show that RAG reduces hallucinations and improves correctness when generating full API invocations but reduces it when the endpoint is already provided as it encourages the generation of unnecessary parameters. In contrast, CD reliably prevents illegal URLs, HTTP methods, and arguments and substantially improves overall correctness for both starter codes.",
-      "authors": [
-        "Daniel Maninger",
-        "Leon Chemnitz",
-        "Jannis Brugger",
-        "Tushar Lamba",
-        "Amir Molzam Sharifloo",
-        "Mira Mezini"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.05936v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RS-Agent: Automating Remote Sensing Tasks through Intelligent Agent",
-      "source": "arXiv",
-      "date": "2024-06-11T09:30:02+00:00",
-      "updated": "2026-07-07T07:03:43+00:00",
-      "url": "http://arxiv.org/abs/2406.07089v4",
-      "pdf_url": "https://arxiv.org/pdf/2406.07089v4",
-      "abstract": "Recent advances in Multimodal Large Language Models (MLLMs) have shown promise for remote sensing tasks such as visual question answering and scene understanding. However, existing models remain limited to basic instruction-following and struggle with real-world scenarios that require multi-source data integration, fine-grained spatial reasoning, and domain expertise. To address this gap, we propose RS-Agent, a domain-adapted intelligent agent that connects user intent with professional remote sensing workflows through structured task planning and tool orchestration. RS-Agent consists of four components aligned with typical remote sensing workflows: a Central Controller for intent understanding and process planning, a dynamic toolkit for tool execution, a Solution Space for task-specific expert guidance, and a Knowledge Space for domain knowledge support. We further introduce Task-Aware Retrieval, which improves planning by identifying task types and retrieving expert-defined solutions, and DualRAG, a weighted dual-path retrieval-augmented generation method that enhances the relevance and completeness of retrieved knowledge. RS-Agent natively supports multiple imaging modalities, including optical and SAR imagery, and can automatically organize dedicated SAR processing tools into executable workflows. Experiments on 9 datasets and 18 remote sensing tasks show that RS-Agent significantly outperforms state-of-the-art MLLMs, achieving over 95% task planning accuracy and strong results in scene classification, object counting, and remote sensing visual question answering. These results demonstrate the value of combining LLM reasoning with remote sensing expertise for intelligent geospatial analysis.",
-      "authors": [
-        "Wenjia Xu",
-        "Zijian Yu",
-        "Boyang Mu",
-        "Jiuniu Wang",
-        "Zhiwei Wei",
-        "Mugen Peng"
-      ],
-      "doi": "",
-      "arxiv_id": "2406.07089v4",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Code-Level Cost Function Generation for Spatial Image Steganography Using RAG-Enhanced Large Language Models",
-      "source": "arXiv",
-      "date": "2026-07-07T05:58:33+00:00",
-      "updated": "2026-07-07T05:58:33+00:00",
-      "url": "http://arxiv.org/abs/2607.05868v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.05868v1",
-      "abstract": "Designing cost functions of adaptive steganography traditionally requires extensive manual tuning, while deep learning methods lack interpretability. Although large language models (LLMs) offer an automated alternative via evolutionary generation, they often violate domain specific mathematical constraints due to a lack of explicit domain knowledge. To address this problem, we propose a novel evolutionary system focused on exploiting Retrieval-Augmented Generation (RAG) enhanced LLMs for the automatic code-level generation of spatial steganography cost functions. This system incorporates a core Self Evolving RAG (SE-RAG) module, wherein a Code Semantic Signature (CSS) translates procedural code into aligned queries, retrieving explicit guidance from static literature and dynamic experience knowledge bases to steer the LLM generation process. A dedicated feedback mechanism then continuously refines the dynamic knowledge base with successful optimization strategies. Extensive experiments on the BOSSBase and BOWS2 datasets demonstrate that the proposed framework consistently achieves higher steganographic security than existing automatically designed methods, and increases the average code execution rate by 46.3% while reducing the search cost by 26.1%, thereby highlighting the effectiveness, efficiency, and potential of combining LLMs with domain-specific knowledge in the field of automatic steganographic algorithm generation.",
-      "authors": [
-        "Yige Wang",
-        "Shiqi Yi",
-        "Hanzhou Wu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.05868v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 48,
+      "count": 33,
       "error": ""
     }
   ]
