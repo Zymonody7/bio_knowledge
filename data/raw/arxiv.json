@@ -1,14 +1,252 @@
 {
-  "fetched_at": "2026-07-19T04:31:19.562227+00:00",
+  "fetched_at": "2026-07-20T04:45:40.348351+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 0,
-  "papers": [],
+  "count": 11,
+  "papers": [
+    {
+      "title": "SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery",
+      "source": "arXiv",
+      "date": "2026-07-17T15:13:03+00:00",
+      "updated": "2026-07-17T15:13:03+00:00",
+      "url": "http://arxiv.org/abs/2607.16038v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.16038v1",
+      "abstract": "Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assistants rarely preserve these objects as a coherent, auditable research state. We present SciForge, a multimodal research-native AI workbench that reserves the graphical interface for human judgment while search, parsing, model routing, workflow execution, plotting, writing, and presentation generation run as modular agent-accessible services. SciForge is built around five pillars: (i) \\emph{goal-scoped scientific decision governance} for \\textbf{goal-oriented} research, with review gates and shared review surfaces; (ii) \\emph{translate-then-reason} for \\textbf{multimodal} input, routing scientific objects through domain translators before the agent reasons; (iii) \\emph{evidence governance} for \\textbf{auditable} traceability, linking claims to provenance chains and audit findings; (iv) \\emph{collaborative team science} for \\textbf{collaborative} research, enabling multi-role decision governance, with shared team workspaces planned for future releases; and (v) \\emph{real-world application scenarios} for \\textbf{practical} impact, demonstrated through eight end-to-end user cases, with flagship demonstrations including multi-day agentic research sprints for gene discovery, AI-guided de novo protein design, molecular optimization, and genome-to-BGC discovery. The system combines a thin interaction layer, contextual research capability patterns, an Agent Runtime and Workflow Engine, an Evidence-DAG audit sidecar and a Scientific Model Router. SciForge currently runs as a desktop application, with mobile supervision support; future releases will deepen team collaboration. The system is open-source and available at https://github.com/AGI4Sci/SciForge",
+      "authors": [
+        "SciForge Team",
+        "Zhangyang Gao",
+        "Minghao Fang",
+        "Yifei Liu",
+        "Hanhui Yang",
+        "Xinyu Gu",
+        "Shixiang Tang",
+        "Siqi Sun",
+        "Lei Bai",
+        "Cheng Tan",
+        "Mengdi Liu",
+        "Hao Wu",
+        "Shuizhou Chen"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.16038v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "BrainPilot: Automating Brain Discovery with Agentic Research",
+      "source": "arXiv",
+      "date": "2026-07-16T14:49:25+00:00",
+      "updated": "2026-07-17T05:24:59+00:00",
+      "url": "http://arxiv.org/abs/2607.15079v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.15079v2",
+      "abstract": "Understanding the brain increasingly depends on integrating evidence across scales, modalities, and disciplines. Addressing a single research question therefore requires a coordinated sequence of operations, from surveying prior work to executing analyses and interpreting results in light of domain knowledge. AI agents promise to accelerate this process, but current agents lack domain expertise in brain science, may fabricate claims, drift during multi-step reasoning, and offer few defined points for expert intervention. These failures are especially costly in brain science, where conclusions feed into downstream scientific claims and depend on laboratory-specific expertise and careful human judgment. We present \\textbf{BrainPilot} a \\textbf{fully open-source} multi-agent system that accelerates brain science research with traceable logs and agent-verified results. A principal investigator (PI) agent coordinates specialist agents grounded in curated domain knowledge: a unified brain science knowledge base containing 7{,}233 indexed items and a skill library of 72 reusable methodology units across seven research domains. Every major step is recorded in the Graph of Trace, an auditable record that links subgoals, tool use, evidence, and claims and allows researchers to follow and inspect the workflow. An Auditor agent further integrates fabrication checking into the workflow. For evaluation, we run three brain science tasks from Agents' Last Exam, introduce our own benchmark, \\textbf{BrainPilotBench-v0}, and present additional end-to-end case studies. Across these evaluations, BrainPilot with an open-source backbone model attains performance comparable to state-of-the-art agent framework with less costs.",
+      "authors": [
+        "Haoxuan Li",
+        "Tianci Gao",
+        "Jianhe Li",
+        "Yang Fan",
+        "Runze Shi",
+        "Weiran Wang",
+        "Tianxiang Zhao",
+        "Zezhao Wu",
+        "Xiaoyang Jiang",
+        "Qihui Zhang",
+        "Jia Li",
+        "Xiao Xiao",
+        "Kai Du",
+        "Xiaoxuan Jia",
+        "Chao Xie",
+        "Lu Mi"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15079v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
+      "source": "arXiv",
+      "date": "2026-07-17T06:56:08+00:00",
+      "updated": "2026-07-17T06:56:08+00:00",
+      "url": "http://arxiv.org/abs/2607.15686v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15686v1",
+      "abstract": "We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and scientific language models. However, model capabilities remain highly fragmented, limiting the joint modeling of heterogeneous data, scientific laws, and expert knowledge. S1-Omni addresses this gap by consolidating these capabilities into a single, coherent scientific reasoning model. The architecture of S1-Omni is built upon three core components: unified representation of scientific data, natural-world knowledge alignment, and decoding for domain-specific tasks. First, S1-Omni maps natural-language instructions and scientific objects, including CIF, SMILES, protein sequences, spectra, and scientific images, into a shared representation space. Second, it incorporates scientific laws and expert knowledge into data construction and training, enabling the model to reason from scientific evidence. Third, it performs task-specific decoding to support a broad range of applications, including property prediction, spectrum-to-molecular generation, protein site and structure prediction, and scientific image generation and editing. S1-Omni is trained on S1-Omni-Corpus, which covers 200 scientific tasks and contains millions of reasoning samples, and is evaluated on over 60 scientific benchmarks. It outperforms GPT-5.5 and Gemini-3.1-Pro on most benchmarks and matches or surpasses domain-specific models on several benchmarks. Overall, S1-Omni provides a practical path toward unified scientific modeling.",
+      "authors": [
+        "Jiahao Zhao",
+        "Junyi Liu",
+        "Lifeng Xu",
+        "Nan Xu",
+        "Qingli Wang",
+        "Qingxiao Li",
+        "Tianle Chen",
+        "Xiaoyu Wu",
+        "Yawen Zheng",
+        "Zikai Wang",
+        "Guanming Liu",
+        "Hequn Zhou",
+        "Jingyi Wang",
+        "Jingyuan Shu",
+        "Keqi Wang",
+        "Li He",
+        "Songyang Diao",
+        "Wenhui Xu",
+        "Xinyu Ren",
+        "Yaqin Fan",
+        "Yujin Zhou",
+        "Zhanao Yao"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15686v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Ruling Out to Rule In: Contrastive Hypothesis Retrieval for Medical Question Answering",
+      "source": "arXiv",
+      "date": "2026-04-06T11:13:57+00:00",
+      "updated": "2026-07-17T16:49:13+00:00",
+      "url": "http://arxiv.org/abs/2604.04593v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.04593v2",
+      "abstract": "Retrieval-augmented generation (RAG) grounds large language models in external medical knowledge, yet standard retrievers frequently surface hard negatives that are semantically close to the query but describe clinically distinct conditions. While existing query-expansion methods improve query representation to mitigate ambiguity, they typically focus on enriching target-relevant semantics without an explicit mechanism to selectively suppress specific, clinically plausible hard negatives. This leaves the system prone to retrieving plausible mimics that overshadow the actual diagnosis, particularly when such mimics are dominant within the corpus. We propose Contrastive Hypothesis Retrieval (CHR), a framework inspired by the process of clinical differential diagnosis. CHR generates a target hypothesis $H^+$ for the likely correct answer and a mimic hypothesis $H^-$ for the most plausible incorrect alternative, then scores documents by promoting $H^+$-aligned evidence while penalizing $H^-$-aligned content. Across three medical QA benchmarks and three answer generators, CHR outperforms all five baselines in every configuration, with improvements of up to 10.4 percentage points over the next-best method. On the $n=587$ pooled cases where CHR answers correctly while embedded hypothetical-document query expansion does not, 85.2\\% have no shared documents between the top-5 retrieval lists of CHR and of that baseline, consistent with substantive retrieval redirection rather than light re-ranking of the same candidates. By explicitly modeling what to avoid alongside what to find, CHR bridges clinical reasoning with retrieval mechanism design and offers a practical path to reducing hard-negative contamination in medical RAG systems.",
+      "authors": [
+        "Byeolhee Kim",
+        "Min-Kyung Kim",
+        "Young-Hak Kim",
+        "Tae-Joon Jeon"
+      ],
+      "doi": "",
+      "arxiv_id": "2604.04593v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
+      "source": "arXiv",
+      "date": "2026-07-16T15:08:29+00:00",
+      "updated": "2026-07-17T15:57:42+00:00",
+      "url": "http://arxiv.org/abs/2607.15095v2",
+      "pdf_url": "https://arxiv.org/pdf/2607.15095v2",
+      "abstract": "The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. While Large Language Models (LLMs) open new avenues for computational political science, the neutrality and helpfulness biases instilled by Reinforcement Learning from Human Feedback (RLHF) prevent them from sustaining steadfast partisan behaviour. We present a multi-agent framework that reconciles factual grounding with ideological alignment by combining Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Retrieval-Augmented Generation (RAG): DPO instils aggressive party-specific personas, while a per-party RAG pipeline keeps each agent bounded to its official manifesto. We operationalize the framework on the 2019 Flemish election, deploying the partisan agents in a hub-and-spoke negotiation arbitrated by a formateur. To make the emergent negotiation interpretable, we introduce a Multi-Layered Information Lineage Topology (MILT) that traces every clause in the final agreement back to its manifesto origin and classifies it into five provenance states, a Coalition Influence Score (CIS) that aggregates these traceable contributions to identify which party shaped the agreement, and a real-world grounding pass that benchmarks each simulated provision against the historically adopted coalition agreement. Across three independent simulations the framework yields a stable winner and ranking (N-VA ahead of CD\\&V and Open Vld), and manifesto-anchored lineage reliably predicts real-world materialization whereas hallucinated content does not. The result is a transparent, scalable testbed for the ex-ante exploration of party compatibility and formateur-mediated compromise.",
+      "authors": [
+        "Dylan Van Mulders",
+        "Matthias Bogaert",
+        "Dirk Van den Poel"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15095v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "A Human-Centric Evaluation of a Retrieval-Augmented Generation System for Explaining Quebec Insurance Contracts",
+      "source": "arXiv",
+      "date": "2026-07-17T13:50:27+00:00",
+      "updated": "2026-07-17T13:50:27+00:00",
+      "url": "http://arxiv.org/abs/2607.15963v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15963v1",
+      "abstract": "With the rise of online insurance sales, consumers face a significant \\enquote{advice gap}, requiring them to navigate complex legal contracts without expert guidance. This paper presents a human-centric, extrinsic evaluation of a state-of-the-art Retrieval-Augmented Generation system, designed to make Quebec automobile insurance contracts more understandable. Through a user study with 154 participants from Laval University, we assess the agent's real-world utility by measuring system satisfaction, cognitive effort, perceived autonomy, and risk. Our results show the system is perceived as a \\enquote{cognitive equalizer}, receiving high ratings for satisfaction, trust, and clarity. Crucially, users value the sense of autonomy the system provides even more than the knowledge itself, with this effect being most pronounced among participants with lower financial literacy, demonstrating how such an agent can directly empower individuals. However, our study also highlights some limitations: participants expressed a strong preference for human agents in high-stakes or emotionally charged scenarios. This work highlights the importance of human-in-the-loop frameworks in ensuring the responsible implementation of AI in high-stakes consumer finance.",
+      "authors": [
+        "David Beauchemin",
+        "Richard Khoury"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15963v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TARS: A Theory-of-Mind Agent for Personalized In-IDE Code Comprehension",
+      "source": "arXiv",
+      "date": "2026-07-17T13:32:20+00:00",
+      "updated": "2026-07-17T13:32:20+00:00",
+      "url": "http://arxiv.org/abs/2607.15948v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15948v1",
+      "abstract": "Code comprehension is one of the most time-consuming tasks in software engineering, yet most LLM-based assistants produce explanations that ignore who is asking and force developers into a disruptive copy-paste workflow. We present TARS, an LLM-powered agent integrated into Visual Studio Code that supports program comprehension through autonomous explanations anchored directly to the code under analysis. Built around a lightweight Theory of Mind paradigm, TARS profiles a developer's expertise, role, and stylistic preferences, then adapts the depth and tone of its explanations accordingly, grounding them in project documentation via Retrieval-Augmented Generation. To evaluate TARS, we conducted a controlled experiment with 18 participants on non-trivial Java snippets. Participants using TARS completed tasks 26\\% faster, reported lower cognitive load, and found the explanations meaningfully adapted to their profiles.",
+      "authors": [
+        "Leopoldo Todisco",
+        "Antonio Della Porta",
+        "Stefano Lambiase",
+        "Fabio Palomba"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15948v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "LR-Robot: A Unified Supervised Intelligent Framework for Real-Time Systematic Literature Reviews with Large Language Models",
+      "source": "arXiv",
+      "date": "2026-03-18T13:43:07+00:00",
+      "updated": "2026-07-17T12:09:33+00:00",
+      "url": "http://arxiv.org/abs/2603.17723v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.17723v2",
+      "abstract": "Recent advances in artificial intelligence (AI) and natural language processing (NLP) have enabled tools to support systematic literature reviews (SLRs), yet existing frameworks often produce outputs that are efficient but contextually limited, requiring substantial expert oversight.The framework employs a human-in-the-loop process to define sub-SLR tasks, evaluate models, and ensure methodological rigor, while leveraging structured knowledge sources and retrieval-augmented generation (RAG) to enhance factual grounding and transparency. LR-Robot enables multidimensional categorization of research, maps relationships among papers, identifies high-impact works, and supports historical, fine-grained analyses of topic evolution. We demonstrate the framework using an option pricing case study, enabling comprehensive literature analysis. Empirical results reveal the current capabilities of AI in understanding and synthesizing literature, uncover emerging trends, reveal topic connections, and highlight core research directions. By accelerating labor-intensive review stages while preserving interpretive accuracy, LR-Robot provides a practical, customizable, and high-quality approach for AI-assisted SLRs. Key contributions: (1) a novel framework combining AI and expert supervision for contextually informed SLRs, (2) support for multidimensional categorization, relationship mapping, and fine-grained topic evolution analysis, and (3) empirical demonstration of AI-driven literature synthesis in the field of option pricing.",
+      "authors": [
+        "Wei Wei",
+        "Jin Zheng",
+        "Zining Wang"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.17723v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "From Similarity to Feasibility: Diffusion-Refined Retrieval-Augmented Generation for Distribution Network Optimization",
+      "source": "arXiv",
+      "date": "2026-07-17T10:21:19+00:00",
+      "updated": "2026-07-17T10:21:19+00:00",
+      "url": "http://arxiv.org/abs/2607.15809v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15809v1",
+      "abstract": "Rapidly shifting operational scenarios driven by uncertain Distributed Energy Resource (DER) profiles render conventional distribution network optimization methods either computationally expensive or poorly generalizable. This paper introduces GridRAG, a pioneering retrieval-augmented framework that transforms optimization into a ``retrieve-and-refine'' paradigm. GridRAG first embeds scenario features and optimal solutions into a joint representation space to ensure semantic consistency. Based on the hybrid semantic information, the similar historical scenarios are then retrieved from a pre-constructed database. Then an SDEdit-style diffusion module is integrated to refine retrieved solutions by modeling the conditional distribution over near-feasible manifolds. This process effectively pulls retrieved solutions into near-optimal attraction basins, providing a high-quality warm-start for the final solver. Validated on three optimization tasks across four standard topologies, GridRAG demonstrates superior cross-scenario generalization and a multi-fold speedup in solution time compared to existing learning-based and model-based baselines. Our code is available at https://github.com/YuxuanCEE/GridRAG.",
+      "authors": [
+        "Yuxuan Chen",
+        "Haipeng Xie",
+        "Shuo Dai",
+        "Ruoyi Xu",
+        "Zhaohong Bie"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15809v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "EduGuard: A Safe RAG-Based LLM Tutor for Programming Education",
+      "source": "arXiv",
+      "date": "2026-07-17T08:18:18+00:00",
+      "updated": "2026-07-17T08:18:18+00:00",
+      "url": "http://arxiv.org/abs/2607.15738v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15738v1",
+      "abstract": "Generative AI (GenAI) is increasingly used by students for programming explanation, debugging, and assignment support. Yet unrestricted large language model (LLM) tutors can hallucinate, contradict course policy, reveal complete solutions, and foster passive dependence. This paper presents EduGuard, a safe retrieval-augmented generation (RAG) tutoring framework for introductory programming. EduGuard integrates query understanding, instructor-approved course retrieval, pedagogical strategy selection, rubric-aware generation, claim-level verification, and overreliance control. To make evaluation provenance explicit, we construct BILearn-CS, a 600-query instructor-authored, TA-validated benchmark spanning concept questions, debugging cases, misconceptions, assignment-support requests, code-mixed Bangla-English queries, and adversarial direct-answer prompts. Moving beyond a synthetic-only benchmark, we further evaluate on a 150-query public CS50-style course-forum set and run a small controlled pilot with 10 undergraduates using a counterbalanced pre-test/post-test design. Using Meta-Llama-3.1-8B-Instruct as the primary generator, hybrid FAISS/BM25 retrieval, and DeBERTa-v3-large-MNLI as an architecturally separate verifier, EduGuard is compared against strong baselines: GPT-4o-mini Tutor, Llama Socratic Tutor, LPITutor-style RAG, RAG with rubric prompting, and RAG with same-model self-checking. On BILearn-CS, EduGuard attains the best correctness (90.1%), grounding (89.4%), and rubric alignment (90.8%), with the lowest hallucination (4.9%) and direct-answer leakage (9.8%). In the pilot, it raises immediate post-test accuracy from 68.4% to 81.2% and cuts overreliance from 38.0% to 17.0% relative to GPT-4o-mini Tutor. These results suggest safe GenAI tutoring requires not only retrieval or strong prompting, but explicit pedagogical control, evidence verification, and deployment safeguards.",
+      "authors": [
+        "S M Asif Hossain",
+        "Ruksat Khan Shayoni",
+        "M. F. Mridha",
+        "Jungpil Shin"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15738v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Beyond Detection: Agentic Attack Synthesis and Simulation for Smart Contracts",
+      "source": "arXiv",
+      "date": "2026-07-17T06:31:49+00:00",
+      "updated": "2026-07-17T06:31:49+00:00",
+      "url": "http://arxiv.org/abs/2607.15673v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.15673v1",
+      "abstract": "Smart contract vulnerabilities pose severe financial risks, yet existing security tools largely stop at vulnerability detection, offering limited support for explaining whether reported flaws are exploitable, how attacks unfold, and what concrete damage they cause. To bridge this gap, we propose KASS (Knowledge-Augmented Attack Synthesis and Simulation), a multi-agent framework for executable smart contract exploit verification. KASS decomposes automated exploit generation into planning, generation, and testing stages, and integrates three complementary mechanisms: retrieval-augmented planning over real-world audit knowledge, formal generation and validation constraints that bind attack plans to executable proof-of-concept tests, and a hierarchical dual-loop refinement process that repairs code-level errors while triggering strategy-level replanning when attack assumptions fail. We evaluate KASS on 104 SmartBugs-Curated contracts across four vulnerability categories. Experimental results show that KASS successfully generates executable exploits for 94.23% of tested contracts; this rate is higher than previously reported results for REX and AdvSCanner on comparable SmartBugs-Curated subsets, and higher than our reproduced Claude Code baseline under the same evaluation protocol. On 11 real-world CVE-tagged contracts, KASS successfully validates 9 cases. Beyond exploit generation, KASS produces structured attack plans that document exploitation flows, quantify potential asset losses, and serve as semantic false positive filters for static analysis tools.",
+      "authors": [
+        "Xianhao Zhang",
+        "Jing Sun",
+        "Zijian Zhang",
+        "Ye Liu",
+        "Zhe Hou",
+        "Jiaqi Gao",
+        "Yuqiang Sun"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.15673v1",
+      "pubmed_id": ""
+    }
+  ],
   "source_statuses": [
     {
       "source": "arXiv",
-      "success": false,
-      "count": 0,
-      "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=60)"
+      "success": true,
+      "count": 11,
+      "error": ""
     }
   ]
 }

@@ -1,31 +1,35 @@
-# 每日论文监控日报 (2026-07-19)
+# 每日论文监控日报 (2026-07-20)
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 19 篇新论文。
+今日共整理 21 篇新论文。
 
 ## 抓取状态
 
-- arXiv：失败，命中 0 篇，错误：HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=60)
-- PubMed：成功，命中 43 篇
-- bioRxiv：成功，命中 19 篇
-- medRxiv：成功，命中 13 篇
-
-注：部分来源抓取失败时，后续整理结果可能包含缓存原始数据，不等同于这些来源当天没有新论文。
+- arXiv：成功，命中 11 篇
+- PubMed：成功，命中 32 篇
+- bioRxiv：成功，命中 17 篇
+- medRxiv：成功，命中 6 篇
 
 ## 最值得看
 
 ### Foundation Model / Agent
 
-- [Medea: An AI agent for therapeutic reasoning across biological contexts](https://www.biorxiv.org/content/10.64898/2026.01.16.696667v2)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：8.5 | 新颖度：6.75
+- [S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation](http://arxiv.org/abs/2607.15686v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：7.8 | 新颖度：6.0
   匹配主题：foundation_model_agent
-  中文摘要：Therapeutic hypotheses can transfer across diseases but their relevance depends on biological context. The same target, perturbation, or treatment can produce different effects across cell types, disease states, genetic ...
+  中文摘要：We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ## 可追踪
 
 ### Foundation Model / Agent
+
+- [Medea: An AI agent for therapeutic reasoning across biological contexts](https://www.biorxiv.org/content/10.64898/2026.01.16.696667v3)
+  来源：bioRxiv | 日期：2026-07-17 | 相关度：8.5 | 新颖度：1.75
+  匹配主题：foundation_model_agent
+  中文摘要：Therapeutic hypotheses can transfer across diseases but their relevance depends on biological context. The same target, perturbation, or treatment can produce different effects across cell types, disease states, genetic ...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [A ReAct Agentic AI System for Natural Language Querying and Statistical Analysis of The Cancer Genome Atlas Clinical Data](https://www.medrxiv.org/content/10.64898/2026.07.15.26358188v1)
   来源：medRxiv | 日期：2026-07-17 | 相关度：7.55 | 新颖度：1.5
@@ -33,17 +37,37 @@
   中文摘要：The Cancer Genome Atlas (TCGA) holds clinical data for over 11,000 patients across 33 cancer types, but access is hard because of complex file structures, heterogeneous formats, and the need for programming. We present a...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Multi-Agent Dynamic Refinement Outperforms Static RAG in Clinical Reasoning for Complex Nephrology Cases](https://www.medrxiv.org/content/10.64898/2026.07.15.26358121v1)
-  来源：medRxiv | 日期：2026-07-16 | 相关度：7.55 | 新颖度：1.0
+- [PrimeKG-Plus: a literature-derived expansion of a multimodal precision medicine knowledge graph](https://www.biorxiv.org/content/10.64898/2026.07.14.738415v1)
+  来源：bioRxiv | 日期：2026-07-18 | 相关度：7.1 | 新颖度：5.25
   匹配主题：foundation_model_agent
-  中文摘要：Background: Large language models (LLMs) struggle with dynamic, longitudinal clinical reasoning. We developed a Multi-Stage Iterative Clinical Reasoning Agent framework to address this gap and systematically decouple the...
+  中文摘要：Biomedical knowledge evolves rapidly, yet most disease-centered knowledge graphs remain unchanged after publication. We present PrimeKG-Plus, an extension of PrimeKG that updates all 20 original data resources to release...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [ReCo: a self-configuring and self-extending agentic framework for biomedical research](https://www.medrxiv.org/content/10.64898/2026.07.14.26358025v1)
-  来源：medRxiv | 日期：2026-07-16 | 相关度：6.55 | 新颖度：1.5
+- [EduGuard: A Safe RAG-Based LLM Tutor for Programming Education](http://arxiv.org/abs/2607.15738v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：6.55 | 新颖度：6.7
   匹配主题：foundation_model_agent
-  中文摘要：This study presents ReCo (Research Cosmos), a self-configuring and self-extending agentic research framework for the biomedical domain. ReCo is orchestrated by a large language model that interacts with native computing ...
+  中文摘要：Generative AI (GenAI) is increasingly used by students for programming explanation, debugging, and assignment support. Yet unrestricted large language model (LLM) tutors can hallucinate, contradict course policy, reveal ...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents](http://arxiv.org/abs/2607.15095v2)
+  来源：arXiv | 日期：2026-07-16 | 相关度：6.55 | 新颖度：6.5
+  匹配主题：foundation_model_agent
+  中文摘要：The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. While Large Language Models (LLMs) open new avenues for computational poli...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery](http://arxiv.org/abs/2607.16038v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：3.75 | 新颖度：6.0
+  匹配主题：foundation_model_agent
+  中文摘要：科学研究涉及论文、代码、数据集、模型输出及实验决策等异构工件，但通用 AI 助手难以将其整合为连贯且可审计的研究状态。本文提出 SciForge，一个多模态科研原生 AI 工作台。该系统将图形界面保留用于人类决策，而将搜索、解析、模型路由、工作流执行、绘图及报告生成作为模块化智能体服务运行。SciForge 围绕五大支柱构建：(i) 目标导向的科研决策治理，设有评审门槛；(ii) 多模态输入的“先翻译后推理”机制，通过领域翻译器处理科学...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+### 数据集 / Benchmark
+
+- [SemVac: A Semantic Vaccinology Paradigm Powered by LLMs for Antigen Discovery](https://www.biorxiv.org/content/10.64898/2026.07.13.737696v1)
+  来源：bioRxiv | 日期：2026-07-17 | 相关度：4.75 | 新颖度：6.25
+  匹配主题：foundation_model_agent
+  中文摘要：逆向疫苗学虽实现了基于序列的抗原发现，但往往忽略了生物医学文献中蕴含的丰富语义知识。本研究建立了语义疫苗学（SemVac）范式，利用大语言模型（LLM）直接从科学文本中预测保护性抗原。通过在策划的抗原数据集上对 14 种先进 LLM 进行基准测试，结果显示基于文本推理的方法在精度上达到或超过了专门的深度学习模型，且在处理功能模糊的蛋白质时表现出更优的鲁棒性。研究发现，显式推理模式（如思维链 CoT）虽能提高召回率，但会一致性地降低精度，...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
@@ -53,33 +77,27 @@
   中文摘要：Background. Early diagnosis and intervention are crucial in multiple sclerosis (MS), yet diagnostic delays are common. Large language models (LLMs) such as generative pre-trained transformers (GPTs) may help streamline d...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Evaluating Voice-Enabled Generative AI for Mental Health: Real-Time Performance and Safety Analyses](https://www.medrxiv.org/content/10.1101/2025.11.14.25340246v2)
-  来源：medRxiv | 日期：2026-07-16 | 相关度：6.55 | 新颖度：1.0
+- [Thematic Shifts in Early-High-Impact Cancer Genomics and Diagnostics Research: A Bibliometric and Semantic Analysis](https://www.biorxiv.org/content/10.64898/2026.07.04.736459v2)
+  来源：bioRxiv | 日期：2026-07-18 | 相关度：7.15 | 新颖度：0.75
   匹配主题：foundation_model_agent
-  中文摘要：This study investigates the integration of Voice AI into a locally hosted generative AI chatbot designed to function as a mental health assistant, with the goal of enabling intuitive, voice-based therapeutic interaction....
+  中文摘要：Cancer genomics and diagnostics is a rapidly evolving field in which identifying which topics attract early citation prominence can inform laboratory investment, clinical translation, and research strategy. We developed ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [{Sigma}0-EvoCell: An AI-Native Ontology that Unifies Evolutionary and Cell Biology in Latent Space](https://www.biorxiv.org/content/10.64898/2026.07.15.738795v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：5.75 | 新颖度：5.75
+- [Ruling Out to Rule In: Contrastive Hypothesis Retrieval for Medical Question Answering](http://arxiv.org/abs/2604.04593v2)
+  来源：arXiv | 日期：2026-04-06 | 相关度：5.75 | 新颖度：5.75
   匹配主题：foundation_model_agent
-  中文摘要：生物学基础模型在分子序列和单细胞转录组的模式识别上表现出色，但在预测遗传扰动效应方面仍逊于简单线性基准，暴露出统计相关性与机制理解之间的脱节。此外，生物知识（如FASTA、SBML）在进入神经网络推理前需进行有损重新编码。本研究提出进化细胞本体（ECO），这是一种基于{Sigma}0底层的AI原生形式语言，将生物知识直接表示为向量编码的关系图。ECO包含16个结构算子，兼具知识符号与张量运算功能，并具有跨越进化与细胞时间尺度的双重语义：...
+  中文摘要：检索增强生成（RAG）使大语言模型能够利用外部医学知识，但标准检索器常召回与查询语义接近但临床特征迥异的“难负样本”。现有查询扩展方法虽能增强目标语义，却缺乏显式抑制临床疑似干扰项的机制，导致系统易受语料库中常见模拟病症的影响。本研究提出对比假设检索（CHR）框架，其灵感源自临床鉴别诊断过程。CHR 分别生成针对正确答案的目标假设（H+）和针对最可能错误选项的模拟假设（H-），通过提升与 H+ 一致的证据并惩罚与 H- 一致的内容来对文...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [The evolutionary processes of bacterial aromatic polyketide ketosynthases](https://www.biorxiv.org/content/10.64898/2026.07.16.738910v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：5.75 | 新颖度：5.25
+- [LR-Robot: A Unified Supervised Intelligent Framework for Real-Time Systematic Literature Reviews with Large Language Models](http://arxiv.org/abs/2603.17723v2)
+  来源：arXiv | 日期：2026-03-18 | 相关度：5.45 | 新颖度：5.5
   匹配主题：foundation_model_agent
-  中文摘要：细菌芳香聚酮化合物（T2PKs）的生物合成依赖于一组特定的催化剂，即酮合酶（KS）和链长因子（CLF，又称 KSβ），通过迭代方式组装碳骨架并实现精确的链长控制。鉴于实验室发现的 T2PKs 数量日益增多，阐明 KS 和 CLF 的进化轨迹变得至关重要。本研究采用了近期开发的基于大型蛋白质语言模型（PLM）的 MAAPE 算法，对 KS 和 CLF 的进化过程进行了深入分析。研究结果揭示了细菌 T2PKSs 中 KS 和 CLF 结构域...
+  中文摘要：人工智能和自然语言处理的进步为系统性文献综述（SLR）提供了工具支持，但现有框架往往存在上下文受限且需要大量专家监督的问题。本文提出 LR-Robot，一个用于实时系统性文献综述的统一监督智能框架。该框架采用人机协同（human-in-the-loop）流程来定义子任务、评估模型并确保方法论的严谨性，同时利用结构化知识源和检索增强生成（RAG）技术来增强事实依据和透明度。LR-Robot 支持研究的多维度分类、论文关系映射、高影响力作品...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ## 低优先级
 
 ### Foundation Model / Agent
-
-- [A layer-resolved diagnostic identifies bias-driven decisions in deep neural networks](https://www.biorxiv.org/content/10.1101/2025.09.16.676625v7)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：6.15 | 新颖度：0.75
-  匹配主题：foundation_model_agent
-  中文摘要：Modern AI systems can be accurate and confident, but this alone does not reveal whether a decision is well supported by the input. This creates a trust problem because confidence reports how decisive a model is, but not ...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [Comparing Human and Large Language Model Responses to Patients Online Questions: Towards Multi-dimensional Patient-centered Support](https://www.medrxiv.org/content/10.64898/2026.07.15.26355314v1)
   来源：medRxiv | 日期：2026-07-17 | 相关度：6.15 | 新颖度：0.75
@@ -88,50 +106,36 @@
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [Community-Tailored One Health Educational Intervention to Enhance Knowledge and Practices for Zoonotic Disease Prevention in Rural Thailand: a Protocol for a Prospective Cluster Randomised Controlled Trial in Chanthaburi, Thailand (Saan Suk trial)](https://www.medrxiv.org/content/10.64898/2026.07.16.26358293v1)
-  来源：medRxiv | 日期：2026-07-18 | 相关度：3.05 | 新颖度：5.25
+  来源：medRxiv | 日期：2026-07-18 | 相关度：3.05 | 新颖度：0.25
   匹配主题：foundation_model_agent
-  中文摘要：本研究针对泰国农村人兽共患病溢出风险，制定了名为 Saan Suk 的干预方案。该方案采用以人为中心的设计（HCD），结合健康信念模型与 One Health 原则，旨在通过泰国村卫生志愿者（VHV）系统实施。研究设计为平行臂集群随机对照优效性试验，计划于 2026 年在尖竹汶府 24 个村庄开展，共纳入 1008 名成年受试者。干预组将接受为期四周、每周一次的多模态教育，内容涵盖病原体溢出知识、保护性行为及与野生动物的共处方式。主要评...
+  中文摘要：本研究描述了 Saan Suk 试验的方案，这是一项在泰国尖竹汶府开展的平行臂集群随机对照优效性试验，旨在评估社区定制化“全健康”（One Health）教育干预对预防人兽共患病的效果。研究背景基于农村社区与野生动物接触频繁，存在病原体溢出风险。干预措施采用以人为中心的设计，结合健康信念模型，由乡村健康志愿者（VHV）在 4 周内交付多模态教育内容。试验将 24 个村庄随机分为干预组和对照组，计划招募 1008 名成年参与者。主要终点是...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Biological Continued Pretraining Reshapes the Capability Profile of a Foundation Model Without Catastrophic Forgetting](https://www.biorxiv.org/content/10.64898/2026.07.06.736700v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：2.4 | 新颖度：1.0
+- [BrainPilot: Automating Brain Discovery with Agentic Research](http://arxiv.org/abs/2607.15079v2)
+  来源：arXiv | 日期：2026-07-16 | 相关度：1.4 | 新颖度：6.0
   匹配主题：未命中具体主题
-  中文摘要：普遍认为，在生物序列等窄领域分布外语料库上进行持续预训练（CPT）会损害通用模型的广泛能力，即产生“灾难性遗忘”。本研究通过分析 26B 参数混合专家模型（Gemma-4-26B-A4B）的三个阶段（指令微调基座、8.7B token 的生物 CPT 后模型、以及随后的 SFT 模型）挑战了这一观点。CPT 语料包含 DNA、蛋白质和生物医学文本。实验涵盖通用知识（MMLU）、代码生成（MBPP）和生物医学知识（BixBench）等维度...
+  中文摘要：理解大脑需要整合多尺度、多模态和跨学科的证据，这要求研究者协调从文献调研、实验分析到结果解释的完整流程。目前的AI智能体在脑科学领域面临专业知识匮乏、虚假陈述、多步推理漂移以及缺乏专家干预机制等挑战。本文提出BrainPilot，一个完全开源的多智能体系统，旨在通过可追溯的日志和智能体验证结果来加速脑科学研究。该系统由首席研究员（PI）智能体协调多个专家智能体，并植根于包含7,233个索引条目的统一脑科学知识库，以及涵盖7个研究领域的7...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-### 数据集 / Benchmark
+- [Beyond Detection: Agentic Attack Synthesis and Simulation for Smart Contracts](http://arxiv.org/abs/2607.15673v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：0.7 | 新颖度：5.25
+  匹配主题：未命中具体主题
+  中文摘要：智能合约漏洞具有严重的财务风险，但现有安全工具多止步于漏洞检测，难以解释漏洞是否可利用及具体的攻击路径。为此，本文提出 KASS（知识增强攻击合成与模拟）——一种用于可执行智能合约漏洞利用验证的多智能体框架。KASS 将自动化漏洞利用生成分解为规划、生成和测试三个阶段，并集成了三种互补机制：基于真实审计知识的检索增强规划、将攻击计划绑定至可执行 PoC 测试的形式化生成与验证约束，以及在攻击假设失败时触发策略重规划的层次化双环细化过程。...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [What Do Generative Models Learn About Adaptive Immune Receptor Repertoires? A Benchmark Study](https://www.biorxiv.org/content/10.64898/2026.07.10.737788v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：5.75 | 新颖度：0.75
-  匹配主题：foundation_model_agent
-  中文摘要：生成模型正越来越多地用于模拟适应性免疫受体库（AIRR）序列分布，有望解码塑造免疫反应的序列多样性并加速治疗性抗体和T细胞受体的设计。然而，目前尚不清楚这些模型是产生了具有生物学意义的输出，还是仅捕获了表层序列统计数据而忽略了受体生成和选择驱动的特征。由于AIRR数据结构复杂且缺乏生物学真值，现有机器学习指标难以直接转化，导致模型评估和选择面临挑战。本研究应用了一套针对AIRR定制的评估指标，系统比较了变分自编码器（VAE）、长短期记忆...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+- [TARS: A Theory-of-Mind Agent for Personalized In-IDE Code Comprehension](http://arxiv.org/abs/2607.15948v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：0.7 | 新颖度：5.25
+  匹配主题：未命中具体主题
+  中文摘要：代码理解是软件工程中最耗时的任务之一，但现有基于大语言模型（LLM）的助手生成的解释往往忽略了用户背景，且迫使开发者进入中断性的“复制-粘贴”工作流。本文提出 TARS，一种集成在 Visual Studio Code 中的 LLM 驱动智能体，通过直接锚定在被分析代码上的自主解释来支持程序理解。TARS 围绕轻量级“心理理论”（Theory of Mind）范式构建，能够分析开发者的专业知识、角色和风格偏好，并据此调整解释的深度和语气...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Genomic foundation model embeddings encode higher-order viral genome architecture beyond sequence composition: a benchmark of Evo 2](https://www.biorxiv.org/content/10.64898/2026.07.14.738542v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：3.4 | 新颖度：6.5
-  匹配主题：pathogenomics
-  中文摘要：本研究针对基因组基础模型 Evo 2 在病毒基因组组织表征及序列生成方面的可靠性进行了系统性基准测试。研究利用包含 19,429 个基因组的 RefSeq 病毒语料库（涵盖不同 Baltimore 分类和宿主域），从三个维度评估了 Evo 2：首先，利用线性探针从平均池化嵌入中解码 Baltimore 分类、宿主域和病毒科；其次，通过岭回归探针恢复基因密度、编码比例和基因重叠等高阶架构特征；最后，在排除于训练集之外的真核病毒集上测试片段...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+- [A Human-Centric Evaluation of a Retrieval-Augmented Generation System for Explaining Quebec Insurance Contracts](http://arxiv.org/abs/2607.15963v1)
+  来源：arXiv | 日期：2026-07-17 | 相关度：0.7 | 新颖度：5.25
+  匹配主题：未命中具体主题
+  中文摘要：随着在线保险销售的兴起，消费者在缺乏专家指导的情况下理解复杂法律合同面临巨大挑战。本文对一种旨在提高魁北克汽车保险合同可理解性的先进检索增强生成（RAG）系统进行了以人为中心的外部评估。通过对拉瓦尔大学 154 名参与者进行的用户研究，研究者从系统满意度、认知负荷、感知自主性和风险四个维度衡量了该智能体的实际效用。结果显示，该系统被视为“认知均衡器”，在满意度、信任度和清晰度方面获得了极高评分。关键发现是，用户对系统提供的自主感的重视程...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 方法创新
-
-- [MINA: linear probes reveal coding-sequence family signal in frozen DNA encoders up to protein composition](https://www.biorxiv.org/content/10.64898/2026.05.25.727711v3)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：5.75 | 新颖度：0.75
-  匹配主题：foundation_model_agent
-  中文摘要：冻结的 DNA 编码器常被用作特征提取器，但微调过程往往掩盖了其固定嵌入向量中已包含的线性可访问信息。本研究引入了 MINA（核苷酸架构模型询问），这是一个轻量级基准测试，旨在评估冻结的 DNA 嵌入是否能恢复：(i) 五类蛋白质家族标签，以及 (ii) 每个基因的 1,536 维 GenePT 自然语言嵌入。实验对比了编码序列（CDS）和转录起始位点（TSS）背景，采用同源性感知划分，并与翻译后的组成成分及蛋白质语言模型基准进行比较。...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Predicting the protein interaction landscape of a mycobacterial pathogen](https://www.biorxiv.org/content/10.64898/2026.07.15.738315v1)
-  来源：bioRxiv | 日期：2026-07-16 | 相关度：4.6 | 新颖度：0.25
-  匹配主题：pathogenomics, sequencing_bioinformatics
-  中文摘要：细菌功能缺失突变库的高维表型筛选已确定了数千个基因间的联系，但阐明其底层机制仍处于低通量阶段。本研究展示了基于 AI 的全蛋白质组蛋白质相互作用（PPI）预测在弥补这一差距方面的效用。研究利用 pooled-AlphaFold3 评估了麻风分枝杆菌（Mycobacterium leprae）蛋白质组中约 130 万种可能的两两相互作用。研究识别出约 2,000 个强及中等强度的 PPI，这些相互作用解释了在结核分枝杆菌、耻垢分枝杆菌和谷...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Parameter-efficient deep learning for pneumonia detection on chest X-rays: A comparative evaluation of explainable AI methods](https://www.medrxiv.org/content/10.64898/2026.07.14.26358065v1)
-  来源：medRxiv | 日期：2026-07-16 | 相关度：2.4 | 新颖度：1.0
-  匹配主题：未命中具体主题
-  中文摘要：肺炎是全球感染性疾病死亡的主要原因，每年导致约250万人死亡，其中5岁以下儿童占15%。胸部X射线是主要的诊断工具，但其准确解读高度依赖放射学专家，导致医疗资源匮乏地区的诊断缺口。本研究针对大型深度学习模型在资源受限环境下计算可行性低及“黑盒”模型缺乏解释性的问题，提出了一种基于迁移学习的参数高效深度学习框架。研究对比了EfficientNet-B0（微调）、ResNet50和DenseNet121三种架构，并在包含5,863张图像的K...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.](https://pubmed.ncbi.nlm.nih.gov/42359840/)
   来源：PubMed | 日期：2026-07-17 | 相关度：2.4 | 新颖度：0.5
@@ -140,6 +144,12 @@
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 ### 产品应用 / 监测落地
+
+- [Optimizing pathogen detection in skull base osteomyelitis: a comparative analysis of swab versus biopsy sampling.](https://pubmed.ncbi.nlm.nih.gov/42472931/)
+  来源：PubMed | 日期：2026-07-19 | 相关度：3.05 | 新颖度：5.25
+  匹配主题：foundation_model_agent
+  中文摘要：颅底骨髓炎（SBO）是一种潜在危及生命的疾病，识别致病病原体对于实施针对性抗生素治疗至关重要。本研究旨在比较活检与拭子采样技术在病原体检测中的表现，并评估其对启动和调整抗生素治疗的影响。研究对 2008 年至 2025 年间接受治疗的 56 名成年 SBO 患者进行了回顾性分析，重点对比了术中拭子、活检标本与非术中拭子标本的检出差异。结果显示，在典型 SBO 患者中，最常见的病原体为铜绿假单胞菌，分别占外耳道拭子分离株的 28.0% 和...
+  为什么值得看：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Conditional superiorities and unaddressed bottlenecks: a critical review of artificial intelligence for waterborne microbial detection.](https://pubmed.ncbi.nlm.nih.gov/42467233/)
   来源：PubMed | 日期：2026-07-17 | 相关度：1.7 | 新颖度：1.25
