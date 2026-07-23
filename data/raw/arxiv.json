@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-22T04:27:06.317383+00:00",
+  "fetched_at": "2026-07-23T04:25:22.085533+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 38,
+  "count": 41,
   "papers": [
     {
       "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
@@ -67,31 +67,21 @@
       "pubmed_id": ""
     },
     {
-      "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
+      "title": "Model Gateway: Management Platform for Model-Driven Drug Discovery",
       "source": "arXiv",
-      "date": "2026-07-19T12:29:35+00:00",
-      "updated": "2026-07-19T12:29:35+00:00",
-      "url": "http://arxiv.org/abs/2607.17227v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.17227v1",
-      "abstract": "Single-cell and spatial foundation models promise transferable biological representations, yet their generality remains largely untested across modalities, biological domains and analytical tasks. We benchmarked six representative models, Nicheformer, CellPLM, scGPT-spatial, GenePT, scELMo and Novae, using a harmonised framework spanning scRNA-seq, spatial transcriptomics and Perturb-seq. We evaluated zero-shot and continually pretrained clustering, supervised annotation, marker-gene concordance and perturbation prediction. Model performance was strongly conditional: expression-trained cell-level transformers best resolved many cell-identity tasks, spatial and graph-aware models better preserved tissue architecture, and language-derived gene embeddings were competitive for selected perturbation-response metrics. No model dominated across tasks, and rankings shifted with modality, preprocessing, tokenisation, biological prior, domain shift and metric choice. This benchmark provides practical guidance for model selection and argues that future models should be judged by biological generalisation, interpretability and perturbation-grounded validity, not by scale or leaderboard performance alone.",
+      "date": "2025-12-05T06:39:37+00:00",
+      "updated": "2026-07-21T20:48:21+00:00",
+      "url": "http://arxiv.org/abs/2512.05462v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.05462v2",
+      "abstract": "Pharmaceutical drug discovery demands machine learning (ML) infrastructure that goes beyond general-purpose Machine Learning Operations (MLOps): inference-time composition of multiple models for multi-parameter optimization (MPO), version management for physics-based models without serialized ML artifacts, enterprise compound library precomputation, and governance structured around scientific organizational units rather than generic access controls. No existing commercial or open-source platform simultaneously addresses this full set of requirements. This paper presents the Model Gateway, a cloud-based platform for managing machine learning and scientific computational models across drug discovery pipelines, providing centralized version control, pharma-structured governance, asynchronous execution, consensus model orchestration, automated retraining, and a unified application programming interface (API) service for heterogeneous clients including molecular design suites and Large Language Model (LLM) agents. In production at Eli Lilly, the platform governs more than 200 deployed models spanning small molecule, peptide, and antibody modalities and serves more than five downstream applications across all phases of the Design-Make-Test-Analyze cycle.",
       "authors": [
-        "Sally Chen",
-        "Roxana Zahedi",
-        "Lucy Chhuo",
-        "Ricky Nguyen",
-        "Marjan BaghGolshani",
-        "Amin Beheshti",
-        "Mark Grosser",
-        "Min Yang",
-        "Nona Farbehi",
-        "Nigel Lovell",
-        "Ahmadreza Argha",
-        "Fatemeh Vafaee",
-        "Youqiong Ye",
-        "Hamid Alinejad-Rokny"
+        "Yan-Shiun Wu",
+        "Sai Mahit Vaddadi",
+        "Zachary A. Rollins",
+        "Nathan A. Morin"
       ],
       "doi": "",
-      "arxiv_id": "2607.17227v1",
+      "arxiv_id": "2512.05462v2",
       "pubmed_id": ""
     },
     {
@@ -163,35 +153,22 @@
       "pubmed_id": ""
     },
     {
-      "title": "SpecXMaster Technical Report",
+      "title": "Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design",
       "source": "arXiv",
-      "date": "2026-03-24T11:49:41+00:00",
-      "updated": "2026-07-20T03:26:10+00:00",
-      "url": "http://arxiv.org/abs/2603.23101v3",
-      "pdf_url": "https://arxiv.org/pdf/2603.23101v3",
-      "abstract": "Intelligent spectroscopy serves as a pivotal element in AI-driven closed-loop scientific discovery, functioning as the critical bridge between matter structure and artificial intelligence. However, conventional expert-dependent spectral interpretation encounters substantial hurdles, including susceptibility to human bias and error, dependence on limited specialized expertise, and variability across interpreters. To address these challenges, we propose SpecXMaster, an intelligent framework leveraging Agentic Reinforcement Learning (RL) for NMR molecular spectral interpretation. SpecXMaster enables automated extraction of multiplicity information from both 1H and 13C spectra directly from raw FID (free induction decay) data. This end-to-end pipeline enables fully automated interpretation of NMR spectra into chemical structures. It demonstrates superior performance across multiple public NMR interpretation benchmarks and has been refined through iterative evaluations by professional chemical spectroscopists. We believe that SpecXMaster, as a novel methodological paradigm for spectral interpretation, will have a profound impact on the organic chemistry community.",
+      "date": "2026-07-22T11:59:38+00:00",
+      "updated": "2026-07-22T11:59:38+00:00",
+      "url": "http://arxiv.org/abs/2607.20057v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20057v1",
+      "abstract": "Antibodies are essential proteins that play a central role in immune recognition by binding specific antigen molecules. Although recent protein language models have enabled progress in single-chain protein modeling and generation, they often fall short in antigen-specific antibody design, where effective modeling requires explicit pairing between antibody and antigen, particularly at the epitope level. To address these limitations, we introduce AAMFM, an Antigen-specific Antibody Multimodal Foundation Model that learns unified representations of antibody sequences and structures conditioned on antigen context. AAMFM incorporates rich antigen information including geometric interfaces and epitope annotations via a cross-modal adapter, enabling joint modeling of antibody-antigen interactions in a shared latent space. To further guide the model toward functional relevance, we fine-tune AAMFM using Calibrated Direct Preference Optimization (Cal-DPO), leveraging preference signals extracted from a strong structural prior to align learning with binding-specific objectives. Extensive experiments demonstrate that AAMFM achieves state-of-the-art performance in functional antibody design, revealing its potential for antigen-specific antibody engineering. Our code is available at https://github.com/XL-S224/AAMFM.",
       "authors": [
-        "Yutang Ge",
-        "Yaning Cui",
-        "Hanzheng Li",
-        "Jun-Jie Wang",
-        "Fanjie Xu",
-        "Jinhan Dong",
-        "Yongqi Jin",
-        "Dongxu Cui",
-        "Peng Jin",
-        "Guojiang Zhao",
-        "Hengxing Cai",
-        "Tianci Yangfeng",
-        "Xueqing Chen",
-        "Hongshuai Wang",
-        "Rong Zhu",
-        "Linfeng Zhang",
-        "Xiaohong Ji",
-        "Zhifeng Gao"
+        "Xiaoliang Shi",
+        "Zichen Wang",
+        "Runze Ma",
+        "Zhongyue Zhang",
+        "Shuangjia Zheng"
       ],
       "doi": "",
-      "arxiv_id": "2603.23101v3",
+      "arxiv_id": "2607.20057v1",
       "pubmed_id": ""
     },
     {
@@ -254,23 +231,156 @@
       "pubmed_id": ""
     },
     {
-      "title": "Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models",
+      "title": "IteraSim RAG: A Multi-Stage Retrieval-Augmented Agentic Back-End for OpenFOAM-Based Computational Fluid Dynamics",
       "source": "arXiv",
-      "date": "2026-02-26T16:39:04+00:00",
-      "updated": "2026-07-19T14:54:34+00:00",
-      "url": "http://arxiv.org/abs/2602.23179v5",
-      "pdf_url": "https://arxiv.org/pdf/2602.23179v5",
-      "abstract": "Protein sequences are abundant in repeating segments, both as exact copies and as approximate segments with mutations. These repeats are important for protein structure and function, motivating decades of algorithmic work on repeat identification. Recent work has shown that protein language models (PLMs) identify repeats, by examining their behavior in masked-token prediction. To elucidate their internal mechanisms, we investigate how PLMs detect both exact and approximate repeats. We find that the mechanism for approximate repeats functionally subsumes that of exact repeats. We then characterize this mechanism, revealing two main stages: PLMs first build feature representations using both general positional attention heads and biologically specialized components, such as neurons that encode amino-acid similarity. Then, induction heads attend to aligned tokens across repeated segments, promoting the correct answer. Our results reveal how PLMs solve this biological task by combining language-based pattern matching with specialized biological knowledge, thereby establishing a basis for studying more complex evolutionary processes in PLMs.",
+      "date": "2026-07-22T16:31:51+00:00",
+      "updated": "2026-07-22T16:31:51+00:00",
+      "url": "http://arxiv.org/abs/2607.20346v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20346v1",
+      "abstract": "Configuring a computational fluid dynamics (CFD) case in OpenFOAM requires assembling a multi-directory input deck of mutually consistent solver, discretisation and boundary-condition dictionaries -- a task that remains a substantial barrier to non-specialist use of open-source CFD software. Large language models (LLMs) coupled with retrieval-augmented generation (RAG) can lower this barrier, but existing systems retrieve with a single flat query, apply one retrieval strategy to operationally distinct requests, and let a single agent both draft and review its own output. We present IteraSim RAG, a retrieval-augmented software back-end for automated OpenFOAM case generation built around these three limitations. An LLM first expands the query into physics, solver-keyword and troubleshooting variants, Reciprocal Rank Fusion then merges the resulting ranked lists, and Maximal Marginal Relevance re-ranks the fused candidates against an HNSW-indexed dense vector store. A deterministic keyword router dispatches tool-conditioned workflow queries and corpus-wide physics queries down separate retrieval paths, and generation is split across an Architect, an InputWriter and a Reviewer agent, backed by a static canonical-knowledge layer covering solver selection, turbulence closures, boundary conditions and finite-volume defaults. On an openly released 28-case benchmark spanning zero-shot setup, few-shot generalisation, single-parameter modifications and turbulence-model swaps, the pipeline attains a mean retrieval coverage of 77.9% (median 79.1%), with the parameter-modification category exceeding 90%. All six reference configurations run to completion on OpenFOAM v2506, and two synthetically corrupted cases are diagnosed and repaired within the bounded Reviewer loop using only the solver log and the canonical layer. The benchmark, scoring rubric and figure scripts are released for reproducibility.",
       "authors": [
-        "Gal Pomerants",
-        "Yaniv Nikankin",
-        "Anja Reusch",
-        "Tomer Tsaban",
-        "Ora Schueler-Furman",
-        "Yonatan Belinkov"
+        "Pratyush Kumar"
       ],
       "doi": "",
-      "arxiv_id": "2602.23179v5",
+      "arxiv_id": "2607.20346v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "PIER: Physics-Informed Environmental Retrieval for Time-Series Modeling",
+      "source": "arXiv",
+      "date": "2026-07-22T14:49:10+00:00",
+      "updated": "2026-07-22T14:49:10+00:00",
+      "url": "http://arxiv.org/abs/2607.20230v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20230v1",
+      "abstract": "Accurate modeling of environmental systems is fundamental to scientific understanding and decision-making, yet remains challenging because observations are limited and physical dynamics vary across systems. Retrieval-augmented approaches offer a natural path to transfer knowledge across systems, but standard embedding-based retrieval does not guarantee consistency of underlying physical processes, since scenarios with similar embeddings may arise from different underlying mechanisms. We propose Physics-Informed Environmental Retrieval (PIER), a model-agnostic framework that augments embedding-based retrieval with a physics-aware stream that scores candidates by flux-response consistency with the target, using local verifiers trained on physics-derived flux features. A weight adjustment mechanism then learns per-scenario weights that adaptively balance the two retrieval streams based on diagnostic features summarizing physics-stream reliability. Experiments on 356 lakes across the Midwestern United States spanning 41 years show that PIER consistently outperforms baselines for water temperature and dissolved oxygen prediction, and serves as a general augmentation strategy across diverse backbones.",
+      "authors": [
+        "Shiyuan Luo",
+        "Runlong Yu",
+        "Chonghao Qiu",
+        "Yue Qin",
+        "Rahul Ghosh",
+        "Robert Ladwig",
+        "Paul C. Hanson",
+        "Yiqun Xie",
+        "Xiaowei Jia"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.20230v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Reinforcement Learning for Large Language Model Selective Evidence Adoption from Contaminated Retrieval Results",
+      "source": "arXiv",
+      "date": "2026-07-22T12:45:04+00:00",
+      "updated": "2026-07-22T12:45:04+00:00",
+      "url": "http://arxiv.org/abs/2607.20090v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.20090v1",
+      "abstract": "Retrieval-augmented large language models frequently face contexts that interleave useful evidence with misleading statements or instruction-like content. Blanket refusal discards valid evidence, whereas uncritical adoption yields incorrect or unsafe answers. The ability to selectively adopt relevant information while rejecting deceptive or harmful content is therefore critical for reliable deployment in real-world retrieval settings. We introduce SelectBench, a controlled benchmark and training set for selective evidence adoption, and post-train Qwen3.5-4B directly with DAPO using either deterministic rule rewards or a frozen semantic judge. On the corrected 325-example SelectBench-v2 test set, strict success rises from 22.46% for the original checkpoint to 25.54% with DAPO-Rule and 26.46% with DAPO-DeepSeek. Both trained policies reduce forbidden-content adoption and produce shorter, more focused responses, yet prompt-injection following does not improve. The paired gains are modest and fail to survive Holm correction, suggesting that stronger reward shaping or additional training iterations may be needed for more robust gains. DAPO-DeepSeek exhibits no material degradation on MMLU or clean HotpotQA, indicating that the post-training procedure preserves general capabilities. These results demonstrate a directional improvement in selective evidence use, while identifying injection resistance and statistical robustness as important remaining challenges for future work.",
+      "authors": [
+        "Yanyu Chen",
+        "Yue Li",
+        "Yongyi Cui",
+        "Dongsheng Shi",
+        "Lichang Dai"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.20090v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation (long version)",
+      "source": "arXiv",
+      "date": "2026-06-04T09:07:06+00:00",
+      "updated": "2026-07-22T08:48:51+00:00",
+      "url": "http://arxiv.org/abs/2606.05901v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.05901v2",
+      "abstract": "Large language models (LLMs) have fundamentally transformed the landscape of Natural Language Processing (NLP), although they remain susceptible to errors. Retrieval-augmented generation (RAG) systems have emerged as a common deployment scenario seeking to both avoid the well known risk of the LLM ``hallucinating'' information, and to enable reasoning and question answering over proprietary information that the LLM did not have access to during training without resorting to expensive model fine-tuning. In this work, we explore the idea of using a lightweight graph structure with a relatively simple graph schema, to support the RAG subsystem via a dedicated toolset. We design an agentic system with a variety of vector search and graph query tools operating over a structured dataset based on a curated subset of English Wikipedia articles, and evaluate its performance on questions from MoNaCo, a challenging Wikipedia based benchmark of complex question answering (QA) tasks. Our results show that the introduction of graph-based tools can significantly increase the precision and recall of factual correctness, can halve the number of hallucinated answers, and achieves the highest fine-grained truthfulness score among the three evaluated scenarios. All this with a modest increase in token usage.",
+      "authors": [
+        "Christopher J. Wedge",
+        "Joshua Stutter",
+        "Danny Dixon",
+        "Jacek Cała"
+      ],
+      "doi": "",
+      "arxiv_id": "2606.05901v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Overview of FinMMEval 2026 Task 2: Multilingual Financial Short-Answer Question Answering",
+      "source": "arXiv",
+      "date": "2026-07-22T07:54:17+00:00",
+      "updated": "2026-07-22T07:54:17+00:00",
+      "url": "http://arxiv.org/abs/2607.19867v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19867v1",
+      "abstract": "FinMMEval 2026 Task 2 evaluates short-answer financial question answering over multilingual evidence. Each final-test item pairs an English question with financial statements and news in English, Chinese, Japanese, Spanish, and Greek. Participating systems submit one concise answer per item in JSONL format. The final-test set contains 256 items, split evenly between easy and expert tiers; each tier contains four question templates instantiated over 32 company-report groups. Gold answers were withheld during submission, and systems were ranked by macro-averaged item-level ROUGE-1 F1 against organizer-held reference answers. The final leaderboard includes 12 ranked submissions. The strongest systems are closely clustered, with the top four separated by less than one percentage point in ROUGE-1 F1. The submitted system papers document retrieval-augmented generation, cross-lingual evidence handling, structured prompting, answer compression, and validation strategies.",
+      "authors": [
+        "Zhuohan Xie",
+        "Xueqing Peng",
+        "Georgi Georgiev",
+        "Dimitar Dimitrov",
+        "Yuyang Dai",
+        "Rania Elbadry",
+        "Vanshikaa Jani",
+        "Lingfei Qian",
+        "Fan Zhang",
+        "Jimin Huang",
+        "Jiahui Geng",
+        "Yankai Chen",
+        "Ye Yuan",
+        "Haolun Wu",
+        "Yuxia Wang",
+        "Ivan Koychev",
+        "Veselin Stoyanov",
+        "Mingzi Song",
+        "Yu Chen",
+        "Xue Liu",
+        "Preslav Nakov"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.19867v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "VizRAG: Enhancing Retrieval-Augmented Generation with Hypergraph Visualization",
+      "source": "arXiv",
+      "date": "2026-07-22T07:09:46+00:00",
+      "updated": "2026-07-22T07:09:46+00:00",
+      "url": "http://arxiv.org/abs/2607.19830v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.19830v1",
+      "abstract": "Hypergraph-based RAG systems surpass traditional graph-based approaches by organizing complex n-ary atomic facts among entities, rather than relying solely on binary relationships. Despite the advancements in multimodal large language models (MLLMs) with enhanced visual capabilities, current hypergraph-based RAG frameworks predominantly restrict knowledge retrieval and reconstruction to a unimodal, text-centric paradigm. This limitation prevents them from fully leveraging the powerful visual perception capabilities of modern MLLMs. To address this gap, we systematically explore the integration of hypergraph awareness in RAG systems through visual cues. By incorporating visual representations of hypergraphs into the RAG pipeline, we introduce VizRAG, the first RAG system to support visual hypergraph structure awareness. Experimental results demonstrate that VizRAG significantly outperforms strong baselines, validating the promising potential of hypergraph visualization as a novel approach for RAG systems.",
+      "authors": [
+        "Yanbin Wei",
+        "Yang Chen",
+        "Renling Gan",
+        "Ziru Liu",
+        "Xinyu Fu",
+        "Chun Kang",
+        "Ning Lu",
+        "Rui Liu",
+        "Yu Zhang",
+        "James Kwok"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.19830v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Echoes Across Vietnam's Highlands, Delta, and Coast: A Multilingual Corpus for Cham, Khmer, and Tay-Nung",
+      "source": "arXiv",
+      "date": "2026-07-09T11:20:17+00:00",
+      "updated": "2026-07-22T03:03:19+00:00",
+      "url": "http://arxiv.org/abs/2607.08362v3",
+      "pdf_url": "https://arxiv.org/pdf/2607.08362v3",
+      "abstract": "Vietnam's ethnic minority languages are almost absent from the field of Natural Language Processing (NLP), and the challenge goes beyond data scarcity: Cham, Khmer, and Tay-Nung differ sharply in script, Vietnamese contact, and standardization, conditions under which standard multilingual adaptation can learn the wrong signals. We introduce CKTN, the first corpus and benchmark for these languages (44,367 documents, 24M subword tokens), spanning continued pretraining, category classification, and summary-document retrieval. We show that existing multilingual encoders severely fragment these languages, and that common adaptation metrics can mislead: models may lower language-modeling loss or excel at lexical-overlap retrieval while still failing at semantic generalization across documents. We address this with a script-aware adaptation recipe - vocabulary augmentation combined with calibrated replaced-token pretraining - that prevents the discriminator from exploiting trivial script mismatches. The result is an encoder with substantially less fragmentation and the strongest classification performance among evaluated models, exposing the limits of lexical-overlap retrieval as an evaluation signal.",
+      "authors": [
+        "Anh Trac Duc Dinh",
+        "Khang Nhat Hoang Vo",
+        "Vinh Cong Doan",
+        "Tai Tien Ta",
+        "Khoa Duc Anh Lam"
+      ],
+      "doi": "",
+      "arxiv_id": "2607.08362v3",
       "pubmed_id": ""
     },
     {
@@ -772,76 +882,13 @@
       "doi": "",
       "arxiv_id": "2607.17535v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
-      "source": "arXiv",
-      "date": "2026-07-20T03:31:36+00:00",
-      "updated": "2026-07-20T03:31:36+00:00",
-      "url": "http://arxiv.org/abs/2607.17508v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.17508v1",
-      "abstract": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific predictors. RAIL retrieves related source tasks, transfers structure through coefficient space, and generates a new predictor in the original diagnostic-feature space, enabling zero-shot and few-shot clinical procedure prediction with feature-level explanations. Its probabilistic formulation provides uncertainty over retrieval, model coefficients, and predictions, supporting reliability-aware deployment: uncertain predictions or unstable explanations can be flagged for additional clinical review rather than treated as automatic decisions. This makes RAIL particularly suited for healthcare settings, where prediction tasks are highly long-tailed, new clinical targets arise frequently, and models must remain inspectable, uncertainty-aware, and compatible with human oversight. Across long-tailed clinical procedure prediction tasks, RAIL maintains reliable performance across data-availability regimes: it achieves 73.4% accuracy in the held-out zero-shot settings, where no supervised task-specific model can be trained, and remains near 73.2% accuracy in the extreme few-shot regime with only 2-4 examples, where supervised task-specific models perform close to chance. RAIL further benefits from clinically informed task representations and yields retrieval, uncertainty, and coefficient-level diagnostics that make model behavior more transparent. These results suggest a path toward scalable clinical prediction systems that can adapt to new tasks while preserving interpretability and reliability.",
-      "authors": [
-        "Sazan Mahbub",
-        "Caleb Ellington",
-        "Zhiyuan Li",
-        "Yixin Yang",
-        "Souvik Kundu",
-        "Ben Lengerich",
-        "Eric P. Xing"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.17508v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "MamaBench: Benchmarking LLM Robustness in Maternal and Child Health Diagnosis through Counterfactual Clinical Perturbation",
-      "source": "arXiv",
-      "date": "2026-07-15T21:56:19+00:00",
-      "updated": "2026-07-19T14:47:36+00:00",
-      "url": "http://arxiv.org/abs/2607.14385v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.14385v2",
-      "abstract": "Large language models achieve strong scores on medical benchmarks, yet these benchmarks evaluate each question in isolation, providing no measure of whether a system can distinguish clinically similar presentations requiring different interventions. We introduce MamaBench, the first counterfactual benchmark for maternal and paediatric AI: 434 expert-authored clinical narratives in 217 pairs across 371 pathologies, evaluated via the Bias Trap Rate (BTR), the conditional probability that a model fails the counterfactual given success on the base case. We propose Evidence-Anchored RAG (EA-RAG), a three-stage retrieval method that replaces aggregate similarity with an evidence coverage objective through clinical parameter extraction, coverage auditing, and contrastive sub-queries. Across eight configurations of four frontier LLMs, base accuracy overstates robust accuracy by 16-28 percentage points in every model. EA-RAG achieves 20.3% BTR and 65.0% robust accuracy on Claude Sonnet 4.6, a 5.5 percentage point BTR reduction without degrading base accuracy. The residual 20% BTR confirms that counterfactual robustness in clinical AI remains an open challenge. Keywords: counterfactual evaluation, clinical AI, maternal healthcare, retrieval-augmented generation, diagnostic robustness",
-      "authors": [
-        "Thanni Adewuyi",
-        "Anuoluwa Sotome",
-        "Samuel Okoko",
-        "Angel Ezendu",
-        "Oluwafunke Akinbuwa",
-        "Oluwaseun Odunsi",
-        "Oluwasegun Oguntuase",
-        "Ifeoma Nwabueze",
-        "Abiodun Adereni"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.14385v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DisarmRAG: Stealthy Retriever-Centric Poisoning to Disable Self-Correction in Retrieval-Augmented Generation (Extended Version)",
-      "source": "arXiv",
-      "date": "2025-08-27T17:49:28+00:00",
-      "updated": "2026-07-19T08:24:06+00:00",
-      "url": "http://arxiv.org/abs/2508.20083v2",
-      "pdf_url": "https://arxiv.org/pdf/2508.20083v2",
-      "abstract": "Retrieval-Augmented Generation (RAG) has become a standard approach for improving the reliability of large language models (LLMs). Prior work demonstrates the vulnerability of RAG systems by misleading them into generating attacker-chosen outputs through poisoning the knowledge base. However, we observe that the effectiveness of these attacks is substantially undermined in the real-world deployment, where LLMs exhibit a strong self-correction ability (SCA). This ability is typically triggered by the mainstream configuration of LLMs, indicating a substantial gap between idealized research settings and practical scenarios. To address this issue, we systematically reflect on the limitations of prior RAG attacks and introduce DisarmRAG, a novel poisoning paradigm that focuses on the retriever, instead of the conventional approach of only poisoning the knowledge base. By compromising the retriever, our method can inject arbitrary anti-SCA instructions into the context provided to LLMs, effectively suppressing the SCA and enforcing attacker-chosen outputs. In particular, we craft a novel and systematic attack framework consisting of 1) an iterative co-optimization process to ensure the effectiveness of the anti-SCA instructions and 2) a stealthy model editing technique based on contrastive learning to facilitate the delivery of the attack payload. We extensively evaluate DisarmRAG across six LLMs and three QA benchmarks, and the results, with success rates exceeding 90%, confirm its efficacy. We additionally validate the effectiveness of our attack under various detection defenses, highlighting stealthiness, which is another critical aspect to consider in real-world attacks.",
-      "authors": [
-        "Yanbo Dai",
-        "Zhenlan Ji",
-        "Zongjie Li",
-        "Kuan Li",
-        "Shuai Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2508.20083v2",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 38,
+      "count": 41,
       "error": ""
     }
   ]
