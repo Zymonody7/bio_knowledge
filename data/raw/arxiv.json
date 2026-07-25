@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-24T04:24:56.068995+00:00",
+  "fetched_at": "2026-07-25T04:20:04.608021+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 39,
+  "count": 21,
   "papers": [
     {
       "title": "Evaluation and Prognostic Validation of Deep Regression Models for WSI-Based Gene-Expression Prediction",
@@ -46,32 +46,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
-      "source": "arXiv",
-      "date": "2026-07-21T16:33:57+00:00",
-      "updated": "2026-07-21T16:33:57+00:00",
-      "url": "http://arxiv.org/abs/2607.19262v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19262v1",
-      "abstract": "As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. We present BioSecBench-Surveillance, a verifiable benchmark of 100 evaluations testing whether AI agents can infer the right analysis pipeline from raw sequencing data and surveillance context. Each evaluation gives an agent only the data and context a human analyst would have, then grades its structured answer deterministically. The tasks span seven categories, from taxonomic classification to genetic-engineering detection, across diverse sample types and sequencing technologies. Across 3,962 gradable attempts from sixteen model-harness pairs, the strongest configuration cleared only about half. Opus 4.8 with PI led at 50.2 percent, with a 95 percent confidence interval of 40.1 to 60.3 percent across 83 evaluations, tied with GPT-5.5 with Codex at 50.2 percent, with a 95 percent confidence interval of 40.8 to 59.6 percent, followed by Opus 4.7 with PI at 49.6 percent, with a 95 percent confidence interval of 40.0 to 59.2 percent, and Sonnet 4.6 with PI at 48.6 percent, with a 95 percent confidence interval of 38.9 to 58.3 percent. Even when agents invoked the correct workflows, their mistakes came from the choices around them, such as which references, thresholds, filters, and normalization to apply. BioSecBench-Surveillance provides a standard for measuring whether agents can be trusted to perform genomic surveillance when the next outbreak arrives.",
-      "authors": [
-        "Harmon Bhasin",
-        "Kevin Flyangolts",
-        "Dianzhuo Wang",
-        "Evan Seeyave",
-        "Arjun Banerjee",
-        "Amanda Darling",
-        "Joshua Stallings",
-        "David Stern",
-        "Shawn Higdon",
-        "Claire Duvallet",
-        "Bryan Tegomoh",
-        "Kenny Workman"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19262v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Omics Data Discovery Agents: Agent-Supported Retrieval, Reanalysis, and Synthesis of Published Omics Data",
       "source": "arXiv",
       "date": "2026-03-10T18:53:10+00:00",
@@ -113,64 +87,6 @@
       ],
       "doi": "",
       "arxiv_id": "2607.16059v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Model Gateway: Management Platform for Model-Driven Drug Discovery",
-      "source": "arXiv",
-      "date": "2025-12-05T06:39:37+00:00",
-      "updated": "2026-07-21T20:48:21+00:00",
-      "url": "http://arxiv.org/abs/2512.05462v2",
-      "pdf_url": "https://arxiv.org/pdf/2512.05462v2",
-      "abstract": "Pharmaceutical drug discovery demands machine learning (ML) infrastructure that goes beyond general-purpose Machine Learning Operations (MLOps): inference-time composition of multiple models for multi-parameter optimization (MPO), version management for physics-based models without serialized ML artifacts, enterprise compound library precomputation, and governance structured around scientific organizational units rather than generic access controls. No existing commercial or open-source platform simultaneously addresses this full set of requirements. This paper presents the Model Gateway, a cloud-based platform for managing machine learning and scientific computational models across drug discovery pipelines, providing centralized version control, pharma-structured governance, asynchronous execution, consensus model orchestration, automated retraining, and a unified application programming interface (API) service for heterogeneous clients including molecular design suites and Large Language Model (LLM) agents. In production at Eli Lilly, the platform governs more than 200 deployed models spanning small molecule, peptide, and antibody modalities and serves more than five downstream applications across all phases of the Design-Make-Test-Analyze cycle.",
-      "authors": [
-        "Yan-Shiun Wu",
-        "Sai Mahit Vaddadi",
-        "Zachary A. Rollins",
-        "Nathan A. Morin"
-      ],
-      "doi": "",
-      "arxiv_id": "2512.05462v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Agents in the Wild: Where Research Meets Deployment",
-      "source": "arXiv",
-      "date": "2026-07-21T17:55:10+00:00",
-      "updated": "2026-07-21T17:55:10+00:00",
-      "url": "http://arxiv.org/abs/2607.19336v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19336v1",
-      "abstract": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, and finance. While academic work has emphasized benchmarks and algorithmic innovation, deployment raises new challenges around robustness, safety, and reliability. This tutorial brings together researchers and practitioners to explore advances in reasoning and planning, multi agent coordination, and evaluation, highlighting open challenges arising from deployment experience. Through applied case studies in pharmaceutical discovery and financial systems, we analyze common design patterns that make agentic systems successful, and discuss practical mitigation strategies for failure modes, such as verification pipelines, fallback mechanisms, and human in the loop supervision. Attendees will gain a comprehensive view of the field along with concrete design patterns, evaluation checklists, and templates for safe and reliable deployment across industries.",
-      "authors": [
-        "Grace Hui Yang",
-        "Pranav N. Venkit",
-        "Hooman Sedghamiz",
-        "Enrico Santus",
-        "Victor Dibia",
-        "Ioana Baldini"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19336v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LakeQuest: A Three-Domain Benchmark for Grounded Question Answering across Data Lakes",
-      "source": "arXiv",
-      "date": "2026-07-14T03:33:00+00:00",
-      "updated": "2026-07-21T16:32:09+00:00",
-      "url": "http://arxiv.org/abs/2607.12310v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.12310v2",
-      "abstract": "While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Answering questions over enterprise and scientific data lakes requires systems to navigate heterogeneous, weakly structured collections of tables, passages, and linked metadata. Current benchmarks abstract away this noisy discovery process, failing to evaluate end-to-end performance. To bridge this gap, we introduce LakeQuest, a human-validated benchmark of 9,846 QA pairs designed to evaluate the end-to-end retrieve-and-synthesize pipeline over realistic data lakes. LakeQuest spans three diverse domains (AI/ML metadata, retail banking, and multimodal biomedical drug information) and pairs every question with exact, modality-aware evidence pointers. By isolating source discovery from cross-modal synthesis, LakeQuest exposes critical failure modes in modern QA systems. Our baseline evaluations, including standard Retrieval-Augmented Generation (RAG) and agentic tool-use methods, reveal that high-quality retrieval does not guarantee correct reasoning. Systems consistently struggle with relation chaining in metadata graphs, policy grounding in bank ledgers, and joint tabular QA in biomedical contexts, highlighting the need for robust discovery and faithful cross-file composition mechanisms in future agentic QA systems.",
-      "authors": [
-        "Michael Solodko",
-        "Steven Gong",
-        "Guangwei Yu",
-        "Satya Krishna Gorti",
-        "Jesse C. Cresswell",
-        "Victor Zhong"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.12310v2",
       "pubmed_id": ""
     },
     {
@@ -231,43 +147,6 @@
       ],
       "doi": "",
       "arxiv_id": "2607.20057v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
-      "source": "arXiv",
-      "date": "2026-07-21T16:07:07+00:00",
-      "updated": "2026-07-21T16:07:07+00:00",
-      "url": "http://arxiv.org/abs/2607.19237v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19237v1",
-      "abstract": "Designing small molecule ligands that bind with high affinity to specific protein pockets is a fundamental goal in drug discovery, as small molecules constitute a major fraction of approved therapeutics. Recent breakthroughs in structure prediction, such as AlphaFold-3 and Boltz-2, enable accurate biomolecular interaction prediction and show promise as foundation models for downstream tasks, including binding affinity prediction. We propose to leverage these models and introduce DBMol, a new structure predictor-guided framework for de novo small molecule design. DBMol formulates an alternating optimization and projection process. In the optimization stage, DBMol starts from an initial molecule and uses gradient-based optimization to improve pocket-specific interactions and predicted binding affinity using a structure prediction model. In the projection stage, a flow-matching model maps the optimized molecular graph to discrete and chemically valid molecules. Experiments show that DBMol effectively optimizes the Boltz-2 affinity proxy and generates molecules with strong predicted affinity and specificity under Boltz-2 evaluation. To reduce self-confirmation bias, we further evaluate generated molecules using held-out metrics, including AF3-based evaluation. DBMol substantially improves pocket coverage while maintaining molecular diversity over unconditional generation, and is competitive under held-out metrics despite the absence of reference-ligand supervision. These results support the promise of structure prediction models as effective optimization signals for de novo molecular design.",
-      "authors": [
-        "Yiming Qin",
-        "Kai Yi",
-        "Miruna Cretu",
-        "Sjors H. W. Scheres",
-        "Pietro Liò",
-        "Pascal Frossard"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19237v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
-      "source": "arXiv",
-      "date": "2026-07-21T13:18:59+00:00",
-      "updated": "2026-07-21T13:18:59+00:00",
-      "url": "http://arxiv.org/abs/2607.19083v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19083v1",
-      "abstract": "Equivariant graph neural networks provide a powerful modeling language for three-dimensional scientific data, but their reuse is often limited by implementations tied to specific tasks, outputs, and training regimes. We present GEqTrain, a configuration-driven framework that separates dataset semantics, model composition, and training objectives. Raw data are mapped to typed node-, edge-, and graph-level fields, while model stacks, losses, and training workflows are assembled declaratively through Hydra configurations. A shared equivariant backbone and training infrastructure can therefore be retargeted to a new task primarily through configuration. We demonstrate this flexibility on three different problems handled within one software stack: coarse-grained-to-atomistic backmapping of biomolecular systems, prediction of NMR chemical shifts in molecular solids, and equivariant generative modeling. Our aim is not to surpass individually optimized task-specific systems, but to show that a shared representation and training infrastructure can achieve competitive accuracy across qualitatively different tasks at the cost of a configuration change. We further introduce GEqDiff, a generative extension based on equivariant flow matching. GEqDiff treats user-defined equivariant fields as first-class generation targets, jointly transporting Cartesian positions and non-scalar node fields spanning representations up to l=3 within a single equivariant flow. We validate this capability on a controlled synthetic benchmark inspired by protein secondary-structure motifs, showing that fields with heterogeneous transformation properties can be reconstructed jointly and with high fidelity. By reducing the software overhead of moving between predictive and generative, scalar and tensorial settings, GEqTrain aims to make equivariant modeling more reproducible, extensible, and reusable.",
-      "authors": [
-        "Daniele Angioletti",
-        "Marco Nobile",
-        "Vittorio Limongelli"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19083v1",
       "pubmed_id": ""
     },
     {
@@ -577,265 +456,13 @@
       "doi": "",
       "arxiv_id": "2607.19830v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "Echoes Across Vietnam's Highlands, Delta, and Coast: A Multilingual Corpus for Cham, Khmer, and Tay-Nung",
-      "source": "arXiv",
-      "date": "2026-07-09T11:20:17+00:00",
-      "updated": "2026-07-22T03:03:19+00:00",
-      "url": "http://arxiv.org/abs/2607.08362v3",
-      "pdf_url": "https://arxiv.org/pdf/2607.08362v3",
-      "abstract": "Vietnam's ethnic minority languages are almost absent from the field of Natural Language Processing (NLP), and the challenge goes beyond data scarcity: Cham, Khmer, and Tay-Nung differ sharply in script, Vietnamese contact, and standardization, conditions under which standard multilingual adaptation can learn the wrong signals. We introduce CKTN, the first corpus and benchmark for these languages (44,367 documents, 24M subword tokens), spanning continued pretraining, category classification, and summary-document retrieval. We show that existing multilingual encoders severely fragment these languages, and that common adaptation metrics can mislead: models may lower language-modeling loss or excel at lexical-overlap retrieval while still failing at semantic generalization across documents. We address this with a script-aware adaptation recipe - vocabulary augmentation combined with calibrated replaced-token pretraining - that prevents the discriminator from exploiting trivial script mismatches. The result is an encoder with substantially less fragmentation and the strongest classification performance among evaluated models, exposing the limits of lexical-overlap retrieval as an evaluation signal.",
-      "authors": [
-        "Anh Trac Duc Dinh",
-        "Khang Nhat Hoang Vo",
-        "Vinh Cong Doan",
-        "Tai Tien Ta",
-        "Khoa Duc Anh Lam"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.08362v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LinguistAgent Technical Report: A Reflective Multi-Model Platform for Automated Linguistic Annotation",
-      "source": "arXiv",
-      "date": "2026-02-05T09:55:19+00:00",
-      "updated": "2026-07-21T17:59:46+00:00",
-      "url": "http://arxiv.org/abs/2602.05493v2",
-      "pdf_url": "https://arxiv.org/pdf/2602.05493v2",
-      "abstract": "Data annotation remains a significant bottleneck in the field of humanities and social sciences, particularly for complex linguistic tasks such as metaphor identification. While Large Language Models (LLMs) show promise, a significant gap remains between the theoretical capability of LLMs and their practical utility for researchers. This paper introduces LinguistAgent, an integrated, user-friendly platform that leverages a reflective multi-model architecture to automate linguistic annotation. The platform comprises an Annotator and an optional Reviewer to simulate a peer-review process. This platform supports comparative experiments across three main paradigms: Prompt Engineering (Zero-shot/Few-shot/Chain-of-thought), Retrieval-Augmented Generation, and Fine-tuning. We demonstrate LinguistAgent's efficacy by replicating the task of metaphor identification from a published study, which provides real-time token-level evaluation (F1 and Cohen's kappa) against human gold standards. The application and codes are released on https://github.com/Bingru-Li/LinguistAgent.",
-      "authors": [
-        "Bingru Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.05493v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
-      "source": "arXiv",
-      "date": "2026-07-21T17:59:21+00:00",
-      "updated": "2026-07-21T17:59:21+00:00",
-      "url": "http://arxiv.org/abs/2607.19345v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19345v1",
-      "abstract": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies with context length. By separating each prompt into task-relevant key evidence and irrelevant distractor context, we further show that the root cause is insufficient grounding: models copy from the prompt indiscriminately, and those that fail to focus on key evidence are far more likely to answer incorrectly. Motivated by this diagnosis, we propose GEAR (Grounding Evidence-Aware Reward), a reward shaping method that augments the accuracy signal with a grounding reward for overlap with key evidence and a distractor penalty for overlap with irrelevant context. To enable GEAR on natural-language data, we develop an automated pipeline that constructs evidence-annotated training data from arbitrary documents. We validate GEAR across multiple model scales and benchmarks, showing consistent improvements of up to +4.6 average points over standard RL with accuracy-based rewards, with larger gains at longer contexts, while also reducing repetitive copying and thinking length. Our findings suggest that, even as long-context evaluation shifts from simple retrieval toward complex reasoning, accurate grounding in relevant evidence remains an indispensable capability with substantial room for improvement.",
-      "authors": [
-        "Lizhe Fang",
-        "Weizhou Shen",
-        "Tianyi Tang",
-        "Yisen Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19345v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
-      "source": "arXiv",
-      "date": "2026-07-21T17:07:13+00:00",
-      "updated": "2026-07-21T17:07:13+00:00",
-      "url": "http://arxiv.org/abs/2607.19297v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.19297v1",
-      "abstract": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework for stateful agents, as a model-quality benchmark target, we present three executable recipes -- SQL analytics with repair loops, agentic retrieval-augmented generation with evidence gating, and human-in-the-loop policy review with interrupt and checkpoint recovery -- to show how typed state, conditional routing, deterministic tools, retries, interrupts, checkpoints, and traces fit together. LangGraph is positioned by workflow-complexity fit, not as a universal default: simpler ReAct-style or plain SDK loops may be better for basic tool use, schema-first tools for structured extraction and validation, and DSPy when prompt or program optimization is the main goal. Each recipe explains when LangGraph is worth the extra structure and which implementation patterns make routes, pauses, and audit trails explicit product behavior rather than hidden prompt logic.",
-      "authors": [
-        "Daniel Pearson",
-        "Sidney Shapiro",
-        "Emiliano Sebastian Gonzalez Venegas",
-        "Sanad Al-Khatib",
-        "Aurora Pinzón Arzola"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.19297v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
-      "source": "arXiv",
-      "date": "2026-07-20T16:03:15+00:00",
-      "updated": "2026-07-21T15:53:04+00:00",
-      "url": "http://arxiv.org/abs/2607.18102v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.18102v2",
-      "abstract": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from the user's question and rank candidates by semantic similarity. Together, these choices create prior-corpus misalignment: a mismatch between model priors and the target filings' structure, terminology, and evidence standards. As a result, query generation misses corpus-specific evidence, while semantic reranking favors topically similar but evidentially invalid false-positive chunks. We propose FinSAgent, an evidence-grounded multi-agent framework that reframes SEC filing QA as corpus-aligned retrieval planning and corrects both ends with a single principle: inject corpus-side conditioning wherever model priors would otherwise dominate. FinSAgent combines (1) role-specialized agents anchored to the mandated 10-K item structure, (2) database-aware query decomposition that conditions each agent's sub-queries on a lightweight, summary-level view of the local corpus, and (3) multi-path retrieval with a learned feature-gated reranker that separates evidential validity from semantic similarity. Across five offline financial QA benchmarks, FinSAgent improves retrieval coverage and answer correctness over strong single-agent and multi-agent baselines; in a three-arm randomized online experiment with 1,000 anonymous user ratings, it also receives higher scores than baselines.",
-      "authors": [
-        "Jijun Chi",
-        "Zhenghan Tai",
-        "Hanwei Wu",
-        "Tung Sum Thomas Kwok",
-        "Hailin He",
-        "Zixing Liao",
-        "Bohuai Xiao",
-        "Chaolong Jiang",
-        "Jianliang Lei",
-        "Jerry Huang",
-        "Peng Lu",
-        "Muzhi Li",
-        "Liheng Ma",
-        "Yihong Wu",
-        "Sicheng Lyu",
-        "Jingrui Tian",
-        "Yihan Li",
-        "Yanzhang Ma",
-        "Sizhe Guan",
-        "Dingtao Hu",
-        "Yufei Cui",
-        "Ling Zhou",
-        "Lei Ding",
-        "Xinyu Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18102v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "M-RAG: Semantic Key-Value Indexing for Retrieval-Augmented Generation",
-      "source": "arXiv",
-      "date": "2026-01-06T15:14:54+00:00",
-      "updated": "2026-07-21T12:29:44+00:00",
-      "url": "http://arxiv.org/abs/2603.26667v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.26667v2",
-      "abstract": "Retrieval-augmented generation (RAG) turns external documents into evidence for large language models. In practice, this is also a data access problem: a system must decide what to index, what to retrieve, and what evidence to place in the context under a token budget. Most RAG pipelines use text chunks for both lookup and generation. This couples two different objectives. Retrieval benefits from compact and discriminative records, while generation needs contextual and faithful evidence. As a result, small chunks may fragment answer-bearing information, whereas large chunks may introduce noise and waste the context budget. We propose M-RAG, a semantic key-value indexing layer for budget-constrained RAG query processing. M-RAG extracts meta-markers from complete documents, where each record contains a retrieval key, an information value, and provenance pointers. Online retrieval operates over the key field, which can be searched by dense vector retrieval or sparse lexical retrieval; the paired values are returned as generation payloads and assembled under the token budget. Provenance pointers further support coverage validation and position-aware context ordering. This design separates the physical index entry from the evidence payload without changing the underlying retriever or generator. Experiments on LongBench QA subtasks show that M-RAG achieves competitive or better accuracy than representative chunk-based baselines, especially under tight token budgets. Further analyses show high document coverage, stronger robustness under expanding candidate corpora, and lower online retrieval latency. These results suggest that semantic key-value indexing is a practical access method for RAG workloads.",
-      "authors": [
-        "Xu Sun",
-        "Tongkai Xu",
-        "Baiheng Xie",
-        "Li Huang",
-        "Qiang Gao",
-        "Kunpeng Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.26667v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AutoJourn: Multi-Perspective Summarisation, Bias Detection and Bias Neutralisation for LLM-Generated News in Automated Journalism",
-      "source": "arXiv",
-      "date": "2026-07-21T11:18:00+00:00",
-      "updated": "2026-07-21T11:18:00+00:00",
-      "url": "http://arxiv.org/abs/2607.18983v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18983v1",
-      "abstract": "We present AutoJourn, a demonstration system for multi-perspective news generation and bias-aware evaluation using large language models (LLMs). The system tackles three core challenges in responsible automated journalism: extracting diverse perspectives from unstructured social media discussions, generating summaries that preserve viewpoint diversity, and detecting or mitigating bias in AI-generated news. The pipeline integrates advanced prompt engineering with optional retrieval augmentation to produce semantically diverse perspective sets, a multi-perspective summarisation module that merges conflicting viewpoints into balanced summaries, and a bias analysis suite supporting sentence-level bias detection and type classification in the generated news article, and automatic neutralisation. Users can inspect perspective clusters, compare stance-specific summaries, generate news articles, and apply bias-aware rewrites directly in the interface. We evaluate each component with intrinsic metrics -- semantic diversity, summary quality, and bias reduction and show improvements over strong baselines while maintaining content fidelity. A live, publicly accessible demo accompanies the paper to facilitate reproducibility and further research on socially responsible automated journalism.",
-      "authors": [
-        "Himel Ghosh",
-        "Ahmed Mosharafa",
-        "Georg Groh"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18983v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ViMax: Agentic Video Generation",
-      "source": "arXiv",
-      "date": "2026-06-02T12:55:41+00:00",
-      "updated": "2026-07-21T08:36:41+00:00",
-      "url": "http://arxiv.org/abs/2606.07649v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.07649v2",
-      "abstract": "Long-form video generation requires systematic narrative planning and visual consistency that current short-clip methods cannot provide. Existing methods generate isolated sequences without narrative structure and lack mechanisms for maintaining character and environmental consistency across scenes. We present ViMax, an agentic video generation framework that addresses video creation through coordinated multi-agent collaboration where specialized components negotiate narrative decisions, visual continuity, and production quality. Our framework employs a hierarchical narrative engine with retrieval-augmented generation for global story coherence and a dependency-aware visual consistency mechanism that tracks character and environmental states across temporal boundaries, while VLM-guided agents continuously monitor and refine both narrative coherence and visual fidelity. The framework enables coordinated agent collaboration to generate extended narrative content. This maintains both storytelling integrity and visual coherence across multi-scene timelines.",
-      "authors": [
-        "Lingxuan Huang",
-        "Sizhe He",
-        "Hengji Zhou",
-        "Liqiang Nie",
-        "Lianghao Xia",
-        "Chao Huang"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.07649v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory",
-      "source": "arXiv",
-      "date": "2026-07-21T08:25:37+00:00",
-      "updated": "2026-07-21T08:25:37+00:00",
-      "url": "http://arxiv.org/abs/2607.18840v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18840v1",
-      "abstract": "World Action Models (WAMs) offer a promising paradigm for robotic manipulation by jointly modeling visual state transitions and robot actions. However, existing WAMs are constrained by limited temporal context, coarse episode-level language supervision, and predominantly text-only conditioning, which hinder task-progress tracking and fine-grained language-video-action grounding while limiting visual-context reasoning and cross-embodiment transfer. In this paper, we introduce WorldScape Policy 2.0, a controllable WAM with reasoning-augmented long short-term memory. Its causal short-term visual memory supplies recent observations as DiT prefill to preserve local interaction dynamics, while its long short-term event memory organizes historical VLM outputs into global-history, local-active, and event-boundary representations for progress-aware retrieval. The retrieved history augments perception and autoregressively generated planning tokens, yielding an implicit subgoal condition for autonomous planning; semantic forcing further transfers event-level instruction semantics into this latent planning pathway. To establish fine-grained multimodal controllability, we construct ManipEvent-5M, an event-grounded embodied pretraining dataset containing nearly 5 million event segments with aligned action trajectories, episode-level task instructions, segment-level subtask captions, goal images, and video demonstrations. These designs provide a unified interface for autonomous planning from high-level instructions and controllable execution from fine-grained text, goal-image, or video-context prompts. Experiments in both simulation and real-world platforms demonstrate superior capabilities in long-horizon autonomous planning, fine-grained instruction following and in-context adaptation.",
-      "authors": [
-        "Haisheng Su",
-        "Zongdai Liu",
-        "Xin Jin",
-        "Haoxuan Dou",
-        "Chengming Hu",
-        "Baorun Li",
-        "Zhanwang Liu",
-        "Ruiyan Xu",
-        "Jianjie Fang",
-        "Xin Zhang",
-        "Zhenjie Yang",
-        "Xue Yang",
-        "Chen Gao",
-        "Junchi Yan",
-        "Yong Li",
-        "Wei Wu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18840v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System",
-      "source": "arXiv",
-      "date": "2026-07-21T08:01:17+00:00",
-      "updated": "2026-07-21T08:01:17+00:00",
-      "url": "http://arxiv.org/abs/2607.18825v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18825v1",
-      "abstract": "This comprehensive study introduces an advanced Artificial Intelligence for Indian Legal Question Answering (AILQA) system tailored to the Indian legal context. AILQA leverages a variety of embedding and generative models, including recent Large Language Models (LLMs), to address the unique challenges posed by the intricate and diverse nature of Indian legal texts and to enhance the accuracy and reliability of responses to legal questions. We conducted rigorous evaluations using both lexical and semantic metrics, enriched by expert legal feedback, to ensure relevance and accuracy. Our findings underscore the effectiveness of the Retrieval-Augmented Generation (RAG) paradigm in improving answer quality, particularly in complex legal domains. Additionally, we assessed performance on standardized tests such as the All India Bar Examination (AIBE), thereby providing a robust benchmark for practical applications. Under the study's evaluation protocol, some AI-generated responses received higher ratings than the available reference answers, particularly when they contained accurate and relevant supporting details. This finding is specific to the evaluated dataset and rating criteria and should not be interpreted as evidence that the models generally outperform qualified legal professionals. We also discuss the challenges encountered, such as the need for precise context and the risks of model hallucination, and propose directions for future research to further refine AI capabilities in the legal field. This study aims to pave the way for enhanced legal decision-support systems, making them more accessible and effective for legal professionals and the public alike.",
-      "authors": [
-        "Shubham Kumar Nigam",
-        "Shubham Kumar Mishra",
-        "Noel Shallum",
-        "Kripabandhu Ghosh",
-        "Arnab Bhattacharya"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18825v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RF-Agent: A Practical Framework for Building Language Agents for RFIC Design",
-      "source": "arXiv",
-      "date": "2026-07-21T06:53:09+00:00",
-      "updated": "2026-07-21T06:53:09+00:00",
-      "url": "http://arxiv.org/abs/2607.18772v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18772v1",
-      "abstract": "Large language models (LLMs) have driven rapid progress in electronic design automation (EDA), yet their application to radio-frequency (RF) circuit design remains limited by the scarcity of domain-specific datasets and standardized benchmarks. We present RF-Agent, which addresses this gap through textbook-driven knowledge distillation. A multi-agent Question-Thinking-Solution-Answer (QTSA) pipeline converts a subsection-level corpus from seven canonical RF textbooks into the first-of-its-kind RF-domain reasoning dataset (over 11,000 samples) with a dedicated multiple-choice benchmark. On this benchmark we study two adaptation strategies: supervised fine-tuning (SFT) and three retrieval-augmented generation (RAG) configurations (semantic, keyword, hybrid). Across multiple LLM families, domain-specific SFT significantly improves RF reasoning, especially for small and medium-sized models; among RAG configurations, semantic retrieval performs best, indicating embedding-based context alignment suits RF reasoning better than naive fusion. The dataset and benchmark provide a reusable foundation for future work on LLM-aided RF circuit design.",
-      "authors": [
-        "Yueqi Xing",
-        "Houbo He",
-        "Jolie Wang",
-        "Erin Ni",
-        "Shikai Wang",
-        "Qiufeng Li",
-        "Weidong Cao",
-        "Taiyun Chi"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18772v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RAGAL: A Frugal, Fully Local Retrieval-Augmented Assistant for Technical Support at a Government Agency",
-      "source": "arXiv",
-      "date": "2026-07-21T06:25:46+00:00",
-      "updated": "2026-07-21T06:25:46+00:00",
-      "url": "http://arxiv.org/abs/2607.18756v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.18756v1",
-      "abstract": "Public institutions hold large volumes of sensitive documents and support tickets that cannot leave the premises, ruling out cloud-hosted language models entirely. We report on RAGAL, a retrieval-augmented assistant for the technical-support team of AFIR, the Romanian Agency for Financing Rural Investments, built and operated under three hard constraints: zero data egress (no external API calls, even for synthetic data), a read-only mandate (the assistant drafts, humans execute), and a single 8 GB consumer laptop as the only development and training machine. Over a Romanian-language corpus of ~25,000 chunks -- 15,073 resolved support tickets and internal normative documents -- we show that the highest-leverage investments were retrieval engineering and retriever fine-tuning rather than a larger generator: hybrid dense-sparse retrieval with intent routing raised our internal evaluation from 62% to 81%, and fine-tuning the bge-m3 embedder on real ticket data improved recall@10 from 0.663 to 0.850 (MRR 0.489 to 0.684) after 72 minutes of training. We document a general pitfall: single-domain fine-tuning silently degraded retrieval on the untouched document domain below the stock baseline, detected only after building a per-domain evaluation set and repaired with locally generated queries (GenQ). We report two counter-intuitive findings -- PII masking improved generation quality, and a structural \"anchor distillation\" scheme made SQL hallucination impossible by construction -- along with a reproducible recipe for full embedder fine-tuning in 8 GB of VRAM. Finally, since zero egress also rules out a cloud judge, we describe a substitute: a 744B-parameter model run on CPU, too slow to serve interactively but affordable in overnight batch, used as a second opinion whose limits we quantify. We release the sanitized pipeline scripts for institutions facing similar data-locality constraints.",
-      "authors": [
-        "Dan Musetoiu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18756v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 39,
+      "count": 21,
       "error": ""
     }
   ]
