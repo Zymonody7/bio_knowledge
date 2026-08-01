@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-07-31T04:32:31.973531+00:00",
+  "fetched_at": "2026-08-01T04:29:06.088502+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 54,
+  "count": 43,
   "papers": [
     {
       "title": "Negative controls reveal volume-driven confounding in radiomics and imaging foundation model features",
@@ -24,23 +24,6 @@
       ],
       "doi": "",
       "arxiv_id": "2607.28423v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Beyond Counts: A Distributional Robustness Margin For Pathology Foundation Models",
-      "source": "arXiv",
-      "date": "2026-07-28T09:34:30+00:00",
-      "updated": "2026-07-28T09:34:30+00:00",
-      "url": "http://arxiv.org/abs/2607.25497v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25497v1",
-      "abstract": "Pathology foundation models are approaching clinical deployment, yet remain vulnerable to systematic non-biological variation across centres. Differences in tissue preparation, staining and scanning are strongly encoded in their representations, enabling shortcut learning and weakening generalisation across cohorts and institutions. The Robustness Index (RI) quantifies whether local representation geometry is dominated by biology or by non-biological variation, but its count-based formulation discards distance information. We show that adding distance weights changes little because the deeper limitation lies in RI's pooled, fixed-neighbourhood design, which obscures sample-level heterogeneity and effectively evaluates only a model-dependent subset of samples. We introduce the Cross-confounder Robustness Margin (CRoMa), a sample-resolved measure that directly compares distances to cross-confounder biological matches and same-confounder biological distractors. CRoMa recasts robustness as a cohort-wide margin distribution rather than a single pooled score. We evaluated frozen representations from 20 tile-level encoders across three benchmarks and 4 slide-level encoders on a fourth. Rankings by median CRoMa were broadly consistent across datasets, while the underlying distributions revealed substantial within-model heterogeneity. Every tile encoder retained a confounder-dominated lower tail, whose prevalence and severity varied markedly across models. These distinct robustness profiles frame model selection as a Pareto trade-off between typical and lower-tail robustness. Higher CRoMa was also associated with smaller shortcut-induced performance drops after supervised adaptation. By turning representation geometry into a distributional robustness readout that anticipates downstream shortcut susceptibility, CRoMa provides a principled basis for robustness assessment and model selection.",
-      "authors": [
-        "Clément Grisi",
-        "Jeroen van der Laak",
-        "Geert Litjens"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.25497v1",
       "pubmed_id": ""
     },
     {
@@ -195,60 +178,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
-      "source": "arXiv",
-      "date": "2026-07-06T22:52:07+00:00",
-      "updated": "2026-07-28T23:06:54+00:00",
-      "url": "http://arxiv.org/abs/2607.05682v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.05682v2",
-      "abstract": "LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposing the mechanism, falsifier, or assumption that a scientist should inspect. We introduce FirstResearch, a first-principles research-question formation framework for scientific LLM agents whose core artifact is a structured Research Question Certificate. The certificate records primitive definitions, assumptions, a mechanism model, a tension or contradiction, a falsifiable hypothesis, a minimal decisive test, and a failure update rule, making the proposed question inspectable before downstream execution. On ten LLM-agent research topics, FirstResearch outperforms controlled prompt-level baselines inspired by AI co-scientist, Agent Laboratory, and AI Scientist-v2 under a primary DeepSeek-blind-judge protocol. A Gemini-2.5-Flash independent-judge rescore of the same 40 baseline packages preserves the system-level ranking, with FirstResearch scoring 4.86/5 versus 4.38/5 for the strongest baseline and Pearson agreement of 0.865 on average score. A one-repeat ablation checkpoint further suggests that the certificate-centered core is the strongest component: certificate-only scoring reaches 4.90/5 under DeepSeek and 4.88/5 under Gemini, while removing certificates drops below 1/5 under both judges. These results are preliminary and use LLM judges rather than human domain experts, but they support a narrow scientific-discovery claim: explicit derivation constraints are a promising mechanism for making LLM-generated scientific questions more auditable. Code, prompts, saved outputs, and reproduction scripts are available at https://github.com/louiswang524/FirstResearch.",
-      "authors": [
-        "Yufeng Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.05682v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "source": "arXiv",
-      "date": "2026-07-28T18:01:48+00:00",
-      "updated": "2026-07-28T18:01:48+00:00",
-      "url": "http://arxiv.org/abs/2607.26155v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26155v1",
-      "abstract": "Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLINLENS, a benchmark of 200 executable tasks over five linked MIMIC resources spanning structured electronic health records, notes, electrocardiograms, chest radiographs, and echocardiograms. A 4 x 5 taxonomy crosses four patient-time scopes with five analysis capabilities. Program-first reverse synthesis pairs each bounded semi-raw package with an evaluator-private reference workflow and checks required artifacts, cohort and temporal semantics, and the final answer. On a fixed 126-task suite, the strongest of 24 standardized model-scaffold configurations achieves 56.3% scope-macro STRICTPASS despite 100% EXECSUCCESS. For reference, a separately configured coding agent solves 83 of 126 tasks, while five biomedical systems adapted to GPT-4o-mini reach at most 2.9% scope-macro STRICTPASS. These results expose a substantial gap between runnable submissions and correct clinical analyses.",
-      "authors": [
-        "Yuan Zhu",
-        "Ethan B. Liu",
-        "Frank Nie",
-        "Jindong Han"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.26155v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
-      "source": "arXiv",
-      "date": "2026-07-28T15:46:41+00:00",
-      "updated": "2026-07-28T15:46:41+00:00",
-      "url": "http://arxiv.org/abs/2607.25886v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25886v1",
-      "abstract": "Recursive self-improvement requires turning evidence of model failures into better models. Data-centric post-training research entails diagnosing capability gaps, designing and validating training-data strategies, and learning from checkpoint feedback. Can LLM agents automate this loop? Existing benchmarks entangle research decisions with optimization, serving, evaluation, and systems implementation, obscuring agents' research capability. We introduce RSIBench-Data, a controlled benchmark of LLM agents as data-centric researchers with a fixed post-training stack. Agents iteratively revise training-data strategies for a fixed target model; training and serving use Tinker-backed services, official evaluation runs through Harbor and E2B sandboxes, and budgets are fixed across agents. We evaluate four frontier agents on six benchmarks across software engineering, terminal use, scientific question answering, and mathematics. Agents demonstrate core data-centric research capabilities: in 58.33\\% of settings, they improve upon the first valid attempt by refining strategies from feedback. However, improvement is inconsistent. Among searches continuing after the best observed score, 78.26\\% end with a lower-scoring final attempt, while the rest only recover the same peak. A strong candidate may therefore appear early or midway through a run even as later revisions fail. Trajectory analysis identifies four patterns in stronger runs: accurate hypotheses, validation-grounded supervision, behavior-aligned data, and preservation of strong checkpoints. These findings suggest that current agents can make useful data-centric discoveries but cannot yet translate feedback into consistent improvements. RSIBench-Data provides a measurable, auditable testbed for the research capabilities required for recursive self-improvement. We open-source our code at https://github.com/evolvent-ai/RSIBench-Data.",
-      "authors": [
-        "Fanqing Meng",
-        "Lingxiao Du",
-        "Qiguang Chen",
-        "Ziqi Zhao",
-        "Haocheng Lu",
-        "Mengkang Hu",
-        "Michael Qizhe Shieh"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.25886v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Challenges and proposed solutions in modeling multimodal medical data: A systematic review",
       "source": "arXiv",
       "date": "2025-05-11T11:23:51+00:00",
@@ -270,49 +199,6 @@
       ],
       "doi": "",
       "arxiv_id": "2505.06945v5",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DeepVRegulome: DNABERT-based deep-learning framework for predicting the functional impact of short genomic variants on the human regulome",
-      "source": "arXiv",
-      "date": "2025-11-12T06:25:31+00:00",
-      "updated": "2026-07-28T17:40:37+00:00",
-      "url": "http://arxiv.org/abs/2511.09026v2",
-      "pdf_url": "https://arxiv.org/pdf/2511.09026v2",
-      "abstract": "Whole-genome sequencing (WGS) has revealed numerous non-coding short variants whose functional impacts remain poorly understood. Despite recent advances in deep-learning genomic approaches, accurately predicting and prioritizing clinically relevant mutations in gene regulatory regions remains a major challenge. We developed DeepVRegulome, a computational framework integrating 464 fine-tuned DNABERT models (458 transcription factor, 4 histone mark, and 2 splice site models) trained on ENCODE and GENCODE datasets. The framework pairs these deep learning models with a suite of analytical tools: quantitative variant scoring via log-odds ratios to assess functional impact, attention-based motif analysis to identify disrupted sequence patterns, and survival analysis using Kaplan-Meier and Cox proportional hazards models to link high-impact variants with clinical outcomes. To ensure the framework accurately captures variant effects on baseline binding status, we benchmarked DeepVRegulome against an independent experimental assay of allele-specific transcription factor binding (SNP-SELEX) data and compared its performance to four established variant-effect predictors. The analysis identified 572 splice-disrupting and 9,837 transcription-factor binding site-altering mutations occurring in greater than 10 percentage of glioblastoma samples. Survival analysis linked 1352 mutations and 563 disrupted regulatory regions to patient outcomes, enabling stratification via non-coding mutation signatures. All the code, fine-tuned models, and an interactive data portal are publicly available.",
-      "authors": [
-        "Pratik Dutta",
-        "Matthew Obusan",
-        "Rekha Sathian",
-        "Max Chao",
-        "Pallavi Surana",
-        "Nimisha Papineni",
-        "Yanrong Ji",
-        "Zhihan Zhou",
-        "Han Liu",
-        "Alisa Yurovsky",
-        "Ramana V Davuluri"
-      ],
-      "doi": "",
-      "arxiv_id": "2511.09026v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "From Training to Deployment: Post-Hoc Causal Feature Identification via Sensitivity Ratios",
-      "source": "arXiv",
-      "date": "2026-07-28T10:26:09+00:00",
-      "updated": "2026-07-28T10:26:09+00:00",
-      "url": "http://arxiv.org/abs/2607.25546v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25546v1",
-      "abstract": "Given a model that is already trained, which features does it rely on causally versus spuriously? Existing methods require access to the training procedure and cannot answer this post-hoc. We introduce the \\textbf{Normalised Sensitivity Ratio~(NSR)}, a post-hoc, model-agnostic diagnostic for this question under a structured-shift regime: environments differ primarily in the mean of spurious features while the causal mechanism and causal marginals remain stable, as in multi-site clinical data or multi-batch genomics. Within this regime, causal features induce constant model sensitivity across environments while spurious features track shift. NSR formalises this as the squared coefficient of variation of per-environment sensitivity. Under a linear structural causal model (SCM) with $K\\ge3$ non-degenerate environments, NSR achieves exact identification (Theorem~1). We fully characterise failure: weak shifts ($O(\\varepsilon^4)$ collapse), degenerate geometry, and proxy attenuation ($O((1-α)^4)$), giving practitioners quantitative criteria for assessing whether the regime holds. Finite-sample rates are $O_p(n^{-1})$ under the null and $O_p(n^{-1/2})$ under the alternative. Experiments confirm all theoretical predictions on synthetic data (area under the ROC curve [AUROC] $= 1.000$ under conditions satisfying the regime), show consistent rankings across five model families (Kendall $τ\\ge0.529$), and recover six of eight causal features on bike-sharing data (Precision@7 $= 0.75$) without modifying any trained model.",
-      "authors": [
-        "Athanasios Vlontzos",
-        "Giorgos Papanastasiou",
-        "Bernhard Kainz",
-        "Sotirios Tsaftaris"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.25546v1",
       "pubmed_id": ""
     },
     {
@@ -346,104 +232,6 @@
       ],
       "doi": "",
       "arxiv_id": "2607.19083v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "PlantBGC: Transformer for Plant BGC Discovery via Label-Free Domain Adaptation and Weak Supervision",
-      "source": "arXiv",
-      "date": "2026-07-29T03:13:48+00:00",
-      "updated": "2026-07-29T03:13:48+00:00",
-      "url": "http://arxiv.org/abs/2607.27258v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.27258v1",
-      "abstract": "Plant biosynthetic gene clusters (BGCs) encode specialized-metabolite pathways, yet curated plant BGC labels remain scarce, hindering supervised discovery at genome scale. Existing plant BGC mining tools are largely signature- and rule-driven and do not fully leverage recent advances in contextual representation learning for modeling long-range domain context and controlling false positives under strong domain shift. We seek an AI-assisted workflow that narrows experimental search space by transferring supervision from well-annotated microbial BGCs to plant genomes. We present PlantBGC, representing genomes as ordered Pfam-domain sequences and learning BGC-likeness with an encoder-only Transformer trained on MIBiG microbial BGCs and adapted to plants via label-free masked language modeling. On microbial benchmarks, PlantBGC achieves token-level AUC = 0.988 (10-fold CV) and 0.979 (leave-class-out). On plants, adaptation improves known-BGC recovery on n = 34 curated loci under strict 100% coverage, increasing recovery from 29.4% to 67.6% and indicating more complete boundaries. GO/KEGG-derived weak supervision reduces proxy primary-like ratio by 48.40% (GO) and 45.20% (KEGG), with consistent per-species reductions (paired Wilcoxon p = 1.53e-5). Compared to plantiSMASH, PlantBGC yields more compact loci on matched regions (median length ratio = 0.278; 93.8% of pairs are shorter).",
-      "authors": [
-        "Yuhan Zhao",
-        "Nidhi Grover",
-        "Zhishan Guo",
-        "Ning Sui"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.27258v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Automatic programming via large language models with population self-evolution for dynamic fuzzy job shop scheduling problem",
-      "source": "arXiv",
-      "date": "2024-10-30T02:54:31+00:00",
-      "updated": "2026-07-29T02:53:00+00:00",
-      "url": "http://arxiv.org/abs/2410.22657v2",
-      "pdf_url": "https://arxiv.org/pdf/2410.22657v2",
-      "abstract": "Heuristic dispatching rules (HDRs) are widely used for solving the dynamic fuzzy job shop scheduling problem (DFJSSP). However, their performance is highly sensitive to specific scenarios and often necessitates expert customization. To overcome this, automated design methods like genetic programming (GP) and gene expression programming (GEP) have been proposed. Despite their success, these methods face challenges, such as high randomness in the search process. Recently, the combination of large language models (LLMs) with evolutionary algorithms has opened new possibilities for prompt engineering and automated algorithm design. To improve the ability of LLMs in automatic HDR design, this paper introduces a novel population self-evolutionary (SeEvo) framework, which draws inspiration from the self-reflective design strategies employed by human experts. Notably, this framework employs a novel teacher-student learning mechanism, allowing the LLM (student) to generate robust HDRs. Guided by a teacher model with complete knowledge of actual processing times, the student learns to infer fuzzy uncertainties from historical deviations, enabling it to effectively anticipate and adapt to fuzzy impacts. Experimental results demonstrate that SeEvo significantly outperforms GP, GEP, deep reinforcement learning (DRL) methods, and more than ten commonly used HDRs from the literature, particularly in previously unseen and dynamic scenarios.",
-      "authors": [
-        "Jin Huang",
-        "Qihao Liu",
-        "Xinyu Li",
-        "Liang Gao",
-        "Yue Teng"
-      ],
-      "doi": "10.1109/TFUZZ.2025.3650586",
-      "arxiv_id": "2410.22657v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Knowledge before Reasoning: EC-Reason-Bench, a Training-Free Diagnostic Benchmark for LLM Enzyme Classification",
-      "source": "arXiv",
-      "date": "2026-07-29T02:16:09+00:00",
-      "updated": "2026-07-29T02:16:09+00:00",
-      "url": "http://arxiv.org/abs/2607.26397v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.26397v1",
-      "abstract": "Enzyme function prediction is a hierarchical, knowledge-intensive form of protein function classification. Existing benchmarks expose an anomaly: general LLMs often get the coarse first level right, yet once asked for a complete EC number their accuracy at levels two through four drops to almost zero, while specialized models and tools stay usable. We propose EC-Reason-Bench, a training-free, diagnostic evaluation protocol built to answer two questions: why general LLMs score close to nothing on EC number prediction, and how much of that loss can be recovered without updating a single weight. We break enzyme classification ability into four orthogonal levers that can each be measured on their own: output structure, external knowledge, reasoning structure, and reasoning robustness. We test each lever with an inference-time method against a shared zero-shot baseline reproducing previously reported near-zero performance. Experiments with several strong reasoning LLMs yield four main findings. First, external knowledge is decisive and must precede reasoning: uniformly low closed-book performance rises sharply with open-book access, narrowing model gaps. Second, in closed-book settings, whether cascading and chain-of-thought help or hurt depends on a model's tendency to abstain. Third, once evidence is available the aggregate score of the best LLM setting is indistinguishable from simply voting the EC numbers of the nearest retrieved neighbors; that tie is an artifact of averaging, and it hides a large gain on adversarial evidence set against an equally large loss on multi-functional enzymes. Reasoning over evidence therefore acts as an arbiter of conflicting neighbors rather than as a source of knowledge, and no single-number leaderboard can see it. Fourth, accuracy obeys a law of homology availability.",
-      "authors": [
-        "Linyu Li",
-        "Zhi Jin",
-        "Yichi Zhang",
-        "Dongming Jin",
-        "Yuanpeng He",
-        "Huanyao Zhang",
-        "Xuan Zhang",
-        "Gadeng Luosang",
-        "Nyima Tashi"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.26397v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LC-SEPLM: long-range contact-supervised adaptation for sequence-only protein representation learning",
-      "source": "arXiv",
-      "date": "2026-07-24T08:35:06+00:00",
-      "updated": "2026-07-29T01:10:20+00:00",
-      "url": "http://arxiv.org/abs/2607.22777v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.22777v2",
-      "abstract": "Protein language models learn transferable sequence representations. However, because they primarily model contextual dependencies along amino-acid sequences, their training objectives do not explicitly constrain the model to learn three-dimensional residue contacts formed after folding . Here, we introduce LC-SEPLM (Long-range Contact-supervised ESM Protein Language Model), which adapts ESM2 with LoRA and long-range residue-pair contact supervision while retaining sequence-only downstream inference. Pair-specific queries use cross-attention over the complete sequence to extract global sequence context associated with long-range spatial contacts. To expose the model to diverse structural information, we trained LC-SEPLM on 500,000 AlphaFold Swiss-Prot proteins. In downstream evaluation, LC-SEPLM improved all eight protein-level tasks relative to ESM2. The largest gain occurred in remote-homology recognition, where macro-F1 increased from 0.6122 to 0.6769 (+0.0647, or 6.47 percentage points). On the official ESM-S EC benchmark, LC-SEPLM also outperformed ESM-S with a maximum absolute gain of 0.1771. These results support residue-pair contact supervision as a bounded route for introducing structural information into protein sequence representations while preserving sequence-only inference.",
-      "authors": [
-        "Chen Wang",
-        "Boming Kang",
-        "Qinghua Cui"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.22777v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AMPBench-MT: A Homology-Controlled Benchmark for Antimicrobial Peptide Potency, Spectrum, and Safety Prediction",
-      "source": "arXiv",
-      "date": "2026-07-28T10:01:30+00:00",
-      "updated": "2026-07-28T10:01:30+00:00",
-      "url": "http://arxiv.org/abs/2607.25518v1",
-      "pdf_url": "https://arxiv.org/pdf/2607.25518v1",
-      "abstract": "Computational AMP discovery is often evaluated through AMP/non-AMP recognition, yet follow-up decisions depend on assay-derived evidence such as target-species potency, hemolysis, toxicity, and selectivity. Existing AMP and peptide benchmarks cover binary recognition, multilabel annotation, assay regression, or broader peptide-model comparison, but they do not jointly place AMP recognition, species-conditioned potency, spectrum, safety-facing proxy endpoints, and cross-endpoint behavior within one sequence-homology-controlled protocol. To address this problem, we introduce AMPBench-MT, a provenance-preserving benchmark that standardizes canonical peptide records and organizes them into binary recognition, species-conditioned pMIC regression, and endpoint-specific potency and safety-facing readouts. Across 161 endpoint-specific model evaluations, high binary performance does not reliably indicate assay-endpoint behavior. Frozen protein-language-model embeddings form the leading pMIC error cluster, while graph and classical regressors remain close. Spectrum labels further reveal that PR-oriented metrics can be misleading under scarce observed negatives, whereas low-toxicity, HC50 hemolysis, and selectivity expose smaller but more assay-facing signals. AMPBench-MT shows that AMP evaluation should move beyond recognition leaderboards toward endpoint-aware evidence auditing. Our proposed benchmark is available at https://huggingface.co/datasets/ZihengZhou06/AMPBench-MT.",
-      "authors": [
-        "Ziheng Zhou",
-        "Huiyu Luo",
-        "Xiaohu Zhu",
-        "Nan Wang",
-        "Xuebiao Qin",
-        "Chaoyan Zhang",
-        "Jun Yan"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.25518v1",
       "pubmed_id": ""
     },
     {
@@ -1078,7 +866,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 54,
+      "count": 43,
       "error": ""
     }
   ]
