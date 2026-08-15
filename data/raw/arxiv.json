@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-14T03:28:20.407038+00:00",
+  "fetched_at": "2026-08-15T02:17:48.605505+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 49,
+  "count": 42,
   "papers": [
     {
       "title": "A Distributional Robustness Margin For Pathology Foundation Models",
@@ -388,43 +388,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "LakeQuest: A Three-Domain Benchmark for Grounded Question Answering across Data Lakes",
-      "source": "arXiv",
-      "date": "2026-07-14T03:33:00+00:00",
-      "updated": "2026-08-11T18:46:12+00:00",
-      "url": "http://arxiv.org/abs/2607.12310v3",
-      "pdf_url": "https://arxiv.org/pdf/2607.12310v3",
-      "abstract": "While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Answering questions over enterprise and scientific data lakes requires systems to navigate heterogeneous, weakly structured collections of tables, passages, and linked metadata. Current benchmarks abstract away this noisy discovery process, failing to evaluate end-to-end performance. To bridge this gap, we introduce LakeQuest, a human-validated benchmark of 9,846 QA pairs designed to evaluate the end-to-end retrieve-and-synthesize pipeline over realistic data lakes. LakeQuest spans three diverse domains (AI/ML metadata, retail banking, and multimodal biomedical drug information) and pairs every question with exact, modality-aware evidence pointers. By isolating source discovery from cross-modal synthesis, LakeQuest exposes critical failure modes in modern QA systems. Our baseline evaluations, including standard Retrieval-Augmented Generation (RAG) and agentic tool-use methods, reveal that high-quality retrieval does not guarantee correct reasoning. Systems consistently struggle with relation chaining in metadata graphs, policy grounding in bank ledgers, and joint tabular QA in biomedical contexts, highlighting the need for robust discovery and faithful cross-file composition mechanisms in future agentic QA systems.",
-      "authors": [
-        "Michael Solodko",
-        "Steven Gong",
-        "Guangwei Yu",
-        "Satya Krishna Gorti",
-        "Jesse C. Cresswell",
-        "Victor Zhong"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.12310v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Most biomedical publications show signs of LLM-assisted writing",
-      "source": "arXiv",
-      "date": "2026-08-11T09:34:18+00:00",
-      "updated": "2026-08-11T09:34:18+00:00",
-      "url": "http://arxiv.org/abs/2608.10715v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.10715v1",
-      "abstract": "Over the past several years, LLM-powered chatbots and agents have become widely used as a tool for academic writing. LLM-assisted writing can be valuable by removing language barriers but at the same time causes concerns about misconduct and fraud. To inform policy decisions, it is necessary to monitor the prevalence of LLM-altered texts in scholarly publications. Despite some recent progress in this direction, no existing method can produce reliable estimates. Here we suggest and validate a new unbiased approach to estimate LLM usage in a corpus of texts based on changing word frequencies. We apply our method to the full texts of open-access biomedical papers from Pubmed Central, and show that by the end of 2025, 89% of papers show excess of LLM-associated vocabulary. We also find that LLMs are twice as likely to be used when writing a paragraph in the Discussion section (68%) compared to a paragraph in the Methods section (32%), but even inside the Methods section, the overall prevalence of LLM usage is over 50%. We believe that our estimates are crucial to shape future guidelines and policies.",
-      "authors": [
-        "Lena Holzwarth",
-        "Rita González-Márquez",
-        "Dmitry Kobak"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.10715v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language",
       "source": "arXiv",
       "date": "2026-08-13T09:58:45+00:00",
@@ -501,26 +464,6 @@
       ],
       "doi": "",
       "arxiv_id": "2608.12090v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DegradeQuery: Counterfactual Tuple Pretraining for Context-Aware PROTAC Degradation Prediction",
-      "source": "arXiv",
-      "date": "2026-08-11T07:25:41+00:00",
-      "updated": "2026-08-11T07:25:41+00:00",
-      "url": "http://arxiv.org/abs/2608.10595v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.10595v1",
-      "abstract": "Proteolysis-targeting chimeras (PROTACs) induce protein degradation by recruiting a target protein to an E3 ubiquitin ligase, making degradation a joint outcome of the degrader molecule and its biological context. Although public databases contain thousands of structured molecule-target-E3 records, degradation measurements are available for only a small fraction of them. Existing supervised approaches therefore leave most recorded chemical-biological relationships unused. We introduce DegradeQuery, a context-aware prediction framework that converts these label-missing records into a pretraining signal. Its counterfactual tuple pretraining objective contrasts recorded tuples with alternatives formed by replacing the target, the E3 ligase, or both, enabling the model to learn contextual associations without assigning activity pseudo-labels. The resulting representation is then fine-tuned to predict degradation from the complete molecule-target-E3 context. On the official PROTAC-8K benchmark, DegradeQuery achieves an area under the receiver operating characteristic curve of 0.9065 and an accuracy of 0.8500, outperforming the compared methods. Controlled analyses further show that the improvement is primarily attributable to tuple-level pretraining, can be recovered using only label-missing records, and remains complementary to protein language model representations. These findings demonstrate that incompletely labeled PROTAC databases contain useful relational supervision and provide a practical route for learning context-aware degradation predictors from scarce experimental labels.",
-      "authors": [
-        "Dong Xu",
-        "Zhangfan Yang",
-        "Jiantao Wu",
-        "Zexuan Zhu",
-        "Jianqiang Li",
-        "Junkai Ji"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.10595v1",
       "pubmed_id": ""
     },
     {
@@ -1057,91 +1000,13 @@
       "doi": "",
       "arxiv_id": "2608.11576v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "BLADE: Better Language Answers through Dialogue and Explanations",
-      "source": "arXiv",
-      "date": "2026-01-31T06:13:37+00:00",
-      "updated": "2026-08-11T18:08:42+00:00",
-      "url": "http://arxiv.org/abs/2604.03236v2",
-      "pdf_url": "https://arxiv.org/pdf/2604.03236v2",
-      "abstract": "Large language model (LLM)-based educational assistants often provide direct answers offering little incentive for students to explore or engage with course materials. We present BLADE (Better Language Answers through Dialogue and Explanations), a retrieval-augmented generation (RAG) based conversational assistant grounded in course-specific content that guides students toward relevant materials through citation-grounded dialogue rather than delivering unsourced solutions. We evaluate BLADE in an advanced undergraduate NLP course with extensive instructional resources, where locating and synthesizing relevant material is a central challenge. During quizzes, students are assigned to one of three conditions: BLADE only, direct course materials only, or both; we measure performance and resource usage. Results show that students consistently select BLADE over direct materials when both are available, and that quiz performance is highest when students use BLADE alone. In contrast, simultaneous use of both resources is associated with significantly lower performance, suggesting that combining modalities may introduce cognitive load without benefit. These findings show the potential of RAG-based assistants as a citation-grounded interface for applying course content under open-book exam-like conditions, while cautioning that adding direct-material access does not necessarily help, and may hinder, in-task performance.",
-      "authors": [
-        "Chathuri Jayaweera",
-        "Phoebe Huang",
-        "Bonnie J. Dorr"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.03236v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Situation Graph Prediction for User Perspective Modeling",
-      "source": "arXiv",
-      "date": "2026-02-10T20:58:15+00:00",
-      "updated": "2026-08-11T15:52:51+00:00",
-      "url": "http://arxiv.org/abs/2602.13319v2",
-      "pdf_url": "https://arxiv.org/pdf/2602.13319v2",
-      "abstract": "Perspective-aware AI requires modeling evolving internal states---goals, emotions, contexts---not merely preferences. Progress is limited by a data bottleneck: digital footprints are privacy-sensitive and perspective states are rarely labeled. We propose Situation Graph Prediction (SGP), a task that frames user perspective modeling as an inverse inference problem: reconstructing structured, ontology-aligned representations of perspective from observable multimodal artifacts, suitable as long-horizon memory for personal agents. To enable grounding without real labels, we use a structure-first synthetic generation strategy that aligns latent labels and observable traces by design. As a pilot, we construct a dataset and run a diagnostic study using retrieval-augmented in-context learning as a proxy for supervision. In our diagnostic study across three frontier foundation models (GPT-4o, Gemini 2.5 Flash, Claude Sonnet 4), we observe a consistent positive gap between surface-level extraction and latent perspective inference---indicating that latent-state inference is consistently harder than surface extraction under our controlled setting. Results suggest SGP is non-trivial and provide evidence for the structure-first data synthesis strategy. For reproducibility and transparency, our code, data, and supplementary resources are available here: https://github.com/flybits/sg-prediction.",
-      "authors": [
-        "Jisung Shin",
-        "Daniel Platnick",
-        "Marjan Alirezaie",
-        "Hossein Rahnama"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.13319v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching",
-      "source": "arXiv",
-      "date": "2026-08-11T15:08:42+00:00",
-      "updated": "2026-08-11T15:08:42+00:00",
-      "url": "http://arxiv.org/abs/2608.11030v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.11030v1",
-      "abstract": "Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. However, due to the complex structure of patent documents, dense technical terminology, and multi-modal information, traditional methods struggle to accurately identify subtle differences between patents. Existing LLM-based patent matching approaches typically rely on domain-specific pretrained or instruction tuning, which often entail high manual labeling costs and catastrophic forgetting. While retrieval-augmented generation (RAG) methods introduce external knowledge they fail to fully leverage LLM's capability to automatically parse patents and mine deep semantic relationships. To address these limitations, this paper proposes a self-knowledge RAG framework that guides LLMs to autonomously extract key technical entities and construct hierarchical ontological structures from patent matching queries, thereby enabling query expansion and precise retrieval. The method integrates the FAISS retrieval with a generative matching mechanism, leveraging self-knowledge to enhance the model's understanding of patent innovations and significantly improve retrieval and matching accuracy. Experimental results demonstrate the outstanding performance of the proposed method on real-world patent datasets, validating its effectiveness and application potential.",
-      "authors": [
-        "Jian Zhang",
-        "Songlin Lei",
-        "Zhuohao Yang",
-        "Bangli Liu",
-        "Ziwei Wang",
-        "Xufeng Weng",
-        "Gehan Amaratunga",
-        "Yu Lin",
-        "Hongwei Wang"
-      ],
-      "doi": "10.1109/CSCWD68734.2026.11582454",
-      "arxiv_id": "2608.11030v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ThinkRetrieve: Retrieval-Augmented Reasoning Traces for Test-Time Scaling",
-      "source": "arXiv",
-      "date": "2026-08-11T13:58:07+00:00",
-      "updated": "2026-08-11T13:58:07+00:00",
-      "url": "http://arxiv.org/abs/2608.10928v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.10928v1",
-      "abstract": "Large Reasoning Models (LRMs) improve performance by allocating additional inference-time compute to generate extended chain-of-thought reasoning. However, recent studies reveal that sequential test-time scaling often yields diminishing or even negative returns, as longer traces exhibit increased uncertainty, error compounding, and drift from the original problem. We propose ThinkRetrieve, a test-time scaling framework that augments the reasoning traces of LRMs with dynamically retrieved solved examples at each reasoning step. Given an external corpus of problems paired with step-by-step solutions, ThinkRetrieve retrieves relevant exemplars at each intermediate step and injects them directly into the thinking trace, providing the model with guidance on how to reason rather than merely what facts are relevant. Experiments across five reasoning models (1.5B--8B parameters) on GSM-8K, MATH-500, AIME 2025, and SciQ demonstrate that ThinkRetrieve consistently improves accuracy over standard test-time scaling, with relative gains of up to $60\\%$ on AIME 2025.",
-      "authors": [
-        "Vaibhav Singh",
-        "Soumya Suvra Ghosal",
-        "Sarvesh Gharat",
-        "Soumyabrata Pal",
-        "Ramasuri Narayanam",
-        "Dinesh Manocha"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.10928v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 49,
+      "count": 42,
       "error": ""
     }
   ]
