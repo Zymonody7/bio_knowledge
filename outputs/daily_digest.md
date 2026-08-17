@@ -1,13 +1,13 @@
-# 每日论文监控日报 (2026-08-16)
+# 每日论文监控日报 (2026-08-17)
 
 本日报聚焦 pathogenomics、clinical metagenomics、unknown pathogen discovery、pathogen foundation model、FAIR biomedical datasets、long-read pathogen identification 等方向。
 
-今日共整理 21 篇新论文。
+今日共整理 20 篇新论文。
 
 ## 抓取状态
 
-- arXiv：成功，命中 20 篇
-- PubMed：成功，命中 38 篇
+- arXiv：成功，命中 15 篇
+- PubMed：成功，命中 29 篇
 - bioRxiv：失败，命中 0 篇，错误：Expecting value: line 1 column 1 (char 0)
 - medRxiv：失败，命中 0 篇，错误：Expecting value: line 1 column 1 (char 0)
 
@@ -15,28 +15,54 @@
 
 ## 最值得看
 
-今天这一档没有命中论文。
+### Foundation Model / Agent
+
+- [NEURON: A Neuro-symbolic System for Grounded Clinical Explainability](http://arxiv.org/abs/2605.01189v3)
+  来源：arXiv | 日期：2026-05-02 | 相关度：7.55 | 新颖度：6.7
+  匹配主题：foundation_model_agent
+  中文摘要：Clinical AI adoption is hindered by the black-box/grey-box nature of high-performing models, which lack the ontological grounding and narrative transparency required for professional-level explainability. We present NEUR...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ## 可追踪
 
 ### Foundation Model / Agent
 
-- [Natural Language Processing: A Comprehensive Practical Guide from Tokenisation to RLHF](http://arxiv.org/abs/2605.03799v3)
-  来源：arXiv | 日期：2026-05-05 | 相关度：7.9 | 新颖度：1.5
+- [Event-Grounded Question Answering over Long Audio via Structured Retrieval](http://arxiv.org/abs/2602.14612v6)
+  来源：arXiv | 日期：2026-02-16 | 相关度：6.15 | 新颖度：6.25
   匹配主题：foundation_model_agent
-  中文摘要：This preprint presents a systematic, research-oriented practicum that guides the reader through the entire modern NLP pipeline --- from tokenisation and vectorisation to fine tuning of large language models, retrieval au...
+  中文摘要：Answering natural-language questions over multi-hour audio requires reliable event recognition, temporal grounding, and efficient retrieval. We present LA-RAG (Long Audio Retrieval-Augmented Generation), a structured fra...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [From Multi-Resolution Cells to Gigapixel Whole Slide Images Foundation Model for Computational Pathology](http://arxiv.org/abs/2608.03508v2)
-  来源：arXiv | 日期：2026-08-04 | 相关度：7.5 | 新颖度：1.75
+- [Adaptive Stopping for Multi-Turn LLM Reasoning](http://arxiv.org/abs/2604.01413v3)
+  来源：arXiv | 日期：2026-04-01 | 相关度：5.45 | 新颖度：6.0
   匹配主题：foundation_model_agent
-  中文摘要：Vision Transformers (ViTs) and their hierarchical variants have achieved strong performance in Computational Pathology (CPath). However, most are pre-trained on single-resolution Whole Slide Images (WSIs), limiting their...
+  中文摘要：Large Language Models (LLMs) increasingly rely on multi-turn reasoning and interaction, such as adaptive retrieval-augmented generation (RAG) and ReAct-style agents, to answer difficult questions. These methods improve a...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [AtomBridge: Agentic VLA Inference Plugin for Long-Horizon Tasks in Scientific Experiments](http://arxiv.org/abs/2602.09430v2)
+  来源：arXiv | 日期：2026-02-10 | 相关度：5.45 | 新颖度：5.5
+  匹配主题：foundation_model_agent
+  中文摘要：Robotic laboratories play a critical role in autonomous scientific discovery by enabling scalable, continuous experimental execution. Recent vision-language-action (VLA) models offer a promising foundation for robotic la...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [AutoSchema: Live Schema Grounding for Agentic Text-to-Sparql over Heterogeneous Knowledge Graphs](http://arxiv.org/abs/2608.14228v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：4.75 | 新颖度：5.25
+  匹配主题：foundation_model_agent
+  中文摘要：Life science knowledge graphs make large collections of structured data available through SPARQL, but each resource uses its own schema, identifiers, and links. TogoMCP helps language model agents query these resources b...
+  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+### 数据集 / Benchmark
+
+- [Fine-grained Claim-level RAG Benchmark for Law](http://arxiv.org/abs/2605.21071v4)
+  来源：arXiv | 日期：2026-05-20 | 相关度：4.75 | 新颖度：6.25
+  匹配主题：foundation_model_agent
+  中文摘要：The rapid progress of large language models (LLMs) is shifting semantic search toward a question-answering paradigm, where users ask questions and LLMs generate responses. In high-stake domains such as law, retrieval-aug...
+  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
 - [Aligning protein-generative models to experimental fitness with ProteinDPO.](https://pubmed.ncbi.nlm.nih.gov/42601461/)
-  来源：PubMed | 日期：2026-08-14 | 相关度：6.45 | 新颖度：6.0
+  来源：PubMed | 日期：2026-08-14 | 相关度：6.45 | 新颖度：1.0
   匹配主题：foundation_model_agent
   中文摘要：Biological generative models can predict biological functions without task-specific training data but often under-perform specialized models. This is due to a fundamental 'alignment gap', where the rules learned during u...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
@@ -53,68 +79,32 @@
 
 ### Foundation Model / Agent
 
-- [Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows](http://arxiv.org/abs/2505.04997v3)
-  来源：arXiv | 日期：2025-05-08 | 相关度：6.15 | 新颖度：0.75
-  匹配主题：foundation_model_agent
-  中文摘要：Computational fluid dynamics (CFD) has been the main workhorse of computational physics, yet its steep learning curve and fragmented, multi-stage workflow create significant barriers to entry. We present Foam-Agent, a mu...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [How Significant Are the Real Performance Gains? An Unbiased Evaluation Framework for GraphRAG](http://arxiv.org/abs/2506.06331v2)
-  来源：arXiv | 日期：2025-05-31 | 相关度：4.75 | 新颖度：0.75
-  匹配主题：foundation_model_agent
-  中文摘要：By retrieving contexts from knowledge graphs, graph-based retrieval-augmented generation (GraphRAG) enhances large language models (LLMs) to generate quality answers for user questions. Many GraphRAG methods have been pr...
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Intern-S2-Preview: Scientific Agentic Foundation Model](http://arxiv.org/abs/2608.13505v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：3.85 | 新颖度：2.0
-  匹配主题：foundation_model_agent
-  中文摘要：Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and environments, and sustain progress across long task horizons....
-  为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [A Comprehensive Empirical Evaluation of Vector Database Systems for Approximate Nearest Neighbor Search: Performance, Quality, and Resource Trade-offs](http://arxiv.org/abs/2608.12812v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：1.4 | 新颖度：1.5
+- [CytoBERT: A Foundation Model for Cytometry Data](http://arxiv.org/abs/2608.14414v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：2.4 | 新颖度：6.5
   匹配主题：未命中具体主题
-  中文摘要：Vector databases have emerged as critical infrastructure for modern artificial intelligence applications, particularly retrieval-augmented generation (RAG), semantic search, and recommendation systems. Despite their grow...
+  中文摘要：Cytometry measures the complex characteristics of single cells (e.g., counts and protein expression of immune cells) and is widely used across immunological research and clinical settings. However, cytometry data is high...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist](http://arxiv.org/abs/2608.13558v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：0.75
+- [ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond](http://arxiv.org/abs/2608.14354v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：0.7 | 新颖度：5.75
   匹配主题：未命中具体主题
-  中文摘要：Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone d...
+  中文摘要：Enabling LLM agents to sustain productive, stable, and goal-aligned research over extended horizons is a central challenge for autonomous machine learning and scientific discovery, as progress hinges on continuously mana...
   为什么值得看：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 ### 数据集 / Benchmark
 
-- [The EPS Research Astro-RAG Platform: A Unified Open-Science Infrastructure for Cross-Epoch Astrophysical Kinematic Analysis, LLM-Assisted Research Workflows, and Educational Outreach](http://arxiv.org/abs/2605.30384v2)
-  来源：arXiv | 日期：2026-05-28 | 相关度：1.4 | 新颖度：1.0
+- [RL-Index: Reinforcement Learning for Retrieval Index Reasoning](http://arxiv.org/abs/2606.16316v2)
+  来源：arXiv | 日期：2026-06-15 | 相关度：0.7 | 新颖度：5.75
   匹配主题：未命中具体主题
-  中文摘要：Correction (August 2026): A previously reported cross-epoch omega sign reversal was caused by a formula implementation error. Using the corrected canonical equation, all eight Tier-1 Z1 rotators yield positive omega valu...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
-- [Query Translation vs. Cross-Lingual Embeddings for Sinhala-Tamil E-Government Information Retrieval](http://arxiv.org/abs/2608.12820v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：0.75
-  匹配主题：未命中具体主题
-  中文摘要：This paper presents a comparative evaluation of cross-lingual information retrieval (CLIR) methods for retrieving English government information using Sinhala and Tamil queries. Two CLIR paradigms are investigated: Query...
-  为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
-- [When Should Multi-Round RAG Stop? Structured Stopping Judgments and Retrieval Reduction in Search-R1](http://arxiv.org/abs/2608.13237v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：0.25
-  匹配主题：未命中具体主题
-  中文摘要：Multi-round retrieval-augmented generation (RAG) must decide when to stop searching as evidence accumulates. Because the deployed policy is determined by the first STOP on each trajectory, this is a sequential selection ...
+  中文摘要：Retrieving external knowledge is crucial for real-world tasks but remains difficult when queries and relevant knowledge are linked by implicit reasoning (e.g., shared theorems or coding logic). Existing methods rely main...
   为什么值得看：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 ### 方法创新
 
-- [Requirements-Augmented Generation for Trustworthy Acceptance Testing of LLM-Based Software](http://arxiv.org/abs/2608.12970v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：5.45 | 新颖度：0.5
-  匹配主题：foundation_model_agent
-  中文摘要：LLM-based software (LBS) integrates large language models as core components to deliver flexible, personalised responses. Unlike traditional software with deterministic outputs, LBSs exhibit context-dependent, stochastic...
-  为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language](http://arxiv.org/abs/2608.13029v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：1.7 | 新颖度：0.25
+- [Model-agnostic Retrieval-Augmented Extended Forecasting for time series](http://arxiv.org/abs/2608.14054v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：2.1 | 新颖度：7.25
   匹配主题：未命中具体主题
-  中文摘要：The field of bioinformatics struggles with legacy code - old code that is commonly used but may no longer have a maintainer, or may be written in an now-unfamiliar language (e.g. Perl, Fortran). This incurs maintenance c...
+  中文摘要：Time series forecasting with pretrained foundation models has demonstrated strong zero-shot capabilities. However, achieving optimal performance on time series with short or negligible historical data in domain-specific ...
   为什么值得看：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Integrating stemness and epithelial-mesenchymal transition signatures with machine learning identifies RUNX1 as a therapeutic vulnerability in colorectal cancer.](https://pubmed.ncbi.nlm.nih.gov/42372471/)
@@ -151,14 +141,20 @@
 
 ### 其他
 
-- [GEM: A Generative Embedding Model Bridging Reasoning and Retrieval](http://arxiv.org/abs/2608.13200v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：0.25
+- [The Past and Future of AI Scientists](http://arxiv.org/abs/2608.14407v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：0.7 | 新颖度：5.75
+  匹配主题：未命中具体主题
+  中文摘要：We present a survey of the past and future of AI Scientists: machines capable of automating science. AI Scientists can originate hypotheses, deduce their consequences, design and execute experiments, interpret their resu...
+  为什么值得看：The Past and Future of AI Scientists 与你的主题有弱匹配，暂时保留作低优先级跟踪。
+
+- [GEM: A Generative Embedding Model Bridging Reasoning and Retrieval](http://arxiv.org/abs/2608.13200v2)
+  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：5.25
   匹配主题：未命中具体主题
   中文摘要：Modern LLMs excel at reasoning and instruction following, enabling users to express complex and diverse information needs. However, conventional retrievers largely rely on surface-level matching between queries and docum...
   为什么值得看：GEM: A Generative Embedding Model Bridgi 与你的主题有弱匹配，暂时保留作低优先级跟踪。
 
-- [Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings](http://arxiv.org/abs/2608.13410v1)
-  来源：arXiv | 日期：2026-08-13 | 相关度：0.7 | 新颖度：0.25
+- [How Much Do Legal RAG Systems Still Hallucinate?](http://arxiv.org/abs/2608.14210v1)
+  来源：arXiv | 日期：2026-08-14 | 相关度：0.7 | 新颖度：5.25
   匹配主题：未命中具体主题
-  中文摘要：Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journalists, and researchers. Applying Retrieval-Augment...
-  为什么值得看：Who Speaks Matters: Authority-Aware Mult 与你的主题有弱匹配，暂时保留作低优先级跟踪。
+  中文摘要：Hallucination is a major challenge for retrieval-augmented generation (RAG) systems in the legal domain, where ungrounded answers can lead to serious consequences. To better understand this problem, we conduct a fine-gra...
+  为什么值得看：How Much Do Legal RAG Systems Still Hall 与你的主题有弱匹配，暂时保留作低优先级跟踪。

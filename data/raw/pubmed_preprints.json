@@ -1,26 +1,32 @@
 {
-  "fetched_at": "2026-08-16T02:24:47.169154+00:00",
+  "fetched_at": "2026-08-17T02:23:28.704185+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 38,
+  "count": 29,
   "papers": [
     {
-      "title": "Comparative genomics of carbapenem resistance and virulence associated with respiratory tract and bloodstream infections in carbapenem-resistant Klebsiella pneumoniae .",
+      "title": "MERS-CoV in the Middle East and Africa: from surveillance gaps in humans and dromedary camels to One Health frameworks for spillover, prevention, research and response preparedness.",
       "source": "PubMed",
-      "date": "2026-12-01T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42590966/",
-      "abstract": "The convergence of resistance and hypervirulence in Klebsiella pneumoniae poses a severe global health threat, yet the genomic mechanisms underlying adaptation to different clinical source remain incompletely understood. We conducted longitudinal genomic surveillance of 282 carbapenem-resistant K. pneumoniae (CRKP) isolates (225 sputum, 57 blood) between 2021and 2024 to characterize population structure, source-associated genomic adaptations, and plasmid evolution. ST11-CG258 dominated the cohort (77.3%), with 61.3% of isolates exhibiting the CR-hvKP phenotype. Longitudinal analysis revealed significant capsular plasticity within ST11, characterized by a temporal shift from KL64/47 to KL25 and the emergence of the highly invasive ST16-KL51 lineage, whereas non-ST11 clones displayed high capsular fidelity. Although bla KPC-2 predominated, bla OXA-181 was enriched among bloodstream isolates, whereas three bla NDM variants were more frequently detected in respiratory isolates. Comparative genomics identified enrichment of genes assigned to COG categories associated with energy production and amino acid transport in bloodstream isolates, whereas sputum isolates showed enrichment of genes involved in DNA repair and insertion sequences. Plasmid clustering of carbapenem-resistant plasmid revealed six antimicrobial clusters (Aclusters 1-6), identifying hybrid plasmids within Acluster 1 co-carrying bla KPC-2 and essential virulence determinants ( iucABCD-iutA , rmpA , peg-344 ). Hypervirulent plasmids formed two major clusters, with Vcluster 2 diverging from Vcluster 1 via a 40kb deletion encompassing the ter (tellurium resistance) operon and metabolism-associated genes. These findings provide a comprehensive genomic characterization of CRKP from respiratory tract and bloodstream infections and support genome-based surveillance integrating clonal lineages, capsular types, and plasmid architectures to strengthen infection control and facilitate early identification of emerging high-risk CRKP lineages.",
+      "date": "2026-08-15T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42603685/",
+      "abstract": "Middle East respiratory syndrome coronavirus (MERS-CoV) remains a low-incidence but high-consequence zoonotic coronavirus threat. Since its identification in Saudi Arabia in 2012, more than 2600 laboratory-confirmed cases have been reported from 27 countries, most from the Arabian Peninsula; the reported case fatality ratio is high but probably overestimates infection fatality because mild and asymptomatic infections are under-detected. Dromedary camels across the Middle East, North Africa, East Africa, the Horn of Africa, and parts of the Sahel show extensive evidence of MERS-CoV infection or exposure, yet PCR-confirmed human disease has rarely been reported from Africa. This \"Africa paradox\" is one of the most important unresolved issues in MERS-CoV epidemiology. We propose a dromedary camel-centred One Health framework for the connected Middle East-Africa dromedary belt. The framework is organised around two linked barriers: an upstream barrier that detects and reduces zoonotic spillover at the camel-human interface, and a downstream healthcare barrier that prevents amplification after human infection occurs. Preparedness should include sentinel surveillance for severe acute respiratory infection and atypical pneumonia in camel-exposed populations, linked animal-human genomic surveillance, culturally respectful and occupationally practical risk reduction, rapid diagnostic pathways, healthcare infection prevention and control, mass-gathering and travel preparedness, and pre-approved research platforms. A Middle East-Africa preparedness compact aligned with the International Health Regulations, One Health governance, and equitable pathogen access and benefit sharing could transform fragmented surveillance into a standing transregional system for early detection, prevention, and research-ready response.",
       "authors": [
-        "Qian Liu",
-        "Hong Shen",
-        "Xi Chen",
-        "Chunxia Yang",
-        "Li Gu",
-        "Hui Yuan",
-        "Wentao Zhu"
+        "Esam I Azhar",
+        "Manaf Alqahtani",
+        "Abdullah M Assiri",
+        "Seif S Al-Abri",
+        "Tieble Traore",
+        "Francine Ntoumi",
+        "Moses Bockarie",
+        "Eskild Petersen",
+        "Giuseppe Ippolito",
+        "David S Hui",
+        "Brian McCloskey",
+        "Stanley Perlman",
+        "Alimuddin Zumla"
       ],
-      "doi": "10.1080/21505594.2026.2716486",
+      "doi": "10.1016/j.ijid.2026.109046",
       "arxiv_id": "",
-      "pubmed_id": "42590966"
+      "pubmed_id": "42603685"
     },
     {
       "title": "Integrating stemness and epithelial-mesenchymal transition signatures with machine learning identifies RUNX1 as a therapeutic vulnerability in colorectal cancer.",
@@ -627,211 +633,13 @@
       "doi": "10.1021/acsinfecdis.6c00158",
       "arxiv_id": "",
       "pubmed_id": "42418156"
-    },
-    {
-      "title": "A Novel CRISPR/Cas13a sensor for highly sensitive detection of DENV based on AuPt/g-C 3 N 4 @GO and Ag@NU-1000.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42600441/",
-      "abstract": "Dengue virus, an arthropod-borne pathogen, poses a significant global public health concern, necessitating the development of sensitive and rapid diagnostic assays. This paper introduces a novel biosensing platform designed for the ultrasensitive detection of dengue viral RNA. The platform integrates recombinase polymerase amplification, CRISPR/Cas13a-based recognition, and electrochemiluminescence resonance energy transfer (ECL-RET). The sensor employs a highly efficient luminescent emitter, which is a ternary composite of gold-platinum nanoparticles supported on graphitic carbon nitride and graphene oxide. A suitable energy acceptor, consisting of silver-decorated metal-organic frameworks, effectively quenches the emitter's signal via resonance energy transfer. Upon the introduction of target nucleic acids, RPA rapidly generates numerous amplicons. These amplicons are specifically recognized by the CRISPR/Cas13a system, which subsequently activates the collateral cleavage activity of Cas13a. This enzymatic activity cleaves a DNA linker that tethers the acceptor to the electrode surface, leading to the release of the acceptor and a subsequent restoration of the electrochemiluminescence intensity. The recovered signal exhibits a linear proportionality to the target concentration across a broad dynamic range, spanning from 0.1 fg/mL to 100 ng/mL. The detection limits for the four dengue serotypes range from 1.09 to 2.5 fg/mL. The assay demonstrates excellent specificity, showing no cross-reactivity with Zika, Japanese encephalitis, or West Nile viruses, and also exhibits good reproducibility. By combining isothermal amplification, specific CRISPR targeting, and a sensitive luminescence readout, this work presents a straightforward and robust method for the early diagnosis of dengue and for outbreak surveillance. Furthermore, this platform can be readily adapted for the detection of other pathogens of interest.",
-      "authors": [
-        "Xia Zhang",
-        "Zhu Wang",
-        "Zhen Guo",
-        "Hongyan Wang",
-        "Yong Chen",
-        "Zhangbo Dong",
-        "Ling Zeng",
-        "Diao Yu",
-        "Mei Hong",
-        "Jiafeng Wang",
-        "Guozhen Tian",
-        "Wei Yang"
-      ],
-      "doi": "10.1016/j.bios.2026.119122",
-      "arxiv_id": "",
-      "pubmed_id": "42600441"
-    },
-    {
-      "title": "Impact of Surveillance and Depopulation Strategies on Fish Disease Transmission Among Net-Cage Farms Near the Tongyeong Coast Based on a Spatiotemporal Hybrid Approach.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42596564/",
-      "abstract": "Infectious diseases among fish farms present significant challenges to fish health and production. Horizontal transmission serves as one of the main mechanisms driving outbreaks in these settings. The dynamics of horizontal transmission are influenced by pathogen properties, host characteristics and environmental factors. Additionally, the implementation of epidemiological interventions can further shape the patterns and consequences of infectious disease spread. However, there is a paucity of studies assessing how specific epidemiological measures, such as timely disease surveillance and strategic depopulation, influence transmission and outbreak outcomes. This study utilized a spatiotemporal hybrid model to assess pathogen dissemination following an infectious disease event in Tongyeong, a prominent area for floating net cage aquaculture in Korea. We investigated how variations in sampling intensity affected the timing of disease detection and analysed the impact of two control strategies (immediate culling upon detection versus no culling) on the progression of disease and fish mortality. Findings revealed significant differences in disease detection timing and probability based on the surveillance sampling size. Early detection of disease was achieved when 100 fish were sampled, as opposed to a delayed response when only 5 fish were tested. Furthermore, the conditions under which surveillance occurred had a notable impact on both the spatial spread and the success of depopulation measures. Generally, prompt detection followed by immediate depopulation led to a decrease in disease-related mortality over a wider area. However, this method also necessitated culling a substantially greater number of fish. Although the impact of these interventions may be influenced by geographical and environmental variables, our results suggest that the utility of depopulation strategies is closely linked to the efficacy of surveillance efforts and the epidemiological profile of the infection, such as its associated mortality rate and transmissibility.",
-      "authors": [
-        "Gyoungsik Kang",
-        "Ju-Sung Kim",
-        "Kyung-Ho Kim",
-        "HyeongJin Roh"
-      ],
-      "doi": "10.1111/jfd.70272",
-      "arxiv_id": "",
-      "pubmed_id": "42596564"
-    },
-    {
-      "title": "Detection of bacterial extracellular vesicles in patients with cystic fibrosis - a pilot study.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42595620/",
-      "abstract": "Pseudomonas (P.) aeruginosa is an opportunistic pathogen closely linked to Cystic Fibrosis (CF). Recent publications emphasize that an accumulation of bacterial derived extracellular vesicles within the circulation might be associated with the pathogenesis of various chronic inflammatory diseases and could potentially be used as diagnostic tool. Bacterial extracellular vesicles (bEVs) were isolated and characterized via Nanoparticle Tracking Analysis (NTA) and Transmission Electron Microscopy (TEM) from plasma samples of persons with CF (pwCF) without infection with P. aeruginosa (PsA-, n = 31), pwCF with confirmed P. aeruginosa infection (PsA+, n = 29), and control individuals (HC, n = 30). Size and concentration of bEVs were evaluated and correlated with clinical parameters. Western blot analyses were implemented to study the species-specific origin of bEVs, using lysates and reference vesicles. bEVs could be detected in all samples from both, HC and pwCF. Relative NF‑κB induction, assessed via a TLR4 reporter assay, was significantly elevated in pwCF than in HC, with the strongest responses observed in PsA+ patients. emphasize bEV-associated activity. Surprisingly, CFTR modulator treatment (ETI) enhanced LPS concentration of bEVs in pwCF independent of P. aeruginosa colonization. Moreover, NF-kB induction correlated negatively with serum IgA levels in PsA+ patients. Direct detection of bEVs in plasma samples via Western blot was technically not possible. Our findings suggest a potential link between pulmonary P. aeruginosa colonization and increased systemic bEVs-associated activity as potential consequence of deficient mucosal barrier function. However, further research is required in order to validate our findings and to clarify the influence of ETI on bEV accumulation.",
-      "authors": [
-        "Celina von Mauch",
-        "Lisa-Maria Edrich",
-        "Julia Sobel",
-        "Annika Geppert",
-        "Jochen Mattner",
-        "Philipp Arnold",
-        "André Hoerning",
-        "Claudia Guenther",
-        "Alexander Schnell",
-        "Iris Stolzer"
-      ],
-      "doi": "10.1016/j.jcf.2026.07.013",
-      "arxiv_id": "",
-      "pubmed_id": "42595620"
-    },
-    {
-      "title": "Development of an immunocompetent cutaneous squamous cell carcinoma model identifies VISTA and CTLA-4 as targetable immune checkpoints.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42595354/",
-      "abstract": "Immunotherapeutic approaches for cutaneous squamous cell carcinoma (cSCC) remain limited to programmed cell death protein 1 (PD-1) blockade. Although genomics studies have characterized key driver mutations in cSCC, preclinical models that faithfully recapitulate both the genetic landscape and immune microenvironment of the human disease, that could drive the development of novel, effective therapies, are lacking. To address this need, we generated genetically engineered mouse models harboring inducible p53 wmR172H expression and Cdkn2a deletion in stratified epithelia. These mice spontaneously developed well-differentiated and spindle cell cSCCs, whose histopathological and immunological features mimicked those observed in patients. We established syngeneic cell lines and characterized their genomic and transcriptomic profiles through whole exome sequencing and RNA sequencing. We used these syngeneic tumor models to test the effect of STING agonist, PD-1, VISTA and CTLA-4 blockade applied at different schedules and combinations. Finally, immune checkpoint molecules detected in the syngeneic models were validated in human cSCC tissue arrays. Whole exome sequencing confirmed alterations overlapping with human cSCC, including mutations in Notch , interferon signaling, and cytokine pathways. Transcriptomic analysis revealed the upregulation of immunoregulatory genes, including Cd274 , Lgals9 , and Il33 , suggesting a suppressive tumor immune microenvironment (TIME). Preclinical therapeutic evaluation in this model demonstrated that PD-1 blockade and the treatment with a STING agonist elicited partial responses. The combination of STING agonist with checkpoint inhibition targeting either PD-1/CTLA-4 or PD-1/VISTA significantly enhanced antitumor immunity in tumors resistant to anti-PD-1 monotherapy. These results establish a robust, genetically defined, immunocompetent platform for modeling cSCC and evaluating novel immunotherapeutic strategies for treating patients with this disease. Our findings also identify VISTA and CTLA-4 as promising immune checkpoints to target in cSCC and support clinical evaluation of this combination of immune checkpoint blockade to overcome immune checkpoint inhibitor resistance and improve clinical outcomes.",
-      "authors": [
-        "Alanis E Rodriguez Rosario",
-        "Roberto Rangel",
-        "Nicholas Balbin",
-        "Zohra N Nizami",
-        "Jaafar Hadi",
-        "Ahmed Noor",
-        "Liping Dong",
-        "Arnoldo Corona",
-        "Nikitha Bhavani",
-        "Ricardo M Cruz Sanchez",
-        "Gemalene M Sunga",
-        "Ratna Veeramachaneni",
-        "Ganiraju C Manyam",
-        "Jing Wang",
-        "Wendong Yu",
-        "Andrew G Sikora",
-        "Jeffrey N Myers",
-        "Roberto Rangel"
-      ],
-      "doi": "10.1136/jitc-2025-013976",
-      "arxiv_id": "",
-      "pubmed_id": "42595354"
-    },
-    {
-      "title": "Comparative genomics and phenotypic divergence of ERIC I and ERIC II genotypes of Paenibacillus larvae, the causative agent of American Foulbrood disease.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42594162/",
-      "abstract": "Honeybees of the species Apis mellifera are important pollinators of crops and wild plants. Paenibacillus larvae, a spore-forming bacterium, is a problematic pathogen that causes American foulbrood (AFB) in honeybee larvae worldwide. In many countries, AFB is a notifiable disease, requiring the destruction of diseased colonies, resulting in economic loss that impacts beekeeping and agriculture. Disease onset starts with larval ingestion of P. larvae spores, which germinate into growing cells that proliferate in the larval gut, leading to larval death and eventually bee colony collapse. As infection progresses, P. larvae produce spores, reinitiating the disease cycle. Thus, growth, sporulation and germination underlie AFB. In this study, using various microbiological assays, quantitative cell biology methods, transmission electron microscopy and genomics, we sought to identify genetic and phenotypic characteristics associated with the predominant ERIC I and ERIC II genotypes of P. larvae during growth, sporulation and germination. Extending previous findings, our data identify genetic differences between ERIC I and ERIC II strains and some genetic variation between strains of the same ERIC type. Furthermore, we describe significant differences in cellular morphology during growth, differences in spore envelope structure and differences in germination efficiency between ERIC I and ERIC II genotypes. Collectively, our findings improve understanding of P. larvae biology and provide a foundation for developing genotype-specific disease management strategies for AFB.",
-      "authors": [
-        "Md Mubarack Hossain",
-        "Kaitlyn Coleman",
-        "Matej Medvecky",
-        "Matthew Moore",
-        "Xavier Didelot",
-        "David Chandler",
-        "Christopher D A Rodrigues"
-      ],
-      "doi": "10.1371/journal.ppat.1014507",
-      "arxiv_id": "",
-      "pubmed_id": "42594162"
-    },
-    {
-      "title": "New biologically relevant resistance to bacterial wilt in heat-stressed tomato revealed by two-reference Genome Wide Association.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42594154/",
-      "abstract": "Ongoing climate change is driving unprecedented environmental fluctuations, with extreme events predicted to increase in frequency, intensity and duration. Among climatic parameters, temperature elevation is among those expected to fluctuate the most by the end of the century and already demonstrated to pose major challenge to plant health. In this context understanding how temperature modulates plant-pathogen interactions and their underlying genetic architecture is critical. Bacterial wilt, caused by strains of the Ralstonia solanacearum species complex, is a devastating disease affecting many plant species. Genetic resistance remains the most effective control strategy. In tomato, resistance is quantitative and mostly relies on quantitative trait loci (QTLs) bwr-6 and bwr-12. However, as in other crops, high temperature and humidity can compromise this resistance in commercial tomato cultivars. We investigated temperature-dependent quantitative disease resistance (QDR) using a panel of 189 wild tomato accessions, predominantly Solanum pimpinellifolium, representing genetic diversity from contrasted ecological conditions. Disease progression was monitored from three to ten days post-inoculation at 28°C and 32°C, using a time-course phenotyping approach. Genome-Wide Association (GWA) analyses were performed, based on daily symptom scores and two reference genomes, to account for structural variations and improve QTL detection. This strategy identified 44 candidate genes and revealed a temporally dynamic genetic architecture of the plant response. Strickingly, no candidate genes were shared between temperatures, supporting distinct genetic determinants under different temperature conditions. Many candidate genes were expressed in roots and belong to gene families involved in plant immunity, with two candidates co-localizing with bwr-6 and bwr-12, whose causal genes remain unknown. Altogether, our findings demonstrate that resistance to bacterial wilt in wild tomato is flexible, environment-dependent, and temporally dynamic highlighting the importance of integrating environmental context and genomic diversity to better understand plant - pathogen interactions.",
-      "authors": [
-        "Adrien Belny",
-        "Henri Desaint",
-        "Mylène Rigal",
-        "Sébastien Carrère",
-        "Jérôme Gouzy",
-        "Gregori Bonnet",
-        "Céline Labourey",
-        "Elise Albert",
-        "Laurent Grivet",
-        "Fabrice Roux",
-        "Fabienne Vailleau",
-        "Tristan Mary-Huard",
-        "Richard Berthomé"
-      ],
-      "doi": "10.1371/journal.pgen.1011820",
-      "arxiv_id": "",
-      "pubmed_id": "42594154"
-    },
-    {
-      "title": "Molecular detection and risk factor analysis of Babesia spp. infection in camels from northern Egypt.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42593617/",
-      "abstract": "Babesia spp. are important tick-borne hemoprotozoan parasites that affect the health and productivity of livestock, including camels. The present study aimed to determine the molecular prevalence of Babesia spp. infection in camels from northern Egypt and to evaluate the associated epidemiological risk factors. A total of 400 blood samples were collected from camels in Kafr El-Sheikh and Qalyubia Governorates, Egypt. Molecular detection of Babesia spp. was performed using PCR targeting the 18 S rRNA gene. Epidemiological data related to sex, age, season, body condition, tick infestation, and acaricide application were analyzed to identify potential risk factors associated with infection. The overall prevalence of Babesia spp. infection was 18%. Male camels showed a significantly higher prevalence (23.85%) compared with females (7.14%). Age was significantly associated with infection, with the highest prevalence observed in camels older than 5 years (38.18%), followed by those aged 2-5 years (11.9%), whereas the lowest prevalence was detected in animals younger than 2 years (6.26%). Seasonal analysis revealed higher infection rates during the warm months (OR = 2.09; 95% CI: 1.05-4.15), suggesting the influence of climatic conditions on tick activity and pathogen transmission. Emaciated camels (OR = 1.96; 95% CI: 1.01-3.79) were more susceptible to infection than healthy animals, likely due to compromised immunity and concurrent parasitic burdens. Tick infestation (OR = 2.23; 95% CI: 2.06-4.69)and the absence of acaricide application (OR = 2.84; 95% CI: 1.42-5.68) were also significantly associated with increased infection rates, emphasizing the major role of ticks in disease transmission. The findings support the importance of environmental and management-related factors in maintaining Babesia circulation among camel populations. The present study demonstrates that Babesia spp. infection is prevalent among camels in northern Egypt and is significantly associated with age, sex, season, body condition, tick infestation, and acaricide application practices. Effective tick control programs, improved management systems, and regular molecular surveillance are essential for reducing the epidemiological impact of babesiosis in camels. Furthermore, the use of species-specific nested PCR assays is recommended for accurate differentiation of Babesia species in future studies.",
-      "authors": [
-        "Abdelfattah Selim",
-        "Mohamed Marzok",
-        "Hattan S Gattan",
-        "Mohammed H Alruhaili",
-        "Hesham Ismail",
-        "Adel I Almubarak"
-      ],
-      "doi": "10.1007/s11250-026-05286-1",
-      "arxiv_id": "",
-      "pubmed_id": "42593617"
-    },
-    {
-      "title": "Molecular Detection and Phylogenetic Characterization of Spotted Fever Group Rickettsiae in Amblyomma javanense Ticks from Illegally Traded Malayan Pangolins.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42593170/",
-      "abstract": "The Malayan pangolin (Manis javanica) is a critically endangered species that may harbor diverse zoonotic pathogens. This study aimed to characterize tick species parasitizing confiscated Malayan pangolins and determine the prevalence and genetic diversity of spotted fever group rickettsiae (SFGR) associated with these ticks. We employed morphological and molecular approaches to identify ticks parasitizing pangolins confiscated in Guangdong Province between 2021 and 2024. A total of 435 adult ticks were collected from 32 pangolins and pooled into 87 groups (5 ticks per pool). Pooled tick samples were screened for SFGR by PCR targeting three rickettsial genes (gltA, ompA, and ompB), followed by Sanger sequencing and phylogenetic analysis. All collected ticks were identified as Amblyomma javanense. The pool positivity rate for SFGR was 41.4% (36/87), with a minimum infection rate of 8.3% (36/435; 95% CI: 5.8-11.2%). Molecular characterization identified the detected agent as Candidatus Rickettsia jingxinensis (Ca. Rickettsia jingxinensis), an agent recently confirmed to infect humans. These findings provide baseline data for tick-borne pathogen surveillance in the context of pangolin conservation and illegal wildlife trade control, highlighting the potential public health relevance of the pangolin-tick interface.",
-      "authors": [
-        "Liyang Li",
-        "Jieling Zhang",
-        "Tingting Hu",
-        "Kai Wang",
-        "Lu Liu",
-        "Xitong Su",
-        "Min Lei",
-        "Hao Liu",
-        "Yan Hua"
-      ],
-      "doi": "10.1177/15303667261477658",
-      "arxiv_id": "",
-      "pubmed_id": "42593170"
-    },
-    {
-      "title": "Development and Validation of a Real-Time RT-qPCR Assay for the Detection of Citrus Yellow Vein Clearing Virus.",
-      "source": "PubMed",
-      "date": "2026-08-13T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41627855/",
-      "abstract": "Citrus yellow vein clearing virus (CYVCV; Potexvirus citriflavivenae ), is an emerging pathogen that poses a threat to citrus production worldwide. To address this threat, three reverse transcription quantitative PCR (RT-qPCR) detection assays were developed and validated using all currently available public sequences and in-house high-throughput sequencing data from recent CYVCV detections in California (CA), following guidelines for quantitative and qualitative real-time PCR experiments. Among the RT-qPCR assays tested, the CYVCV-4 outperformed the others in analytical sensitivity, specificity, and diagnostic accuracy, demonstrating high amplification efficiency. The CYVCV-4 assay targets the RNA-dependent RNA polymerase gene of CYVCV and demonstrated high specificity by avoiding cross-reactivity and accurately identifying infected, noninfected, and nontarget citrus pathogens. Its superior performance is attributed to optimized primer and probe design, enabling specific hybridization to the target sequence while minimizing nonspecific amplification. The assay's robustness, interassay and intra-assay variation, and reproducibility were thoroughly validated across multiple laboratories, under varying reaction conditions, and different qPCR instruments. Recent detections of CYVCV in CA underscore the need for rapid and reliable diagnostics to protect citrus production and germplasm. The development and validation of the CYVCV-4 assay demonstrate its effectiveness through comprehensive testing, supporting its use in citrus diagnostic laboratories, quarantine programs, and field surveys, ultimately enhancing CYVCV management efforts. This development highlights the opportunity for plant diagnostics to adopt harmonized validation practices through frameworks like the Diagnostic Assay Validation Network, crucial for national programs, such as the National Clean Plant Network, which depend on validated assays to ensure clean plant systems and agricultural biosecurity.",
-      "authors": [
-        "Fatima Osman",
-        "Sohrab Bodaghi",
-        "Robert Krueger",
-        "Taylor Smith",
-        "Emir Hodzic",
-        "Samantha Mapes",
-        "German Villalba-Salazar",
-        "Irene Lavagi-Craddock",
-        "Peter Abrahamian",
-        "Tongyan Tian",
-        "Georgios Vidalakis"
-      ],
-      "doi": "10.1094/PDIS-10-25-2122-RE",
-      "arxiv_id": "",
-      "pubmed_id": "41627855"
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 38,
+      "count": 29,
       "error": ""
     },
     {
