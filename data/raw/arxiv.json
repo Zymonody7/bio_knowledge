@@ -1,14 +1,239 @@
 {
-  "fetched_at": "2026-08-22T02:19:13.228423+00:00",
+  "fetched_at": "2026-08-23T02:35:44.122739+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 0,
-  "papers": [],
+  "count": 11,
+  "papers": [
+    {
+      "title": "Bootstrap Theory of Representational Emergence (TBER): Explanatory Insufficiency, Transition Regimes, and the Emergence of New Representational Levels",
+      "source": "arXiv",
+      "date": "2026-06-05T14:21:08+00:00",
+      "updated": "2026-08-20T08:29:16+00:00",
+      "url": "http://arxiv.org/abs/2606.07303v4",
+      "pdf_url": "https://arxiv.org/pdf/2606.07303v4",
+      "abstract": "Representation learning is central to modern machine learning, yet most research focuses on optimizing representations after a framework has been selected. The Bootstrap Theory of Representational Emergence (TBER) addresses a prior question: when does a new representational level become necessary? Version 4 identifies explanatory insufficiency as a positive epistemic signal for representational transition. A representation may remain useful while becoming unable to make relevant relations, transformations, distinctions, or organizational properties intelligible. TBER distinguishes two dimensions. Explanatory insufficiency may be descriptive, transformational, or related to generalization. The resulting response may belong to a local-corrective, representationally resolutive, or structurally recurrent regime. The bootstrap process is recursive: stabilized representations enable observation; anomalies expose persistent insufficiencies; candidate re-representations are generated; discriminating tests constrain them; surviving representations undergo provisional stabilization and closure assessment. Formal cases such as Kaprekar's routine and Gödelian incompleteness are used only as boundary examples of distinct transition regimes, not as proofs of TBER or models of physical or biological dynamics. The framework concerns transitions between scientific, mathematical, or computational representations. It has implications for representation learning, latent spaces, foundation models, world models, adaptive biological systems, scientific discovery, and autonomous AI. TBER suggests that future intelligent systems should not only learn representations, but also diagnose their limits, determine when re-representation is warranted, test alternatives, and recognize whether a limitation is locally resolved or structurally recurrent.",
+      "authors": [
+        "Jacques Raynal",
+        "Pierre Slangen",
+        "Elsa Raynal",
+        "Jacques Margerit"
+      ],
+      "doi": "",
+      "arxiv_id": "2606.07303v4",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Simultaneous 3D co-registered perfusion and oxygenation with ULM, photoacoustic imaging, and a planar matrix array",
+      "source": "arXiv",
+      "date": "2026-08-20T09:21:13+00:00",
+      "updated": "2026-08-20T09:21:13+00:00",
+      "url": "http://arxiv.org/abs/2608.19823v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19823v1",
+      "abstract": "Objective. Joint assessment of tissue oxygenation and microvascular perfusion could offer valuable insights into vascular function across a wide range of biomedical applications. Multispectral photoacoustic imaging enables the evaluation of blood oxygenation, while ultrasound localization microscopy provides sub-diffraction visualization of the microvasculature and blood perfusion. Here, we combine these two complementary modalities to simultaneously generate co-registered, volumetric maps of blood oxygenation and perfusion. Approach. Photoacoustic imaging and ultrasound localization microscopy are both ultrasound-based techniques. We developed an imaging platform that integrates the two modalities using a single planar ultrasonic matrix array, a state-of-the-art array for 3D ultrasound localization microscopy. The bimodal platform was validated in vitro using vessel-mimicking phantoms, then in vivo in mice. Main results. In vitro bimodal images of tubes injected with contrast agents demonstrated a coregistration accuracy of 20 $μ$m and revealed complementary structural and functional information. Multispectral photoacoustic imaging achieved oxygen saturation measurements spanning the physiological range (60-95 %) with 5 % accuracy using only five optical wavelengths. In vivo imaging of healthy mouse tissues with known vascular anatomy further demonstrated the ability of the proposed platform to jointly characterize blood oxygenation and microvascular perfusion. Significance. This work experimentally validates a bimodal photoacoustic imaging-ultrasound localization microscopy approach using a planar ultrasound array. We characterized the functional imaging performance of this platform and identified limited-view artifacts inherent to this array configuration in photoacoustic imaging. These findings establish a foundation for adopting the platform in future studies of murine models and for advancing this promising bimodal approach.",
+      "authors": [
+        "Léa Davenet",
+        "Jacques Battaglia",
+        "Franck Lager",
+        "Pascal Dargent",
+        "Charlotte Lussey-Lepoutre",
+        "Bertrand Tavitian",
+        "Olivier Couture",
+        "Lori Bridal",
+        "Jérôme Gateau"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.19823v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Scientific Data Skills: Enabling Agent-Ready Scientific Data Services at Scale",
+      "source": "arXiv",
+      "date": "2026-08-20T04:25:59+00:00",
+      "updated": "2026-08-20T04:25:59+00:00",
+      "url": "http://arxiv.org/abs/2608.19625v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19625v1",
+      "abstract": "Scientific data are increasingly used by AI agents, yet existing dataset representations provide limited support for autonomous discovery, interpretation, and invocation. This limitation stems from the fragmentation of scientific data across heterogeneous repositories and from dataset representations designed primarily for human use. To address this limitation, we introduce the Scientific Data Skill (SciDSK), an agent-ready representation that packages dataset-specific knowledge and operational guidance as a reusable agent skill. A SciDSK integrates dataset descriptions, scientific context, file organization, usage procedures, quality checks, and provenance information while retaining the underlying data in its original repository. We define a structured SciDSK specification and develop a systematic construction pipeline that grounds each SciDSK in authoritative dataset records and associated supporting materials. We further establish the Scientific Data Skill Bank, a unified platform that publishes SciDSK resources across six scientific disciplines and supports package access, persistent identification, and traceability to source datasets. We evaluate SciDSK through a retrieval benchmark for dataset discovery and controlled cases for dataset interpretation. The results show that SciDSK improves agent-driven dataset discovery and provides more precise and actionable support for dataset interpretation. These findings support the value of organizing dataset-specific knowledge in an agent-ready representation.",
+      "authors": [
+        "Xiaohan Huang",
+        "Qingqing Long",
+        "Xiaolei Du",
+        "Siyu Pu",
+        "Jiawen Xu",
+        "Haotian Chen",
+        "Chenyang Zhao",
+        "Jinbiao Liu",
+        "Xuezhi Wang",
+        "Hao Wang",
+        "Hengshu Zhu",
+        "Yuanchun Zhou"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.19625v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "What Makes a Good Fiqh Retriever? Answer Retrieval for Arabic Islamic Jurisprudence",
+      "source": "arXiv",
+      "date": "2026-08-20T16:42:16+00:00",
+      "updated": "2026-08-20T16:42:16+00:00",
+      "url": "http://arxiv.org/abs/2608.20246v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20246v1",
+      "abstract": "Retrieval-Augmented Generation is used for Islamic question answering, but most systems are evaluated end-to-end, making retrieval failures difficult to isolate from generation failures. We study answer-bearing retrieval for Arabic fiqh, where a passage is relevant only if it states the ruling required by the question. We build a retrieval test collection for Arabic fiqh and use it to evaluate dense, lexical, hybrid, fine-tuned, and madhhab-aware retrieval strategies. The best retriever achieves 0.524 MRR@5, while fine-tuning improves performance to 0.553. Hybrid retrieval provides limited gains for strong models, whereas madhhab-aware filtering more than doubles MRR@5 on school-specific questions. We further present an error analysis showing that the main challenge is distinguishing answer-bearing passages from topically similar passages that do not contain the requested ruling.",
+      "authors": [
+        "Somaya Eltanbouly",
+        "Heba Sbahi",
+        "Samer Rashwani",
+        "Abdessalam Bouchekif",
+        "Mutaz al-Khatib",
+        "Shahd Gaben",
+        "Mohammed Ghaly"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.20246v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Memory Centric Power Allocation for Multi-Agent Embodied Question Answering",
+      "source": "arXiv",
+      "date": "2026-04-20T05:08:53+00:00",
+      "updated": "2026-08-20T16:01:36+00:00",
+      "url": "http://arxiv.org/abs/2604.17810v2",
+      "pdf_url": "https://arxiv.org/pdf/2604.17810v2",
+      "abstract": "This paper considers multi-agent embodied question answering (MA-EQA), which enables robot teams to answer queries based on their long-horizon observations. In contrast to existing edge resource management methods that optimize sensing, communication, or computation performance metrics, MA-EQA focuses on the quality of aggregated memory. To address this paradigm shift, we propose a quality of memory (QoM) model based on generative adversarial exam (GAE), which leverages forward simulation to evaluate memory retrieval and utilizes the resulting exam scores to quantify QoM. Based on the QoM model, we develop a memory-centric power allocation (MCPA) scheme that maximizes memory quality under communication resource constraints. Through analytical characterization in the noise-limited regime, we reveal a GAE-augmented capped water-filling structure for MCPA. Extensive experiments demonstrate that MCPA achieves significant improvements over existing benchmarks across diverse metrics and scenarios.",
+      "authors": [
+        "Chengyang Li",
+        "Shuai Wang",
+        "Kejiang Ye",
+        "Weijie Yuan",
+        "Boyu Zhou",
+        "Yik-Chung Wu",
+        "Chengzhong Xu",
+        "Huseyin Arslan"
+      ],
+      "doi": "",
+      "arxiv_id": "2604.17810v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TrustRAG: Blockchain-Enhanced RAG via Committee-Based Credibility Scoring",
+      "source": "arXiv",
+      "date": "2026-08-20T14:31:10+00:00",
+      "updated": "2026-08-20T14:31:10+00:00",
+      "url": "http://arxiv.org/abs/2608.20097v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.20097v1",
+      "abstract": "Retrieval-Augmented Generation (RAG) lets Large Language Models (LLMs) pull in up-to-date, domain-specific information instead of relying only on what they were trained on. Yet most RAG systems still draw from centralized databases with limited oversight, making it difficult to verify where a document came from, whether it has been tampered with, or whether it should be trusted at all. This is a serious problem in domains where both the timeliness and accuracy of retrieved content are critical, such as healthcare, finance, logistics, and legal case law, where a wrong or manipulated document can directly lead to bad decisions. We present TrustRAG, a committee-based, blockchain-backed RAG system: before a document is used, it is certified by a committee of domain experts through a zero-knowledge protocol, and the committee's hidden scores are combined via secure multi-party computation into a trust score that any client can verify. These scores, along with the underlying document data, are maintained jointly across chains through hash commitments, so no document or score can be silently altered or dropped, and every ranking can be independently replayed and checked.",
+      "authors": [
+        "Baixiang Liu",
+        "Haotian Che",
+        "Yuan Li"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.20097v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "The First Drop of Ink: Nonlinear Impact of Distracting Information in Long-Context Reasoning",
+      "source": "arXiv",
+      "date": "2026-05-11T16:46:20+00:00",
+      "updated": "2026-08-20T11:56:15+00:00",
+      "url": "http://arxiv.org/abs/2605.10828v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.10828v2",
+      "abstract": "As large language models are increasingly deployed in retrieval-augmented generation and agentic systems that accumulate extensive context, understanding how distracting information affects long-context performance becomes critical. Prior work shows that semantically relevant yet misleading documents degrade performance, but the quantitative relationship between the proportion of distractors and performance remains unstudied. In this work, we systematically vary the hard-distractor proportion in fixed-length contexts, revealing a striking nonlinear pattern: as the proportion of hard distractors increases, performance drops sharply within the first small fraction, while the remainder of the range yields only marginal additional decline. We term this ''The First Drop of Ink'' effect, analogous to how a single drop of ink contaminates water. Our theoretical and empirical analyses grounded in attention mechanics show that hard distractors capture disproportionate attention even at small proportions, with diminishing marginal impact as their proportion grows. Controlled experiments further show that filtering gains mainly come from context-length reduction rather than distractor removal; substantial recovery requires reducing the hard-distractor proportion to near zero, highlighting the importance of upstream retrieval precision.",
+      "authors": [
+        "Muhan Gao",
+        "Zih-Ching Chen",
+        "Kuan-Hao Huang"
+      ],
+      "doi": "",
+      "arxiv_id": "2605.10828v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "GridCodex: A RAG-Driven AI Framework for Power Grid Code Reasoning and Compliance",
+      "source": "arXiv",
+      "date": "2025-08-18T07:33:29+00:00",
+      "updated": "2026-08-20T08:55:56+00:00",
+      "url": "http://arxiv.org/abs/2508.12682v2",
+      "pdf_url": "https://arxiv.org/pdf/2508.12682v2",
+      "abstract": "The global shift towards renewable energy presents unprecedented challenges for the electricity industry, making regulatory reasoning and compliance increasingly vital. Grid codes, the regulations governing grid operations, are complex and often lack automated interpretation solutions, which hinders industry expansion and undermines profitability for electricity companies. We introduce GridCodex, an end to end framework for grid code reasoning and compliance that leverages large language models and retrieval-augmented generation (RAG). Our framework advances conventional RAG workflows through multi stage query refinement and enhanced retrieval with RAPTOR. We validate the effectiveness of GridCodex with comprehensive benchmarks, including automated answer assessment across multiple dimensions and regulatory agencies. Experimental results showcase a 26.4% improvement in answer quality and more than a 10 fold increase in recall rate. An ablation study further examines the impact of base model selection.",
+      "authors": [
+        "Jinquan Shi",
+        "Yingying Cheng",
+        "Fan Zhang",
+        "Miao Jiang",
+        "Jun Lin",
+        "Yanbai Shen"
+      ],
+      "doi": "",
+      "arxiv_id": "2508.12682v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "EchoTrace: Diagnosing Recursive Risks in LLM-Powered Recommender Systems",
+      "source": "arXiv",
+      "date": "2026-02-07T08:45:08+00:00",
+      "updated": "2026-08-20T07:52:17+00:00",
+      "url": "http://arxiv.org/abs/2602.07442v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.07442v2",
+      "abstract": "Large language models (LLMs) are increasingly integrated into recommender systems as data augmenters, profile generators, and recommendation modules. While these roles can enhance semantic understanding and recommendation quality, they also introduce LLM-specific risks such as bias and hallucination. These risks become more critical in feedback-loop settings, where LLM-generated signals and recommendations recursively shape future training data and recommendation dynamics. In this paper, we propose a role-aware, phase-wise diagnostic framework for analyzing how LLM-induced risks emerge, propagate, and accumulate in LLM-powered recommender systems. Our framework combines controlled feedback-loop simulation with longitudinal phase-wise diagnosis across LLM-generated content, recommendation outputs, feedback-loop dynamics, and ecosystem-level effects. Experiments on widely used benchmarks show that LLM-based components can amplify popularity bias, introduce spurious signals through hallucination, and gradually produce polarized and self-reinforcing exposure patterns over time. The code for EchoTrace is available at https://github.com/DongUk-Park/EchoTrace.",
+      "authors": [
+        "Donguk Park",
+        "Dongwon Lee",
+        "Yeon-Chang Lee"
+      ],
+      "doi": "",
+      "arxiv_id": "2602.07442v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ArkEval: Benchmarking and Evaluating Automated CodeRepair for ArkTS",
+      "source": "arXiv",
+      "date": "2026-02-09T16:28:29+00:00",
+      "updated": "2026-08-20T07:46:48+00:00",
+      "url": "http://arxiv.org/abs/2602.08866v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.08866v2",
+      "abstract": "Large language models have transformed code generation, enabling unprecedented automation in software development. As mobile ecosystems evolve, HarmonyOS has emerged as a critical platform requiring robust development tools. Software development for the HarmonyOS ecosystem relies heavily on ArkTS, a statically typed extension of TypeScript. Despite its growing importance, the ecosystem lacks robust tools for automated code repair, primarily due to the absence of a high-quality benchmark for evaluation. To address this gap, we present ArkEval, a unified framework for ArkTS automated repair workflow evaluation and benchmark construction. It provides the first comprehensive benchmark specifically designed for ArkTS automated program repair. We constructed this benchmark by mining issues from a large-scale official Huawei repository containing over 400 independent ArkTS applications. Through a rigorous multi-stage filtering process, we curated 502 reproducible issues. To ensure testability, we employed a novel LLM-based test generation and voting mechanism involving Claude and other models. Furthermore, we standardized problem statements to facilitate fair evaluation. Finally, we evaluated four state-of-the-art Large Language Models (LLMs) on our benchmark using a retrieval-augmented repair workflow. Our results highlight the current capabilities and limitations of LLMs in repairing ArkTS code, paving the way for future research in this low-resource language domain.",
+      "authors": [
+        "Bang Xie",
+        "Senjian Zhang",
+        "Zhiyuan Peng",
+        "Wei Chen",
+        "Chenhao Ying",
+        "Yuan Luo"
+      ],
+      "doi": "",
+      "arxiv_id": "2602.08866v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals",
+      "source": "arXiv",
+      "date": "2026-08-20T06:01:59+00:00",
+      "updated": "2026-08-20T06:01:59+00:00",
+      "url": "http://arxiv.org/abs/2608.19665v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.19665v1",
+      "abstract": "Large language models (LLMs) have shown promise for training-free recommendation, but LLM-generated user interests are often too broad for fine-grained item retrieval. Existing methods incorporate collaborative filtering (CF) signals in a pre-LLM manner through candidate reranking or prompt augmentation, yielding limited gains. We propose CoRRe, a training-free recommendation framework with a post-LLM paradigm that injects CF signals into LLM-generated item representations, which are later matched with LLM-generated user interests for ranking. Specifically, CoRRe refines the directions of item embeddings using an item-item co-purchase graph and their magnitudes using item popularity. Experiments on real-world datasets show that CoRRe consistently outperforms existing training-free methods and achieves competitive or superior performance compared with training-based methods, without requiring any model training or task-specific fine-tuning.",
+      "authors": [
+        "Kyungho Kim",
+        "Sunwoo Kim",
+        "Geon Lee",
+        "Shinhwan Kang",
+        "Sojeong Kim",
+        "Liam Collins",
+        "Bhuvesh Kumar",
+        "Donald Loveland",
+        "Kijung Shin"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.19665v1",
+      "pubmed_id": ""
+    }
+  ],
   "source_statuses": [
     {
       "source": "arXiv",
-      "success": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=%28ti%3A%22pathogen+foundation+model%22+OR+abs%3A%22pathogen+foundation+model%22+OR+%28all%3Apathogen+AND+all%3Afoundation+AND+all%3Amodel%29%29+OR+%28ti%3A%22biological+foundation+model+pathogen%22+OR+abs%3A%22biological+foundation+model+pathogen%22+OR+%28all%3Abiological+AND+all%3Afoundation+AND+all%3Amodel%29%29+OR+%28ti%3A%22llm+for+pathogen+genomics%22+OR+abs%3A%22llm+for+pathogen+genomics%22+OR+%28all%3Apathogen+AND+all%3Agenomics%29%29+OR+%28ti%3A%22llm+for+pathogen+detection%22+OR+abs%3A%22llm+for+pathogen+detection%22+OR+%28all%3Apathogen+AND+all%3Adetection%29%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=33"
+      "success": true,
+      "count": 11,
+      "error": ""
     }
   ]
 }
