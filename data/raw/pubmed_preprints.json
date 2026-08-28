@@ -1,8 +1,31 @@
 {
-  "fetched_at": "2026-08-27T11:09:01.761897+00:00",
+  "fetched_at": "2026-08-28T12:41:26.224361+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 42,
+  "count": 43,
   "papers": [
+    {
+      "title": "Surveillance for Asiatic filoviruses and zoonotic paramyxoviruses at a perceived wildlife-human interface.",
+      "source": "PubMed",
+      "date": "2026-12-01T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42659624/",
+      "abstract": "Emerging zoonotic viruses pose a global health threat. In Thailand, evaluating human-wildlife interfaces is critical for identifying potential zoonotic virus spillover, particularly in areas with high-risk contact with roosting bats. We conducted cross-sectional sampling of humans (n = 234) and bats (n = 272) at a cave site in central Thailand where guano farmers, national park workers, and cave visitors may be exposed to bat-borne viruses. Molecular and multiplex serologic methods were used to identify current and previous infections with zoonotic paramyxoviruses and filoviruses, while multivariable regression was used to identify human behavioral correlates of seroreactivity. We detected serological evidence of orthoebolaviruses in two cave-roosting bat species, Mops plicatus and Hipposideros larvatus , and evidence of exposure to small terrestrial mammal-borne parahenipaviruses in humans. Individuals working in the extractive industry were more likely to be seroreactive to parahenipaviruses, including Gamak virus (OR = 3.41, 95% CI: 1.39-8.57, P < 0.001). Parahenipaviruses have been detected in shrews in eastern China and South Korea; therefore, we used ecological niche modeling of Crocidura shrews to predict the potential host range of novel parahenipaviruses in Thailand. Four Crocidura species were predicted to occur in the study province. This study provides the first evidence of Asiatic filoviruses in bats in Thailand and human exposure to parahenipaviruses in Southeast Asia. These findings underscore the importance of zoonotic disease surveillance and support expanding sampling across animal species and serial time points to maximize detection of emerging zoonotic viruses and improve understanding of transmission dynamics at high-risk human-wildlife interfaces across ecological settings throughout Thailand and Southeast Asia.",
+      "authors": [
+        "Spencer L Sterling",
+        "Neil Mittal",
+        "Benjamin Greene",
+        "Khwankamon Rattanatumhi",
+        "Sasiprapa Ninwattana",
+        "Mckenna D Roe",
+        "Patarapol Maneeorn",
+        "Prateep Duengkae",
+        "Supaporn Wacharapluesadee",
+        "Eric D Laing",
+        "Opass Putcharoen"
+      ],
+      "doi": "10.1080/22221751.2026.2713324",
+      "arxiv_id": "",
+      "pubmed_id": "42659624"
+    },
     {
       "title": "Molecular cloning of a monkeypox virus clade IIb genome and construction of an attenuated mutant for basic and translational research.",
       "source": "PubMed",
@@ -26,36 +49,6 @@
       "doi": "10.1080/22221751.2026.2717859",
       "arxiv_id": "",
       "pubmed_id": "42647848"
-    },
-    {
-      "title": "A rapid detection of Nipah virus nucleocapsid antigen in inactivated viral cultures.",
-      "source": "PubMed",
-      "date": "2026-12-01T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42565473/",
-      "abstract": "Nipah virus (NiV) is a highly lethal zoonotic henipavirus that causes severe respiratory disease and encephalitis and remains a priority pathogen for outbreak preparedness. Timely diagnosis is essential for containment, yet nucleic acid-based testing is often impractical in outbreak-prone, resource-limited settings. Here, we report the development of a rapid antigen test for NiV based on a cellulose nanobead (CNB)-enhanced lateral flow immunoassay (LFIA) targeting the viral nucleocapsid protein (NP). Anti-NiV NP antibodies were isolated from human synthetic phage-display libraries (scFv and Fab) by iterative bio-panning, reformatted as full-length IgGs, and screened using ELISA and immunofluorescence assays. Four lead antibodies were advanced to a sandwich-pairing matrix, which identified an optimized capture-detection configuration (mAb #5 as capture; mAb #2 as detection). Bio-layer interferometry confirmed nanomolar binding affinities for the selected antibodies (K D = 39.50 nM for mAb #5; K D = 26.36 nM for mAb #2). The finalized CNB-LFIA produced results within 15 min and achieved an analytical limit of detection of 1 ng/mL for recombinant NiV NP. The assay observed no cross-reactivity with SARS-CoV-2, SARS-CoV, MERS-CoV, or influenza A, whereas weak cross-reactivity for measles virus NP was observed only at a high antigen concentration (2 µg/mL). Using γ-irradiated cultured NiV quantified by RT-ddPCR, the LFIA detected viral load down to 4.1 × 10 7 copies/mL (4.1 × 10⁶ copies/reaction) by a portable reader and 8.3 × 10 7 copies/mL (8.3 × 10⁶ copies/reaction) by the naked eye. Collectively, this CNB-LFIA provides rapid, equipment-free NiV detection, supporting its potential utility for point-of-care diagnosis in resource-limited settings.",
-      "authors": [
-        "Gyeongmu Choi",
-        "Jung Kim",
-        "Hansaem Lee",
-        "Pyeonghwa Jeon",
-        "Jae Hun Jeong",
-        "Yujin Jung",
-        "Jin Seo Park",
-        "Mi Kyoung Lee",
-        "Kyung-Chang Kim",
-        "Joo-Yeon Lee",
-        "Ha Yeon Park",
-        "Changwoo Park",
-        "Seil Kim",
-        "Hana Yi",
-        "Jihwan Song",
-        "Hyun-Joo Kim",
-        "Jong-Hwan Lee",
-        "Hong Gi Kim"
-      ],
-      "doi": "10.1080/22221751.2026.2716499",
-      "arxiv_id": "",
-      "pubmed_id": "42565473"
     },
     {
       "title": "A modern review of uveal melanoma: molecular insights, clinical management, and emerging therapies.",
@@ -99,6 +92,149 @@
       "doi": "10.1126/sciadv.aeh3580",
       "arxiv_id": "",
       "pubmed_id": "42647646"
+    },
+    {
+      "title": "Complete genome-derived metabolic interactions reveal the impact of gut ecology on human health.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658680/",
+      "abstract": "Metabolic interactions govern gut microbiome assembly, yet their functional rules remain obscured by genomic incompleteness and fragmentation. Here, we leverage 1,150 complete genomes to construct genome-scale metabolic models, demonstrating that draft assemblies introduce systematic artifacts and omit critical transport functions. We observe that genomic traits and niche specialization, rather than random association, shape microbial metabolic competition and complementarity. Interaction asymmetry stratifies strains into four ecological groups, including active players, resource predators, resource utilizers, and resource contributors, with distinct signatures of metabolite exchange, competition, and secondary metabolism. In inflammatory bowel disease, these groups show subtype-specific temporal instability, and group-specific dysbiosis predicts clinical phenotypes better than the whole-community profiles. Keystone features derived from integrated metabolic interaction and co-occurrence networks also improve cross-validated disease classification. Together, these findings connect genome completeness with microbial ecological organization and provide a framework for linking metabolic interactions to microbiome-associated disease.",
+      "authors": [
+        "Yuzheng Gu",
+        "Haoyu Wang",
+        "Jinlong Yang",
+        "Tao Zeng",
+        "Hewei Liang",
+        "Wenxin He",
+        "Mengmeng Wang",
+        "Zhinan Wu",
+        "Liye Yang",
+        "Yusheng Xu",
+        "Juan Zhao",
+        "Yuning Zhang",
+        "Yuliang Dong",
+        "Yiyi Zhong",
+        "Haifeng Zhang",
+        "Jinhong Wang",
+        "Xing Rao",
+        "Yangfeng Wen",
+        "Xiaofan Sun",
+        "Karsten Kristiansen",
+        "Yu Tian",
+        "Xin Tong",
+        "Ya Wang",
+        "Juan Yang",
+        "Fushu Liu",
+        "Zejun Yang",
+        "Wangsheng Li",
+        "Bo Wang",
+        "Peng Gao",
+        "Jun Xu",
+        "Yinglei Miao",
+        "Xin Jin",
+        "Chuanyu Liu",
+        "Xun Xu",
+        "Yang Sun",
+        "Feng Zhao",
+        "Liang Xiao",
+        "Yuanqiang Zou"
+      ],
+      "doi": "10.1016/j.celrep.2026.117913",
+      "arxiv_id": "",
+      "pubmed_id": "42658680"
+    },
+    {
+      "title": "The GENIE Data Model: A Solid Tumor, Person-Centric Framework for Scalable, Harmonized Precision Oncology Data Collection.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658634/",
+      "abstract": "Adequately powered analyses in precision oncology often require combining cohorts across institutions. Yet integration is constrained by the least granular source and may become infeasible when data elements are too heterogeneous to harmonize and map to a common data model. This challenge is acute in multi-institutional precision oncology research, where real-world evidence requires harmonized clinico-omic data integration. Existing models often lack sufficient treatment patterns, outcomes, and genomic data, limiting interoperability and scalability. To address these gaps, AACR Project GENIE™ (Genomics Evidence Neoplasia Information Exchange) developed the GENIE Data Model (GDM), a comprehensive, open-source, oncology data model for scalable, consistent, and interoperable data collection across solid tumors designed to effectively capture the patient's journey with cancer. Through iterative consensus-building, four working groups comprising 13 subject matter experts defined data elements across multiple clinical domains: patient characteristics, imaging, diagnosis, surgery, histopathology, biomarkers, systemic therapy, radiation, clinical trial history, disease response and outcomes, and social determinants of health. Elements were defined using standardized terminologies and permissible values to support mapping to HL7 FHIR, OMOP, and other existing oncology standards. The model architecture distinguishes manually abstracted elements from computationally collected elements, enabling parallel workflows. The GDM provides an extensible framework that addresses critical gaps and enables scalable, harmonized data collection essential for precision oncology and real-world evidence generation.",
+      "authors": [
+        "Jennifer N Hoppe",
+        "Jocelyn Lee",
+        "Tomi F Akinyemiju",
+        "Danielle S Bitterman",
+        "Michael Brudno",
+        "Michelle F Green",
+        "Vojtech Huser",
+        "Jafi A Lipson",
+        "Sanjay Mishra",
+        "Daniel P Nussbaum",
+        "Jai N Patel",
+        "Valentina I Petkov",
+        "Kelli M Rasmussen",
+        "Sahussapont Joseph Sirintrapun",
+        "Patricia A Spears",
+        "Sebastiaan Van Sandijk",
+        "Anne-Marie Meyer",
+        "Umit Topaloglu",
+        "Jeremy L Warner"
+      ],
+      "doi": "10.1158/2767-9764.CRC-26-0148",
+      "arxiv_id": "",
+      "pubmed_id": "42658634"
+    },
+    {
+      "title": "Current knowledge and use of pharmacogenomics among NPs: An integrative review.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658573/",
+      "abstract": "Pharmacogenomics, a critical component of precision medicine, is rapidly transforming health care by tailoring drug therapy based on individual genetic profiles. Nurse practitioners (NPs), as frontline providers and prescribers, play a key role in implementing pharmacogenomics into clinical practice. Despite its growing importance, limited research has examined NPs' current knowledge about and use of pharmacogenomics in clinical practice. An integrative review was conducted using Whittemore and Knafl's methodology. Literature searches were performed across six databases using defined search terms related to NPs and pharmacogenomics. Peer-reviewed articles published between January 2020 and March 2025 were included. Studies were screened based on inclusion criteria, critically appraised using Joanna Briggs Institute checklists, and thematically analyzed. Ten articles were included: eight quantitative, one qualitative, and one mixed-methods. Five key themes emerged: (1) technology supports, including mobile apps and decision support tools; (2) education, highlighting gaps in formal genomics training; (3) specialty application, showing varied implementation across NP specialities; (4) knowledge to implementation, focusing on the space between NP pharmacogenomics learning, application of knowledge, and use of testing in clinical practice; and (5) barriers and resistance to pharmacogenomic use, including challenges such as knowledge deficits, cost, and NP perception of the value of pharmacogenomics. Despite positive attitudes toward pharmacogenomics, significant barriers hinder its integration into NP-led care. Formal education and continuing education around pharmacogenomics and supportive infrastructure, including funding, are essential to increase NP uptake and integration of pharmacogenomics into patient care. In addition, introductory material should be integrated into NP program curricula. Future research should focus on learning outcomes and the application of pharmacogenomics before and after participating in learning within graduate-level NP education programs and continuing-education programs for those already in practice.",
+      "authors": [
+        "Danielle Whitten",
+        "Mackenzie Courtney",
+        "Morgan Courtney",
+        "Jennifer Fournier",
+        "Robyn Gorham"
+      ],
+      "doi": "10.1097/01.NPR.0000000000000480",
+      "arxiv_id": "",
+      "pubmed_id": "42658573"
+    },
+    {
+      "title": "Performance evaluation of clinical diagnostic kits for Group B Streptococcus available in China.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42657954/",
+      "abstract": "Group B Streptococcus (GBS) is a significant pathogen capable of causing postpartum bacteremia in pregnant women and vertical transmission to neonates, which can result in fatal outcomes. Therefore, prenatal screening for vaginal GBS colonization is essential for preventing neonatal transmission. This study conducted an external quality assessment to evaluate the performance of 12 commercially available GBS detection kits in China. A total of 12 GBS detection kits (three antigen-based and nine nucleic acid-based) were evaluated using a reference panel comprising 11 GBS serotypes. The limit of detection (LOD) and repeatability were assessed for the antigen kits, and the LOD was determined for the nucleic acid detection kits. Nucleic acid testing achieved higher sensitivity than antigen-based methods. Antigen detection kits exhibited sensitivities ranging from 10⁴ to 10⁷ colony-forming units (CFU)/mL, with repeatability of at least 95%. Nucleic acid detection kits demonstrated sensitivities ranging from 10² to 10⁵ CFU/mL. Notably, certain kits showed reduced detection efficiency for serotypes Ia, III, VIII, and IV. The diagnostic performance of antigen detection kits and nucleic acid detection kits for detecting different serotypes varied. These findings underscore the potential for serotype-related analytical bias in clinical practice and emphasize the necessity of comprehensive kit validation.IMPORTANCEGroup B Streptococcus (GBS) is a leading cause of severe infections in newborns, often transmitted from colonized mothers during childbirth. Accurate prenatal screening is therefore critical. In China, numerous rapid test kits are used for GBS detection, but whether they perform equally well across different bacterial types (serotypes) was unknown. Our study systematically evaluated 12 commercially available kits and found that some fail to reliably detect certain high-risk serotypes, including one strongly linked to fatal newborn infections. These findings underscore the potential for serotype-related analytical bias in clinical practice and emphasize the necessity of comprehensive kit validation, thereby supporting more accurate screening to protect maternal and neonatal health.",
+      "authors": [
+        "Rong Su",
+        "Xiaoli Chen",
+        "Shouneng Lu",
+        "Yujie Zhou",
+        "Yue Liu",
+        "Qiongzi Huang",
+        "Ying Zhang",
+        "Xinyan Zheng",
+        "Mengting Li",
+        "Wangheng Hou",
+        "Kunyu Yang",
+        "Huiming Ye",
+        "Yunfeng Lv",
+        "Zimin Tang",
+        "Shengxiang Ge"
+      ],
+      "doi": "10.1128/spectrum.00137-26",
+      "arxiv_id": "",
+      "pubmed_id": "42657954"
+    },
+    {
+      "title": "Chelonid alphaherpesvirus 5 qPCR of archived blood and skin samples underpredicts infections in juvenile green turtles Chelonia mydas.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42657459/",
+      "abstract": "Chelonid alphaherpesvirus 5 (ChHV5) is the putative pathogen of fibropapillomatosis, a tumor-forming sea turtle disease. Quantitative polymerase chain reaction (qPCR) techniques are commonly applied to evaluate the presence and quantity of ChHV5 in blood and tissue samples. However, samples can have little or no virus present despite coming from infected individuals. In addition, sample age and storage may further impact ChHV5 detection. This creates uncertainty in the interpretation of ChHV5 qPCR results for archived (>1 yr old) blood and skin because a negative sample does not imply an individual was free of ChHV5 infection, but rather that the sample itself was free of viable ChHV5 DNA. To assess the ability of qPCR to detect ChHV5 infections from archived samples, we tested blood, skin, and tumor samples collected from juvenile green turtles Chelonia mydas captured in the Indian River Lagoon, Florida, USA, between 1995 and 2018. Sample ages ranged from 1 to 24 yr old at the time of molecular analyses. We found very low overall prevalence of ChHV5 in blood (1.4% positive, n = 513) and skin (6.5% positive, n = 123) samples, and high prevalence in tumor samples (89.7% positive, n = 39). These results suggest that qPCR of archived blood and/or skin samples provides little inference on individual-level infection status.",
+      "authors": [
+        "Jake R Kelley",
+        "Tamara Lee",
+        "Katherine R Martin",
+        "Leah T Rittenburg",
+        "Kate L Mansfield",
+        "Anna E Savage"
+      ],
+      "doi": "10.3354/dao03932",
+      "arxiv_id": "",
+      "pubmed_id": "42657459"
     },
     {
       "title": "Deep molecular profiling of lung neuroendocrine tumours and supra-carcinoids.",
@@ -207,6 +343,38 @@
       "pubmed_id": "42644634"
     },
     {
+      "title": "New culture medium enhances the isolation and culture of Flavobacterium psychrophilum, causative agent of bacterial coldwater disease and Rainbow Trout fry syndrome.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42497026/",
+      "abstract": "Flavobacterium psychrophilum causes bacterial coldwater disease (BCWD) and Rainbow Trout fry syndrome (RTFS) in salmonids, resulting in significant economic losses worldwide. Bacterial culture remains a widely used method for F. psychrophilum diagnostics and is core to BCWD and RTFS research; however, some isolates grow poorly on existing media. The primary goal of this study was to develop a solid culture medium that improves the in vitro recovery of F. psychrophilum across a diverse set of multilocus sequence typing variants. Initially, CFU yields of 165 diverse F. psychrophilum isolates were compared across three established media, and the best-performing medium was selected for optimization. A Plackett-Burman screening design was used to identify influential medium components, after which two new media (F. psychrophilum medium-A [FPM-A] and F. psychrophilum medium-B [FPM-B]) were formulated and compared with tryptone yeast extract salts medium (TYES) under laboratory and field conditions. Five medium components (e.g., casamino acids, CaCl2, MgSO4, tryptose, and fetal bovine serum) significantly influenced CFU yield, guiding the formulation of FPM-A and FPM-B, which increased CFU yield by over 2.4-fold relative to TYES. During surveillance of 240 spawning-age salmonids (four species, four sites), FPM-A and FPM-B significantly improved F. psychrophilum recovery in comparison with TYES. The new media improved the recovery of diverse F. psychrophilum variants and improved culture-based detection from naturally infected fish. Both FPM-A and FPM-B performed similarly; however, FPM-A has fewer components, is less expensive to produce, and thus is recommended to support future BCWD/RTFS diagnostic and research efforts.",
+      "authors": [
+        "Christopher Knupp",
+        "Sean M G Lennox",
+        "Esteban Soto",
+        "Gregory D Wiens",
+        "Thomas P Loch"
+      ],
+      "doi": "10.1093/jahafs/vsag011",
+      "arxiv_id": "",
+      "pubmed_id": "42497026"
+    },
+    {
+      "title": "Discovery of Citrobacter freundii as a disease-causing agent in Singhi Heteropneustes fossilis: A first report.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42424302/",
+      "abstract": "The purpose of this study was to identify and describe Citrobacter freundii, which was associated with a disease outbreak in Singhi (also known as Stinging Catfish) Heteropneustes fossilis that are cultured under intensive freshwater farming conditions in Tripura, India, and to evaluate its pathogenicity and antimicrobial resistance profile. A bacterial isolate (COF_AHE25; GenBank accession no. ON798627) was recovered from diseased fish that were exhibiting white patches, skin ulcers, hemorrhages, fin rot, and mortality. The isolate was identified using phenotypic and biochemical evaluation, followed by molecular confirmation based on 16S ribosomal RNA gene sequencing and phylogenetic analysis. Pathogenicity was assessed through experimental infection trials, -daily monitoring of cumulative mortality, and estimation of the median lethal dose for the species. Host responses were evaluated through hematological, biochemical, and immunological analyses. Antimicrobial susceptibility was determined using the Kirby-Bauer disk diffusion method in accordance with the Clinical and Laboratory Standards Institute guidelines. Experimental infection confirmed the virulence of the isolate, with infected Singhi developing clinical signs that were comparable to those observed during the natural outbreak. Mortality commenced at 4 d postinfection and progressed in a dose-dependent manner. Significant alterations in hematological, biochemical, and immunological parameters were observed, consistent with systemic bacterial septicemia. The median lethal dose of C. freundii strain COF_AHE25 was estimated at 2.5 × 107 CFU/fish. The isolate exhibited multidrug resistance, including resistance to tetracycline and erythromycin as well as to β-lactam antibiotics (penicillin, oxacillin, and cefoxitin) and vancomycin. The findings establish C. freundii as a pathogenic bacterium capable of causing significant disease and mortality in intensively farmed Singhi. The detection of resistance to antimicrobials commonly used in freshwater aquaculture highlights the need for strengthened disease surveillance, responsible antimicrobial stewardship, and improved health management practices in intensive fish farming systems.",
+      "authors": [
+        "Lija Ghosh",
+        "C Laltlanmawia",
+        "Himadri Saha"
+      ],
+      "doi": "10.1093/jahafs/vsag006",
+      "arxiv_id": "",
+      "pubmed_id": "42424302"
+    },
+    {
       "title": "Establishment of a rapid detection method for Tembusu virus based on MIRA- Pf Ago.",
       "source": "PubMed",
       "date": "2026-08-27T00:00:00+00:00",
@@ -223,6 +391,21 @@
       "doi": "10.1080/03079457.2026.2701311",
       "arxiv_id": "",
       "pubmed_id": "42417628"
+    },
+    {
+      "title": "Computational Characterization of Pathogenic LMNA Missense Variants: Structural Instability, Altered Binding, and Conformational Dynamics.",
+      "source": "PubMed",
+      "date": "2026-01-01T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42657169/",
+      "abstract": "Mutations in the LMNA gene underlie a broad spectrum of laminopathies, including muscular dystrophies, cardiomyopathies, and premature aging syndromes; however, the molecular mechanisms by which missense variants disrupt Lamin A structural integrity remain incompletely characterized. Systematic computational approaches for prioritizing pathogenic variants and elucidating their structural consequences are critically needed. An integrated multistep in silico framework was employed to investigate the structural and functional consequences of LMNA missense variants. Variant prioritization was performed using the Evo2 nucleotide language model via delta log-likelihood scoring, followed by bioinformatic annotation using SIFT, PANTHER-PSEP, PhD-SNP, and E-SNPs&GO. Protein stability assessment was conducted with DynaMut, INPS-MD, I-Mutant2.0, and MUpro. Variants localized within globular domains-N456D, N456T, and G465D-together with the known pathogenic variant M540T as a positive control, were selected for three-dimensional structural modeling using PyMOL and AlphaFold2, molecular docking with lonafarnib as a reference ligand via AutoDock Vina, and 100 ns molecular dynamics simulations using GROMACS with the Amber ff14SB force field. Conformational dynamics were characterized through principal component analysis and free-energy surface construction. Evo2-based screening of the full LMNA coding sequence identified 50 high-priority loss-of-function variants, of which N456D, N456T, and G465D were retained for structural investigation based on their globular domain localization and multitool pathogenicity predictions. All three variants were consistently predicted to alter physicochemical properties and reduce structural stability relative to wild-type Lamin A. Molecular docking revealed mutation-dependent changes in lonafarnib binding profiles. The known pathogenic control M540T exhibited comparable structural and dynamic behavior, supporting the reliability of the prioritization workflow. Molecular dynamics analyses demonstrated altered RMSD trajectories, increased residue-level flexibility, and modified hydrogen bonding patterns in mutant systems. Free-energy landscape analyses revealed expanded conformational basins, particularly pronounced in the G465D variant, indicating increased structural plasticity. This integrated computational framework provides a systematic strategy for prioritizing pathogenic LMNA variants and characterizing their structural consequences at the atomic level. The identified variants-N456D, N456T, and G465D-represent structurally disruptive substitutions consistent with the established role of globular domain destabilization in other laminopathy-associated variants, offering testable hypotheses for experimental validation in cellular and animal models.",
+      "authors": [
+        "Emre Aktaş",
+        "Ceren Nizamoğlu",
+        "Salvador Ventura"
+      ],
+      "doi": "10.1155/humu/2444803",
+      "arxiv_id": "",
+      "pubmed_id": "42657169"
     },
     {
       "title": "Novel surveillance design exploiting network analysis for efficient, rapid detection of emerging Clostridioides difficile strains.",
@@ -539,6 +722,39 @@
       "doi": "10.1136/jmg-2026-111498",
       "arxiv_id": "",
       "pubmed_id": "42135054"
+    },
+    {
+      "title": "Multi-omics-driven precision medicine.",
+      "source": "PubMed",
+      "date": "2026-08-25T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656953/",
+      "abstract": "Precision medicine is increasingly constrained not by a lack of molecular data but by the absence of frameworks that can translate multidimensional biological information into actionable clinical decisions. Multi-omics-driven precision medicine (MODPM) addresses this lack by integrating genomics, epigenomics, transcriptomics, proteomics, metabolomics, microbiome, and clinical context into a multiscale framework that links molecular mechanisms, tissue organization, and patient trajectories. In this review, we propose a conceptual framework for MODPM and examine how advances in multi-omics technologies, artificial intelligence (AI), and foundation models are reshaping disease modeling, drug development, and precision intervention. We summarize the biological contributions of major omics layers and discuss how AI supports cross-modal representation learning, contextual modeling, and perturbation-aware prediction. We highlight drug development as a key translational application of MODPM and further discuss its clinical relevance across three major disease contexts: cancer, autoimmune diseases, and metabolic disorders, including cardiometabolic and renal-metabolic diseases. These examples illustrate how MODPM can support target discovery, disease endotyping, treatment response prediction, and clinical monitoring by analyzing shared mechanisms such as immune dysregulation, metabolic remodeling, chronic inflammation, tissue microenvironmental changes, and gene-environment interactions. Across these settings, MODPM enables finer molecular stratification, the identification of pathway-dominant disease states, improved response prediction, and dynamic treatment monitoring. We also discuss key barriers to implementation, including data heterogeneity, limited cohort diversity, polygenic complexity, workflow constraints, cost, and ethical issues related to privacy, consent, and data ownership. Overall, the value of MODPM lies not in stacking additional data layers but in building a multiscale, continuously learnable framework to link biological heterogeneity to clinically interpretable and actionable decisions.",
+      "authors": [
+        "Huibo Li",
+        "Zhe Zhao",
+        "Yifan Zhang",
+        "Yao Ma",
+        "Gaofei Hu",
+        "Min Zeng",
+        "Zhanqun Yang",
+        "Zixuan Zhao",
+        "Xin Zhou",
+        "Wei Hu",
+        "Yuxuan Sun",
+        "Meng Su",
+        "Jun Li",
+        "Matthew Whiteman",
+        "Wei Fu",
+        "Chao Zhong",
+        "Lemin Zheng",
+        "Long Chen",
+        "Hairong Lv",
+        "Rongsheng Zhao",
+        "Yi Zhun Zhu"
+      ],
+      "doi": "10.1002/imt2.70165",
+      "arxiv_id": "",
+      "pubmed_id": "42656953"
     },
     {
       "title": "Microbiome-metabolome multi-omics biomarkers for infectious disease prognosis: Current evidence, AI-driven integration, and translational challenges.",
@@ -894,180 +1110,26 @@
       "doi": "10.1039/d6na00187d",
       "arxiv_id": "",
       "pubmed_id": "42516174"
-    },
-    {
-      "title": "Candida auris uses nutrient sensing to modulate virulence and host immune responses.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42637889/",
-      "abstract": "The emergence of Candida auris as a pathogen required host adaptation and evasion of mammalian immunity, but the mechanisms are poorly understood. We discovered that C. auris uses nutrient sensing to tune its virulence traits and modulate immune activation in changing environments. In glucose-rich conditions (relevant to blood), C. auris suppresses its virulence traits and evades immune detection. Conversely, non-fermentable carbon sources prevalent in skin activate adhesion and filamentation, thereby triggering macrophage responses. Activation of adhesion by non-fermentable carbon sources is recapitulated across diverse C. auris strains, while filamentation is heterogeneous. In-depth phenotyping of multiple clinical strains revealed that C. auris generates phenotypic heterogeneity by titrating expression of key transcriptional regulators dependent on nutrient inputs and genetic background. This modulates its virulence potential and controls proportional immune responses. Therefore, metabolic flexibility enables C. auris to optimize a critical trade-off: expressing virulence traits while minimizing immune recognition to colonize host tissues.",
-      "authors": [
-        "Irma Tedja",
-        "Harshini Weerasinghe",
-        "Garrett Bryak",
-        "Helen Stölting",
-        "Tricia L Lo",
-        "Claudia Simm",
-        "Angavai Swaminathan",
-        "Calvin A Kraupner-Taylor",
-        "Paul F Harrison",
-        "Françios A B Olivier",
-        "Michael J McDonald",
-        "Shankar Thangamani",
-        "Traude H Beilharz",
-        "Ana Traven"
-      ],
-      "doi": "10.1038/s41564-026-02454-9",
-      "arxiv_id": "",
-      "pubmed_id": "42637889"
-    },
-    {
-      "title": "Target enriched metagenomics in cerebrospinal fluid in central nervous system infections.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42636981/",
-      "abstract": "Metagenomic next-generation sequencing (mNGS) is a promising tool for identifying pathogens. Targeted enrichment may improve detection in samples with low pathogen loads. We evaluated targeted mNGS for the diagnosis of central nervous system infections. We evaluated targeted mNGS using the Illumina Respiratory Pathogen ID/AMR Enrichment Panel Kit (RPIP) in CSF samples from 136 patients included in two prospective Dutch cohort studies. Patients had microbiologically confirmed CNS infections or a suspected CNS infection without identified pathogen. Conventional microbiological testing (culture and PCR) was used as the reference standard. Among 118 patients with a confirmed CNS infection (bacteria, n=78; viruses, n=33; fungi, n=7), targeted mNGS detected the expected pathogen in 70 patients (positive agreement 59%). In addition to expected detections, 71 unexpected pathogens were identified (71/141, 50% of all positive results). Among the 18 patients with a suspected CNS infection and negative conventional diagnostics, targeted mNGS identified a potential pathogen in 8 patients (44%), of which 7 (88%) were confirmed by qPCR. Targeted mNGS shows moderate agreement with conventional diagnostics and may aid pathogen detection in selected patients with negative routine testing. However, the high rate of unexpected detections and lack of standardized thresholds currently limit its clinical applicability.",
-      "authors": [
-        "Sabine E Olie",
-        "Steven L Staal",
-        "Ana C da Cruz Campos",
-        "Diederik van de Beek",
-        "Matthijs C Brouwer"
-      ],
-      "doi": "10.1016/j.jinf.2026.106841",
-      "arxiv_id": "",
-      "pubmed_id": "42636981"
-    },
-    {
-      "title": "Enzyme-linked chaperone assay: a novel bacterial detection method for viability discrimination.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42636896/",
-      "abstract": "This study introduces enzyme-linked chaperone assay (ELCA), a novel antibody-free biosensor targeting Pseudomonas syringae effector-chaperone interactions for diagnostic purposes. Validated via a linear mixed effects model across three independent experiments, ELCA achieved a 10 2 CFU/mL limit of detection, successfully discriminating live target cells from dead populations and non-target strains.",
-      "authors": [
-        "Rachel Herschlag",
-        "Carolee T Bull"
-      ],
-      "doi": "10.1016/j.mimet.2026.107681",
-      "arxiv_id": "",
-      "pubmed_id": "42636896"
-    },
-    {
-      "title": "A plasmid-associated immunoglobulin-binding protein in Acinetobacter baumannii.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42636597/",
-      "abstract": "Acinetobacter baumannii is a critical global health threat due to multidrug resistance and high mortality. Although antimicrobial resistance mechanisms are well characterised, the virulence determinants that drive severe infections remain poorly understood. We screened 89 carbapenem-resistant clinical isolates of A. baumannii for virulence in animal infection models and combined comparative genomics with functional assays to identify virulence factors. An immunoglobulin-binding protein from A. baumannii (ImbA) encoded on the type D plasmid was selected and characterised. Protein-immunoglobulin interactions were analysed by pull-down and biolayer interferometry. Additional ImbA inhibition of IgG-Fcγ receptor binding by flow cytometry were tested. Protective efficacy was evaluated in mice using vaccination or anti-ImbA antibodies. A type D plasmid was consistently linked to high virulence in clinical isolates. The deletion of plasmid-encoded ImbA attenuated virulence. ImbA bound murine IgA and IgG with high affinity. The binding to the Fc region of IgG disrupted IgG-Fcγ receptor interactions. Vaccination with recombinant ImbA improved survival and reduced bacterial dissemination in female mice with anti-ImbA antibodies partially protecting against lethal infection. Bacterial burdens in the blood were reduced in treated groups. Our study demonstrates ImbA as an unrecognised plasmid-encoded virulence factor in A. baumannii. By intercepting host immunoglobulins, ImbA drives immune evasion and hypervirulence. Blocking ImbA by vaccination and antibody therapy restored host defence and improved outcomes in female mice, highlighting ImbA as a non-antibiotic therapeutic target with potential against multidrug-resistant A. baumannii. Bio&Medical Technology Development Program of the National Research Foundation (NRF), funded by the Korean government (MSIT) (No. RS-2023-00219213); Korea Research Institute of Bioscience and Biotechnology (KRIBB) Research Initiative Program.",
-      "authors": [
-        "Dajeong Kim",
-        "Cheong Kim",
-        "Soohyun Lee",
-        "Min Young Jeon",
-        "Jihyun Yang",
-        "Hyuna Lim",
-        "Eui-Jeon Woo",
-        "Jae-Yoon Kim",
-        "Min-Seon Park",
-        "Solip Lee",
-        "Haeyoung Jeong",
-        "Kyungjin Lee",
-        "Nam-Kyung Lee",
-        "Hwi Won Seo",
-        "Choong-Min Ryu"
-      ],
-      "doi": "10.1016/j.ebiom.2026.106445",
-      "arxiv_id": "",
-      "pubmed_id": "42636597"
-    },
-    {
-      "title": "Multimodal artificial intelligence in prostate cancer: integrating multiparametric MRI with clinicopathological, molecular, and functional imaging data.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42635792/",
-      "abstract": "Multimodal artificial intelligence (AI) is reshaping prostate cancer imaging by moving beyond MRI-only algorithms toward models that integrate multiparametric MRI (mpMRI) with clinical variables, pathology, genomics, ultrasound, and prostate-specific membrane antigen (PSMA) positron emission tomography (PET). This review summarizes the deep-learning architectures, fusion strategies, representative applications, and implementation challenges of mpMRI-centered multimodal AI. Convolutional neural networks and U-Net variants remain central to image encoding and segmentation; transformers and attention modules support cross-modal interaction, whereas generative adversarial networks are used mainly for augmentation, synthesis, and image restoration. Current evidence is strongest for combining MRI with routinely available clinical variables, for which several studies have reported incremental discrimination, calibration, or net benefit relative to single-modality models. Cross-modality integration with ultrasound and PSMA PET may support biopsy targeting and local staging, whereas pathology-clinical fusion may support prognosis. Foundation models and large language models may facilitate transferable representation learning and conversion of unstructured reports and clinical notes into structured multimodal inputs, but hallucination, provenance, privacy, and external-validation concerns preclude autonomous use. Active surveillance is an emerging longitudinal application because serial MRI, PSA kinetics, repeat biopsy, and patient-level outcomes must be aligned over time. However, domain shift across institutions, scanners, protocols, tracers, pathology workflows, and patient populations, together with labeling and outcome-definition heterogeneity, remains a central barrier. Translation into practice will require modality-specific harmonization, leakage-resistant validation, missing-modality robustness, probability calibration, uncertainty estimation, transparent disclosure of input availability and model provenance, prospective impact studies, and multidisciplinary governance. With these safeguards, multimodal AI may become a useful component of precision prostate cancer care.",
-      "authors": [
-        "Motohiro Fujiwara",
-        "Soichiro Yoshida",
-        "Imon Banerjee",
-        "Yuki Arita",
-        "Yasuhisa Fujii"
-      ],
-      "doi": "10.1007/s00261-026-05723-7",
-      "arxiv_id": "",
-      "pubmed_id": "42635792"
-    },
-    {
-      "title": "Development of a NiCoFe-LDH/Ketjenblack-enhanced electrochemical antibacterial peptide biosensor for Aeromonas hydrophila detection in seawater samples.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42635655/",
-      "abstract": "Rapid, sensitive detection of the fish pathogen Aeromonas hydrophila in aquaculture is vital for animal health and preventing economic losses. We provide an electrochemical biosensor for A. hydrophila based on an antibacterial peptide, using a ternary NiCoFe layered double hydroxide (NiCoFe-LDH)- incorporated Ketjenblack as the substrate. This is, to our knowledge, the first A. hydrophila biosensor that is both based on an electrochemical platform using an antibacterial peptide as a biorecognition layer and tested in seawater. The NiCoFe-LDH/Ketjenblack nanocomposite is synthesized via one-pot precipitation. It exhibits a high-activity nanosheet structure with fast electron transfer, as confirmed by XRD, SEM, EIS, and CV. A screen-printed carbon electrode is modified with the interface, coupling LDH-carbon signal amplification with peptide-mediated recognition, with independent support from electrochemical characterization and ligand-tracer affinity studies. Under optimized conditions at room temperature, linearity to 10¹- 10⁶ CFU/mL, LOD of 4.17 CFU/mL and LOQ of 7.34 in 30 min, RSDs < 6%, little cross-reaction with other bacteria, and 97-102% of the PBS response in spiked seawater.",
-      "authors": [
-        "Ahmet Akif Kızılkurtlu",
-        "Kübra Arancı",
-        "Sevgi Gülyüz",
-        "Zeynep Sude Cifcibasi",
-        "Sevde Altuntas",
-        "Özgür Yılmaz"
-      ],
-      "doi": "10.1007/s00604-026-08373-0",
-      "arxiv_id": "",
-      "pubmed_id": "42635655"
-    },
-    {
-      "title": "Genome-Guided TaqMan qPCR for Detection of Xanthomonas albilineans and Quantitative Interpretation of Pathogen Abundance in Sugarcane Leaf Scald.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42634628/",
-      "abstract": "Sugarcane leaf scald, caused by Xanthomonas albilineans, is difficult to diagnose because latent infections often precede symptom development, allowing infected planting material to disseminate the pathogen unnoticed. Although quantitative PCR (qPCR) has substantially improved pathogen detection, most available assays target conserved ribosomal regions, which can limit species-level discrimination and offer little guidance for interpreting pathogen abundance. Comparative genomic analysis identified Xal_000736 as a candidate species-specific target for assay development. A TaqMan qPCR assay targeting this locus was developed and evaluated using purified genomic DNA, bacterial suspensions, plant matrix-matched standards, six X. albilineans isolates, 21 non-target bacterial strains, and naturally or artificially infected sugarcane samples. Assay performance was directly compared with that of the previously described 16S rRNA-based xal-FR assay. The biological significance of pathogen abundance was further examined using correlation analysis, logistic regression, receiver operating characteristic (ROC) analysis, and generalized linear mixed-effects models (GLMMs). The 0736 assay showed high amplification efficiency, excellent linearity, and reproducible quantification throughout the validated dynamic range. Quantitative performance was comparable between the two assays, whereas the 0736 assay achieved substantially greater analytical specificity against the bacterial panel examined. ROC analysis also produced a higher area under the curve for the 0736 assay, although the difference between assays was not statistically significant. Pathogen abundance increased with disease severity but overlapped considerably among adjacent symptom classes, indicating that bacterial abundance alone could not fully distinguish disease status. Logistic regression identified quantitative reference values associated with symptom transition and diagnostic classification, while mixed-effects modelling confirmed that the relationship between pathogen abundance and disease status remained significant after accounting for cultivar-related variation. Together, these results show that genome-guided target selection can improve analytical specificity without compromising quantitative performance. They also provide a quantitative basis for interpreting qPCR-derived pathogen abundance in sugarcane leaf scald. Because the proposed reference values were derived from the populations and sampling conditions included in this study, independent validation across additional cultivars, environments, and pathogen populations will be required before routine diagnostic or regulatory use.",
-      "authors": [
-        "Cuilin Huang",
-        "Xiao Yang",
-        "Meiling Li",
-        "Li Ya Xiong",
-        "Weiying Liu",
-        "Wei Yao",
-        "Charles Arthur Powell",
-        "Muqing Zhang"
-      ],
-      "doi": "10.1094/PDIS-06-26-1221-RE",
-      "arxiv_id": "",
-      "pubmed_id": "42634628"
-    },
-    {
-      "title": "Air pollution and the risk of schizophrenia: current evidence, mechanisms, and future directions.",
-      "source": "PubMed",
-      "date": "2026-08-24T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42185037/",
-      "abstract": "Schizophrenia (SCZ) is a complex, polygenic neurodevelopmental disorder influenced by interactions between genetic vulnerability and environmental exposures. While research has historically prioritized genetic factors, air pollution has emerged as a potentially modifiable environmental factor associated with the onset, progression, and relapse of the disorder. This review synthesizes current clinical, epidemiological, and preclinical evidence to clarify the relationship between various air pollutants and SCZ. Epidemiological data, including large-scale cohort studies such as the UK Biobank, demonstrate dose-dependent associations between long-term exposure to particulate matter (PM 2 . 5 , PM 10 ) and gaseous pollutants (NO 2 , SO 2 , CO) and increased SCZ risk. Notably, individuals with high polygenic risk scores (PRS) may exhibit heightened vulnerability, with hazard ratios reaching up to 7.38 when combined with high pollution exposure. Mechanistically, air pollutants may influence SCZ-related biology through direct neurotoxicity via olfactory translocation, neuroinflammatory signaling, oxidative stress, disruption of neuroplasticity (including brain-derived neurotrophic factor (BDNF) suppression), and dysregulation of the gut-brain axis. However, most mechanistic evidence is preclinical, and the translational gap to human disease remains substantial. Despite these insights, challenges remain regarding causal inference, biomarker validation, and geographical representation in research. Moving forward, large-scale longitudinal cohorts and the integration of exposomics with genomics are essential to refine risk stratification. At present, the evidence supports cautious consideration of air pollution as an environmental factor associated with schizophrenia, rather than as a proven causal determinant.",
-      "authors": [
-        "Ruqi Zhou",
-        "Binghua Li",
-        "Jianhua Chen"
-      ],
-      "doi": "10.1515/revneuro-2026-0028",
-      "arxiv_id": "",
-      "pubmed_id": "42185037"
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 42,
+      "count": 43,
       "error": ""
     },
     {
       "source": "bioRxiv",
       "success": false,
       "count": 0,
-      "error": "HTTPSConnectionPool(host='api.biorxiv.org', port=443): Max retries exceeded with url: /details/biorxiv/2026-08-24/2026-08-27/0 (Caused by NewConnectionError(\"HTTPSConnection(host='api.biorxiv.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      "error": "HTTPSConnectionPool(host='api.biorxiv.org', port=443): Max retries exceeded with url: /details/biorxiv/2026-08-25/2026-08-28/0 (Caused by NewConnectionError(\"HTTPSConnection(host='api.biorxiv.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
     {
       "source": "medRxiv",
       "success": false,
       "count": 0,
-      "error": "HTTPSConnectionPool(host='api.biorxiv.org', port=443): Max retries exceeded with url: /details/medrxiv/2026-08-24/2026-08-27/0 (Caused by NewConnectionError(\"HTTPSConnection(host='api.biorxiv.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+      "error": "HTTPSConnectionPool(host='api.biorxiv.org', port=443): Max retries exceeded with url: /details/medrxiv/2026-08-25/2026-08-28/0 (Caused by NewConnectionError(\"HTTPSConnection(host='api.biorxiv.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     }
   ]
 }
