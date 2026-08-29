@@ -1,9 +1,9 @@
 # 知识库统计
 
-更新时间：2026-08-28 12:41:29
+更新时间：2026-08-29 07:49:12
 
-- 累计论文：3590
-- 最近一次新增：44
+- 累计论文：3591
+- 最近一次新增：36
 - 来源数：4
 - 主题数：5
 
@@ -11,7 +11,7 @@
 
 - arXiv: 2576
 - bioRxiv: 439
-- PubMed: 318
+- PubMed: 319
 - medRxiv: 257
 
 ## 类别统计
@@ -19,7 +19,7 @@
 - foundation_model: 1665
 - methods: 1142
 - dataset: 400
-- clinical_application: 271
+- clinical_application: 272
 - general: 112
 
 ## 主题统计

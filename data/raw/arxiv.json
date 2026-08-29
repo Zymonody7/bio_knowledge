@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-28T12:41:24.718381+00:00",
+  "fetched_at": "2026-08-29T07:49:06.203823+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 52,
+  "count": 46,
   "papers": [
     {
       "title": "Lost but not erased: Finding traces of a forgotten language in neural speech models",
@@ -55,111 +55,6 @@
       ],
       "doi": "",
       "arxiv_id": "2608.25649v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Towards World Models in Biomedical Research",
-      "source": "arXiv",
-      "date": "2026-06-04T09:28:54+00:00",
-      "updated": "2026-08-26T06:15:58+00:00",
-      "url": "http://arxiv.org/abs/2606.05925v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.05925v2",
-      "abstract": "A central goal of biomedicine is to understand, predict and ultimately control the dynamic mechanisms by which biological systems respond to perturbations, disease progression and therapeutic intervention. Although foundation models and large language models have accelerated biomedical data interpretation, most current systems remain focused on static pattern recognition rather than prospective simulation of biological futures. Here we propose biomedical world models as a paradigm for AI-driven discovery. These models learn latent representations of molecular, cellular, tissue and clinical states, together with intervention-conditioned dynamics that allow future trajectories to be simulated before actions are taken. We discuss how biomedical world models could function as data engines, environment simulators and scientific planning substrates across applications including virtual cells, organoids, virtual patients and surgical simulation. We outline the data infrastructure, evaluation benchmarks, safety constraints and governance frameworks required. Biomedical world models may provide a foundation for simulation-guided, closed-loop and experimentally actionable biomedical discovery.",
-      "authors": [
-        "Guangyu Wang",
-        "Jingkun Yue",
-        "Siqi Zhang",
-        "Yu Liu",
-        "Xiaoyu Wang",
-        "Mingyuan Meng",
-        "Changwei Ji",
-        "Zongbo Han",
-        "Yulin Wang",
-        "Yang Yue",
-        "Frank Fu",
-        "Ting Chen",
-        "Song Wu",
-        "Ziwei Liu",
-        "Jiangning Song",
-        "Ming Li",
-        "Gao Huang",
-        "Xiaohong Liu",
-        "Athanasios Vasilakos",
-        "Xingcai Zhang",
-        "Ping Zhang",
-        "Yong Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.05925v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation",
-      "source": "arXiv",
-      "date": "2026-08-26T04:55:19+00:00",
-      "updated": "2026-08-26T04:55:19+00:00",
-      "url": "http://arxiv.org/abs/2608.26208v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.26208v1",
-      "abstract": "In the tumor microenvironment, cell's state is influenced by cell-cell interactions (CCIs) with neighboring cells in its niches. Identifying dysregulated CCIs that are associated with pathogenic process pinpoints targets for drug discovery. Imaging-based spatial transcriptomics and single-cell RNA sequencing provide, respectively, single-cell spatial information and transcriptome-wide measurements needed to study CCIs, but neither modality provides both. Existing spatial transcriptomics foundation models also cannot effectively learn from spatially resolved single-cell data with full-transcriptome coverage, explicitly infer the CCI mechanisms driving cell state-niche associations, or interpretable enough to support direct biological interpretations. Here, we present GITIII-scale, a hierarchical, interpretable pan-cancer spatial transcriptomics foundation model for TME representation learning that investigates cell state-niche associations and their underlying ligand-receptor (LR) signaling pathways. GITIII-scale uses transformers to model interactions between pairs of cells at defined spatial distances, an interpretable single-layer graph transformer without a feed-forward network to decompose how each gene in a receiver cell is influenced by each neighboring sender cell, and a graph transformer to generate cellular-neighborhood embeddings. Trained on our assembled pan-cancer database of specimen-matched scRNA-seq and imaging-based spatial transcriptomics datasets, GITIII-scale generated TME embeddings that recovered niche-associated state changes more accurately than existing spatial transcriptomics foundation models in cancer types unseen during training. A case study of an unseen breast cancer dataset further demonstrated the model's interpretability by identifying potentially drug-targetable LR pathways associated with endothelial overgrowth and tumorigenesis.",
-      "authors": [
-        "Xiao Xiao",
-        "Jiashu He",
-        "Shiyang Zhang",
-        "Meiyi Mao"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.26208v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "VGGT-DP: Generalizable Robot Control via Vision Foundation Models",
-      "source": "arXiv",
-      "date": "2025-09-23T08:15:30+00:00",
-      "updated": "2026-08-25T15:30:45+00:00",
-      "url": "http://arxiv.org/abs/2509.18778v2",
-      "pdf_url": "https://arxiv.org/pdf/2509.18778v2",
-      "abstract": "Visual imitation learning frameworks allow robots to learn manipulation skills from expert demonstrations. While existing approaches mainly focus on policy design, they often neglect the structure and capacity of visual encoders, limiting spatial understanding and generalization. Inspired by biological vision systems, which rely on both visual and proprioceptive cues for robust control, we propose VGGT-DP, a visuomotor policy framework that integrates geometric priors from a pretrained 3D perception model with proprioceptive feedback. We adopt the Visual Geometry Grounded Transformer (VGGT) as the visual encoder and introduce a proprioception-guided visual learning strategy to align perception with internal robot states, improving spatial grounding and closed-loop control. To reduce inference latency, we design a frame-wise token reuse (FTR) mechanism that reuses cached VGGT aggregator tokens from overlapping observation frames and computes features only for the latest frame, substantially reducing redundant visual encoding. We further apply random token pruning to enhance policy robustness and reduce overfitting. Experiments on challenging MetaWorld tasks show that VGGT-DP significantly outperforms strong baselines such as DP and DP3, particularly in precision-critical and long-horizon scenarios.",
-      "authors": [
-        "Shijia Ge",
-        "Yijun Liu",
-        "Yinxin Zhang",
-        "Shuzhao Xie",
-        "Weixiang Zhang",
-        "Mingcai Zhou",
-        "Zhi Wang"
-      ],
-      "doi": "",
-      "arxiv_id": "2509.18778v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Multimodal Foundation Model for Longitudinal Patient Representation and Scalable Insight Generation in Oncology",
-      "source": "arXiv",
-      "date": "2026-08-25T15:17:12+00:00",
-      "updated": "2026-08-25T15:17:12+00:00",
-      "url": "http://arxiv.org/abs/2608.24688v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.24688v1",
-      "abstract": "Precision oncology necessitates a longitudinal model of patient state that captures cancer evolution and treatment over time, integrating multimodal observations. We introduce the oFM, a foundation model developed on a real-world oncology cohort of 1.67 million cancer patients that integrates clinical trajectories with DNA, RNA, and H&E pathology. Patient-level partitions were reserved for training, validation, and testing, with over one million patients used for training. The oFM encodes daily clinical and molecular episodes and, along with pathology images, integrates them over time to produce a patient state embedding. We evaluate frozen oFM embeddings against expert-curated clinical and molecular baseline features. In prognostic benchmarks, the oFM improved AUC for treatment response, progression-free survival, and overall survival (0.774 vs. 0.563 for overall survival). Across 11 comparative-treatment cohorts, the oFM embeddings achieved a three-fold higher pooled and scale-normalized treatment-benefit AUTOC than baseline features with improved benefit ranking in 9 of 11 cohorts, and provided stronger prognostic discrimination within both treatment arms. We also evaluated a mechanism discovery framework that interprets downstream models built on oFM embeddings by linking their predicted outcomes to clinically and biologically grounded mechanisms through an evidence-grounded temporal graph, enabling evaluation in clinical and drug-development applications.",
-      "authors": [
-        "Eugene Vorontsov",
-        "Yi Kan Wang",
-        "Alican Bozkurt",
-        "Adam Casson",
-        "Ludmila Tydlitatova",
-        "Michal Zelechowski",
-        "Ezra E. W. Cohen",
-        "Jyoti D. Patel",
-        "Max Banaszak",
-        "Caitlin McWilliams",
-        "Shane Colley",
-        "Kate Sasser",
-        "Ryan Fukushima",
-        "Eric Lefkofsky",
-        "Razik Yousfi",
-        "Siqi Liu"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.24688v1",
       "pubmed_id": ""
     },
     {
@@ -286,24 +181,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization Workflows",
-      "source": "arXiv",
-      "date": "2026-08-25T23:11:14+00:00",
-      "updated": "2026-08-25T23:11:14+00:00",
-      "url": "http://arxiv.org/abs/2608.25215v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.25215v1",
-      "abstract": "Natural language driven autonomous co-scientist workflows involve a fundamental trade-off between flexibility and reasoning at the expense of determinism, reproducibility, and observability. Such agents increasingly must communicate across institutional boundaries, where federation topology can shape latency and cost. We systematically evaluated these tradeoffs using a controlled ablation on a production agentic platform for science. We use a verifiable task: given a protein sequence, we ask an agent to confidently characterize its function by routing across common tools. We compare federation topology, classic RL vs LLM-driven harnesses, language model, and prompt expertise. We also stratify results by protein novelty. We find that the choice of LLM dominated prediction quality far more than topology or prompting (Opus ~92%-94% vs o4-mini ~40%-50%). The PPO policy was nearly as accurate as the best LLM (88%) at zero token cost, fastest latency, and perfect consistency, but yields no reasoning trace. Expert prompted LLMs reached the highest accuracy but were high-cost and less consistent; prompt dependence was largest when the task was hardest. Federation imposed a negligible penalty on performance. These results offer actionable guidance for deploying agents for scientific workflows: for routine, verifiable tasks, a cheap deterministic policy delivers near-frontier accuracy with complete reproducibility, while flexible LLM reasoning is best reserved for open-ended discovery.",
-      "authors": [
-        "Maia Kapur",
-        "Timothy Boe",
-        "Abby Jerger",
-        "Paul Rigor"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.25215v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Reservoir: A Large-Scale Simulated Dataset for Training and Evaluating Epidemiological Models",
       "source": "arXiv",
       "date": "2026-08-27T17:36:46+00:00",
@@ -407,21 +284,6 @@
       ],
       "doi": "",
       "arxiv_id": "2608.25548v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Homo-RAG: Homology-Guided Retrieval-Augmented Generation for Cross-Species Gene Function Prediction",
-      "source": "arXiv",
-      "date": "2026-08-26T07:33:07+00:00",
-      "updated": "2026-08-26T07:33:07+00:00",
-      "url": "http://arxiv.org/abs/2608.25466v1",
-      "pdf_url": "https://arxiv.org/pdf/2608.25466v1",
-      "abstract": "The functional annotation of genes in non-model organisms remains a significant challenge in computational biology, with 20-70% of sequenced genes lacking characterized functions. Traditional homology-based methods are often costly and strongly dependent on high sequence similarity. This study presents Homo-RAG, a framework for large language model-based gene function prediction that integrates homology-guided multi-hop retrieval with evidence-aware ranking. The framework exploits biological relationships between zebrafish and human orthologs to guide evidence acquisition from ZFIN, UniProt, and PubMed through hybrid dense and lexical retrieval. An Evidence Confidence Score (ECS) integrates semantic relevance, entity matching, orthology information, source reliability, and literature association signals to refine the ranking of retrieved evidence. Extensive evaluation across 150 queries and 7,200 retrieved documents shows that evidence weighting parameter of lambda=0.50 improves NDCG@10 to 0.9879 and MRR to 0.99, while retrieving relevant evidence for 99.33% of queries. Furthermore, 80% of the retrieved documents are query-exclusive, indicating that evidence quality complements rather than replaces retrieval relevance. These findings establish Homo-RAG as a practical and robust framework for reliable, evidence-grounded gene function prediction in understudied organisms. The study addresses important limitations of conventional annotation pipelines while identifying opportunities for future improvements in evidence features and attribution mechanisms.",
-      "authors": [
-        "Azrin Sultana"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.25466v1",
       "pubmed_id": ""
     },
     {
@@ -1107,7 +969,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 52,
+      "count": 46,
       "error": ""
     }
   ]
