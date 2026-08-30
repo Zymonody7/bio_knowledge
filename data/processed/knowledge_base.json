@@ -1,38 +1,38 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-08-29T07:49:12.671767+00:00",
+    "updated_at": "2026-08-30T06:33:49.242355+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 3591,
-    "last_run_count": 36,
+    "total_papers": 3598,
+    "last_run_count": 17,
     "sources": {
-      "PubMed": 319,
+      "PubMed": 320,
       "arXiv": 2576,
-      "bioRxiv": 439,
-      "medRxiv": 257
+      "bioRxiv": 442,
+      "medRxiv": 260
     },
     "categories": {
       "clinical_application": 272,
       "dataset": 400,
-      "foundation_model": 1665,
+      "foundation_model": 1667,
       "general": 112,
-      "methods": 1142
+      "methods": 1147
     },
     "topics": {
       "application_monitoring": 44,
       "data_fair_training": 2,
-      "foundation_model_agent": 2381,
-      "pathogenomics": 143,
-      "sequencing_bioinformatics": 106
+      "foundation_model_agent": 2387,
+      "pathogenomics": 144,
+      "sequencing_bioinformatics": 107
     },
     "years": {
       "2021": 1,
       "2023": 2,
       "2024": 27,
       "2025": 333,
-      "2026": 3228
+      "2026": 3235
     }
   },
   "indexes": {
@@ -198,6 +198,7 @@
         "doi:10.1038/s41540-026-00753-9",
         "doi:10.1038/s41540-026-00767-3",
         "doi:10.1038/s41551-026-01634-6",
+        "doi:10.1038/s41551-026-01785-6",
         "doi:10.1038/s41568-026-00922-2",
         "doi:10.1038/s41576-026-00992-w",
         "doi:10.1038/s41582-026-01200-3",
@@ -3375,7 +3376,10 @@
         "doi:10.64898/2026.08.19.745809",
         "doi:10.64898/2026.08.20.746077",
         "doi:10.64898/2026.08.21.746242",
-        "doi:10.64898/2026.08.24.746601"
+        "doi:10.64898/2026.08.24.746601",
+        "doi:10.64898/2026.08.24.746712",
+        "doi:10.64898/2026.08.24.746791",
+        "doi:10.64898/2026.08.26.747390"
       ],
       "medRxiv": [
         "doi:10.1101/2023.01.26.23285060",
@@ -3632,9 +3636,12 @@
         "doi:10.64898/2026.08.18.26360713",
         "doi:10.64898/2026.08.19.26360779",
         "doi:10.64898/2026.08.20.26360921",
+        "doi:10.64898/2026.08.20.26360939",
         "doi:10.64898/2026.08.20.26360962",
+        "doi:10.64898/2026.08.21.26360755",
         "doi:10.64898/2026.08.21.26361049",
-        "doi:10.64898/2026.08.22.26361065"
+        "doi:10.64898/2026.08.22.26361065",
+        "doi:10.64898/2026.08.25.26361263"
       ]
     },
     "by_category": {
@@ -5977,9 +5984,11 @@
         "doi:10.64898/2026.08.18.26360713",
         "doi:10.64898/2026.08.18.745544",
         "doi:10.64898/2026.08.20.26360921",
+        "doi:10.64898/2026.08.20.26360939",
         "doi:10.64898/2026.08.20.26360962",
         "doi:10.64898/2026.08.21.26361049",
-        "doi:10.64898/2026.08.24.746601"
+        "doi:10.64898/2026.08.24.746601",
+        "doi:10.64898/2026.08.24.746712"
       ],
       "general": [
         "arxiv_id:2502.19280v2",
@@ -6879,6 +6888,7 @@
         "doi:10.1038/s41467-026-75249-5",
         "doi:10.1038/s41525-026-00578-9",
         "doi:10.1038/s41540-026-00716-0",
+        "doi:10.1038/s41551-026-01785-6",
         "doi:10.1038/s41592-026-03036-7",
         "doi:10.1038/s41592-026-03137-3",
         "doi:10.1038/s41598-026-44691-2",
@@ -7237,7 +7247,11 @@
         "doi:10.64898/2026.08.17.744644",
         "doi:10.64898/2026.08.18.26360701",
         "doi:10.64898/2026.08.20.746077",
-        "doi:10.64898/2026.08.22.26361065"
+        "doi:10.64898/2026.08.21.26360755",
+        "doi:10.64898/2026.08.22.26361065",
+        "doi:10.64898/2026.08.24.746791",
+        "doi:10.64898/2026.08.25.26361263",
+        "doi:10.64898/2026.08.26.747390"
       ]
     },
     "by_topic": {
@@ -8947,6 +8961,7 @@
         "doi:10.1038/s41540-026-00716-0",
         "doi:10.1038/s41540-026-00767-3",
         "doi:10.1038/s41551-026-01634-6",
+        "doi:10.1038/s41551-026-01785-6",
         "doi:10.1038/s41568-026-00922-2",
         "doi:10.1038/s41576-026-00992-w",
         "doi:10.1038/s41586-026-10675-5",
@@ -9666,12 +9681,17 @@
         "doi:10.64898/2026.08.19.26360779",
         "doi:10.64898/2026.08.19.745809",
         "doi:10.64898/2026.08.20.26360921",
+        "doi:10.64898/2026.08.20.26360939",
         "doi:10.64898/2026.08.20.26360962",
         "doi:10.64898/2026.08.20.746077",
+        "doi:10.64898/2026.08.21.26360755",
         "doi:10.64898/2026.08.21.26361049",
         "doi:10.64898/2026.08.21.746242",
         "doi:10.64898/2026.08.22.26361065",
         "doi:10.64898/2026.08.24.746601",
+        "doi:10.64898/2026.08.24.746712",
+        "doi:10.64898/2026.08.24.746791",
+        "doi:10.64898/2026.08.25.26361263",
         "doi:10.7759/cureus.109744"
       ],
       "pathogenomics": [
@@ -9817,7 +9837,8 @@
         "doi:10.64898/2026.07.20.739463",
         "doi:10.64898/2026.08.03.742407",
         "doi:10.64898/2026.08.03.742561",
-        "doi:10.64898/2026.08.13.737497"
+        "doi:10.64898/2026.08.13.737497",
+        "doi:10.64898/2026.08.26.747390"
       ],
       "sequencing_bioinformatics": [
         "arxiv_id:2410.00077v2",
@@ -9925,7 +9946,8 @@
         "doi:10.64898/2026.08.03.742407",
         "doi:10.64898/2026.08.03.742561",
         "doi:10.64898/2026.08.04.26359536",
-        "doi:10.64898/2026.08.13.737497"
+        "doi:10.64898/2026.08.13.737497",
+        "doi:10.64898/2026.08.26.747390"
       ]
     },
     "by_year": {
@@ -12606,6 +12628,7 @@
         "doi:10.1038/s41540-026-00753-9",
         "doi:10.1038/s41540-026-00767-3",
         "doi:10.1038/s41551-026-01634-6",
+        "doi:10.1038/s41551-026-01785-6",
         "doi:10.1038/s41568-026-00922-2",
         "doi:10.1038/s41576-026-00992-w",
         "doi:10.1038/s41582-026-01200-3",
@@ -13521,12 +13544,18 @@
         "doi:10.64898/2026.08.19.26360779",
         "doi:10.64898/2026.08.19.745809",
         "doi:10.64898/2026.08.20.26360921",
+        "doi:10.64898/2026.08.20.26360939",
         "doi:10.64898/2026.08.20.26360962",
         "doi:10.64898/2026.08.20.746077",
+        "doi:10.64898/2026.08.21.26360755",
         "doi:10.64898/2026.08.21.26361049",
         "doi:10.64898/2026.08.21.746242",
         "doi:10.64898/2026.08.22.26361065",
         "doi:10.64898/2026.08.24.746601",
+        "doi:10.64898/2026.08.24.746712",
+        "doi:10.64898/2026.08.24.746791",
+        "doi:10.64898/2026.08.25.26361263",
+        "doi:10.64898/2026.08.26.747390",
         "doi:10.7759/cureus.109744",
         "pubmed_id:42286906"
       ]
@@ -15525,6 +15554,36 @@
       "content_hash": "431a3f6399e00ef583823e4489c500c153562de044fa5061e4f73c50302e2e66",
       "first_seen_at": "2026-08-26T02:37:54.835923+00:00",
       "last_seen_at": "2026-08-26T02:37:54.835923+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.08.21.26360755": {
+      "paper_id": "doi:10.64898/2026.08.21.26360755",
+      "title": "Expert-Guided Visual Correction for Characterizing Diagnostic Performance and Error Patterns of Multimodal Large Language Models Using Periodontal In-Service Examination Images",
+      "source": "medRxiv",
+      "date": "2026-08-27T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26360755v1",
+      "abstract": "Multimodal large language models (MLLMs) are increasingly applied to image-based clinical reasoning, yet their diagnostic reliability in periodontal image interpretation, and the underlying source of their errors, remain poorly characterized. This study evaluated six architecturally distinct MLLMs (Claude Sonnet 4.5, GPT-5.0, Gemini 2.5, GLM-4.6, Sonar, and Grok 4.1) using 50 image-based multiple-choice questions drawn from the American Academy of Periodontology In-Service Examination, spanning clinical photographs, histopathology, radiographs, cardiac rhythm strips, and anatomical illustrations. A sequential two-phase experimental design was used: in Phase 1, each model independently described each image, selected an answer, and provided a supporting citation; in Phase 2, applied only to questions answered incorrectly, models were given an expert-validated visual description and asked to re-answer, allowing diagnostic improvement through visual correction to be measured directly. Expert ground truth for image content was established by a board-certified periodontist and independently validated by a second board-certified periodontist. Model outputs were classified using a dual-process error taxonomy adapted from Norman's model of diagnostic reasoning, distinguishing perceptual errors, arising from inaccurate visual feature extraction, from cognitive errors, arising from flawed reasoning despite accurate perception, with cognitive errors further subdivided into correctable and persistent subtypes, and additional categories capturing compound perceptual-cognitive failures and compensatory reasoning that overcame inaccurate perception. Diagnostic accuracy and error type distribution varied significantly across models and image modality. Correcting inaccurate visual descriptions in Phase 2 improved diagnostic accuracy for a subset of previously incorrect responses, indicating that a meaningful share of errors originated at the level of visual perception rather than clinical reasoning; conversely, a distinct subset of errors persisted despite accurate corrected visual input, indicating reasoning-level failures independent of perceptual accuracy. Some models also reached correct answers despite generating inaccurate image descriptions, reflecting compensatory reasoning resilient to perceptual error. These findings show that aggregate accuracy scores conflate mechanistically distinct failure modes, and that perceptual and cognitive errors carry different implications for how MLLMs might be safely deployed or improved for diagnostic image interpretation. The expert-guided visual correction framework introduced here provides a generalizable, mechanism-based approach to benchmarking multimodal AI diagnostic performance that extends beyond periodontics to other visually driven diagnostic domains in medicine. As MLLMs become increasingly accessible to clinicians, residents, and dental educators, distinguishing perceptual from cognitive failure is essential for guiding responsible clinical use, targeting model refinement, and informing AI-augmented dental education and competency assessment.",
+      "abstract_zh": "",
+      "abstract_short": "Multimodal large language models (MLLMs) are increasingly applied to image-based clinical reasoning, yet their diagnostic reliability in periodontal image interpretation, and the underlying source of their errors, remain poorly characterized. This study evaluated six architecturally distinct MLLMs (Claude Sonnet 4.5, GPT-5.0, Gemini 2.5, GLM-4.6, Sonar, and Grok 4.1) using 50 image-based multiple-",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.8,
+      "novelty_score": 6.0,
+      "importance_score": 7.17,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.08.21.26360755",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "35538e88d91ce0269cd511c4c94110c0dc9921e79a1f7d5b726af6e8e0824543",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -18849,8 +18908,8 @@
       "pubmed_id": "",
       "content_hash": "d0444c916e07fde3014ecb11309f420dd2a058ba25e64fab8339561905b4aabd",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -22582,6 +22641,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.08.24.746791": {
+      "paper_id": "doi:10.64898/2026.08.24.746791",
+      "title": "TaHL-PTM: Post-Translational Modification Prediction in Proteins via Target-Hooked Discriminative Fine-Tuning of Decoder-only Protein Language Models",
+      "source": "bioRxiv",
+      "date": "2026-08-27T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746791v1",
+      "abstract": "Post-translational modifications (PTMs) regulate protein function, making accurate residue-level PTM prediction essential for understanding cellular mechanisms and disease pathways. While decoder-only protein language models (PLMs) pretrained with the causal language modeling (CLM) objective have driven breakthroughs across various bioinformatics tasks, their potential for PTM prediction remains largely underexplored. CLM-based PLMs that rely on Byte-Pair Encoding (BPE) for tokenization, such as ProtGPT2, introduce intra-token label collision by merging multiple amino acids with conflicting labels into a single token, creating a major bottleneck for residue-level tasks. To overcome this, we propose TaHL-PTM (Target-Hooked Low-rank adaptation for PTM prediction), a novel framework that integrates target-hooked tokenization with site-directed discriminative LoRA fine-tuning. Target-hooked tokenization constrains tokenization around the candidate residue using dedicated marker tokens to eliminate intra-token label collision while preserving the surrounding sequence context, whereas the proposed discriminative objective repurposes the standard generative CLM objective for residue-level PTM classification by directly optimizing the separation between modified and unmodified sites. We benchmark TaHL-PTM across six distinct PTM tasks on ProtGPT2 and ProGen2 models. TaHL-PTM consistently improves MCC, with the largest gain of up to +0.11 for tyrosine phosphorylation (0.34 to 0.45), alongside improvements in F1, AUROC, and AUPR. Performance gains are more pronounced for collision-affected samples, validating the effectiveness of target-hooked tokenization, while consistent improvements across both BPE-based and per-residue-based causal PLMs demonstrate that the proposed framework generalizes across models with different pretraining tokenization schemes.",
+      "abstract_zh": "",
+      "abstract_short": "Post-translational modifications (PTMs) regulate protein function, making accurate residue-level PTM prediction essential for understanding cellular mechanisms and disease pathways. While decoder-only protein language models (PLMs) pretrained with the causal language modeling (CLM) objective have driven breakthroughs across various bioinformatics tasks, their potential for PTM prediction remains l",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 6.0,
+      "importance_score": 6.292,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.08.24.746791",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "ababeb8276cdb3581e9da23220386460eb018da25b3c72c41f6f4d9413655af3",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2606.09105v1": {
       "paper_id": "arxiv_id:2606.09105v1",
       "title": "Graph2Idea:Retrieval-Augmented Scientific Idea Generation with Graph-Structured Contexts",
@@ -24568,6 +24657,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.08.25.26361263": {
+      "paper_id": "doi:10.64898/2026.08.25.26361263",
+      "title": "TRACE: A FINE-TUNED BIOMEDICAL LANGUAGE MODEL FOR DIRECTIONALLY INFORMED DRUG REPURPOSING FROM TRANSCRIPTOME-WIDE ASSOCIATION STUDIES",
+      "source": "medRxiv",
+      "date": "2026-08-28T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.25.26361263v1",
+      "abstract": "Transcriptome-wide association studies (TWAS) can identify genes where genetically predicted gene expression is associated with disease risk, but translating those signals into therapeutic opportunities remains time-consuming, manual, and difficult to reproduce. We developed TRACE (TWAS-driven Repurposing through AI-assisted Curation of Evidence), a gene- and phenotype-agnostic computational pipeline that accepts a TWAS gene and effect-size direction, normalizes the gene symbol, retrieves FDA-approved drug-gene candidates from four online resources, collects related peer-reviewed literature from PubMed, and uses a fine-tuned biomedical language model to classify whether the literature supports a direct drug-gene relationship, the mechanism of action, and the direction of effect. The pipeline then compares the drug-derived direction with the direction implied by the TWAS effect estimate to rank candidate therapeutic pairs and flag potential drug safety concerns. The local classifier, built on BiomedBERT, was trained using pipeline-derived labels, BioCreative VI ChemProt gold-standard chemical-protein relation examples, and author-reviewed active-learning cases, reaching a held-out macro F1 of 0.809 across three simultaneous classification tasks. We validated the pipeline against a manually curated endometriosis gold standard of 43 drug-gene pairs spanning six TWAS-identified genes, developed through S-PrediXcan analysis of endometriosis GWAS summary statistics, manual querying of four drug-gene interaction databases for each gene, literature review of drug-gene mechanistic evidence, and Mendelian randomization validation of candidate pairs. External validation used two independently published genetically informed drug-repurposing studies in metabolic dysfunction-associated steatotic liver disease (MASLD) and type 2 diabetes (T2D). The pipeline recovered 90.7% of endometriosis pairs, 88.2% of MASLD pairs, and 92.9% of T2D pairs that were present in at least one queried database. Applied to 99 endometriosis-associated TWAS genes, the pipeline identified 1,089 FDA-approved drug-gene pairs, 32 candidate therapeutic pairs, and 77 potential safety concerns, including independent recovery of leuprolide acetate, an established endometriosis therapy. This framework provides a scalable, literature-grounded bridge from TWAS discovery to prioritized therapeutic hypotheses, while preserving uncertainty through manual-review flags and requiring downstream Mendelian randomization, electronic health record-based validation, and experimental follow-up before clinical interpretation.",
+      "abstract_zh": "",
+      "abstract_short": "Transcriptome-wide association studies (TWAS) can identify genes where genetically predicted gene expression is associated with disease risk, but translating those signals into therapeutic opportunities remains time-consuming, manual, and difficult to reproduce. We developed TRACE (TWAS-driven Repurposing through AI-assisted Curation of Evidence), a gene- and phenotype-agnostic computational pipel",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 5.5,
+      "importance_score": 6.117,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.08.25.26361263",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "a0c465afe2cb9f0f6a4ea357dbbf045ffe7a5e087066f73f3338ecc458e8adbe",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2607.29200v1": {
       "paper_id": "arxiv_id:2607.29200v1",
       "title": "UltraSAM3: A Concept-Driven Foundation Model for Universal Ultrasound Image Segmentation",
@@ -25679,6 +25798,36 @@
       "content_hash": "55075fd278e66487930aeabc3bea1f99a3d819d810baa48171d6652bba9efdf1",
       "first_seen_at": "2026-08-18T02:19:51.382403+00:00",
       "last_seen_at": "2026-08-18T02:19:51.382403+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.08.24.746712": {
+      "paper_id": "doi:10.64898/2026.08.24.746712",
+      "title": "A complementary learning system for continual episodic memory in large language models",
+      "source": "bioRxiv",
+      "date": "2026-08-27T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746712v1",
+      "abstract": "Humans retain memories of individual experiences for a lifetime, an ability attributed to a complementary learning system in which a fast process encodes episodes and a slow process integrates them into semantic knowledge. In classical Hebbian models such as Hopfield networks, memory traces are superposed in shared weights. This makes learning naturally continual but causes strong interference among correlated memories, a failure that reappears as catastrophic forgetting in deep networks. Here we use a large language model as a model system for continual episodic memory, with its pretrained weights supplying the semantic context in which new episodes are embedded. Fast learning is implemented by a hippocampus-like module that assigns each episode to a dedicated, extremely sparse low-rank adapter; competitive gating then selects among these separated traces during recall. Across streams of up to 1,000 factual and autobiographical episodes, each adapter requires only 2-3 parameters per token while preserving excellent recall. An internal retrieval-augmented generation mechanism reconstructs the selected episode in context and supports high-accuracy question answering over stored memories. Finally, slow cortical consolidation is modeled by fine-tuning the base weights through batch replay, enabling reconstruction and direct question answering without episodic adapters. Together, fast storage and slow consolidation implement both components of a complementary learning system within a single language model, yielding a neural-network model that stores, recalls, and consolidates naturalistic episodic memories, thereby capturing key functional features of human memory.",
+      "abstract_zh": "",
+      "abstract_short": "Humans retain memories of individual experiences for a lifetime, an ability attributed to a complementary learning system in which a fast process encodes episodes and a slow process integrates them into semantic knowledge. In classical Hebbian models such as Hopfield networks, memory traces are superposed in shared weights. This makes learning naturally continual but causes strong interference amo",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.15,
+      "novelty_score": 5.75,
+      "importance_score": 6.01,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.08.24.746712",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "78fbdcdacefb47ca71a245624f95d64640db352ab909f6243c28d188b64541fe",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -29230,6 +29379,36 @@
       "content_hash": "57f51832f9ef82651339891266413de2885aa1e9685c61b5f34c577606d9c237",
       "first_seen_at": "2026-08-13T03:32:53.635349+00:00",
       "last_seen_at": "2026-08-13T03:32:53.635349+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.08.20.26360939": {
+      "paper_id": "doi:10.64898/2026.08.20.26360939",
+      "title": "Intent Drift in LLM-Assisted Brain Computer Interface Communication: An In-Silico Benchmark Under Simulated Decoder Corruption",
+      "source": "medRxiv",
+      "date": "2026-08-27T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360939v1",
+      "abstract": "Background Large language models are increasingly proposed to post-edit decoded text in communication brain-computer interfaces and augmentative communication. A fluent model can substitute a different intent than attempted (intent drift). Whether meaning survives or confidence flags failure is unmeasured. Methods In-silico benchmark of 20 open-weight models post-editing text (4,252,326 labeled generations) corrupted with an empirical P300 confusion matrix at five levels (0-40% character error rate, CER) across the ALS message-banking vocabulary (AUTH), a message-critical probe set, and matched controls. Outputs were scored faithful, degraded, or drift by an ensemble benchmarked against physicians. A substudy re-ran 562 messages under six interface policies (seven-model panel). Findings Detected drift rose steeply with corruption in all three corpora, from 2.2% to 60.3% at 0-40% target CER in AUTH, a stress-test upper bound, not an expected clinical rate (odds ratio 2.30 per 10-percentage-point rise in target CER). Stated confidence discriminated faithful outputs reasonably well (AUROC 0.83, 0.80-0.85) but was poorly calibrated (expected calibration error 0.32, 0.27-0.37): 28.4% of outputs at confidence 90 or higher were not faithful. Message-critical content carried a small excess after matching, surviving detector removal (rule-free OR 1.10). The ratio of faithful rescues to fluent errors exceeded 1 at low corruption but fell below 1 at 20-30% target CER. No interface policy removed drift: conservative editing and abstention lowered it, alternatives and expansion raised it; the best drifted on 18.0 per 100. A 2,281-item panel (16 of 20 models) gave moderate ensemble-versus-consensus agreement (kappa 0.41); correction lowered pooled drift 31.4% to 28.3%, and a CER-stratified physician-corrected re-analysis confirmed the dose-response at each level. Interpretation Language-model post-editing produced fluent semantic substitutions that rose with corruption, confidence did not reliably flag, and no interface policy removed. This does not demonstrate clinical harm; prospective human-in-the-loop evaluation is needed. Funding: A.G. and E.K. were supported in part by the Clinical and Translational Science Awards (CTSA) grant UL1TR002541 from the National Center for Advancing Translational Sciences, through the Harvard Catalyst | The Harvard Clinical and Translational Science Center Pilot Award Program. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. Competing interests: The authors declare that they have no competing interests.",
+      "abstract_zh": "",
+      "abstract_short": "Background Large language models are increasingly proposed to post-edit decoded text in communication brain-computer interfaces and augmentative communication. A fluent model can substitute a different intent than attempted (intent drift). Whether meaning survives or confidence flags failure is unmeasured. Methods In-silico benchmark of 20 open-weight models post-editing text (4,252,326 labeled ge",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.75,
+      "novelty_score": 5.75,
+      "importance_score": 5.75,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.08.20.26360939",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "cfc62309e023a3277716077ae86dc13b553ca1d5f0ed83b5d0c24ed94f89b471",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -33193,8 +33372,8 @@
       "pubmed_id": "",
       "content_hash": "0a9abf542ceeba1970d4e1d9de0abe080f6cbd3e300cff0e385688cc0b01c46f",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -33617,6 +33796,37 @@
       "first_seen_at": "2026-06-10T05:45:47.628934+00:00",
       "last_seen_at": "2026-06-12T05:58:33.474889+00:00",
       "times_seen": 3,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.08.26.747390": {
+      "paper_id": "doi:10.64898/2026.08.26.747390",
+      "title": "Anniemap: Vector Search for Viral Short Read Alignment",
+      "source": "bioRxiv",
+      "date": "2026-08-28T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747390v1",
+      "abstract": "Background: The process of aligning sequencing reads to a reference genome is a foundational step in genomic analysis, underpinning tasks from variant detection to pathogen surveillance. In viral genomics, however, this problem becomes substantially more challenging: viral sequences are often present at low abundance within host-dominated samples and can differ markedly from available references due to rapid mutation and population heterogeneity. These characteristics reduce the effectiveness of conventional seed-and-extend aligners, which typically rely on long exact or near-exact matches to anchor alignments. Even modest sequence divergence or sequencing errors can disrupt such seeds, particularly for short reads, leading to missed alignments. The central challenge in this setting is maintaining robust alignment under high divergence without sacrificing efficiency. Results: We introduce Anniemap, a vector search based approach to viral short-read sequence alignment. Anniemap represents reads and reference sequences as binary vectors and performs approximate nearest-neighbour search using Facebook AI Similarity Search (FAISS) to efficiently identify candidate mappings. Anniemap was compared with the well-established alignment tools Bowtie2 and BWA-MEM2 across a diverse set of viral genomes and read lengths using both simulated and real sequencing data. Anniemap achieved higher sensitivity and throughput in almost all evaluated scenarios, with the most substantial improvements in sensitivity observed for highly divergent genomes, such as Hepatitis C virus (HCV) and Human Immunodeficiency Virus (HIV). Conclusions; By measuring vector similarity rather than relying on long exact seed matches, Anniemap provides greater robustness to sequencing errors and genomic mutations. This property is particularly advantageous for viral genomes, where substantial sequence divergence is common. Further work is required to efficiently extend vector-based search for read alignment beyond viral genomes.",
+      "abstract_zh": "",
+      "abstract_short": "Background: The process of aligning sequencing reads to a reference genome is a foundational step in genomic analysis, underpinning tasks from variant detection to pathogen surveillance. In viral genomics, however, this problem becomes substantially more challenging: viral sequences are often present at low abundance within host-dominated samples and can differ markedly from available references d",
+      "matched_topics": [
+        "pathogenomics",
+        "sequencing_bioinformatics"
+      ],
+      "topic_count": 2,
+      "relevance_score": 5.6,
+      "novelty_score": 5.25,
+      "importance_score": 5.477,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.08.26.747390",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "6dc452a2cc4b651fd06cefa7d0638c434f3f530d19896cdde887fa05e1843443",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 1,
       "notes": [],
       "status": "active"
     },
@@ -43923,8 +44133,8 @@
       "pubmed_id": "",
       "content_hash": "d6962f9e9e2888726d62add48ab188a7891bf6c967d8479ce320f3d252d10019",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -62337,8 +62547,8 @@
       "pubmed_id": "",
       "content_hash": "7154d2015deb2af4828111f77730bc04cfb2d3e8960ae20c28583dd995eb7a8c",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -65660,8 +65870,8 @@
       "pubmed_id": "",
       "content_hash": "c03d31dd6a247dc2f56bc9f4be779a87a53adc6a9146206482e34d09f119ef94",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -71925,6 +72135,36 @@
       "content_hash": "253df19dcffeed07f3f87cc50341db748938a3eb925b07e5687765b490a20303",
       "first_seen_at": "2026-04-07T03:58:43.701667+00:00",
       "last_seen_at": "2026-04-07T03:58:43.701667+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1038/s41551-026-01785-6": {
+      "paper_id": "doi:10.1038/s41551-026-01785-6",
+      "title": "Data-centric feedback loops for next-generation immunotherapy development.",
+      "source": "PubMed",
+      "date": "2026-08-28T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42665646/",
+      "abstract": "Despite explosive growth in biomedical data generation, driven largely by genomics, and in computational capabilities, the probability that a candidate entering phase I ultimately reaches approval has remained stubbornly low over the past decades. This paradox points to a central bottleneck not in data generation, but in converting biological and clinical data into decisions that govern progression, redesign or termination. Here we argue that drug development should be reframed from a linear pipeline into an iterative learning system driven by continuous data feedback. We outline a data-centric framework in which high-dimensional, multimodal molecular and perturbation data, particularly single-cell and spatial readouts, are used to iteratively refine disease models, therapeutic hypotheses, molecular designs and patient stratification strategies across discovery and clinical stages. Using immunotherapies as a proof-of-concept domain, we propose that single-cell molecular readouts from therapeutic perturbations can both de-risk development and deepen mechanistic understanding of immune responses in humans. Finally, we draw parallels to reinforcement learning, in which human molecular and clinical data provide the feedback signal that updates mechanistic models and guides the design of subsequent interventions. Embracing this paradigm offers a path towards more mechanistically grounded, context-aware therapies with higher translational success.",
+      "abstract_zh": "",
+      "abstract_short": "Despite explosive growth in biomedical data generation, driven largely by genomics, and in computational capabilities, the probability that a candidate entering phase I ultimately reaches approval has remained stubbornly low over the past decades. This paradox points to a central bottleneck not in data generation, but in converting biological and clinical data into decisions that govern progressio",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 3.05,
+      "novelty_score": 5.25,
+      "importance_score": 3.82,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1038/s41551-026-01785-6",
+      "arxiv_id": "",
+      "pubmed_id": "42665646",
+      "content_hash": "1c6af169e98fc0399c4bba476e6bc0f90507430c273df4b6249fc29132655b79",
+      "first_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -81238,8 +81478,8 @@
       "pubmed_id": "",
       "content_hash": "a3ecd4228624649574b1ad77354d9c725857af0235938d34f12b744ad7806e17",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -88628,34 +88868,6 @@
       "notes": [],
       "status": "active"
     },
-    "doi:10.1016/j.arr.2026.103339": {
-      "paper_id": "doi:10.1016/j.arr.2026.103339",
-      "title": "Traumatic Brain Injury: Multi-Omics Insights into Brain Aging, Neurodegeneration, and Precision Therapeutics.",
-      "source": "PubMed",
-      "date": "2026-08-27T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42660464/",
-      "abstract": "Traumatic brain injury (TBI) is a major cause of mortality and persistent neurological disability and is increasingly recognized as a potential contributor to accelerated brain aging and long-term neurodegenerative processes. Beyond the immediate mechanical insult, TBI initiates dynamic secondary injury cascades involving chronic neuroinflammation, oxidative stress, mitochondrial dysfunction, synaptic and axonal degeneration, metabolic disturbances, and blood-brain barrier disruption. The persistence and temporal evolution of these molecular alterations may interact with intrinsic aging mechanisms, contributing to progressive neuronal dysfunction and increased vulnerability to age-associated neurodegenerative disorders. The marked biological and temporal heterogeneity of TBI therefore presents major challenges for conventional diagnostic, prognostic, and therapeutic approaches. Recent advances in multi-omics technologies, including genomics, epigenomics, transcriptomics, proteomics, metabolomics, lipidomics, and single-cell and spatial approaches offer unprecedented opportunities to characterize the molecular trajectories linking TBI, brain aging, and neurodegeneration. Integrative multi-omics frameworks, coupled with network biology, artificial intelligence, machine learning, and causal inference, enable the identification of molecular signatures, age-related regulatory networks, clinically relevant biomarkers, and therapeutically actionable targets. This review synthesizes emerging multi-omics insights into the molecular mechanisms through which TBI may influence brain aging and neurodegenerative progression, with particular emphasis on phase-specific molecular signatures, biomarker discovery, patient stratification, therapeutic target prioritization, and precision neurotherapeutics. We further discuss longitudinal profiling, single-cell and spatial approaches, and AI-assisted modeling for patient stratification and therapeutic optimization. Integrating multi-omics with systems biology may provide a framework for studying TBI-associated brain aging and developing personalized interventions, although prospective clinical validation remains essential.",
-      "abstract_zh": "",
-      "abstract_short": "Traumatic brain injury (TBI) is a major cause of mortality and persistent neurological disability and is increasingly recognized as a potential contributor to accelerated brain aging and long-term neurodegenerative processes. Beyond the immediate mechanical insult, TBI initiates dynamic secondary injury cascades involving chronic neuroinflammation, oxidative stress, mitochondrial dysfunction, syna",
-      "matched_topics": [],
-      "topic_count": 0,
-      "relevance_score": 1.7,
-      "novelty_score": 5.25,
-      "importance_score": 2.942,
-      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
-      "analysis_zh": "",
-      "category": "clinical_application",
-      "doi": "10.1016/j.arr.2026.103339",
-      "arxiv_id": "",
-      "pubmed_id": "42660464",
-      "content_hash": "f3d511a8f01948bc98dbc233eb9207f6e427a2910068160ac392edd6a0ee9c28",
-      "first_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
     "arxiv_id:2606.02479v1": {
       "paper_id": "arxiv_id:2606.02479v1",
       "title": "Retrieve What's Missing: Coverage-Maximizing Retrieval for Consistent Long Video Generation",
@@ -90965,8 +91177,8 @@
       "pubmed_id": "",
       "content_hash": "a2e5460ebadf0358f6df682e195eeccc8799231297e3eda83f16524e7dee946c",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -101040,8 +101252,8 @@
       "pubmed_id": "",
       "content_hash": "1f175c73f3690def411b84c8a607d35177cd61f349de8db8fc423d4e2dc1a26f",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -101524,8 +101736,8 @@
       "pubmed_id": "",
       "content_hash": "7fac0f683707f3f6311cfdfbd92df9ae616f3b3088a9ffb85cf099a3339e9170",
       "first_seen_at": "2026-08-28T12:41:29.363901+00:00",
-      "last_seen_at": "2026-08-29T07:49:12.671767+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -109607,6 +109819,34 @@
       "first_seen_at": "2026-08-18T02:19:51.382403+00:00",
       "last_seen_at": "2026-08-20T02:22:38.391202+00:00",
       "times_seen": 3,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1016/j.arr.2026.103339": {
+      "paper_id": "doi:10.1016/j.arr.2026.103339",
+      "title": "Traumatic Brain Injury: Multi-Omics Insights into Brain Aging, Neurodegeneration, and Precision Therapeutics.",
+      "source": "PubMed",
+      "date": "2026-08-27T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42660464/",
+      "abstract": "Traumatic brain injury (TBI) is a major cause of mortality and persistent neurological disability and is increasingly recognized as a potential contributor to accelerated brain aging and long-term neurodegenerative processes. Beyond the immediate mechanical insult, TBI initiates dynamic secondary injury cascades involving chronic neuroinflammation, oxidative stress, mitochondrial dysfunction, synaptic and axonal degeneration, metabolic disturbances, and blood-brain barrier disruption. The persistence and temporal evolution of these molecular alterations may interact with intrinsic aging mechanisms, contributing to progressive neuronal dysfunction and increased vulnerability to age-associated neurodegenerative disorders. The marked biological and temporal heterogeneity of TBI therefore presents major challenges for conventional diagnostic, prognostic, and therapeutic approaches. Recent advances in multi-omics technologies, including genomics, epigenomics, transcriptomics, proteomics, metabolomics, lipidomics, and single-cell and spatial approaches offer unprecedented opportunities to characterize the molecular trajectories linking TBI, brain aging, and neurodegeneration. Integrative multi-omics frameworks, coupled with network biology, artificial intelligence, machine learning, and causal inference, enable the identification of molecular signatures, age-related regulatory networks, clinically relevant biomarkers, and therapeutically actionable targets. This review synthesizes emerging multi-omics insights into the molecular mechanisms through which TBI may influence brain aging and neurodegenerative progression, with particular emphasis on phase-specific molecular signatures, biomarker discovery, patient stratification, therapeutic target prioritization, and precision neurotherapeutics. We further discuss longitudinal profiling, single-cell and spatial approaches, and AI-assisted modeling for patient stratification and therapeutic optimization. Integrating multi-omics with systems biology may provide a framework for studying TBI-associated brain aging and developing personalized interventions, although prospective clinical validation remains essential.",
+      "abstract_zh": "",
+      "abstract_short": "Traumatic brain injury (TBI) is a major cause of mortality and persistent neurological disability and is increasingly recognized as a potential contributor to accelerated brain aging and long-term neurodegenerative processes. Beyond the immediate mechanical insult, TBI initiates dynamic secondary injury cascades involving chronic neuroinflammation, oxidative stress, mitochondrial dysfunction, syna",
+      "matched_topics": [],
+      "topic_count": 0,
+      "relevance_score": 1.7,
+      "novelty_score": 0.25,
+      "importance_score": 1.192,
+      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
+      "analysis_zh": "",
+      "category": "clinical_application",
+      "doi": "10.1016/j.arr.2026.103339",
+      "arxiv_id": "",
+      "pubmed_id": "42660464",
+      "content_hash": "f3d511a8f01948bc98dbc233eb9207f6e427a2910068160ac392edd6a0ee9c28",
+      "first_seen_at": "2026-08-29T07:49:12.671767+00:00",
+      "last_seen_at": "2026-08-30T06:33:49.242355+00:00",
+      "times_seen": 2,
       "notes": [],
       "status": "active"
     },
