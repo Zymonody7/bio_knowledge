@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-04T05:46:30.216259+00:00",
+  "fetched_at": "2026-09-05T05:37:08.955640+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 52,
+  "count": 34,
   "papers": [
     {
       "title": "Modeling Tissue Detachment and Rupture Using an Extended Vertex Model with T2-inverse Transitions",
@@ -34,41 +34,6 @@
       ],
       "doi": "",
       "arxiv_id": "2609.02243v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Scaling an Autoregressive Transformer for Single-Cell Generation",
-      "source": "arXiv",
-      "date": "2026-08-03T23:54:30+00:00",
-      "updated": "2026-09-01T18:10:17+00:00",
-      "url": "http://arxiv.org/abs/2608.02961v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.02961v2",
-      "abstract": "We study a self-supervised generation task for single-cell gene expression vectors: given a set of vectors from a cell type, we aim to generate additional gene expression vectors of that cell type. For this task we characterize both the biological fidelity of the generated gene expression vectors and the scaling behavior of the pretraining loss. The model is a causal transformer paired with a learned quantized VAE tokenizer, trained with a cross-entropy loss. To evaluate the model, we condition it on held-out gene expression vectors of a cell type and generate vectors of gene expression, comparing the resulting distribution over gene expression vectors to the ground truth distribution of that cell type. We study the scaling properties of the proposed architecture by varying the number of trained parameters and the amount of training data. To our knowledge, we find the first jointly-fit two-exponent scaling law and compute-optimal frontier for a single-cell foundation model. Finally, we discuss how this pretrained model could be finetuned for perturbation response prediction.",
-      "authors": [
-        "Aleksandr Sharipov",
-        "Yusif Mukhtarov",
-        "Igor Molybog"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.02961v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A mathematical model of HPAI transmission between dairy cattle and wild birds with environmental effects",
-      "source": "arXiv",
-      "date": "2025-08-17T01:57:46+00:00",
-      "updated": "2026-09-01T10:12:06+00:00",
-      "url": "http://arxiv.org/abs/2508.12201v2",
-      "pdf_url": "https://arxiv.org/pdf/2508.12201v2",
-      "abstract": "Highly pathogenic avian influenza (HPAI), particularly H5N1, poses an increasing threat at the wildlife--livestock--environment interface, with recent detections in dairy cattle motivating multi-host transmission models. We develop and analyse a deterministic compartmental model for HPAI transmission among cattle, wild birds, and a shared contaminated environment. The model combines an SEIR structure for cattle with an SIR framework for wild birds and includes environmentally mediated transmission. We establish positivity and boundedness, characterise the disease-free and endemic equilibria, and derive the basic reproduction number $\\mathcal R_0$ as the spectral radius of a reduced next-generation matrix representing coupled transmission pathways. We also establish threshold and global stability properties of the equilibria. Numerical simulations illustrate extinction, persistence, and parameter-dependent disease dynamics. Global sensitivity analysis identifies cattle recovery, cattle-to-cattle transmission, environmental viral decay, and environmental transmission as the principal determinants of $\\mathcal R_0$ within the parameter ranges considered. Response-surface and intervention analyses indicate that reducing cattle-to-cattle transmission produces the greatest reduction in transmission potential and peak cattle infection, while increasing cattle recovery provides an additional effective pathway. Reducing environmental transmission alone has a comparatively small effect under the baseline parameterisation. Within the model assumptions and parameter ranges considered, the findings provide qualitative insights into the relative effects of transmission pathways and potential control measures.",
-      "authors": [
-        "H. O. Fatoyinbo",
-        "P. Tiwari",
-        "P. O. Olanipekun",
-        "I. Ghosh"
-      ],
-      "doi": "",
-      "arxiv_id": "2508.12201v2",
       "pubmed_id": ""
     },
     {
@@ -174,133 +139,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent",
-      "source": "arXiv",
-      "date": "2026-03-10T18:47:30+00:00",
-      "updated": "2026-09-02T04:27:03+00:00",
-      "url": "http://arxiv.org/abs/2604.08552v3",
-      "pdf_url": "https://arxiv.org/pdf/2604.08552v3",
-      "abstract": "Descriptive scientific metadata in public repositories are often incomplete and inconsistent with community standards and ontologies, limiting data FAIRness. Large language models (LLMs) offer a promising approach to automatically standardizing such metadata when provided with relevant standards in machine-actionable form, such as metadata templates from the CEDAR Workbench. Prompt engineering, however, provides only fixed snapshots of these standards and relies on an LLM's pretrained knowledge to interpret and satisfy their constraints. We evaluate whether giving an LLM access to metadata specifications and authoritative terminology at runtime improves automated metadata standardization. Methods: We present ARMS, a tool-augmented LLM agent that retrieves complete CEDAR metadata templates and dynamically queries authoritative biomedical terminology services at execution time. We compared ARMS with a prompt-based approach on 839 legacy metadata records from the Human BioMolecular Atlas Program (HuBMAP), using expert-standardized records as the reference standard. Results: ARMS outperformed the prompt-based approach, increasing precision from 0.56 to 0.93 and recall from 0.51 to 0.85, with improvements across all field categories and assay types. The largest gains occurred for ontology-constrained fields, where precision increased from 0.36 to 0.92. Conclusion: LLMs cannot convert legacy metadata to standards-adherent form without knowledge of the relevant standards. ARMS improves metadata standardization by providing runtime access to authoritative resources that define valid metadata. Machine-actionable metadata standards enhance LLM-based rectification of legacy metadata, especially when they can be queried dynamically.",
-      "authors": [
-        "Josef Hardi",
-        "Martin J. O'Connor",
-        "Marcos Martinez-Romero",
-        "Jean G. Rosario",
-        "Stephen A. Fisher",
-        "Mark A. Musen"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.08552v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "HyGRAIL: Cost-Aware and Evidence-Grounded Scientific Hypothesis Discovery over Knowledge Graphs",
-      "source": "arXiv",
-      "date": "2026-09-02T03:34:21+00:00",
-      "updated": "2026-09-02T03:34:21+00:00",
-      "url": "http://arxiv.org/abs/2609.02056v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02056v1",
-      "abstract": "Scientific knowledge graphs organize entities and relations extracted from scientific literature, but they remain inherently incomplete. Missing typed links in such graphs can therefore represent plausible scientific hypotheses, such as unexplored associations between materials and applications. However, scientific hypothesis discovery is challenging because true discoveries are extremely sparse among typed candidate pairs: graph neural networks (GNNs) are efficient but unreliable for ambiguous cases, while large language models (LLMs) are knowledgeable but too costly to apply exhaustively and are not naturally grounded in graph structures. We propose HyGRAIL, a cost-aware and evidence-grounded framework that combines heterogeneous GNN triage with LLM-based hypothesis review. HyGRAIL first uses a GNN to score candidate hypotheses and identify a validation-calibrated ambiguous region, routing only graph-uncertain cases to LLM review. For each routed hypothesis, HyGRAIL retrieves node-level associations and multi-hop relational paths from the knowledge graph (KG), then converts this structured evidence into natural language through template-based or LLM-based naturalization. An LLM review agent finally judges each hard hypothesis using the naturalized evidence and validation-selected decision criteria. On MatKG, HyGRAIL achieves the best F1 score of 0.429, improving over the strongest prior baseline by 0.242 F1 points and over the GNN-only baseline by 0.322. Meanwhile, GNN triage reduces the LLM call rate by 54.36% on average. Ablation studies further show that retrieved graph evidence is crucial for reliable hypothesis verification and that compact, two-sided evidence is more effective than simply increasing retrieval quantity.",
-      "authors": [
-        "Yihang Sun",
-        "Zhihan Zhu",
-        "Zhiyuan Jiang",
-        "Jingyi Ge",
-        "Zixuan Li",
-        "Jiaxuan You"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.02056v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Unifying biomedical knowledge in a modern multimodal graph",
-      "source": "arXiv",
-      "date": "2026-04-29T23:49:34+00:00",
-      "updated": "2026-09-01T23:36:31+00:00",
-      "url": "http://arxiv.org/abs/2604.27269v3",
-      "pdf_url": "https://arxiv.org/pdf/2604.27269v3",
-      "abstract": "Biomedical knowledge graphs (KGs) are widely used in the life sciences, yet many are derived from unstructured documents and therefore lack schema-level constraints, whereas graphs assembled from structured resources are difficult to harmonize into a unified representation. We present OptimusKG, a multimodal biomedical labeled property graph (LPG) built from structured and semi-structured resources to preserve factual, type-specific metadata across molecular, anatomical, clinical, and environmental domains. OptimusKG contains 190,939 nodes across 10 entity types, 21,818,752 edges across 27 edge types, and 67,070,490 property instances encoding 109,665,797 values across 145 distinct property keys, derived from 18 ontologies and controlled vocabularies. The graph enforces a top-level schema for nodes and edges and retains granular, type-specific properties, cross-references, and provenance. We assessed the validity of OptimusKG by evaluating whether graph relationships are supported by evidence from the scientific literature using a multimodal agent, PaperQA3. PaperQA3 identified supporting evidence for 70.0% of sampled edges, whereas 83.4% of sampled false edges received no supporting evidence. Edges without literature support were concentrated in associations derived from experimental and functional genomics resources, suggesting that OptimusKG captures biomedical knowledge that may precede synthesis in the scientific literature. OptimusKG is distributed as Apache Parquet files, providing a standardized resource for graph-based machine learning, knowledge-grounded retrieval with large language models, and biomedical discovery use cases such as hypothesis generation.",
-      "authors": [
-        "Lucas Vittor",
-        "Ayush Noori",
-        "Iñaki Arango",
-        "Joaquín Polonuer",
-        "Sam Rodriques",
-        "Andrew White",
-        "David A. Clifton",
-        "Marinka Zitnik"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.27269v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "D3-Gym: Constructing Real-World Verifiable Environments for Data-Driven Discovery",
-      "source": "arXiv",
-      "date": "2026-04-30T15:06:56+00:00",
-      "updated": "2026-09-01T17:54:10+00:00",
-      "url": "http://arxiv.org/abs/2604.27977v4",
-      "pdf_url": "https://arxiv.org/pdf/2604.27977v4",
-      "abstract": "Despite recent progress in language models and agents for scientific data-driven discovery, advancing their capabilities is held back by the absence of verifiable environments representing real-world scientific tasks. To fill this gap, we introduce D3-Gym, the first automatically constructed dataset with verifiable environments for scientific Data-Driven Discovery. D3-Gym comprises 565 tasks from 239 real scientific repositories across four disciplines, each with a natural language instruction, an executable environment with pre-installed dependencies, dataset previews, a reference solution, and an automatically synthesized evaluation script. Our evaluation scripts achieve 87.5% agreement with human-annotated gold standards and strong alignment in domain-specific evaluation logic. Training on trajectories sampled from D3-Gym yields consistent gains across Qwen3 models on ScienceAgentBench, boosting Qwen3-32B by 7.8 absolute points and shrinking the gap with strong proprietary models. We further illustrate, through case studies, how D3-Gym environments can serve as a testbed for studying agentic optimization loops such as Autoresearch on real scientific workflows. We open-source D3-Gym, its creation workflow, sampled trajectories, and training scripts at https://github.com/OSU-NLP-Group/D3-Gym.",
-      "authors": [
-        "Hanane Nour Moussa",
-        "Yifei Li",
-        "Zhuoyang Li",
-        "Yankai Yang",
-        "Cheng Tang",
-        "Tianshu Zhang",
-        "Nesreen K. Ahmed",
-        "Ali Payani",
-        "Ziru Chen",
-        "Huan Sun"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.27977v4",
-      "pubmed_id": ""
-    },
-    {
-      "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
-      "source": "arXiv",
-      "date": "2026-09-01T16:55:56+00:00",
-      "updated": "2026-09-01T16:55:56+00:00",
-      "url": "http://arxiv.org/abs/2609.01526v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01526v1",
-      "abstract": "Scientific agents must learn not only how to reason, but also what to believe. However, existing LLM agents typically express scientific hypotheses in free-form text, leaving their beliefs implicit and difficult to test or revise. We introduce EvoSCM, which equips scientific agents with explicit structural causal models that evolve as new experimental evidence is collected. EvoSCM maintains a population of competing SCM hypotheses, each encoding a candidate causal explanation of the environment, and evolves them through a closed discovery loop. In each round, the agent abduces latent mechanisms from accumulated evidence, designs discriminative interventions, and commits to falsifiable predictions that it tests through experimentation. Discrepancies between prediction and observation are inductively distilled into correction rules that revise the causal structures and mechanisms of each hypothesis, and the agent then deductively validates the revised population against accumulated evidence and structural consistency to guide the next round. We evaluate EvoSCM on DiscoverPhysics, a benchmark requiring agents to uncover the hidden dynamics of noncanonical physical worlds through experimentation. EvoSCM consistently improves scientific discovery over baselines, yielding more accurate explanations and predictions while making more effective use of experimental interactions.",
-      "authors": [
-        "Qing Zhao",
-        "Haowei Li",
-        "Weijian Deng",
-        "Pengxu Wei",
-        "Liang Lin"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01526v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Synergistic Information Disentanglement for Omni-modal Slide Representation Learning in Computational Pathology",
-      "source": "arXiv",
-      "date": "2026-09-02T05:16:44+00:00",
-      "updated": "2026-09-02T05:16:44+00:00",
-      "url": "http://arxiv.org/abs/2609.02118v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02118v1",
-      "abstract": "In computational pathology (CPath), developing omni-modal self-supervised learning (SSL) models that integrate histology, genomics, and clinical reports enables transferable representation learning for whole slide images (WSIs). Existing approaches implicitly force heterogeneous modalities into a uniform latent space by contrastive alignment, causing modality collapse where unique, synergistic diagnostic signals (termed as $\\mathrmΦ$) are discarded in favor of trivial redundancy. We hypothesize that the strongest task-agnostic SSL training signal stems from distilling the synergistic interactions over merely aligning shared redundancy. To this end, we introduce \\textsc{$\\mathrmΦ$-Omni}, a synergistic information disentanglement framework grounded in Partial Information Decomposition (PID) theory for slide representation learning. Unlike standard contrastive approaches, \\textsc{$\\mathrmΦ$-Omni} employs a Synergistic Information Bottleneck (SIB) regulated by the proposed $\\mathrmΦ\\text{ID}$ objective, which explicitly suppresses marginal redundancy while maximizing irreducible synergy, thereby distilling high-order cross-modal interactions. Following pretraining on breast ($n$=1031) and lung ($n$=919) cohorts, \\textsc{$\\mathrmΦ$-Omni} demonstrates superior few-shot performance across five independent external datasets spanning eight tasks compared to supervised and SSL baselines. Source code is available here.",
-      "authors": [
-        "Mingxin Liu",
-        "Chengfei Cai",
-        "Anwen Lu",
-        "Pengbo Xu",
-        "Jun Li",
-        "Jinze Li",
-        "Depin Chen",
-        "Jun Xu"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.02118v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "DuaDeep-SeqAffinity: Dual-Branch Deep Learning for Tri-Stream Sequence-Based Antibody--Antigen Affinity Prediction",
       "source": "arXiv",
       "date": "2025-12-26T12:06:59+00:00",
@@ -336,59 +174,6 @@
       ],
       "doi": "",
       "arxiv_id": "2609.03229v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Logarithmic-scale variational quantum eigensolver for off-lattice protein structure prediction in continuous torsional angle space",
-      "source": "arXiv",
-      "date": "2026-09-02T05:05:46+00:00",
-      "updated": "2026-09-02T05:05:46+00:00",
-      "url": "http://arxiv.org/abs/2609.02113v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02113v1",
-      "abstract": "Classical and current quantum approaches to protein structure prediction (QPSP) face limitations, notably massive qubit requirements restricting near-term models to simplistic on-lattice simulations. We propose a logarithmic-scale variational quantum eigensolver (VQE) that reduces qubit requirements for N torsional degrees of freedom to O(log2N), enabling off-lattice, all-atom simulations. Our architecture extracts molecular torsions from relative phases in statevector simulations. On quantum hardware, a decoder maps the empirical cumulative distribution function (CDF) from basis-state probabilities to bounded torsional variables. These feed a classical algorithm to build heavy-atom coordinates. We use an EfficientSU2 ansatz and multi-stage relaxation to mitigate barren plateaus. Structures are evaluated via a custom hybrid quantum-classical Hamiltonian, alongside Rosetta and OpenMM benchmarks. Evaluation on chignolin and Trp-cage yielded native-like conformations. Chignolin reached a 0.623 Å Cα RMSD in retained snapshots and 1.199 Å in final models; Trp-cage achieved a 2.501 Å RMSD among snapshots (3.512 Å in final models). Execution on IBM processors (ibm_cleveland, ibm_miami) successfully recovered native-like structures with a best RMSD of 1.758 Å. The custom energy function performed best overall, though energy-ranking imbalances persisted across sampled landscapes for all functions. This introduces the first all-atom, continuous-space quantum algorithm for QPSP. By converting physical qubit constraints into circuit depth constraints, it proves high-resolution prediction is feasible with exponentially fewer qubits. Despite current limits like computational overhead and energy function sensitivity, it establishes a scalable foundation for hybrid quantum biophysics.",
-      "authors": [
-        "Fabio Cumbo",
-        "Bryan Raubenolt",
-        "Varun Puram",
-        "Natalie Katzenmeyer",
-        "Jayadev Joshi",
-        "Daniel Blankenberg"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.02113v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Relational-Core Graph Analytics Querying graphs at SQL scale, and why the node/edge model is a performance tax, not a truer picture of connected data",
-      "source": "arXiv",
-      "date": "2026-09-01T16:55:11+00:00",
-      "updated": "2026-09-01T16:55:11+00:00",
-      "url": "http://arxiv.org/abs/2609.01525v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01525v1",
-      "abstract": "A durable assumption holds that graph analytics requires a purpose-built graph engine, and that relational systems are ill-suited to connected data. We argue the opposite for the workloads enterprises actually run. A columnar relational engine fronted by a graph query language matches or exceeds native graph engines on analytical graph queries, and - decisively - scales past the point where in-memory graph engines fail. We further argue that the node/edge property graph is not a more faithful model of connected data but a re-encoding of relationships that already exist explicitly in relational tables; reconstructing them at query time is pure overhead. We present ClickGraph and its Databricks-dialect sibling DeltaGraph, systems that translate Cypher directly onto the native relational schema - the tables, columns, and foreign keys as they already exist - and execute in place on ClickHouse, Databricks, or in-process on lakehouse files, with no import and no separate cluster. Because the output is ordinary SQL, an underperforming query is an open optimization surface: it can be rewritten, and the engine itself extended. We support the argument with a peer system's own published benchmark, in which a columnar engine outruns Neo4j by two-to-four orders of magnitude, and with reproducible measurements across the LDBC Social Network Benchmark suite.",
-      "authors": [
-        "Gene Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01525v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SymFold: Synergizing Evolutionary and Structural Priors for Accurate Protein Inverse Folding",
-      "source": "arXiv",
-      "date": "2026-09-01T14:57:24+00:00",
-      "updated": "2026-09-01T14:57:24+00:00",
-      "url": "http://arxiv.org/abs/2609.01353v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01353v1",
-      "abstract": "Protein inverse folding aims to recover amino acid sequences for a given 3D protein structure, underpinning broad applications such as enzyme engineering and drug discovery.Current methods often follow a serial pipeline, in which a structure encoder predicts a coarse sequence, which is then refined by protein language models (PLMs). However, because PLMs only perform post-hoc sequence edits, the refinement is bounded by the quality of upstream predictions.Thanks to recent multimodal protein language models (MPLMs), we could directly encode structure to generate sequences with pretrained structural knowledge, but we observe that they are not effective for inverse folding. Therefore, we introduce a symmetric dual-path architecture that both leverages PLMs for pretrained sequence evolution knowledge and MPLMs for pretrained structural knowledge to iteratively guide protein sequence generation.Through extensive experiments across standard protein inverse folding benchmarks, our method achieves state-of-the-art performance, surpassing prior approaches, and ablation studies validate the rationale of our symmetric design, revealing a promising direction for the community.",
-      "authors": [
-        "Handong Wang",
-        "Jiaxin Qi",
-        "Baisheng Lai",
-        "Jianqiang Huang"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01353v1",
       "pubmed_id": ""
     },
     {
@@ -875,145 +660,13 @@
       "doi": "",
       "arxiv_id": "2609.02129v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "LexIssue: Benchmarking Legal Issue Identification in Chinese Civil Litigation",
-      "source": "arXiv",
-      "date": "2026-09-02T01:49:59+00:00",
-      "updated": "2026-09-02T01:49:59+00:00",
-      "url": "http://arxiv.org/abs/2609.02954v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.02954v1",
-      "abstract": "Identifying the issues disputed between litigating parties is a crucial component of real-world litigation. However, legal issues remain comparatively underexplored in legal AI research. In this work, we study the computational modelling of legal issue identification in litigation. We introduce a legally grounded hierarchical schema that represents legal issues through both free-form issue descriptions and structured legal categories, and formulate legal issue identification as two complementary tasks: legal issue generation and legal issue classification. Based on this formulation, we construct LexIssue, a benchmark containing 430 real-world Chinese civil litigation cases and 1,303 expert-annotated disputed legal issues. We further develop an issue-centric legal knowledge base spanning 27 causes of action and 441 candidate legal issue entries to support retrieval-augmented reasoning. Experimental results across a diverse set of models show that retrieval-augmented generation using the constructed legal issue knowledge base consistently improves performance in identifying disputed legal issues and their corresponding legal attributes.",
-      "authors": [
-        "Huiyuan Xie",
-        "Yuqin Huang",
-        "Zhicheng Hao",
-        "Yida Cai",
-        "Shaochun Wang",
-        "Zhenghao Liu",
-        "Yuxiao Ye"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.02954v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Beyond-RAG: Question Identification and Answer Generation in Real-Time Conversations",
-      "source": "arXiv",
-      "date": "2024-10-14T04:06:22+00:00",
-      "updated": "2026-09-01T22:53:09+00:00",
-      "url": "http://arxiv.org/abs/2410.10136v2",
-      "pdf_url": "https://arxiv.org/pdf/2410.10136v2",
-      "abstract": "In customer contact centers, human agents often struggle with long average handling times (AHT) due to the need to manually interpret queries and retrieve relevant knowledge base (KB) articles. While retrieval augmented generation (RAG) systems using large language models (LLMs) have been widely adopted in industry to assist with such tasks, RAG faces challenges in real-time conversations, such as inaccurate query formulation and redundant retrieval of frequently asked questions (FAQs). To address these limitations, we propose a decision support system that can look beyond RAG by first identifying customer questions in real time. If the query matches an FAQ, the system retrieves the answer directly from the FAQ database; otherwise, it generates answers via RAG. Our approach reduces reliance on manual queries, providing responses to agents within 2 seconds. Deployed in AI-powered human-agent assist solution at Minerva CQ, this system improves efficiency, reduces AHT, and lowers operational costs. We also introduce an automated LLM-agentic workflow to identify FAQs from historical transcripts when no predefined FAQs exist.",
-      "authors": [
-        "Garima Agrawal",
-        "Sashank Gummuluri",
-        "Cosimo Spera"
-      ],
-      "doi": "10.24251/HICSS.2026.213",
-      "arxiv_id": "2410.10136v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
-      "source": "arXiv",
-      "date": "2026-09-01T20:55:17+00:00",
-      "updated": "2026-09-01T20:55:17+00:00",
-      "url": "http://arxiv.org/abs/2609.01865v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01865v1",
-      "abstract": "Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retrieving correct code matters more than retrieving lexically similar code. Existing code-retrieval benchmarks do not plant controlled, execution-verified single-edit variants of each query's canonical implementation in the search pool, leaving the question of whether embeddings can functionally discriminate correct from near-clone-but-incorrect code unanswered in a retrieval setting. Resolving this requires a benchmark whose search pool itself contains the relevant counterfactuals -- execution-verified buggy variants near-identical to each canonical -- so that a retriever's rank ordering can be directly tested for functional discrimination rather than topical or identity overlap. We introduce ExecRetrieval, 939 Python tasks each paired with one execution-verified canonical implementation and up to four execution-verified buggy distractors, each generated by a mechanical mutation making a single targeted edit, and evaluate 23 dense embedding configurations plus BM25 under provider-native invocation with paired McNemar tests and query-level bootstrap intervals. With near-clone counterfactuals in the pool, the top hosted system reaches exec@10 = 1.00 but only exec@1 = 0.331; rank-1 misses are paired buggy variants 91.5-99.4% of the time across the four leading systems, and the canonical scores below at least one of its four paired distractors in 67-78% of queries on the leading systems. The full dataset, execution oracle, embedding matrices, environment snapshot, and pairwise statistical tests are released at the URL in Appendix D.",
-      "authors": [
-        "Aaryan Kapoor",
-        "Md Abdullah Al Hafiz Khan"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01865v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Cite or Decline: A Strict Course-Grounded Chatbot for STEM Lecture Videos",
-      "source": "arXiv",
-      "date": "2026-09-01T20:27:47+00:00",
-      "updated": "2026-09-01T20:27:47+00:00",
-      "url": "http://arxiv.org/abs/2609.01846v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01846v1",
-      "abstract": "Recorded lecture videos, often enhanced with search and summarization features, are a standard study resource. However, students cannot easily ask course specific questions or verify answers against an instructor's lecture. We report a semester-long deployment of VideoPoints platform with a retrieval-augmented chatbot that answers from course lecture materials and returns timestamped citations. The chatbot retrieves only from the active course, uses chapter summaries to guide transcript ranking, and returns clickable timestamped citations. Students used it for quick lookups and exam review. Across 833 messages, 70.5% included citations, none crossed a course boundary, and when no lecture evidence matched, the chatbot usually declined rather than answering. Among the users, citations were the most consistently useful feature, while practice-question generation was the strongest unmet request. We also evaluated the design on the real-world test split of EduVidQA, a public multimodal benchmark for lecture-video question answering. Our design improved correct-lecture retrieval by 6.3 percentage points over dense-only retrieval. Together, the results show that effective deployment depends on course isolation, supported citations, and alignment with students' study practices.",
-      "authors": [
-        "S M Masrur Ahmed",
-        "Jaspal Subhlok"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01846v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Survey of Transformer-based Language Models with Focus on Efficiency",
-      "source": "arXiv",
-      "date": "2024-05-15T10:32:41+00:00",
-      "updated": "2026-09-01T18:36:44+00:00",
-      "url": "http://arxiv.org/abs/2406.16893v3",
-      "pdf_url": "https://arxiv.org/pdf/2406.16893v3",
-      "abstract": "The emergence of Transformer-based Large Language Models (LLMs) has substantially augmented the capabilities of Natural Language Processing (NLP), thereby intensifying the demand for computational resources. Therefore, enhancing efficiency based on factors like computational requirements, energy consumption, carbon footprint and financial cost has become a vital area of research. This motivates us to conduct a survey on Transformer-based LLMs in NLP from the perspective of efficiency. In this survey of 312 articles, the efficiency-improvement endeavors have been systematically discussed targeting various aspects such as data curation, model design, model downsizing, and dynamic inferencing. This has been augmented with efficiency considerations in model adaptation strategies like pre-training, fine-tuning, prompt-engineering and Retrieval-Augmented Generation (RAG). Furthermore, a statistical analysis followed by an in-depth evaluation of the efficiency and efficacy of more than 30 renowned NLP models has been performed on 13 evaluation benchmarks. This paper offers valuable insights for researchers, professionals as well as scholars, and explores the trend of research toward sustainable practices in NLP.",
-      "authors": [
-        "Wazib Ansar",
-        "Saptarsi Goswami",
-        "Amlan Chakrabarti"
-      ],
-      "doi": "",
-      "arxiv_id": "2406.16893v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-      "source": "arXiv",
-      "date": "2026-09-01T17:59:39+00:00",
-      "updated": "2026-09-01T17:59:39+00:00",
-      "url": "http://arxiv.org/abs/2609.01601v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01601v1",
-      "abstract": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented generation (RAG) to provide repository-specific context. Despite improving repository-context retrieval, existing methods typically provide context as task-level support, without explicitly identifying the critical tokens that require fine-grained repository context during generation. During the autoregressive generation process of LLMs, errors often concentrate at a small number of decisive positions: once such tokens are generated incorrectly, subsequent code may follow an incorrect semantic path and eventually lead to functional failure. We refer to these positions as \"critical tokens\". In this paper, we propose ACToR, an adaptive critical token-aware retrieval framework for repository-level code generation. ACToR identifies critical tokens during generation and triggers targeted retrieval on demand to provide repository context at these decisive positions. In addition, we design a position-aware weighting method for dense retrievers to prioritize context that is more informative for generation. We evaluate ACToR on two representative repository-level benchmarks, RepoExec and CoderEval. Experimental results show that ACToR consistently outperforms state-of-the-art methods, achieving relative improvements of 8.4% on RepoExec and 15.4% on CoderEval. Beyond performance gains, we systematically quantify the impact of critical tokens, revealing their central role in major generation failures and highlighting the necessity of targeted retrieval strategies. We provide the code and data at https://github.com/DeepSoftwareAnalytics/ACToR.",
-      "authors": [
-        "Kefeng Duan",
-        "Dewu Zheng",
-        "Yanlin Wang",
-        "Terry Yue Zhuo",
-        "Mingwei Liu",
-        "Jianxing Yu",
-        "Jiachi Chen",
-        "Ensheng Shi",
-        "Xilin Liu",
-        "Yuchi Ma",
-        "Zibin Zheng"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01601v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models",
-      "source": "arXiv",
-      "date": "2026-09-01T14:43:11+00:00",
-      "updated": "2026-09-01T14:43:11+00:00",
-      "url": "http://arxiv.org/abs/2609.01325v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.01325v1",
-      "abstract": "Neural ranking models have become core components of modern information retrieval systems and important building blocks of AI systems such as retrieval-augmented generation (RAG) pipelines. However, their robustness remains insufficiently understood in the presence of large language models (LLMs), which can generate fluent and deceptive content at scale. This work investigates the vulnerability of neural ranking models to corpus poisoning attacks, in which an adversary injects a small number of maliciously crafted documents into the corpus to distort ranking behavior. We propose VerTox, the first framework to formulate corpus poisoning as a verifiable reward-guided reinforcement learning (RLVR) problem. By explicitly coupling ranking distortion with factual corruption through specialized reward shaping, we fine-tune compact LLMs into adversarial generators. Experiments demonstrate that our method achieves near-perfect attack success rates, producing adversarial documents that frequently rank higher than target documents across major neural ranking architectures, as well as a proprietary commercial embedding model. The generated adversarial documents are fluent and exhibit low perplexity, making them difficult to detect. Furthermore, by explicitly encouraging factual corruption, our adversarial documents significantly degrade the performance of a downstream RAG application.",
-      "authors": [
-        "Zhiqi Huang",
-        "Vivek Datla",
-        "Zhichao Xu",
-        "Puxuan Yu",
-        "Vivek Srikumar",
-        "Alfy Samuel"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.01325v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 52,
+      "count": 34,
       "error": ""
     }
   ]
