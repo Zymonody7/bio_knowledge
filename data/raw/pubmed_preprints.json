@@ -1,8 +1,225 @@
 {
-  "fetched_at": "2026-09-07T05:59:52.203483+00:00",
+  "fetched_at": "2026-09-08T05:54:29.582243+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 34,
+  "count": 35,
   "papers": [
+    {
+      "title": "Beyond antigen matching: compatibility intelligence theory for transfusion as an emergent biological system.",
+      "source": "PubMed",
+      "date": "2026-12-31T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42704814/",
+      "abstract": "Despite major advances in serologic testing, extended phenotyping, and blood group genomics, clinically similar transfusion exposures may result in markedly different immune and clinical outcomes. Existing compatibility strategies do not fully explain this biological variability. To examine transfusion compatibility as an emergent donor-recipient biological state and propose a systems-level conceptual framework that integrates established biological determinants into a testable model for future precision transfusion medicine. This narrative review critically synthesizes current evidence from blood group genomics, recipient immunobiology, inflammation, disease-specific biology, transfusion medicine, and computational prediction. The proposed framework distinguishes Compatibility Intelligence Theory (CIT) as a biological interpretation from Precision Transfusion Intelligence (PTI) as its potential clinician-supervised translational application. The review argues that transfusion compatibility is shaped by interactions among donor genetics, recipient immune biology, inflammatory physiology, disease context, transfusion history, and longitudinal adaptation rather than by antigen matching alone. CIT provides an organizational framework for integrating these determinants, whereas PTI describes a possible clinician-supervised translation. To address current feasibility, the revised framework separates variables into routinely measurable, contextually available but incompletely standardized, and research-stage domains, and proposes a staged strategy for deriving rather than assuming their quantitative weights. Any clinical implementation would require comparative validation against current serologic, phenotypic, and genotype-based practice. Compatibility Intelligence Theory offers a testable systems-level framework for understanding transfusion compatibility without replacing established transfusion practices. The framework is not presented as a ready-to-use score: currently measurable variables can be organized for structured risk review, whereas inflammatory, immunogenetic, and multi-omic inputs require prospective standardization and validation. If future studies demonstrate incremental predictive and patient-centered benefit, CIT-informed PTI could support an adaptive, evidence-based extension of current precision transfusion practice.",
+      "authors": [
+        "Ahmed M Hjazi"
+      ],
+      "doi": "10.1080/16078454.2026.2729588",
+      "arxiv_id": "",
+      "pubmed_id": "42704814"
+    },
+    {
+      "title": "CRISPRing through time: How cutting-edge technology is revolutionizing life sciences and medicine.",
+      "source": "PubMed",
+      "date": "2026-09-08T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42494498/",
+      "abstract": "Given the plethora of emerging technologies, none have truly captured the minds as CRISPR. From the groundbreaking research, the ultimate battle of the prizes and patents to a number of books, the science of CRISPR continues to be significant in the biomedical field. For many decades now, the emergence of synthetic biology as an intervention to correct diseases has become the foundation of biomedical research. Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-based genetic editing has become a common place for routine investigation of scientific hypotheses in pre-clinical settings. More recently, CRISPR-based diagnostic testing kits for SARS-CoV-2 have showcased a translational output. Furthermore, a technological landmark was achieved when the Food and Drug Administration (FDA) approved the first CRISPR-based gene therapy (exa-cel) to edit erythroid specific enhancer region of BCL11A in hematopoietic stem cells, introduced in patients suffering from sickle cell anemia to achieve durable remission. In this review, we provide a snapshot into the most important milestones along the journey of CRISPR from its discovery in bacteria to its usage in precision medicine. The intervention of machine learning tools has now intertwined complex biology with high-throughput scalable outputs. Given the vast amount of information on CRISPR, we try to pin down key take-home messages for scientists as well as non-scientist readers. This review article attempts to understand why and how CRISPR remains significant and seamlessly integrates in the emerging era of new technologies.",
+      "authors": [
+        "Ishani Banik",
+        "Jean-Philippe Coppé"
+      ],
+      "doi": "10.1016/j.omtn.2026.103003",
+      "arxiv_id": "",
+      "pubmed_id": "42494498"
+    },
+    {
+      "title": "Large language model-driven knowledge graph learning for herb-macromolecule interaction prediction and functional analysis.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705563/",
+      "abstract": "The rapid accumulation of biological macromolecule data has created an urgent need for computational methods capable of characterizing the functional roles of macromolecular targets in complex therapeutic systems. Traditional Chinese medicine represents a typical scenario, in which multiple herbal components may coordinately regulate diverse protein targets through multi-component and multi-target mechanisms. However, existing methods often fail to jointly integrate traditional medicine knowledge, modern biomedical associations, and the functional context of biological targets, limiting systematic identification and mechanistic interpretation of herb-macromolecular target interactions (HTIs). Here, we propose LLM-HTI, a large language model (LLM)-driven graph learning framework with adaptive parameter updating based on a Traditional Chinese and Western medicine knowledge graph (TWKG), for predicting potential interactions between herbs and biological macromolecular targets. LLM-HTI extracts latent semantic representations of herb-target associations using LLMs and integrates them with knowledge graph topology, enabling joint characterization of herbs, macromolecular targets, and their functional relationships. The framework further introduces a gradient-guided adaptive parameter updating mechanism to dynamically select important parameter subsets, improving training stability and optimization efficiency. In addition, gastrointestinal surgeons independently assessed the top-ranked candidate targets for disease relevance, biological plausibility, clinical actionability, and translational priority to provide a clinician-guided evaluation of their medical relevance. These benchmark and case-study results demonstrate that LLM-HTI supports macromolecular target function analysis and herb-target mechanism discovery, while clinician-guided assessment further highlights medically relevant candidates for translational follow-up. Our data and code are publicly available at https://github.com/sisyyuan/LLM-HTI.",
+      "authors": [
+        "Sisi Yuan",
+        "Huihui Wu",
+        "Jiapeng Yao",
+        "Xinze Lian",
+        "Linlin Zhuo",
+        "Keqin Li",
+        "Dongsheng Cao",
+        "Aiping Lu",
+        "Jianfu Xia"
+      ],
+      "doi": "10.1016/j.ijbiomac.2026.154371",
+      "arxiv_id": "",
+      "pubmed_id": "42705563"
+    },
+    {
+      "title": "Streptococcus Suis Meningitis in a Middle Aged Woman - A Rare Zoonotic Pathogen - A Case Report.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705418/",
+      "abstract": "Streptococcus suis is a zoonotic pathogen frequently reported in China and Vietnam, and is frequently under recognized in India. A 52 year old woman presented with fever, headache, vomiting and altered sensorium. CSF analysis was suggestive of acute bacterial meningitis. Blood cultures grew Streptococcus suis which was detected by MALDI-TOF. Effective management depends on timely detection of pathogen.",
+      "authors": [
+        "Santhosh Rengaraj",
+        "Dinesh Babu",
+        "M B Indu",
+        "Vinothini Benedict"
+      ],
+      "doi": "10.1016/j.ijmmb.2026.101280",
+      "arxiv_id": "",
+      "pubmed_id": "42705418"
+    },
+    {
+      "title": "Nucleic acid amplification testing and genome sequencing for WHO priority viruses in Africa: a scoping review.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705253/",
+      "abstract": "Emerging viruses continue to pose serious public health threats across Africa, with recurrent outbreaks exposing gaps in diagnostics and surveillance systems. Nucleic acid amplification tests (NAATs) and genome sequencing are increasingly important for diagnostics and outbreak responses; however, their routine implementation is fragmented. This scoping review examines NAATs and genome sequencing technologies for viral detection and surveillance in Africa from 2019 to 2024, mapped to the 2024 updated WHO R&D Blueprint for Epidemics pathogen priority list. We identified 117 studies from 34 African countries reporting applications across 20 virus families, including ten designated as priorities by WHO. PCR-based assays were the most frequently reported NAATs. Illumina platforms predominated sequencing, and Oxford Nanopore Technologies were commonly used in outbreak investigations. Genome sequencing applied to priority viruses was largely reactive. NAAT-capable mobile laboratories were reported in 13 countries. Our findings underscore the need for proactive integration of NAATs into diagnostic and surveillance systems to strengthen decentralised testing, sustain genomic surveillance beyond outbreak periods, and improve early detection and preparedness for viral threats.",
+      "authors": [
+        "Kenneth Chan",
+        "Caitlin Greenland-Bews",
+        "Daniel P Carter",
+        "Matthew Harvey",
+        "Cristina Leggio",
+        "Abdul Karim Sesay",
+        "Joseph Akoi Bore",
+        "Thomas Edwards",
+        "David J Allen",
+        "Sonal Shah"
+      ],
+      "doi": "10.1016/S1473-3099(26)00355-5",
+      "arxiv_id": "",
+      "pubmed_id": "42705253"
+    },
+    {
+      "title": "Unraveling lung cancer complexity: Spatial omics in tumor microenvironment characterization and precision medicine.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705130/",
+      "abstract": "Heterogeneous tumor microenvironment (TME) in lung cancer plays a crucial role in disease progression and resistance to therapy. Despite advances in single-cell and bulk omics profiling, these methods often overlook spatial context, which is vital for understanding cell-cell interactions and regional heterogeneity. In recent years, spatial omics technologies-including spatial genomics, transcriptomics, proteomics, and metabolomics-have revolutionized the ability to map molecular landscapes while maintaining tissue architecture. These advancements have become essential components of next-generation lung cancer management. By providing unprecedented resolution in characterizing the lung cancer TME, spatial omics could reveal prognostic and predictive biomarkers and identify new therapeutic vulnerabilities. This review will provide the first critical evaluation of spatial multi-omics approaches for lung cancer prognosis. It will also assess various integration strategies for multi-omics data to explore the clinical translational potential of these tools for therapy selection and patient stratification. Therefore, a deeper understanding of spatial omics technologies and their application in lung cancer can significantly improve precision diagnostics and therapeutic decision-making.",
+      "authors": [
+        "Sanjukta Dasgupta",
+        "Subhayan Das",
+        "Shouvik Saha"
+      ],
+      "doi": "10.1016/j.currproblcancer.2026.101333",
+      "arxiv_id": "",
+      "pubmed_id": "42705130"
+    },
+    {
+      "title": "Molecular characterization of salivary cancers: Patterns of genomic alterations and potential for impact on therapeutic choices.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705045/",
+      "abstract": "Salivary cancers are rare malignancies with diverse histologies, molecular landscape, and limited effective systemic therapy options. Recent tumour genomics research has identified driver alterations in salivary gland cancers that have led to personalized therapy approaches. The primary objective was to perform molecular characterization using next generation sequencing (NGS) panel and evaluate the potential impact of results on clinical decision-making and treatment outcomes. Patients with locally advanced or incurable metastatic salivary cancers suitable for systemic therapy underwent NGS tumour testing with an amplicon-based DNA/RNA NGS panel. Patient demographics, baseline characteristics, treatment and treatment outcomes were retrospectively collected. From 2021 to 2024, 58 advanced salivary cancer patients underwent molecular characterization of their tumour. Baseline characteristics at diagnosis: male 60%, median age 67, most common histologies; adenoid cystic 27%, salivary duct 19% and mucoepidermoid 12%. PIK3CA alterations were the most common molecular finding across all subtypes 22% (13/58) and were enriched in salivary duct carcinoma 73% (8/11). Other alterations identified were: ERBB2 (4), EGFR (2), HRAS (3), NTRK3 (2), BRAF p.V600E (1), and RET (1). Immunohistochemistry identified androgen receptor positivity across salivary cancer subtypes in 8/19 and HER2 positivity in 2/20 tested. Twenty-two patients received systemic therapy prior to NGS results for incurable/metastatic disease, first line treatments included 69% chemotherapy, 18% anti-androgen, 9% lenvatinib, 4% trial. Molecular characterization of salivary cancers identified targetable alterations in 37% of patients. The identification of potential therapeutic targets offers the opportunity for expanded treatment options to benefit salivary gland cancer patients.",
+      "authors": [
+        "Marjan Kamali-Sarvestani",
+        "Stephen Yip",
+        "Eric Bhang",
+        "Fatima Usman",
+        "Deepu Alex",
+        "Tony Ng",
+        "Janessa Laskin",
+        "Howard Lim",
+        "Stephen Chia",
+        "Jason Ko-Leong",
+        "Shira Sabag",
+        "Sam Pollard",
+        "Deirdre Weymann",
+        "Dean Regier",
+        "Nicole Chau",
+        "Cheryl Ho"
+      ],
+      "doi": "10.1016/j.ctarc.2026.101407",
+      "arxiv_id": "",
+      "pubmed_id": "42705045"
+    },
+    {
+      "title": "Pediatric Myocarditis: Contemporary Insights Into Viral and Immune-Mediated Pathobiology, Precision Diagnostics, Advanced Multimodality Imaging, Risk Stratification, and Evolving Therapeutic Strategies.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42704815/",
+      "abstract": "Pediatric myocarditis is an important cause of acute and chronic myocardial dysfunction, accounting for a substantial proportion of dilated cardiomyopathy, heart failure, malignant arrhythmias, and sudden cardiac death in children. Although historically considered a predominantly viral disease, contemporary evidence indicates that pediatric myocarditis represents a heterogeneous spectrum of disorders characterized by complex interactions between infectious triggers, innate and adaptive immune responses, host genetic susceptibility, and myocardial repair mechanisms. The emergence of multisystem inflammatory syndrome in children and vaccine-associated myocarditis has further expanded the clinical spectrum while emphasizing the importance of accurate etiologic classification. Diagnosis remains challenging because clinical manifestations range from mild chest discomfort to fulminant cardiogenic shock. Advances in high-sensitivity cardiac troponin assays, cardiac magnetic resonance imaging with multiparametric tissue characterization, molecular pathogen detection, and selective endomyocardial biopsy have substantially improved diagnostic accuracy. Risk stratification increasingly integrates clinical presentation, ventricular function, biomarker profiles, arrhythmic burden, and imaging findings to identify patients at risk for adverse outcomes and guide therapeutic intensity. Contemporary management combines evidence-based heart failure therapy with individualized immunomodulatory treatment, mechanical circulatory support for refractory cardiogenic shock, and multidisciplinary long-term surveillance. Although survival has improved significantly with advances in pediatric intensive care and ventricular assist devices, important uncertainties remain regarding optimal immunotherapy, biomarker-guided management, and precision medicine approaches. This narrative review summarizes current understanding of viral and immune-mediated pathobiology, discusses evolving diagnostic strategies and multimodality imaging, reviews contemporary risk stratification models, and highlights emerging therapeutic approaches aimed at improving outcomes in children with myocarditis.",
+      "authors": [
+        "Haram Fatima",
+        "Mashal Aziz Rana",
+        "Tehreem Asghar",
+        "Muhammad Bilal Akram",
+        "Areena Fatima",
+        "Mashaaal Murtaza",
+        "Rimsha Khan",
+        "Sidra Ashraf"
+      ],
+      "doi": "10.1097/CRD.0000000000001451",
+      "arxiv_id": "",
+      "pubmed_id": "42704815"
+    },
+    {
+      "title": "A cross-sectional study of genomic knowledge comfort, attitudes, ethical and educational perspectives on precision medicine among medical students in Ecuador.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42704572/",
+      "abstract": "Precision medicine is increasingly transforming clinical practice, yet its effective implementation depends on adequately trained healthcare professionals. This study assessed genomic knowledge comfort, attitudes, ethical perceptions, and educational perspectives regarding precision medicine among medical students in Samborondón, Greater Guayaquil, Ecuador. A cross-sectional survey was conducted between August and November 2025 using a structured questionnaire. A total of 340 students participated. Descriptive and inferential statistical analyses, including non-parametric tests and Spearman correlation, were performed. Participants demonstrated relatively high but uneven genomic knowledge comfort (median 81.3%) and positive attitudes toward precision medicine (65.6%), alongside moderate ethical (62.5%) and educational perception scores (68.8%). While students strongly recognized the importance of precision medicine, perceived preparedness remained limited. Lower confidence was observed in advanced topics such as pharmacogenomics and next-generation sequencing. Ethical concerns were more pronounced at the societal level, particularly regarding health inequities, rather than individual risks. Correlation analyses revealed generally weak associations across domains, with only a moderate relationship between ethical and educational perceptions. These outcomes highlight a gap between acceptance and readiness, suggesting fragmented competency development. Strengthening curricula through integrated, applied, and context-specific training is essential to support effective implementation of precision medicine in low- and middle-income settings.",
+      "authors": [
+        "Danna Vera",
+        "Anna Miroslava Šefcová",
+        "César Marcelo Larrea-Álvarez",
+        "Marco Larrea-Álvarez"
+      ],
+      "doi": "10.1007/s12687-026-00943-2",
+      "arxiv_id": "",
+      "pubmed_id": "42704572"
+    },
+    {
+      "title": "Machine learning-enabled wastewater-based surveillance for emerging pathogen detection and monitoring: current applications, challenges, and future prospects.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42704107/",
+      "abstract": "Abstract Wastewater-based surveillance (WBS) has become an important public-health tool for tracking community-level circulation of emerging and re-emerging pathogens, but wastewater measurements are not directly interpretable public-health indicators. Signals recovered from sewer systems are shaped by sampling variability, environmental and laboratory noise, population-dependent bias, and high-dimensional molecular complexity. Machine learning (ML) is increasingly used to extract predictive and decision-relevant information from these data, but the strength of the supporting evidence varies substantially. This narrative review examines how strongly current applications are supported by published evidence. Sources were identified through iterative searches of three literature-search sources updated to June 2026 and classified by role, analytical task, and strength of evidence. To keep the analytical scope consistent, we use a pragmatic four-layer classification: classical statistical models, conventional machine learning, deep learning, and hybrid or mechanistically informed approaches. Applications are reviewed across five analytical tasks: predictive modeling and forecasting, anomaly and fluctuation detection, data harmonization and normalization, high-dimensional interpretation, and integrated decision support. Among 35 sources reporting analytical or modeling work, 25 analyzed SARS-CoV-2 alone; demonstrated early-warning evidence came predominantly from L1 methods, and most target-task combinations remain prospective. Even within SARS-CoV-2 surveillance, reported performance was context-dependent. We examine the data-quality, methodological, and implementation barriers that limit broader application and validation. Future priorities include standardized and collaborative frameworks, multimodal data fusion, mechanistic and digital-twin modeling with explicit uncertainty assessment, and transparent and actionable analytics, with broader surveillance applications constrained by governance and public acceptability.",
+      "authors": [
+        "Anchao Song",
+        "Panpan Jia",
+        "Jing Luo",
+        "Xiaoli Pang",
+        "Yongqun He",
+        "Yi-Wei Tang"
+      ],
+      "doi": "10.1080/22221751.2026.2731499",
+      "arxiv_id": "",
+      "pubmed_id": "42704107"
+    },
+    {
+      "title": "A CRISPR-Based Rapid Detection Assay for Crayfish Plague (Aphanomyces astaci) From Environmental Samples.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703694/",
+      "abstract": "Crayfish plague, caused by Aphanomyces astaci (Aa), is an infectious disease invasive in Europe, where its rapid spread has resulted in sharp declines of native crayfish species. Monitoring currently relies on a highly sensitive, but costly and time-consuming qPCR approach. Here, we designed a simplified, rapid and cost-efficient molecular assay for on-site detection of Aa. The novel rapid assay employs a combination of isothermal recombinase polymerase amplification and CRISPR-Cas12a-based detection that can be coupled with fluorescence or lateral flow visualisation. We demonstrate that the novel assay can detect A. astaci from tissue and environmental DNA with higher sensitivity than the available qPCR assay and readily distinguishes Aa from its non-pathogenic sister taxon A. fennicus. We tested two genomic marker sites for Aa that discriminate closely related oomycetes and incorporate field-deployable lateral flow and fluorescence readouts. Our work will make crayfish plague monitoring broadly accessible to practitioners and non-academic stakeholders as a tool to curb further Aa-driven loss of Europe's imperilled freshwater crustaceans and strengthen preparedness against future incursions of the pathogen in other regions.",
+      "authors": [
+        "Christopher Heine",
+        "Amadeus Plewnia",
+        "David Strand",
+        "Simran Gupta",
+        "Henrik Krehenwinkel",
+        "Gus R McFarlane"
+      ],
+      "doi": "10.1111/jfd.70278",
+      "arxiv_id": "",
+      "pubmed_id": "42703694"
+    },
+    {
+      "title": "Development of Far-Red Emitting Pt Nanocluster-Based Bio-Nanoprobes for In Vivo Tumor-Targeted Imaging.",
+      "source": "PubMed",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42611765/",
+      "abstract": "Biomedical imaging has become an indispensable tool in the fields of cancer diagnosis and therapy. Fluorescent noble metal nanoclusters (NCs) are promising nanomaterials for biomedical applications. However, among the noble metal NCs, there is very little research on the biomedical application of platinum (Pt) NCs even though Pt NCs exhibit excellent optical properties. Our far-red emitting (Em/Ex = 680/580 nm) Pt NC-based bio-nanoprobes (Pt nanoprobes) possess ultrasmall size (0.8 ± 0.2 nm in diameter), high photostability, and biocompatibility, and these Pt nanoprobes are promising probes for in vivo imaging. Herein, we report the biomedical application of Pt nanoprobes and demonstrate that the far-red emitting Pt nanoprobes act as an in vivo contrast agent for precise fluorescence imaging of expressed marker protein (protease-activated receptor 1 (PAR1)) at metastatic breast cancer. The carboxylic acid-protected Pt NCs exhibit strong photostability and long colloidal stability over weeks in biological conditions, allowing us to prepare Pt nanoprobes by conjugating with antibodies of targeted biomolecules. Moreover, Pt nanoprobes have successfully been accumulated in MDA-MB-231 breast tumor tissues and further enable highly efficient in vivo tracking of the marker protein (PAR1). Therefore, the developed far-red emitting Pt nanoprobes can be utilized to monitor the physiological behavior of targeted biomolecules in living organisms.",
+      "authors": [
+        "Shin-Ichi Tanaka",
+        "Ryunosuke Takahashi",
+        "Hiroki Wadati",
+        "Kazuhisa Sato"
+      ],
+      "doi": "10.1021/acsabm.6c01251",
+      "arxiv_id": "",
+      "pubmed_id": "42611765"
+    },
     {
       "title": "Beyond Systemin: the multifaced role of ProSys (1-178) in tomato defense.",
       "source": "PubMed",
@@ -20,6 +237,23 @@
       "doi": "10.1016/j.plantsci.2026.113430",
       "arxiv_id": "",
       "pubmed_id": "42702306"
+    },
+    {
+      "title": "[Genetic and functional characterization of a novel KIT splicing variant in a Chinese three-generation pedigree with piebaldism].",
+      "source": "PubMed",
+      "date": "2026-09-05T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703759/",
+      "abstract": "To investigate the genetic etiology of a three-generation pedigree affected with piebaldism. Next-generation sequencing and Sanger sequencing were employed to detect and verify gene variants. Bioinformatics tools were used to predict the effects of candidate variants on splicing and protein function. RT-PCR and Sanger sequencing were further performed to validate the impact of the variant on RNA splicing, and homology modeling was applied to predict its effect on the three-dimensional structure of the KIT protein. The pathogenicity of the variant was then classified according to the guidelines of the American College of Medical Genetics and Genomics (ACMG) and the UK Association for Clinical Genomic Science (ACGS). A heterozygous insertion variant near the splice site, c.1990+8_1990+9insTGCACCATTGGAGGTAAA, was identified in the KIT gene in the proband and was found to co-segregate with the phenotype within the family. RT-PCR and cDNA sequencing revealed that this variant led to aberrant splicing during transcription, resulting in a 21 bp in-frame insertion in the mRNA, which encodes an extra 7 amino acids within the tyrosine kinase domain and may thus affect protein function. In silico predictions, together with the experimental findings, supported classification of this variant as likely pathogenic according to relevant variant interpretation guidelines. The heterozygous splice-site insertion variant KIT:c.1990+8_1990+9insTGCACCATTGGAGGTAAA is the genetic cause of piebaldism in this pedigree.",
+      "authors": [
+        "Kai Yan",
+        "Liya Wang",
+        "Jiexue Pan",
+        "Hefeng Huang",
+        "Minyue Dong"
+      ],
+      "doi": "10.3724/zdxbyxb-2026-0448",
+      "arxiv_id": "",
+      "pubmed_id": "42703759"
     },
     {
       "title": "Integrating molecular subtypes, genomics and functional dependencies to identify context-specific therapeutic vulnerabilities in small cell lung cancer.",
@@ -76,404 +310,6 @@
       "doi": "10.1007/s11259-026-11496-7",
       "arxiv_id": "",
       "pubmed_id": "42700284"
-    },
-    {
-      "title": "Acquired hemophilia a caused by complicated urinary tract infection due to flavobacterium odoratum: A case report and literature review.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42700078/",
-      "abstract": "Acquired hemophilia A (AHA) is a rare bleeding disorder characterized by the development of autoantibodies directed against coagulation factor VIII (FVIII). Approximately 50% of cases are idiopathic, while the remaining are associated with autoimmune conditions, malignancies, or infections. To date, there have been no reported cases of AHA secondary to Flavobacterium odoratum (Frullania odoratum) infection. A male patient underwent ureteroscopic lithotripsy with double-J stent placement. Postoperatively, he developed hematuria, a right medial thigh hematoma, fever, and abnormal coagulation parameters, including prolonged activated partial thromboplastin time (APTT). The diagnosis of AHA was confirmed based on prolonged APTT, markedly reduced FVIII:C, and detection of a factor VIII inhibitor. Additionally, the patient had a complicated urinary tract infection caused by multidrug-resistant F.odoratum, which preceded the onset of AHA. Doxycycline was administered to treat the catheter-associated urinary tract infection caused by F.odoratum. Hemostatic control was achieved with activated prothrombin complex concentrate. Immunosuppressive therapy for AHA included dexamethasone and cyclophosphamide. At discharge, bleeding had resolved, APTT normalized, FVIII activity returned to normal levels, the FVIII inhibitor was undetectable, and the infection was successfully controlled. AHA is a rare but potentially life-threatening condition. Early recognition, prompt treatment, and identification of underlying triggers are crucial to reducing mortality and improving outcomes. This is the first reported case of AHA associated with F. odoratum infection. Clinicians should consider this pathogen in patients with long-term indwelling urinary catheters who present with unexplained infections or bleeding diatheses.",
-      "authors": [
-        "Di Chen",
-        "Ping Yuan",
-        "Mingqiang Ren"
-      ],
-      "doi": "10.1097/MD.0000000000050501",
-      "arxiv_id": "",
-      "pubmed_id": "42700078"
-    },
-    {
-      "title": "Comparative genomics reveals lineage-associated structural variation and diversification in a barley fungal pathogen.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42698138/",
-      "abstract": "Leaf rust, caused by Puccinia hordei, is a major barley disease worldwide. Despite repeated shifts in virulence, contrasting reproductive histories, and emerging fungicide insensitivity, the genomic basis of its diversification and adaptation remains poorly understood. In this study, we generated haplotype-resolved, chromosome-level genome assemblies for two isolates with contrasting virulence and analyzed 41 Australian isolates collected over 54 yr (1966-2020), integrating comparative and population genomics, mating-type gene phylogenies, chromosome-specific k-mer profiling, genome-wide copy-number variation (CNV) analysis, and gene-expression analysis. We identified a structurally dynamic chromosome characterized by repeat-associated rearrangements, structural variation, and lineage-associated CNV, representing the first evidence in a rust fungus of chromosome-scale structural diversification of this extent. Population analyses distinguished clonally expanded lineages from recombination-associated lineages, with mating-type gene phylogenies providing further support for lineage differentiation. More recently collected isolates showed increased duplication-associated variation, and CNV boundaries were associated with structural-variant breakpoints. We also identified lineage-associated amplification of Cyp51, with increased copy number associated with higher transcript abundance, supporting a potential role in fungicide adaptation. Overall, our findings highlight structural variation, contrasting reproductive histories, and lineage-associated CNV as important contributors to diversification in P. hordei, providing insights for future rust pathogen surveillance and management strategies.",
-      "authors": [
-        "Xiaohui Yu",
-        "Mumta Chhetri",
-        "Mafruha Hasan",
-        "Thomas H Roberts",
-        "Peng Zhang",
-        "Robert F Park",
-        "Yi Ding"
-      ],
-      "doi": "10.1111/nph.71571",
-      "arxiv_id": "",
-      "pubmed_id": "42698138"
-    },
-    {
-      "title": "Updates on the Evaluation of Lupus Arthritis.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42698059/",
-      "abstract": "Lupus arthritis is the most common manifestation of systemic lupus erythematosus (SLE), affecting up to 95% of patients. Clinical presentations range from inflammatory arthralgia and non-deforming non-erosive (NDNE) synovitis to Jaccoud arthropathy and erosive arthritis, reflecting substantial clinical heterogeneity. Despite its high prevalence, widely used outcome measures lack the granularity to distinguish between these phenotypes or accurately quantify disease severity. This narrative review integrates clinical phenotypes, serologic biomarkers, imaging advances, and emerging therapies to provide a framework for evaluating lupus arthritis. Besides distinct clinical phenotypes, we propose a conceptual hypothesis-generating model describing the evolution of lupus arthritis. In an early, preclinical stage, genetically predisposed individuals may develop pathogenic autoantibodies and alterations in the gut microbiome that can lead to increased inflammation within the synovium. The intermediate stage is characterized by progressive leukocyte accumulation within the joint space, leading to clinical symptoms and early abnormalities on imaging including joint effusions, synovitis, and tenosynovitis. In the late stage, persistent inflammation results in clinically evident joint damage, including synovial hypertrophy, joint capsular swelling, and bone erosions. Biomarkers such as anti-citrullinated protein antibodies (ACPAs), anti-carbamylated protein (anti-carP) antibodies, interleukin (IL)-6, IL-17, and metalloproteinases may help identify patients at risk for erosive or deforming disease and those prone to rapid progression. Advances in imaging technologies including musculoskeletal ultrasound (MSK-US), MRI, and optical tomography may enable earlier detection before clinical manifestations or physical exam findings, creating opportunities for earlier intervention. Therapeutically, hydroxychloroquine (HCQ) remains the foundation of treatment. Belimumab and anifrolumab are US Food and Drug Administration (FDA)-approved biologics now recommended as standard of care for persistent disease, alongside conventional immunosuppressants such as methotrexate, mycophenolate, or azathioprine when indicated. Additional targeted therapies including obinutuzumab and Janus kinase (JAK) inhibitors are closely following behind. Chimeric antigen receptor T cell (CAR-T) represents a promising approach that may transform the future management of SLE.",
-      "authors": [
-        "Wei Tang",
-        "Alberto Nordmann-Gomes",
-        "Leila Khalili",
-        "Giovanna Rosas",
-        "Ellen Montgomery",
-        "Laurel Zhang",
-        "Stephen Suh",
-        "Robert Clancy",
-        "Anca D Askanase"
-      ],
-      "doi": "10.1007/s40744-026-00879-6",
-      "arxiv_id": "",
-      "pubmed_id": "42698059"
-    },
-    {
-      "title": "Treatment updates in myotonic disorders.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42698007/",
-      "abstract": "Myotonia is delayed muscle relaxation after forceful contraction. It is due to hyperexcitability of the skeletal muscle membrane. It can arise from primary skeletal muscle ion channel dysfunction, involving chloride or sodium channels, but is also a prominent clinical feature in myotonic dystrophies where altered RNA splicing leads to secondary ion channel dysregulation amongst other systemic manifestations. Clinically, myotonia can range from delayed eye opening to a disabling symptom causing impaired mobility, functional difficulty and sometimes pain. It can also be a \"hidden disability\" with many patients feeling socially embarrassed by \"looking healthy\", yet being unable to do everyday physical tasks or to do them as effortlessly as their peers. It is a symptom that almost always indicates a genetic diagnosis, although it can occur in acquired conditions, including metabolic and drug-induced causes. To experience myotonia without knowing what it is can be baffling. To receive a genetic diagnosis associated with it can be life changing. Although there is no cure, there are many effective and available symptomatic treatments for myotonia and currently we are in an exciting era of clinical trials for new molecular disease-modifying therapies for myotonic dystrophy type 1. In this review, we consider recent developments in the treatment of myotonic disorders and how they may change clinical practice.",
-      "authors": [
-        "Emma Matthews",
-        "Mark J Specterman",
-        "Karlien Mul"
-      ],
-      "doi": "10.1007/s00415-026-14073-9",
-      "arxiv_id": "",
-      "pubmed_id": "42698007"
-    },
-    {
-      "title": "Unraveling the genomic blueprint of the Indian black soldier fly: From genome assembly to evolutionary insights.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42697384/",
-      "abstract": "The black soldier fly (BSF) (Hermetia illucens) has been renowned for its sustainable bioconversion capabilities, resulting in smart protein production with wide applications in animal feed, bioenergy, and biofertilizer. However, the genetic mechanisms underlying efficient bioconversion and productivity remain poorly understood. To advance strain-specific applications and strengthen genetic resource availability, we present the Whole Genome Sequencing (WGS) data of the Indian isolate, featuring a genome size of 1.46 Gb with a scaffold N50 of 172.7 Mb, and a GC content of 42.6%. Further, 64.17% of genomic sequences were masked as repeated, and 14,317 coding sequences were identified. Variant analysis against the reference genome identified 34.44 million variants (~33.25 million SNPs and ~ 1.18 million INDELs), with the majority (99.3%) classified as MODIFIER, 0.54% as LOW impact, 0.14% as MODERATE, and only 0.003% as HIGH impact. Comparative genomic analysis with other related species revealed expansions of gene families in BSF associated with Immune effector (Antimicrobial peptides (AMPs), Lysozymes, and Peptidoglycan Recognition Protein (PGRP)) and Detoxification (cytochrome P450 enzymes). Notably, AMPs in the Indian isolate showed enhanced copy number variation in defensin (27) and PGRP (40) compared to reference BSF, suggesting potential regional adaptations to pathogen exposure. Collectively, this genomic data provides an improved resource for evolutionary studies, functional genomics, and targeted genetic improvement of BSF for sustainable bioconversion applications.",
-      "authors": [
-        "Jayashankar Das",
-        "Padmaja Mohanty",
-        "Kumari Snehkant Lata",
-        "Kumar Sagar Jaiswal",
-        "Susmita Bindhar",
-        "Yasmeen Tabassum"
-      ],
-      "doi": "10.1016/j.ygeno.2026.111312",
-      "arxiv_id": "",
-      "pubmed_id": "42697384"
-    },
-    {
-      "title": "Low-temperature-tolerant Cas12a enables instrument-free detection of fungal pathogens at mushroom cultivation temperatures.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42697299/",
-      "abstract": "Reliable molecular diagnosis at the point of care remains challenging owning to its dependence on specialized instrumentation and temperature control. However, clustered regularly interspaced short palindromic repeats (CRISPR) and the associated Cas12a protein have shown promise for point-of-care detection. Therefore, an engineered Cas12a variant from Lachnospiraceae bacterium, namely L.b. Cas12a Ultra, was developed. It exhibited markedly enhanced functional stability and low-temperature tolerance, maintaining robust activity across typical mushroom cultivation temperatures (21 °C-29 °C), compared with wild-type LbaCas12a. By combing this low-temperature-tolerance Cas12a with recombinase-aided amplification (RAA), an instrument-free nucleic acid detection system, termed RAA-CUTE, was established targeting the mushroom cobweb disease pathogen Cladobotryum. This system operates within the typical temperature range for mushroom cultivation. Visualization of RAA-CUTE is achieved using lateral-flow assay strips and fluorescent probes. The method shows high specificity and selectivity in complex sample matrices, with a detection limit of 10 fM and minimal background interference. It also effectively discriminates closely related species through specially designed CRISPR crRNAs, as confirmed in validation assays. This single-tube detection platform provides a sensitive, specific, and field-deployable solution for molecular diagnostics in settings with constrained temperature control and instrumentation, making it a promising tool for on-site crop disease surveillance.",
-      "authors": [
-        "Fan''ge Kong",
-        "Yuchong Zhang",
-        "Xin Zhang",
-        "He Zhang",
-        "Yu Li",
-        "Jiasi Wang",
-        "Di Wang"
-      ],
-      "doi": "10.1016/j.ijbiomac.2026.154352",
-      "arxiv_id": "",
-      "pubmed_id": "42697299"
-    },
-    {
-      "title": "Isolation, Identification, and Biological Characteristics of Mannheimia haemolytica from Goats.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42697286/",
-      "abstract": "With the rapid expansion of the meat goat farming industry in China and intensified interregional movement of goats, respiratory diseases have become increasingly prevalent across domestic goat farms-particularly under suboptimal husbandry conditions-posing a significant challenge to effective disease prevention and control. Mannheimia haemolytica, a primary bacterial pathogen implicated in caprine respiratory disease, exhibits marked geographic variation in key phenotypic and genotypic traits, including serotype distribution and antimicrobial resistance profiles. To address this critical animal health concern, Mannheimia haemolytica was isolated from clinical specimens collected from multiple commercial goat farms in Jingmen City, Hubei Province, and performed an integrated phenotypic and genomic characterization, including Gram staining, biochemical identification, molecular biological identification, virulence gene identification, genetic and evolutionary analysis, antimicrobial susceptibility testing, pathogenicity assays, whole-genome sequencing, and qPCR detection. Our analysis identified a Mannheimia haemolytica strain belonging to serotype A2. Whole-genome analysis confirmed the presence of six core virulence-associated genes: LKT-C, gs60, fbpA, SodA, gapA, and dnaA. The isolated strain displayed a defined antimicrobial resistance profile and induced significant dysregulation of pro-inflammatory cytokine expression in infected murine lung tissue, thereby revealing mechanistic insights into its pathogenicity. Collectively, this study delivers a rigorously characterized reference isolate of caprine-derived Mannheimia haemolytica serotype A2, advances knowledge of its genomic landscape, virulence repertoire, and host-pathogen interplay, and provides a foundational evidence base to inform targeted, science-driven interventions against respiratory disease in goat production.",
-      "authors": [
-        "Wei Zhao",
-        "Xue Jin",
-        "Ningning Guan",
-        "Deliang Kong",
-        "Keli Yang",
-        "Yao Chen"
-      ],
-      "doi": "10.1016/j.micpath.2026.108821",
-      "arxiv_id": "",
-      "pubmed_id": "42697286"
-    },
-    {
-      "title": "Synovial short-lived plasma cells mediate adalimumab resistance in rheumatoid arthritis via MIF-CD74 axis-driven, partially TNF-α-independent inflammation.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42696910/",
-      "abstract": "Synovial plasma cell infiltration predicts inadequate response to adalimumab in patients with rheumatoid arthritis (RA), yet the cellular and molecular mechanisms underlying this association remain unclear. This study aimed to dissect the functional heterogeneity of synovial plasma cells between adalimumab responders and non-responders at single-cell resolution, and to identify the molecular pathways driving treatment resistance. This study was based on a prospective clinical cohort of 101 RA patients receiving adalimumab, from which synovial tissues of 8 patients (4 ACR20 responders and 4 non-responders) were profiled by 10x Genomics single-cell RNA sequencing (66,539 high-quality cells). A systematic ligand-receptor screening was performed to identify candidate signaling axes. Core findings were validated at four levels: an independent single-cell validation cohort (n = 4), external bulk RNA-seq cohorts (GSE15602, GSE47726), multiplex immunofluorescence on synovial tissues (n = 9 per group), and in vitro functional experiments using patient-derived peripheral blood monocyte-derived macrophages stimulated with recombinant human MIF under pharmacological intervention with adalimumab, the MIF inhibitor ISO-1, and an anti-CD74 neutralizing antibody. Plasma cells were significantly enriched in non-responder synovium, with a heterogeneous pattern characterized by quantitative accumulation of long-lived plasma cells (LLPCs) and functional dominance of short-lived plasma cells (SLPCs): SLPCs contributed 58.15% of total ribosomal module activity and preferentially overexpressed MIF. Systematic screening of 145 candidate ligand-receptor pairs identified MIF-CD74 as the only axis satisfying all four independent evidence layers. Tissue-level immunofluorescence confirmed that approximately 95% of synovial CD138 + plasma cells in non-responders co-expressed MIF, compared with approximately 45% in responders. In vitro, rh-MIF upregulated macrophage activation markers (CD74, CD80, CD86, HLA-DR) and induced IL-6 and TNF-α secretion. Adalimumab neutralized supernatant TNF-α but failed to suppress MIF-driven IL-6 and IL-1β activation, whereas ISO-1 and anti-CD74 effectively blocked MIF-induced effects at all levels examined. These findings were replicated in patient-derived PBMC macrophages. In adalimumab-resistant RA, a functionally active SLPC subset drives partially TNF-α-independent macrophage inflammation through the MIF-CD74 axis, representing a resistance pathway not fully addressed by anti-TNF therapy. Targeting MIF or CD74 blocked this axis in vitro, supporting MIF-CD74-directed precision intervention.",
-      "authors": [
-        "Jianbin Li",
-        "Houhui Jiang",
-        "Dengfeng Wu",
-        "Zhenfang Xiong",
-        "Yilin Peng",
-        "Jun Zhao",
-        "Pengcheng Liu",
-        "Rui Wu"
-      ],
-      "doi": "10.1016/j.jaut.2026.103622",
-      "arxiv_id": "",
-      "pubmed_id": "42696910"
-    },
-    {
-      "title": "Occurrence and antimicrobial resistance profile of Listeria monocytogenes isolated from chilled processed meat products in the Metropolitan Region of Recife, Brazil.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42696186/",
-      "abstract": "The presence of Listeria monocytogenes in food represents a major challenge to food safety, especially in ready-to-eat products stored under refrigeration. This risk is associated with the ability of the pathogen to survive and multiply during prolonged refrigerated storage, making these foods potential sources of infection and a relevant public health concern. In this context, the aim of this study was to investigate the presence of Listeria monocytogenes in chilled processed meat products sold in bulk in the Metropolitan Region of Recife, PE, Brazil, as well as to evaluate the antimicrobial susceptibility profile of the isolates. A total of 48 samples of sausages and ham from different brands were analyzed, obtained from public markets and supermarkets in the region. Detection of Listeria spp. was performed using conventional methods recommended by the Ministry of Agriculture and Livestock, and antimicrobial susceptibility was assessed by the disk diffusion method. Of the analyzed products, 27/48 (56.25%) samples were positive for Listeria spp. by bacterial isolation. Among these, 15/48 (31.25%) were confirmed as L. monocytogenes. In the disk diffusion assay, one L. monocytogenes isolate showed a multidrug-resistant profile to vancomycin, amoxicillin, ampicillin, and ciprofloxacin. Additionally, among the Listeria spp. isolates, 6/27 (22.22%) showed resistance to at least one of the tested antimicrobials, with emphasis on ciprofloxacin (11.1%). These results demonstrate the presence of Listeria spp. and L. monocytogenes in commercially available chilled processed meat products, highlighting the importance of microbiological monitoring of these foods and surveillance of antimicrobial resistance profiles.",
-      "authors": [
-        "Anízia Maria Vieira de Souza Lapenda",
-        "Eduarda Faria Raymundo",
-        "Pedro Marinho de Carvalho Neto",
-        "Rinaldo Aparecido Mota",
-        "José Wilton Pinheiro Junior",
-        "Andrea Paiva Botelho Lapenda de Moura"
-      ],
-      "doi": "10.1007/s42770-026-02070-z",
-      "arxiv_id": "",
-      "pubmed_id": "42696186"
-    },
-    {
-      "title": "Identification of aviadenovirus and dependoparvovirus in an Adélie penguin fecal sample from Cape Royds (Ross Island, Antarctica).",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42696171/",
-      "abstract": "Adenoviruses (Adenoviridae) and their associated replication-deficient dependoparvoviruses (Parvoviridae) are recognized as significant components of the avian virome. While well-studied in domestic birds, these viruses remain underexplored in wild Antarctic birds. Information is limited on viruses circulating in penguins, particularly outside of the Antarctic Peninsula Region. Here we leverage a fecal sample collected for diet analyses to identify an aviadenovirus (37,731 nt) and two distinct dependoparvoviruses. The Adélie penguin (Pygoscelis adeliae) feces-derived adenovirus exhibits a genome organization consistent with members of the genus Aviadenovirus but shares only ~64% amino acid identity in the DNA polymerase protein with its closest known relative and thus represents a new species of aviadenovirus identified in penguins. Additionally, we identified two new dependoparvoviruses, one in length of 4,869 nt and a second of 4,162 nt. These two dependoparvoviruses are diverse, sharing <61% Rep amino acid identity with those of other dependoparvoviruses. Penguin dependoparvovirus 1 represents a new species. The co-detection of these viruses in a single seasonal sample could suggest a potential helper-satellite relationship in Adélie penguins. This study provides the first evidence of aviadenoviruses in Adélie penguin feces. These findings highlight the importance of surveillance to understand pathogen dynamics in isolated Antarctic populations.",
-      "authors": [
-        "Melanie Regney",
-        "Simona Kraberger",
-        "Scott Jennings",
-        "Elizabeth L Porzig",
-        "Balázs Harrach",
-        "Győző L Kaján",
-        "Judit Pénzes",
-        "Katie M Dugger",
-        "Grant Ballard",
-        "David G Ainley",
-        "Arvind Varsani"
-      ],
-      "doi": "10.1007/s00705-026-06726-x",
-      "arxiv_id": "",
-      "pubmed_id": "42696171"
-    },
-    {
-      "title": "Genetic architecture of endometriosis: risk factors, comorbidities and clinical implications.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42695929/",
-      "abstract": "In 1999, Dr Susan Treloar and colleagues conducted a landmark twin study in Australia and reported their estimate of 51% for the heritability of endometriosis. This important result led several groups to begin mapping genetic factors contributing to increased endometriosis risk. Despite early challenges, advances in genome-wide association studies (GWAS) have identified multiple genetic risk factors and some target genes implicated in follow-up studies on genetic regulation of transcription. Access to large publicly available genetic datasets and analysis with endometriosis GWAS results is also providing new opportunities to answer important questions about comorbid conditions associated with endometriosis and their implications for clinical practice. The objective of the review is to summarize the last 25 years of genetic studies in endometriosis, outline contributions to our understanding of the disease, and suggest future directions to accelerate biological insights from genetic studies to improve clinical outcomes. A comprehensive review of scientific literature on the genetics of endometriosis was conducted through searches in PubMed and Google Scholar up to June 2026. Search terms included \"endometriosis AND (genetics OR GWAS OR genetic risk factors)\", For studies addressing the functional characterization of genetic risk loci, additional searches employed the terms \"endometriosis AND (genotype-phenotype associations OR colocalization OR eQTL OR mQTL OR multi omics methods)\". To identify studies examining shared genetic risk between endometriosis and comorbid conditions, the search strategy included \"endometriosis AND (genetic correlation OR colocalization OR Mendelian randomisation)\". Publications reporting discoveries related to genetic risk factors for endometriosis and studies interpreting their biological and clinical significance were critically evaluated, and 144 publications were discussed in the review. Discovery of genetic risk factors started slowly and has accelerated in recent years with developments in technology and international collaborations to combine data and increase statistical power. GWAS have mapped 80 genetic risk factors that implicate gene regulation of hormonal targets, development of the reproductive tract, regulation of cell proliferation, and regulation of epithelial cell differentiation. In common with most other complex diseases, effects of individual common genetic risk factors are small. However, several examples demonstrate that small effect sizes are not a good predictor for the impact of drugs developed against genetically validated targets. Genetic risk factors implicate five genes regulating gonadotrophin release and oestrogen action, the major target pathway of current drugs for treatment of endometriosis demonstrating proof-of-principal for biologically meaningful results. Genetic correlation and Mendelian Randomization studies highlight important causal relationships between endometriosis and comorbid conditions including a possible role for testosterone during development and shared genetic risk factors for gynaecological, gastrointestinal, pain, psychiatric, and inflammatory conditions. Understanding causal relationships between endometriosis and related conditions will aid clinical management and more personalized treatments. Genetic studies provide novel insights into endometriosis pathogenesis and associations with related comorbid conditions. Genetic factors modifying gene regulation and disease risk likely act in specific cell types, and access to datasets from genetically informed cell-based models, single-cell and spatial omics data are needed to accelerate progress. Future studies should address critical questions of heterogeneity and disease subtypes, expand the search for genetic risk factors to non-European populations, evaluate the role of rare and structural variants, and better integrate data from functional, genomics, genetics, and clinical studies to reduce diagnostic delay, develop novel treatment strategies, and translate discoveries into personalized management strategies for affected individuals. N/A.",
-      "authors": [
-        "Grant W Montgomery",
-        "Isabelle M McGrath",
-        "Michael Toft Overgaard",
-        "Mette Nyegaard",
-        "Sally Mortlock"
-      ],
-      "doi": "10.1093/humupd/dmag023",
-      "arxiv_id": "",
-      "pubmed_id": "42695929"
-    },
-    {
-      "title": "Unlocking the Circulating Proteome: Toward Clinical Translation.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42695895/",
-      "abstract": "Blood-based proteomics is approaching a translational inflection point. Driven by advances in measurement technologies, rapid expansion of analytical capabilities, and growing adoption across research and medical communities, there is increasing demand for clinically actionable biomarkers. As the field transitions away from purely large-scale discovery-oriented studies toward more informed, targeted, application-driven analyses, the generation of proteomic data is no longer the bottleneck. Instead, the central challenge is to translate these measurements into robust, reproducible, and clinically meaningful insights. In this Review, we assess recent technological and methodological developments, evaluate persistent preanalytical and interpretative limitations, and outline the key steps required for clinical translation. We focus on three deeply interconnected dimensions: the capabilities and constraints of current measurement platforms, the role of computational and machine learning approaches in extracting biological and clinical signals, and the emergence of large-scale population studies that create new opportunities for validation and generalization. Finally, we discuss a forward-looking vision in which proteomics plays a central role in dynamic, multilayered omics frameworks, where integration with genomics, temporal profiling, and imaging can deepen our understanding of health, disease, and therapeutic response.",
-      "authors": [
-        "Sara Ahadi",
-        "Haris Babačić",
-        "Lee S Cantrell",
-        "Daniel Hornburg",
-        "Johannes B Müller-Reif",
-        "Laura F Dagley",
-        "Ida Chiara Guerrera",
-        "Vincent Albrecht",
-        "Fredrik Edfors",
-        "Xiaobo Yu",
-        "Zhi Sun",
-        "Robert L Moritz",
-        "Frank Schmidt",
-        "Stefanie M Hauck",
-        "Eric W Deutsch",
-        "Gilbert S Omenn",
-        "Jochen M Schwenk",
-        "Philipp E Geyer"
-      ],
-      "doi": "10.1021/acs.jproteome.6c00277",
-      "arxiv_id": "",
-      "pubmed_id": "42695895"
-    },
-    {
-      "title": "Comparative performance of portable DNA extraction protocols and bioinformatics workflows for rapid detection of gram-negative bacteria and antimicrobial resistance using Oxford Nanopore sequencing.",
-      "source": "PubMed",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42695686/",
-      "abstract": "Oxford Nanopore Technology (ONT) enables rapid, portable pathogen identification and antimicrobial resistance (AMR) detection, but the reliability of downstream genomic analyses is highly dependent on DNA extraction quality, particularly in resource-limited settings. This study comparatively evaluated four portable bacterial DNA extraction protocols derived from three commercial kits to determine their impact on nanopore sequencing performance, bioinformatics workflow completion, and field deployability. Six gram-negative bacterial isolates ( Escherichia coli , n = 4; Pseudomonas sp., n = 1; and Salmonella sp., n = 1) were processed using four extraction protocols: SwiftX DNA, SwiftX DNA with proteinase K (ProtK), SwiftX ParaBact, and NucleoSpin Microbial. Twenty-four resulting DNA extracts were sequenced on a single multiplexed MinION R10.4.1 flow cell. Sequencing data were analyzed using validated Galaxy-based generic and species-specific pipelines. Workflow completion was defined as successful progression through quality control, assembly, virulence, plasmid, and AMR detection modules. DNA purity varied substantially by extraction protocol and was strongly associated with successful workflow completion (Kruskal-Wallis, P = 0.0006). Accordingly, NucleoSpin Microbial achieved 100% workflow completion, and SwiftX ParaBact achieved 83%, while both SwiftX DNA-based protocols failed to complete full workflows. Importantly, key AMR genes required to classify isolates as multidrug-resistant were consistently detected using both NucleoSpin Microbial and SwiftX ParaBact extractions. However, NucleoSpin Microbial assemblies showed significantly higher contiguity and enabled a broader, more complete detection of virulence factors, pathogenicity islands, plasmid replicons, and accessory AMR genes, reflecting enhanced genomic resolution.IMPORTANCERapid whole-genome sequencing is increasingly used to detect antimicrobial resistance and guide public health responses, but its reliability depends strongly on how bacterial DNA is extracted. In this study, we have shown that DNA extraction method choice has a major impact on Oxford Nanopore sequencing performance across clinically relevant gram-negative bacteria. While silica column-based extraction maximized genomic completeness and analytical depth, paramagnetic bead-based reverse purification offered superior portability with sufficient resolution for frontline AMR surveillance. These findings highlight a practical trade-off between field deployability and high-resolution genomic characterization in low-resource settings.",
-      "authors": [
-        "Louis Kyei-Tuffuor",
-        "Samuel Kekeli Agordzo",
-        "Angela Krobea Asante",
-        "Davina Serwaa Boateng",
-        "Winifred Nana Serwaa Adjei",
-        "Venus Nana Boakyewaa Frimpong",
-        "Rita Nartey",
-        "Francis Agyemang-Yeboah",
-        "Rea Maja Kobialka",
-        "Ahmed Abd El Wahed",
-        "Uwe Truyen",
-        "Yaw Ampem Amoako",
-        "Richard Odame Phillips",
-        "Michael Frimpong"
-      ],
-      "doi": "10.1128/spectrum.00692-26",
-      "arxiv_id": "",
-      "pubmed_id": "42695686"
-    },
-    {
-      "title": "Experimental and In Silico Analysis of the Structural Dynamics of Dengue NS2B-NS3 Protease",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748787v1",
-      "abstract": "The Dengue virus (DENV), a major global health concern, causes dengue fever, predominantly affecting tropical and subtropical regions. The NS2B-NS3 protease complex of DENV is critical for viral replication, making it a promising target for antiviral drug development. This study investigates the structural dynamics of the NS2B-NS3 protease under varying pH conditions, integrating experimental and computational approaches. The recombinant NS2B-NS3 protease was expressed in E. coli, purified using affinity chromatography, and analysed for purity via SDS-PAGE. Circular dichroism (CD) spectroscopy revealed pH-dependent secondary structural changes, indicating stability at neutral to slightly basic pH and destabilization under acidic and highly basic conditions. Dynamic light scattering (DLS) analysis demonstrated protein aggregation and structural heterogeneity under extreme pH levels. Complementary in silico techniques, including homology modelling and molecular dynamics (MD) simulations, provided detailed insights into the conformational changes of the protease. The modelled structure, validated and refined through computational tools, revealed structural stability at physiological pH, with notable disruptions at pH extremes. DSSP (Dictionary of Secondary Structure of Proteins) and principal component analyses highlighted significant secondary structural transitions, especially at acidic pH where -helices and {beta}-sheets transformed into random coils Docking and MD simulation was carried out with the small molecule for therapeutic analysis between Dengue NS2bNS3 and small molecule. This study emphasizes the pH-dependent conformational plasticity of the NS2B-NS3 protease, contributing to the understanding of its functional mechanisms and providing a foundation for the rational design of pH-specific inhibitors. These findings underscore the importance of structural biology in advancing therapeutic strategies against dengue fever.",
-      "authors": [
-        "Muthuvel, s. k.",
-        "BALAKRISHNAN, S. S.",
-        "MANJINI, S.",
-        "DHAL, K.",
-        "DAS, S.",
-        "S, D."
-      ],
-      "doi": "10.64898/2026.09.02.748787",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Gene duplication shaped the origin and evolution of the vertebrate olfactory combinatorial code",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747588v1",
-      "abstract": "Animals read their chemical environment through olfactory receptors, which form part of the class A GPCRs and are the largest gene family devoted to a single function in animals. Each odorant molecule activates a different combination of receptors, projects distinctly in the brain, and so yields a distinct odour percept. The principles of this coding are well described, and the evolution and regulation of these genes are actively researched. However, how the code was initially assembled and evolved has not been examined. Here we combine phylogenetics, receptor-ligand interactions predicted by paired protein and chemical language models, ancestral sequence reconstruction, and chemical-space analysis. Predicted activation profiles group odorants into six clusters -each enriched for its own set of odour descriptors- so that molecules read by similar receptor combinations tend to smell alike. Reconstructed ancestors place the origin of the code at the first duplication of the family, in the gnathostome ancestor, at the class I/class II split. The first duplicates then diverged asymmetrically into distinct chemical subspaces. One kept a third of the ancestral ligands; the other re-tuned almost completely and took up carboxylic acids -the polar chemistry long associated with class I. Aromatics were retained and enriched on the class II side. Combinatorial coding was not really invented: it arose once, at the first duplication, and was never lost.",
-      "authors": [
-        "Zirdeli, I.",
-        "Georgoulis, E.",
-        "Pyrris, Y.",
-        "Pantazis, Y.",
-        "Pittis, A. A."
-      ],
-      "doi": "10.64898/2026.08.31.747588",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Global tree encoding of atlas-scale single-cell genomics",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.747971v1",
-      "abstract": "The rapid expansion of single-cell genomic datasets has led to the compilation of biological resources comprising hundreds of millions of cells across tissues, developmental stages, and disease states. This has underscored the need for scalable and interpretable data representations that preserve the complex relationships and multi-scale organization of cellular states, while remaining computationally tractable at atlas scale. Existing approaches based on discrete abstractions have enabled cell annotation, clustering, and trajectory inference, but are often optimized for local inference tasks and may obscure continuous cellular relationships and multi-resolution structure within complex transcriptional and other genomic landscapes. Moreover, increasing dataset sizes often require information-reduction strategies such as random downsampling, limiting the resolution of rare cell populations and heterogeneous cellular states. Here, we present MILK, a scalable computational framework that organizes high-dimensional single-cell populations into unified tree representations. Across large-scale transcriptomic atlases, MILK enables representative subsampling with preserved information, supporting the tractable application of existing algorithms for tasks including deep generative model training and foundation model benchmarking. Additionally, MILK enables holistic, multi-resolution analyses that capture global developmental trajectories, characterize disease-associated cellular perturbations across tissues, and facilitate comparison of transcriptional programs across species within a coherent hierarchical framework. Together, these results establish the hierarchical organization of biological data as a scalable and unifying representation of cellular identity, enabling integrative analysis of single-cell genomic data across diverse contexts.",
-      "authors": [
-        "Kiyota, B.",
-        "Lee, C.",
-        "Yao, H.",
-        "Yachie, N."
-      ],
-      "doi": "10.64898/2026.08.31.747971",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Evolutionary adaptation of helminth immunomodulators to their hosts",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748793v1",
-      "abstract": "Background: Parasitic nematodes have evolved secreted effector proteins which interact with host molecules to modulate the host immune response. These interactions can be highly specific and are under strong selective pressure. Here, we investigate the host-pathogen interaction between Heligmosomoides bakeri and its natural host Mus musculus, and between H. polygyrus and its natural host Apodemus sylvaticus. We focus on the Alarmin Release Inhibitor family (previously called HpARI) produced by heligmosomid parasites, which interact with IL-33 and heparan sulphate. Results: Using comparative genomics, we identified duplications and diversifications of the ARI family including multiple copies of ARI1 and conserved ARI3 homologues in both H. bakeri and H. polygyrus. We identify a new family member, HpolARI4, encoded by H. polygyrus, as well as a more distant homologue, HmixARI, encoded by Heligmosomum mixtum, a parasite of the bank vole (Myodes glareolus). Our functional assays identify that HpolARI4 preferentially blocks A. sylvaticus IL-33 but has little activity against M. musculus IL-33, whereas HbakARI2 is highly specific for M. musculus IL-33. We furthermore show differential interaction with host heparan sulphate, with HbakARI2 and HpolARI4 showing high affinity binding, whereas HbakARI3 shows no binding. We further test this family against non-host human IL-33 and show that functional suppression can be achieved by HbakARI3 in vitro and in vivo. Conclusion: By integrating genomic data, structural insights, and functional assays, we reveal how the expansion and diversification of the ARI family drive host-specific IL-33 modulation, providing a molecular model for nematode-host co-evolution.",
-      "authors": [
-        "Ward, B.",
-        "Jamwal, A.",
-        "Colomb, F.",
-        "Ogunkanbi, A.",
-        "Fleming, O. C. A.",
-        "Darroch, S.",
-        "Donnelly, F. A. J.",
-        "Gregory, L.",
-        "Smyth, D. J.",
-        "Pedersen, A. B.",
-        "Stevens, L.",
-        "Cohen, S.",
-        "Higgins, M. K.",
-        "McSorley, H. J."
-      ],
-      "doi": "10.64898/2026.09.02.748793",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Systematic benchmarking of commercial workflows for isoform-resolved single-nucleus transcriptomics",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748518v1",
-      "abstract": "Short-read sequencing-based single-cell transcriptomics represents the current gold standard for studying cellular transcriptomes but remains limited in its ability to resolve full-length transcript isoforms and splicing patterns. Long-read single-cell and single-nucleus RNA sequencing (LR sc/snRNA-seq) enables the transcriptome-wide characterization of full-length isoforms at cellular resolution, yet the relative performance of commercially available workflows remains insufficiently explored. Here, using nuclei extracted from a standardized multi-species benchmark sample and Oxford Nanopore Technologies long-read sequencing, we systematically benchmarked four LR snRNA-seq strategies: 10x Genomics 3', 10x Genomics 5', ArgenTag, and Parse Biosciences. Comparing transcriptome features qualitatively and quantitatively, as well as the concordance with matched short-read data and the ability to resolve cellular heterogeneity, we identified substantial method-specific differences in read length and yield, transcript coverage, isoform detection, and recovery of sample-specific biological information, with the 10x Genomics 3' and 5' assays emerging as the most balanced approaches for comprehensive isoform-resolved single-nucleus transcriptomics. Altogether, our study provides a systematic assessment of four commercially available workflows for performing LR snRNA-seq and highlights key methodological trade-offs related to distinct library preparation strategies, thus providing practical guidance for future isoform-resolved transcriptome studies at the single-nucleus level.",
-      "authors": [
-        "Köhler, F.",
-        "Delgado-Tejedor, A.",
-        "Zehnsdorf, M.",
-        "Salgado Albarran, M.",
-        "Zalba Jadraque, L.",
-        "Gonzalez Navarrete, I.",
-        "Cozzuto, L.",
-        "Ponomarenko, J.",
-        "Fuste Perez, B."
-      ],
-      "doi": "10.64898/2026.09.01.748518",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "High-Resolution Melting (HRM) Assay for Molecular Detection of Calonectria ilicicola in Soybean",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748390v1",
-      "abstract": "Calonectria ilicicola, an emerging and economically important soilborne pathogen in the U.S. Midwest, causes red crown rot (RCR) disease of soybean. It is essential to have an early and accurate detection method for effective management of RCR, since disease symptoms are nearly identical to those of other soybean diseases. In this study, we developed and validated a high resolution melting (HRM) assay targeting the translation elongation factor 1&alpha (TEF-1&alpha) gene for the specific detection of C. ilicicola. The assay was evaluated using a specificity panel of 78 DNA samples, including 67 fungal and oomycete DNA samples and 11 soybean host-DNA samples, as well as DNA from 56 field-collected symptomatic and asymptomatic soybean tissues. The HRM assay generated distinct melting profiles and, where applicable, absence or delayed amplification that reliably differentiated C. ilicicola from non target fungi and oomycetes. Additionally, the marker distinguished three haplotypes among C. ilicicola isolates, consistent with nucleotide polymorphisms in the TEF-1&alpha target region. The assay demonstrated strong quantitative performance, exhibiting high linearity (R^2= 0.9992) and acceptable amplification efficiency (94.05%) across a broad DNA concentration range. In field samples, HRM based detection aligned with disease status, accurately identifying C. ilicicola in symptomatic plants and no detection in asymptomatic tissues. Overall, this HRM assay provides a rapid, sensitive, and reliable diagnostic tool for routine molecular detection of C. ilicicola.",
-      "authors": [
-        "Pandey, K. R.",
-        "Camiletti, B. X.",
-        "Klein-Gordon, J. M.",
-        "Schroeder, N. E.",
-        "Clough, S. J.",
-        "Karki, H. S."
-      ],
-      "doi": "10.64898/2026.09.01.748390",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Turning Domain Expertise into Multi-Dimensional Evaluation of Biomedical AI with Karenina",
-      "source": "bioRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748513v1",
-      "abstract": "Language models and agents are increasingly used in biomedicine, but current benchmarks reward correct answers even when the underlying reasoning is flawed. Here we introduce Karenina, an open-source framework that turns expert knowledge into multi-dimensional evaluations of questions, conversations and autonomous agents. Illustrated in Question-Answer pairs, multi-turn conversations and autonomous data-analysis, these dimensions together moves evaluation beyond scoring, enabling trustworthy decision-making with AI in biomedicine.",
-      "authors": [
-        "Carli, F.",
-        "Rusina, P.",
-        "Ai, L.",
-        "Kuechenhoff, L.",
-        "To, P. K. P.",
-        "McDonagh, E. M.",
-        "Lobentanzer, S.",
-        "Petroni, F.",
-        "Dugourd, A.",
-        "Ochoa, D.",
-        "Saez-Rodriguez, J."
-      ],
-      "doi": "10.64898/2026.09.01.748513",
-      "arxiv_id": "",
-      "pubmed_id": ""
     },
     {
       "title": "Unlocking Sensitive Data with SPHERE in the Age of AI",
@@ -641,44 +477,93 @@
       "pubmed_id": ""
     },
     {
-      "title": "Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain",
-      "source": "medRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.medrxiv.org/content/10.1101/2025.04.17.25326042v3",
-      "abstract": "Multi-trait QTL (xQTL) colocalization has shown great promises in identifying causal variants with shared genetic etiology across multiple molecular modalities, contexts, and complex diseases. However, the lack of scalable and efficient methods to integrate large-scale multi-omics data limits deeper insights into xQTL regulation. Here, we propose ColocBoost, a multi-task learning colocalization method that can scale to hundreds of traits, while accounting for multiple causal variants within a genomic region of interest. ColocBoost employs a specialized gradient boosting framework that can adaptively couple colocalized traits while performing causal variant selection, thereby enhancing the detection of weaker shared signals compared to existing pairwise and multi-trait colocalization methods. We applied ColocBoost genome-wide to 17 gene-level single-nucleus and bulk xQTL data from the aging brain cortex of ROSMAP individuals (average N=595), encompassing 6 cell types, 3 brain regions and 3 molecular modalities (expression, splicing, and protein abundance). Across molecular xQTLs, ColocBoost identified 16,503 distinct colocalization events, exhibiting 10.7 ({+/-} 0.74)-fold enrichment for heritability across 57 complex diseases/traits and showing strong concordance with element-gene pairs validated by CRISPR screening assays. When colocalized against Alzheimer's disease (AD) GWAS, ColocBoost identified up to 2.5-fold more distinct colocalized loci, explaining twice the AD disease heritability compared to fine-mapping without xQTL integration. This improvement is largely attributable to ColocBoost's enhanced sensitivity in detecting gene-distal colocalizations, as supported by strong concordance with known enhancer-gene links, highlighting its ability to identify biologically plausible AD susceptibility loci with underlying regulatory mechanisms. Notably, several genes including BLNK and CTSH showed sub-threshold associations in GWAS, but were identified through multi-omics colocalizations which provide new functional support for their involvement in AD pathogenesis.",
+      "title": "Validation of a quantitative PCR assay for the detection and quantification of the nematode Litylenchus crenatae in American beech leaf tissue",
+      "source": "bioRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749213v1",
+      "abstract": "Beech leaf disease (BLD), caused by the migratory plant pathogenic nematode, Litylenchus crenatae (LC, Anguinidae) is presently one of the most concerning forest diseases in the United States. BLD has spread rapidly across the landscape and is currently found in 15 U.S. states and Ontario, Canadian, making monitoring a top priority. Here, we report on the development and testing of a probe-based qPCR detection assay that integrates previously reported LC-specific primers with a newly designed probe, enabling sensitive and reproducible quantification of nematodes in plant and non-plant matrices. This assay exhibited strong in silico and in planta specificity and high quantitative performance (R2 = 0.988-0.996), with amplification efficiencies of 90.0-96.8%. The assay also performed consistently on LC-spiked spore trap membranes used to monitor the fungal aerobiome, despite matrix-associated shifts in amplification efficiency. These results support the utility of the assay for monitoring and surveillance. The reliability was further evaluated by two independent diagnostic laboratories, demonstrating high inter-laboratory concordance in detection and strong agreement in relative quantification. The analytical sensitivity and reproducible performance of the assay align with key validation principles outlined by the APS Diagnostic Assay Validation Network (DAVN) and support its application as a molecular tool in experimental, diagnostic, and surveillance contexts, with important implications for national and international LC monitoring and disease management.",
       "authors": [
-        "Cao, X.",
-        "Sun, H.",
-        "Feng, R.",
-        "Mazumder, R.",
-        "Najar, C. F. B. A.",
-        "Li, Y. I.",
-        "De Jager, P. L.",
-        "Bennett, D. A.",
-        "The Alzheimer's Disease Functional Genomics Consortium,",
-        "Dey, K. K.",
-        "Wang, G."
+        "Torres-Bedoya, E.",
+        "Miles, A.",
+        "Ker, J.",
+        "Rotondo, F.",
+        "Snover-Clift, K.",
+        "Bonello, P."
       ],
-      "doi": "10.1101/2025.04.17.25326042",
+      "doi": "10.64898/2026.09.03.749213",
       "arxiv_id": "",
       "pubmed_id": ""
     },
     {
-      "title": "Citation reliability of frontier large language models in medical writing and its automated verification",
-      "source": "medRxiv",
-      "date": "2026-09-04T00:00:00+00:00",
-      "url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361806v1",
-      "abstract": "Large language models (LLMs) are increasingly used to draft medical manuscripts, yet their citations are unreliable and clinicians lack a validated way to verify them. We evaluated three frontier LLMs, Claude Opus 4.8, GPT-5.5, and Gemini 3.5 Flash, generating 270 cardiology narrative reviews with web search enabled, and verified all 8,050 references against PubMed. Problematic references accounted for 11.5% of GPT-5.5 output, 29.2% of Claude output, and 29.6% of Gemini output (P < 0.001), with no significant gradient across topics of differing publication volume (P = 0.052). Misattribution, a valid PubMed identifier that resolves to a different article, made up 77% of errors, whereas fabrication was rare (0.6%). Against an expert-adjudicated set of 270 references, an LLM-based Chain-of-Verification (CoVe) detected 60 of 62 problematic references (sensitivity 96.8%, specificity 98.6%), including every misattribution and fabrication. LLM-generated citations require identifier-level verification, and CoVe provides it at expert-level accuracy.",
+      "title": "Multi-omic Environmental Monitoring Reveals When Molecular Signals Reflect Living Biology",
+      "source": "bioRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749360v1",
+      "abstract": "Environmental molecular monitoring has transformed biodiversity detection, yet most methods capture only species presence through amplified DNA fragments, missing the biological information encoded in native nucleic acids. Here we show that a single shotgun Oxford Nanopore sequencing library from water can be read through several independent biological lenses, and that each class of molecule (environmental RNA, CpG methylation, and bulk DNA) differs in its environmental persistence, which sets the window over which signal can be trusted. Sampling Pacific salmon spawning runs, we simultaneously recovered environmental RNA indicating fresh biological input, CpG methylation profiles reflecting age demographics, and pathogen signatures reflecting health. Environmental RNA tracked spawning phenology, qPCR corroborated the timing of fresh biological input over the weeks sampled, and methylation-based age inference held only while fresh DNA dominated, a condition we term the 'Freshness Gate.' Because environmental water is not a tissue sample, we detect functional transcripts as evidence of biological input but do not infer differential gene expression, and we read methylation state but do not infer biological age outside the Freshness Gate. Variance partitioning is consistent with biological freshness, rather than technical factors such as fragment length or sequencing depth, structuring environmental methylation, though these comparisons did not reach significance at nine time points. Comparable dynamics were observed in Chinook salmon, with timing offsets following their distinct spawning season. By defining when environmental molecules faithfully encode living biology and when degradation decouples signal from current state, our framework sets practical and theoretical boundaries for multi-omic environmental monitoring.",
       "authors": [
-        "Shin, R.",
-        "Lee, J.-M.",
-        "Park, J.",
-        "Kwun, J.-S.",
-        "Cho, H.-W.",
-        "Kang, S.-H.",
-        "Jeon, K.-H."
+        "Ip, Y. C. A.",
+        "Guri, G.",
+        "Brandao-Dias, P. F. P.",
+        "Allan, E. A.",
+        "Kelly, R. P."
       ],
-      "doi": "10.64898/2026.08.31.26361806",
+      "doi": "10.64898/2026.09.04.749360",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "BOTANIC-1: a series of long-context plant genomic foundation models in the agentic era",
+      "source": "bioRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749355v1",
+      "abstract": "The development of climate-resilient crops would be greatly accelerated by models able to reason directly over plant genomic sequences and to pinpoint trait-associated regions or loci. Anticipating the impact of DNA base changes (variants) remains challenging, and understanding regulatory mechanisms is still an active area of research. Through self-supervised training on unannotated genomic data, genomic language models (gLMs) can learn DNA syntax and grammar that go beyond current annotations, thus complementing standard bioinformatics analyses that rely on rules established by decades of genomics research. Here we present our agent-powered Model Factory and its first outputs: the Botanic1 family of gLMs designed for plant research, which operates reliably on sequences from hundreds of base pairs up to 128 kbp. These models outperform all generalist and plant-specific gLMs (as well as specialised baselines) on one of the largest sets of plant genomics evaluation tasks reported to date, at a much smaller budget than concurrent models. Mechanistic interpretability analysis identifies features associated with biologically meaningful sequence properties including coding region boundaries and splice site motifs, demonstrating that these models are a source of biological insight beyond their benchmark performance. Finally, because a gLM only becomes practically useful when embedded in a broader workflow, we integrate Botanic1 as a specialised genomic layer callable by a generalist large language model (LLM) agent, illustrating how such hybrid systems could accelerate plant biology research. To support the plant genomics research community, we will release Botanic1-S, Botanic1-M and Botanic1-L for research use at https://huggingface.co/collections/living-models/botanic1-6a97f4e3c33f3d109a75057d",
+      "authors": [
+        "Barozet, A.",
+        "Cabeli, V.",
+        "Ogier du Terrail, J.",
+        "Rukhovich, A.",
+        "Janssoone, T.",
+        "Klajer, G.",
+        "Sheikhitarghi, Z.",
+        "Andrews, G.",
+        "Veran, C.",
+        "Strouk, L."
+      ],
+      "doi": "10.64898/2026.09.04.749355",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Campylobacter jejuni Infection Is Associated With Cell-Cycle, Redox, and Metabolic Remodeling of Human Intestinal Epithelial Cells at Single-Cell Resolution",
+      "source": "bioRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749441v1",
+      "abstract": "Campylobacter jejuni is the leading cause of bacterial enteric infections worldwide, including in the US. It is also a zoonotic pathogen that is transmitted by food and water, causing diarrhea and intestinal inflammation, and is responsible for high morbidity and mortality in young children, the elderly, and immunocompromised patients. During infection, C. jejuni profoundly perturbs intestinal epithelial physiology, leading to widespread mucosal damage and inflammatory response. However, the heterogeneity and coordination of host transcriptional responses remain incompletely defined. We performed single-cell RNA sequencing of Caco-2 intestinal epithelial cells from uninfected Control and C. jejuni-infected biological samples using 10x Genomics GEM-X Flex chemistry. Our dataset comprised 159,088 cells and 18,142 measured features. A Seurat workflow resolved 19 transcriptional states and revealed a highly reproducible condition-associated redistribution of clusters across biological replicates. Our study demonstrated that C. jejuni infection was associated with increased representation of G2/M-classified cells and coordinated induction of checkpoint and mitotic-spindle genes, including CDKN1A, WEE1, MAD2L1, BUB1B, PLK1, CDC20, CDK1, and UBE2C. Furthermore, ranked enrichment independently identified a C. jejuni-enriched Reactome mitotic spindle checkpoint program (NES ~1.67, FDR ~0.013), while Hallmark analysis identified strong TNF/NF-kB, hypoxia, G2M checkpoint, TGF-beta, glycolysis, apoptosis, p53, and mTORC1-associated programs. Infection was also associated with significantly decreased JDP2 and higher NOX1 and DUOX2 gene expression. Furthermore, scMetabolism/AUCell identified 20 KEGG metabolic pathways at FDR <0.05 in a balanced 10,000-cell analysis, with 12 lower and 8 higher in infection. Together, these data support a model in which C. jejuni dramatically restructures epithelial transcriptional states and is accompanied by mitotic-checkpoint, inflammatory/stress, redox, and metabolic remodeling.",
+      "authors": [
+        "Gao, A.",
+        "Newhart, V.",
+        "Kassis, S.",
+        "Bravo, P.",
+        "Alam, A."
+      ],
+      "doi": "10.64898/2026.09.04.749441",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
+      "source": "bioRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749352v1",
+      "abstract": "Protein language models (PLMs) trained on evolutionary sequences learn representations that encode protein structure, enabling direct structure prediction without multiple-sequence alignments (MSAs). Here we present the Atlas model family, an open and trainable system spanning protein language modeling, monomer folding, and protein-complex prediction. AtlasLM-3B is a 3B-scale language model trained with masked language modeling on approximately 1.56 billion sequences, including metagenomic data, and outperforms the similarly sized ESM2-3B in unsupervised contact prediction. Building on these representations, AtlasFold predicts all-atom protein structures and achieves state-of-the-art accuracy among PLM-based folding models. Fine-tuning AtlasFold for protein-complex prediction produces AtlasFold-Multimer (AtlasFold-M), whose antibody-antigen prediction performance is comparable to that of AlphaFold3 and ESMFold2. This protein-specific folding architecture enables fast, memory-efficient inference with AtlasFold and AtlasFold-M. By releasing the training code and data, stage checkpoints, and model weights under the MIT License, we provide a foundation for advancing PLM-based protein structure prediction.",
+      "authors": [
+        "Seo, S.",
+        "Kim, H.",
+        "Moon, S.",
+        "Kim, W. Y.",
+        "Team KAIST,"
+      ],
+      "doi": "10.64898/2026.09.04.749352",
       "arxiv_id": "",
       "pubmed_id": ""
     },
@@ -687,7 +572,7 @@
       "source": "medRxiv",
       "date": "2026-09-05T00:00:00+00:00",
       "url": "https://www.medrxiv.org/content/10.64898/2026.08.21.26361049v2",
-      "abstract": "Medical AI models have made a great impact on biomedical research and real-world clinical applications, but conducting interdisciplinary medical AI research remains challenging, requiring close collaboration between clinicians and AI experts. Recent advances in large language models (LLMs) and autonomous code agents present an opportunity for low cost medical AI development, where clinicians can build AI tailored to their own research questions, even without continuous support from dedicated AI experts. However, enabling code agents to autonomously tackle complex multimodal medical AI development tasks requires clinicians to construct and supervise an AI research loop with detailed technical specifics, demanding substantial expertise in AI and computer science that they often lack. To address this challenge, we introduce the Medical AI Research Loop Agent (MARLA), an agentic framework that completely abstracts the construction and supervision of medical AI research loops from clinicians. Given a clinician-defined research intent, MARLA automatically translates high-level research goals into executable hierarchical research loops, decomposes them into verifiable sub-loops, and specifies the models, datasets, tools, and evaluation protocols required for each task. During execution, MARLA coordinates specialized code agents, monitors progress, diagnoses failures, and iteratively refines research strategies based on experimental feedback to drive the research process toward optimal outcomes. We evaluate MARLA on multimodal medical AI tasks that require closed-loop conversion from high-level clinical study objectives to trained and validated AI models. The results demonstrate MARLAs ability to autonomously conduct complex medical AI research while substantially reducing the need for AI expertise.",
+      "abstract": "Medical AI models have made a great impact on biomedical research and real-world clinical applications, but conducting interdisciplinary medical AI research remains challenging, requiring close collaboration between clinicians and AI experts. Recent advances in large language models (LLMs) and autonomous code agents present an opportunity for low cost medical AI development, where clinicians can build AI tailored to their own research questions, even without continuous support from dedicated AI experts. However, enabling code agents to autonomously tackle complex multimodal medical AI development tasks requires clinicians to construct and supervise an AI research loop with detailed technical specifics, demanding substantial expertise in AI and computer science that they often lack. To address this challenge, we introduce the Medical AI Research Loop Agent (MARLA), an agentic framework that completely abstracts the construction and supervision of medical AI research loops from clinicians. Given a clinician-defined research intent, MARLA automatically translates high-level research goals into executable hierarchical research loops, decomposes them into verifiable sub-loops, and specifies the models, datasets, tools, and evaluation protocols required for each task. During execution, MARLA coordinates specialized code agents, monitors progress, diagnoses failures, and iteratively refines research strategies based on experimental feedback to drive the research process toward optimal outcomes. We evaluate MARLA on multimodal medical AI tasks that require closed-loop conversion from high-level clinical study objectives to trained and validated AI models. The results demonstrate MARLA's ability to autonomously conduct complex medical AI research while substantially reducing the need for AI expertise.",
       "authors": [
         "Chen, X.",
         "Jiang, X.",
@@ -716,6 +601,126 @@
       "doi": "10.64898/2026.04.10.26347909",
       "arxiv_id": "",
       "pubmed_id": ""
+    },
+    {
+      "title": "A Comparative Study in Surgical AI: Potential and Limitations of Data, Compute, and Scaling",
+      "source": "medRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.03.26.26349455v5",
+      "abstract": "Recent Artificial Intelligence (AI) models have matched or exceeded human experts in several benchmarks of biomedical task performance, but multi-modal benchmarks involving surgery in particular are often missing from prominent medical benchmark suites (specifically, those requiring visual recognition beyond just text question-answering). Since surgery requires coordinating disparate tasks---including multimodal data integration, human interaction, and physical effects---generally-capable AI models could be particularly attractive as collaborative tools if performance could be improved. On the one hand, the canonical approach of scaling architecture size and training data is attractive, especially since there are millions of hours of surgical video data generated per year. On the other hand, preparing surgical data for AI training requires significantly higher levels of professional expertise, and training on that data requires expensive computational resources. These trade-offs paint an uncertain picture of whether and to-what-extent modern AI could aid surgical practice. In this paper, we explore this question through a case study of surgical tool detection using state-of-the-art AI methods available in 2026. We demonstrate that even with multi-billion parameter models and extensive training, current Vision Language Models fall short in the seemingly simple task of tool detection in neurosurgery. Additionally, we show scaling experiments indicating that increasing model size and training time only leads to diminishing improvements in relevant performance metrics. Thus, our experiments suggest that current models could still face significant obstacles in surgical use cases. Moreover, some obstacles cannot simply be ``scaled away'' with additional compute and persist across diverse model architectures, raising the question of whether data and label availability are the only limiting factors. We discuss the main contributors to these constraints and advance potential solutions.",
+      "authors": [
+        "Skobelev, K.",
+        "Fithian, E.",
+        "Baranovski, Y.",
+        "Cook, J.",
+        "Angara, S.",
+        "Otto, S.",
+        "Yi, Z.-F.",
+        "Zhu, J.",
+        "Mainkar, N.",
+        "Masson-Forsythe, M.",
+        "Donoho, D. A.",
+        "Han, X. Y."
+      ],
+      "doi": "10.64898/2026.03.26.26349455",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Population Genomics of Salmonella Enteritidis in Saudi Arabia Reveals Globally Circulating Food- and Human-Associated Lineages and Plasmid-Mediated Antimicrobial Resistance",
+      "source": "medRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362153v1",
+      "abstract": "Background: Salmonella enterica serovar Enteritidis (S. Enteritidis) is one of the leading causes of foodborne gastroenteritis worldwide and an increasingly important driver of antimicrobial-resistant infections. Despite its public health importance, genomic surveillance of S. Enteritidis remains sparse across the Middle East, where integrated One Health studies linking human, food, and animal reservoirs are limited. This lack of regional genomic data has hindered understanding of the population structure, transmission dynamics, and dissemination of antimicrobial-resistant lineages. We therefore performed a large-scale One Health genomic investigation of S. Enteritidis in the Kingdom of Saudi Arabia, integrating human, food, poultry, and global genomic datasets to characterize its evolutionary history, transmission dynamics, and antimicrobial resistance. Methods: A total of 220 Salmonella enterica serovar Enteritidis (S. Enteritidis) isolates obtained in Saudi Arabia from human clinical infections and food products between 2020 and 2023 underwent whole-genome sequencing. To position these isolates within a global evolutionary context, they were integrated with all publicly available S. Enteritidis genomes, yielding a comparative dataset of 397 genomes. A comprehensive genomic analysis framework was employed, encompassing population genomic, phylogenetic, and phylodynamic analyses to define population structure, infer evolutionary history, and investigate transmission dynamics. In addition, the genomic determinants of antimicrobial resistance and virulence were characterized, with particular emphasis on plasmid architecture. Results: Isolates from Saudi Arabia belonged predominantly to a single globally distributed epidemiological cluster of S. Enteritidis and were embedded within globally circulating transmission networks rather than forming a distinct endemic population. Within this cluster, the Saudi isolates were distributed across seven Bayesian Analysis of Population Structure (BAPS) groups, representing distinct genomic sub-clones. Multiple lineages contained closely related isolates from Europe, North America, Oceania, and the Middle East, indicating repeated international introductions and extensive global connectivity. Human and food isolates were highly intermixed throughout the phylogeny, with food-associated isolates frequently occupying central positions within transmission networks, consistent with food reservoirs acting as dissemination hubs linking local and international transmission. Phylodynamic analyses indicated that the dominant Saudi-associated lineages emerged within the past 10-15 years and underwent rapid demographic expansion following introduction into the country. Recently emerged epidemic lineages carried significantly higher antimicrobial resistance burdens than ancestral populations and were characterized by near fixation of blaTEM-1 and tetA on IncX1 plasmids, whereas clinically important ESBL genes (blaCTX-M-8 and blaSHV-12) were detected exclusively in human-associated isolates on hybrid resistance-virulence plasmids. Conclusions: The population of S. Enteritidis in Saudi Arabia is shaped by repeated introductions of globally circulating clones, transmission between food and human reservoirs, and the dissemination of resistance plasmids across lineages. The emergence of successful epidemic clones is linked to plasmid-mediated acquisition of antimicrobial resistance determinants. These findings emphasize the importance of integrated One Health surveillance strategies for controlling foodborne transmission and monitoring the emergence of antimicrobial-resistant epidemic lineages.",
+      "authors": [
+        "Alreshoodi, F.",
+        "Zhou, G.",
+        "Huang, J.",
+        "Hinkova, N.",
+        "Alsufyani, A.",
+        "Alotaibi, N. M.",
+        "Alarawi, M. S.",
+        "Alzahrani, K. O.",
+        "Al Salman, S. A.",
+        "Almusa, M. A.",
+        "Alajlan, A. A.",
+        "Alshdokhi, E. A.",
+        "Althobaiti, A.",
+        "Almutairi, H. H.",
+        "Al-Akeel, S. I.",
+        "Al-Ajmi, A.",
+        "AlHarbi, A. L.",
+        "Al Rashidy, M. S.",
+        "Iftikhar, S.",
+        "Fallatah, O.",
+        "Banzhaf, M.",
+        "Alajel, S.",
+        "Senok, A.",
+        "Mukhtar, L.",
+        "Fanning, S.",
+        "Moradigaravand, D."
+      ],
+      "doi": "10.64898/2026.09.03.26362153",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "UKB-KG: Knowledge Graph for Integrating and Enhancing Biomedical Insights from the UK Biobank",
+      "source": "medRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26361902v1",
+      "abstract": "The UK Biobank (UKB) is a cornerstone of modern biomedical research, providing unparalleled data to advance the understanding, prediction, and treatment of diseases. Its contributions span genetics, genomics, disease prediction, and long-term follow-up studies, driving transformative advancements in public health and precision medicine. However, the fragmentation of research outcomes across numerous publications limits analytic efficiency and cross-study integration. To address this, we developed UKB Knowledge Graph (UKB-KG), a high-quality medical knowledge graph constructed using large language models (LLMs) with 88.8% precision as assessed by GPT-5.4. Integrating data from approximately 9,200 UKB-related publications. UKB-KG comprises 292,328 triples enriched with contextual attributes such as source information and demographic details. It reveals intricate relationships among diseases, genes, chemicals, lifestyle factors, and other biomedical entities, while a dynamic scoring mechanism enhances triple retrieval accuracy. Evaluations highlight UKB-KG's transformative potential. (i) Embedding UKB-KG into multi-disease prediction models improves AUROC, AUPRC, and F1 scores by 8.1%, 6.2%, and 2.7%, respectively, for rare diseases. (ii) A tailored retrieval-augmented generation (RAG) approach boosted LLM accuracy by 13.2% on PubMedQA. and (iii) A user-friendly platform enhances accessibility for researchers. By unifying fragmented research and enabling robust data exploration, UKB-KG emerges as a powerful tool for advancing biomedical research and driving innovative healthcare applications.",
+      "authors": [
+        "Wang, Z.",
+        "Wang, J.",
+        "Shen, Y.",
+        "Gao, S.",
+        "Chen, Y.",
+        "Chen, H.",
+        "Cheng, C.",
+        "Yu, K.",
+        "Zhu, H.",
+        "Ye, J."
+      ],
+      "doi": "10.64898/2026.09.02.26361902",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Interactions between influenza and respiratory syncytial viruses: two-pathogen modelling to analyse multiplex data",
+      "source": "medRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362151v1",
+      "abstract": "Background: Influenza and respiratory syncytial virus (RSV) both cause annual peaks in hospitalisation and with considerable overlap. Epidemiological studies suggest an inhibitory relationship, which is supported by laboratory studies. Several biological mechanisms including resource competition and immune activation have been identified, but limited evidence exists to distinguish their effects at the population level. Methods: We developed an influenza-RSV compartmental model to estimate and compare potential interactions using data on virus-associated hospitalisations in Valencia, Spain from 2010 through 2020. We considered five interaction mechanisms: altered susceptibility, transmissibility and severity, a refractory period post-infection, and a residual positivity period. Using Bayesian inference, we fit the model to weekly hospitalisations with influenza, RSV or both, and to national surveillance data for influenza-like illness. Results: We found evidence for inhibition between influenza and RSV, with several interaction mechanisms being supported. In the best-fitting model, active RSV infection reduced the probability of hospitalisation with influenza to 20% of the baseline (with the data supporting values from 0%-60%). Compared to a model without interaction, this mechanism reduced the number of hospital cases with influenza-RSV co-detection by 63%. Conclusions: Our results support the existence of inhibitory mechanisms, with small but substantial effects on disease epidemiology. These results highlight the importance of understanding these interactions under the changing epidemiology of respiratory viruses and vaccinations.",
+      "authors": [
+        "Shirreff, G.",
+        "Chaves, S. S.",
+        "Coudeville, L.",
+        "Mengual-Chulia, B.",
+        "Mira-Iglesias, A.",
+        "Puig-Barbera, J.",
+        "Orrico-Sanchez, A.",
+        "Diez-Domingo, J.",
+        "Valencia Hospital Surveillance Network for the Study of Influenza and Other Respiratory Viruses,",
+        "Opatowski, L.",
+        "Lopez-Labrador, F. X."
+      ],
+      "doi": "10.64898/2026.09.03.26362151",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Auditing Large Language Model-Generated Digital Standardized Patients for Demographic Bias: A Simulation Study with HIV Pre-Exposure Prophylaxis Screening as a Tracer Condition",
+      "source": "medRxiv",
+      "date": "2026-09-07T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361928v1",
+      "abstract": "Large language models (LLMs) are entering clinical training as digital standardized patients (DSPs), simulated patient encounters the model scripts and portrays. Demographic associations learned from corpus co-occurrences can enter at two points: the written case scripts and the live portrayals improvised in role-plays. We audited both pathways using an HIV pre-exposure prophylaxis (PrEP) screening scenario across six demographic factors (age, gender, marital status, sexual orientation, education, and race or ethnicity) in a 216-cell factorial design. With a generated arm and a template-substituted control arm, we simulated 4,320 conversations with fixed audit questions, measuring three channels: the case scripts, the composite role-play trainees receive, and role-play under identical control cases. Differences concentrated where corpus associations were strongest and reinforced predictable stereotypes. Anal sex appeared in 100% of gay mens cases, 83% of bisexual mens and 3% of heterosexual mens; the six factors explained 32% of the variance in composite sexual risk; and education predicted assigned socioeconomic status (adjusted R2 = 0.59). Demographics predicted 5 of the 9 improvised probe responses in composite role-play, and 2 under control cases. These two pathways sometimes had opposite signed effects: the model wrote women with higher alcohol use, but role-played them as drinking less, and the two canceled in composite role-play. An audit of either pathway alone would have obscured both effects. These issues are fixable as they are predictable and consistent. LLM-generated DSPs must have their cases and live portrayals audited as separate objects before deployment.",
+      "authors": [
+        "Daniels, B."
+      ],
+      "doi": "10.64898/2026.09.01.26361928",
+      "arxiv_id": "",
+      "pubmed_id": ""
     }
   ],
   "source_statuses": [
@@ -728,13 +733,13 @@
     {
       "source": "bioRxiv",
       "success": true,
-      "count": 13,
+      "count": 11,
       "error": ""
     },
     {
       "source": "medRxiv",
       "success": true,
-      "count": 4,
+      "count": 7,
       "error": ""
     }
   ]
