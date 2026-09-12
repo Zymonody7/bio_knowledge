@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-11T05:52:18.857407+00:00",
+  "fetched_at": "2026-09-12T05:39:54.342103+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 44,
+  "count": 34,
   "papers": [
     {
       "title": "Multiscale retinal flow on a spherical cap of varying aperture",
@@ -58,26 +58,6 @@
       ],
       "doi": "",
       "arxiv_id": "2608.25757v4",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology",
-      "source": "arXiv",
-      "date": "2026-08-08T14:15:43+00:00",
-      "updated": "2026-09-08T07:13:34+00:00",
-      "url": "http://arxiv.org/abs/2608.08148v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.08148v2",
-      "abstract": "Attention mechanisms have been widely utilized in modern deep learning, and many existing multi-omics models inherit their conventional use to allow unrestricted bidirectional interactions. However, the fundamental logic of life is directional. Existing designs often overlook the directionality suggested by the central dogma, potentially limiting transfer across heterogeneous cancers, downstream tasks, and incomplete modality settings. In this work, we present DoGMA, a central-dogma-guided foundation model for pan-cancer multi-omics analysis, arguing that robust transfer requires representations with domain-specific inductive bias. Concretely, we build it on a Transformer-MoE architecture where directed attention biases inter-omics communication toward central-dogma information flow. We further pretrain our model with masked hierarchical omics reconstruction to guide it toward learning central-dogma-consistent interactions. Across diverse downstream tasks, including cancer representation learning, survival prediction, and metastasis prediction, DoGMA consistently demonstrates strong predictive performance. Ablations and analyses further suggest that the performance gains arise from the synergy between central-dogma-guided directed attention and reconstruction-based pretraining, which together promote more biologically consistent cross-omics information exchange. Overall, DoGMA demonstrates that domain-specific inductive biases can improve the robustness and transferability of multi-omics foundation models, offering new insights into the design of attention mechanisms for multi-omics representation learning.",
-      "authors": [
-        "Junfei Ling",
-        "Bangzheng Pu",
-        "Bingsen Xue",
-        "Tianle Li",
-        "Ruying Hu",
-        "Cheng Jin"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.08148v2",
       "pubmed_id": ""
     },
     {
@@ -183,45 +163,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning",
-      "source": "arXiv",
-      "date": "2026-06-02T17:50:14+00:00",
-      "updated": "2026-09-08T17:50:14+00:00",
-      "url": "http://arxiv.org/abs/2606.03962v2",
-      "pdf_url": "https://arxiv.org/pdf/2606.03962v2",
-      "abstract": "Classical reinforcement learning (RL) typically seeks a deterministic policy that maximizes the expected sum of a scalar reward. Yet, modern applications such as language model fine-tuning or scientific discovery demand diversity. Existing remedies such as entropy regularization or diversity bonuses often require fragile trade-offs that sacrifice performance for stochasticity or rely on heuristic metrics that can misalign policy rankings. We argue that diversity is more naturally understood as the rational response to uncertainty in the reward. When the reward function is not perfectly known--as is the case with ambiguous preferences or imperfect reward models--committing to a single action can be sub-optimal. Building on this, we propose a fundamental reformulation of the RL objective by replacing the scalar reward with a distribution over reward functions, and applying a non-linear objective over sets of actions. The result is a framework in which calibrated behavioural diversity emerges naturally, remains controllable through the reward function distribution, and is obtained without sacrificing expected reward. Focusing on the contextual bandit setting as commonly used in large language model (LLM) post-training, we derive a principled gradient estimator for this objective and prove that our formulation naturally generalizes both vanilla policy gradient and more recently developed action-set approaches. We provide didactic experiments which complement our theoretical results, and our large-scale empirical results in LLM reasoning further demonstrate that this framework offers a robust and theoretically grounded alternative for complex RL tasks where the traditional formulation of the problem fails to induce the desired breadth of agent behaviour.",
-      "authors": [
-        "Anthony GX-Chen",
-        "Ankit Anand",
-        "Gheorghe Comanici",
-        "Zaheer Abbas",
-        "Eser Aygün",
-        "David Smalling",
-        "Shibl Mourad",
-        "Doina Precup",
-        "André Barreto",
-        "Mark Rowland"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.03962v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms",
-      "source": "arXiv",
-      "date": "2026-02-09T14:54:31+00:00",
-      "updated": "2026-09-09T00:54:15+00:00",
-      "url": "http://arxiv.org/abs/2602.08751v4",
-      "pdf_url": "https://arxiv.org/pdf/2602.08751v4",
-      "abstract": "Motivation: Interpretability is not optional in biology: understanding gene regulation requires models whose learned structure can be directly interrogated, not merely accurate predictors whose internals resist mapping onto regulatory relationships. We ask whether an architecture mirroring the central dogma yields attention and gradient maps that recover known regulatory elements and networks in inspectable form. Results: Central Dogma Transformer II (CDT-II) mirrors the central dogma in its architecture -- DNA self-attention, RNA self-attention, and DNA-to-RNA cross-attention -- requiring only genomic embeddings and raw per-cell expression. On K562 CRISPR interference (CRISPRi) data with five genes held out entirely, CDT-II predicts perturbation effects (per-gene mean r = 0.84), recovers the GFI1B regulatory network (6.6-fold enrichment, P = 3.5 x 10^-17), and concentrates cross-attention on ENCODE regulatory elements including CTCF sites (mean 7.67x across 28 target genes, P < 0.001). Gradient attribution predicts consequences of perturbing therapeutic targets (mean r = 0.82). For TFRC, target of the anti-TfR1 antibody PPMX-T003, it identifies erythrocyte-structure, iron-dependent DNA-synthesis and oxidative-stress genes, matching anemia and ferroptosis reported clinically and preclinically -- without clinical data as input. CDT-II acts as an AI microscope, surfacing clinically relevant regulatory structure from perturbation experiments alone. Availability: Source code is available at https://github.com/nobusama/CDT2. Pre-computed embeddings, training data, and model weights are available at https://huggingface.co/datasets/nobusama17/CDT2-data.",
-      "authors": [
-        "Nobuyuki Ota"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.08751v4",
-      "pubmed_id": ""
-    },
-    {
       "title": "When do cheap embeddings beat protein language models? A theoretically-grounded hashing sketch for biological sequence classification",
       "source": "arXiv",
       "date": "2025-12-10T23:03:10+00:00",
@@ -237,23 +178,6 @@
       ],
       "doi": "",
       "arxiv_id": "2512.10147v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Structure-based Transfer Learning",
-      "source": "arXiv",
-      "date": "2026-09-08T09:29:26+00:00",
-      "updated": "2026-09-08T09:29:26+00:00",
-      "url": "http://arxiv.org/abs/2609.08487v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.08487v1",
-      "abstract": "Transfer learning improves estimation in a target study using information from related sources. Classical transfer learning is typically data-based, requiring access to the source data or to a model fitted on them. Neither is available in many modern studies, as both are often proprietary or unreported. What can be transferred instead is structure: summarized information derived from a source, such as the supports of predictors, which is available and interpretable without access to the source data or model. The prevalence of the Large Language Model (LLM) provides a rich source of such structure information. However, data-based transfer learning can not well utilize it as accessing the data and model of the LLM is often infeasible. In this paper, we propose a novel transfer learning framework based on structure. In particular, we focus on linear model and aim to use supports generated by multiple agents, such as LLM, to improve estimation in the target study. Our procedure maps each support into the target parameter space, aggregates the results with data-driven weights, and applies a sparse correction against inaccurate supports. We establish nonasymptotic guarantees: the estimator improves on the target-only Lasso when the supports are informative and never does worse otherwise. Simulations and a gene-expression application confirm both properties.",
-      "authors": [
-        "Ho Yi Alexis Ho",
-        "Xinzhou Guo",
-        "Shuoxun Xu"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.08487v1",
       "pubmed_id": ""
     },
     {
@@ -742,120 +666,13 @@
       "doi": "",
       "arxiv_id": "2609.09768v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "Muscle Memory for Agents: Compile not Merely Retrieve",
-      "source": "arXiv",
-      "date": "2026-08-10T01:30:55+00:00",
-      "updated": "2026-09-09T02:15:56+00:00",
-      "url": "http://arxiv.org/abs/2608.08995v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.08995v2",
-      "abstract": "Memory for LLM agents has converged on a single architectural pattern: store experience as text, embeddings, reflections, or rules; retrieve at inference time; let a general-purpose orchestrator interpret what to do. This paper argues that the pattern is the wrong default for personalization. We position Muscle Memory - the practice of compiling recurring user intent into purpose-built specialist agents - as a distinct memory paradigm from retrieval, and we argue that compilation is a better fit for the workloads where current assistants impose a multi-turn tax on their users: making them repeatedly correct format, depth, and scope to obtain a domain-appropriate answer. We support the position with a reference implementation and empirical evidence. The implementation is a four-phase pipeline (Harvest $\\rightarrow$ Analyze $\\rightarrow$ Augment $\\rightarrow$ Evaluate) that mines conversational history, separates behavioral from task patterns, and emits quality-gated executable compiled specialists with two-stage trigger matching. On 90 held-out scenarios across five user personas, the augmented assistant wins 32 of 36 cases where a specialist fires, an 88.9% win rate, with a +2.05 personalization gain and only a $-0.28$ accuracy cost on a 1-4 scale. We discuss why compilation is better suited than retrieval in this regime, what the result implies for the broader memory design space, and what open problems remain.",
-      "authors": [
-        "Pouya Ghiasnezhad Omran",
-        "Soujanya Lanka",
-        "Qin Zhang",
-        "Tanya Dixit"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.08995v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Reproducing Omitted Temporal Expressions in Japanese News for Retrieval-Augmented Applications",
-      "source": "arXiv",
-      "date": "2026-09-09T00:49:27+00:00",
-      "updated": "2026-09-09T00:49:27+00:00",
-      "url": "http://arxiv.org/abs/2609.09569v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09569v1",
-      "abstract": "News articles often contain omitted temporal expressions, such as day-only or month-only mentions, which must be interpreted with reference to the publication date. When such articles are indexed or processed as standalone text in search and retrieval-augmented generation (RAG) systems, these omissions can cause temporal mismatches and unstable interpretation by large language models. We focus on reproducing omitted temporal expressions as concrete dates or intervals using the publication date as external context before the articles are indexed for search and RAG applications. Specifically, building on established temporal-expression extraction and normalization techniques and informed by a manual analysis of Japanese news articles, we propose jaROTE, a rule-based pipeline for Japanese news. Experiments on two news corpora demonstrate that jaROTE achieves high performance, and remains competitive with LLMs while providing a fast, low-cost pipeline. We further show that temporal reproduction improves time-constrained lexical retrieval, demonstrating the practical value of publication-date-grounded normalization for Japanese news retrieval.",
-      "authors": [
-        "Tomoaki Yasuda",
-        "Shotaro Ishihara"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.09569v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Agentic AI-enabled Semantic Commissioning of a Cognitive Digital Twin for Reconfigurable Manufacturing",
-      "source": "arXiv",
-      "date": "2026-09-08T22:34:38+00:00",
-      "updated": "2026-09-08T22:34:38+00:00",
-      "url": "http://arxiv.org/abs/2609.09503v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09503v1",
-      "abstract": "Rapid bespoke commissioning of the Cognitive Digital Twin (CDT) is a major challenge in reconfigurable manufacturing. Traditional digital twin (DT) construction methods primarily focus on geometric reconstruction, often neglecting the deep semantic integration and functional interoperability necessary for autonomous reasoning. This paper proposes an agent-based, AI-driven workflow to automate end-to-end CDT debugging. The system utilises LangGraph as a multi-agent orchestration engine to achieve dual-path synthesis: the semantic path extracts technical specifications from unstructured documents using Retrieval Augmented Generation (RAG), while the functional path autonomously discovers and binds to real-time industrial telemetry data using Model Context Protocol (MCP). Experimental validation in a robotic machining cell demonstrates that the system achieves a mean average accuracy (mAP) of 97.2% in perception and reduces the deployment cycle from several weeks to an average of 2 hours, marking a paradigm shift from manual scripting to autonomous orchestration.",
-      "authors": [
-        "Yangyang Liu",
-        "Xun Xu",
-        "Jan Polzer"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.09503v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Do LLMs Make More Mistakes If They Do Not Believe the Input Data?",
-      "source": "arXiv",
-      "date": "2026-09-08T18:55:45+00:00",
-      "updated": "2026-09-08T18:55:45+00:00",
-      "url": "http://arxiv.org/abs/2609.09363v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09363v1",
-      "abstract": "Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how faithfulness of LLMs to provided context depends on how plausible they perceive the context to be (context-memory conflict). To better identify error patterns, we make use of the increased difficulty of non-English and low-resource language text generation and input data based on local knowledge, only partially captured in models' parametric knowledge. We let the models generate text in English, Czech, Slovak and Upper Sorbian from factual (FA), counterfactual (CFA) and fictional (FI) RDF triples containing local Czech and Slovak data. Contrary to our expectations, we observe only a weak context-memory conflict on the human-annotated sample. For Kimi K3 as an LLM judge, which agrees well with human annotations on the sample, counterfactual inputs receive only slightly lower faithfulness scores than factual ones (-0.05 on a 1-5 scale). We also find that a suboptimal choice of LLM judge would lead to overestimating the strength of the context-memory conflict.",
-      "authors": [
-        "Peter Kochelka",
-        "Aleš Manuel Papáček",
-        "Vojtěch Dvořák",
-        "Ondřej Dušek"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.09363v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ReCite: Agentic Reasoning for Faithful Citation",
-      "source": "arXiv",
-      "date": "2026-09-08T17:59:50+00:00",
-      "updated": "2026-09-08T17:59:50+00:00",
-      "url": "http://arxiv.org/abs/2609.09156v1",
-      "pdf_url": "https://arxiv.org/pdf/2609.09156v1",
-      "abstract": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that fail to logically support the author's claim. To address this challenge, we argue that accurate citation requires a shift from similarity-based search to active, claim-level reasoning. We propose ReCite, a decoupled agentic framework that orchestrates location perception, intent-aware query planning, and reflective verification. Trained on synthesized reasoning trajectories, our agent verifies claim-evidence consistency and triggers self-correction loops when retrieved candidates lack logical support. Experiments demonstrate that our lightweight framework outperforms state-of-the-art massive generative models in strict citation accuracy. By grounding literature matching in verifiable logic rather than semantic overlap, ReCite establishes a reliable foundation for automated academic writing.",
-      "authors": [
-        "Yuyang Huang",
-        "Bobo Li",
-        "Jiajia Song",
-        "Yuzhe Ding",
-        "Chong Teng",
-        "Fei Li",
-        "Donghong Ji"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.09156v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "TianoForge: An Automated Bug Triage Approach for the TianoCore UEFI Firmware Development Community",
-      "source": "arXiv",
-      "date": "2026-08-24T13:49:16+00:00",
-      "updated": "2026-09-08T15:27:27+00:00",
-      "url": "http://arxiv.org/abs/2608.23259v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.23259v2",
-      "abstract": "We propose a novel approach to bug triage in the TianoCore open-source UEFI firmware development ecosystem. This integrated approach, called TianoForge, deploys the state of the art in artificial intelligence, specifically machine learning, to enable automated bug triage. This includes invalid bug report detection, duplicate bug report detection, bug report prioritization, and bug report assignment. We use various Generative Pretrained Transformer (GPT) Large Language Models (LLMs) with and without Retrieval Augmented Generation (RAG) to automate these tasks. Given the crucial role of bug triage in software maintenance and the huge number of untriaged issues in the TianoCore community, in particular, their primary project, EDK II, we expect a significant impact on the efficiency of TianoCore software maintenance processes, primarily bug triage and resolution. Our experimental study shows that TianoForge reduces the average bug triage time from around 11 days to approximately 7 minutes, which is a 99.95% reduction.",
-      "authors": [
-        "Nazanin Siavash",
-        "Terrance E. Boult",
-        "Armin Moin"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.23259v2",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 44,
+      "count": 34,
       "error": ""
     }
   ]
