@@ -1,21 +1,21 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-09-12T05:40:45.006829+00:00",
+    "updated_at": "2026-09-13T06:02:09.472356+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 3843,
-    "last_run_count": 48,
+    "total_papers": 3844,
+    "last_run_count": 4,
     "sources": {
-      "PubMed": 342,
+      "PubMed": 343,
       "arXiv": 2753,
       "bioRxiv": 471,
       "medRxiv": 277
     },
     "categories": {
       "clinical_application": 290,
-      "dataset": 420,
+      "dataset": 421,
       "foundation_model": 1800,
       "general": 117,
       "methods": 1216
@@ -23,7 +23,7 @@
     "topics": {
       "application_monitoring": 46,
       "data_fair_training": 2,
-      "foundation_model_agent": 2552,
+      "foundation_model_agent": 2553,
       "pathogenomics": 150,
       "sequencing_bioinformatics": 114
     },
@@ -32,7 +32,7 @@
       "2023": 2,
       "2024": 33,
       "2025": 344,
-      "2026": 3463
+      "2026": 3464
     }
   },
   "indexes": {
@@ -376,6 +376,7 @@
         "doi:10.3325/cmj.2026.67.203",
         "doi:10.33393/jcb.2026.3777",
         "doi:10.34133/csbj.0191",
+        "doi:10.34133/csbj.0220",
         "doi:10.35772/ghm.2026.01058",
         "doi:10.4103/nrr.nrr-d-25-00911",
         "doi:10.7759/cureus.109744",
@@ -4530,6 +4531,7 @@
         "doi:10.1186/s12864-026-12976-5",
         "doi:10.18653/v1/2026.eacl-long.203",
         "doi:10.3390/app16105069",
+        "doi:10.34133/csbj.0220",
         "doi:10.5281/zenodo.20076420",
         "doi:10.64898/2026.01.12.698650",
         "doi:10.64898/2026.01.13.699306",
@@ -9784,6 +9786,7 @@
         "doi:10.24251/hicss.2026.213",
         "doi:10.26116/tshd.47714582",
         "doi:10.34133/csbj.0191",
+        "doi:10.34133/csbj.0220",
         "doi:10.35772/ghm.2026.01058",
         "doi:10.4103/nrr.nrr-d-25-00911",
         "doi:10.5121/csit.2026.160507",
@@ -13786,6 +13789,7 @@
         "doi:10.33393/jcb.2026.3777",
         "doi:10.3390/app16105069",
         "doi:10.34133/csbj.0191",
+        "doi:10.34133/csbj.0220",
         "doi:10.35772/ghm.2026.01058",
         "doi:10.4103/nrr.nrr-d-25-00911",
         "doi:10.46938/tv.2026.728",
@@ -28101,6 +28105,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.34133/csbj.0220": {
+      "paper_id": "doi:10.34133/csbj.0220",
+      "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
+      "source": "PubMed",
+      "date": "2026-01-01T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/",
+      "abstract": "Human leukocyte antigen (HLA) molecules participate in cellular immune responses by binding to peptide fragments derived from antigens. Exploring this process is crucial to understanding the mechanisms and underlying factors that regulate the cellular immune system. Due to the extreme polymorphism of HLA, the peptides obtained from mass spectrometry of eluted ligand experiments typically correspond to multiple HLA alleles. They are thus poly-specific, providing various options for HLA assignments. This introduces notable challenges for accurate peptide-HLA assignment and interpretation. To address this limitation, we present BeitAI-pHLA, a deep learning framework for predicting peptide-HLA class I binding by integrating protein language model embeddings with an attention-based multi-instance learning mechanism. Our evaluations on benchmark and external datasets indicate that BeitAI-pHLA markedly outperforms other advanced prediction tools across multiple external validation datasets, achieving an area under the precision-recall curve of 0.967 on the multiallele dataset and maintaining robust performance under varying negative peptide proportions. Furthermore, BeitAI-pHLA demonstrates superior motif deconvolution capability, with higher motif similarity (13.6% increase in position-specific scoring matrix correlation coefficient), and achieves the best area under the precision-recall curve in immunogenic neoepitope prediction, offering improved prioritization of candidate peptides for immunogenicity evaluation. BeitAI-pHLA provides a highly accurate tool for binding prediction and deconvolution in multiallele immunopeptidomics data, offering considerable potential for biomedical research and clinical translation. The BeitAI-pHLA prediction tool is accessible at https://phla.kindstarbiotech.com/, and the source code is available at https://github.com/KindstarGlobalInstitute/BeitAI-pHLA.",
+      "abstract_zh": "",
+      "abstract_short": "Human leukocyte antigen (HLA) molecules participate in cellular immune responses by binding to peptide fragments derived from antigens. Exploring this process is crucial to understanding the mechanisms and underlying factors that regulate the cellular immune system. Due to the extreme polymorphism of HLA, the peptides obtained from mass spectrometry of eluted ligand experiments typically correspon",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.75,
+      "novelty_score": 6.25,
+      "importance_score": 5.925,
+      "why_it_matters": "这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。",
+      "analysis_zh": "",
+      "category": "dataset",
+      "doi": "10.34133/csbj.0220",
+      "arxiv_id": "",
+      "pubmed_id": "42729647",
+      "content_hash": "271452b5c874c7e1165af34f2de83967a43a0095c071d5bf414de11f8fff3c2c",
+      "first_seen_at": "2026-09-13T06:02:09.472356+00:00",
+      "last_seen_at": "2026-09-13T06:02:09.472356+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2602.06268v2": {
       "paper_id": "arxiv_id:2602.06268v2",
       "title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
@@ -28457,36 +28491,6 @@
       "content_hash": "c94dea63ef74846c4cc4a69bd208ecd4c14f095322d1cbc86334f6bb1ab29b2e",
       "first_seen_at": "2026-08-25T02:22:00.601550+00:00",
       "last_seen_at": "2026-08-25T02:22:00.601550+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.1093/bioinformatics/btag456": {
-      "paper_id": "doi:10.1093/bioinformatics/btag456",
-      "title": "Genomic language model for predicting enhancers and their allele-specific activity in the human genome.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723633/",
-      "abstract": "Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21,926 enhancers of 201 bp length and 46,159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants, which respectively alter the function of 1,623 and 1,247 ENCODE-cCRE enhancers. Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566). Supplementary data are available at Bioinformatics online.",
-      "abstract_zh": "",
-      "abstract_short": "Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. We present DNABERT-Enhancer, a novel",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 5.75,
-      "novelty_score": 6.25,
-      "importance_score": 5.925,
-      "why_it_matters": "这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。",
-      "analysis_zh": "",
-      "category": "dataset",
-      "doi": "10.1093/bioinformatics/btag456",
-      "arxiv_id": "",
-      "pubmed_id": "42723633",
-      "content_hash": "1f9535f8042db9d98e942f29cb492a2be233f7f2697b04202736f682085c493b",
-      "first_seen_at": "2026-09-12T05:40:45.006829+00:00",
-      "last_seen_at": "2026-09-12T05:40:45.006829+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -35851,8 +35855,8 @@
       "pubmed_id": "42262139",
       "content_hash": "1846d1a34460dec6c983dd8d72b5ca7506f8c28c0fb54570a43db4d59b8ef2fb",
       "first_seen_at": "2026-06-10T05:45:47.628934+00:00",
-      "last_seen_at": "2026-09-12T05:40:45.006829+00:00",
-      "times_seen": 5,
+      "last_seen_at": "2026-09-13T06:02:09.472356+00:00",
+      "times_seen": 6,
       "notes": [],
       "status": "active"
     },
@@ -46754,8 +46758,8 @@
       "pubmed_id": "42721099",
       "content_hash": "aa157ba07215893565aeb7f3193f9d31d9f81764b2efe72175a0d5de0c93bf20",
       "first_seen_at": "2026-09-11T05:52:24.528130+00:00",
-      "last_seen_at": "2026-09-12T05:40:45.006829+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-13T06:02:09.472356+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -66042,6 +66046,36 @@
       "first_seen_at": "2026-09-01T06:13:57.538177+00:00",
       "last_seen_at": "2026-09-03T05:42:33.333124+00:00",
       "times_seen": 3,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1093/bioinformatics/btag456": {
+      "paper_id": "doi:10.1093/bioinformatics/btag456",
+      "title": "Genomic language model for predicting enhancers and their allele-specific activity in the human genome.",
+      "source": "PubMed",
+      "date": "2026-09-10T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42723633/",
+      "abstract": "Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21,926 enhancers of 201 bp length and 46,159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants, which respectively alter the function of 1,623 and 1,247 ENCODE-cCRE enhancers. Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566). Supplementary data are available at Bioinformatics online.",
+      "abstract_zh": "",
+      "abstract_short": "Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. We present DNABERT-Enhancer, a novel",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.75,
+      "novelty_score": 1.25,
+      "importance_score": 4.175,
+      "why_it_matters": "这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。",
+      "analysis_zh": "",
+      "category": "dataset",
+      "doi": "10.1093/bioinformatics/btag456",
+      "arxiv_id": "",
+      "pubmed_id": "42723633",
+      "content_hash": "1f9535f8042db9d98e942f29cb492a2be233f7f2697b04202736f682085c493b",
+      "first_seen_at": "2026-09-12T05:40:45.006829+00:00",
+      "last_seen_at": "2026-09-13T06:02:09.472356+00:00",
+      "times_seen": 2,
       "notes": [],
       "status": "active"
     },
