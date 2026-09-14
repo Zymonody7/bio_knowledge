@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-13T06:02:06.831561+00:00",
+  "fetched_at": "2026-09-14T06:09:14.368983+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 50,
+  "count": 38,
   "papers": [
     {
       "title": "Establishment and application of a multiplex qPCR panel for multi-host surveillance of tick-Borne pathogens.",
@@ -28,6 +28,37 @@
       "doi": "10.1080/22221751.2026.2731498",
       "arxiv_id": "",
       "pubmed_id": "42731067"
+    },
+    {
+      "title": "Digital and computational morphology in hematology: current platforms, clinical evidence, and future requirements.",
+      "source": "PubMed",
+      "date": "2026-09-14T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42732457/",
+      "abstract": "Morphologic examination of peripheral blood and bone marrow remains central to the diagnosis and classification of hematologic disorders. Conventional optical microscopy, however, is labor-intensive, dependent on operator expertise, and affected by interobserver variability. Digital morphology has developed from automated image acquisition and cell pre-classification into a broader field that includes whole-slide imaging, remote review, quantitative morphometry, and artificial intelligence-based analysis. This review examines current applications of digital morphology in peripheral blood, bone marrow aspirates, malaria detection, and body-fluid analysis. Commercial platforms are evaluated with particular attention to the distinction between raw automated pre-classification, expert digital post-classification, and comparison with independent optical microscopy. Digital systems generally perform well for common mature leukocyte populations but remain less reliable for rare or diagnostically critical cells, including blasts, abnormal lymphoid cells, plasma cells, and intermediate maturation stages. Research systems increasingly extend analysis from individual-cell classification to whole-slide, specimen-level, and patient-level assessment. Digital morphology can improve standardization, image traceability, remote consultation, education, proficiency testing, quality assurance, and selected aspects of laboratory workflow. Its clinical value depends on appropriate validation, transparent reporting of reference methods, recognition of algorithm-specific failure modes, and clearly defined criteria for expert review and conventional microscopy. Human expertise remains essential not only for validating results but also for adapting cell taxonomies and interpretive rules to evolving classifications of hematologic diseases. Future progress will require representative multicenter datasets, harmonized morphologic terminology, external validation, interoperability with laboratory information systems, and continuous monitoring after software or hardware updates. Integration of morphology with quantitative hematology, flow cytometry, cytogenetics, genomics, and clinical data may support more comprehensive computational diagnosis. Digital platforms may also broaden access to specialist expertise, training, and quality programs in resource-limited institutions and regions, provided that infrastructure, governance, and professional competency are adequately supported.",
+      "authors": [
+        "Gina Zini"
+      ],
+      "doi": "10.1515/cclm-2026-1265",
+      "arxiv_id": "",
+      "pubmed_id": "42732457"
+    },
+    {
+      "title": "Peptide Aptamers: Innovative Design and Applications in Pathogen Detection.",
+      "source": "PubMed",
+      "date": "2026-09-14T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42673314/",
+      "abstract": "Peptide aptamers are short synthetic peptides that recognize targets with high affinity and specificity, offering advantages over antibodies and nucleic acid aptamers in size, structural flexibility, biocompatibility, and ease of chemical modification. Their design has progressed from traditional experimental screening to advanced computational approaches, such as structure-based rational design and artificial intelligence-driven generation. These methods have substantially enhanced screening efficiency and binding performance. For pathogen detection, biosensors employing peptide aptamers enable the rapid, sensitive, and specific identification of viruses, parasites, and other pathogens. Although challenges in affinity and stability remain, ongoing innovation positions peptide aptamers as a promising molecular tool for next-generation diagnostic platforms. This review systematically summarizes the design and key technological advances in peptide aptamers, emphasizing both traditional experimental screening and computer-aided design strategies. It also highlights representative applications of peptide aptamers in pathogen detection, providing a reference for developing high-performance recognition elements and novel detection platforms.",
+      "authors": [
+        "Shengjie Wu",
+        "Xiaoyu Wu",
+        "Jie Wen",
+        "Junwen Chen",
+        "Tonggong Liu",
+        "Dayong Gu"
+      ],
+      "doi": "10.1002/cbic.70525",
+      "arxiv_id": "",
+      "pubmed_id": "42673314"
     },
     {
       "title": "Cell separation coupled with surface-enhanced Raman spectroscopy: A critical review.",
@@ -549,7 +580,7 @@
       "pubmed_id": "42727818"
     },
     {
-      "title": "Development and Preliminary Evaluation of a Chimeric Epitope-Based Antigen (TevISDY) for Serological Detection of Surra.",
+      "title": "Development and preliminary evaluation of a chimeric epitope-based antigen (TevISDY) for serological detection of surra.",
       "source": "PubMed",
       "date": "2026-09-11T00:00:00+00:00",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42727695/",
@@ -606,477 +637,196 @@
       "pubmed_id": "42727250"
     },
     {
-      "title": "Thirty years of adjuvant therapy: From treating risk to treating residual disease.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42731347/",
-      "abstract": "Over the past three decades, adjuvant therapy for solid tumours has evolved from treatment based predominantly on anatomical recurrence risk towards strategies informed by tumour biology, treatment response, and molecular residual disease. Cytotoxic chemotherapy and endocrine therapy established the curative potential of postoperative systemic treatment, while targeted agents and immunotherapy expanded its efficacy across malignancies. However, matching a drug to tumour biology does not establish whether residual cancer remains, and many patients receive treatment despite having been cured by surgery alone. This Perspective examines the transition from empirical risk reduction towards selective intervention against residual disease. Response-adapted perioperative strategies provide a dynamic assessment of treatment sensitivity and support postoperative escalation or omission in defined settings. Circulating tumour DNA offers a complementary approach, but its strong prognostic value must be distinguished from evidence that biomarker-directed treatment improves outcomes. Contrasting findings from randomised trials demonstrate that neither de-escalation after a negative result nor escalation after a positive result can be generalised across clinical contexts. Future studies should integrate anatomical risk, tumour genomics, pathological response, and longitudinal molecular assessment while prioritising absolute benefit, mature survival outcomes, irreversible toxicity, patient-reported outcomes, and equitable access. They should also distinguish durable eradication from temporary suppression and evaluate treatment omission with the same rigour as intensification. Progress in adjuvant oncology should ultimately be measured by additional cures achieved with less avoidable harm, through the smallest effective intervention supported by validated evidence.",
+      "title": "Evaluation of AI-assisted summarisation of tertiary clinical genomics reports: results of the QNOMX-VHIR-CPSP-001 Phase 1 study",
+      "source": "medRxiv",
+      "date": "2026-09-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362656v1",
+      "abstract": "Background. Comprehensive genomic reports in oncology contain complex molecular information that must be translated into concise summaries for treating clinicians. Manual summarisation is time-intensive, and robust evidence supporting AI-assisted summarisation systems remains limited. We evaluated whether AI-generated summaries were non-inferior to manually produced summaries in faithfully representing information from tertiary paediatric cancer genomics reports. Methods. QNOMX-VHIR-CPSP-001 Phase 1 was a single-site, non-interventional clinical performance study conducted at Vall d'Hebron Institut de Recerca under ISO 20916:2019. De-identified tertiary paediatric cancer genomics reports were summarised using both the AI-assisted system under evaluation and the standard manual workflow. Three qualified raters assessed both summary types against the source reports using the six-domain, five-point Quality Summary Index (QSI) in a blinded, counterbalanced crossover design with a minimum fourteen-day washout. Co-primary endpoints were composite content and presentation scores. Non-inferiority was assessed using a pre-specified Bayesian hierarchical model with a margin of 0.5 points and confirmed using a frequentist linear mixed model. Results. Thirty-seven of 38 planned cases contributed 74 paired evaluations. Mean content scores were similar between AI-generated and manual summaries (4.01 vs 3.97), whereas AI-generated summaries achieved higher presentation scores (4.39 vs 4.12). Non-inferiority was demonstrated for both co-primary endpoints: content +0.05 (95% CrI -0.18 to +0.28), presentation +0.28 (+0.10 to +0.47). Frequentist analyses were concordant. Accuracy was the only QSI dimension for which Bayesian non-inferiority was not concluded. Inter-rater reliability was low across all QSI domains. Conclusions. AI-generated summaries were non-inferior to manually produced summaries for both content and presentation endpoints in tertiary paediatric oncology genomics reports. Presentation scores were higher for AI-generated summaries, whereas content scores were comparable between approaches. Low inter-rater reliability limits confidence in the dimension-level estimates and is the main constraint on future validation studies. Clinical validity and workflow effect were not assessed.",
       "authors": [
-        "Fausto Petrelli",
-        "Nicholas J Petrelli",
-        "Alberto Zaniboni"
+        "Creeden, J.",
+        "Olivecrona, M.",
+        "Benavent, N.",
+        "Hladun Alvaro, R.",
+        "Valero-Arrese, L.",
+        "Carolina Torres, A.",
+        "Soriano, A."
       ],
-      "doi": "10.1016/j.ejca.2026.117050",
+      "doi": "10.64898/2026.09.10.26362656",
       "arxiv_id": "",
-      "pubmed_id": "42731347"
+      "pubmed_id": ""
     },
     {
-      "title": "Genomic language model for predicting enhancers and their allele-specific activity in the human genome.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723633/",
-      "abstract": "Predicting and deciphering the regulatory logic of enhancers remains a significant challenge due to their complex sequence features and the absence of consistent genetic or epigenetic signatures that distinguish them from other genomic regions. Existing machine learning methods capture nucleotide composition but often fail to model sequence context effectively. We present DNABERT-Enhancer, a novel enhancer prediction method, by applying DNABERT pre-trained language model on the human genome. Using ENCODE registry of candidate cis-regulatory elements (cCREs), we curated a benchmark dataset, consisting of 21,926 enhancers of 201 bp length and 46,159 enhancers of 350 bp length, as positive instances. The best fine-tuned model achieved 88.05% accuracy and a Matthews correlation coefficient of 76% on an independent dataset. Genome-wide application identified 1,684,595 enhancer regions covering 26.65% of the human genome. By performing integrative analyses with DNABERT-based transcription factor models, we identify 2,681 statistically significant loss-of-function and 1,917 gain-of-function enhancer variants, which respectively alter the function of 1,623 and 1,247 ENCODE-cCRE enhancers. Similarly, we identify 4,057 candidate de novo enhancers, created by 5,464 gain-of-function variants. These genome-wide enhancer annotations and candidate genetic variants predicted by DNABERT-Enhancer provide valuable resources for genome interpretation in functional and clinical genomics studies. DNABERT-Enhancer is freely available at https://github.com/DavuluriLab/DNABERT-Enhancer; Trained model predictions can be explored interactively via the web application at https://dnabert-enhancer-datarepo.streamlit.app/. The fine-tuned models are archived and citable through Zenodo (https://doi.org/10.5281/zenodo.19157566). Supplementary data are available at Bioinformatics online.",
+      "title": "Generative model of patient health states and pan-cancer risk stratification",
+      "source": "medRxiv",
+      "date": "2026-09-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362676v1",
+      "abstract": "While large language models are powerful generators of new text, forecasting disease progression from longitudinal health histories remains a challenging problem. We introduce GenEHR, an autoregressive generative model trained on electronic health records (EHRs) from millions of patients that explicitly represents the irregular time intervals between visits when forecasting future clinical events. We combine the general-purpose patient representation learned during foundational training with parameter-efficient supervised adaptation for the task of pan-cancer risk stratification. In five large EHR cohorts supervised adaptation substantially improved prediction performance of a first cancer diagnosis within a five year horizon window. Our retrospective results support the evaluation of GenEHR-CancerRisk as a prospective clinical decision-support tool for prioritizing patients for risk-based screening for aggressive cancer types, such as pancreatic and ovarian cancer.",
       "authors": [
-        "R Sathian",
-        "P Dutta",
-        "F Ay",
-        "R V Davuluri"
+        "Khan, A.",
+        "Forster, D. T.",
+        "Harsh, M.",
+        "Zheng, C.",
+        "Warner, E. T.",
+        "Ritter, D.",
+        "Chang, A.",
+        "Wei, Q.",
+        "Sorensen, T. K.",
+        "Marks, D. S.",
+        "Sequist, L. V.",
+        "Hadlock, J. J.",
+        "Fillmore, N. R.",
+        "Sander, C."
       ],
-      "doi": "10.1093/bioinformatics/btag456",
+      "doi": "10.64898/2026.09.09.26362676",
       "arxiv_id": "",
-      "pubmed_id": "42723633"
+      "pubmed_id": ""
     },
     {
-      "title": "A Label-Free Graphene Quantum Dot-Based Fluorescent Aptasensor for Rapid and Sensitive Detection of Leptospira interrogans.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42722934/",
-      "abstract": "Leptospirosis is a neglected tropical disease that is widespread in tropical and subtropical regions. The lack of rapid and sensitive diagnostic tools continues to limit the early identification of the disease. In this study, a graphene quantum dots-based aptasensor was developed for the detection of Leptospira interrogans. Graphene quantum dots were synthesized and used as fluorescence transducers, which are covalently conjugated with cell surface-specific DNA aptamer targeting the pathogen. The synthesized quantum dots exhibited quasi-spherical morphology with particle size ranging from ~ 2.5 nm. Upon target recognition, the GQD-aptamer conjugate exhibited concentrationdependent fluorescence quenching, showing a linear response over the range of 10³-10⁸ CFU/mL (R² = 0.958) and a limit of detection of 10³ CFU mL⁻¹. The assay was completed within 15 min. The sensing platform was further evaluated under biologically relevant conditions, including protein-containing buffer, heat-treated cells, diluted serum, and artificial urine samples. In addition to spectroscopic analysis, dark-field microscopy revealed pronounced aggregation and clustering of Leptospira cells following treatment with the GQD-aptamer conjugate. The combined spectroscopic and microscopic findings support the proposed sensing mechanism and highlight the potential of the developed GQD-aptamer platform as a rapid fluorescence-based aptasensor for Leptospira, with future applicability towards point-of-care diagnostic development.",
+      "title": "Context Matters in LLM-Assisted Qualitative Data Analysis: Workflow Development and Multidimensional Evaluation in Health Research",
+      "source": "medRxiv",
+      "date": "2026-09-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.07.26362410v1",
+      "abstract": "Large language models (LLMs) are increasingly used for qualitative analysis, but strong language performance does not guarantee strong interpretation when meaning depends on method and context. We developed a context-specific workflow that translated framework analysis into bounded, sequential LLM-supported tasks and applied it to 20 Chinese-language interviews on fear of dementia (approximately 150,000 characters). Four multilingual LLM-generated outputs and a previous researcher-only analysis were blindly evaluated by 16 relevant experts across different analytical domains and qualitative quality dimensions (496 expert-item records). All LLMs completed the workflow, but rankings varied markedly. Qwen-output showed the most consistently favourable overall profile, while Claude-output was most often ranked first in individual domain-dimension evaluations. The researcher analysis received both highly favourable and highly unfavourable rankings; no output was consistently preferred. LLM-assisted qualitative analysis should be evaluated within its research contexts, with transparent workflows, multidimensional assessment, and continued researcher oversight.",
       "authors": [
-        "Pandiyan Pooja",
-        "Archana Vishwakarma",
-        "Varsha Birendra Singh",
-        "Raja Natesan Sella",
-        "G Devanand Venkatasubbu",
-        "Mohandass Ramya"
+        "Dai, H.",
+        "Li, Y.",
+        "Villalobos-Quesada, M.",
+        "Ng, Y. M.",
+        "Aardoom, J.",
+        "Versluis, A.",
+        "Shen, H.",
+        "Spruit, M.",
+        "Chavannes, N."
       ],
-      "doi": "10.1007/s10895-026-04936-9",
+      "doi": "10.64898/2026.09.07.26362410",
       "arxiv_id": "",
-      "pubmed_id": "42722934"
+      "pubmed_id": ""
     },
     {
-      "title": "Molecular study of specific virulence genes of Pseudomonas aeruginosa isolated from sub clinical bovine mastitis cases.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42722742/",
-      "abstract": "Pseudomonas aeruginosa-caused bovine mastitis has received increased attention recently because it results in large financial losses for dairy farms and the dairy sector overall. P. aeruginosa mastitis is a complex illness that requires host, pathogen, and environmental interactions. The objective of this study was to examine the distribution and presence of virulence factors in 13 Pseudomonas aeruginosa isolates that were isolated from 70 milk samples from subclinical cases of bovine mastitis, with an incidence of 18.57%. The Vitek 2 system (bioMerieux) verified each isolate. Pseudomonas aeruginosa produces virulence factors, which give it significant roles in the cause of the disease These virulence factors are encoded by virulence genes found on the Pseudomonas chromosome. The ecfx gene was identified in 13 (100%) of the 13 P. aeruginosa isolates, according to molecular identification of the bacteria and detection of specific virulence genes. Additionally, all of the current genes) lasR, rhlI, pqsR, lecA, lasA, proC, toxA, exoS, and pelA) were found in 6 out of 13 isolates with an incidence of 46.15%.",
+      "title": "Accuracy Overstates Evidence Grounding and Abstention Reliability in Mammography Vision-Language Models",
+      "source": "medRxiv",
+      "date": "2026-09-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26361944v1",
+      "abstract": "Answer accuracy alone cannot determine whether a Vision-Language Model (VLM) relies on clinically relevant mammographic evidence or recognizes when that evidence is unavailable. We introduce an evidence-grounded selective evaluation benchmark that evaluates Pathology classification and Abnormality identification together with label-aware lesion localization. Each original image--task instance is paired with a lesion-removal counterfactual and, when feasible, a size-matched non-lesion random-removal control. Lesion evidence is removed by local tissue reconstruction, while the random-removal view provides a task-irrelevant regional perturbation baseline of comparable spatial extent. We evaluate 16 general-purpose and medically specialized VLMs, including open-source and proprietary models, under a common protocol with the same prompt, image conditions, label spaces, and structured-output requirements. The results show substantial gaps between classification performance and evidence-grounded reliability. InternVL3.5-8B achieved the highest Pathology Macro-F1 at 53.75\\%, Huatuo Vision-34B achieved the highest Abnormality Exact Match at 52.44\\%, and GPT-5.6 Sol achieved the highest Grounded Answer Success at 21.99\\%. Lingshu-7B achieved the highest Counterfactual Specificity at 35.19\\%, whereas GPT-5.6 Sol achieved the highest Joint Reliability at 6.47\\%. These findings suggest that answer accuracy and abstention behavior can substantially overstate the reliability of current VLMs when predictions are not verified against the visual evidence on which they should depend.",
       "authors": [
-        "Eman S Ibrahim",
-        "Sohad M Dorgham",
-        "Rasha Hamdy Eid",
-        "Eman F Abdel-Latif",
-        "Doaa D Khalaf"
+        "Qu, B.",
+        "Liu, w.",
+        "Murrow, M.",
+        "Burger, M.",
+        "Guo, X.",
+        "Vaidya, M. S.",
+        "Rose, S. L.",
+        "Kantarcioglu, M.",
+        "Malin, B. A.",
+        "Yin, Z."
       ],
-      "doi": "10.1038/s41598-026-69514-2",
+      "doi": "10.64898/2026.09.10.26361944",
       "arxiv_id": "",
-      "pubmed_id": "42722742"
+      "pubmed_id": ""
     },
     {
-      "title": "Beyond Heritable PAH: Pulmonary Hypertension in Genetic Syndromes.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42722401/",
-      "abstract": "Pulmonary hypertension (PH) may complicate a broad range of genetic syndromes beyond the established spectrum of heritable pulmonary arterial hypertension. Although these conditions are individually rare, together they represent an emerging field at the crossroads of developmental biology, vascular medicine, and precision genomics. In many cases, PH may be the presenting feature or may remain unrecognized because it occurs within complex multisystem disorders involving congenital heart disease, developmental lung abnormalities, parenchymal lung disease, vascular malformations, or extra-pulmonary manifestations. Recent advances in human genetics have expanded the spectrum of genes and syndromes associated with PH, including disorders involving altered lung and vascular development, dysregulated hypoxia signaling, smooth muscle dysfunction, chromosomal abnormalities, and syndromic vasculopathies.In this review, we summarize the main genetic syndromes associated with PH and discuss their underlying mechanisms, clinical phenotypes, diagnostic clues, and therapeutic implications. We paid particular attention to conditions that illustrate the marked heterogeneity of syndromic PH such as FLNA -related disorders, neurofibromatosis type 1, Noonan syndrome, Down syndrome, Alagille syndrome, Cantú syndrome, Chuvash polycythaemia, cobalamin C deficiency, multisystemic smooth muscle dysfunction syndrome, alveolar capillary dysplasia with misalignment of pulmonary veins, and Moya Moya syndrome.",
+      "title": "Epidemiology and Antimicrobial Susceptibility Patterns of staphylococcus aureus Isolates from Clinical Specimens at Meru Teaching and Referral Hospital, Kenya",
+      "source": "medRxiv",
+      "date": "2026-09-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362593v1",
+      "abstract": "Objective: To determine the prevalence of S. aureus among clinical specimens processed at MeTRH and assess the antimicrobial susceptibility patterns and proportion of MRSA among confirmed isolates. Methods: A retrospective descriptive cross-sectional study was conducted using microbiology laboratory records for clinical specimens submitted for bacteriological culture at MeTRH during the study period. A census approach was used, whereby all eligible laboratory records were included. Clinical specimens were processed using routine microbiological procedures, and suspected S. aureus isolates were identified using conventional methods and the VITEK(R) 2 Compact automated identification system. Antimicrobial susceptibility testing was performed using VITEK(R) 2 Compact, with interpretation based on Clinical and Laboratory Standards Institute criteria. Methicillin resistance was determined phenotypically using cefoxitin susceptibility as the surrogate marker. Data were analysed using frequencies and percentages. Results: A total of 1,082 clinical specimens were analysed, of which 37 yielded S. aureus, giving an overall prevalence of 3.42%. Among the confirmed isolates, 21 (56.8%) were recovered from male patients and 16 (43.2%) from female patients. Pus was the predominant specimen type, accounting for 25 (67.6%) isolates, followed by other specimens at 8 (21.6%) and urine at 4 (10.8%). Antimicrobial susceptibility varied considerably. Resistance was highest to benzylpenicillin and amoxicillin, with 100% resistance among tested isolates. Resistance to amoxicillin-clavulanic acid was 75.0%, while 63.3% of isolates tested were resistant to oxacillin. Susceptibility was relatively high to gentamicin (82.8%), ciprofloxacin (77.3%) and clindamycin (75.0%). All isolates tested against linezolid and vancomycin were susceptible. Among 30 isolates with methicillin susceptibility results, 19 (63.3%) were classified as MRSA and 11 (36.7%) as methicillin-susceptible S. aureus (MSSA). Conclusion: The prevalence of S. aureus among clinical specimens processed at MeTRH was relatively low; however, a substantial proportion of isolates demonstrated antimicrobial resistance, particularly to commonly used {beta}-lactam antibiotics. The high proportion of MRSA is of clinical and public health importance. Routine antimicrobial susceptibility testing, hospital-specific antibiograms, antimicrobial stewardship and strengthened infection prevention and control measures are recommended to support appropriate treatment and limit the spread of resistant S. aureus.",
       "authors": [
-        "Julien Grynblat",
-        "Florence Coulet",
-        "Thomas Lacoste-Palasset",
-        "Xavier Jais",
-        "Eric Austin",
-        "Dunbar Ivy",
-        "Maria-Rosa Ghigna",
-        "Antoine Beauvais",
-        "Etienne-Marie Jutant",
-        "Athénaïs Boucly",
-        "Mathilde Meot",
-        "Sophie-Guiti Malekzadeh-Milani",
-        "Marilyne Levy",
-        "Fabrice Antigny",
-        "Grégoire Ruffenach",
-        "Olivier Sitbon",
-        "Laurent Savale",
-        "Marc Humbert",
-        "Damien Bonnet",
-        "David Montani"
+        "Kaumbuthu, P.",
+        "Kagendo, D.",
+        "Rutto, J."
       ],
-      "doi": "10.1183/13993003.00808-2026",
+      "doi": "10.64898/2026.09.09.26362593",
       "arxiv_id": "",
-      "pubmed_id": "42722401"
+      "pubmed_id": ""
     },
     {
-      "title": "Omics in optic neuropathies: From molecular landscapes to personalized therapeutics.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42722228/",
-      "abstract": "Optic neuropathies comprise a heterogeneous group of disorders involving transient or permanent injury to retinal ganglion cells (RGCs) and their axons. Clinically, these neurodegenerative conditions manifest as dyschromatopsia, decreased visual acuity, and visual field defects, and in severe cases may ultimately lead to blindness and disability. The marked heterogeneity across disease subtypes, incompletely understood etiologies, and complex pathogenic mechanisms pose substantial challenges to precise diagnosis and effective treatment. Recent advances in omics technologies - including genomics, transcriptomics, proteomics, metabolomics, lipidomics, single-cell and spatial sequencing, and integrative multi-omics approaches - have ushered optic nerve degenerative disease research into an era of high-resolution comprehensive investigation. In this review, we summarize representative applications of omics approaches to elucidate genetic alterations, signaling dysregulation, metabolic reprogramming, and immune responses in optic neuropathies. We further discuss the emerging potential of multi-omics in identifying early diagnostic biomarkers and informing individualized therapeutic strategies. Finally, we provide a forward-looking perspective on the future trajectory of omics technologies and their prospects in both fundamental research and clinical translation, with the overarching aim of accelerating the bench-to-bedside transition in this critical eye disease field.",
+      "title": "Global determinants of vector-targeted insecticide use in public health: a modeling and mapping analysis",
+      "source": "medRxiv",
+      "date": "2026-09-12T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.04.08.26350404v2",
+      "abstract": "Background. Insecticides are the cornerstone of control for vectors of human pathogens, yet global patterns of deployment and their socioeconomic and environmental drivers are poorly characterized. Understanding where and why insecticides are used is essential for optimizing control efforts. Methods. We analyzed annual national vector-targeted insecticide-use data spanning 123 countries (1990-2019) for insecticide-treated nets (ITNs), residual spraying (RS), space spraying (SS), and larviciding (LA). Generalized linear mixed models and hurdle models quantified associations between deployment and mosquito-borne disease incidence, human development index (HDI), population, temperature, and precipitation. Models were evaluated using repeated cross-validation and applied to generate downscaled predictions of insecticide use at subnational administrative regions globally. Findings. Insecticide deployment increased with mosquito-borne disease incidence, but this response was stronger in higher-HDI countries, indicating that deployment depends on socioeconomic capacity as well as disease burden. Intervention types each exhibited distinct patterns. ITN and RS tracked Anopheles-borne disease incidence, whereas SS and LA tracked Aedes-borne disease incidence. ITN use increased with precipitation and temperature, whereas SS use decreased with precipitation. Mapping uncovered substantial within-country heterogeneity, highlighting regions where predicted deployment remains low relative to disease risk. Interpretation. Insecticide deployment reflects epidemiological need and economic capacity, creating mismatches between risk and control. High-resolution mapping can support more equitable intervention allocation, guide insecticide resistance stewardship, and improve strategic planning as climate and urbanization reshape vector-borne disease risk. Funding. JRR acknowledges support from NSF (DEB-2109293, ITE-2333795, BCS-2307944, CISE-2435758), Notre Dame Poverty Initiative, Berthiaume Institute for Precision Health, IL-IN Sea Grant, Frontier Research Foundation.",
       "authors": [
-        "Shanmei Wu",
-        "Kexin Tan",
-        "Ming Feng",
-        "Yingzhi Chen",
-        "Jipeng Li",
-        "Yang Hu",
-        "Huifang Zhou"
+        "Heffernan, P. M.",
+        "van den Berg, H.",
+        "Yadav, R. S.",
+        "Murdock, C. C.",
+        "Rohr, J. R."
       ],
-      "doi": "10.1016/j.preteyeres.2026.101526",
+      "doi": "10.64898/2026.04.08.26350404",
       "arxiv_id": "",
-      "pubmed_id": "42722228"
+      "pubmed_id": ""
     },
     {
-      "title": "Breath aerosol PCR for detection of lower respiratory tract infections: evaluation of a non-invasive face mask collector in pneumonia patients.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721424/",
-      "abstract": "Etiological diagnosis of lower respiratory tract infections (LRTIs) relies on sputum or bronchoalveolar lavage (BAL), which may be difficult to obtain or invasive. Exhaled breath aerosol (XBA) sampling offers a noninvasive alternative for pathogen detection. We evaluated the performance of the AveloMask, a face mask-based device designed to capture XBAs for molecular testing. In this prospective paired-sample study, hospitalized adults with pneumonia at three hospitals in Switzerland and Georgia provided an XBA sample using the AveloMask and a lower respiratory tract (LRT) specimen (sputum or BAL). XBA samples were analyzed by multiplex PCR using the Roche LightMix® panel, and LRT samples were tested using the BioFire® FilmArray® Pneumonia Panel. Concordance between XBA and LRT samples was assessed using positive percent agreement (PPA), negative percent agreement (NPA), and overall percent agreement (OPA). A total of 93 participants were enrolled, and 63 participants provided paired samples. AveloMask sampling identified the dominant pathogen (lowest Ct value in the LRT sample) in 40/47 LRT-positive cases (85.1%). Across all targets, PPA was 61% (95% CI, 50%-72%), NPA was 99.8% (95% CI, 99%-100%), and OPA was 95% (95% CI, 92%-96%). PPA was higher for bacteria than for viruses, and lower PPA was largely driven by reduced detection of low-abundance or co-infecting pathogens. In an exploratory subset analysis, AveloMask results overlapped with standard-of-care testing and may have informed antimicrobial decision-making. Breath aerosol sampling using the AveloMask enabled noninvasive molecular detection of LRT pathogens in pneumonia cases and may complement conventional standard-of-care testing, particularly when sputum is unavailable.IMPORTANCEPneumonia diagnosis often relies on sputum samples, which many patients cannot provide, or bronchoscopy, which is invasive. This study evaluated a user-friendly face mask that captures exhaled aerosols released during normal breathing and coughing for laboratory testing. In hospitalized patients with pneumonia, the mask identified the most abundant pathogen in most cases and was well tolerated in routine clinical care. These findings show that breath aerosol sampling could provide a practical, noninvasive complement to existing diagnostic methods, especially when sputum is unavailable or difficult to obtain. By making lower respiratory tract (LRT) sampling easier and more accessible, this approach could support faster, more targeted treatment decisions, reduce unnecessary antibiotic use, and expand opportunities for molecular diagnosis in hospitals and other healthcare settings.This study is registered with ClinicalTrials.gov as NCT06668883.",
+      "title": "Benchmarking methods integrating GWAS and single-cell transcriptomic data for mapping trait-cell type associations",
+      "source": "medRxiv",
+      "date": "2026-09-12T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.05.24.25328275v3",
+      "abstract": "Genome-wide association studies (GWAS) have discovered numerous trait-associated variants, but their biological context remains unclear. Integrating GWAS summary statistics with single-cell RNA-sequencing (scRNA-seq) data enables prioritization of cell types in which these variants influence traits. Existing methods broadly follow two strategies: single cell to GWAS, which identifies cell-type-specific genes and tests their enrichment in GWAS signals, and GWAS to single cell, which begins with GWAS-prioritized genes and scores cells or cell types according to their expression profiles. Here, we developed a literature-informed benchmark by integrating PubMed evidence with large language model-assisted literature synthesis to evaluate 20 trait-cell type mapping methods. We identify CATCH, a Cauchy combination of complementary methods, as the most robust overall approach, consistently achieving high statistical power while maintaining effective false-positive control across simulations and real-data benchmarks. We further identify key determinants of performance, including cell-type specificity metrics, GWAS statistical power, and the diversity of scRNA-seq reference datasets, providing practical guidance for the development and application of trait-cell type mapping methods.",
       "authors": [
-        "Katie Tiseo",
-        "Sarah Dräger",
-        "Harshitha Santhosh Kumar",
-        "Maia Alkhazashvili",
-        "Anya Hammann",
-        "Patricia Risch",
-        "Reto Willi",
-        "Tamar Mkhatvari",
-        "Christina Fialová",
-        "Christian Adlhart",
-        "Denise Szabó",
-        "Mariam Suknidze",
-        "Izolda Pachkoria",
-        "Tobias Broger",
-        "Elena Ivanova Reipold",
-        "Khatuna Varshanidze",
-        "Michael Osthoff"
+        "Li, A.",
+        "Allen, P.",
+        "Wang, Y.",
+        "Cui, H.",
+        "Lin, T.",
+        "Sun, Y.",
+        "Wang, X.",
+        "Tan, X.",
+        "Walker, A.",
+        "Wang, S.",
+        "Yao, Z.",
+        "Zhao, R.",
+        "Yang, J.",
+        "Yao, S.",
+        "Hjerling-Leffler, J.",
+        "Sullivan, P. F.",
+        "Wray, N. R.",
+        "Zeng, J."
       ],
-      "doi": "10.1128/jcm.00562-26",
+      "doi": "10.1101/2025.05.24.25328275",
       "arxiv_id": "",
-      "pubmed_id": "42721424"
+      "pubmed_id": ""
     },
     {
-      "title": "High-throughput qPCR phenotyping of Verticillium stripe resistance in Brassica napus under natural field infection.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721264/",
-      "abstract": "Verticillium stripe, caused by Verticillium longisporum, is an emerging threat to Brassica napus production in North America, with increasing field incidence and yield loss reported in affected regions. Although visual ratings are useful for rapid field assessment, resistance breeding is constrained by the lack of scalable, objective phenotyping methods that can quantify pathogen colonization across large genotype panels under field conditions. Here, we adapted and validated an established OLG70/OLG71-based SYBR Green qPCR assay within a high-throughput workflow combining freeze-dried hypocotyl sampling and magnetic bead-based DNA extraction to quantify V. longisporum DNA in field-grown B. napus. A panel of 215 B. napus genotypes was evaluated at two naturally infested field sites in Manitoba, Canada. The assay produced robust standard curves across plates, with R² values >0.99, amplification efficiencies of 95-105%, and low intra-plate variability, supporting reliable quantification over a broad dynamic range. Log₁₀-transformed fungal DNA quantities showed strong cross-environment consistency, with genotype rankings largely conserved between sites (Spearman ρ = 0.82). At the Glenlea site, qPCR-derived fungal load was strongly associated with visual Verticillium stripe severity (Spearman ρ = 0.68; R² ≈ 0.44; Kruskal-Wallis P = 1.59 × 10⁻¹⁷), indicating that hypocotyl colonization measured by qPCR captures biologically meaningful variation in disease expression. This scalable qPCR-based platform provides a repeatable, high-resolution phenotype for large-scale germplasm screening and future genetic analyses aimed at improving Verticillium stripe resistance in canola.",
+      "title": "Adolescent engagement and sentiment toward reproductive-health videos on Chinese social media: a cross-sectional content analysis",
+      "source": "medRxiv",
+      "date": "2026-09-13T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.06.18.25329831v2",
+      "abstract": "Background Adolescent reproductive health information is increasingly sought on social-media platforms, yet the scope, credibility, and emotional reception of such content remain unclear in China. This study examined how adolescents engage with reproductive-health videos on Bilibili, a video-sharing site with about 341 million monthly users, most of whom are 24 years old or younger, to identify information gaps and factors shaping online discourse. Methods Using an 18-keyword query, we retrieved metadata and user-generated text for 743 Bilibili videos published between September 2016 and June 2024. The dataset contained 486.8 million views, 12.3 million likes, and approximately 760,000 textual entries (comments plus danmaku). After duplicate removal and chinese word segmentation, we conducted descriptive and Pearson-correlation analyses of engagement metrics and applied a three-class sentiment classifier, powered by the large language model (Qwen2.5-32B), to all comments and danmaku. The medical backgrounds of uploaders were manually verified to confirm their professional qualifications. Results Views showed strong positive correlations with likes (r = 0.7), collections (r = 0.74), and shares (r = 0.74); collections and shares were almost linearly related (r = 0.9). Less frequently covered topics, such as sterilisation surgery (3.0 % of videos) and fertility-awareness-based methods (2.3%), attracted disproportionately high like, share, and comment rates. Only 17 % of uploaders had confirmed medical training, and none were identified for videos on novel contraceptive methods or spontaneous abortion. Sentiment analysis revealed mainly negative reactions to induced abortion (52.2% negative) and novel contraceptives (52.1% negative), whereas content on coping with spontaneous abortion elicited the highest proportion of positive sentiment (24.2 %). Negative sentiment correlated moderately with larger comment volume (r = 0.32) but showed inverse associations with likes (r = -0.38) and virtual-coin donations (r = -0.51). Conclusions On Bilibili, adolescent engagement centres on basic contraception, yet niche or contentious topics drive greater interaction and polarised emotions, often without professional oversight. Coordinated efforts among healthcare providers, educators, and influential uploaders are needed to deliver accurate and empathetic content that addresses unmet informational needs. Adapting the emotional framing of messages could further enhance reach and foster constructive discussion on sensitive reproductive-health issues.",
       "authors": [
-        "Mohamed Samir Youssef",
-        "Sean Walkowiak",
-        "Christian Obermeier",
-        "Isobel A P Parkin",
-        "Sally Lynne Vail",
-        "Robert W Duncan",
-        "Harmeet Singh Chawla"
+        "Zhang, X.",
+        "Zhou, Z.",
+        "Ma, J.",
+        "Chen, Y.",
+        "Xu, Y.",
+        "Cui, Z.",
+        "Li, J.",
+        "Qiu, J.",
+        "Zhang, Q.",
+        "Huang, R."
       ],
-      "doi": "10.1094/PDIS-06-26-1149-RE",
+      "doi": "10.1101/2025.06.18.25329831",
       "arxiv_id": "",
-      "pubmed_id": "42721264"
-    },
-    {
-      "title": "Integrated Clay-Azoxystrobin and Trichoderma -Based Treatments for Managing Magnaporthiopsis maydis Maize Late Wilt Disease.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721261/",
-      "abstract": "Magnaporthiopsis maydis , the causal agent of maize late wilt disease (LWD), is a destructive soil-borne pathogen for which effective and sustainable control remains challenging. We evaluated an integrated management strategy combining clay-based azoxystrobin formulations with Trichoderma -based seed coating in two maize hybrids differing in susceptibility to LWD: the highly susceptible sweet maize hybrid Prelude and the moderately susceptible fodder hybrid Colossus. Bentonite- and sepiolite-based azoxystrobin formulations were applied alone or with two Trichoderma mixtures under net-house conditions. Based on an in vitro assay, T. asperellum , T. longibrachiatum , and T. virens , which inhibited pathogen growth by 37 to 53%, were selected and combined. At the latent mid-season stage, treatment effects on plant growth were limited, but qPCR showed that pathogen DNA levels in infected, untreated Prelude plants were up to 24-fold higher than in Colossus. In Prelude, several treatments reduced pathogen DNA to 2-9% of the infected control. By the end of the season, treatment efficacy became more pronounced. In Colossus, bentonite-azoxystrobin alone or combined with Trichoderma -based seed coating performed best, increasing shoot weight by 62 to 67%, cob weight by 85 to 90%, and health indices by 52 to 67% relative to the infected control. In Prelude, Trichoderma -based seed coating combined with sepiolite-azoxystrobin produced the strongest response, increasing shoot and cob weight by 116 and 145%, respectively. Across both cultivars, clay-based formulations, alone or combined with biological treatment, reduced pathogen DNA to near zero. These findings support this integrated approach for LWD management under net-house conditions, pending field validation.",
-      "authors": [
-        "Elhanan Dimant",
-        "Peleg Hadari",
-        "Ofir Degani"
-      ],
-      "doi": "10.1094/PDIS-03-26-0587-RE",
-      "arxiv_id": "",
-      "pubmed_id": "42721261"
-    },
-    {
-      "title": "A clinical scoring system for the early identification of superinfections in patients with severe fever with thrombocytopenia syndrome: An ambispective multicentre cohort study.",
-      "source": "PubMed",
-      "date": "2026-09-01T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721159/",
-      "abstract": "Superinfection is a major contributor to mortality in patients with severe fever with thrombocytopenia syndrome (SFTS). However, early identification remains challenging because detection of the pathogen causing the superinfection is often delayed. This study aims to develop a clinical scoring system for the early identification of superinfection in SFTS patients. Among 1942 SFTS patients from 4 hospitals in China, a retrospective cohort (2014-2024) was used for model development, with 1182 patients from 2 hospitals split into training (n = 823) and internal validation (n = 359) sets, and 475 patients from 2 additional hospitals for external validation sets. Four machine learning algorithms were evaluated, with the optimal model converted into a simplified scoring scale. Finally, a prospective cohort (n = 285, 2025) evaluated the real-world performance. Model efficacy was comprehensively assessed using the area under the receiver operating characteristic curve (AUROC), calibration curves, decision curve analysis (DCA), sensitivity, and specificity. Among the 36 variables, 8 predictors (age, ALB, AST, BUN, GLU, CRP, HGB, and expectoration) for superinfection were identified by ensembling five machine learning algorithms. The RF, XGBoost, LightGBM, and LR prediction models were constructed using the 8 predictors. LR demonstrated optimal performance, with an AUROC of 0.839 (95% CI: 0.797-0.880) in the internal validation set and 0.805 (95% CI: 0.764-0.847) in the external validation set. In the real-world prospective study, the model maintained high predictive efficacy (AUROC: 0.854). Finally, the model's nomogram was simplified into a novel 3-tiered risk scoring scale to enhance clinical applicability. Our research developed a dynamic, early diagnostic tool that could improve real-time prediction of superinfection risk at the bedside and enhance antimicrobial stewardship.",
-      "authors": [
-        "Yu-Yao Li",
-        "Jian-Kang Zhang",
-        "Chun Zhang",
-        "Zhi-Ping Pan",
-        "Xiao Liu",
-        "Meng-Yu Liu",
-        "Qiang Chen",
-        "Yuan-Yuan Zhang",
-        "Yuan Jiang",
-        "Xu-Ya Yuan",
-        "Si-Yang Liu",
-        "Xiang Li",
-        "Fei-Dan Yu",
-        "Yu-Feng Gao",
-        "Jun Cheng",
-        "Qin-Xiu Xie",
-        "Jian-Guo Rao",
-        "Li-Yu Zhu",
-        "Zhen-Jun Liu",
-        "Ying Ye",
-        "Jia-Bin Li",
-        "Li-Fen Hu"
-      ],
-      "doi": "10.1371/journal.pntd.0014696",
-      "arxiv_id": "",
-      "pubmed_id": "42721159"
-    },
-    {
-      "title": "Fine-Tuning Large Language Models for Structured Extraction of Infectious Disease-Related Information From Clinical Notes in Japanese Primary Care: Development and Internal Validation Study.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721099/",
-      "abstract": "The COVID-19 pandemic highlighted the importance of timely infectious disease surveillance. In Japan, conventional sentinel and claims-based systems incur reporting lags and capture limited clinical detail, whereas free-text clinical notes in electronic health records (EHRs) hold richer, timelier symptom and vaccination information. Natural language processing (NLP) with large language models (LLMs) offers a way to structure such free text at scale. We aimed to develop and internally validate an NLP algorithm to extract structured infectious disease-related symptoms and vaccination history from free-text clinical notes in Japanese primary care, as a feasibility step toward low-latency, EHR-based surveillance. A total of 773 clinical notes, originating from 526 unique patients, were provided by M3 Inc through the Japan Medical Data Survey and used for analysis. Three physicians annotated information related to infectious disease symptoms and vaccination history. The data were divided into 622 (80%) training cases and 151 (20%) evaluation cases with no patient overlap. We compared a physician-designed, rule-based algorithm, few-shot learning (FSL) using commercial and open-source LLMs, and supervised fine-tuning (SFT) of open-source LLMs, using the macroaveraged F 1 -score (unweighted mean across 9 clinical categories). Sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV) were also computed, with 95% CIs from a patient-level cluster bootstrap (2000 replicates). Rule-based extraction achieved a macroaveraged F 1 -score of 0.685 (95% CI 0.630-0.736). FSL markedly improved the extraction of high-variability items such as vaccination history and onset date. Anthropic Claude 3.5 Sonnet achieved a macroaveraged F 1 -score of 0.875 (95% CI 0.800-0.913; sensitivity 0.929, specificity 0.918). SFT of Google's open-source Gemma 2 27B model with quantized low-rank adaptation (QLoRA) achieved the highest point estimate (macroaveraged F 1 -score of 0.906, 95% CI 0.833-0.945; sensitivity 0.921, specificity 0.969, PPV 0.906); the difference from Claude 3.5 Sonnet was small and not statistically distinguishable (Δ F 1 -score=0.030, 95% CI -0.035 to 0.140). A small, fine-tuned Gemma 2 2B model reached 0.822 (95% CI 0.752-0.874), significantly lower than that of the 27B model (Δ F 1 -score=0.084, 95% CI 0.040-0.163). A fine-tuned open-source LLM can accurately extract and structure infectious disease-related information from Japanese free-text clinical notes, achieving performance comparable to that of a commercial model while enabling processing within a closed environment. These findings support the feasibility of EHR-based digital surveillance, whose downstream utility remains to be demonstrated.",
-      "authors": [
-        "Hiroshi Yoshihara",
-        "Haruka Maeda",
-        "Yuriko Hagiwara",
-        "Daichi Sato",
-        "Kei Kitajima",
-        "Akihiro Iwata",
-        "Nicolas Van de Velde",
-        "Yuta Nakamura",
-        "Yosuke Yamagishi",
-        "Ataru Igarashi"
-      ],
-      "doi": "10.2196/84974",
-      "arxiv_id": "",
-      "pubmed_id": "42721099"
-    },
-    {
-      "title": "From colonization to infection: Genomic evolution of Clostridioides difficile pathogenesis.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42721035/",
-      "abstract": "Clostridioides difficile is a spore-forming, toxin-producing anaerobe that is a leading cause of healthcare-associated infections. Its success as a pathogen reflects a complex interplay between bacterial evolution, virulence regulation, ecological adaptation, environmental selection, and host susceptibility. Comparative genomics has revealed deep C. difficile lineage diversification, driven by mobile genetic elements and selective pressures from antibiotics and host environments. These events affect strain-specific virulence by shaping the organization and regulation of the pathogenicity toxin loci, metabolic adaptations for nutrient utilization, and enhanced spore resilience. This review integrates evolutionary and genomic perspectives to illustrate how adaptive diversification has sculpted C. difficile pathogenesis and epidemic success.",
-      "authors": [
-        "Sakshi Khanna",
-        "Zhewen Yang",
-        "Erik R Dubberke",
-        "Gautam Dantas"
-      ],
-      "doi": "10.1016/j.celrep.2026.117982",
-      "arxiv_id": "",
-      "pubmed_id": "42721035"
-    },
-    {
-      "title": "p-Nitrophenoxy analogs as practical surrogates for Novichok-related biomarker verification in forensic toxicology.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42720724/",
-      "abstract": "Authentic Novichok (A-series) nerve agents are highly restricted, making the rapid preparation of positive controls and reference materials challenging in forensic toxicology. This study aimed to evaluate p-nitrophenoxy analogs as surrogate compounds for Novichok-related biomarker verification by assessing their synthetic accessibility, ability to generate diagnostically relevant butyrylcholinesterase (BuChE) nonapeptide biomarkers, and functional relevance in cholinesterase inhibition and reactivation assays. Six surrogate compounds representing phosphate- and phosphonate-type analogs were prepared using a revised synthetic sequence with scaffold-dependent optimization of the reaction and purification conditions. Their utility was evaluated using plasma BuChE inhibition assays, 2-pyridine aldoxime methochloride (2-PAM)-mediated reactivation studies, inhibition kinetics with horse BuChE and human acetylcholinesterase, and liquid chromatography-tandem mass spectrometry analysis of BuChE-derived nonapeptide adducts in plasma. Operational applicability was examined using the OPCW biomedical proficiency test (BioPT) evaluation criteria. All six surrogate compounds were obtained by structural class-dependent optimizations of their synthesis and purification. The plasma BuChE IC 50 values of authentic A230, A232, A234, A242, A262, and A2xx were 12.3, 9.6, 8.6, 10.1, 10.6, and 24.5 ng/mL, respectively, whereas those of the corresponding surrogates were 58.5, 38.6, 55.2, 3942, 3829, and 2575 ng/mL. 2-PAM-mediated BuChE reactivation showed similar qualitative patterns within each authentic/surrogate pair. All surrogates generated analytically equivalent BuChE nonapeptides and could be used to prepare qualitative reference materials for the OPCW BioPT-related workflow. p-Nitrophenoxy Novichok-related analogs provide a practical surrogate platform for preparing diagnostically relevant BuChE nonapeptide reference materials without using authentic A-series nerve agents.",
-      "authors": [
-        "Akinori Yamaguchi",
-        "Mai Otsuka",
-        "Takeshi Ohmori",
-        "Yuko Kazui",
-        "Hajime Miyaguchi"
-      ],
-      "doi": "10.1007/s11419-026-00782-3",
-      "arxiv_id": "",
-      "pubmed_id": "42720724"
-    },
-    {
-      "title": "Target Antigen Identification for Antibody Drug Conjugate Therapy in Biliary Tract Cancer.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42720429/",
-      "abstract": "Data on antibody-drug conjugates (ADCs) target expression prevalence, intertumoral heterogeneity, genomic concordance, and its effect on clinical outcomes is limited in biliary tract cancers (BTC). Resected primary BTC specimens, and when available, matched metastatic samples were assembled into tissue microarrays and tested for CLDN18.2, c-MET, Nectin-4, TROP2, and HER2 expression by immunohistochemistry (IHC). A subset underwent targeted next-generation sequencing using MSK-IMPACT (NCT01775072). Exploratory associations of target expression with clinicopathologic parameters, genomic alterations, recurrence-free (RFS), and overall (OS) survival were evaluated. 65 patients with resected BTC and 18 paired metastatic sites were identified-43% extrahepatic cholangiocarcinoma, 40% intrahepatic cholangiocarcinoma, and 17% gallbladder cancer. All evaluated target antigens were expressed; percent positivity and H-score ≥200 were: TROP2 (83%, 26%), c-MET (75%, 26%), Nectin-4 (66%, 35%), and CLDN18.2 (46%, 7.7%). HER2 overexpression occurred in 3.1% of tumors. Overall agreement among paired primary and metastatic samples on calling either positive or negative ranged from 43% to 75% with the highest observed for HER2 [75%; κ=0.29 (95%CI: -0.32 to 0.91)] and TROP2 (71%; κ not available) and lowest for c-MET, CLDN18.2, and Nectin-4. Frequently altered genes included TP53 (36%), SMAD4 (27%), ELF3 (21%). We observed no significant association between target antigen expression with genomics, RFS, or OS. BTC displays frequent but heterogeneous expression of multiple ADC targets. These hypothesis generating findings suggest inherent complexity of target protein quantification, target threshold determination, and target sampling discordance. Future studies will be required to refine our understanding the utlitiy of ADCs in BTC.",
-      "authors": [
-        "Aruj Dhyani",
-        "Nuray Tezcan",
-        "Joanne F Chou",
-        "Zeynep Tarcan",
-        "Rohit Thummalapalli",
-        "Fatema Nagib",
-        "Orla M Fitzpatrick",
-        "Darren Cowzer",
-        "Danny N Khalil",
-        "Wungki Park",
-        "Lily V Saadat",
-        "Kevin Soares",
-        "Alice Wei",
-        "William Jarnagin",
-        "Nikolaus Schultz",
-        "Joseph P Erinjeri",
-        "Mark Dunphy",
-        "David Solit",
-        "Walid Chatila",
-        "Eileen M O'Reilly",
-        "Ghassan K Abou-Alfa",
-        "Marinela Capanu",
-        "Olca Basturk",
-        "James J Harding"
-      ],
-      "doi": "10.1158/1078-0432.CCR-26-1720",
-      "arxiv_id": "",
-      "pubmed_id": "42720429"
-    },
-    {
-      "title": "[Clinical characterization and genetic analysis of a patient with Fahr disease due to a homozygous variant of JAM2 gene].",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663027/",
-      "abstract": "To explore the clinical presentation and molecular etiology for a patient with Fahr disease due to a variant of JAM2 gene. A male patient who had presented at the Department of Neurology of the First Affiliated Hospital of Zhengzhou University in January 2021 for unsteady gait for over six months was selected as study subject. Clinical data including medical history, family history, physical examination, routine tests such as blood, urine, and stool examinations for the proband were collected. Cranial CT and MRI were carried out. Peripheral blood samples from the patient and his parents were collected. Following extraction of genomic DNA, whole exome sequence (WES) was carried out. Candidate variant was verified by Sanger sequencing of the family members. Pathogenicity of variant was rated based on guidelines from the American College of Medical Genetics and Genomics (ACMG). Swiss-Model was used to analyzed the impact of variant on the protein product. This study was approved by the Medical Ethics Committee of the hospital (Ethics No.: KS-2018-KY-36). The patient had developed unsteady gait 6 months before without clear cause, manifesting as a feeling of heaviness in the head and lightness in the feet, a sensation of walking on cotton wool when standing or walking, without facial drooping, blurred vision, numbness or weakness in the limbs, hand tremors, or slow movement. Cranial CT revealed multiple high-density calcifications in the bilateral cerebellar hemispheres, basal ganglia, thalamus, and gray-white matter junction of the cerebral hemispheres. MRI plain scan showed left frontal lobe lateral ventricular infarction, bilateral paraventricular white matter demyelination, bilateral maxillary sinusitis, and right maxillary sinus cyst. No other family members had similar clinical symptoms. WES and Sanger sequencing results showed that the patient has harbored homozygous c.460C>T (p.Arg154*) variant of the JAM2 gene, for which both of his parents were heterozygous carriers. Based on the guidelines from ACMG, the c.460C>T (p.Arg154*) variant was predicted as likely pathogenic (PVS1+PM2_Moderate+PP3+PP4). The variant was unreported previously, and Swiss-Model analysis suggests that it can significantly affect the tertiary structure of JAM2 protein. The homozygous c.460C>T (p.Arg154*) variant of the JAM2 gene probably underlay the pathogenesis in this pedigree, and the detection of the novel variant has enriched the mutational spectrum of the JAM2 gene.",
-      "authors": [
-        "Qian Ma",
-        "Wenjun Shao",
-        "Yiwei Wang",
-        "Zheyu Hu",
-        "Fengxun Liu"
-      ],
-      "doi": "10.3760/cma.j.cn511374-20250610-00350",
-      "arxiv_id": "",
-      "pubmed_id": "42663027"
-    },
-    {
-      "title": "[Genetic analysis of a fetus with Short-rib thoracic dysplasia 8 with or without polydactyly due to variants of DYNC2I1 gene].",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663026/",
-      "abstract": "To investigate the clinical characteristics of a fetus with Short-rib thoracic dysplasia 8 with or without polydactyly (SRTD8) due to variants of DYNC2I1 gene. A fetus identified to have short ribs, short long bones, and narrow thorax at 26 +1 weeks of gestation at the Women and Children's Hospital of Ningbo University in September 2024 was selected as study subject. The fetus underwent termination of pregnancy at 35 +5 weeks of gestation. Clinical data of the fetus were retrospectively collected. Whole exome sequencing (WES) was carried out on fetal tissue, and candidate variants were validated by Sanger sequencing. Difference between the wild type and variant DYNC2I1 proteins was analyzed using AlphaFold v3.0.1 and PyMOL v2.5.6 software. Pathogenicity of the variant was rated based on guidelines from the American College of Medical Genetics and Genomics (ACMG). Using keywords such as \"DYNC2I1 gene\", previous literature on patients due to biallelic DYNC2I1 gene variants were retrieved from the PubMed databases, CNKI, and Wanfang Data Knowledge Service Platform, and the genetic variant and clinical phenotypes of patients were analyzed. The literature retrieval time was set from the establishment of database to December 31, 2025. This study was approved by the Medical Ethics Committee of the hospital (Ethics No.: 2023-094). Prenatal ultrasound revealed that the fetus had short ribs, short long bones, and narrow thorax at 26 +1 gestational weeks. WES and Sanger sequencing revealed that the fetus has harbored compound heterozygous variants of the DYNC2I1 gene, namely c.265_268 (p.Gln89GlyfsTer15) in exon 3 and c.1777C>T (p.Arg593Trp) in exon 14, which were inherited from his father and mother, respectively. Prediction of the DYNC2I1 protein structure suggested that the c.265_268del variant has formed a premature termination codon, which may significantly alter the protein's secondary structure. The c.1777C>T variant may disrupt the electrostatic interaction between Arg593 and Asp729. Based on the ACMG guidelines, the c.265_268del (p.Gln89GlyfsTer15) variant was predicted to be likely pathogenic (PM2_Supporting +PVS1), whilst the c.1777C>T(p.Arg593Trp) variant was rated as uncertain significance (PM2_Supporting+PM3+PP4). Literature search has identified five articles related to biallelic DYNC2I1 variants involving a total of 11 fetuses/patients. Together with the fetus from this study, typical phenotypes included short ribs (6 cases), narrow thorax (6 cases), short limb bones (6 cases), and hand polydactyly (6 cases), and foot polydactyly (5 cases), albeit with significant clinical heterogeneity. A total of 12 genetic variants were identified, among which c.44delC was the most common (16.7%, 4/24), followed by c.1777C>T, c.2246C>T, and c.2305G>A (each accounting for 12.5%). No mutational hotspot was identified. The c.265_268del (p.Gln89GlyfsTer15) and c.1777C>T (p.Arg593Trp) compound heterozygous variants of the DYNC2I1 gene probably underlay the pathogenesis of SRTD8 in this fetus. This study has enriched the mutational spectrum of the DYNC2I1 gene and facilitated etiological diagnosis and treatment of DYNC2I1-related diseases.",
-      "authors": [
-        "Yingwen Liu",
-        "Chunxiao Han",
-        "Yuxin Zhang",
-        "Lulu Yan",
-        "Jiangyang Xue",
-        "Haibo Li"
-      ],
-      "doi": "10.3760/cma.j.cn511374-20250221-00099",
-      "arxiv_id": "",
-      "pubmed_id": "42663026"
-    },
-    {
-      "title": "[Pathogenicity analysis and prenatal genetic counseling for five Chinese pedigrees harboring a hemizygous c.-32C>G variant of FGF13 gene].",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663023/",
-      "abstract": "To explore the pathogenicity and prenatal counseling strategies for five Chinese pedigrees harboring a hemizygous c.-32C>G (NM_001139500.2) variant of fibroblast growth factor 13 (FGF13) gene. Five Chinese pedigrees found to carry a hemizygous c.-32C>G variant of the FGF13 gene at the Prenatal Diagnosis Center of Henan Provincial People's Hospital between January 2024 and January 2025 were selected as study subjects. The pedigrees had undergone prenatal diagnosis for a family history of genetic disorders, abnormal fetal ultrasound findings, or advanced maternal age. A retrospective analysis was carried out, wherein clinical data for all members of the pedigrees were obtained through the medical records system and outpatient visit system. Peripheral blood samples were collected from all pedigree members, and amniotic fluid samples were obtained from the probands. Following extraction of genomic DNA, prenatal diagnosis was performed using chromosomal microarray analysis (CMA) and trio whole-exome sequencing (trio-WES). Sanger sequencing was used to determine the carrier status for the candidate variant, and Mini-Mental State Examination (MMSE) was used to assess the cognitive function of hemizygous individuals carrying the FGF13 gene c.-32C>G variant. Pathogenicity of candidate variant was assessed based on guidelines from the American College of Medical Genetics and Genomics (ACMG). This study was approved by the Medical Ethics Committee of the hospital (Ethics No.: 2021-171). CMA and trio-WES revealed no pathogenic variants in all probands, whilst trio-WES and Sanger sequencing had identified 11 male individuals carrying a hemizygous c.-32C>G variant of the FGF13 gene from the five pedigrees, which included six adult males, a young boy, and four fetuses. One fetus had undergone termination of pregnancy due to hydrocephalus, one was born pre-term at 34 +1 weeks of gestation owing to maternal hypertension, and other two were delivered at full term. Follow-up of the survived males revealed no phenotypic manifestations related to language or intellectual impairment. Among these, three adult males underwent the MMSE assessment, all of whom showed normal cognitive function. Search of the gnomAD database suggested the carrier frequency of FGF13 c.-32C>G variant in the East Asian population to be 0.125%, with 11 hemizygous males documented. Three male patients harboring the variant showed severe intellectual disability. Both in vitro and in vivo studies suggested that it could reduce the translation levels of FGF13 protein. Based on the ACMG guidelines, it was classified as variant of uncertain significance (BS4+PS3_Supporting). There is insufficient evidence to classify the FGF13 c.-32C>G as a pathogenic variant in clinical practice, and its presence should not be considered an indication for pregnancy termination due to major birth defects.",
-      "authors": [
-        "Jia Huang",
-        "Jingyuan Wang",
-        "Linxiao Zhou",
-        "Heng Yang",
-        "Wenjie Yang",
-        "Shuai Chen",
-        "Hongyan Liu"
-      ],
-      "doi": "10.3760/cma.j.cn511374-20250408-00210",
-      "arxiv_id": "",
-      "pubmed_id": "42663023"
-    },
-    {
-      "title": "[Clinical manifestation and analysis of FBN1 gene variants in eight patients with Marfan syndrome].",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663022/",
-      "abstract": "To explore the correlation between clinical manifestations and variants of fibrillin-1 (FBN1) gene in eight patients with Marfan syndrome (MFS). Eight patients diagnosed with MFS at Beijing Anzhen Hospital of Capital Medical University between 2016 and 2022 were selected as study subjects. Clinical data of the patients were collected. Whole-exome sequencing was carried out. Candidate variants associated with hereditary aortic aneurysm were analyzed using bioinformatics methods. Candidate pathogenic sites were verified by Sanger sequencing of patients and their family members, and rated based on guidelines from the American College of Medical Genetics and Genomics (ACMG). This study was approved by the Medical Ethics Committee of the hospital (Ethics No.: 2026088x). All patients had presented with cardiovascular abnormalities, ocular abnormalities, and varying degrees of skeletal system abnormalities. Variants of the FBN1 gene (NM_000138) were found in all of them, including 3 known pathogenic variants (c.6458G>A, c.2201G>T, c.7466G>A) recorded by the ClinVar database and 5 novel variants (c.5419G>T, c.5241delC, c.1999_2003delAGAGG, c.115dupG, and c.3083-1delG). Of these, the c.3083-1delG was a mosaic variant. Based on the ACMG guidelines, three variants were classified as pathogenic, and 5 variants were classified as likely pathogenic. This study has clarified the genetic basis for eight MFS patients through genetic testing. Five novel FBN1 gene variants were identified. Above findings have enriched the mutational spectrum of the FBN1 gene among Chinese MFS patients and provided a basis for the genetic counseling and clinical management.",
-      "authors": [
-        "Renhua Wu",
-        "Lei Sun",
-        "Baozhu Liu",
-        "Xiao Fu",
-        "Xiaoyan Li",
-        "Yueli Wang"
-      ],
-      "doi": "10.3760/cma.j.cn511374-20260203-00063",
-      "arxiv_id": "",
-      "pubmed_id": "42663022"
-    },
-    {
-      "title": "Intra-amniotic infection: diagnosis, nomenclature, clinical significance, management, and microbiologic tools used for the diagnosis.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42535896/",
-      "abstract": "SUMMARYIntra-amniotic infection is the main cause of spontaneous preterm birth and adverse maternal-fetal outcomes; therefore, rapid, robust, and accurate diagnosis remains a clinical priority. Conventional microbiological techniques, especially culture-based methods, are limited by long turnaround times and the inability to detect fastidious or unculturable organisms. This review summarizes the diagnosis, nomenclature, clinical significance, management, and laboratory approaches for diagnosing intra-amniotic infection. Targeted nucleic acid amplification methods, including species-specific polymerase chain reaction and broad-range 16S rRNA gene sequencing, have improved the detection of bacterial DNA and enabled the identification of organisms that evade routine culture in intra-amniotic infection. More recently, whole-genome sequencing and metagenomic next-generation sequencing have provided culture-independent strategies for comprehensive pathogen profiling, allowing simultaneous detection of bacteria, viruses, and fungi, as well as characterization of antimicrobial resistance determinants and virulence-associated genes. However, challenges remain, particularly in low-biomass samples such as amniotic fluid, where contamination, host DNA background, and data interpretation can compromise specificity. This review critically evaluates the advantages and limitations of each molecular modality and discusses pre-analytical, analytical, and bioinformatic considerations essential for reliable implementation. Integration of molecular diagnostics into clinical workflows holds promise for improving etiological diagnosis and guiding targeted therapy in intra-amniotic infection, thereby improving maternal and fetal outcomes.",
-      "authors": [
-        "Pisut Pongchaikul",
-        "Puntabut Warintaksa",
-        "Piroon Jenjaroenpun",
-        "Anunya Opasawatchai",
-        "Rapeewan Settacomkul",
-        "Pornpun Vivithanaporn",
-        "Suwatcharaporn Hadratchai",
-        "Arunee Singsnaeh",
-        "Iyarit Thaipisuttikul",
-        "Thidathip Wongsurawat",
-        "Piya Chaemsaithong"
-      ],
-      "doi": "10.1128/cmr.00070-26",
-      "arxiv_id": "",
-      "pubmed_id": "42535896"
-    },
-    {
-      "title": "Leptospira -host interactions: advancing next-generation vaccines and diagnostics.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42461043/",
-      "abstract": "SUMMARYLeptospirosis, a widespread zoonotic disease caused by pathogenic Leptospira species, remains a major public health challenge, particularly in tropical and subtropical regions. Despite advances in understanding Leptospira biology and pathogenesis, effective disease control continues to be limited by the lack of rapid, early diagnostics, and broadly protective vaccines. This review comprehensively examines recent progress in deciphering Leptospira -host interactions, with emphasis on key virulence factors, immune-evasion mechanisms, and host immune responses that influence disease outcomes. Particular focus is placed on the molecular and cellular basis of adhesion, invasion, immune modulation, and persistent colonization. We further discuss the limitations of current vaccines and diagnostic approaches, and highlight how emerging technologies, including pan-genomics, proteomics, reverse vaccinology, immunoinformatics, and omics-based antigen discovery, are facilitating the development of next-generation vaccines and diagnostics. Finally, we outline major translational challenges and future perspectives for improving clinical management, surveillance, and prevention of leptospirosis. The concepts discussed in this review may also provide broader insights into vaccine and diagnostic development for other zoonotic bacterial infections.",
-      "authors": [
-        "Bothammal Palanisamy",
-        "Syed M Faisal"
-      ],
-      "doi": "10.1128/cmr.00373-25",
-      "arxiv_id": "",
-      "pubmed_id": "42461043"
-    },
-    {
-      "title": "Advancing One Health genomics in Africa: opportunities and challenges for outbreak and antimicrobial resistance control.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42262139/",
-      "abstract": "SUMMARYAfrica's ongoing struggles with emerging epidemics and antimicrobial resistance (AMR) underscore the urgency of integrating pathogen genomics and surveillance systems into the continent's One Health strategy, particularly given the existing limitations in preparedness and technological resources. This review brings together current evidence on the growth of sequencing infrastructure, the development of regional genomic hubs, and the establishment of governance frameworks, while identifying critical challenges in data integration, bioinformatics capacity, and sustainable financing. Special focus is placed on the lack of African-based genomic data, with our analysis showing that only 1.82% of the global total is available. Case studies illustrate the immense potential and importance of pathogen genomics, giving policymakers a tangible sense of its impact. These examples demonstrate how genomic technologies integrated with artificial intelligence (AI) are transforming outbreak response, AMR surveillance, and stewardship programs by enabling early detection of zoonotic threats, mapping transmission pathways, and guiding vaccine development. However, to fully realize this scientific intel, it is essential to embed One Health pathogen surveillance within strong policy and system frameworks to ensure the translation of technical progress into lasting institutional capacity and sustainable impact. Long-term implementation depends on coordinated investment and advocacy across four interdependent pillars: data architecture, governance and sovereignty, human capital, and technical capacity.",
-      "authors": [
-        "Dhai I Derar",
-        "Fatma Hany",
-        "Haitham Eltaher",
-        "Shorouq Mahmoud",
-        "Youstina Sedarous",
-        "Zhi Ruan",
-        "Mohammed Alkhaldi",
-        "Mohamed Elhadidy"
-      ],
-      "doi": "10.1128/cmr.00387-25",
-      "arxiv_id": "",
-      "pubmed_id": "42262139"
-    },
-    {
-      "title": "Ross River virus transmission, infection, and disease: two and a half decades of research progress-an updated cross-disciplinary review.",
-      "source": "PubMed",
-      "date": "2026-09-10T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42240370/",
-      "abstract": "SUMMARYRoss River virus (RRV) causes the most mosquito-borne disease notifications in Australia and a considerable burden of non-fatal, yet frequently prolonged rheumatic illness across the Australia-Pacific region, reflected in thousands of notifications each year and notable economic and quality-of-life losses. Research on RRV spans multiple disciplines, encompassing viral genomics, immunopathology, transmission ecology, epidemiology, entomology, and environmental science. This review synthesizes two decades of cross-disciplinary investigations to present an integrated perspective on the biological, clinical, ecological, and environmental dimensions of RRV infection. By consolidating findings from diverse fields, the review enhances understanding of the complex factors influencing RRV transmission and disease outcomes throughout its endemic range.",
-      "authors": [
-        "E B Skinner",
-        "D Harley",
-        "A F van den Hurk",
-        "A Michie",
-        "M Aubry",
-        "B M Martin",
-        "D J Rawle"
-      ],
-      "doi": "10.1128/cmr.00099-25",
-      "arxiv_id": "",
-      "pubmed_id": "42240370"
+      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 50,
+      "count": 30,
       "error": ""
     },
     {
       "source": "bioRxiv",
       "success": false,
       "count": 0,
-      "error": "504 Server Error: Gateway Timeout for url: https://api.biorxiv.org/details/biorxiv/2026-09-10/2026-09-13/120"
+      "error": "HTTPSConnectionPool(host='api.biorxiv.org', port=443): Read timed out. (read timeout=60)"
     },
     {
       "source": "medRxiv",
-      "success": false,
-      "count": 0,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "success": true,
+      "count": 8,
+      "error": ""
     }
   ]
 }
