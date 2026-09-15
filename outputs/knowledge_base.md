@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-09-14 06:09:17
+最近更新：2026-09-15 06:06:24
 
-累计论文数：3846
-最近一次新增：7
+累计论文数：3848
+最近一次新增：2
 
 ## 概览
 
-- 来源分布：PubMed=343, arXiv=2753, bioRxiv=471, medRxiv=279
-- 类别分布：clinical_application=290, dataset=421, foundation_model=1802, general=117, methods=1216
-- 热门主题：foundation_model_agent=2555, pathogenomics=150, sequencing_bioinformatics=114, application_monitoring=46, data_fair_training=2
+- 来源分布：PubMed=345, arXiv=2753, bioRxiv=471, medRxiv=279
+- 类别分布：clinical_application=291, dataset=421, foundation_model=1803, general=117, methods=1216
+- 热门主题：foundation_model_agent=2557, pathogenomics=150, sequencing_bioinformatics=114, application_monitoring=46, data_fair_training=2
 
 ## 按类别索引
 
@@ -534,6 +534,11 @@
 
 - [Life Operators: a self-evolving framework for multiscale life modelling](http://arxiv.org/abs/2609.00068v1)
   来源：arXiv | 日期：2026-08-30 | 主题：foundation_model_agent
+  相关度：3.75 | 新颖度：5.5 | 综合：4.362
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC.](https://pubmed.ncbi.nlm.nih.gov/42733093/)
+  来源：PubMed | 日期：2026-09-13 | 主题：foundation_model_agent
   相关度：3.75 | 新颖度：5.5 | 综合：4.362
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
@@ -8196,6 +8201,11 @@
 - [UKB-KG: Knowledge Graph for Integrating and Enhancing Biomedical Insights from the UK Biobank](https://www.medrxiv.org/content/10.64898/2026.09.02.26361902v1)
   来源：medRxiv | 日期：2026-09-07 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：0.5 | 综合：4.367
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [AI-Driven Drug-Target Interaction Prediction: From Data Representation to Model Design.](https://pubmed.ncbi.nlm.nih.gov/42734525/)
+  来源：PubMed | 日期：2026-09-14 | 主题：foundation_model_agent
+  相关度：3.75 | 新颖度：5.5 | 综合：4.362
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [An AI Teaching Assistant for Motion Picture Engineering](http://arxiv.org/abs/2604.04670v1)
@@ -21668,6 +21678,8 @@
 - [AtlasFold: Protein structure prediction with metagenomic-scale language models](https://www.biorxiv.org/content/10.64898/2026.09.04.749352v1) | bioRxiv | 2026-09-07 | score=4.367
 - [UKB-KG: Knowledge Graph for Integrating and Enhancing Biomedical Insights from the UK Biobank](https://www.medrxiv.org/content/10.64898/2026.09.02.26361902v1) | medRxiv | 2026-09-07 | score=4.367
 - [Life Operators: a self-evolving framework for multiscale life modelling](http://arxiv.org/abs/2609.00068v1) | arXiv | 2026-08-30 | score=4.362
+- [Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC.](https://pubmed.ncbi.nlm.nih.gov/42733093/) | PubMed | 2026-09-13 | score=4.362
+- [AI-Driven Drug-Target Interaction Prediction: From Data Representation to Model Design.](https://pubmed.ncbi.nlm.nih.gov/42734525/) | PubMed | 2026-09-14 | score=4.362
 - [SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology](https://www.biorxiv.org/content/10.64898/2026.05.30.728937v2) | bioRxiv | 2026-06-04 | score=4.35
 - [OCellus: A Language-Model Framework for Single-Cell, Spatial, and Perturbation Biology with Natural-Language Reasoning](https://www.biorxiv.org/content/10.64898/2026.07.08.737248v1) | bioRxiv | 2026-07-12 | score=4.35
 - [A Comprehensive Benchmark of Histopathology Foundation Models for Kidney Histopathology](http://arxiv.org/abs/2603.15967v1) | arXiv | 2026-03-16 | score=4.345
