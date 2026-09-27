@@ -1,14 +1,14 @@
 # 论文知识库
 
-最近更新：2026-09-26 06:05:43
+最近更新：2026-09-27 06:32:25
 
-累计论文数：4065
-最近一次新增：28
+累计论文数：4066
+最近一次新增：11
 
 ## 概览
 
-- 来源分布：PubMed=359, arXiv=2916, bioRxiv=492, medRxiv=298
-- 类别分布：clinical_application=306, dataset=453, foundation_model=1918, general=124, methods=1264
+- 来源分布：PubMed=360, arXiv=2916, bioRxiv=492, medRxiv=298
+- 类别分布：clinical_application=307, dataset=453, foundation_model=1918, general=124, methods=1264
 - 热门主题：foundation_model_agent=2706, pathogenomics=154, sequencing_bioinformatics=119, application_monitoring=49, data_fair_training=2
 
 ## 按类别索引
@@ -940,6 +940,11 @@
 
 - [Multi-Omics-Driven Insights into Cancer Biology and Therapeutic Targeting.](https://pubmed.ncbi.nlm.nih.gov/42675339/)
   来源：PubMed | 日期：2026-08-31 | 主题：未命中主题
+  相关度：1.7 | 新颖度：5.75 | 综合：3.117
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Representative Biobanks as Infrastructure for Equitable Precision Medicine: Implications for Clinical Trials, Artificial Intelligence, and Translational Research.](https://pubmed.ncbi.nlm.nih.gov/42799565/)
+  来源：PubMed | 日期：2026-09-26 | 主题：未命中主题
   相关度：1.7 | 新颖度：5.75 | 综合：3.117
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 

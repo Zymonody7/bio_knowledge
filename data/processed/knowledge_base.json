@@ -1,20 +1,20 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-09-26T06:05:43.045355+00:00",
+    "updated_at": "2026-09-27T06:32:25.077633+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 4065,
-    "last_run_count": 28,
+    "total_papers": 4066,
+    "last_run_count": 11,
     "sources": {
-      "PubMed": 359,
+      "PubMed": 360,
       "arXiv": 2916,
       "bioRxiv": 492,
       "medRxiv": 298
     },
     "categories": {
-      "clinical_application": 306,
+      "clinical_application": 307,
       "dataset": 453,
       "foundation_model": 1918,
       "general": 124,
@@ -32,7 +32,7 @@
       "2023": 3,
       "2024": 34,
       "2025": 359,
-      "2026": 3668
+      "2026": 3669
     }
   },
   "indexes": {
@@ -334,6 +334,7 @@
         "doi:10.1177/15473287261475554",
         "doi:10.1177/15578100261472236",
         "doi:10.1177/15578100261474653",
+        "doi:10.1177/19475535261475467",
         "doi:10.1177/20552076261467813",
         "doi:10.1177/25151355261488241",
         "doi:10.1177/25731599261448428",
@@ -4289,6 +4290,7 @@
         "doi:10.1136/gutjnl-2025-337478",
         "doi:10.1177/15473287261475554",
         "doi:10.1177/15578100261472236",
+        "doi:10.1177/19475535261475467",
         "doi:10.1177/25151355261488241",
         "doi:10.1183/16000617.0256-2025",
         "doi:10.1186/s12911-026-03498-x",
@@ -14510,6 +14512,7 @@
         "doi:10.1177/15473287261475554",
         "doi:10.1177/15578100261472236",
         "doi:10.1177/15578100261474653",
+        "doi:10.1177/19475535261475467",
         "doi:10.1177/20552076261467813",
         "doi:10.1177/25151355261488241",
         "doi:10.1177/25731599261448428",
@@ -41731,8 +41734,8 @@
       "pubmed_id": "",
       "content_hash": "8dbeb6dc63cf3dbf5ab6e6e86effb5f9aa48612046ce832bbcf3345a35e7f604",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -63969,8 +63972,8 @@
       "pubmed_id": "",
       "content_hash": "6cbc8cc3028d4866911f31738b26d78a3e3edac063e927646aa7ca5b635f0c8e",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -77968,8 +77971,8 @@
       "pubmed_id": "42784491",
       "content_hash": "ddae23aeeea17f79288b0e779b552adf6eb83ae1c195b8be7161c805b0a47525",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -87271,8 +87274,8 @@
       "pubmed_id": "",
       "content_hash": "848fdbff9cccfac0bf9e2e2b2888fb9109ff243b138be7ec3f3cc3f800d63ca4",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -92044,8 +92047,8 @@
       "pubmed_id": "",
       "content_hash": "095f3c4b1b029976a3f006c5e962b6125a7a65fd3d6dca86c8ffb74b8644e909",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -92074,8 +92077,8 @@
       "pubmed_id": "",
       "content_hash": "1ea885891b8f5d88e16d55271286a2ae8b348e4634ac1d7227f25828693aaf24",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -96706,8 +96709,8 @@
       "pubmed_id": "",
       "content_hash": "21f843879d4275a417d088d8b95f764bc4089568f5e156ae16adb9560ad61aec",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -97621,6 +97624,34 @@
       "content_hash": "b2a1b5b1e42a66ff28c890559e09f82106f3fbbca7b877f254d5da7d183d5ed0",
       "first_seen_at": "2026-09-02T05:43:10.058638+00:00",
       "last_seen_at": "2026-09-02T05:43:10.058638+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1177/19475535261475467": {
+      "paper_id": "doi:10.1177/19475535261475467",
+      "title": "Representative Biobanks as Infrastructure for Equitable Precision Medicine: Implications for Clinical Trials, Artificial Intelligence, and Translational Research.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799565/",
+      "abstract": "The shift toward precision medicine has transformed clinical trial design and drug delivery, yet persistent gaps in data diversity continue to contribute to health disparities. Broad representation and precision stratification are not competing goals; rather, representative datasets are the necessary foundation for identifying clinically meaningful molecular, demographic, environmental, and social subgroups. Despite regulatory mandates and advances in molecular biology, artificial intelligence (AI), and adaptive trials, patient datasets remain heavily skewed toward European populations, with chronic underrepresentation of ethnic minorities, rural populations, and socioeconomically disadvantaged groups. These imbalances propagate bias across the translational pipeline, from target discovery and biomarker validation to clinical trial enrollment, contributing to ineffective drug response and higher failure rates in underrepresented groups, and downstream health disparities. This review examines diverse and centralized biobanks as cornerstone infrastructure for addressing challenges arising from lack of representative patient datasets. It traces the evolution of biobanking from large population-based cohorts to disease-specific and integrated models, highlighting landmark successes and persistence limitations such as fragmentation, participation bias, and lack of standardization. Inclusive, disease-focused biobanks improve access to representative biospecimens, enable equitable biomarker discovery, and enhance the performance of Al/machine learning (ML) models by reducing bias ingrained in older datasets due to lack of diversity. Beyond clinical trials, this review highlights the growing role of biobanks in early-stage, patient-centric research through the generation of diverse patient-derived preclinical models, including organoids and explants. Embedding representative patient-derived data and biospecimens at the research and development stage improves the relevance of preclinical findings, supports biomarker discovery across diverse populations, and reduces the risk that downstream clinical development is optimized for historically overrepresented groups. Representative biobanks are not a substitute for inclusive clinical trials, but they are essential upstream infrastructure for making clinical trials, biomarker discovery, AI/ML models, and precision medicine more equitable and scientifically valid.",
+      "abstract_zh": "",
+      "abstract_short": "The shift toward precision medicine has transformed clinical trial design and drug delivery, yet persistent gaps in data diversity continue to contribute to health disparities. Broad representation and precision stratification are not competing goals; rather, representative datasets are the necessary foundation for identifying clinically meaningful molecular, demographic, environmental, and social",
+      "matched_topics": [],
+      "topic_count": 0,
+      "relevance_score": 1.7,
+      "novelty_score": 5.75,
+      "importance_score": 3.117,
+      "why_it_matters": "这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。",
+      "analysis_zh": "",
+      "category": "clinical_application",
+      "doi": "10.1177/19475535261475467",
+      "arxiv_id": "",
+      "pubmed_id": "42799565",
+      "content_hash": "d97aa49e1a43fa5d78c5b726b28ba005dcc92a465be0468b5cd154f34b84238a",
+      "first_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -102845,8 +102876,8 @@
       "pubmed_id": "",
       "content_hash": "f9eaa0a113e3331fd59aad6b52b038deea54f971f292df17c0e04f62f9bb97b0",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -116304,8 +116335,8 @@
       "pubmed_id": "",
       "content_hash": "3dfd974a51972dc9539408866cf07cba45b16e961a7537b27b893aeb9635188a",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },
@@ -123939,8 +123970,8 @@
       "pubmed_id": "42785931",
       "content_hash": "18176570ab44149b1ef7d0fd6bdc1b720a555ae85c2b751c499cb40de1d3e7ea",
       "first_seen_at": "2026-09-25T06:06:18.474912+00:00",
-      "last_seen_at": "2026-09-26T06:05:43.045355+00:00",
-      "times_seen": 2,
+      "last_seen_at": "2026-09-27T06:32:25.077633+00:00",
+      "times_seen": 3,
       "notes": [],
       "status": "active"
     },

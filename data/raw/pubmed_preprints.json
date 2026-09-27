@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-26T06:05:39.337998+00:00",
+  "fetched_at": "2026-09-27T06:32:22.167432+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 58,
+  "count": 48,
   "papers": [
     {
       "title": "Current knowledge and use of pharmacogenomics among NPs: An integrative review.",
@@ -19,6 +19,156 @@
       "doi": "10.1097/01.NPR.0000000000000480",
       "arxiv_id": "",
       "pubmed_id": "42658573"
+    },
+    {
+      "title": "Accurate determination of isocratic retention behavior of 10-120 mer oligonucleotides in anion-exchange chromatography for gradient optimization.",
+      "source": "PubMed",
+      "date": "2026-09-27T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42531819/",
+      "abstract": "The retention behavior of oligonucleotides (ONs) in anion-exchange chromatography (AEX) is often described using simplified assumptions that lack systematic experimental validation. In this work, the isocratic retention factors of 19 ONs ranging from 10- to 120-mer were measured over a broad range of sodium chloride concentrations on the 5.0μm Protein-Pak TM Hi Res Q Column (4.6 × 100 mm), from slight exclusion to strong retention (-0.1<k<30). A purely empirical but robust five-parameter model was shown to accurately capture the complete dependence of the retention factor on salt concentration across all ON sizes and salt ranges. The validity of this model was confirmed through excellent agreement between simulated and experimental gradient chromatograms, demonstrating that both retention times and peak shapes of complex ON mixtures can be reliably predicted. These results provide a robust and experimentally grounded framework for modeling ON retention in AEX without relying on simplified stoichiometric assumptions. The data further show that the commonly invoked \"on-off\" retention mechanism (defined as when the retention factor is decreasing stepwise from infinity to zero at a specific salt concentration) does not apply to ONs up to at least 120-mer, as retention varies smoothly with salt concentration even for large oligomers. Retention extrapolation for larger ONs even suggests that such behavior may only emerge beyond approximately 650-mer. Because ON retention is strongly correlated with size, peak elution is advantageously ordered rather than random, enabling efficient use of peak capacity. However, non-uniform peak spacing, nucleotide sequence, and size-dependent broadening limit full baseline resolution locally for all ONs. For instance, the numerical gradient simulations enable the users to immediately identify optimal combinations of column length (65 cm), gradient time (2 h), and salt concentration range (551 mM to 754 mM NaCl) to maximize peak capacity (∼ 260) and resolve all 111 ONs in a 10- to 120-mer mixture. This work delivers a strong foundation for the development of improved AEX columns (in terms of length and particle size) and advanced gradient methods, including S-shaped salt profiles, to achieve the highest resolution separation of highly complex ON mixtures up to 120-mer.",
+      "authors": [
+        "Fabrice Gritti",
+        "Abraham Finny"
+      ],
+      "doi": "10.1016/j.chroma.2026.467286",
+      "arxiv_id": "",
+      "pubmed_id": "42531819"
+    },
+    {
+      "title": "Molecular dynamic simulation of FimD ssDNA aptamers and development of SPR aptasensor for Salmonella.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800261/",
+      "abstract": "For more than a century, non-typhoidal Salmonella has been recognised as a major foodborne pathogen, responsible for human illness underscoring its continued importance to public health. In the current study, we employed molecular dynamic simulation and Surface Plasmon Resonance (SPR) biosensing based experimental approaches to assess the interaction between the ssDNA aptamers (DFRM13, DFRM110, DFRM29, DFRM33, and DFRM39) and Salmonella FimD usher protein. The docking studies revealed superior binding performance for DFRM13-FimD complex based on its low RMSD (0.7 ± 0.4 nm) and z-score (-1.9) values followed by DFRM39-FimD complex (RMSD: 1.1 ± 0.6 nm, z-score: -1.6). The RMSD, RMSF, Rg, SASA analysis and high number of H-bonds with the ssDNA aptamer (∼18 bonds) observed during 50 ns molecular dynamics simulations revealed that DFRM29-FimD complex also exhibited stable binding interactions. SPR assay optimized with biotinylated aptamers on streptavidin sensors exhibited relatively lower dissociation constant (K D ) or higher affinity for native FimD protein from Salmonella lysates (K D 10 -7 to 10 -8 M) than rFimD (K D 10 -6 to 10 -7 M) due to the cross-over SELEX approach adopted for enriching the aptamers. The DFRM13 demonstrated lowest K D toward FimD in Salmonella thermal lysates (K D 1.24 × 10 -8 M), followed by DFRM39 (K D 4.17 × 10 -8 M) indicating highest binding affinity among other aptamers as determined by SPR interaction kinetics. The sensorgrams with curvatures characteristic of FimD detection was not observed when thermal lysates of non-Salmonella bacteria were examined in the SPR assay, thus confirming the specificity of aptamers for Salmonella detection. Overall, the computational and experimental findings from our study demonstrated potential for possible utilization of the aptamers DFRM13 and DFRM39 in Salmonella diagnostic platforms.",
+      "authors": [
+        "Sandesh Suresh Karkal",
+        "K P Pallavi",
+        "Pradnya Sukhadev Nikam",
+        "Kingston J Joseph"
+      ],
+      "doi": "10.1016/j.compbiomed.2026.111950",
+      "arxiv_id": "",
+      "pubmed_id": "42800261"
+    },
+    {
+      "title": "Mapping immune cell metabolic reprogramming from mechanistic hotspots to translational directions: A bibliometric analysis with exploratory clinical evidence.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42800206/",
+      "abstract": "Immune cell metabolic reprogramming links immune function, disease microenvironments, and therapeutic responses. Although research in this field has expanded rapidly, the relationships among immune cell types, metabolic pathways, and clinical scenarios remain fragmented. English language articles and reviews published from 2008 to 2025 were retrieved from the Web of Science Core Collection on June 14, 2025, and 3137 records were finally included. Bibliometrix, CiteSpace, VOSviewer, and related visualization tools were used for bibliometric and visual analyses. In addition, a PubMed clinical subset was established by retrieving human clinical studies published between January 1, 2008 and August 26, 2025. A total of 11 clinical studies were included. The results showed that research on immune cell metabolic reprogramming entered a phase of rapid growth after 2016, with China and the United States as the leading contributing countries. The knowledge base of the field was mainly centered on T cell metabolic regulation, macrophage function, the tumor microenvironment, and changes in immune function. Research hotspots gradually shifted from early topics such as differentiation, activation, memory, and mTOR related immunometabolic mechanisms to the tumor microenvironment, immunosuppression, single cell analysis, efficacy evaluation, and model construction. Literature derived high frequency gene terms highlighted immune regulatory clues, including CD4, STAT3, and CD44, as well as metabolic flow related clues, including HK2, PFKFB3, LDHA, and PC. The PubMed clinical subset further showed that mitochondrial function, glycolytic changes, trained immunity, and cell therapy related metabolic states have been investigated in disease state identification, therapeutic response monitoring, and cell therapy optimization. This study quantitatively and visually evaluated the overall development of immune cell metabolic reprogramming research. The findings suggest that the field is moving from single pathway descriptions toward a research model that integrates immune cell stratification, disease context stratification, and context specific translational investigation. By integrating the research landscape, thematic structure, molecular clues, and clinical entry points, this study provides candidate directions for independent molecular, functional, and clinical validation in immunometabolism.",
+      "authors": [
+        "Linxin Liu",
+        "Sixian Chen",
+        "Haoyu Wan"
+      ],
+      "doi": "10.1016/j.humimm.2026.112088",
+      "arxiv_id": "",
+      "pubmed_id": "42800206"
+    },
+    {
+      "title": "Splice-site variants in neurology: from molecular mechanisms to clinical interpretation - a focused review.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799960/",
+      "abstract": "Variants that disrupt pre-mRNA splicing represent a historically underrecognized proportion of pathogenic alleles in Mendelian neurological disorders, accounting for an estimated 15-30% of disease-causing variants. Conventional clinical genomic pipelines frequently overlook these variants because analysis and reporting have traditionally focused on protein-coding regions, with intronic and synonymous positions assigned lower priority. The central practical problem this review addresses is therefore not whether splicing matters in neurogenetic disease - that is well established - but how a splice-altering variant identified on a diagnostic report can be reliably identified, experimentally validated, and translated into a clinical diagnosis or therapeutic decision. Deep learning-based splice prediction tools such as SpliceAI and Pangolin, RNA sequencing, long-read transcriptomics, and minigene functional assays have collectively improved diagnostic yield in previously unsolved neurogenetic cohorts, particularly by identifying deep intronic pseudoexon variants and leaky canonical splice-site alleles. Nevertheless, accurate variant classification remains challenging: the Pathogenic Very Strong 1 (PVS1) criterion of the American College of Medical Genetics and Genomics/Association for Molecular Pathology (ACMG/AMP) framework requires careful gene- and variant-specific adaptation when applied to splicing, prediction tools disagree with one another and are least reliable outside the core splice-site consensus, and RNA-based validation is constrained by the tissue- and developmental-stage-restricted nature of splicing itself. This review synthesizes the molecular basis of splice-altering variants, current standards for their nomenclature and computational prediction, the practical strengths and limitations of RNA-level validation, and their contribution to epilepsy, hereditary neuropathy, ataxia, dystonia, mitochondrial disease, neuromuscular disorders, and the newly recognized spliceosomal small nuclear RNA (snRNA) neurodevelopmental disorders. We place particular emphasis on the diagnostic and therapeutic decisions that depend on getting this interpretation right, on the unresolved limitations of current prediction and validation tools, and on priorities for embedding RNA-level diagnostics more routinely into clinical neurogenetic practice.",
+      "authors": [
+        "Nishanth Gowda",
+        "Shravan Harish"
+      ],
+      "doi": "10.1007/s10048-026-00947-7",
+      "arxiv_id": "",
+      "pubmed_id": "42799960"
+    },
+    {
+      "title": "The role of pharmacogenomics in effective pain management with opioids.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799624/",
+      "abstract": "Opioids are commonly prescribed as standards of care for various types of pain. Multiple pathways can impact pain response, and understanding medication metabolism is imperative to achieving optimal analgesic response. Pharmacogenomics (PGx) can assist with understanding interindividual variability and aid in safe medication prescribing. Genetic variants in pharmacokinetic and pharmacodynamic genes have been evaluated, and literature generally favors use of pharmacokinetic associations in clinical practice. Tramadol and codeine have the most literature to support integration of PGx into routine prescribing practices. Hydrocodone and oxycodone have theoretical implications; however, data have been inconsistent. Clinical decision support has been the mainstay of integration of PGx results into routine clinical practice. Future research should focus on additional pathways implicated in opioid metabolism and response to further guide effective pain management with opioids.",
+      "authors": [
+        "Amanda Massmann",
+        "Natasha J Petry",
+        "Meghan Haan",
+        "Kristen Jacobsen",
+        "April Schultz",
+        "Jordan F Baye"
+      ],
+      "doi": "10.1080/14622416.2026.2738673",
+      "arxiv_id": "",
+      "pubmed_id": "42799624"
+    },
+    {
+      "title": "Representative Biobanks as Infrastructure for Equitable Precision Medicine: Implications for Clinical Trials, Artificial Intelligence, and Translational Research.",
+      "source": "PubMed",
+      "date": "2026-09-26T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799565/",
+      "abstract": "The shift toward precision medicine has transformed clinical trial design and drug delivery, yet persistent gaps in data diversity continue to contribute to health disparities. Broad representation and precision stratification are not competing goals; rather, representative datasets are the necessary foundation for identifying clinically meaningful molecular, demographic, environmental, and social subgroups. Despite regulatory mandates and advances in molecular biology, artificial intelligence (AI), and adaptive trials, patient datasets remain heavily skewed toward European populations, with chronic underrepresentation of ethnic minorities, rural populations, and socioeconomically disadvantaged groups. These imbalances propagate bias across the translational pipeline, from target discovery and biomarker validation to clinical trial enrollment, contributing to ineffective drug response and higher failure rates in underrepresented groups, and downstream health disparities. This review examines diverse and centralized biobanks as cornerstone infrastructure for addressing challenges arising from lack of representative patient datasets. It traces the evolution of biobanking from large population-based cohorts to disease-specific and integrated models, highlighting landmark successes and persistence limitations such as fragmentation, participation bias, and lack of standardization. Inclusive, disease-focused biobanks improve access to representative biospecimens, enable equitable biomarker discovery, and enhance the performance of Al/machine learning (ML) models by reducing bias ingrained in older datasets due to lack of diversity. Beyond clinical trials, this review highlights the growing role of biobanks in early-stage, patient-centric research through the generation of diverse patient-derived preclinical models, including organoids and explants. Embedding representative patient-derived data and biospecimens at the research and development stage improves the relevance of preclinical findings, supports biomarker discovery across diverse populations, and reduces the risk that downstream clinical development is optimized for historically overrepresented groups. Representative biobanks are not a substitute for inclusive clinical trials, but they are essential upstream infrastructure for making clinical trials, biomarker discovery, AI/ML models, and precision medicine more equitable and scientifically valid.",
+      "authors": [
+        "Meghan Davis",
+        "Carla Reimold",
+        "Kirk Taylor",
+        "Asmi Chakraborty"
+      ],
+      "doi": "10.1177/19475535261475467",
+      "arxiv_id": "",
+      "pubmed_id": "42799565"
+    },
+    {
+      "title": "Model-Informed Dose Optimization of Anakinra in Preterm Neonates Implications for Safe and Effective Dosing.",
+      "source": "PubMed",
+      "date": "2026-09-25T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791567/",
+      "abstract": "Anakinra, an interleukin-1 receptor antagonist, shows promise for reducing inflammatory complications of premature birth. However, the pharmacokinetics (PK) of anakinra in neonates has not been characterized, limiting evidence-based dosing. This study aimed to develop a population PK model for anakinra to guide dosing in preterm neonates. Data from 25 preterm neonates (median gestational age: 26.3 weeks) from a Phase I/IIa trial of intravenous anakinra (Anakinra Pilot, NCT05280340) were analyzed, with 4-8 samples collected per neonate across 0-20 days postnatal age (PNA). A population PK model was developed and dosing simulations were performed incorporating a pharmacodynamic (PD) direct effect model (I max , IC 50 ) and target exposure (AUC 0-24h ). The data were best described by a one-compartment model with linear elimination and a baseline component for endogenous IL-1Ra. Allometric scaling was applied to clearance (CL) and volume of distribution (V), with a maturation function using PNA on CL to account for early age-related pharmacokinetic changes. Estimated CL and V were 3.97 L/h/70 kg (0.15 L/h/0.9 kg) and 28.9 L/70 kg (0.37 L/h/0.9 kg). At birth, CL was ~45% of the maximal early postnatal value, achieving ~100% by day 10 PNA. Simulations suggest that an optimal intravenous dosing regimen of 0.6 mg/kg 12 hourly at birth, 0.8 mg/kg 12 hourly on PNA day 1, 1.0 mg/kg 12 hourly from PNA days 2-3 and 1.15 mg/kg 12 hourly day 4 onward. This model delivers the first critical understanding of small protein PK in premature neonates, establishing a foundation for evidence-based dosing strategies to guide future prospective clinical trials.",
+      "authors": [
+        "Jia Li",
+        "David K Metz",
+        "Elys Green",
+        "Gergely Toldi",
+        "Robert Galinsky",
+        "Megan Clark",
+        "Rebecka Atkinson",
+        "Ina Rudloff",
+        "Josephine C Owen",
+        "Sara K DiSimone",
+        "Samuel C Forster",
+        "Steven X Cho",
+        "Atif Majid",
+        "Graeme R Polglase",
+        "Marcel Favilla",
+        "Pramod Pharande",
+        "Atul Malhotra",
+        "Calum T Roberts",
+        "Scott H Stansfield",
+        "Arvind Sehgal",
+        "Kenneth Tan",
+        "Alistair J Gunn",
+        "Philip J Berger",
+        "Alex Veldman",
+        "Rod W Hunt",
+        "Claudia A Nold-Petry",
+        "Marcel F Nold",
+        "Carl M J Kirkpatrick"
+      ],
+      "doi": "10.1002/cpt.70491",
+      "arxiv_id": "",
+      "pubmed_id": "42791567"
+    },
+    {
+      "title": "Unraveling the lexicon of complex mutational phenomena in human cancers.",
+      "source": "PubMed",
+      "date": "2026-09-25T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791387/",
+      "abstract": "Although most mutations found in cancer genomes are randomly distributed, some form complex genomic patterns. Over the past 15 years, genomics studies have systematically uncovered multiple mutational phenomena, assigning several of them evocative Greek terms including kataegis, omikli, kyklonas, chromothripsis, chromoplexy, pyrgo, rigma and tyfonas. These phenomena are associated with distinct, often incompletely understood, molecular mechanisms and have important implications for tumor evolution and clinical outcomes. This Perspective provides a comprehensive lexicon of these mutational phenomena, addressing ambiguities in their definitions and mechanisms while highlighting their diversity, proposed origins and known associations with mutational processes, drug resistance and clinical outcomes.",
+      "authors": [
+        "Ting Yang",
+        "Erik N Bergstrom",
+        "Stanley Clarke",
+        "Marcin Imieliński",
+        "Ludmil B Alexandrov"
+      ],
+      "doi": "10.1038/s43018-026-01242-y",
+      "arxiv_id": "",
+      "pubmed_id": "42791387"
     },
     {
       "title": "Evolution confounds detectability in pathogen surveillance.",
@@ -497,6 +647,22 @@
       "pubmed_id": "41950063"
     },
     {
+      "title": "Umbrella Review for Pediatric Sepsis and Robust Prediction Potential Worldwide.",
+      "source": "PubMed",
+      "date": "2026-09-24T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798577/",
+      "abstract": "Pediatric sepsis remains a significant global health burden with considerable mortality and morbidity, particularly in resource-limited settings. This umbrella review synthesizes current evidence from systematic reviews and meta-analyses on the definitions, epidemiology, diagnostic approaches, prognostic models, and emerging prediction technologies of pediatric sepsis worldwide. Through comprehensive evaluation of 18 high-quality systematic reviews published between 2019 and 2024, we identified critical gaps in early recognition and management protocols while highlighting promising technological innovations that demonstrate robust prediction potential. Our analysis revealed substantial variation in sepsis outcomes across different healthcare settings, with approximately 85% of global pediatric sepsis deaths occurring in low- and middle-income countries (LMICs). Quantitative synthesis of prediction models demonstrated pooled sensitivity of 0.81 (95% confidence interval [CI]: 0.76-0.85) and specificity of 0.79 (95% CI: 0.74-0.84), with area under the receiver operating characteristic curve values ranging from 0.78 to 0.94 depending on resource setting and model complexity. The integration of machine learning algorithms with traditional clinical markers showed particular promise for developing context-appropriate prediction tools that function effectively across resource settings. Etiological analysis revealed distinct pathogen profiles by age and geography: Gram-negative organisms were predominant in neonates (68%) and LMICs (72%), while Gram-positive pathogens accounted for 58% of cases in high-income country settings. Antimicrobial resistance exceeded 50% for common pathogens in LMICs, critically complicating empirical treatment. This review provides a comprehensive foundation for future research directions and implementation strategies to reduce the global burden of pediatric sepsis through precision medicine approaches and health system strengthening.",
+      "authors": [
+        "Wenbo Fu",
+        "Yumei Li",
+        "Kee Chong Ng",
+        "Sheng Fu"
+      ],
+      "doi": "10.1002/pdi3.70069",
+      "arxiv_id": "",
+      "pubmed_id": "42798577"
+    },
+    {
       "title": "SCN5A U12-Type Minor Intron Variant Causes Cryptic Splicing and Cardiac Arrhythmia Disease.",
       "source": "PubMed",
       "date": "2026-01-01T00:00:00+00:00",
@@ -849,436 +1015,13 @@
       "doi": "10.1556/1886.2026.00031",
       "arxiv_id": "",
       "pubmed_id": "42531015"
-    },
-    {
-      "title": "Etiological and Pathological Investigation of Bacterial Pneumonia in Forest Musk Deer ( Moschus berezovskii ) Using a Novel Multiplex PCR Assay.",
-      "source": "PubMed",
-      "date": "2026-01-01T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42781385/",
-      "abstract": "Pneumonia is a major cause of mortality in forest musk deer ( M. berezovskii ) breeding, leading to significant economic losses. Conventional pathogen detection methods, such as bacterial isolation and culture, are time-consuming and costly. This study aimed to develop a rapid, specific, and sensitive multiplex PCR assay for the simultaneous detection of four common bacterial pathogens. Specific primers were designed to target genes: gyrB for Escherichia coli , PhoE for Klebsiella pneumoniae , LasI for Pseudomonas aeruginosa , and Kmt1 for Pasteurella multocida . The multiplex PCR system was optimized by adjusting the annealing temperature and primer concentrations, and its specificity, sensitivity, and reproducibility were evaluated. The technique successfully detected all four pathogens simultaneously, demonstrating high specificity and good reproducibility. The detection limits were 9.2 × 10 4 CFU/mL for E. coli , 1.3 × 10 5 CFU/mL for K. pneumoniae , 1.5 × 10 5 CFU/mL for P. aeruginosa , and 3.7 × 10 4 CFU/mL for P. multocida . Using this method, a total of 47 lung tissue samples from dead forest musk deer across four regions in China were analyzed, and results were compared with bacterial isolation and 16S rRNA sequencing. A high rate of mixed infections (74.5%) was observed, with E. coli showing the highest detection rate (80.8%), followed by K. pneumoniae (65.9%), while P. aeruginosa (40.4%) and P. multocida (40.4%) were less prevalent. Moreover, histopathological analysis confirmed typical pneumonia lesions. This method provides a reliable method for rapid detection of major bacterial pathogens in musk deer, supporting clinical diagnosis and epidemiological studies.",
-      "authors": [
-        "Cheng Chang",
-        "Xiaorui Zhang",
-        "Runlai Cao",
-        "Qilin Wang",
-        "Xiaoxu Wang"
-      ],
-      "doi": "10.1155/vmi/8110272",
-      "arxiv_id": "",
-      "pubmed_id": "42781385"
-    },
-    {
-      "title": "In planta fluxapyroxad gradients from seed treatment differentially select fungicide-sensitive and reduced-sensitive genotypes of Pyrenophora teres f. maculata.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42779150/",
-      "abstract": "Fungicides are essential for controlling crop diseases and sustaining agricultural productivity, but the escalating emergence of resistance threatens their long-term efficacy and global food security. Recent advances in liquid chromatography coupled with high-resolution mass spectrometry enable accurate quantification of fungicide distribution. When combined with concurrent assessment of spatial variation of pathogen performance during infection, this enables a clear understanding of both fungicide efficacy and factors influencing the selection pressure leading to fungicide resistance. This study used the succinate dehydrogenase inhibitor fungicide fluxapyroxad and the barley pathogen Pyrenophora teres f. maculata (Ptm; the causal agent of spot form net blotch) as a model system to investigate how within-plant fungicide concentrations influence pathogen genotype-specific responses. Fluxapyroxad, applied as a seed treatment, was later quantified across multiple leaves along the main stem of barley across growth stages. Fluxapyroxad concentrations were correlated with disease severity following inoculation with fungicide-sensitive and fungicide-reduced-sensitive genotypes of Ptm. The fungal load and pathogen genotype proportion were quantified using digital polymerase chain reactions (PCR) to understand shifts in the genotype-dependent response in the presence of fluxapyroxad. Our results showed distinct fungicide concentration gradients between barley leaves, which correlated with variations in disease severity and pathogen genotype proportions. These results establish a quantitative link between spatial fungicide heterogeneity within plants and pathogen genotype responses, demonstrating that local fungicide concentration drives differential selection within plant tissues. The findings provide an empirical foundation for refining fungicide application strategies to sustain efficacy, reduce unnecessary inputs, and delay the evolution of fungicide resistance. © 2026 The Author(s). Pest Management Science published by John Wiley & Sons Ltd on behalf of Society of Chemical Industry.",
-      "authors": [
-        "Arundhati Singh",
-        "Elizabeth Czislowski",
-        "Mark Gibberd",
-        "Kefei Chen",
-        "Francisco J Lopez-Ruiz",
-        "M Jordi Muria-Gonzalez"
-      ],
-      "doi": "10.1002/ps.71340",
-      "arxiv_id": "",
-      "pubmed_id": "42779150"
-    },
-    {
-      "title": "Natural product therapy in diabetic kidney disease: emerging multiomics-mediated signalling pathway and molecular target.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42778934/",
-      "abstract": "Diabetic kidney disease (DKD) is one of the most common microvascular complications of diabetes, with high mortality and morbidity, and is a major cause of progression to end-stage renal disease (ESRD). Although inhibitors or blockers of renin-angiotensin system blockers have a beneficial effect on the treatment of DKD, most patients progress to ESRD and ultimately require renal replacement therapies. Extensive studies have suggested that natural products, as a mainly new drug source, has been demonstrated to be an important therapy for the prevention and treatment of DKD. Based on genomics, transcriptomics, proteomics and metabolomics technologies, the dysregulation of targeting multiomics-associated gut microbiota, non-coding RNAs, altered proteome and endogenous metabolites has recognized as a promising therapy for DKD. This review summarizes natural products, including traditional Chinese medicine formulas (Qitu Qushi formula, Jin Gui Ren Qi Pill and Huangkui capsules), single herbal extracts (Salvia miltiorrhiza, Korean red ginseng, Abelmoschus manihot flowers) and natural compounds (magnesium lithospermate B, thonningianin A germacrone, triptolide, hesperetin, astragaloside IV, icariin and kaempferol) as well as natural polysaccharides, protect against DKD by regulating novel multiomics-associated molecular mechanisms, including gut microbiota dysbiosis, aberrant non-coding RNAs transcription, and disorder of endogenous metabolites and associated with downstream diverse signals, such as IκB/NF-κB, JAK/STAT, MAPK and NLRP3-mediated inflammation pathways, AGEs/RAGE and Keap1/Nrf2-mediated oxidative stress pathways, PI3K/AKT/mTOR, AMPK and endoplasmic reticulum stress-mediated energy/autophagy pathways and TGF-β/Smad and Wnt/β-catenin-mediated fibrosis pathways. Therefore, the underlying molecular mechanism by which natural products ameliorate DKD by reshaping GM dysbiosis, restoring aberrant expression of ncRNAs and regulating metabolite disorder will provide new therapeutic targets for treatment of DKD of natural products. These findings expand our understanding of therapeutic effects of natural products on DKD and provide valuable information for clinical application of natural products. This review presents a concept-driven therapeutic strategy for DKD treatment and management.",
-      "authors": [
-        "Kai-En Wang",
-        "Qing-Qing Yu",
-        "Wen-Feng Wang",
-        "Yan-Ni Wang",
-        "Jie Yang",
-        "Hua Miao",
-        "Li-Min Liu",
-        "Ying-Yong Zhao"
-      ],
-      "doi": "10.1186/s13020-026-01511-z",
-      "arxiv_id": "",
-      "pubmed_id": "42778934"
-    },
-    {
-      "title": "The anthropogenic fingerprint on emerging infectious diseases.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42778602/",
-      "abstract": "Emerging infectious diseases are a hallmark of the Anthropocene 1,2 . Human-driven ecosystem changes and human-wildlife-livestock contact can drive the emergence of zoonotic and vector-borne diseases 3-5 , but how much these processes shape landscapes of outbreak risk is poorly understood, beyond a few well-studied systems 6-8 . Here we consolidate 58,319 outbreak event records for 32 diseases and systematically test how 16 hypothesized social and environmental drivers impact outbreak geographies, while accounting for detection and reporting biases. We show that outbreak risks are typically highest in mosaic landscapes where people and livestock live alongside forests and fragmented ecosystems. These combined factors, along with long-term declines in precipitation, share strong impacts across several vector-borne diseases (for example, dengue, Lyme disease and zoonotic arboviruses). By contrast, directly transmitted zoonoses (for example, Ebola and mpox) share few common drivers, and the impacts of most other anthropogenic pressures (for example, deforestation, climate warming and agricultural intensification) vary widely between diseases. Most consistently, the observed geography of outbreaks is shaped by healthcare access: reporting declines by a median of 32% (range across diseases: 1.2-96.7%) for each additional hour's travel time from a health facility. Our findings underscore that infectious disease spillover and emergence are multi-causal, and that no one-size-fits-all strategy can prevent epidemics and pandemics. Ecosystem-based public health interventions 9 should always follow system-specific evidence, and be paired with greater investment in health systems and One Health pathogen surveillance.",
-      "authors": [
-        "Rory Gibb",
-        "Sadie J Ryan",
-        "David M Pigott",
-        "Maria Del Pilar Fernandez",
-        "Renata L Muylaert",
-        "Gregory F Albery",
-        "Daniel J Becker",
-        "Jason K Blackburn",
-        "Hernan Caceres-Escobar",
-        "Michael Celone",
-        "Evan A Eskew",
-        "Hannah K Frank",
-        "Barbara A Han",
-        "Erin N Hulland",
-        "Kate E Jones",
-        "Rebecca Katz",
-        "Adam Kucharski",
-        "Direk Limmathurotsakul",
-        "Catherine A Lippi",
-        "Joshua Longbottom",
-        "Juan Fernando Martinez",
-        "Jane P Messina",
-        "Elaine O Nsoesie",
-        "David W Redding",
-        "Daniel Romero-Alvarez",
-        "Boris V Schmid",
-        "Stephanie N Seifert",
-        "Anabel Sinchi",
-        "Christopher H Trisos",
-        "Michelle Wille",
-        "Colin J Carlson"
-      ],
-      "doi": "10.1038/s41586-026-11058-6",
-      "arxiv_id": "",
-      "pubmed_id": "42778602"
-    },
-    {
-      "title": "The phospholipase PlcP-mediated membrane lipid remodelling is required for the intracellular survival of Burkholderia cenocepacia.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42778104/",
-      "abstract": "Burkholderia cenocepacia is a problematic pathogen that infects people with cystic fibrosis and can cause fatal \"cepacia syndrome\". B. cenocepacia infection is difficult to treat due to the high-level intrinsic resistance of the bacterium to antimicrobials and its ability to survive in macrophages. In this study, we uncover a hitherto unknown aspect of B. cenocepacia's pathogenesis related to the formation of new glyceroglycolipids, which is involved in intracellular survival. Using lipidomics, we observed that B. cenocepacia can produce three glyceroglycolipid species in phosphate deplete conditions using a PlcP-mediated lipid remodelling pathway originally discovered in soil and ocean-dwelling bacteria. While lipid remodelling as an adaptive strategy for environmental microbes to overcome phosphorus limitation is known, its role in intracellular bacterial survival has not been investigated. Using mammalian macrophages and Galleria mellonella larvae as infection models, we showed that mutants unable to perform membrane lipid remodelling (ΔplcP, Δagt) could not establish infection. Unlike the wild-type bacterium, the ΔplcP mutant did not replicate within macrophages. Comparative genomics analyses showed that this PlcP-Agt pathway is conserved in all pathogenic Burkholderia that infect mammalian and plant hosts. Overall, our results indicate that bacterial membrane lipid remodelling plays an essential role in the intracellular survival of B. cenocepacia.",
-      "authors": [
-        "Holly Shropshire",
-        "Xu Han",
-        "Zengsheng Han",
-        "Barbara Clough",
-        "Rebekah A Jones",
-        "Shadman Ahmed",
-        "Inmaculada García-Romero",
-        "Isabel Aberdeen",
-        "Prachetash Ghosh",
-        "Ioannis Nezis",
-        "Miguel A Valvano",
-        "David J Scanlan",
-        "Richard Guillonneau",
-        "Yin Chen"
-      ],
-      "doi": "10.1016/j.jbc.2026.113600",
-      "arxiv_id": "",
-      "pubmed_id": "42778104"
-    },
-    {
-      "title": "Automated machine learning framework for interpreting paper-based biosensing of pathogens.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42778002/",
-      "abstract": "Paper-based biosensors have emerged as a promising tool for the rapid detection of microbial contaminants. However, the interpretation of paper-based biosensor images commonly relies on manual intensity extraction and assay-specific decision criteria, while explicit thresholds for positive/negative classification are often not reported. Herein, an ML framework was developed for automated interpretation of paper-based colorimetric biosensor images across distinct paper-based biosensor studies targeting different pathogens. Using conventional normalized intensity, region-of-interest (ROI)-based descriptors, and image-only convolutional neural network approaches, within-study validation showed strong positive/negative classification performance. However, the optimized decision thresholds differed between studies, and this study-dependent shift resulted in degraded cross-study classification performance. We therefore introduced a color-space normalization approach that quantified each target signal according to its chromatic relationship with the paired positive and negative controls, rather than relying on single-channel fluorescence intensity alone. This color-space normalization improved the separation of positive and negative readouts across studies and yielded comparable decision-threshold ranges in both within-study and cross-study validation. Accordingly, the color-space normalization approach provided more stable cross-study classification than conventional single-channel normalization, ROI-based descriptors, and image-only deep learning approaches. The trained model and frozen decision threshold were applied to a separate dataset as a small proof-of-concept application. These results support ML-assisted biosensor interpretation as a means to automate image interpretation and establish more consistent decision boundaries for paper-based biosensor studies.",
-      "authors": [
-        "Soyoung Park",
-        "Zhugen Yang",
-        "Zhen He"
-      ],
-      "doi": "10.1016/j.envres.2026.125756",
-      "arxiv_id": "",
-      "pubmed_id": "42778002"
-    },
-    {
-      "title": "Antiviral efficacy and therapeutic potential of the novel nucleoside analog CLEVir-X against feline infectious peritonitis virus in vitro and in vivo.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42777847/",
-      "abstract": "Feline infectious peritonitis virus (FIPV) is the causative agent of feline infectious peritonitis, a progressive and often fatal disease in cats. Although antiviral therapies have recently become available, the development of effective orally administrable agents remains an important goal for feline coronavirus control. In this study, we evaluated the antiviral efficacy of CLEVir-X, a novel dialdehyde-xanthosine-based nucleoside analogue, against Type II FIPV DF-2 in both in vitro and in vivo models. CLEVir-X exhibited concentration-dependent antiviral activity against FIPV in feline-derived cell lines while maintaining low cytotoxicity. Mechanistic analyses showed that guanosine supplementation partially restored viral replication and that CLEVir-X treatment was associated with moderate induction of interferon-stimulated genes, suggesting possible involvement of host nucleotide modulation and innate antiviral responses. In experimentally infected cats, oral administration of CLEVir-X initiated at 5 dpi was associated with improved survival and stabilization of clinical parameters compared with untreated controls. Hematological and biochemical parameters also showed trends toward baseline values in treated animals. Overall, these findings demonstrate antiviral activity of CLEVir-X in feline-derived cell models and provide preliminary evidence of treatment-associated benefit in experimentally infected cats. The results support further investigation of CLEVir-X as a potential orally administrable therapeutic candidate for feline infectious peritonitis and provide a basis for future studies aimed at defining its precise antiviral mechanism and long-term therapeutic potential.",
-      "authors": [
-        "Daseuri Cha",
-        "M S B W T M Nipuna Sudaraka Tennakoon",
-        "Won-Suk Choi",
-        "Hojin Moon",
-        "Youngnam Kim",
-        "Gianmaro Ferrara",
-        "Hyun-Jin Shin"
-      ],
-      "doi": "10.1016/j.micpath.2026.108835",
-      "arxiv_id": "",
-      "pubmed_id": "42777847"
-    },
-    {
-      "title": "From detection to prediction: Asymptomatic shedding-informed mass-balance modeling predicts travel-borne viral importation at airports.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42777834/",
-      "abstract": "Aircraft wastewater surveillance (AWS) has emerged as a non-invasive tool for travel-mediated pathogen detection, yet its utility remains largely descriptive without capacity to translate environmental concentrations into quantitative infection dynamics. This study aimed to advance AWS from passive pathogen detection to an active predictive framework by integrating mass balance back-calculation with hybrid-capture genomic surveillance. To resolve a critical parameter gap in mass-balance modeling-namely, the fecal shedding kinetics of asymptomatic influenza carriers, we prospectively enrolled 238 non-respiratory outpatients at Nanchang People's Hospital and quantified fecal influenza A/B virus loads (IAV /IBV) by RT-qPCR. Asymptomatic IAV and IBV shedding was detected across all age strata, with median viral loads of 5.9 and 5.0 log₁₀ copies/g, respectively, and positivity rates ranging from 41.2% (adolescents) to 62.1% (children <10 years), thereby establishing the first empirical fecal shedding parameter set for carriage-inclusive mass-balance back-calculation. Between January and July 2025, we prospectively collected 240 aircraft wastewater samples from six Asia-Pacific flight routes and 60 longitudinal sewage samples from an international airport in Nanjing, China. RT-qPCR was conducted to quantify norovirus, influenza virus, mpox, and dengue virus. A mass balance back-calculation model was established to convert wastewater viral concentrations into estimated weekly numbers of infected inbound passengers. Viral genomes were enriched via hybrid-capture panels and subjected to high-resolution phylogenetic analysis. The predictive framework estimated weekly flight-imported infection cases for norovirus GII, influenza A virus and dengue virus, revealing distinct regional importation curves synchronized with epidemiological trends in countries of origin (95% concordance). Phylogenetic analysis resolved multiple independent viral introductions. Further employing a Susceptible-Exposed-Infectious-Recovered model, we forecasted 14-day community infection burden and validated predictions against clinical surveillance data, demonstrating significant concordance with IAV (r=0.71) and norovirus clinical visits (r=0.84). By bridging quantitative infection dynamics with lineage-resolution genomics, this study establishes a paradigm shift from qualitative pathogen detection to predictive outbreak intelligence.",
-      "authors": [
-        "Shifu Peng",
-        "Yao Deng",
-        "Jiayi Liu",
-        "Xinyan Du",
-        "Liu Yang",
-        "Zhen Ding",
-        "Songzhe Fu"
-      ],
-      "doi": "10.1016/j.jinf.2026.106866",
-      "arxiv_id": "",
-      "pubmed_id": "42777834"
-    },
-    {
-      "title": "Advances in Machine Learning for Drug Repurposing: From Methodologies to Precision Medicine with Case Studies in COVID-19, Parkinson's Disease, and Cancer.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42776876/",
-      "abstract": "This review investigates recent advances in machine learning (ML) for drug repurposing, with applications spanning COVID-19, Parkinson's disease, and cancer. We provide a methodological taxonomy of ML techniques including supervised learning (e.g., random forests, SVMs), unsupervised clustering and dimensionality reduction, deep neural networks, reinforcement learning, and graph-based models such as MLGANN and DTD-GNN highlighting their roles in scalable drug-target interaction prediction and phenotype mapping. Case studies demonstrate how integrated models leveraging heterogeneous data (e.g., gene expression, chemical structure, EHRs) facilitated the identification of repurposable candidates like baricitinib, raloxifene, and rapamycin. Across the reviewed case studies, top-performing models achieved AUROC values ranging from 0.88 to 0.99 on their respective benchmarks, though significant performance degradation (AUROC drops of 0.05-0.15) was observed under cross dataset generalization, underscoring the translational gap between benchmark and real-world performance. We analyze computational challenges, including data sparsity, model overfitting, limited generalizability across datasets, and the interpretability gap in deep learning and GNNs. We discuss integration of explainable AI (e.g., SHAP, LIME), interpretable models (e.g., rule lists, causal graphs), network biology, and federated learning as avenues to improve robustness and translational relevance. Unlike prior reviews focused on single diseases or ML paradigms, this work provides a cross disease analysis exposing shared bottlenecks and identifying disease-agnostic best practices. We examine the role of foundation models and large language models (LLMs) in drug repurposing, including zero-shot molecular property prediction and literature-informed mining. This work outlines an ML-driven framework that balances computational scalability with biological validity, enabling actionable predictions in precision medicine.",
-      "authors": [
-        "Betel Gurara",
-        "Saron Gebremichael",
-        "Hana Sheto",
-        "Varsha Manikandan",
-        "Frank Martin",
-        "Bemnet Kinfe",
-        "Sumitra Miriyala",
-        "Gayathri Sadanala"
-      ],
-      "doi": "10.1109/JBHI.2026.3737030",
-      "arxiv_id": "",
-      "pubmed_id": "42776876"
-    },
-    {
-      "title": "Behavior of surface contamination by Salmonella spp. on broiler carcasses during slaughter stages.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42776438/",
-      "abstract": "Salmonella spp. is a globally relevant pathogen frequently associated with foodborne infections and poultry products. This study aimed to evaluate the occurrence and quantification of Salmonella spp. during different stages of the broiler slaughter process and to assess the association of processing stages with reductions in contamination levels. The study was conducted in a federally inspected broiler slaughterhouse in Paraná, Brazil. A total of 2,100 analyses were performed on chicken carcasses collected at seven points along the slaughter line over 20 weeks. Salmonella detection followed the ISO 6579:2017 methodology, while quantification was performed using the miniaturized most probable number (mMPN) method with molecular confirmation by the invA gene. Subsequently, 211 isolates were serotyped, and 97 Salmonella Heidelberg isolates were analyzed by pulsed-field gel electrophoresis (PFGE). The highest occurrence of Salmonella spp. was observed at the pre-scalding stage (N = 236/78.66%). Significant reductions in Salmonella counts were observed after the scalding stage, after the post-evisceration critical control point for removal of visibly contaminated carcasses (CCP 1B), and after final washing before chilling (P < 0.05). Five serovars were identified, with Salmonella Heidelberg predominating (N = 193/91.5%). PFGE analysis revealed high genetic similarity (90%) among isolates, with highly similar profiles identified at different slaughter stages and sampling weeks. These findings demonstrate that Salmonella spp. was detected throughout the slaughter process, although reductions in contamination levels were observed at specific processing stages. In addition, the detection of highly similar isolates at different sampling points and weeks contributes to the understanding of Salmonella contamination dynamics in poultry slaughterhouses.",
-      "authors": [
-        "Jhennifer Arruda Schmiedt",
-        "Leonardo Ereno Tadielo",
-        "Emanoelli Aparecida Rodrigues Dos Santos",
-        "Vinicius Cunha Barcellos",
-        "Luiz Gustavo Bach",
-        "Victor Hugo Cortez Dias",
-        "Monique Ribeiro Tiba Casas",
-        "Rafaela de Melo Tavares",
-        "Ricardo Seiti Yamatogi",
-        "Luís Augusto Nero",
-        "Luciano Dos Santos Bersot"
-      ],
-      "doi": "10.1007/s42770-026-02061-0",
-      "arxiv_id": "",
-      "pubmed_id": "42776438"
-    },
-    {
-      "title": "The Next Frontier in Quantitative Co-Clinical Imaging to Advance Functional Precision Oncology.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42776062/",
-      "abstract": "Precision oncology seeks to transform cancer treatment into one tailored for individual patients. Genomic alterations have been the dominant drivers of patient-specific therapeutic strategies. While genomic insights can guide treatment planning, genotype-directed therapies do not guarantee response to therapy. Functional confirmation of target expression, target engagement, and downstream biological effects is essential to defining therapeutic endpoints. Translational imaging can play a central role in closing the loop between genome and function to operationalize functional precision medicine (FPM). Quantitative co-clinical imaging provides a powerful framework to link genotype with function by confirming drug delivery, target engagement, pharmacodynamic effects, tumor function and heterogeneity across animal models and patients to advance FPM. Over the past decade, the Co-Clinical Imaging Research Resource Program (CIRP) of the National Cancer Institute (NCI) has made considerable progress in advancing quantitative imaging biomarker development. However, critical gaps remain in the integration and standardization of co-clinical imaging biomarkers. The next frontier requires moving beyond quantitative endpoints toward predictive oncology. This includes validating imaging-aware models, developing quantitative imaging strategies to support new precision medicine trials, and embedding co-clinical data into computational and in silico frameworks such as radiomics, cross-species mathematical modeling, digital twins, and virtual imaging trials. Equally important is the development of a domain-specific repository that vertically integrates imaging with multi-modal data to enable reproducible, artificial intelligence-ready pipelines. These advances will accelerate the translation of co-clinical imaging biomarkers into decision models that complement genomics, improve patient stratification, and guide selection and personalization of therapies-advancing the promise of FPM.",
-      "authors": [
-        "Kooresh I Shoghi",
-        "Cristian T Badea",
-        "Donna M Peehl",
-        "Thomas L Chenevert",
-        "Heike E Daldrup-Link",
-        "Douglas S Hawkins",
-        "A McGarry Houghton",
-        "Paul E Kinahan",
-        "Michael T Lewis",
-        "Cynthia X Ma",
-        "H Charles Manning",
-        "Robert S Miyaoka",
-        "Yvonne M Mowery",
-        "James Pb O'Connor",
-        "Peter J O'Dwyer",
-        "Brian D Ross",
-        "Renuka Sriram",
-        "Thomas E Yankeelov",
-        "Rong Zhou",
-        "John Kurhanewicz",
-        "David A Mankoff"
-      ],
-      "doi": "10.1158/1078-0432.CCR-26-0275",
-      "arxiv_id": "",
-      "pubmed_id": "42776062"
-    },
-    {
-      "title": "Revealing the Key Genetic Basis of Late Leaf Spot Resistance in Peanut by Combining QTL Mapping, QTL-seq and RNA-seq.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42775657/",
-      "abstract": "Late leaf spot (LLS) is the most widespread and destructive fungal disease affecting peanut worldwide, yet relatively little is known about its genetic basis. In this study, QTL mapping using a 1327-bin map (derived from 9533 SNP/InDel markers) and multi-environment phenotypic data repeatedly detected two major LLS-resistance QTLs on chromosomes A02 and B06 in the Zhonghua 5 × ICGV 86699 recombinant inbred line (RIL) population. QTL-seq analysis confirmed qLLSA02, and integration of both mapping methods narrowed the A02 interval to a 1.0-3.4 Mb region. Transcriptome profiling identified thousands of differentially expressed genes. Through systematic investigation of variants, functional annotation, expression patterns, allelic effects and comparative genomics within this target region, we identified 10 LLS resistance candidate genes and further prioritised two of these as the most promising candidates. Two kompetitive allele-specific PCR (KASP) markers were developed from SNPs of the two priority candidate genes, showing a strong correlation between genotype and LLS phenotype. Pathway analysis revealed that flavonoid biosynthesis, plant hormone signal transduction, and plant-pathogen interaction pathways are involved in the response to LLS infection. This study provided insights into the genetic and molecular mechanisms underlying LLS resistance in peanut, and the two developed KASP markers can facilitate LLS resistance peanut breeding.",
-      "authors": [
-        "Wenhui Cui",
-        "Pengxia Guo",
-        "Bolun Yu",
-        "Huifang Jiang",
-        "Yong Lei",
-        "Boshou Liao",
-        "Huaiyong Luo",
-        "Xin Wang",
-        "Li Huang",
-        "Nian Liu",
-        "Jianbing Guo",
-        "Weigang Chen",
-        "Xiaojing Zhou"
-      ],
-      "doi": "10.1111/pce.70910",
-      "arxiv_id": "",
-      "pubmed_id": "42775657"
-    },
-    {
-      "title": "A nationwide study of pathogens in hospitalized patients with lower respiratory tract infections by metagenomic next-generation sequencing.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42775546/",
-      "abstract": "Lower respiratory tract infections remain a major cause of morbidity and mortality, yet timely etiologic diagnosis is difficult because of the breadth of possible pathogens and the limitations of conventional microbiological tests. We retrospectively analyzed 30,819 clinical specimens from 27,507 hospitalized patients with lower respiratory tract infections across 31 provincial-level regions in mainland China from April 2019 to May 2025 to characterize the pathogen spectrum detected by metagenomic sequencing. In total, 323 pathogens were identified, 33.74% of which were fastidious or unculturable microorganisms. The overall positivity rate was 80.12%, and 65.48% of positive specimens showed co-detections. The top 20, 50, 100, 150, and 200 pathogens accounted for 70.17%, 87.56%, 95.59%, 98.18%, and 99.26% of all reported pathogens, respectively. Pathogen distributions differed by age, season, geography, clinical department, and comorbidity, and several epidemiological shifts were observed across the pre-pandemic, pandemic, and post-restriction periods, including persistent declines in Streptococcus pneumoniae and Chlamydia psittaci . These findings demonstrate the breadth of organisms detected by metagenomic sequencing in routine practice and support its value for broad etiologic assessment of lower respiratory tract infections.IMPORTANCELower respiratory tract infections are frequently managed before the etiologic agent is established because many bacteria, viruses, fungi, and other organisms can produce similar clinical syndromes, and conventional tests do not capture this diversity well. By analyzing more than 30,000 real-world specimens from hospitalized patients across mainland China, this study shows which organisms are most often detected by metagenomic sequencing, how frequently mixed detections occur, and how pathogen patterns vary by age, geography, season, clinical setting, and the 2019 coronavirus disease period. These findings clarify where broad-range sequencing can add value for microbiology, surveillance, and future targeted panel design.",
-      "authors": [
-        "Tian Gong",
-        "Qiong Liu",
-        "Yiqi Wan",
-        "Xuan Zhang",
-        "Chao Liu",
-        "Xiaojia Wang",
-        "Ling Cao",
-        "Jing Li",
-        "Liang Zhang",
-        "Biaoxian Li",
-        "Chensong Sun",
-        "Yaping Guo",
-        "Shupeng Yin",
-        "Xiumei Xu",
-        "Hao Chen",
-        "Zhiting Xie",
-        "Manli Gong",
-        "Haiyan Lin",
-        "Xiao Lei",
-        "Ting Zeng",
-        "Xinyi Ren",
-        "Shaomin Zou",
-        "Sufeng Zhang",
-        "Qifei Peng",
-        "Aling Gao",
-        "Jun Wang",
-        "Chengsheng Zhang"
-      ],
-      "doi": "10.1128/spectrum.01746-26",
-      "arxiv_id": "",
-      "pubmed_id": "42775546"
-    },
-    {
-      "title": "Seasonal dynamics of microbial communities and potential human pathogens in Crassostrea hongkongensis and ambient water in southern China.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42684864/",
-      "abstract": "Oysters are a popular raw seafood worldwide, yet their contamination with human pathogens poses substantial public health risks. However, the seasonal dynamics of host-associated microbiota and the environmental drivers of pathogen accumulation in Crassostrea hongkongensis remain poorly understood. Here, we conducted 16S rRNA amplicon sequencing to profile the gill and intestinal microbiota of C. hongkongensis , sampled quarterly over a 1-year period in Beihai and Zhanjiang, southern China. A pronounced divergence in oyster-associated bacterial communities was observed between the two locations in December. Key bacterial families, such as Lachnospiraceae and Muribaculaceae, showed significant temporal fluctuations in abundance, suggesting their potential role in maintaining bacterial community stability within oysters. These microbial shifts were significantly correlated with environmental parameters such as chlorophyll a and pH. In parallel, we used plate counting to quantify five foodborne pathogens and total viable counts. Vibrios were more frequently detected in oyster tissues than in ambient seawater. Pathogen-associated amplicon sequence variants exhibited a strong response to variations in pH and chlorophyll a , whereas the abundance of culturable Vibrio vulnificus was significantly negatively correlated with temperature and nitrate. The integration of high-throughput sequencing and culture-based methods provides comprehensive insights into the dynamics of pathogenic bacteria within oysters under natural mariculture settings. This study offers valuable ecological insights into the interactions within the oyster-associated microbial ecosystem, contributing to a deeper understanding of its dynamics and implications for public health. Mariculture of Crassostrea hongkongensis serves as a critical interface between coastal ecology and public health, yet seasonal dynamics of its microbiome and core stabilizing taxa remain poorly understood in subtropical aquaculture. This study identified Acetobacteraceae, Lachnospiraceae, Prevotellaceae, and Muribaculaceae as key families associated with seasonal microbiome stability in C. hongkongensis , highlighting their potential contribution to community resilience. It further revealed that Vibrio species detection was negatively correlated with temperature. These findings advance our understanding of interactions between the oyster microbiome and the environment, and provide a theoretical basis for improving oyster health management and promoting sustainable aquaculture practices.",
-      "authors": [
-        "Xiaoxia Liu",
-        "Xianyu Wang",
-        "Haipeng Zhu",
-        "Wenqi Chen",
-        "Xin Hong",
-        "Yi Wan",
-        "Jiaomei Huang",
-        "Chunsheng Liu"
-      ],
-      "doi": "10.1128/aem.01056-26",
-      "arxiv_id": "",
-      "pubmed_id": "42684864"
-    },
-    {
-      "title": "Identification of beneficial bacterial strains for tomato growth promotion and biocontrol of bacterial canker caused by Clavibacter michiganensis .",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42684856/",
-      "abstract": "Bacterial canker of tomato, caused by Clavibacter michiganensis ( Cm ), remains difficult to control due to lack of effective management options. In this study, a collection of over 500 bacterial isolates was screened in vitro for antagonistic activity against Cm and plant growth-promoting traits. Based on these results, 32 candidates were evaluated in planta , leading to the identification of three highly effective strains: Pantoea agglomerans SO16PY and two Pseudomonas marginalis sensu lato strains, IRDA16 and SO16PC, which consistently enhanced tomato vegetative growth. Notably, P. agglomerans SO16PY delayed disease onset in Cm -inoculated plants by up to 7 days and significantly reduced wilting severity, lowering the disease severity score from 85% to 45%. Strains IRDA16 and SO16PC also restricted disease development, reducing severity scores to 67.5% and 57.5%, respectively. Whole-genome sequencing and comparative genomics revealed that strains IRDA16 and SO16PC form a distinct, specialized plant-associated lineage within the Pseudomonas marginalis group, exhibiting average nucleotide identity ≈ 96% and digital DNA-DNA hybridization ≈ 69.5% values near species delineation thresholds. Genome mining identified diverse biosynthetic gene clusters encoding non-ribosomal peptide synthetases, the lipopeptide viscosin, and terpenes, which likely drive the biostimulant and antagonistic traits of this novel Pseudomonas lineage. Together, these findings characterize promising bacterial candidates with dual biostimulant and biocontrol capacities while uncovering a genomically distinct Pseudomonas lineage optimized for beneficial plant-microbe interactions in sustainable agriculture.IMPORTANCE Clavibacter michiganensis ( Cm ) is a major bacterial pathogen of tomato and poses a significant economic threat to global production. It is classified as an A2 quarantine pathogen by the European and Mediterranean Plant Protection Organization (EPPO). Current management strategies rely largely on chemical control, including copper-based compounds (e.g., Bordeaux mixture, copper oxychloride), mancozeb, and antibiotics like streptomycin. However, these approaches raise increasing concerns related to environmental contamination, phytotoxicity, and the development of resistant pathogen populations. As a sustainable alternative, plant growth-promoting bacteria have emerged as promising biocontrol agents. In this study, we identified bacterial strains exhibiting antagonistic activity against Cm both in vitro and in planta . Notably, these strains also enhanced tomato growth parameters, demonstrating their dual functionality. Given the environmental drawbacks associated with chemical inputs, the use of such beneficial microorganisms represents a promising strategy for advancing sustainable and eco-friendly tomato production systems.",
-      "authors": [
-        "Nasim Sedighian",
-        "Marie-Christine Groleau",
-        "Eric Déziel"
-      ],
-      "doi": "10.1128/aem.01087-26",
-      "arxiv_id": "",
-      "pubmed_id": "42684856"
-    },
-    {
-      "title": "Environmental microbial community signatures associated with Listeria spp. detection in German meat processing facilities.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663475/",
-      "abstract": "Listeria monocytogenes can persist in niches of meat processing environments despite routine cleaning and disinfection. Its persistence may depend not only on stress tolerance but also on interactions with resident microbial communities, which may promote or inhibit survival. However, these ecological relationships remain poorly understood. We combined 16S rRNA V3/V4 amplicon sequencing, culture-based detection, and multilocus sequence typing (MLST) to characterize microbial communities in six German meat processing facilities over one year. We examined associations among community structure, sampling sites, and the occurrence of Listeria spp., including L. monocytogenes . Microbial communities were dominated by core genera typical of food-processing environments, particularly Pseudomonas spp. and Acinetobacter spp., but differed significantly among facilities (PERMANOVA, P = 0.001; pairwise R ² = 0.023-0.079), indicating facility-specific communities. Culture-based analyses detected Listeria spp. in 51 of 370 environmental samples (13.8%), mainly from drains (44/51, 86.3%). L. monocytogenes was detected in five of six facilities, with 19 of 21 isolates originating from drains (90.5%). MLST of 74 typeable L. monocytogenes isolates revealed high diversity, comprising 21 sequence types across 15 clonal complexes, with lineage II predominating (86.5%). Overall microbial community composition was significantly associated with Listeria spp. and L. monocytogenes presence (PERMANOVA, P = 0.001; R ² = 0.0137 and 0.0083). In drains, amplicon sequence variants (ASVs) assigned to the genera Acinetobacter , Rhizorhapis , and Vagococcus showed positive associations with Listeria spp.-positive samples. Together, these findings suggest that drains are key ecological niches for Listeria spp. and that associated taxa may indicate drain communities linked to Listeria spp. recovery. Listeria monocytogenes is a major foodborne pathogen that can persist in meat processing environments despite routine cleaning and disinfection. Resident microbial communities may influence its survival, but longitudinal studies linking those communities with culture-based Listeria spp. detection remain limited. Here, we characterized microbial communities in six German meat processing facilities over 1 year using 16S rRNA gene amplicon sequencing and culture-based Listeria spp. detection, and MLST of L. monocytogenes isolates. We identified facility-specific microbial communities, identified floor drains as key niches for Listeria spp., and observed repeated recovery of different L. monocytogenes sequence types across facilities. In drains, ASVs assigned to the genera Acinetobacter , Rhizorhapis , and Vagococcus were positively associated with culture-positive samples, identifying candidate taxa that may reflect microbial conditions associated with Listeria spp. recovery. These findings highlight the importance of considering not only whether Listeria spp. are detected but also the resident microbial communities that may support their fitness.",
-      "authors": [
-        "Jérôme Braun",
-        "Nicole Wildi",
-        "Jasna Kovac",
-        "Claudia Guldimann"
-      ],
-      "doi": "10.1128/aem.01042-26",
-      "arxiv_id": "",
-      "pubmed_id": "42663475"
-    },
-    {
-      "title": "Fine-scale structural diversification among closely related Legionella pneumophila isolates from a bath-associated environmental reservoir.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42663473/",
-      "abstract": "Legionella pneumophila populations within environmental reservoirs can exhibit genomic diversity, complicating source attribution during outbreak investigations. Core genome single-nucleotide variant (cgSNV)-based approaches are widely used for identifying closely related lineages during molecular epidemiological investigations; however, they primarily focus on nucleotide-level variation and may overlook structural variation among closely related isolates. In this study, we investigated genomic diversity among clinical and environmental L. pneumophila isolates obtained during an epidemiological investigation of a legionellosis case. By analyzing multiple colonies isolated from individual samples, we integrated cgSNV analysis with comparative genome structural analysis to characterize insertion sequence (IS)-mediated structural variation within a highly related population. A total of 138 serogroup 1 isolates belonging to sequence type 138 were analyzed. cgSNV analysis revealed that clinical isolates formed a clonal lineage, whereas environmental isolates from the same bath system exhibited substantial diversity despite differing by no more than 20 cgSNVs. Complete genome analysis of 48 representative isolates demonstrated nearly identical genome synteny with limited large-scale rearrangements. In contrast, IS insertion patterns showed considerable variability, particularly for IS256, which exhibited extensive diversity in insertion sites across isolates. Differences in IS insertion patterns were observed even among isolates sharing identical cgSNV genotypes, indicating that IS-mediated structural variation can occur independently of core genome SNV variation. More than half of the coding sequence differences relative to the reference genome were associated with IS insertion sites, predominantly IS256-associated events. These findings suggest that closely related L. pneumophila populations within environmental reservoirs undergo fine-scale diversification associated with dynamic IS activity.IMPORTANCEIn this study, we analyzed a large collection of Legionella pneumophila isolates obtained from a patient and a bath-associated environmental source and identified extensive insertion sequence-associated structural variation even among isolates sharing highly similar core genome single-nucleotide variant genotypes. Despite this structural diversification, the closely related isolate population retained highly conserved genome organization and broadly similar insertion sequence distribution patterns, supporting the interpretation that it remained highly clonal rather than undergoing large-scale genomic divergence. These findings highlight the importance of analyzing multiple colonies from individual samples to better characterize within-source population diversity. They further indicate that structural genome variation, particularly mobile insertion sequences such as IS256, provides complementary resolution beyond conventional nucleotide-based approaches for resolving fine-scale relationships among closely related isolates. Our study provides new insight into the microevolution of L. pneumophila populations within environmental reservoirs relevant to public health investigations.",
-      "authors": [
-        "Naoki Nakajima",
-        "Michio Jinnai",
-        "Aya Okamura",
-        "Yoshimi Date",
-        "Ichiro Furukawa"
-      ],
-      "doi": "10.1128/aem.01127-26",
-      "arxiv_id": "",
-      "pubmed_id": "42663473"
-    },
-    {
-      "title": "Klebsiella pneumoniae from fuchka: insights into the genetic diversity, virulence, and antibiogram profile.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42554635/",
-      "abstract": "Klebsiella pneumoniae is an emerging pathogen of global concern due to its capacity to acquire antimicrobial resistance and virulence determinants, yet its presence in the food environment remains unexplored. This study investigated the prevalence, antimicrobial resistance, virulence genes, biofilm formation, and genomic characteristics of K. pneumoniae isolated from a widely consumed street food in Bangladesh. A total of 90 fuchka and related samples from different sources were collected and analyzed using culture-based methods, PCR confirmation, matrix-assisted laser desorption ionization time-of-flight assay, and 16S rRNA sequencing. Antibiotic sensitivity was determined using the disk diffusion method, and resistance- and virulence-associated genes were detected by PCR. Biofilm formation was quantified using a 96-well microtiter plate assay, and genetic diversity was assessed by enterobacterial repetitive intergenic consensus-PCR (ERIC-PCR) fingerprinting. Whole-genome sequencing (WGS) was performed on four representative isolates for in-depth genomic characterization. K. pneumoniae was recovered from 46.7% of samples. Among the isolates, 37.5% exhibited a multidrug-resistant (MDR) phenotype, with universal resistance to ampicillin. Virulence genes including wab G (90.5%) and uge (95.2%) were highly prevalent, whereas rmp A and bfp were absent. Capsular serotypes K3 and K5 were detected in 16.7% of isolates. The class 1 integron ( int 1) (83.3%) and tet A (56.7%) were the most frequently detected resistance determinants. Biofilm formation was observed in 31% of isolates and significantly associated with the MDR phenotype. WGS revealed clinically relevant sequence types (ST2262) phylogenomically related to human clinical strains. These findings indicate that fuchka may act as a reservoir for virulent and MDR K. pneumoniae, highlighting the urgent need for improved hygiene practices and integration of street food into the One Health antimicrobial surveillance framework. The presence of multidrug-resistant (MDR) Klebsiella pneumoniae in ready-to-eat street foods poses a significant public health concern, particularly in low- and middle-income countries where informal food vending is widespread. Fuchka is consumed daily by diverse population groups in Bangladesh, including children and young adults, making it a potential route for silent transmission of clinically important pathogens. The detection of MDR strains harboring virulence factors, integrons, and biofilm-forming ability suggests an elevated risk of persistence, spread, and limited treatment options in case of infection. This study highlights street food as an overlooked reservoir in the One Health framework, bridging community environments and clinical settings. Improved surveillance, vendor hygiene training, and enforcement of food safety regulations are crucial to reduce the risk of dissemination of these high-risk strains.",
-      "authors": [
-        "Bushra Benta Rahman Prapti",
-        "Md Tanjir Ahmmed",
-        "Chinmoy Dev Nath",
-        "Aminur Rahman",
-        "Sakhyajit Saha Parijat",
-        "Partho Protim Acharjee",
-        "Jayedul Hassan",
-        "Md Shafiqul Islam",
-        "Mahbubul Pratik Siddique"
-      ],
-      "doi": "10.1128/aem.00996-26",
-      "arxiv_id": "",
-      "pubmed_id": "42554635"
-    },
-    {
-      "title": "In Host Mutational Adaptation of Mycobacterium Tuberculosis Complex Strains During Tuberculosis Infection.",
-      "source": "PubMed",
-      "date": "2026-09-23T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42047497/",
-      "abstract": "Tuberculosis (TB) is the leading cause of death from an infectious disease worldwide. Mutations arising in Mycobacterium tuberculosis complex (MTBC) strains during TB infection provide a record of bacterial adaptations, such as those needed to survive the attack of the immune system and antibiotic therapies. We conducted a meta-analysis of MTBC sequenced strains with multiple isolates from the same patient, sourced from published studies and TB Portals. We applied a convergent evolution approach to identify heavily mutated MTBC loci across patients and estimated the rates of drug resistance (DR) acquisition during treatment. Using 5882 high-quality genomes from 1044 patients with TB, we identified 21 genes, 25 operons, and 27 promoter regions statistically enriched by mutations compared with the rest of the genome, and additional loci with established and plausible adaptive roles approaching statistical significance. Significantly, these included multiple loci known to be involved in resistance to first-, second-, and last-line anti-TB drugs. Previously reported candidate drug-resistance and -tolerance genes (prpR, Rv2571c, fadD11, helY, ndhA, Rv0139, fadE5, bioF2, and mce1 operon) were also identified. Genes encoding regulators (phoR, whiB6, and mycP1) and effectors (espK and eccE1) of the virulence ESX-1 locus were frequently mutated in host. Fluoroquinolone resistance was acquired more frequently during treatment than resistance to any other anti-TB drug. We show that frequently mutated genes in MTBC reveal expected and newly discovered in host adaptations, predominantly associated with DR but also with pathogenesis. The higher resistance acquisition rate observed for fluoroquinolones may have important clinical relevance.",
-      "authors": [
-        "Helen Zhang",
-        "Naomi Medina-Jaudes",
-        "Alicia Forcada-Nadal",
-        "Ewan M Harrison",
-        "Francesc Coll"
-      ],
-      "doi": "10.1093/infdis/jiag209",
-      "arxiv_id": "",
-      "pubmed_id": "42047497"
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 58,
+      "count": 48,
       "error": ""
     },
     {
