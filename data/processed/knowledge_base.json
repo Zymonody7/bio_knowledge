@@ -1,38 +1,38 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-10-05T06:54:50.822506+00:00",
+    "updated_at": "2026-10-06T07:30:40.699107+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 4238,
-    "last_run_count": 16,
+    "total_papers": 4246,
+    "last_run_count": 10,
     "sources": {
-      "PubMed": 377,
+      "PubMed": 378,
       "arXiv": 3042,
-      "bioRxiv": 511,
-      "medRxiv": 308
+      "bioRxiv": 515,
+      "medRxiv": 311
     },
     "categories": {
       "clinical_application": 316,
       "dataset": 476,
-      "foundation_model": 1998,
+      "foundation_model": 2002,
       "general": 133,
-      "methods": 1315
+      "methods": 1319
     },
     "topics": {
       "application_monitoring": 53,
       "data_fair_training": 2,
-      "foundation_model_agent": 2818,
+      "foundation_model_agent": 2824,
       "pathogenomics": 163,
-      "sequencing_bioinformatics": 128
+      "sequencing_bioinformatics": 129
     },
     "years": {
       "2021": 1,
       "2023": 3,
       "2024": 35,
       "2025": 367,
-      "2026": 3832
+      "2026": 3840
     }
   },
   "indexes": {
@@ -258,6 +258,7 @@
         "doi:10.1038/s44401-026-00137-5",
         "doi:10.1039/d5tb02490k",
         "doi:10.1039/d6cc03497g",
+        "doi:10.1039/d6lc00155f",
         "doi:10.1039/d6lc00214e",
         "doi:10.1039/d6sc01486k",
         "doi:10.1039/d6sc01551d",
@@ -3474,6 +3475,7 @@
         "doi:10.1101/2025.04.09.647946",
         "doi:10.1101/2025.04.17.649425",
         "doi:10.1101/2025.05.02.651993",
+        "doi:10.1101/2025.05.13.653614",
         "doi:10.1101/2025.06.02.657307",
         "doi:10.1101/2025.06.14.659706",
         "doi:10.1101/2025.06.25.661237",
@@ -3958,6 +3960,7 @@
         "doi:10.64898/2026.09.18.721350",
         "doi:10.64898/2026.09.19.752843",
         "doi:10.64898/2026.09.21.752570",
+        "doi:10.64898/2026.09.22.753604",
         "doi:10.64898/2026.09.23.753678",
         "doi:10.64898/2026.09.23.753836",
         "doi:10.64898/2026.09.23.753935",
@@ -3971,6 +3974,8 @@
         "doi:10.64898/2026.09.27.754711",
         "doi:10.64898/2026.09.27.754758",
         "doi:10.64898/2026.09.27.754806",
+        "doi:10.64898/2026.09.28.755098",
+        "doi:10.64898/2026.09.29.755250",
         "doi:10.64898/2026.09.29.755460"
       ],
       "medRxiv": [
@@ -4281,7 +4286,10 @@
         "doi:10.64898/2026.09.25.26364021",
         "doi:10.64898/2026.09.26.26364067",
         "doi:10.64898/2026.09.27.26364108",
-        "doi:10.64898/2026.10.01.26364038"
+        "doi:10.64898/2026.10.01.26364038",
+        "doi:10.64898/2026.10.01.26364479",
+        "doi:10.64898/2026.10.02.26364620",
+        "doi:10.64898/2026.10.03.26364667"
       ]
     },
     "by_category": {
@@ -7071,6 +7079,7 @@
         "doi:10.64898/2026.09.19.26363431",
         "doi:10.64898/2026.09.21.26363538",
         "doi:10.64898/2026.09.21.26363591",
+        "doi:10.64898/2026.09.22.753604",
         "doi:10.64898/2026.09.23.753678",
         "doi:10.64898/2026.09.24.26363897",
         "doi:10.64898/2026.09.24.26363906",
@@ -7079,7 +7088,10 @@
         "doi:10.64898/2026.09.24.754137",
         "doi:10.64898/2026.09.26.26364067",
         "doi:10.64898/2026.09.29.755460",
-        "doi:10.64898/2026.10.01.26364038"
+        "doi:10.64898/2026.10.01.26364038",
+        "doi:10.64898/2026.10.01.26364479",
+        "doi:10.64898/2026.10.02.26364620",
+        "doi:10.64898/2026.10.03.26364667"
       ],
       "general": [
         "arxiv_id:2406.00083v3",
@@ -8139,6 +8151,7 @@
         "doi:10.1038/s42256-026-01226-8",
         "doi:10.1038/s44259-026-00219-2",
         "doi:10.1038/s44386-026-00052-7",
+        "doi:10.1039/d6lc00155f",
         "doi:10.1073/pnas.2524201123",
         "doi:10.1080/15476286.2026.2731913",
         "doi:10.1080/22221751.2026.2637286",
@@ -8166,6 +8179,7 @@
         "doi:10.1101/2025.03.12.642937",
         "doi:10.1101/2025.04.17.649425",
         "doi:10.1101/2025.05.02.651993",
+        "doi:10.1101/2025.05.13.653614",
         "doi:10.1101/2025.06.29.662198",
         "doi:10.1101/2025.07.03.663009",
         "doi:10.1101/2025.07.09.663853",
@@ -8531,7 +8545,9 @@
         "doi:10.64898/2026.09.24.754173",
         "doi:10.64898/2026.09.25.754455",
         "doi:10.64898/2026.09.27.754711",
-        "doi:10.64898/2026.09.27.754758"
+        "doi:10.64898/2026.09.27.754758",
+        "doi:10.64898/2026.09.28.755098",
+        "doi:10.64898/2026.09.29.755250"
       ]
     },
     "by_topic": {
@@ -10615,6 +10631,7 @@
         "doi:10.1101/2025.04.17.649425",
         "doi:10.1101/2025.05.02.651993",
         "doi:10.1101/2025.05.13.25327518",
+        "doi:10.1101/2025.05.13.653614",
         "doi:10.1101/2025.05.24.25328275",
         "doi:10.1101/2025.06.11.25329357",
         "doi:10.1101/2025.06.13.25329541",
@@ -11395,6 +11412,7 @@
         "doi:10.64898/2026.09.20.26363512",
         "doi:10.64898/2026.09.21.26363538",
         "doi:10.64898/2026.09.21.26363591",
+        "doi:10.64898/2026.09.22.753604",
         "doi:10.64898/2026.09.23.753935",
         "doi:10.64898/2026.09.23.753955",
         "doi:10.64898/2026.09.24.26363897",
@@ -11411,7 +11429,11 @@
         "doi:10.64898/2026.09.27.754711",
         "doi:10.64898/2026.09.27.754758",
         "doi:10.64898/2026.09.27.754806",
+        "doi:10.64898/2026.09.28.755098",
         "doi:10.64898/2026.09.29.755460",
+        "doi:10.64898/2026.10.01.26364479",
+        "doi:10.64898/2026.10.02.26364620",
+        "doi:10.64898/2026.10.03.26364667",
         "doi:10.7759/cureus.109744"
       ],
       "pathogenomics": [
@@ -11623,6 +11645,7 @@
         "doi:10.1038/s41598-026-55102-x",
         "doi:10.1038/s41698-026-01578-9",
         "doi:10.1039/d6cc03497g",
+        "doi:10.1039/d6lc00155f",
         "doi:10.1080/14737159.2026.2697900",
         "doi:10.1080/14737159.2026.2741059",
         "doi:10.1080/17460913.2026.2678101",
@@ -14899,6 +14922,7 @@
         "doi:10.1038/s44401-026-00137-5",
         "doi:10.1039/d5tb02490k",
         "doi:10.1039/d6cc03497g",
+        "doi:10.1039/d6lc00155f",
         "doi:10.1039/d6lc00214e",
         "doi:10.1039/d6sc01486k",
         "doi:10.1039/d6sc01551d",
@@ -14972,6 +14996,7 @@
         "doi:10.1101/2025.04.17.649425",
         "doi:10.1101/2025.05.02.651993",
         "doi:10.1101/2025.05.13.25327518",
+        "doi:10.1101/2025.05.13.653614",
         "doi:10.1101/2025.05.24.25328275",
         "doi:10.1101/2025.06.02.657307",
         "doi:10.1101/2025.06.11.25329357",
@@ -15935,6 +15960,7 @@
         "doi:10.64898/2026.09.21.26363538",
         "doi:10.64898/2026.09.21.26363591",
         "doi:10.64898/2026.09.21.752570",
+        "doi:10.64898/2026.09.22.753604",
         "doi:10.64898/2026.09.23.753678",
         "doi:10.64898/2026.09.23.753836",
         "doi:10.64898/2026.09.23.753935",
@@ -15954,8 +15980,13 @@
         "doi:10.64898/2026.09.27.754711",
         "doi:10.64898/2026.09.27.754758",
         "doi:10.64898/2026.09.27.754806",
+        "doi:10.64898/2026.09.28.755098",
+        "doi:10.64898/2026.09.29.755250",
         "doi:10.64898/2026.09.29.755460",
         "doi:10.64898/2026.10.01.26364038",
+        "doi:10.64898/2026.10.01.26364479",
+        "doi:10.64898/2026.10.02.26364620",
+        "doi:10.64898/2026.10.03.26364667",
         "doi:10.7759/cureus.109744",
         "pubmed_id:42286906"
       ]
@@ -16397,6 +16428,36 @@
       "content_hash": "89107e7f5f9774313fc70a8bf9ae9e3509a42de5a1ce1a4f5c9b274b7cb367e9",
       "first_seen_at": "2026-07-28T04:23:20.520258+00:00",
       "last_seen_at": "2026-07-28T04:23:20.520258+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.10.02.26364620": {
+      "paper_id": "doi:10.64898/2026.10.02.26364620",
+      "title": "Planner-Executor Style Multimodal Agentic System to Answer Patient Questions in Lung Cancer Screening CT",
+      "source": "medRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26364620v1",
+      "abstract": "Background: Accurate patient understanding of lung cancer screening (LCS) results is critical for engagement and follow-up adherence, given the currently low screening uptake. While artificial intelligence (AI) systems show promise in facilitating patient communication, its effective use in clinical settings requires appropriate invocation of imaging tools and self-regulation by deferring certain questions to physicians. To this end, we developed and evaluated a planner-executor style multimodal agentic system to answer simulated patient questions about LCS CT results. Methods: This retrospective study utilized 116 LCS CT reports and images collected from a tertiary academic hospital. The system employed a multi-agent architecture (planner and executor) to mimic clinical reasoning. We developed a large language model (LLM)-based question generation framework to prepare a comprehensive set of 699 simulated patient questions, categorized as answerable and defer-to-doctor to assess self-regulation. Performance was evaluated on tool-calling, self-regulation accuracy (ability to correctly defer out-of-scope questions to a human provider) assessed by LLM-as-a-judge, and clinical quality assessed by a reader performance study with four physicians evaluating a subset of 100 responses. Results: The system demonstrated high overall tool-calling accuracy of 93.1% (646/694; 95% CI: 91.2%, 95.0%) and self-regulation accuracy of 92.6% (462/499; 90.2%, 94.8%). For answerable questions, the percentage of responses receiving perfect 5.0 scores across all readers included 78.9% (180/228) for clinical accuracy (inter-rater agreement: Gwet's AC2=0.92), and 73.2% (167/228) for patient understandability (0.86). For defer-to-doctor questions, the percentage of responses included 77.3% (133/172) for clinical accuracy (0.80) and 70.3% (121/172) for patient understandability (0.78). Conclusions: The planner-executor style multi-modal agentic system reliably answers patient-specific questions about LCS. Its high tool-calling and self-regulation performance demonstrates its potential as a safe and effective digital communication facilitator in LCS programs.",
+      "abstract_zh": "",
+      "abstract_short": "Background: Accurate patient understanding of lung cancer screening (LCS) results is critical for engagement and follow-up adherence, given the currently low screening uptake. While artificial intelligence (AI) systems show promise in facilitating patient communication, its effective use in clinical settings requires appropriate invocation of imaging tools and self-regulation by deferring certain ",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 8.9,
+      "novelty_score": 6.2,
+      "importance_score": 7.955,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.10.02.26364620",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "6c1da12c3424c762986c0d7e4f3bc1739924da4a0c2ad049fa339f43c3b7ce11",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -18961,6 +19022,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.09.22.753604": {
+      "paper_id": "doi:10.64898/2026.09.22.753604",
+      "title": "Agentic campaign control for high-throughput de novo binder design",
+      "source": "bioRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753604v3",
+      "abstract": "Progress in artificial intelligence has produced a rapidly growing ecosystem of methods for de novo protein design. With access to many specialized and often complementary tools, how does one use them effectively, especially with a finite compute budget? Here, we introduce Target adaptive Rescue-Explore-eXploit (T-REX), an agentic protein binder design framework that orchestrates multiple state-of-the-art protein generative models and structure evaluators. Over the course of a design campaign, T-REX leverages large language model (LLM) agents to reason over accumulating outcomes and decide whether to rescue promising candidates, explore alternative settings, or exploit productive routes, while a deterministic controller validates and schedules proposed actions. Across seven targets, we find that T-REX adaptively allocates its compute across methods in a target-dependent manner and achieves the highest throughput of structurally distinct hits compared to all baselines. These results suggest that adaptive orchestration can complement increasingly powerful protein design models, and we openly release T-REX to support compute-efficient binder design workflows.",
+      "abstract_zh": "",
+      "abstract_short": "Progress in artificial intelligence has produced a rapidly growing ecosystem of methods for de novo protein design. With access to many specialized and often complementary tools, how does one use them effectively, especially with a finite compute budget? Here, we introduce Target adaptive Rescue-Explore-eXploit (T-REX), an agentic protein binder design framework that orchestrates multiple state-of",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.55,
+      "novelty_score": 6.0,
+      "importance_score": 7.007,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.09.22.753604",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "3267b1fdcf2c07390466e6644343962b0cc4a09617e3dae61155af9047aec7bc",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2603.12845v1": {
       "paper_id": "arxiv_id:2603.12845v1",
       "title": "Multimodal Protein Language Models for Enzyme Kinetic Parameters: From Substrate Recognition to Conformational Adaptation",
@@ -21343,6 +21434,36 @@
       "content_hash": "88d76c9b19523bd49ce443cb8bddc0a79209480482bb643799b17d3a0007816b",
       "first_seen_at": "2026-09-23T05:53:41.485353+00:00",
       "last_seen_at": "2026-09-23T05:53:41.485353+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.10.03.26364667": {
+      "paper_id": "doi:10.64898/2026.10.03.26364667",
+      "title": "Extraction of clinical information from faxed medical records using a small local large language model pipeline on consumer hardware",
+      "source": "medRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.03.26364667v1",
+      "abstract": "Objective Specialty referral packets often arrive by fax and clinicians must manually read and organize a large amount of disparate information to affect continuity of care. Commercial large language models (LLMs) can organize packet information, but protected health information (PHI) must be secured. We evaluated whether an open-weight pipeline running entirely on one consumer graphics card can accurately extract clinical information from faxed referral packets. Materials and Methods We generated 200 synthetic colorectal cancer referral packets from simulated patient records, rendered them as faxes without a text layer. A local pipeline transcribed each packet with an optical character recognition model (OvisOCR2) and extracted structured data with an open-weight LLM (Qwen3.8 27B). Twenty outcomes spanning patient identifiers, laboratory results, dates, diagnoses, procedures, medications, imaging, and event chronology were scored against ground truth on 140 validation packets. Results Laboratory values were extracted exactly in 98.9% of 7879 instances, dates in 99.7%, diagnoses in 100%, and procedures in 92.9%. Timeline recall was 96.7% and precision 99.4%. Weighted accuracy was 0.990 (95% CI 0.987 - 0.992). None of 11,993 extracted facts were fabricated. Median processing time was 90 seconds per packet. Conclusion An open-weight pipeline on consumer hardware accurately extracted multi-domain clinical information from synthetic faxed referrals.",
+      "abstract_zh": "",
+      "abstract_short": "Objective Specialty referral packets often arrive by fax and clinicians must manually read and organize a large amount of disparate information to affect continuity of care. Commercial large language models (LLMs) can organize packet information, but protected health information (PHI) must be secured. We evaluated whether an open-weight pipeline running entirely on one consumer graphics card can a",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 7.15,
+      "novelty_score": 5.75,
+      "importance_score": 6.66,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.10.03.26364667",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "5e3015149b28d5e1b693f7e4b927fc123ff0fe55abcccf94eb77c3c69db8424d",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -29287,6 +29408,36 @@
       "content_hash": "5a7dcc8e34ed88e9877da1ae65b2ee73949c9927b8f9716ef070920112a1c0a7",
       "first_seen_at": "2026-10-02T06:59:03.910855+00:00",
       "last_seen_at": "2026-10-02T06:59:03.910855+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1101/2025.05.13.653614": {
+      "paper_id": "doi:10.1101/2025.05.13.653614",
+      "title": "A generative language model decodes contextual constraints on codon choice for mRNA design",
+      "source": "bioRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653614v3",
+      "abstract": "Synonymous codon choice affects mRNA fate and protein output, posing a challenge for mRNA technology. Design of therapeutic mRNAs requires a model that captures biological nuance from natural sequences while identifying constraints relevant to synthetic expression. We present Trias, a generative encoder-decoder language model trained on millions of vertebrate coding sequences that successfully designs mRNAs with high protein output. Trias learns codon usage rules directly from sequence data, integrating local and global dependencies to generate species-specific codon sequences that reflect biological constraints. Without explicit training on protein expression, its zero-shot predictions correlate strongly with experimental measurements of mRNA stability and protein output. Moreover, we show experimentally that novel sequences generated by Trias for a therapeutically relevant target produce more protein than existing methods, demonstrating that preferences learned from natural sequences can lead to high output from synthetic sequences. Released open source with full code and weights, Trias provides a reproducible framework for synthetic mRNA design that reveals molecular and evolutionary principles behind codon choice.",
+      "abstract_zh": "",
+      "abstract_short": "Synonymous codon choice affects mRNA fate and protein output, posing a challenge for mRNA technology. Design of therapeutic mRNAs requires a model that captures biological nuance from natural sequences while identifying constraints relevant to synthetic expression. We present Trias, a generative encoder-decoder language model trained on millions of vertebrate coding sequences that successfully des",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 5.5,
+      "importance_score": 6.117,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1101/2025.05.13.653614",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "a9e0d8aa75ff8244654647d68c7e0df1491051655e078f2ef0416f8e51990d4d",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -42034,6 +42185,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.10.01.26364479": {
+      "paper_id": "doi:10.64898/2026.10.01.26364479",
+      "title": "Reporting of Qualitative Research Using Large Language Models (COREQ+LLM): A Delphi-based Extension of the COREQ Reporting Guideline",
+      "source": "medRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364479v1",
+      "abstract": "Background: Qualitative research provides insights into human behavior, perspectives, and lived experience. While existing standards like the Consolidated Criteria for Reporting Qualitative Research (COREQ) have improved transparency and rigor, the integration of large language models (LLMs) into qualitative research introduces new challenges for not covered by current guidelines. LLMs transform analytic processes and blur the line between human interpretation and algorithmic text generation, raising concerns about transparency, authorship, and epistemic trust. The here presented COREQ+LLM guideline extends COREQ to establish comprehensive reporting standards for LLM use in qualitative research. Methods: The study followed the EQUATOR Network's guideline development framework in two phases: (1) a systematic scoping review to identify best practices for reporting LLM use in qualitative research, and (2) a Delphi consensus process with international experts in qualitative research, AI, medicine, ethics, and journal editing to develop a comprehensive reporting checklist. Findings: The scoping review identified 149 studies relevant for full-text review. From this literature, 29 preliminary reporting items were extracted. In the first Delphi round, international experts (N=141) assessed the items' relevance. 20 items were accepted for inclusion in the guideline (>75% agreement); however, four required reevaluation in the second round, five underwent wording revisions, and six new items were proposed. In the second Delphi round (N=115; retention rate 82%), one was excluded, while four items still lacked consensus. Remaining items were discussed in a virtual consensus conference with nine representatives of the expert panel, resulting in the inclusion of two and the exclusion of two others. The final checklist comprises 31 items grouped into seven categories, serving as an extension of the original COREQ checklist. Interpretation: COREQ+LLM offers structured, consensus-based guidance to enhance transparency, reproducibility, and methodological rigor in qualitative research using LLMs. Its adoption will support researchers, reviewers, and editors in maintaining trust and scientific integrity.",
+      "abstract_zh": "",
+      "abstract_short": "Background: Qualitative research provides insights into human behavior, perspectives, and lived experience. While existing standards like the Consolidated Criteria for Reporting Qualitative Research (COREQ) have improved transparency and rigor, the integration of large language models (LLMs) into qualitative research introduces new challenges for not covered by current guidelines. LLMs transform a",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 5.45,
+      "novelty_score": 5.5,
+      "importance_score": 5.468,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.10.01.26364479",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "c928dd73ed3a3a73ddf8a5fa404f202f7b9de6fa938c6f8b712d76e1721c2904",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2604.09554v2": {
       "paper_id": "arxiv_id:2604.09554v2",
       "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
@@ -50441,6 +50622,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.09.28.755098": {
+      "paper_id": "doi:10.64898/2026.09.28.755098",
+      "title": "Integrating Developmental Neurotoxicity Prediction with Adverse Outcome Pathway Reasoning",
+      "source": "bioRxiv",
+      "date": "2026-10-04T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755098v1",
+      "abstract": "Experimental assessment of developmental neurotoxicity (DNT) is costly, time-consuming, and difficult to scale across large chemical inventories. New approach methodologies (NAMs), including computational approaches based on machine learning, deep learning, and large language models (LLMs), offer new ways to screen and prioritize chemicals. However, these emerging computational approaches have largely focused on predicting toxicity endpoints, with less attention to the mechanisms underlying those predictions. For DNT assessment, understanding this mechanistic basis is equally important. In this study, we integrated LLM inference with the adverse outcome pathway (AOP) framework to connect DNT predictions with plausible mechanisms. We constructed an AOP-informed benchmark linking ChEMBL target-activity measurements for 5,861 compounds to 14 AOPs representing five neurodevelopmental outcomes and evaluated ten LLMs for the prediction of molecular initiating events (MIEs), key events (KEs), key event relationships (KERs), and adverse outcomes (AOs), as well as the generation of mechanistic explanations. Explanation quality was evaluated using both a naive LLM judge and a rubric-based LLM judge. Across the zero-shot models, the highest observed macro-F1 scores were 0.818 for MIEs and 0.463 for AOs, but only 0.056 for KEs and 0.034 for KERs, identifying downstream pathway reconstruction as the principal challenge. Few-shot prompting substantially improved performance, with Gemini 3.8 Flash under four-shot prompting achieving macro-F1 scores of 0.956 for AOs, 0.813 for MIEs, 0.492 for KEs, and 0.457 for KERs. Both LLM-judge configurations indicated improved mechanistic explanation quality with few-shot examples, although strong outcome prediction did not consistently ensure recovery of the recorded pathway. Our results demonstrate the potential of AOP-informed LLMs to support DNT assessment by linking predicted neurodevelopmental outcomes to plausible biological mechanisms and enabling predictions to be evaluated at both the outcome and pathway levels.",
+      "abstract_zh": "",
+      "abstract_short": "Experimental assessment of developmental neurotoxicity (DNT) is costly, time-consuming, and difficult to scale across large chemical inventories. New approach methodologies (NAMs), including computational approaches based on machine learning, deep learning, and large language models (LLMs), offer new ways to screen and prioritize chemicals. However, these emerging computational approaches have lar",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 4.75,
+      "novelty_score": 5.75,
+      "importance_score": 5.1,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.09.28.755098",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "71c3e395040885f2a5f4dcad71e31a2907dac8d044e9b55266808620e81d990d",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "doi:10.1016/j.cell.2026.08.029": {
       "paper_id": "doi:10.1016/j.cell.2026.08.029",
       "title": "Comparative analysis of mitochondrial proteomes across the tree of life.",
@@ -55402,36 +55613,6 @@
       "content_hash": "16ed8ea6850acfb80c0791b4894810882e55e38f314c79e8c0072d372f615ee2",
       "first_seen_at": "2026-10-03T06:24:03.174372+00:00",
       "last_seen_at": "2026-10-03T06:24:03.174372+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
-    "doi:10.64898/2026.05.26.26353818": {
-      "paper_id": "doi:10.64898/2026.05.26.26353818",
-      "title": "Can Large Language Models Diagnose Primary Immunodeficiency from Patient-Described Symptoms?",
-      "source": "medRxiv",
-      "date": "2026-10-04T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://www.medrxiv.org/content/10.64898/2026.05.26.26353818v2",
-      "abstract": "Patients with primary immunodeficiency (PI) face prolonged diagnostic delays and may increasingly turn to large language models (LLMs) to interpret their symptoms during this period. We evaluated whether an LLM could recognize PI from symptom descriptions derived from interviews with 21 PI patients. In prior work, we showed that GPT-4o identified PI in 96% of cases when prompted with physician-written patient histories (Rider et al., 2025). Here, when prompted with symptom descriptions in patients' own words, GPT-5.2 identified PI in only 7 cases (33%), although it suggested general immune system concerns in 17 cases (81%). This expert-versus-patient gap may indicate that LLMs are sensitive to the language and framing of symptom descriptions, performing substantially worse when patients describe their own symptoms in everyday language than when clinicians summarize patient histories in structured medical terms. This study underscores the need to carefully evaluate how LLMs are used in patient-facing applications.",
-      "abstract_zh": "",
-      "abstract_short": "Patients with primary immunodeficiency (PI) face prolonged diagnostic delays and may increasingly turn to large language models (LLMs) to interpret their symptoms during this period. We evaluated whether an LLM could recognize PI from symptom descriptions derived from interviews with 21 PI patients. In prior work, we showed that GPT-4o identified PI in 96% of cases when prompted with physician-wri",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 4.75,
-      "novelty_score": 5.25,
-      "importance_score": 4.925,
-      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
-      "analysis_zh": "",
-      "category": "foundation_model",
-      "doi": "10.64898/2026.05.26.26353818",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "content_hash": "db117b6716d2924db56a3c2f856c9a94c9553d2caa711d8e53cd51b18e12d64b",
-      "first_seen_at": "2026-10-05T06:54:50.822506+00:00",
-      "last_seen_at": "2026-10-05T06:54:50.822506+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -65194,8 +65375,8 @@
       "pubmed_id": "",
       "content_hash": "ef7d74b3d30d88dd1fbf7b4ef06105d2760b37e7c47d3a0e570ba27940add1db",
       "first_seen_at": "2026-07-11T04:24:35.943208+00:00",
-      "last_seen_at": "2026-10-05T06:54:50.822506+00:00",
-      "times_seen": 5,
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 6,
       "notes": [],
       "status": "active"
     },
@@ -85584,6 +85765,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.1039/d6lc00155f": {
+      "paper_id": "doi:10.1039/d6lc00155f",
+      "title": "Simultaneous detection of influenza and SARS-CoV-2 on an AI-nanopore multiplex platform.",
+      "source": "PubMed",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42831434/",
+      "abstract": "Seasonal influenza and SARS-CoV-2 co-circulate and present overlapping symptoms, creating demand for rapid multiplex diagnostics beyond the sensitivity limits of antigen tests and the infrastructure requirements of nucleic acid amplification tests. Here we report NanoMux, an amplification-free diagnostic platform that couples a solid-state nanopore with attention-based multiple-instance learning (Attention-MIL) to classify clinical saliva samples from their nanopore event streams. Each measurement is treated as a \"bag\" of unlabeled translocation events dominated by endogenous nanoparticles, while only a sparse subset contains virus like signatures. Attention-MIL learns to weight informative events during bag-level prediction, enabling robust classification in highly contaminated clinical matrices where conventional machine learning baselines degrade. In a three-class setting (SARS-CoV-2, influenza, and healthy controls), Attention-MIL achieved a macro F1 of 0.781, substantially outperforming a gradient-boosting baseline (0.327). Under diluted conditions, the LightGBM model exhibited a more gradual decline in accuracy than the Attention-MIL model, demonstrating greater robustness for low-concentration specimens. NanoMux establishes a physics-based, reagent-minimal route to rapid multiplex respiratory virus screening and provides a model framework for extracting sparse pathogen signals from noisy nanopore recordings.",
+      "abstract_zh": "",
+      "abstract_short": "Seasonal influenza and SARS-CoV-2 co-circulate and present overlapping symptoms, creating demand for rapid multiplex diagnostics beyond the sensitivity limits of antigen tests and the infrastructure requirements of nucleic acid amplification tests. Here we report NanoMux, an amplification-free diagnostic platform that couples a solid-state nanopore with attention-based multiple-instance learning (",
+      "matched_topics": [
+        "sequencing_bioinformatics"
+      ],
+      "topic_count": 1,
+      "relevance_score": 2.65,
+      "novelty_score": 5.75,
+      "importance_score": 3.735,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1039/d6lc00155f",
+      "arxiv_id": "",
+      "pubmed_id": "42831434",
+      "content_hash": "a6f16d8f4879ad955f3f68a8889a9925032d0f949f4e8b4b81d339b268101770",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
     "doi:10.1007/s11262-026-02225-y": {
       "paper_id": "doi:10.1007/s11262-026-02225-y",
       "title": "Molecular characterization and genotypic diversity of human astroviruses among patients with gastroenteritis in Saudi Arabia, 2022-2023.",
@@ -101022,6 +101233,36 @@
       "notes": [],
       "status": "active"
     },
+    "doi:10.64898/2026.05.26.26353818": {
+      "paper_id": "doi:10.64898/2026.05.26.26353818",
+      "title": "Can Large Language Models Diagnose Primary Immunodeficiency from Patient-Described Symptoms?",
+      "source": "medRxiv",
+      "date": "2026-10-04T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.26.26353818v2",
+      "abstract": "Patients with primary immunodeficiency (PI) face prolonged diagnostic delays and may increasingly turn to large language models (LLMs) to interpret their symptoms during this period. We evaluated whether an LLM could recognize PI from symptom descriptions derived from interviews with 21 PI patients. In prior work, we showed that GPT-4o identified PI in 96% of cases when prompted with physician-written patient histories (Rider et al., 2025). Here, when prompted with symptom descriptions in patients' own words, GPT-5.2 identified PI in only 7 cases (33%), although it suggested general immune system concerns in 17 cases (81%). This expert-versus-patient gap may indicate that LLMs are sensitive to the language and framing of symptom descriptions, performing substantially worse when patients describe their own symptoms in everyday language than when clinicians summarize patient histories in structured medical terms. This study underscores the need to carefully evaluate how LLMs are used in patient-facing applications.",
+      "abstract_zh": "",
+      "abstract_short": "Patients with primary immunodeficiency (PI) face prolonged diagnostic delays and may increasingly turn to large language models (LLMs) to interpret their symptoms during this period. We evaluated whether an LLM could recognize PI from symptom descriptions derived from interviews with 21 PI patients. In prior work, we showed that GPT-4o identified PI in 96% of cases when prompted with physician-wri",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 4.75,
+      "novelty_score": 0.25,
+      "importance_score": 3.175,
+      "why_it_matters": "这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。",
+      "analysis_zh": "",
+      "category": "foundation_model",
+      "doi": "10.64898/2026.05.26.26353818",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "db117b6716d2924db56a3c2f856c9a94c9553d2caa711d8e53cd51b18e12d64b",
+      "first_seen_at": "2026-10-05T06:54:50.822506+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "times_seen": 2,
+      "notes": [],
+      "status": "active"
+    },
     "arxiv_id:2608.02011v1": {
       "paper_id": "arxiv_id:2608.02011v1",
       "title": "Before Reasoning Fails: Pre-Evidence Procedural Failures in Agentic RAG",
@@ -105192,6 +105433,34 @@
       "content_hash": "b81a3a0afb2a06b0aab5f95d7babbd3ae4b2c10d6b19d7ec82bd385506847781",
       "first_seen_at": "2026-10-05T06:54:50.822506+00:00",
       "last_seen_at": "2026-10-05T06:54:50.822506+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.09.29.755250": {
+      "paper_id": "doi:10.64898/2026.09.29.755250",
+      "title": "Verification Debt in Automated Biological Research Workflows: A Proof-of-Concept",
+      "source": "bioRxiv",
+      "date": "2026-10-05T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755250v1",
+      "abstract": "Recent biological research has shown significant interest and progress towards adoption of agentic AI systems. Domain specific agentic platforms with access to large collections of biological tools with code generation and/or querying capabilities, such as Biomni (illustrative case in point), are representative of the capability to orchestrate automated research workflows. Such platforms enable collaborative AI workspace for drug discovery, genomics, bioinformatics, literature research, and experimental planning for biologists and researchers. When such platforms are used for the aforementioned workflows, individually validating every agentic decision and the research process by which it was reached becomes challenging due to the scale of decisions involved and oftentimes, insufficient disclosure of assumptions and methodological choices, limited traceability of evidence, and interpretive judgments embedded throughout the workflow, giving rise to verification debt. Verification debt in agentic environments could result in unexpected failures and consequences in downstream experiments. This study focuses on empirical qualitative characterization of verification debt in agentic (prompt to outcomes) workflows. Biomni was chosen the testing AI agentic platform in this study mainly due to the descriptive traces it provides to track every agentic step. Verification debt is examined through two complementary angles: the individual agentic decision steps that carry claims and evidence, and the underlying research process by which the agent arrives at and reports them. This study attempts to characterize verification debt with 10 test cases (covering proteomics, genomics and drug discovery) with varying degree of biological nuance across three identical and independent runs. Verification debt is represented through 9 decision-step metrics and 13 research-process metrics, and also propose the VERIFY framework for evaluating scientific verifiability and validity in agentic workflows.",
+      "abstract_zh": "",
+      "abstract_short": "Recent biological research has shown significant interest and progress towards adoption of agentic AI systems. Domain specific agentic platforms with access to large collections of biological tools with code generation and/or querying capabilities, such as Biomni (illustrative case in point), are representative of the capability to orchestrate automated research workflows. Such platforms enable co",
+      "matched_topics": [],
+      "topic_count": 0,
+      "relevance_score": 1.7,
+      "novelty_score": 5.25,
+      "importance_score": 2.942,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.09.29.755250",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "a177bc12fdec362a32e3f1d00e1f814c6ecd39cd92aff74b98fe6bc3f1749616",
+      "first_seen_at": "2026-10-06T07:30:40.699107+00:00",
+      "last_seen_at": "2026-10-06T07:30:40.699107+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
