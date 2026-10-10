@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-09T07:19:46.763275+00:00",
+  "fetched_at": "2026-10-10T06:58:34.010202+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 51,
+  "count": 42,
   "papers": [
     {
       "title": "RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts",
@@ -133,54 +133,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "De novo design of monoclonal and bispecific antibodies with OFAntibody",
-      "source": "arXiv",
-      "date": "2026-10-07T06:48:06+00:00",
-      "updated": "2026-10-07T06:48:06+00:00",
-      "url": "http://arxiv.org/abs/2610.09548v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.09548v1",
-      "abstract": "Recent advances in generative protein design have enabled de novo antibody generation with explicit target and epitope conditioning. However, most existing approaches remain formulated around a single antigen-antibody interface, whereas bispecific antibody design requires modeling multi-component complexes in which multiple target-recognition interfaces must coexist and interact within a shared antibody structure. Here we present OFAntibody, an all-atom generative framework for de novo design of monoclonal and bispecific antibodies. OFAntibody expands CDR-epitope interaction learning with large-scale distilled antigen-antibody complexes, and introduces multi-component structural supervision and arm-aware multi-hotspot routing to learn compatible multi-interface geometries and couple each antibody paratope to its designated epitope. OFAntibody supports epitope-conditioned generation across monoclonal antibodies and diverse bispecific formats, including tandem VHH, diabody and CODV. In nanobody design benchmarks, OFAntibody achieves a Top-5 enrichment rate of 41.5%, representing a 5.39-fold improvement over RFantibody in competitive candidate ranking. In bispecific antibody design tasks, OFAntibody achieves hotspot pass rates of 94-100% across the three evaluated tasks and achieves energy pass rates of 60%, 13% and 8% for diabody, tandem VHH and CODV formats, respectively. OFAntibody further enables the same target combination to be explored across different antibody formats, while joint multi-interface generation reduces geometric incompatibilities arising from independent design and post hoc assembly. Together, these results extend de novo antibody design from binary antigen-antibody complexes to programmable multi-component complexes, providing a foundation for designing single molecules that combine recognition of distinct targets and their associated biological functions.",
-      "authors": [
-        "Valhalla Team"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.09548v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "How High Is 0.6? Floors, Ceilings, and Headroom in Interpretability Probing",
-      "source": "arXiv",
-      "date": "2026-10-06T15:32:25+00:00",
-      "updated": "2026-10-06T15:32:25+00:00",
-      "url": "http://arxiv.org/abs/2610.08544v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08544v1",
-      "abstract": "Probes are the workhorse of interpretability. If a model's hidden states predict a variable, the model is said to represent it. But a probe score has no fixed meaning. An $R^2$ of 0.6 may only reflect what the input already gives away, and the same score can mean different things on different data. We propose reading every probe score against two reference points: a floor, what a declared set of simple inputs already predicts, and a ceiling, what the full input can predict. The gap between them, the headroom, is the range in which a probe can show that a model computes something beyond the simple inputs. We prove that headroom vanishes in two ways: the target stops depending on a hidden variable the model must infer, or the input stops revealing it. We test this on transformers trained for in-context meta-analysis, which must infer the hidden heterogeneity between studies to weight them correctly, and where both reference points are known. Under distribution shift, probe scores fall and prediction error rises $12$--$15\\times$, yet the model recovers a similar share of the headroom, indicating that the data lost information, not the representation. We then analyze the real models. The single-cell foundation model scGPT encodes biological variability only partially. We also revisit four influential LLM probing studies, which claim that models represent geography, the state of an Othello board, truth, and the demographics of their users. Against a floor computed from the input text alone, some of these claims hold, while others are largely explained by the text itself.",
-      "authors": [
-        "Pranjal Garg"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.08544v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ReGraph: A Computational Account of Emergent Generalization in the \"what\" and \"where\" Dual Visual Streams",
-      "source": "arXiv",
-      "date": "2026-10-06T08:30:45+00:00",
-      "updated": "2026-10-06T08:30:45+00:00",
-      "url": "http://arxiv.org/abs/2610.07962v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.07962v1",
-      "abstract": "Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate relational structure in the medial entorhinal cortex (MEC) from sensory content in the lateral entorhinal cortex. However, as Eichenbaum argued, such factorization likely originates earlier, driven by the segregation of the dorsal ('where') and ventral ('what') visual streams. Supporting this, grid-like firing patterns--a signature of MEC (context-invariant codes)--also appear in preceding neocortical regions along the dorsal pathway. Yet, how such representations are computationally formed along upstream pathways remains unknown. To investigate this in silico, we developed ReGraph, a recurrent dual-stream graph model with biological inductive biases, including retina-driven stream-specialized encoding, dorsal-to-ventral modulation, and dynamic lateral connectivity. Trained on the action benchmark Something-Something V2, ReGraph revealed a pathway-specific emergence of relational mapping: context-invariant codes and grid-like spatial bases uniquely co-emerged along the extended dorsal stream. In contrast, their absence in single-stream, unmodulated variants, and standard baselines implies that these inductive biases are prerequisites for relational structures. Crucially, our post-hoc analyses demonstrated that these grid-like bases serve as reusable routing templates for information processing via lateral connectivity. Together, our findings provide a computational account that generalization may not be a faculty that emerges abruptly within a dedicated region, but a property that already takes shape as sensory information is parsed into factorized streams of hierarchical visual processing.",
-      "authors": [
-        "Hyewon Kang",
-        "Jungmin Lee",
-        "Ilgyu Lee",
-        "Seok-Jun Hong"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.07962v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators",
       "source": "arXiv",
       "date": "2026-06-24T18:38:26+00:00",
@@ -207,59 +159,6 @@
       ],
       "doi": "",
       "arxiv_id": "2606.26294v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
-      "source": "arXiv",
-      "date": "2026-10-06T21:06:33+00:00",
-      "updated": "2026-10-06T21:06:33+00:00",
-      "url": "http://arxiv.org/abs/2610.09116v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.09116v1",
-      "abstract": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them. We introduce SPLATIFY, a multi-agent framework that converts 3DGS papers into trainable gsplat-based implementations, where generic paper-to-code methods and frontier models fail. SPLATIFY achieves this through five innovations: (1) A context-free grammar for gsplat over a modular method template with extension points for losses, densification, rendering, and optimization, constraining synthesis so generated code satisfies gsplat's architectural invariants by construction. (2) Architectural elements for faithful reproduction: fork-aware citation recovery retrieving component-level code at function-level granularity, Graph-of-Thought synthesis in topological dependency order, RAG-guided in-context example selection from over 20 verified implementations, and visual feedback combining PSNR-guided regeneration, Gaussian-level structural checks, and VLM-driven patching. (3) Knowledge-driven compositional improvement that autonomously finds weaknesses and composes complementary regularizers, losses, and densification strategies to improve upon original results. (4) Interdisciplinary method discovery where agents retrieve physical priors from outside the 3DGS literature and compose them with rendering knowledge to produce methods for previously unaddressed scene types. (5) SPLATIFY-Bench, an evaluation framework across 30 diverse 3DGS papers. On papers without public code, SPLATIFY matches expert implementations while reducing development time from weeks to minutes, and through compositional discovery further improves PSNR by up to 2.4 dB. We additionally demonstrate novel methods for volumetric nebula rendering and other scientific domains, synthesized entirely by SPLATIFY.",
-      "authors": [
-        "Seemandhar Jain",
-        "Keshav Gupta",
-        "Manmohan Chandraker"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.09116v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-      "source": "arXiv",
-      "date": "2026-10-06T18:00:39+00:00",
-      "updated": "2026-10-06T18:00:39+00:00",
-      "url": "http://arxiv.org/abs/2610.08927v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08927v1",
-      "abstract": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multiple agents simulate a scientific ecosystem. To tackle challenges specific to open-ended tasks, we propose augmenting Station with two mechanisms: a Supervisor mechanism and periodic Meta Reflection, which encourage persistent exploration even when intermediate metrics are lacking. We construct open-ended tasks from three recent oral papers presented at ICLR. We give agents the main research question studied in each paper while withholding the paper's results and disabling web access. We then measure how many of the original findings-partitioned into individual criteria-agents rediscover. We find that Station rediscovers 62.7% of the criteria on average, compared with 15.4% for Codex Multiagent-v2 and 14.4-20.6% for AI Scientist-v2. Ablation and behavioral analyses indicate that adding the two mechanisms together improves research coverage and continuity. We further evaluate Station on two open-ended tasks without oracle papers and find that some of the discoveries made by the agents closely match discoveries reported by researchers after the knowledge cutoff date. Together, these results indicate that a suitable environment can enable agents to autonomously make meaningful progress in open-ended scientific discovery.",
-      "authors": [
-        "Wenyu Du",
-        "Stephen Chung"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.08927v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Guideline-Augmented Multi-Agent Framework for Schema-as-Code Biomedical Named Entity Recognition",
-      "source": "arXiv",
-      "date": "2026-10-02T08:06:20+00:00",
-      "updated": "2026-10-06T08:09:03+00:00",
-      "url": "http://arxiv.org/abs/2610.02970v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.02970v2",
-      "abstract": "Large language models (LLMs) have shown promising potential for biomedical named entity recognition (BioNER) through instruction following and in-context learning. However, existing LLM-based BioNER methods still face two key limitations. First, retrieved demonstrations and external biomedical knowledge provide limited support for dataset-specific annotation semantics, leaving entity boundaries, type scopes, and annotation conventions ambiguous. Second, free-form generation lacks sufficient structural control, often leading to invalid formats, hallucinated mentions, duplicated entities, and boundary errors. To address these limitations, we propose GAMA, a guideline-augmented multi-agent framework for schema-as-code BioNER. GAMA first induces candidate annotation rules from labeled training instances and verifies them against annotated data to construct reliable dataset-specific guideline memory. Guided by these verified rules, a planning component generates ranked span-type hypotheses with rationales, and a coding component converts them into schema-constrained entity objects. A verification module then checks span grounding, type validity, and structural compliance, and performs dual-loop refinement to correct invalid or low-confidence predictions. Experiments on five widely used BioNER datasets with multiple LLM backbones show that GAMA consistently outperforms strong LLM-based baselines. Ablation and parameter analyses further verify the effectiveness of the proposed components.",
-      "authors": [
-        "Songtao Li",
-        "Yijia Zhang",
-        "Shidi Zhang",
-        "Jianyuan Yuan",
-        "Fengyu Zhang",
-        "Hongfei Lin"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.02970v2",
       "pubmed_id": ""
     },
     {
@@ -329,76 +228,6 @@
       ],
       "doi": "",
       "arxiv_id": "2610.09709v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Entropy-Guided Reverse-Causal AI to Identify Upstream Bottleneck Genes for Alzheimer's Drug Discovery",
-      "source": "arXiv",
-      "date": "2026-10-06T17:37:57+00:00",
-      "updated": "2026-10-06T17:37:57+00:00",
-      "url": "http://arxiv.org/abs/2610.08736v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.08736v1",
-      "abstract": "Identifying upstream regulators that connect several disease processes to therapeutic interventions is a central objective in Alzheimer's disease drug discovery. We propose an entropy-guided reverse-causal framework that makes candidate bottleneck genes the organizing link between disease mechanisms, pathways, molecular targets and drugs. The methodology integrates five stages: an Alzheimer's-specific knowledge graph with language-model assistance and expert review; reverse tracing from drugs to candidate genes; entropy-guided prioritization; forward propagation to drugs and complementary combinations; and staged validation with evidence feedback. The novelty lies in integrating upstream bottleneck identification, entropy-guided prioritization and iterative therapeutic selection within a dynamic, bidirectional discovery architecture. We demonstrate its molecular tracing and gene-prioritization components in a computational feasibility study using DeepDrug2 and MSigDB pathway annotations. Tracing amlodipine, indapamide and atorvastatin through a network of 11,300 molecular and drug nodes identifies 46 routes to nine genes. EGFR is the leading candidate, supported by 26 routes from all three drugs; MME and MAF rank next. These results show how pharmacological starting points can identify shared candidate genes with defined molecular connections. The framework's scientific significance lies in connecting convergent disease mechanisms to systematic intervention selection, with preservation of cognition and independence as the translational objective.",
-      "authors": [
-        "Victor O. K. Li",
-        "Jacqueline C. K. Lam",
-        "Yang Han",
-        "Lawrence Y. L. Cheung"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.08736v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "PertMind: Eliciting Emergent Biological Reasoning in LLM via Reinforcement Learning on Cellular Perturbation Data",
-      "source": "arXiv",
-      "date": "2026-08-17T11:17:26+00:00",
-      "updated": "2026-10-06T15:42:49+00:00",
-      "url": "http://arxiv.org/abs/2608.16419v3",
-      "pdf_url": "https://arxiv.org/pdf/2608.16419v3",
-      "abstract": "Large language models can describe mechanisms, yet scalable post-training still depends on costly, manually curated biological reasoning traces. Here we show that cellular perturbation atlases can instead become reinforcement-learning environments, where measured gene responses provide computable rewards for biological reasoning. We introduce PertMind, which combines trusted-trajectory supervised initialization with gene-, pathway-, and format-level reinforcement signals. Although trained only on forward perturbation-response prediction, PertMind improves response inference in unseen cellular contexts while retaining general language capabilities. It also transfers, without task-specific post-training, to reverse perturbation identification, double-perturbation reasoning, phenotypic-screen prioritization, and biological-process interpretation. PertMind further generates biological profiles that support competitive gene, cell, and donor representations across multiscale downstream tasks. These results support the hypothesis that reinforcement on experimental endpoints can concentrate reusable biological strategies already accessible to pretrained models. More broadly, perturbation-derived reinforcement learning offers a scalable route for transforming expanding experimental atlases into training environments for general-purpose biological reasoning.",
-      "authors": [
-        "Zhenchao Tang",
-        "Xiaogang Xu",
-        "Jiafei Wu",
-        "Jiahui Guan",
-        "Bo Li",
-        "Tianxu Lv",
-        "Jiale Zhou",
-        "Haohuai He",
-        "Zhi Song",
-        "Hanbo Huang",
-        "Jiehui Huang",
-        "Xun Lin",
-        "Zhipeng Deng",
-        "Zhaoxing Li",
-        "Guanxing Chen",
-        "Yaokun Li",
-        "Mengran Li",
-        "Songming Zhang",
-        "Zhe Liu"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.16419v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Speak to a Protein: An Interactive Multimodal Co-Scientist",
-      "source": "arXiv",
-      "date": "2025-10-01T22:12:34+00:00",
-      "updated": "2026-10-06T13:19:04+00:00",
-      "url": "http://arxiv.org/abs/2510.17826v2",
-      "pdf_url": "https://arxiv.org/pdf/2510.17826v2",
-      "abstract": "Building a working mental model of a protein typically requires weeks of reading, cross-referencing crystal and predicted structures, and inspecting ligand complexes, an effort that is slow, unevenly accessible, and often requires specialized computational skills. We introduce \\emph{Speak to a Protein}, a new capability that turns protein analysis into an interactive, multimodal dialogue with an expert co-scientist. The AI system retrieves and synthesizes relevant literature, structures, and ligand data; grounds answers in a live 3D scene; and can highlight, annotate, manipulate and see the visualization. It also generates and runs code when needed, explaining results in both text and graphics. We demonstrate these capabilities on relevant proteins, posing questions about binding pockets, conformational changes, or structure-activity relationships to test ideas in real time. \\emph{Speak to a Protein} reduces the time from question to evidence, lowers the barrier to advanced structural analysis, and enables hypothesis generation by tightly coupling language, code, and 3D structures. \\emph{Speak to a Protein} is freely accessible at https://open.playmolecule.org.",
-      "authors": [
-        "Carles Navarro",
-        "Mariona Torrens",
-        "Philipp Thölke",
-        "Stefan Doerr",
-        "Gianni De Fabritiis"
-      ],
-      "doi": "",
-      "arxiv_id": "2510.17826v2",
       "pubmed_id": ""
     },
     {
@@ -1028,7 +857,7 @@
     {
       "source": "arXiv",
       "success": true,
-      "count": 51,
+      "count": 42,
       "error": ""
     }
   ]
