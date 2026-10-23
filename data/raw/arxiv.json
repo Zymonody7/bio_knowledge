@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-22T06:01:41.139636+00:00",
+  "fetched_at": "2026-10-23T05:58:10.945647+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 63,
+  "count": 60,
   "papers": [
     {
       "title": "Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics",
@@ -42,39 +42,88 @@
       "pubmed_id": ""
     },
     {
-      "title": "Orthogonal Boundary Unlearning for Dual-Use Concepts in Large Language Models",
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
       "source": "arXiv",
-      "date": "2026-10-20T02:09:21+00:00",
-      "updated": "2026-10-20T02:09:21+00:00",
-      "url": "http://arxiv.org/abs/2610.27490v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27490v1",
-      "abstract": "Mitigating catastrophic risks from large language models requires excising hazardous operational capabilities, such as cyberwarfare exploitation and pathogen enhancement, without degrading benign scientific utility. In these dual-use domains, legitimate defensive science and malicious attacks share vocabulary, syntax, and internal model representations, causing standard unlearning methods to induce severe collateral damage (concept bleeding). In this work, we present Orthogonal Boundary Unlearning (OBU), a mathematically grounded framework designed to eliminate collateral damage on benign dual-use capabilities. OBU extracts a domain-matched capability subspace from paired calibration queries via singular value decomposition on empirical activation covariances, and restricts parameter updates strictly to the orthogonal null space. This guarantees that benign representations experience zero parameter perturbation along the spanned calibration subspace. We present two complementary realizations of OBU: Projected LoRA, which applies the orthogonal constraint during iterative gradient-based fine-tuning, and Closed-Form Weight Surgery, which directly edits model weights in a single analytical step without training. Across four modern open-weight foundation models (Gemma-3-4B, Qwen3.5-4B, SmolLM3-3B, and Granite-4.2-3B), OBU achieves strong dual-use concept separation, substantially mitigates in-context priming attacks, and demonstrates durable resistance against adversarial relearning without degrading benign domain competence.",
+      "date": "2026-05-28T17:57:37+00:00",
+      "updated": "2026-10-22T17:59:15+00:00",
+      "url": "http://arxiv.org/abs/2605.30329v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.30329v2",
+      "abstract": "Autonomous AI research agents aim to speed up scientific discovery by automating the research pipeline from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck whether LLMs can judge the methodological viability of a research idea $\\textbf{before}$ investing time and computational resources. Without a reliable ``first-gate'' filter, autonomous agents risk scaling flawed methodology rather than accelerating meaningful science. We introduce $\\textbf{SoundnessBench}$, a curated benchmark of 1,099 real research proposals, with source verified extraction, reviewer-derived proxy labels, and proposal-only expert judgments on a subset of 327 proposals. Across 12 frontier LLMs, our evaluation reveals a pervasive $\\textbf{optimism bias}$: standard prompting yields a $74.0\\%$ mean false-positive rate. Aggressive prompting reduces false approvals but substantially increases false rejections. Additional analyses show that optimism persists under controls for public corpus contamination, and surface features, as well as in literature-grounded agent evaluation. These results suggest a limitation in judging scientific soundness, indicating that current LLMs are not yet reliable as standalone gatekeepers for scientific rigor.",
       "authors": [
-        "Niccolò Ronchetti"
+        "Sy-Tuyen Ho",
+        "Minghui Liu",
+        "Huy Nghiem",
+        "Furong Huang"
       ],
       "doi": "",
-      "arxiv_id": "2610.27490v1",
+      "arxiv_id": "2605.30329v2",
       "pubmed_id": ""
     },
     {
-      "title": "REST: Reliability-Guided Spatial Transcriptomics Supervision for Gene Expression Prediction from Histopathological HE-Stained Images",
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
       "source": "arXiv",
-      "date": "2026-10-19T06:07:51+00:00",
-      "updated": "2026-10-19T06:07:51+00:00",
-      "url": "http://arxiv.org/abs/2610.26988v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.26988v1",
-      "abstract": "Histopathology is central to cancer diagnosis, but morphology in Hematoxylin and Eosin (HE)-stained images does not directly reveal the molecular states that characterize disease heterogeneity and inform tumor characterization, prognostic assessment, and biomarker discovery. Spatial Transcriptomics (ST) measures spatially resolved gene expression, providing molecular information within tissue architecture, yet differences in assay coverage and spot informativeness make paired HE--ST observations unequally reliable for representation learning. We propose Reliability-Guided Spatial Transcriptomics (REST) supervision with Biological Program Bank (BPB), a program-structured and reliability-guided ST-supervised training framework for predicting molecular information from H\\&E images. REST constructs BPB from curated signature, pathway, and cell-type gene sets to provide a shared structure for ST encoding, reliability estimation, and molecular reconstruction. Guided by BPB, Spot-Reliability Contrastive Alignment (SRCA) measures the reliability of each spot from assay-level program coverage and spot-level activity dispersion, and reweights HE--ST alignment accordingly. Biology-Informed Program Reconstruction (BIPR) further uses learnable program queries to reconstruct member-gene expression from histological morphology. REST's training corpus comprised 209 samples (407,475 spots across 16 organs); evaluation used 70 disjoint samples (230,056 spots across eight organs) for gene-expression, pathway-activity, and cell-signature prediction. REST achieved the highest Macro correlation among state-of-the-art ST-supervised training methods and outperformed existing pathology foundation models. Code is available at https://github.com/lanfz2000/REST.",
+      "date": "2026-06-04T17:55:59+00:00",
+      "updated": "2026-10-22T16:48:33+00:00",
+      "url": "http://arxiv.org/abs/2606.06473v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.06473v2",
+      "abstract": "Large language model (LLM) agents are increasingly applied to long-horizon tasks such as scientific discovery and machine learning engineering (MLE), where sustained self-evolution becomes a key capability. However, existing MLE agents suffer from isolated exploration, inefficient experience reuse, and lack of hierarchical control, which together hinder long-horizon optimization. We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery. By extending tree search to Progressive MCGS, MLEvolve enables cross-branch information flow through graph-based reference edges and gradually shifts the search from broad exploration to focused exploitation with an entropy-inspired progressive schedule. To allow the agent to evolve with accumulated experience, we introduce Retrospective Memory, which combines a cold-start domain knowledge base with a dynamic global memory for task-specific experience retrieval and reuse. For stable long-horizon iteration, we further decouple strategic planning from code generation with adaptive coding modes. Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget (half the standard runtime). Moreover, MLEvolve also outperforms specialized algorithm discovery methods including AlphaEvolve on mathematical algorithm optimization tasks, demonstrating strong cross-domain generalization. Code is available at https://github.com/InternScience/MLEvolve.",
       "authors": [
-        "Lanfeng Zhong",
-        "Xiangyu Sun",
-        "Guixuan Xu",
-        "Rongzhao Zhang",
-        "Jie Xu",
-        "Shaoting Zhang",
-        "Guotai Wang"
+        "Shangheng Du",
+        "Xiangchao Yan",
+        "Jinxin Shi",
+        "Zongsheng Cao",
+        "Shiyang Feng",
+        "Zichen Liang",
+        "Boyuan Sun",
+        "Xu Guo",
+        "Tianshuo Peng",
+        "Yifan Zhou",
+        "Jie Hou",
+        "Xin Li",
+        "Jie Zhou",
+        "Liang He",
+        "Bo Zhang",
+        "Lei Bai"
       ],
       "doi": "",
-      "arxiv_id": "2610.26988v1",
+      "arxiv_id": "2606.06473v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ADAPT for Science: A Multi-Agent System for Self-Evolving Scientific Optimization",
+      "source": "arXiv",
+      "date": "2026-10-22T07:28:46+00:00",
+      "updated": "2026-10-22T07:28:46+00:00",
+      "url": "http://arxiv.org/abs/2610.30851v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30851v1",
+      "abstract": "Scientific discovery often requires identifying a small number of high-performing designs in vast, constrained search spaces. This is difficult when evaluations are costly, feasible solutions are sparse, parameters are strongly coupled, and physical constraints are strict. Recent AI for AI methods can automatically improve algorithms and optimization procedures. However, general purpose approaches are not designed around scientific priors, physical constraints, and limited evaluation budgets. We introduce ADAPT for Science, a multi-agent framework that treats scientific optimization as two coupled decisions: where to search and how to search. ADAPT uses historical designs to identify promising and diverse initial conditions, progressively concentrates computation on favorable search directions, and evolves the optimization procedure from execution feedback. We evaluate ADAPT on the design of gravitational wave detectors using a differentiable physics simulator and eight unseen detector topologies. Under matched scientific evaluation budgets, ADAPT achieves a mean loss of 0.204 +/- 0.101, reducing loss by 54.9% relative to the best classical optimizer and by 62.2% relative to the best general purpose agentic evolution baseline. ADAPT achieves the lowest loss on all unseen topologies among the evaluated baselines. ADAPT provides a step toward scientific optimization systems that continuously learn from prior experience and their own search outcomes.",
+      "authors": [
+        "Zhaoran Feng",
+        "Yuchen Ni",
+        "Jianan Liu",
+        "Lemao Liu",
+        "Dejing Dou",
+        "Kairui Feng"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30851v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Driving Epidemic Models with AI Agents: the Epydemix Agent Framework",
+      "source": "arXiv",
+      "date": "2026-09-23T18:31:43+00:00",
+      "updated": "2026-10-21T21:17:05+00:00",
+      "url": "http://arxiv.org/abs/2609.28692v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.28692v2",
+      "abstract": "Artificial Intelligence agents based on large language models provide convenient natural language interfaces to scientific software, but reliability is not automatic. Here we introduce the Epydemix Agent Framework, an additive layer over Epydemix, an open-source Python library for stochastic compartmental epidemic modeling. The framework extends the library with four capabilities to facilitate interaction with an AI agent: discovery of available models and parameters, preventive validation of a declarative scenario specification, execution through tested library code, and inspectability of results. These capabilities let an agent handle the entire modeling process, from the natural-language description of the scenario to quantitative results, figures, and interpretation of findings without writing custom code. Each step reads input files and saves results in a separate output bundle, making the process auditable and reproducible. First, we show the end-to-end workflow with a case study comparing vaccination strategies for a novel respiratory virus. Second, we assessed the framework across 50 agent sessions and five modeling tasks by comparing the agent use of the framework against the direct use of the Python interface. The framework reduced turns, output tokens, and cost on most tasks, unless it trades resources for per-point reproducibility.",
+      "authors": [
+        "Nicolò Gozzi",
+        "Ciro Cattuto",
+        "Alessandro Vespignani"
+      ],
+      "doi": "",
+      "arxiv_id": "2609.28692v2",
       "pubmed_id": ""
     },
     {
@@ -392,80 +441,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "A general-purpose System One decision model for clinical records",
-      "source": "arXiv",
-      "date": "2026-10-19T18:00:51+00:00",
-      "updated": "2026-10-19T18:00:51+00:00",
-      "url": "http://arxiv.org/abs/2610.27099v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27099v1",
-      "abstract": "Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive. Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fast, typed judgments from clinical records, along with two agentic harnesses in which CS1 works together with a generalist language model. CS1-4B is trained on 12.4 million questions and answers from 3.6 million patients across a multi-hospital health system, combining structured-data keys, observed outcomes and language-model supervision across clinical notes, diagnostic reports and patient timelines. It answers multiple typed questions in a single forward pass without task-specific retraining, and each answer carries a probability that can route uncertain cases to human review. On 963,408 held-out patients, CS1-4B outperformed open decision models up to 27 billion parameters on 13 of 14 tasks scored independently of its training teacher. Across 21 external data sets, its aggregate performance approached that of the strongest tested 27-billion-parameter model, with 6.4-fold faster inference in a matched workload. Integrating CS1-4B with a language model agent produced cited answers over complete multi-year patient histories and screened a patient population against the eligibility criteria of 17 registered clinical trials, placing four times as many judged-eligible patients among its top 20 candidates as keyword search while using 690-fold fewer language-model tokens than a language model reading every record. These findings support a division of labour in clinical AI, with small decision models performing repeated record reading and generative models formulating questions and synthesizing evidence.",
-      "authors": [
-        "Andrew Zhang",
-        "Trinh T. L. Vuong",
-        "Sophia J. Wagner",
-        "Dongmin Bang",
-        "Tong Ding",
-        "Yuchang Su",
-        "Mary Cipperman",
-        "Christina S. Chen",
-        "Judith Lefkes",
-        "Ramin Kahidi",
-        "Ming Y. Lu",
-        "Caiwei Tian",
-        "Tianhao Luo",
-        "Jingnan Ma",
-        "Rowland Pettit",
-        "Long Phi Le",
-        "Faisal Mahmood"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27099v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Multi-Agent AI Design of a Nanowatt Biomedical Low-Pass Filter from Topology to Layout",
-      "source": "arXiv",
-      "date": "2026-10-19T14:51:21+00:00",
-      "updated": "2026-10-19T14:51:21+00:00",
-      "url": "http://arxiv.org/abs/2610.28677v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28677v1",
-      "abstract": "We demonstrate a multi-agent framework that takes an analog circuit from topology synthesis to layout. A researcher agent directs schematic and layout agents, a four-tier memory stores the specification and lessons, and separate agents review the designs. Deterministic tools provide pass/fail simulation reports, symbolic analysis, graph-based netlist equivalence, parasitic injection, and extraction with DRC and LVS in every optimization trial. A human approves the specification and the layout plan. For a fourth-order, 250-Hz subthreshold biopotential low-pass filter, the researcher agent synthesized, through simulation-guided trial and error, a novel current-reuse architecture that shares a single dc bias branch between a super-source-follower biquad and a flipped-voltage-follower biquad. The agents completed a DRC- and LVS-clean layout in 130-nm IHP SG13G2 CMOS that meets the specification in nominal post-layout simulation, despite the noise-power trade-off and threshold-voltage sensitivity of subthreshold operation. The filter's input-referred noise over 0.5-200 Hz is 41.6% below that of the super-source-follower reference design at about equal core power.",
-      "authors": [
-        "Danial Noori Zadeh",
-        "Devanshu Prasad",
-        "Mohamed B. Elamien"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28677v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Agentic AI -- Physicist Collaboration in Experimental Particle Physics: A Proof-of-Concept Measurement with LEP Open Data",
-      "source": "arXiv",
-      "date": "2026-03-05T22:48:06+00:00",
-      "updated": "2026-10-19T11:30:05+00:00",
-      "url": "http://arxiv.org/abs/2603.05735v3",
-      "pdf_url": "https://arxiv.org/pdf/2603.05735v3",
-      "abstract": "We present an agentic measurement of the thrust distribution in $e^{+}e^{-}$ collisions at $\\sqrt{s}=91.2$ GeV using ALEPH archived data. This work was carried out through an AI agent-physicist collaboration, using interactive natural-language prompting of Anthropic Claude and OpenAI Codex. Under physicist guidance, the agents wrote and executed all analysis code and drafted the majority of the text included in this paper. A fully-corrected thrust spectrum is obtained via Iterative Bayesian Unfolding and Monte Carlo based corrections. The principal contribution of this work is the demonstration of the agentic analysis, with thrust serving as a benchmark observable for the method. Dedicated precision measurements of thrust are reported in the community elsewhere. This work represents a step toward a theory-experiment loop in which AI agents assist with experimental measurements and theoretical calculations, and synthesize insights by comparing the results, thereby accelerating the cycle that drives discovery in fundamental physics. Our work suggests that precision physics, leveraging the open LEP data and advanced theoretical landscape, provides an ideal testing ground for developing AI agent systems for scientific applications.",
-      "authors": [
-        "Anthony Badea",
-        "Marcello Maggi",
-        "Christopher McGinn",
-        "Austin Baty",
-        "Yi Chen",
-        "Hannah Bossi",
-        "Gian Michele Innocenti",
-        "Jingyu Zhang",
-        "Yu-Chen Chen",
-        "Tzu-An Sheng",
-        "Yen-Jie Lee",
-        "Electron-Positron Alliance"
-      ],
-      "doi": "10.53941/hihep.2026.100010",
-      "arxiv_id": "2603.05735v3",
-      "pubmed_id": ""
-    },
-    {
       "title": "HGASurv: Hierarchical Granularity-Aware Multimodal Integration for Survival Prediction",
       "source": "arXiv",
       "date": "2026-10-19T13:19:03+00:00",
@@ -484,19 +459,65 @@
       "pubmed_id": ""
     },
     {
-      "title": "Secure Multimodal Federated Optimization via Hierarchical DNA-Based Key Management",
+      "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
       "source": "arXiv",
-      "date": "2026-10-20T05:04:19+00:00",
-      "updated": "2026-10-20T05:04:19+00:00",
-      "url": "http://arxiv.org/abs/2610.27644v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27644v1",
-      "abstract": "Federated optimization over heterogeneous multimodal data enables distributed institutions to collaboratively optimize a shared model using medical images, genomic profiles, clinical records, and physiological signals without centralizing raw data. However, protecting modality-specific data throughout the optimization lifecycle remains insufficiently explored, particularly when heterogeneous modalities require separate encryption keys and selective local access. This paper proposes a secure multimodal federated optimization framework that separates local data protection from federated-update protection. A trusted key-management authority securely provisions one client key through Hybrid Public Key Encryption (HPKE), from which each client locally derives modality-specific symmetric keys using the domain-separated HMAC-based Extract-and-Expand Key Derivation Function (HKDF). Heterogeneous modalities are mapped into a unified DNA-domain representation and processed through a DNA-origami-inspired structural transformation before authenticated encryption with AES-GCM. During local optimization, only the required modalities are decrypted within an authorized client environment. Individual model updates are independently protected through secure aggregation, allowing the coordinator to observe only aggregated updates rather than each client's contribution. Together, these components establish a structured approach to modality-specific protection and secure collaborative optimization, integrating hierarchical key management, authenticated local encryption, and aggregation-level update protection within a unified framework.",
+      "date": "2026-10-22T17:09:12+00:00",
+      "updated": "2026-10-22T17:09:12+00:00",
+      "url": "http://arxiv.org/abs/2610.31566v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31566v1",
+      "abstract": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenarios, their general-purpose accuracy compared with specialized algorithms remains in question. One such domain is cell tracking, which requires spatiotemporal awareness of cell dynamics. To evaluate this, we created a new benchmark, CellTrack-Bench, which assesses Vision-Language Models' (VLMs) cell-tracking-related performance against specialized trackers. The full benchmark draws from 15 standard cell-tracking datasets across four imaging modalities and comprises 1,537 problems corresponding to 9,041 cell-linking decisions. We selected a hard subset requiring greater reasoning effort by identifying failures shared across distinct algorithmic trackers. With this proposed dataset, we: (i) evaluated different environment harnesses for VLMs; (ii) benchmarked 9 frontier closed-source models and 13 open-weight models; and (iii) provided a detailed analysis of their failure modes. Code, the stored model outputs, and a pipeline that regenerates the benchmark from the source datasets are available at https://github.com/royerlab/celltrack-bench.",
       "authors": [
-        "Yuping Yan",
-        "Yaochu Jin"
+        "Ilan Theodoro",
+        "Jordão Bragantini",
+        "Loïc A. Royer"
       ],
       "doi": "",
-      "arxiv_id": "2610.27644v1",
+      "arxiv_id": "2610.31566v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Trion-1: Unifying Language, Protein Sequence, and Structure with Diffusion Language Models",
+      "source": "arXiv",
+      "date": "2026-10-22T12:59:42+00:00",
+      "updated": "2026-10-22T12:59:42+00:00",
+      "url": "http://arxiv.org/abs/2610.31215v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31215v1",
+      "abstract": "We envision a general-purpose protein foundation model as a unified, interactive model of sequence, structure, and function, capable of understanding, generation, and cross-modal translation while retaining the instruction-following and reasoning capabilities of modern LLMs. Toward this vision, we introduce Trion-1, the first native, unified, multimodal diffusion language model (dLLM) for proteins. Trion-1 is built on two key design choices: (1) a unified discrete token space that jointly represents sequence, structure, and natural language; (2) a dLLM backbone that replaces strict left-to-right factorization with bidirectional or semi-bidirectional token interactions, enabling global residue communication and long-range contact modeling that are naturally suited to structure modeling. This formulation unifies six core capabilities: folding, inverse folding, sequence understanding, structure understanding, sequence design, and structure design, while retaining the native language capabilities of general-purpose LLMs. On established benchmarks, Trion-1 achieves broadly competitive performance. In folding, Trion-1 achieves a TM-score above 0.8 with a single sample under strict homology control, matching or exceeding the existing tri-modal model using 200 samples. For sequence understanding, Trion-1 performs on par with top-tier LLMs such as Claude Opus 4.7 (62.37%). These results support well-aligned sequence-structure-language representations and strong cross-modal generative capabilities.",
+      "authors": [
+        "Tianyu Lu",
+        "Kaicheng Yang",
+        "Jiangtao Feng",
+        "Keyue Qiu",
+        "Yawen Ouyang",
+        "Yixin Wu",
+        "Xinbo Zhang",
+        "Lihao Wang",
+        "Wei-Ying Ma",
+        "Hao Zhou"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31215v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Generative Retrieval for Reverse Target Fishing with a Proteome-Scale Benchmark",
+      "source": "arXiv",
+      "date": "2026-10-17T04:56:40+00:00",
+      "updated": "2026-10-21T16:39:56+00:00",
+      "url": "http://arxiv.org/abs/2610.24458v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.24458v2",
+      "abstract": "Reverse target fishing identifies protein targets for a query molecule and is central to drug discovery and repurposing. Discriminative approaches adapted from virtual screening face sparse, long-tailed associations and missing-not-at-random measurements: treating unrecorded pairs as negatives can suppress genuine targets. We reformulate the task as generative retrieval and introduce GenFish. Residual vector quantization converts frozen protein language model features into shared semantic identifiers. Given a molecular fingerprint, GenFish autoregressively models codes conditioned on the query and preceding code, ranking proteins by identifier likelihood without explicitly labeling unrecorded pairs as negatives. We introduce ProTargetBench, the first proteome-scale benchmark for reverse target fishing to jointly support measured-panel discrimination and full-catalogue recovery of experimentally recorded positives. Covering 20,431 UniProt-reviewed human proteins, it integrates curated bioactivity evidence and distinguishes experimental inactivity from unmeasured associations. On 198 held-out molecules, GenFish achieves higher mean performance across all three full-catalogue retrieval metrics than four discriminative neural baselines and three non-neural baselines, including ligand-based methods. A controlled positive-hiding experiment shows that targeted removal of false-negative competition improves contrastive retrieval beyond matched random masking; GenFish remains stronger under the same incomplete supervision. Pfam alignment indicates that the semantic identifiers capture biologically meaningful relationships among proteins. These results establish generative retrieval as a principled paradigm for reverse target fishing under incomplete bioactivity records.",
+      "authors": [
+        "Zhichao Deng",
+        "Haichuan Tan",
+        "Xin Hong",
+        "Huaizhi Wang",
+        "Tao Huang",
+        "Bowen Gao",
+        "Yanyan Lan"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.24458v2",
       "pubmed_id": ""
     },
     {
@@ -605,107 +626,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Ensemble-Aware Structural Encoding (EASE): Conditioning Protein Encoders on Peptide Conformational Ensembles",
-      "source": "arXiv",
-      "date": "2026-10-20T05:02:15+00:00",
-      "updated": "2026-10-20T05:02:15+00:00",
-      "url": "http://arxiv.org/abs/2610.27638v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27638v1",
-      "abstract": "Protein foundation models provide transferable representations for downstream peptide prediction tasks. However, existing representations typically reduce a peptide to a single sequence or structure, which may miss conformational variability relevant to key peptide properties, including antibacterial activity, hemolysis, toxicity, stability, and binding. For example, protease resistance correlates more strongly with conformational dynamics measured by hydrogen exchange than with average helicity. Therefore, we introduce Ensemble-Aware Structural Encoding (EASE), a framework for effectively extracting structural information from conformational ensembles for peptide representation. To extract useful information from noisy conformers, EASE selects central conformers representing a peptide's major structural states and fuses their individual representations with a permutation-invariant operator to produce a peptide-level representation for downstream prediction. We then evaluate our framework on six peptide property-prediction tasks under leakage-controlled splits. Against matched single-structure baselines, EASE improves performance consistently on six tasks with a mean absolute gain of about 3.0% across two structural encoders. Gains keep growing as we add conformers through K=20. A single peptide conformer therefore provides a limited basis for structural representation, whereas our framework distilling and fusing multiple conformers yields a more informative representation.",
-      "authors": [
-        "Ruoyao Zhang",
-        "Hongxuan Li",
-        "Jie Peng",
-        "Tianlong Chen"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27638v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry",
-      "source": "arXiv",
-      "date": "2026-10-19T19:59:12+00:00",
-      "updated": "2026-10-19T19:59:12+00:00",
-      "url": "http://arxiv.org/abs/2610.27230v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27230v1",
-      "abstract": "Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. Increasing automation within the chemical sciences leads to a more digital and precision chemistry. Dedicated scientific agents are becoming central to guiding the chemist through an ever-increasing amount of data and findings, including negative ones. Here, we introduce Magnolia, a persistent-memory artificial intelligence agent framework that integrates computational protocols, from docking to quantum chemistry, lab notebooks and chat logs relying on large language models (LLMs). It relies on a three-tier memory system: session-level observations are automatically captured and distilled into structured learnings, confirmed and elevated to project-tier entries and, when human-validated, promoted to cross-project rules that actively guide subsequent work and provide direct chemical feedback. We illustrate Magnolia on four case studies: quantum-chemical evaluation of aromatic systems (COMPAS database), molecular dynamics of butane and of modified DNA, and a protein-peptide docking campaign. Across these projects, Magnolia tracked 317 runs and accumulated 116 project-tier entries, from which four cross-project rules were promoted; in controlled replays of four tasks, runs with memory passed the checks that runs without it failed (for example, ten of ten docking-configuration checks, against one to four of ten). By combining automation, reproducibility, and human-in-the-loop control, our Magnolia framework streamlines docking, molecular dynamics and quantum chemistry calculations with direct analysis and LLM-augmented feedback, offering accelerated access to computational (bio)chemistry.",
-      "authors": [
-        "Tao Jiang",
-        "Benjamin Navet",
-        "Yousouf Taghzouti",
-        "Fabien Gandon",
-        "Louis-Félix Nothias",
-        "Élise Dumont"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27230v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models",
-      "source": "arXiv",
-      "date": "2026-10-19T17:12:55+00:00",
-      "updated": "2026-10-19T17:12:55+00:00",
-      "url": "http://arxiv.org/abs/2610.26747v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.26747v1",
-      "abstract": "Protein language models (pLMs) are powerful tools for protein annotation and mutation-effect prediction, but progress has largely depended on scaling model size and data, making them expensive and prone to memorization. Test-time scaling offers a complementary path, but methods developed for autoregressive LLMs do not transfer directly: masked encoders lack a generation loop, and amino acids do not verbalize in a reasoning language. Instead, we adapt recursive pretraining to masked pLMs, where a weight-tied Transformer core refines residue-aligned hidden states over an adjustable number of cycles. We instantiate this recipe as recAMPLIFY, a pLM with 155M unique parameters trained on the same 2T tokens as AMPLIFY-350M. Despite 56% fewer parameters, it improves CASP contact recovery and three out of four supervised tasks, notably raising fold accuracy by 22.5%. Because optimal depth for recAMPLIFY varies across tasks and assays, we then introduce Gated Mixture Recurrence (GMR), a framework that decodes each protein from a probability-weighted mixture of hidden states visited during recursion. GMR employs a learned residual gate at scalar, low-rank, or per-dimension resolution to control how much of each cycle's proposed update is accepted into the state. This unifies halting and gating into a single adaptive computation objective while recovering PonderNet-style halting as a special case without gates. Layered on top of recAMPLIFY, GMR further reduces expected layer depth by up to 37%, although the accuracy trade-off varies by task. Mechanistic analyses show that residual gating controls recurrence stability beyond the trained depth and that halt depth tracks biological properties.",
-      "authors": [
-        "Saurav Jha",
-        "Qianli Liao",
-        "Robert Vernon",
-        "Sarath Chandar",
-        "Quentin Fournier"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.26747v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "The Effectiveness and Durability of Pretraining Data Filtering in Protein Language Models",
-      "source": "arXiv",
-      "date": "2026-10-19T16:08:59+00:00",
-      "updated": "2026-10-19T16:08:59+00:00",
-      "url": "http://arxiv.org/abs/2610.26651v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.26651v1",
-      "abstract": "Pretraining filtering is one of the most common safeguards for open-weight language models. Here we study its effectiveness, durability and scalability using the ESM-2 family of protein language models. We find that filtering viral proteins from the pretraining data meaningfully degrades masked language modelling, mutation effect prediction and long-range contact prediction on viral proteins, while largely preserving performance on non-viral proteins. These effects are concentrated among proteins from human-infecting viruses, and grow as we scale models from 8M to 3B parameters. As models increase in size, we find that stringent filtering becomes more effective. However, fine-tuning on sequences from the removed viral families restores the lost performance. Although the cost to recover performance increases with model scale, even for the largest models it costs about 80 USD of H100 time. This work establishes pretraining filtering as moderately effective at selectively degrading performance on viral proteins, but not durable against fine-tuning with modest computational resources and access to relevant data.",
-      "authors": [
-        "Aaron Maiwald",
-        "Roderick McNeill",
-        "Jaeyoung Lee",
-        "Matthew A. Clarke",
-        "Lennart Justen",
-        "Alejandro Acelas",
-        "Ivo Andrews",
-        "Giles Harper-Donnelly",
-        "Adam Moore",
-        "Sophie Rose",
-        "Oliver M. Crook",
-        "Felix Jackson"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.26651v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ProtSent: Protein Sentence Transformers",
-      "source": "arXiv",
-      "date": "2026-05-07T18:33:49+00:00",
-      "updated": "2026-10-19T06:13:29+00:00",
-      "url": "http://arxiv.org/abs/2605.06830v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.06830v2",
-      "abstract": "Protein language models produce rich per-residue representations, but the sequence embeddings obtained by mean-pooling them are never trained to place related proteins near one another, so the geometry that retrieval, clustering and nearest-neighbor transfer depend on is never optimized. We present ProtSent, a contrastive post-training framework that supervises a protein language model with three types of biological relation at once, Pfam family co-membership, AlphaFold DB structural clusters and STRING interactions, and with deep mutational scanning fitness ordering as an optional fourth. It needs no structure at training or inference, trains on corpora filtered at 40% sequence identity against the benchmark test sets they most resemble, and is applied to ESM-2 (35M and 150M parameters) and ESM-C (300M). Post-training makes structural family membership recoverable from the frozen embedding without a trained readout: on SCOPe-40, the adjusted Rand index of the 35M model rises from 0.054 (near chance) to 0.507, and family retrieval gains +0.185, +0.190 and +0.424 Recall@1 over the three frozen backbones, with paired bootstrap intervals excluding zero. On the CATH midnight-zone benchmark, homologous-superfamily accuracy rises from 40.7% to 56.7% at 35M and from 43.3% to 62.7% at 150M, more than the 12 points a CATH-supervised model gains over its own base. Against a maximally sensitive HMMER search, alignment keeps the best single hit at both ESM-2 scales, but the embedding leads at ranking depth (MAP 0.705 against 0.607 at 150M) and returns a ranking for every query, including those where alignment finds none. Under a trained linear probe, however, the same embeddings fall below the untuned backbone, as do structure-distilled embeddings against theirs, so the gain in neighborhood structure comes at a cost in linear-probe accuracy. Code and models: https://github.com/oriel9p/ProtSent",
-      "authors": [
-        "Dan Ofer",
-        "Oriel Perets",
-        "Michal Linial",
-        "Nadav Rappoport"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.06830v2",
-      "pubmed_id": ""
-    },
-    {
       "title": "EHRAdapt: Adapting Pretrained Language Models to Electronic Health Records with Semantic Priors for Rare Clinical Events",
       "source": "arXiv",
       "date": "2026-09-27T23:07:08+00:00",
@@ -720,6 +640,379 @@
       ],
       "doi": "",
       "arxiv_id": "2609.34007v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TabAgent: Distilling LLM Agent Components into Cheap Classifiers",
+      "source": "arXiv",
+      "date": "2026-02-18T13:01:17+00:00",
+      "updated": "2026-10-22T17:39:20+00:00",
+      "url": "http://arxiv.org/abs/2602.16429v3",
+      "pdf_url": "https://arxiv.org/pdf/2602.16429v3",
+      "abstract": "Agentic systems, AI architectures that autonomously execute multi-step workflows to achieve complex goals, are often built using repeated large language model (LLM) calls for closed-set decision tasks such as routing, shortlisting, gating, and verification. While convenient, this design makes deployments slow and expensive due to cumulative latency and token usage. We propose TabAgent, a framework for replacing generative decision components in closed-set selection tasks with a compact textual-tabular classifier trained on execution traces. TabAgent (i) extracts structured schema, state, and dependency features from trajectories (TabSchema), (ii) augments coverage with schema-aligned synthetic supervision (TabSynth), and (iii) scores candidates with a lightweight classifier (TabHead). On the long-horizon AppWorld benchmark, TabAgent maintains task-level success while eliminating shortlist-time LLM calls, reducing latency by approximately 95% and inference cost by 85-91%. Beyond tool shortlisting, TabAgent generalizes to other agentic decision heads, establishing a paradigm for learned discriminative replacements of generative bottlenecks in production agent architectures.",
+      "authors": [
+        "Ido Levy",
+        "Segev Shlomov",
+        "Avi Yaeli",
+        "Nir Mashkif",
+        "Asaf Adi",
+        "Yinon Goldshtein",
+        "Eilam Shapira",
+        "Leshem Choshen"
+      ],
+      "doi": "",
+      "arxiv_id": "2602.16429v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+      "source": "arXiv",
+      "date": "2026-10-22T17:36:14+00:00",
+      "updated": "2026-10-22T17:36:14+00:00",
+      "url": "http://arxiv.org/abs/2610.31606v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31606v1",
+      "abstract": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and four retriever configurations were evaluated. Relevance was defined by evidence spans mapped to all containing chunks, treating overlapping chunks with equivalent evidence as relevant. Retrieval was evaluated using R-Precision, Recall@K, MRR, and nDCG@K. Separately, generation was assessed on a 512-token index at K=1 to 5 using DeepEval claim-level metrics, with deepseek-v4-pro as the LLM judge, and BLEU/ROUGE metrics. Results: The selected hybrid retriever, using 384-token chunks and 20% overlap, retrieved accepted evidence in the top three results for 17 of 18 queries. Recall@3, R-Precision, MRR@3, and nDCG@3 each reached 0.94. Ground-truth curation increased evidence spans from 25 to 37 and accepted chunk targets from 36 to 51 without changing retrieval rankings. Conclusion: Cross-encoder reranking achieved the highest retrieval scores. Expanded relevance annotations increased recognized evidence without changing rankings, highlighting annotation sensitivity. The small development set and retrieval-informed curation require independent validation, including radiologist assessment of evidence sufficiency.",
+      "authors": [
+        "Miguel Mochizuki Silva",
+        "Samuel Ismael",
+        "Mateus C. Dias",
+        "Thaís Gaudêncio",
+        "Yuri Malheiros",
+        "Barufaldi"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31606v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents",
+      "source": "arXiv",
+      "date": "2026-09-18T18:49:38+00:00",
+      "updated": "2026-10-22T16:21:58+00:00",
+      "url": "http://arxiv.org/abs/2609.22486v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.22486v2",
+      "abstract": "Large language models (LLMs) increasingly ground their answers in proprietary data and live web content through both single-shot retrieval-augmented generation (RAG) and multi-turn agentic search. Yet the web path they use was built for human readers: search services return URLs and snippets ranked by generic relevance, and content delivery networks (CDNs) cache URL-addressed objects without knowing which passage an agent needs. LLMs instead consume short, semantically coherent passages - hereafter, chunks - selected for downstream utility rather than similarity alone, retrieve statefully across reasoning turns, and, as uncoordinated streams, repeatedly fetch, clean, chunk, and embed the same content. We argue that semantic chunk retrieval should become a first-class network-delivery abstraction, and propose the Semantics Delivery Network (SemDN): an origin-authorized, hierarchical substrate that indexes, searches, and caches web content at chunk granularity, serving clients and origins alike. SemDN is more than finer-grained caching: it must estimate missing or stale evidence without an explicit miss signal, let clients choose retrieval representations that origins need not see, and share state among clients with the same representation. Preliminary results show that page-first retrieval processes two to three orders of magnitude more content than agents consume, that agentic queries exhibit task-local chunk reuse invisible to URL caches, and that chunk delivery improves answer quality per context token. We organize an open research agenda around shareable retrieval state, hierarchical caching and refresh under coverage risk, and deployability, including incentives, privacy, and verifiability. Our code is available at: https://github.com/sarendis56/SemDN_HotNets26",
+      "authors": [
+        "Peichun Hua",
+        "Yunming Xiao"
+      ],
+      "doi": "",
+      "arxiv_id": "2609.22486v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries",
+      "source": "arXiv",
+      "date": "2026-10-22T15:58:57+00:00",
+      "updated": "2026-10-22T15:58:57+00:00",
+      "url": "http://arxiv.org/abs/2610.31467v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31467v1",
+      "abstract": "As wearable and digital health systems increasingly generate longitudinal physiological records, communicating these observations in patient-accessible language remains a significant challenge. Large Language Models (LLMs) offer a promising mechanism for translating structured clinical information into readable narratives, but this process may introduce semantic drift, where clinically precise meaning is distorted during simplification. We investigate evidence-grounded health summarization for menstrual health monitoring using a constrained generation framework that combines structured evidence conditioning with Retrieval-Augmented Generation (RAG) using a prompt-based constrained generation framework. We evaluate semantic alignment using Natural Language Inference (NLI), atomic factuality metrics, and readability measures. Across three LLMs and 4,500 generated summaries, explicit grounding constraints consistently improve clinical alignment, particularly by improving uncertainty preservation and, once faithfulness is evaluated against retrieved evidence, generally preserving or improving faithfulness, while effects on omission remain model-dependent. We also find that improved clinical alignment comes at the cost of increased reading difficulty and medical terminology. These findings highlight the need to jointly evaluate faithfulness, uncertainty preservation, and readability when developing patient-facing medical LLM systems.",
+      "authors": [
+        "Bayram Ayadi",
+        "Florian Geissler",
+        "Johanna Schmidhuber"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31467v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
+      "source": "arXiv",
+      "date": "2026-10-22T13:49:30+00:00",
+      "updated": "2026-10-22T13:49:30+00:00",
+      "url": "http://arxiv.org/abs/2610.31284v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31284v1",
+      "abstract": "Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed into a memory representation that can be searched efficiently while still preserving the evidence needed for question answering. Building on an online textual-memory framework in which first-person videos are converted into temporally grounded captions, this work systematically studies the role of retrieval in episodic-memory video question answering. We evaluate how different retrieval units, query formulations, context budgets, and reranking strategies affect multiple-choice answering on QAEgo4D-Closed, isolating retrieval as the main variable while keeping the underlying generated memory fixed. Our best configuration, Parent, matches fine-grained caption subchunks, then provides their full parent captions to the reasoner. It achieves 56.4 % accuracy, matching strong full-memory and retrieval baselines while exposing only a small fraction of the textual memory at question time. More importantly, our analysis shows that better temporal coverage does not necessarily translate into better answers: increasing the retrieval budget improves temporal Hit@K and Recall@K, but can reduce accuracy by introducing visually plausible distractors and uncertain caption evidence. These findings suggest that retrieval-augmented egocentric memory should not be optimized only for evidence recall, but also for the reliability, specificity, and answer-discriminative value of the retrieved context. The study motivates more structured episodic memories that move beyond raw caption retrieval toward evidence-aware representations for long-form egocentric reasoning.",
+      "authors": [
+        "Raffaele Cali",
+        "Giuseppe Lando",
+        "Rosario Forte",
+        "Antonino Furnari"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31284v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark",
+      "source": "arXiv",
+      "date": "2026-10-22T13:34:29+00:00",
+      "updated": "2026-10-22T13:34:29+00:00",
+      "url": "http://arxiv.org/abs/2610.31256v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31256v1",
+      "abstract": "Clinical Question Answering (QA) underpins Clinical Intelligent Decision Support Systems, but progress is severely limited for low-resource languages such as Indonesian by the absence of public domain-specific data. We introduce IndoNutriQA, an expert-curated Indonesian clinical QA benchmark of 911 question-answer pairs built from real clinical-nutrition reports. Rather than a large-scale training corpus, it is positioned as a high-quality evaluation resource: every pair is grounded in a clinically relevant context, enriched with structured metadata (anthropometric assessment, medical diagnosis, document provenance, chunk segmentation). Eight standardised question types following the Nutrition Care Process (NCP), including the Problem, Etiology, Sign and Symptom (PES) diagnosis statement, are answered for every report, which was written by a graduate-level dietetic intern, by one of three nutritionists. Answers are free-form clinical prose rather than extractive spans, and an expert validation study finds 6-10% of reference answers contestable. The dataset supports generative, extractive and retrieval-augmented QA as well as zero- and few-shot LLM evaluation. We report fine-tuned baselines (IndoBERT variants, mT5, RAG) with 5-fold cross-validation, learning curves and bootstrap 95% confidence intervals, and benchmark eight contemporary LLMs zero- and five-shot. We further calibrate our LLM-as-judge rubric against three expert raters (one RD, two nutritionists), finding it human-comparable on factuality and completeness but unreliable on clinical safety, and a human error analysis shows it misses unsupported content that the raters identify. IndoNutriQA is released to foster research in Indonesian clinical NLP and nutritional decision support.",
+      "authors": [
+        "Tirana Noor Fatyanosa",
+        "Ummu Ditya Erliana",
+        "Mahendra Data",
+        "Muhammad Nurwegiono",
+        "Eleazar Tadeo Eman",
+        "Alham Fikri Aji"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31256v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
+      "source": "arXiv",
+      "date": "2026-08-17T11:01:12+00:00",
+      "updated": "2026-10-22T10:56:27+00:00",
+      "url": "http://arxiv.org/abs/2608.16407v2",
+      "pdf_url": "https://arxiv.org/pdf/2608.16407v2",
+      "abstract": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, where items with few or no interactions are not represented. In this paper, we propose LLM-augmented Multi-Graph Contrastive Learning (LLM-MGCL), a multi-graph neural network that uses semantic and spatial information about items to extend the LightGCN backbone with two auxiliary item-item graphs: a semantic graph constructed from sentence embeddings of LLM-generated photo summaries and keywords, and a geographic graph derived from Haversine distances between business locations. Item embeddings are propagated over all three graphs in parallel, fused additively, and aligned across views through a bidirectional InfoNCE contrastive objective that connects behavioral, semantic, and spatial representations of the same items. Experiments on the Yelp Multimodal Recommendation Dataset show that LLM-MGCL outperforms classical collaborative filtering, matrix factorization, and non-contrastive graph neural network baselines. It improves Recall@20 by 48.5% and NDCG@20 by 59.0% over LightGCN, while trailing the strongest contrastive baseline, Self-supervised Graph Learning (SGL), slightly in aggregate. A popularity-stratified evaluation shows that LLM-MGCL achieves the highest recall on cold and warm items, whereas SGL remains better on popular items. An ablation study reveals that the cross-view contrastive alignment (CA) is the primary driver of the aggregate gains. Our results suggest that externally grounded, LLM-derived item knowledge can partially compensate for missing collaborative signal and mitigate the item cold-start problem in POI recommendation.",
+      "authors": [
+        "Burak Tamer",
+        "Wolfram Höpken",
+        "Zehui Wang",
+        "Thomas Bayer"
+      ],
+      "doi": "",
+      "arxiv_id": "2608.16407v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Chunk Recomputation under Real Document Revisions: Measuring Update Cost and Retrieval Quality of Fixed, Recursive, and Content-Defined Chunking",
+      "source": "arXiv",
+      "date": "2026-10-22T09:54:17+00:00",
+      "updated": "2026-10-22T09:54:17+00:00",
+      "url": "http://arxiv.org/abs/2610.31019v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.31019v1",
+      "abstract": "Chunking strategies for retrieval-augmented generation are almost always evaluated on a static snapshot, yet the documents underlying a knowledge base continue to change. Because chunks are embedded independently, a boundary that moves after an edit forces unchanged text to be re-embedded. We measure this update cost on 120 pairs of adjacent Chinese and English Wikipedia revisions for three stateless chunkers (non-overlapping fixed-size, recursive paragraph-first, and content-defined chunking) under a strict byte-identical reuse rule and a frozen dense encoder. On the 116-article common-success pool, with frozen, length-calibrated parameters, fixed-size chunking recomputes 57-68% of its full new-version embedding-input workload, recursive chunking 38-56%, and content-defined chunking 43-54% (it failed on 4 of 62 Chinese articles), while at these parameters mean evidence recall under a fixed 2048-token retrieval budget differs by less than two percentage points within either language. A cost-only parameter grid shows that the ranking of the two content-aware chunkers changes with chunk-length settings, whereas non-overlapping fixed-size chunking has the highest recomputation cost in every length-matched condition. Controlled edits and a verbatim-presence diagnostic support boundary drift as one contributor to recomputation of text already present in the previous version. Update cost is therefore a substantial, parameter-sensitive dimension that static retrieval evaluations do not expose and that should be reported alongside retrieval quality.",
+      "authors": [
+        "Yuning Bian",
+        "Lele Xu",
+        "Yifan Yuan",
+        "Xinyu Yin",
+        "Chengyan Zhan"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.31019v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Your Home Remembers: A Voice-Enabled Household Memory Assistant for Conversational Retrieval",
+      "source": "arXiv",
+      "date": "2026-10-22T08:19:07+00:00",
+      "updated": "2026-10-22T08:19:07+00:00",
+      "url": "http://arxiv.org/abs/2610.30895v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30895v1",
+      "abstract": "Everyday household information is often exchanged in conversations but never written down, making details easy to forget or misremember. We present a voice-enabled smart-home assistant that acts as a household memory by recording conversations and retrieving information from stored and newly captured speech. The assistant runs on an Android tablet with a modular architecture in which speech-recognition, diarisation, embedding and language models can be configured or replaced through an orchestration layer. On-device wake-word detection and VAD-based query capture support hands-free interaction. Recorded audio is processed in configurable chunks, transcribed and diarised, converted into turn-aware passages with conversation-level timestamps, and indexed in a vector store. For memory queries, a retrieval-augmented generation pipeline selects key passages and uses them to generate an answer. The interface supports recording, conversation management and inspection of timestamped sources.",
+      "authors": [
+        "Aleix Sant",
+        "Jordi Luque",
+        "Fernando López",
+        "Pablo Gómez",
+        "Carlos Escolano"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30895v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+      "source": "arXiv",
+      "date": "2026-09-22T03:25:32+00:00",
+      "updated": "2026-10-22T06:54:30+00:00",
+      "url": "http://arxiv.org/abs/2609.25620v2",
+      "pdf_url": "https://arxiv.org/pdf/2609.25620v2",
+      "abstract": "Scientific investigations into microbial natural products (NPs) present significant challenges for novices, largely due to the complexity of microbial systems, biochemical diversity, technical skill requirements, and the demands of bioinformatics and data analysis processes. To address these issues, we introduce ChatT2, a large language model (LLM)-based agent that is specifically tailored to the unique characteristics of bacterial type II polyketides. These polyketides form a structurally distinct and therapeutically important NP family. ChatT2 was developed within an autonomous multiagent framework composed of a mentor, an executor, and an evaluator, each with defined responsibilities. The mentor acts as an intermediary between ChatT2 and the user, utilizing chain-of-thought prompting to refine the intent of the user. Under the guidance of the mentor, the executor synthesizes multimodal information via retrieval-augmented generation techniques and seamlessly integrates bioinformatics and cheminformatics tools. The evaluator ultimately assesses the output of the executor to ensure the richness and accuracy of the retrieved information. Our research highlights how ChatT2, designed with this multiagent framework, addresses the challenges faced by general LLMs in terms of understanding limited, specialized corpora and complex biological information and provides both experts and novices with a valuable tool for exploring various NPs of interest. The ChatT2 webserver can be accessed at https://chatt2.site/#/chat.",
+      "authors": [
+        "Yihan Wang",
+        "Qiandi Gao",
+        "Yihui Zhuang",
+        "Liangjun Ge",
+        "Heqian Zhang",
+        "Jiaquan Huang",
+        "Zhiwei Qin"
+      ],
+      "doi": "",
+      "arxiv_id": "2609.25620v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "RAIN: Agentic Proof Generation for Rocq-based Software Verification",
+      "source": "arXiv",
+      "date": "2026-10-22T05:27:41+00:00",
+      "updated": "2026-10-22T05:27:41+00:00",
+      "url": "http://arxiv.org/abs/2610.30759v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30759v1",
+      "abstract": "Interactive theorem provers can provide strong correctness guarantees for software, but constructing the proofs remains a challenging and labor-intensive task. Inspired by the recent progress of modern coding agents, we present RAIN, a lightweight proof-specialized agent for Rocq proof generation. RAIN augments an LLM with proof engineering capabilities, including repository exploration, iterative refinement, and checker feedback. This design allows the agent to retrieve lemmas autonomously, revise complete proof scripts instead of isolated tactics, and iteratively refine its proof strategy using enriched proof-state information. Evaluated on a subset from CoqStoq, RAIN shows substantial improvements over the existing baselines, achieving over 90% prove success rate with at least 24.7% improvements. We also compare with general-purpose coding agents, the results show that RAIN maintains comparable prove success rate but with significant lower cost.",
+      "authors": [
+        "Jinyi Zhou",
+        "Zenan Li",
+        "Yuan Yao",
+        "Jun Ma",
+        "Taolue Chen",
+        "Xiaoxing Ma"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30759v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ArtSeek: Deep artwork understanding via multimodal in-context reasoning and late interaction retrieval",
+      "source": "arXiv",
+      "date": "2025-07-29T15:31:58+00:00",
+      "updated": "2026-10-22T04:56:20+00:00",
+      "url": "http://arxiv.org/abs/2507.21917v3",
+      "pdf_url": "https://arxiv.org/pdf/2507.21917v3",
+      "abstract": "Analyzing digitized artworks requires both visual interpretation and deep artistic, contextual, and historical knowledge. We introduce ArtSeek, a multimodal framework for art analysis that combines multimodal large language models with retrieval-augmented generation. Unlike prior work, our pipeline relies only on image input, so it applies to artworks without links to Wikidata or Wikipedia, common in most digitized collections. ArtSeek integrates three components: a late-interaction multimodal retrieval module, a contrastive multitask network predicting artist, genre, style, media, and tags, and an agentic reasoning strategy enabled through in-context examples. Central to this approach is WikiFragments, a dataset of image-text fragments extracted from the entire English Wikipedia to support knowledge-grounded multimodal reasoning. Our multimodal query encoding raises retrieval NDCG@5 from 33.9 to 44.9 over encoding the full image-text query, and fixed-budget token pooling keeps late-interaction search practical over millions of fragments at under 7% of the cost of full multi-vector retrieval. ArtSeek sets a new state of the art in artwork attribute classification, with +8.4% F1 in style classification over GraphCLIP, and gains +7.1 BLEU@1 on ArtPedia captioning. On five knowledge-grounded question answering benchmarks graded by an LLM judge from a different model family, retrieval helps where the answer is documented in our index or lies inside the classifier's label space (+0.19 mean correctness on two of them) and is neutral where it is not; what separates the two regimes is how much of a benchmark our knowledge base covers. The gain transfers to two non-Qwen backbones (+0.22 to +0.28). A blind human study and a qualitative analysis of successes and failures corroborate this picture and expose where retrieval still misleads. Data and code: https://cilab.di.uniba.it/artseek/",
+      "authors": [
+        "Nicola Fanelli",
+        "Gennaro Vessio",
+        "Giovanna Castellano"
+      ],
+      "doi": "",
+      "arxiv_id": "2507.21917v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Federated Graph Retrieval-Augmented Generation",
+      "source": "arXiv",
+      "date": "2026-10-22T04:56:03+00:00",
+      "updated": "2026-10-22T04:56:03+00:00",
+      "url": "http://arxiv.org/abs/2610.30728v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30728v1",
+      "abstract": "Graph Retrieval-Augmented Generation (GraphRAG) leverages centralized knowledge graphs to enhance large language models with structured knowledge retrieval. However, real-world knowledge is inherently distributed across multiple organizations rather than being centrally accessible. Privacy constraints further prohibit sharing entire local knowledge graphs, preventing GraphRAG from effectively retrieving and utilizing distributed knowledge. To this end, we propose Federated GraphRAG (FedGRAG), a unified framework for distributed graph retrieval and knowledge-enhanced generation over multiple clients with knowledge graphs. Specifically, we address two fundamental challenges in federated GraphRAG. First, the absence of a global knowledge graph makes unified retrieval impossible. To address this, we develop a Federated Knowledge Routing mechanism that efficiently identifies relevant clients through lightweight knowledge indices without exposing local graph structures. Second, local graph memory cannot be shared directly because it contains sensitive entities and knowledge information. We therefore propose a controlled-disclosure evidence construction method. It extracts retrieved evidence subgraphs and converts them into an evidence abstract, enabling evidence conversion and reconstruction on the server. Extensive experiments demonstrate that Federated GraphRAG consistently outperforms existing baselines in both retrieval and downstream generation tasks, establishing a new paradigm for deploying GraphRAG in federated environments.",
+      "authors": [
+        "Xiaobao Wang",
+        "Renda Han",
+        "Zhiliang Xia",
+        "Meng Liu",
+        "Renxiang Guan",
+        "Di Jin"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30728v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Automated Enrichment Analysis with GraphRAG: Efficient Multi-Database ORA Extraction and Biological Interpretation",
+      "source": "arXiv",
+      "date": "2026-10-22T04:29:25+00:00",
+      "updated": "2026-10-22T04:29:25+00:00",
+      "url": "http://arxiv.org/abs/2610.30710v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30710v1",
+      "abstract": "Over-representation analysis (ORA) is widely used to interpret gene-expression studies, but its outputs are often fragmented across gene-set databases and presented as flat term lists that obscure gene-level links among related enrichment signals. We propose Graph-Based Over-Representation Retrieval-Augmented Generation (GBOR-RAG), an integrated and traceable framework for ORA interpretation. GBOR-RAG represents heterogeneous gene-set databases as a unified term--gene knowledge graph, where shared genes connect related terms across sources. After graph-based ORA scoring, the framework retrieves a compact connected evidence subgraph that preserves both cross-database relationships and gene-level support. The subgraph conditions an LLM to generate biological interpretations, and we introduce a claim-level faithfulness metric to assess whether generated claims are supported by explicit evidence. Experiments show that graph-based ORA preserves conventional ORA results with high consistency (mean Pearson $r=0.997$) while reducing query time by a median of $37\\times$ (up to $48\\times$). The retrieved subgraphs average 36.8 nodes and achieve the highest overall integration score (4.12), and GBOR-RAG attains the highest claim-level faithfulness (0.90) among the compared systems. Adding a PubMed literature layer further improves the overall interpretation quality from 4.17 to 4.75.",
+      "authors": [
+        "Guangcan Li",
+        "Shuyuan Zheng",
+        "Jiayao Liu",
+        "Shigeto Seno",
+        "Makoto Onizuka"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30710v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ManimAgent: Self-Evolving Multimodal Agents for Visual Education",
+      "source": "arXiv",
+      "date": "2026-06-29T13:37:56+00:00",
+      "updated": "2026-10-22T04:27:09+00:00",
+      "url": "http://arxiv.org/abs/2606.30296v3",
+      "pdf_url": "https://arxiv.org/pdf/2606.30296v3",
+      "abstract": "Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows.",
+      "authors": [
+        "Wenjia Jiang",
+        "Zongyuan Cai",
+        "Yuanhang Shao",
+        "Chenru Wang",
+        "Boyan Han",
+        "Zhixue Song",
+        "Keyu Chen",
+        "Shengwei An",
+        "Xu Yang",
+        "Zhou Yang"
+      ],
+      "doi": "",
+      "arxiv_id": "2606.30296v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "ULME: Predictive Coupling for Mutually Reinforcing Embedding and Language Modeling",
+      "source": "arXiv",
+      "date": "2026-10-22T04:23:07+00:00",
+      "updated": "2026-10-22T04:23:07+00:00",
+      "url": "http://arxiv.org/abs/2610.30705v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30705v1",
+      "abstract": "Text embedding and text generation are two of the most useful capabilities of modern large language models, yet they are typically provided by separate specialized models (an embedder and a generator) trained with incompatible objectives and deployed side by side in retrieval-augmented generation and agent systems. Recent unified embedding-generation models such as GritLM share parameters between the two capabilities, but they either switch attention regimes between modes or optimize embedding and language modeling as parallel objectives that never supervise each other. We argue that these designs are only partially unified: the two capabilities coexist on the same weights, but do not shape each other. We propose ULME, a post-training framework that unifies embedding and language modeling on a causal decoder-only LLM through predictive coupling. ULME inserts a chain of learnable slots between the query and the answer, reads a semantic embedding and a reasoning embedding from two designated slots, and trains three objectives on a shared causal backbone: a contrastive loss anchoring the semantic slot to document representations, a language-modeling loss supervising answer generation, and a stop-gradient predictive loss that aligns the reasoning slot with a pooled summary of the answer, so that generation actively shapes what the embedding encodes. Across two model families (Qwen2.5, Qwen3) and eight scales spanning 0.5B-8B parameters, a single ULME checkpoint improves MTEB by 3.3-4.1 points over the strongest open-source baseline, tightens BRIGHT and AdvBench-IR simultaneously, and remains on par with a generation-only fine-tune on standard accuracy benchmarks (MMLU, GSM8K, MMLU-Pro, HumanEval), demonstrating that genuine unification yields mutually reinforcing rather than merely coexisting capabilities.",
+      "authors": [
+        "Yang Liu",
+        "Zhiqiang Yuan",
+        "Shu-Dong Huang",
+        "Jiancheng Lv",
+        "Liwei Yang",
+        "Qiwei Yan",
+        "Kailin Lv",
+        "Jinchao Zhang"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30705v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Auto-Director: Leveraging Multi-Agent Collaboration for Autonomous Video Editing",
+      "source": "arXiv",
+      "date": "2026-10-20T15:11:55+00:00",
+      "updated": "2026-10-22T03:08:50+00:00",
+      "url": "http://arxiv.org/abs/2610.28346v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.28346v2",
+      "abstract": "Autonomous video editing from open-world resources remains a challenging problem in multimedia content creation. Retrieval-based methods are constrained by fixed source material and lack creative flexibility, while generative models struggle with long-horizon coherence and often diverge from user intent. Both paradigms fail to replicate the structured, multi-stage reasoning that underlies professional post-production. To address these limitations, we present Auto-Director, a tool-augmented multi-agent framework that mirrors professional editorial workflows: a Planning Agent decomposes abstract topics into fact-grounded scripts via retrieval-augmented planning; a Material Agent indexes open-world footage through shot segmentation and visual tagging; an Editor Agent assembles semantically aligned clips with MLLM-driven spatial adaptation; and a Critic Agent governs an iterative Reflect-and-Revise loop that checks scene-level alignment and pacing. To rigorously evaluate this new paradigm, we introduce VEdit-Bench, a benchmark of 100 expert-curated topics with human-annotated Golden Scripts and a five-dimensional metric suite covering Narrative Logic, Factual Accuracy, Semantic Alignment, Compositional Quality, and Stylistic Cohesion. Extensive experiments demonstrate that Auto-Director significantly outperforms baseline methods in both automated metrics and human evaluation, effectively bridging the gap between amateurs and professional-grade video production.",
+      "authors": [
+        "Yuxia Chen",
+        "Wenbo Zhu",
+        "Yangguang Ji",
+        "Zhenxiang Jiang",
+        "Teng Zhong",
+        "Yu Zhang"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.28346v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "CLEAR: Context Augmentation from Contrastive Learning of Experience via Agentic Reflection",
+      "source": "arXiv",
+      "date": "2026-04-08T18:26:59+00:00",
+      "updated": "2026-10-21T21:20:40+00:00",
+      "url": "http://arxiv.org/abs/2604.07487v3",
+      "pdf_url": "https://arxiv.org/pdf/2604.07487v3",
+      "abstract": "Large language model agents rely on effective model context to obtain task-relevant information for decision-making. Many existing context engineering approaches primarily rely on the context generated from the past experience and retrieval mechanisms that reuse these context. However, retrieved context from past tasks must be adapted by the execution agent to fit new situations, placing additional reasoning burden on the underlying LLM. To address this limitation, we propose a generative context augmentation framework using Contrastive Learning of Experience via Agentic Reflection (CLEAR). CLEAR first employs a reflection agent to perform contrastive analysis over past execution trajectories and summarize useful context for each observed task. These summaries are then used as supervised fine-tuning data to train a context augmentation model (CAM). Then we further optimize CAM using reinforcement learning, where the reward signal is obtained by running the task execution agent. By learning to generate task-specific knowledge rather than retrieve knowledge from the past, CAM produces context that is better tailored to the current task. We conduct comprehensive evaluations on the AppWorld and WebShop benchmarks. Experimental results show that CLEAR consistently outperforms strong baselines. It improves task completion rate from 72.62% to 81.15% on AppWorld test set and averaged reward from 0.68 to 0.74 on a subset of WebShop, compared with baseline agent. Our code is publicly available at https://github.com/awslabs/CLEAR.",
+      "authors": [
+        "Linbo Liu",
+        "Guande Wu",
+        "Han Ding",
+        "Yawei Wang",
+        "Qiang Zhou",
+        "Yuzhe Lu",
+        "Zhichao Xu",
+        "Huan Song",
+        "Panpan Xu",
+        "Lin Lee Cheong"
+      ],
+      "doi": "",
+      "arxiv_id": "2604.07487v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Astro2Method: Benchmarking LLMs on Machine Learning Method Selection in Astronomy",
+      "source": "arXiv",
+      "date": "2026-10-21T18:01:34+00:00",
+      "updated": "2026-10-21T18:01:34+00:00",
+      "url": "http://arxiv.org/abs/2610.30282v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30282v1",
+      "abstract": "Machine learning (ML) is increasingly used in astronomy, but choosing a suitable method for a scientific problem often requires expertise in both astronomy and ML. Large language models (LLMs) could help astronomers make such choices, yet this ability remains underexplored in existing benchmarks. We introduce Astro2Method, a benchmark of 500 expert-reviewed binary questions from 346 astronomy papers (2024/01-2026/06), based on clear performance differences and complete (Easy) or partial (Hard) explanations from the authors. Across five LLMs, direct prompting achieves 87.50-92.55% accuracy on Easy questions but only 58.87-64.52% on Hard. Using historical papers, neither retrieval-augmented generation nor most agent methods with additional reasoning or retrieval (including ReAct, Self-Ask, and CRITIC) bring consistent improvement. Agents required to search the web improve accuracy mainly when they find the papers the questions are based on, with no consistent improvement otherwise. Providing the source paper's pipeline description with method names masked improves Hard accuracy, matching or exceeding web search. Together, these results suggest that relevant experimental information helps distinguish ML methods, but inferring it from related studies and domain knowledge remains challenging for LLMs in astronomy.",
+      "authors": [
+        "Xingzhong Fan",
+        "Hangfeng He",
+        "Fatemeh Nargesian"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30282v1",
       "pubmed_id": ""
     },
     {
@@ -868,28 +1161,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "TabAgent: Distilling LLM Agent Components into Cheap Classifiers",
-      "source": "arXiv",
-      "date": "2026-02-18T13:01:17+00:00",
-      "updated": "2026-10-21T11:05:33+00:00",
-      "url": "http://arxiv.org/abs/2602.16429v2",
-      "pdf_url": "https://arxiv.org/pdf/2602.16429v2",
-      "abstract": "Agentic systems, AI architectures that autonomously execute multi-step workflows to achieve complex goals, are often built using repeated large language model (LLM) calls for closed-set decision tasks such as routing, shortlisting, gating, and verification. While convenient, this design makes deployments slow and expensive due to cumulative latency and token usage. We propose TabAgent, a framework for replacing generative decision components in closed-set selection tasks with a compact textual-tabular classifier trained on execution traces. TabAgent (i) extracts structured schema, state, and dependency features from trajectories (TabSchema), (ii) augments coverage with schema-aligned synthetic supervision (TabSynth), and (iii) scores candidates with a lightweight classifier (TabHead). On the long-horizon AppWorld benchmark, TabAgent maintains task-level success while eliminating shortlist-time LLM calls, reducing latency by approximately 95% and inference cost by 85-91%. Beyond tool shortlisting, TabAgent generalizes to other agentic decision heads, establishing a paradigm for learned discriminative replacements of generative bottlenecks in production agent architectures.",
-      "authors": [
-        "Ido Levy",
-        "Segev Shlomov",
-        "Avi Yaeli",
-        "Nir Mashkif",
-        "Asaf Adi",
-        "Yinon Goldshtein",
-        "Eilam Shapira",
-        "Leshem Choshen"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.16429v2",
-      "pubmed_id": ""
-    },
-    {
       "title": "ChronoSynth: Constraint-Aware Question Synthesis over Temporal Knowledge Graphs",
       "source": "arXiv",
       "date": "2026-10-21T07:35:17+00:00",
@@ -945,6 +1216,26 @@
       ],
       "doi": "",
       "arxiv_id": "2605.03387v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint",
+      "source": "arXiv",
+      "date": "2026-10-21T06:17:23+00:00",
+      "updated": "2026-10-21T06:17:23+00:00",
+      "url": "http://arxiv.org/abs/2610.30193v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.30193v1",
+      "abstract": "Retrieval-augmented generation (RAG) systems face security, privacy, and copyright risks including content leakage, source reconstruction, unauthorized access, data poisoning, and prompt injection. Yet RAG protection studies use incompatible evaluation metrics, datasets, and threat models. We present a systematic survey and human-coded evidence map of 118 full-text-confirmed RAG defense papers, organized by measured endpoint rather than claimed goal or defense mechanism. Our seven-family taxonomy covers content disclosure, formal privacy proxies, access control and suppression, corpus-use detection, and pipeline integrity and attribution. Thirty-two annotators double-coded the papers kappa=0.867. The survey identifies three gaps. First, retrieval reranking and context rewriting each span five or six endpoint families, so mechanisms do not identify protection outcomes. Second, only 17.8% of studies use content disclosure or reconstruction as their primary endpoint; under the frozen copyright/ownership relation label, 73.3% of records have corpus-use detection as their primary endpoint, and none have an emitted-expression primary endpoint. Third, most evaluations use general-purpose question-answering datasets and non-adaptive attacks rather than sensitive data and adaptive, multi-turn extraction. Our controlled RAG testbed shows that preventing verbatim copying does not prevent private-fact recovery: a normalized 8-gram guard reduces 20-token copying to 0.0%, but a three-query adaptive attacker recovers 48.3% of hidden facts on Qwen3-8B. We release the taxonomy, dataset, coding protocols, and testbed to enable comparable, claim-aligned RAG security evaluation.",
+      "authors": [
+        "Peiyang Liu",
+        "Xi Wang",
+        "Di Liang",
+        "Youru Li",
+        "Zhi Cai",
+        "Wei Ye"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.30193v1",
       "pubmed_id": ""
     },
     {
@@ -1007,421 +1298,13 @@
       "doi": "",
       "arxiv_id": "2607.21951v4",
       "pubmed_id": ""
-    },
-    {
-      "title": "A Unified HI Rotation Curve Database for 122 Dwarf and Irregular Galaxies",
-      "source": "arXiv",
-      "date": "2026-05-21T08:34:06+00:00",
-      "updated": "2026-10-21T03:31:47+00:00",
-      "url": "http://arxiv.org/abs/2605.22163v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.22163v2",
-      "abstract": "We present a unified HI rotation curve database for 122 dwarf and irregular galaxies drawn from three Local Volume surveys, the Local Volume HI Survey (LVHIS; 32 galaxies), VLA-ANGST (29) and LITTLE THINGS (26), and from the WALLABY DR2 kinematic catalogue (35). The database provides standardised kinematic parameters, distance estimates, morphological classifications, and rotation curve data in machine-readable JSON, JSONL, and CSV formats with a documented schema, supporting retrieval-augmented generation (RAG) applications and cross-survey kinematic analysis. Quality tiers distinguish 26 galaxies with published tilted-ring rotation curves and per-point uncertainties from 96 automated-pipeline, single-ring or profile-width entries. Three worked examples demonstrate corpus queries, including evaluation of the $ω$ estimator for DDO 154 (LITTLE THINGS). This work is presented as a data resource; no new dynamical model is proposed. This version describes corpus v1.3, which corrects the LITTLE THINGS curves (v1.1), the WALLABY entries (v1.2) and the LVHIS entries and reference (v1.3) of v1.0. The database and all computation scripts are available at Zenodo (https://doi.org/10.5281/zenodo.23503221).",
-      "authors": [
-        "David C. Flynn"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.22163v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Token-Budgeted Escalation for Financial Document Question Answering: Cost Is Predictable, Benefit Is the Bottleneck",
-      "source": "arXiv",
-      "date": "2026-10-06T04:55:53+00:00",
-      "updated": "2026-10-20T23:56:52+00:00",
-      "url": "http://arxiv.org/abs/2610.07760v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.07760v2",
-      "abstract": "Retrieval-augmented generation systems can route difficult queries to deeper context, but batch deployments must allocate a shared token budget across calls whose costs vary by query. We formulate selective escalation as finite-batch allocation for financial document question answering. Each of 150 FinanceBench questions first receives a top-1 retrieval answer. Predictors estimate the adjudication-quality gain and token cost of an optional top-5 call, and the allocator prioritizes calls by predicted gain per token. At the nominal 10% budget, gain-per-token allocation improves adjudication quality over gain-only ranking by 0.034 (95% document-bootstrap confidence interval [0.001, 0.072]) while using 46.6% fewer total tokens than one-pass top-5 retrieval. Additional-call cost is accurately predictable (R-squared 0.93), whereas beneficial escalation remains difficult to rank (area under the receiver operating characteristic curve 0.60). These results show that heterogeneous cost is actionable under tight constraints, while progress across the full budget frontier depends on stronger query-specific benefit estimates.",
-      "authors": [
-        "Junru Zhu",
-        "Yixin Yang",
-        "Xiaoqing Ding",
-        "Ruoyu Qi"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.07760v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "TENET: One Step Toward Test-Driven Development for Repository-Level Code Generation",
-      "source": "arXiv",
-      "date": "2025-09-29T00:53:16+00:00",
-      "updated": "2026-10-20T18:09:29+00:00",
-      "url": "http://arxiv.org/abs/2509.24148v6",
-      "pdf_url": "https://arxiv.org/pdf/2509.24148v6",
-      "abstract": "Test-Driven Development (TDD) is a widely adopted practice that requires developers to create and execute tests alongside implementation. With recent advances in Large Language Models (LLMs), developers can shift from manually writing the code to defining tests as executable specifications and delegating code synthesis to AI agents. However, enabling repository-level TDD under developer-written tests is challenging, requiring: (1) specification enhancement: identifying a concise yet representative test subset from large suites with rich task semantics; (2) retrieval augmentation: using tests to guide reasoning and context retrieval; and (3) test-driven refinement: interpreting test feedback for iterative improvement. We propose TENET, an agentic framework for repository-level code generation under the TDD paradigm. TENET includes: (1) a test harness mechanism that selects a concise test suite to maximize diversity of the target usage scenarios; (2) a tailored agent toolset for efficient retrieval and debugging; and (3) a reflection-based refinement workflow that iteratively analyzes failures and updates implementations. TENET consistently outperforms the strongest baselines across backbones, achieving 69.08% and 81.77% Pass@1 on RepoCod and RepoEval with Claude Sonnet 4, improving by 9.49 and 2.17 percentage points, respectively. Additionally, we present the first systematic study of how test suite characteristics influence LLM agent performance in TDD settings.",
-      "authors": [
-        "Yiran Hu",
-        "Shanchao Liang",
-        "Nan Jiang",
-        "Yi Wu",
-        "Lin Tan"
-      ],
-      "doi": "",
-      "arxiv_id": "2509.24148v6",
-      "pubmed_id": ""
-    },
-    {
-      "title": "WorldSR: Harnessing World Knowledge Search for Grounded Image Super-Resolution",
-      "source": "arXiv",
-      "date": "2026-10-20T15:54:25+00:00",
-      "updated": "2026-10-20T15:54:25+00:00",
-      "url": "http://arxiv.org/abs/2610.28423v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28423v1",
-      "abstract": "Generative-prior-based super-resolution (SR) methods leverage implicit knowledge learned from large-scale models to enhance low-resolution inputs. However, such priors are inherently stochastic and optimized for diverse generation, conflicting with the deterministic, high-fidelity reconstruction required for SR. It is also tied to the base model, costly to update, and prone to hallucinations as real-world data evolves. To address these limitations, we introduce WorldSR, a novel framework that augments SR with explicit, entity-aligned visual world knowledge. WorldSR automatically decomposes the input into semantic entities and performs entity-wise retrieval of structurally and semantically aligned images from a large-scale external corpus. For efficiency and reliability, we incorporate a memory mechanism to reuse previously retrieved results and a multi-step filtering process to refine candidate references. The selected references as world knowledge are then integrated through a novel multi-reference super-resolution model, which provides fine-grained constraints for detail synthesis and structural recovery. Experiments on real-world SR benchmarks show that WorldSR consistently improves structural fidelity and visual quality, outperforming existing generative super-resolution methods. Our results suggest that entity-level grounding in external visual world knowledge provides a simple and effective complement to model-bound generative priors.",
-      "authors": [
-        "Junyuan Deng",
-        "Xinyi Wu",
-        "Zhenyao Wu",
-        "Song Wang",
-        "Yu Wang",
-        "Congchao Zhu"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28423v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
-      "source": "arXiv",
-      "date": "2026-10-20T15:26:15+00:00",
-      "updated": "2026-10-20T15:26:15+00:00",
-      "url": "http://arxiv.org/abs/2610.28364v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28364v1",
-      "abstract": "Local Retrieval-Augmented Generation (RAG) systems are vulnerable to indirect prompt injection and retrieval poisoning, where malicious instructions in retrieved content are mistaken for trusted input. We present nokast-secureRAG, a roughly 0.5B-parameter small language model that acts as a semantic firewall between retrieval and generation. It jointly evaluates the user query and retrieved context, classifying the pair as safe, suspicious, or malicious. The model is trained using a teacher-judge-student pipeline: a 35B teacher generates 5,233 examples across four attack families, and an independent 120B judge re-labels them, achieving 95.0% agreement before student fine-tuning. On a held-out in-distribution test set, the model achieves 0.994 detection recall at a 0.026 false-positive rate and a 0.006 attack-success-rate proxy, outperforming a regex baseline, a public prompt-injection classifier, Llama Guard 3 1B, and its untuned version. Prompt-Guard-86M reaches 0.900 recall but has a 0.690 false-positive rate. On a judgment-flip test, where the same sentence is benign or malicious depending on context, the model correctly classifies both cases 75% of the time, outperforming the compared baselines. Ablations indicate that retrieved context carries the main attack signal, while query-context consistency reduces false positives. Single-request latency is 293-404 ms, above the target of 100 ms, while amortized throughput latency is 37 ms under batching. On the external PoisonedRAG benchmark, recall falls to near zero, indicating that fluent fact-poisoning attacks lie outside the detector's instruction-consistency threat model. We report this limitation alongside the in-distribution results. The model, data-generation pipeline, and evaluation harness are released open source.",
-      "authors": [
-        "Abhishek Rai"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28364v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Auto-Director: Leveraging Multi-Agent Collaboration for Autonomous Video Editing",
-      "source": "arXiv",
-      "date": "2026-10-20T15:11:55+00:00",
-      "updated": "2026-10-20T15:11:55+00:00",
-      "url": "http://arxiv.org/abs/2610.28346v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28346v1",
-      "abstract": "Autonomous video editing from open-world resources remains a challenging problem in multimedia content creation. Retrieval-based methods are constrained by fixed source material and lack creative flexibility, while generative models struggle with long-horizon coherence and often diverge from user intent. Both paradigms fail to replicate the structured, multi-stage reasoning that underlies professional post-production. To address these limitations, we present Auto-Director, a tool-augmented multi-agent framework that mirrors professional editorial workflows: a Planning Agent decomposes abstract topics into fact-grounded scripts via retrieval-augmented planning; a Material Agent indexes open-world footage through shot segmentation and visual tagging; an Editor Agent assembles semantically aligned clips with MLLM-driven spatial adaptation; and a Critic Agent governs an iterative Reflect-and-Revise loop that checks scene-level alignment and pacing. To rigorously evaluate this new paradigm, we introduce VEdit-Bench, a benchmark of 100 expert-curated topics with human-annotated Golden Scripts and a five-dimensional metric suite covering Narrative Logic, Factual Accuracy, Semantic Alignment, Compositional Quality, and Stylistic Cohesion. Extensive experiments demonstrate that Auto-Director significantly outperforms baseline methods in both automated metrics and human evaluation, effectively bridging the gap between amateurs and professional-grade video production.",
-      "authors": [
-        "Yuxia Chen",
-        "Wenbo Zhu",
-        "Yangguang Ji",
-        "Zhenxiang Jiang",
-        "Teng Zhong",
-        "Yu Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28346v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
-      "source": "arXiv",
-      "date": "2026-10-20T15:07:19+00:00",
-      "updated": "2026-10-20T15:07:19+00:00",
-      "url": "http://arxiv.org/abs/2610.28340v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28340v1",
-      "abstract": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature additions after a corpus cut-off, with audits of possible parametric exposure. Later cut-offs support evaluation of future models. Across 27 LLMs, we measure Correct Abstention Rate (CAR; how often models acknowledge insufficient knowledge on unanswerable questions), Answerable Attempt Rate and Answer Accuracy. We find that (1) single-shot retrieval significantly raises CAR in 38 of 40 configurations (model and thinking setting) versus no retrieval. (2) Iterative RAG, in which the model self-assesses its context and can request up to two further retrieval rounds, significantly lowers CAR versus single-shot RAG in 30 of 40 configurations (mean 46.4%), with little change in Answer Accuracy (68.5% to 69.3%). Adding query rewriting and reranking to hybrid (dense & sparse) retrieval lowers CAR for all 12 models tested. (3) Larger models answer more accurately (Spearman $ρ= +0.60$ with total parameters), but neither model size nor release date shows a significant association with CAR. (4) Without retrieval, enabling thinking on the same weights lowers CAR significantly for 8 of 13 models (by 14% points on average), and the responses shift from acknowledged uncertainty to premise denial.",
-      "authors": [
-        "Atharva Thakur",
-        "Abulhair Saparov",
-        "Bruno Ribeiro"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28340v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "MemT-1.0: Towards Memory-Native Evolution",
-      "source": "arXiv",
-      "date": "2026-10-19T17:54:35+00:00",
-      "updated": "2026-10-20T14:30:38+00:00",
-      "url": "http://arxiv.org/abs/2610.26825v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.26825v2",
-      "abstract": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately $1.86\\times$ end-to-end inference speedup and a $66\\times$ reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
-      "authors": [
-        "Zhiyu Li",
-        "Zeyu Zhang",
-        "Linyun Liu",
-        "Yiwei Bu",
-        "Chenyang Xi",
-        "Xichong Zhang",
-        "Yi Yu",
-        "Yu Yu",
-        "Zhichen Liu",
-        "Yuxiao Yi",
-        "Chunyu Li",
-        "Haoran Liu",
-        "Zhenkai Ding",
-        "Le Zhou",
-        "Juncheng Zhang",
-        "Boyu Chen",
-        "Zehao Lin",
-        "Guorui Li",
-        "Renyu Fu",
-        "Ji Li",
-        "Youyang Xia",
-        "Jiajun Shen",
-        "Harvey Li",
-        "Jingsong Zhou",
-        "Helan Hu",
-        "Tong Shen",
-        "Tianxiao Xu",
-        "Chenye Han",
-        "Weijie Li",
-        "Zhongquan Zhou",
-        "Hongming Xu",
-        "Yuekeng Li",
-        "Erenkai Zhu",
-        "Peng Yu",
-        "Wenhao Li",
-        "Jingyi Kang",
-        "Xixuan Hao",
-        "Xuzhou Zhu",
-        "Can Chen",
-        "Jiawei Liu",
-        "Chen Jiang",
-        "Tao Jiang",
-        "Fangwei Xiang",
-        "Zepeng Yao",
-        "Kai Chen",
-        "Guang Yang",
-        "Mingfei Lu",
-        "Chunhui Li",
-        "Zhengxuan Jiang",
-        "Bo Tang",
-        "Shiyu Zhan",
-        "Yihang Sun",
-        "Jie Chu",
-        "Wenjun Xiong",
-        "Zhenxiang Hua",
-        "Chen Lin",
-        "Detong Su",
-        "Dongyu Deng",
-        "Qiuping Ding",
-        "Guofeng Ding",
-        "Si Chen",
-        "Guohua Wen",
-        "Xu Chen",
-        "Zhi-Qin John Xu",
-        "Ying-Cong Chen",
-        "Ningyu Zhang",
-        "Haofen Wang",
-        "Muning Wen",
-        "Haotian Chen",
-        "Wentao Zhang",
-        "Xuanhe Zhou",
-        "Rita Zhang",
-        "Junchi Yan",
-        "Feiyu Xiong"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.26825v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Multimodal Engineering GraphRAG Framework for Post-Wind-Event Building Assessment and Recovery Inference",
-      "source": "arXiv",
-      "date": "2026-10-20T13:50:50+00:00",
-      "updated": "2026-10-20T13:50:50+00:00",
-      "url": "http://arxiv.org/abs/2610.28216v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28216v1",
-      "abstract": "Post-event building assessment requires linking observed physical damage to its consequences for safety, habitability, functionality, and recovery. Yet post-disaster evidence is often heterogeneous, incomplete, and distributed across images and reconnaissance reports, while recovery models typically require structured engineering inputs. This study develops a multimodal engineering Graph Retrieval-Augmented Generation (GraphRAG) framework that connects post-wind-event damage evidence to physical consequences, building-condition states, recovery actions, and downtime. Image- and text-based evidence is transformed into a provenance-preserving, component-level representation distinguishing confirmed damage, explicit negative evidence, unresolved conditions, and temporary measures. Graph-aligned retrieval combines comparable building scenarios with explicit engineering relationships, while compatibility, contradiction, evidence-precedence, and abstention mechanisms constrain inference under partial observability. Recovery actions are derived from supported damage-consequence relationships, and downtime uncertainty is propagated through an action-dependency network using Monte Carlo simulation. The framework is demonstrated for tornado-affected low-rise residential buildings using reconnaissance and image-based evidence. Comparisons with BaselineRAG and Structured Baseline RAG show improved agreement for key building-condition and recovery outcomes, together with traceable engineering reasoning and preserved evidence provenance. Ablation analyses demonstrate the contributions of engineering context, evidence safeguards, and graph-path traversal. The results support transparent, recovery-oriented assessment from incomplete multimodal post-event evidence.",
-      "authors": [
-        "Seyedeh Fatemeh Mirfakhar",
-        "Reda Snaiki",
-        "Rocio Lilen Segura"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28216v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "From Code Generator to Engineering Companion: A Plant-aware Agent for PLC Programming",
-      "source": "arXiv",
-      "date": "2026-10-20T13:02:14+00:00",
-      "updated": "2026-10-20T13:02:14+00:00",
-      "url": "http://arxiv.org/abs/2610.28160v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28160v1",
-      "abstract": "Programmable Logic Controller (PLC) coding remains a manual, IDE-centric task that demands constant context switching between documentation, project files, and code editors. Recent work has demonstrated that retrieval-augmented large language models can generate vendor-compliant Structured Text at high compilation rates \\cite{pred}, yet these systems treat code generation as a one-shot pipeline: the engineer submits a query and receives code, with no persistent knowledge of the specific plant. We present a plant-aware conversational copilot that extends this paradigm in three directions: plant-specific context ingestion, a chat-first interaction model for explanation and debugging, and a graduated tool-access ladder from chat to deployment. The system is designed for real plant infrastructure and keeps the engineer in control of each step that produces real-world effects.",
-      "authors": [
-        "Joschka Kersting",
-        "Gesa Benndorf"
-      ],
-      "doi": "10.1109/ETFA68377.2026.11725227",
-      "arxiv_id": "2610.28160v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards",
-      "source": "arXiv",
-      "date": "2026-10-20T10:53:41+00:00",
-      "updated": "2026-10-20T10:53:41+00:00",
-      "url": "http://arxiv.org/abs/2610.28010v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.28010v1",
-      "abstract": "The integration of Large Language Models and Reinforcement Learning offers a promising direction for complex sequential decision-making tasks, such as multi-hop question answering over knowledge graphs. While LLMs provide strong semantic understanding and reasoning capabilities, they often struggle with precise, multi-step navigation in structured environments. Conversely, RL agents excel at learning navigation policies but are hindered by the difficulty of designing semantically meaningful reward functions. This paper introduces a novel hybrid approach in which an LLM serves as a mentor to an RL agent during training by providing dense, semantically informed reward signals. The RL agent, built on a Transformer-based policy and trained with Group Relative Policy Optimization, learns to navigate a knowledge graph to retrieve relevant information. The LLM evaluates the semantic relevance of the agent's traversed paths, generating reward signals that align the agent's behavior with the information needs expressed in a query. We integrate this Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards (RANGER) into a complete question-answering pipeline and evaluate it on the open question answering datasets. Experimental results show that the proposed approach outperforms both a baseline retrieval-augmented system with classical graph search and one using an RL agent trained with heuristic rewards, achieving a significant increase in NLP metrics and LLM-as-a-Judge scores. Our findings demonstrate that deep integration of LLMs into the RL training loop yields more effective and semantically aligned retrieval policies for complex reasoning tasks.",
-      "authors": [
-        "Artem Mikhaylov",
-        "Pavel Konoplev",
-        "Nikolay Efanov",
-        "Artyom Sorokin",
-        "Evgeny Burnaev"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.28010v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ArtSeek: Deep artwork understanding via multimodal in-context reasoning and late interaction retrieval",
-      "source": "arXiv",
-      "date": "2025-07-29T15:31:58+00:00",
-      "updated": "2026-10-20T10:16:17+00:00",
-      "url": "http://arxiv.org/abs/2507.21917v2",
-      "pdf_url": "https://arxiv.org/pdf/2507.21917v2",
-      "abstract": "Analyzing digitized artworks requires both visual interpretation and deep artistic, contextual, and historical knowledge. We introduce ArtSeek, a multimodal framework for art analysis that combines multimodal large language models with retrieval-augmented generation. Unlike prior work, our pipeline relies only on image input, so it applies to artworks without links to Wikidata or Wikipedia, common in most digitized collections. ArtSeek integrates three components: a late-interaction multimodal retrieval module, a contrastive multitask network predicting artist, genre, style, media, and tags, and an agentic reasoning strategy enabled through in-context examples. Central to this approach is WikiFragments, a dataset of image-text fragments extracted from the entire English Wikipedia to support knowledge-grounded multimodal reasoning. Our multimodal query encoding raises retrieval NDCG@5 from 33.9 to 44.9 over encoding the full image-text query, and fixed-budget token pooling keeps late-interaction search practical over millions of fragments at under 7% of the cost of full multi-vector retrieval. ArtSeek sets a new state of the art in artwork attribute classification, with +8.4% F1 in style classification over GraphCLIP, and gains +7.1 BLEU@1 on ArtPedia captioning. On five knowledge-grounded question answering benchmarks graded by an LLM judge from a different model family, retrieval helps where the answer is documented in our index or lies inside the classifier's label space (+0.19 mean correctness on two of them) and is neutral where it is not; what separates the two regimes is how much of a benchmark our knowledge base covers. The gain transfers to two non-Qwen backbones (+0.22 to +0.28). A blind human study and a qualitative analysis of successes and failures corroborate this picture and expose where retrieval still misleads. Data and code: https://cilab.di.uniba.it/artseek/",
-      "authors": [
-        "Nicola Fanelli",
-        "Gennaro Vessio",
-        "Giovanna Castellano"
-      ],
-      "doi": "",
-      "arxiv_id": "2507.21917v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LongHisDoc: A Comprehensive Benchmark for Chinese Long Historical Document Understanding",
-      "source": "arXiv",
-      "date": "2026-10-10T03:44:08+00:00",
-      "updated": "2026-10-20T09:06:09+00:00",
-      "url": "http://arxiv.org/abs/2610.14531v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.14531v2",
-      "abstract": "Chinese historical documents are invaluable cultural treasures, but their complexity poses significant comprehension challenges for non-specialists. Despite the success of Large Language Models (LLMs) and Large Vision-Language Models (LVLMs) in modern document tasks, their capabilities in Long (full-book) Historical Document understanding remain largely unexplored. To bridge this gap, we introduce LongHisDoc, the first benchmark tailored for long historical document understanding. LongHisDoc comprises 1,012 expert-annotated QA pairs derived from 101 PDF documents, with an average of 85.1 pages and 42,776.4 tokens per document. It spans 10 categories and features four QA types: single-page, cross-page, multi-hop, and unanswerable. Answering these questions requires integrating multimodal evidence from text, layout, and visual elements. Our evaluation reveals that the top-performing LVLM and LLM achieve only 62.9% and 69.9% accuracy, respectively, highlighting a substantial performance gap. Furthermore, we assess various modal retrievers and the end-to-end RAG performance to provide references for Retrieval-Augmented Generation (RAG) systems. We believe that LongHisDoc serves as a comprehensive benchmark to catalyze future research in full-book historical document understanding. The benchmark and evaluation code are available at https://huggingface.co/datasets/qweq12433454/LongHisDoc and https://github.com/SCUT-DLVCLab/LongHisDoc.",
-      "authors": [
-        "Zeyu Shan",
-        "Yongxin Shi",
-        "Shihang Wu",
-        "Peirong Zhang",
-        "Yuanyuan Fang",
-        "Zhaopeng Wang",
-        "Lianwen Jin"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.14531v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory and In-Context Learning",
-      "source": "arXiv",
-      "date": "2026-07-21T08:25:37+00:00",
-      "updated": "2026-10-20T08:58:08+00:00",
-      "url": "http://arxiv.org/abs/2607.18840v3",
-      "pdf_url": "https://arxiv.org/pdf/2607.18840v3",
-      "abstract": "World Action Models (WAMs) offer a promising paradigm for robotic manipulation by jointly modeling visual state transitions and robot actions. However, existing WAMs are constrained by limited temporal context, coarse episode-level language supervision, and predominantly text-only conditioning, which hinder task-progress tracking and fine-grained language-video-action grounding while limiting visual-context reasoning and cross-embodiment transfer. In this paper, we introduce WorldScape Policy 2.0, a controllable WAM with reasoning-augmented long short-term memory. Its causal short-term visual memory supplies recent observations as DiT prefill to preserve local interaction dynamics, while its long short-term event memory organizes historical VLM outputs into global-history, local-active, and event-boundary representations for progress-aware retrieval. The retrieved history augments perception and autoregressively generated planning tokens, yielding an implicit subgoal condition for autonomous planning; semantic forcing further transfers event-level instruction semantics into this latent planning pathway. To establish fine-grained multimodal controllability, we construct ManipEvent-5M, an event-grounded embodied pretraining dataset containing nearly 5 million event segments with aligned action trajectories, episode-level task instructions, segment-level subtask captions, goal images, and video demonstrations. These designs provide a unified interface for autonomous planning from high-level instructions and controllable execution from fine-grained text, goal-image, or video-context prompts. Experiments in both simulation and real-world platforms demonstrate superior capabilities in long-horizon autonomous planning, fine-grained instruction following and in-context adaptation.",
-      "authors": [
-        "Haisheng Su",
-        "Zongdai Liu",
-        "Xin Jin",
-        "Haoxuan Dou",
-        "Chengming Hu",
-        "Baorun Li",
-        "Zhanwang Liu",
-        "Ruiyan Xu",
-        "Jianjie Fang",
-        "Xin Zhang",
-        "Zhenjie Yang",
-        "Xue Yang",
-        "Chen Gao",
-        "Junchi Yan",
-        "Yong Li",
-        "Wei Wu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.18840v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "GARRET: Generative Feedback for Region Retrieval in Visual Documents",
-      "source": "arXiv",
-      "date": "2026-10-20T08:19:14+00:00",
-      "updated": "2026-10-20T08:19:14+00:00",
-      "url": "http://arxiv.org/abs/2610.27829v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27829v1",
-      "abstract": "Multimodal retrieval-augmented generation over visually rich documents requires evidence at a finer granularity than entire pages. Existing visual retrievers typically index or return full pages, whereas training region-level retrievers often requires costly query-to-region annotations or noisy model-generated labels. We introduce GARRET, a region-retrieval framework trained from (page, question, answer) triplets through differentiable generative feedback. A shared context-preserving retriever produces page and region multi-vector representations. During training, their retrieval scores define a soft routing distribution over candidate region crops. An auxiliary vision-language model attends to each crop separately, aggregates crop-specific contexts using the routing weights, and predicts the question followed by the answer under a next-token prediction objective. Gradients through the routing distribution assign query-conditioned credit to the indexed region representations, without requiring query-to-region annotations. At inference, the auxiliary model is removed. GARRET also reuses the contextualized region representations, together with page summary tokens, to construct a compact page representation. We introduce ViDoRe-V3-Region, a corpus-wide benchmark containing 200,682 fixed candidate regions across eight domains. GARRET achieves a macro nDCG@10 of 0.4126, outperforming the strongest visual baseline by 2.94 points. On page retrieval, it remains comparable to ColQwen2.5-v0.2 while indexing 47.8% fewer vectors per page.",
-      "authors": [
-        "Weijian Jian",
-        "Siyang Chen",
-        "Yuguang Yang",
-        "Yajun Zhang",
-        "Chunyu Xie",
-        "Dawei Leng",
-        "Yuhui Yin"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27829v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "RAG-NIMBF: A Non-Invasive, Modular Benchmarking Framework for Automated RAG Configuration Analysis",
-      "source": "arXiv",
-      "date": "2026-10-20T08:08:08+00:00",
-      "updated": "2026-10-20T08:08:08+00:00",
-      "url": "http://arxiv.org/abs/2610.27816v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27816v1",
-      "abstract": "Retrieval-Augmented Generation (RAG) has become the dominant paradigm for grounding the outputs of large language models (LLM) in external knowledge. However, practitioners are faced with a vast configuration space comprising chunking, embedding, retrieval, reranking, prompting and generation models, and there is limited guidance on how these components interact. We present RAG-NIMBF, a modular benchmarking framework that attaches to existing RAG pipelines as a non-invasive evaluation layer. It evaluates the configuration space through controlled ablation with end-to-end experiment tracking. The evaluation combines LLM-based answer quality scores, retrieval correctness measures, and runtime indicators. This study validates the framework across multiple generation models on the SQuAD dataset. This process reveals non-obvious interactions and demonstrates how the experiments are tracked. The findings indicate that the retrieval balance of relevance and diversity substantially enhances the relevance and coverage of retrieved context in comparison to a conventional similarity search, with MMR raising nDCG@5 by +4 to +11 percentage points across the swept models. More detailed prompt instructions meaningfully increase how faithfully generated answers stick to the retrieved evidence, especially for capable and reasoning models (+10 to +13pp on Qwen3.6-27B, GPT-4o-mini and Qwen3.5-think, but negligible on the 20B generator). Overall, RAG-NIMBF transforms the configuration space of RAG into reproducible, comparable experiments. By attaching to existing production pipelines in a non-invasive way, it enables practitioners to systematically evaluate and improve deployed systems without disrupting existing workflows. This replaces ad hoc choices with evidence-based decisions.",
-      "authors": [
-        "Niclas Hart",
-        "Nicolas Weeger"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27816v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Can Language Models Replace Programmers for Coding? REPOCOD Says 'Not Yet'",
-      "source": "arXiv",
-      "date": "2024-10-29T01:21:05+00:00",
-      "updated": "2026-10-20T04:42:17+00:00",
-      "url": "http://arxiv.org/abs/2410.21647v5",
-      "pdf_url": "https://arxiv.org/pdf/2410.21647v5",
-      "abstract": "Recently, a number of repository-level code generation benchmarks-such as CoderEval, DevEval, RepoEval, RepoBench, and LongCodeArena-have emerged to evaluate the capabilities of large language models (LLMs) beyond standalone benchmarks like HumanEval and MBPP. Thus, a natural question is, would LLMs have similar performance in real world coding tasks as their performance in these benchmarks? Unfortunately, one cannot answer this question, since these benchmarks consist of short completions, synthetic examples, or focus on limited scale repositories, failing to represent real-world coding tasks. To address these challenges, we create REPOCOD, a Python code-generation benchmark containing complex tasks with realistic dependencies in real-world large projects and appropriate metrics for evaluating source code. It includes 980 whole-function generation tasks from 11 popular projects, 50.8% of which require repository-level context. REPOCOD includes 314 developer-written test cases per instance for better evaluation. We evaluate ten LLMs on REPOCOD and find that none achieves more than 30% pass@1 on REPOCOD, indicating the necessity of building stronger LLMs that can help developers in real-world software development. In addition, we found that retrieval-augmented generation achieves better results than using target function dependencies as context.",
-      "authors": [
-        "Shanchao Liang",
-        "Yiran Hu",
-        "Nan Jiang",
-        "Lin Tan"
-      ],
-      "doi": "",
-      "arxiv_id": "2410.21647v5",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions",
-      "source": "arXiv",
-      "date": "2026-10-19T23:47:50+00:00",
-      "updated": "2026-10-19T23:47:50+00:00",
-      "url": "http://arxiv.org/abs/2610.27400v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.27400v1",
-      "abstract": "Large language model (LLM) agents are moving beyond reactive responses toward proactive assistance that anticipates user needs without explicit requests. However, existing proactive agents primarily address immediate needs, while many everyday situations involve delayed intentions that can only be acted on hours or days later. Humans handle such intentions through prospective memory, the ability to remember to act on an intention when the right moment arises. In this paper, we introduce ProMemAgent, the first proactive agent to incorporate prospective memory over everyday sensory contexts for long-horizon proactive assistance. ProMemAgent organizes past sensory perceptions (e.g., egocentric video and audio) into context-aware memory, generating prospective cues and linking earlier events with subsequent developments for future retrieval. Given the current context, it retrieves relevant past events and performs memory-augmented proactive reasoning to determine whether assistance is needed. We further introduce CPMBench, the first benchmark for evaluating long-horizon proactive assistance over sensory contexts, comprising 1,000 instances across eight everyday categories. Extensive experiments show that ProMemAgent achieves the best memory retrieval performance and consistently outperforms all baselines on long-horizon proactive assistance.",
-      "authors": [
-        "Lilin Xu",
-        "Linyang He",
-        "Kaiyuan Hou",
-        "Yuang Fan",
-        "Minghui Zhao",
-        "Xuhai Xu",
-        "Xiaofan Jiang"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.27400v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 63,
+      "count": 60,
       "error": ""
     }
   ]
