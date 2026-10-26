@@ -1,16 +1,16 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "updated_at": "2026-10-25T05:59:13.565723+00:00",
+    "updated_at": "2026-10-26T06:03:34.652654+00:00",
     "generated_by": "scripts/build_knowledge_base.py"
   },
   "summary": {
-    "total_papers": 4633,
-    "last_run_count": 22,
+    "total_papers": 4635,
+    "last_run_count": 6,
     "sources": {
-      "PubMed": 393,
+      "PubMed": 394,
       "arXiv": 3330,
-      "bioRxiv": 577,
+      "bioRxiv": 578,
       "medRxiv": 333
     },
     "categories": {
@@ -18,12 +18,12 @@
       "dataset": 526,
       "foundation_model": 2186,
       "general": 148,
-      "methods": 1432
+      "methods": 1434
     },
     "topics": {
       "application_monitoring": 54,
       "data_fair_training": 2,
-      "foundation_model_agent": 3074,
+      "foundation_model_agent": 3075,
       "pathogenomics": 173,
       "sequencing_bioinformatics": 138
     },
@@ -32,7 +32,7 @@
       "2023": 3,
       "2024": 35,
       "2025": 387,
-      "2026": 4207
+      "2026": 4209
     }
   },
   "indexes": {
@@ -198,6 +198,7 @@
         "doi:10.1016/j.tvjl.2026.106684",
         "doi:10.1016/j.virol.2026.110920",
         "doi:10.1016/j.xgen.2026.101305",
+        "doi:10.1016/j.yjmcc.2026.10.010",
         "doi:10.1021/acs.analchem.5c07113",
         "doi:10.1021/acs.analchem.6c01731",
         "doi:10.1021/acs.analchem.6c01895",
@@ -4341,7 +4342,8 @@
         "doi:10.64898/2026.10.19.760276",
         "doi:10.64898/2026.10.20.757714",
         "doi:10.64898/2026.10.20.760214",
-        "doi:10.64898/2026.10.20.760479"
+        "doi:10.64898/2026.10.20.760479",
+        "doi:10.64898/2026.10.22.761295"
       ],
       "medRxiv": [
         "doi:10.1101/2023.01.26.23285060",
@@ -8852,6 +8854,7 @@
         "doi:10.1016/j.synbio.2025.11.012",
         "doi:10.1016/j.tig.2026.04.001",
         "doi:10.1016/j.xgen.2026.101305",
+        "doi:10.1016/j.yjmcc.2026.10.010",
         "doi:10.1021/acs.analchem.5c07113",
         "doi:10.1021/acs.analchem.6c01731",
         "doi:10.1021/acs.jafc.5c06841",
@@ -9321,6 +9324,7 @@
         "doi:10.64898/2026.10.19.760022",
         "doi:10.64898/2026.10.20.757714",
         "doi:10.64898/2026.10.20.760479",
+        "doi:10.64898/2026.10.22.761295",
         "doi:10.7554/elife.109450"
       ]
     },
@@ -12459,6 +12463,7 @@
         "doi:10.64898/2026.10.20.26366028",
         "doi:10.64898/2026.10.20.760214",
         "doi:10.64898/2026.10.20.760479",
+        "doi:10.64898/2026.10.22.761295",
         "doi:10.7759/cureus.109744"
       ],
       "pathogenomics": [
@@ -16190,6 +16195,7 @@
         "doi:10.1016/j.tvjl.2026.106684",
         "doi:10.1016/j.virol.2026.110920",
         "doi:10.1016/j.xgen.2026.101305",
+        "doi:10.1016/j.yjmcc.2026.10.010",
         "doi:10.1021/acs.analchem.5c07113",
         "doi:10.1021/acs.analchem.6c01731",
         "doi:10.1021/acs.analchem.6c01895",
@@ -17417,6 +17423,7 @@
         "doi:10.64898/2026.10.20.757714",
         "doi:10.64898/2026.10.20.760214",
         "doi:10.64898/2026.10.20.760479",
+        "doi:10.64898/2026.10.22.761295",
         "doi:10.7554/elife.109450",
         "doi:10.7759/cureus.109744",
         "pubmed_id:42286906"
@@ -31293,36 +31300,6 @@
       "notes": [],
       "status": "active"
     },
-    "doi:10.64898/2026.04.06.716719": {
-      "paper_id": "doi:10.64898/2026.04.06.716719",
-      "title": "Automated Knowledge Graph Construction for CAR T Cell Receptor Design via Hybrid Text Mining",
-      "source": "bioRxiv",
-      "date": "2026-04-07T00:00:00+00:00",
-      "year": "2026",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716719v1",
-      "abstract": "Designing next-generation Chimeric Antigen Receptors (CARs) requires a systematic understanding of intracellular signaling domains and their downstream biological effects, yet no comprehensive knowledge resource currently exists for this purpose. Here, we present an automated workflow that integrates multiple natural language processing and large language model tools to extract biomolecular interactions from PubMed literature and assemble them into a CAR T cell signaling knowledge graph. Our pipeline combines REACH, INDRA, and Llama 3 across 15 targeted search queries, yielding a directed multi-relational graph of ~7,500 unique interactions among ~1,800 entities, including proteins, biological processes, and chemicals. We further demonstrate that queries incorporating biological process ontology terms retrieve more interaction-rich papers than protein-name-only searches, offering practical guidance for future literature mining efforts. The resulting knowledge base provides a structured foundation for predicting T cell phenotypes and prioritizing intracellular domain candidates for CAR design, with broader applicability to knowledge-driven inference in immunotherapy research.",
-      "abstract_zh": "",
-      "abstract_short": "Designing next-generation Chimeric Antigen Receptors (CARs) requires a systematic understanding of intracellular signaling domains and their downstream biological effects, yet no comprehensive knowledge resource currently exists for this purpose. Here, we present an automated workflow that integrates multiple natural language processing and large language model tools to extract biomolecular intera",
-      "matched_topics": [
-        "foundation_model_agent"
-      ],
-      "topic_count": 1,
-      "relevance_score": 6.45,
-      "novelty_score": 5.5,
-      "importance_score": 6.117,
-      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
-      "analysis_zh": "",
-      "category": "methods",
-      "doi": "10.64898/2026.04.06.716719",
-      "arxiv_id": "",
-      "pubmed_id": "",
-      "content_hash": "1b3f0e14864bc228faa4500fd59bc4217ce9d467712510dca116bdffcd29797d",
-      "first_seen_at": "2026-04-09T03:57:31.813043+00:00",
-      "last_seen_at": "2026-04-09T03:57:31.813043+00:00",
-      "times_seen": 1,
-      "notes": [],
-      "status": "active"
-    },
     "doi:10.64898/2026.04.19.719411": {
       "paper_id": "doi:10.64898/2026.04.19.719411",
       "title": "A Context-Aware Target Engagement and Pharmacodynamic Biomarker Resource to Accelerate Drug Discovery and Development",
@@ -31920,6 +31897,36 @@
       "first_seen_at": "2026-10-16T05:46:29.253890+00:00",
       "last_seen_at": "2026-10-16T05:46:29.253890+00:00",
       "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.64898/2026.04.06.716719": {
+      "paper_id": "doi:10.64898/2026.04.06.716719",
+      "title": "Automated Knowledge Graph Construction for CAR T Cell Receptor Design via Hybrid Text Mining",
+      "source": "bioRxiv",
+      "date": "2026-10-23T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716719v2",
+      "abstract": "Designing next-generation Chimeric Antigen Receptors (CARs) requires a systematic understanding of intracellular signaling domains and their downstream biological effects, yet no comprehensive knowledge resource currently exists for this purpose. Here, we present an automated workflow that integrates multiple natural language processing and large language model tools to extract biomolecular interactions from PubMed literature and assemble them into a CAR T cell signaling knowledge graph. Our pipeline combines REACH, INDRA, and Llama 3 across 15 targeted search queries, yielding a directed multi-relational graph of ~7,500 unique interactions among ~1,800 entities, including proteins, biological processes, and chemicals. We further demonstrate that queries incorporating biological process ontology terms retrieve more interaction-rich papers than protein-name-only searches, offering practical guidance for future literature mining efforts. The resulting knowledge base provides a structured foundation for predicting T cell phenotypes and prioritizing intracellular domain candidates for CAR design, with broader applicability to knowledge-driven inference in immunotherapy research.",
+      "abstract_zh": "",
+      "abstract_short": "Designing next-generation Chimeric Antigen Receptors (CARs) requires a systematic understanding of intracellular signaling domains and their downstream biological effects, yet no comprehensive knowledge resource currently exists for this purpose. Here, we present an automated workflow that integrates multiple natural language processing and large language model tools to extract biomolecular intera",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 6.45,
+      "novelty_score": 5.5,
+      "importance_score": 6.117,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.64898/2026.04.06.716719",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "0b140b28446eb1093609357367ffc397e13961a04d6dcea98af0c8144225265b",
+      "first_seen_at": "2026-04-09T03:57:31.813043+00:00",
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
+      "times_seen": 2,
       "notes": [],
       "status": "active"
     },
@@ -50878,8 +50885,8 @@
       "pubmed_id": "",
       "content_hash": "397f487afa42d1c28835ed7273db850a4e7c186b54f4573b72345bfa6b9a6e05",
       "first_seen_at": "2026-09-12T05:40:45.006829+00:00",
-      "last_seen_at": "2026-10-25T05:59:13.565723+00:00",
-      "times_seen": 6,
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
+      "times_seen": 7,
       "notes": [],
       "status": "active"
     },
@@ -54696,16 +54703,16 @@
       "notes": [],
       "status": "active"
     },
-    "doi:10.1101/2025.03.27.645630": {
-      "paper_id": "doi:10.1101/2025.03.27.645630",
-      "title": "MouseGPT: A Large-scale Vision-Language Model for Mouse Behavior Analysis",
+    "doi:10.64898/2026.10.22.761295": {
+      "paper_id": "doi:10.64898/2026.10.22.761295",
+      "title": "RiboDFM: Robust RNA sequence design using backbone-conditioned discrete flow matching",
       "source": "bioRxiv",
       "date": "2026-10-23T00:00:00+00:00",
       "year": "2026",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.03.27.645630v2",
-      "abstract": "Analyzing animal behavior is crucial in neuroscience, yet deciphering its intricate dynamics remains challenging. Traditional machine vision approaches detect spontaneous behaviors but are constrained by limited interpretability and reliance on manual labeling, restricting exploration of the full behavioral spectrum. Here, we introduce MouseGPT, an integrated vision-language model and analytical framework that translates raw video of animal activity into natural language to automate open-vocabulary behavior analysis. Built upon a comprehensive dataset of over 42 million frames spanning diverse psychiatric conditions, MouseGPT maps multi-view or single-camera recordings directly into computable semantic representations. An agentic framework leverages these representations for detailed behavior profiling, cross-view stable clustering, and zero-shot novel behavior discovery without requiring labor-intensive annotation. Surpassing conventional kinematics-based pipelines and generalist vision-language models in behavioral precision and adaptability, MouseGPT establishes continuous semantic representations as a powerful tool for deciphering complex ethological dynamics in animal models.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761295v1",
+      "abstract": "Designing RNA sequences that fold into predefined 3D structures is central to RNA engineering, yet it remains challenging due to the scarcity of experimentally determined structures and the complex sequence-structure relationships. Here, we present RiboDFM, a backbone-conditioned discrete flow-matching framework for RNA sequence design. RiboDFM progressively resolves fully masked sequences by integrating a geometric backbone encoder, an auxiliary base-pairing prediction head, and language model representations into a discrete flow sampler. To expand our training data, we supplemented experimental structures with a large-scale collection of trRosettaRNA2-predicted models. Across diverse benchmarks, RiboDFM achieves high sequence recovery and generates sequences with greater tertiary-structure self-consistency than existing methods. RiboDFM also performs strongly on aptamer-focused design tasks. Finally, beyond sequence generation, the nucleotide probabilities derived from RiboDFM' s flow trajectory serve as an intrinsic measure of sequence-structure compatibility. This enables reliable confidence estimation for designed sequences, as well as reference-free, zero-shot assessment of predicted structure models. Together, these results establish RiboDFM as an effective framework for structure-based RNA sequence design.",
       "abstract_zh": "",
-      "abstract_short": "Analyzing animal behavior is crucial in neuroscience, yet deciphering its intricate dynamics remains challenging. Traditional machine vision approaches detect spontaneous behaviors but are constrained by limited interpretability and reliance on manual labeling, restricting exploration of the full behavioral spectrum. Here, we introduce MouseGPT, an integrated vision-language model and analytical f",
+      "abstract_short": "Designing RNA sequences that fold into predefined 3D structures is central to RNA engineering, yet it remains challenging due to the scarcity of experimentally determined structures and the complex sequence-structure relationships. Here, we present RiboDFM, a backbone-conditioned discrete flow-matching framework for RNA sequence design. RiboDFM progressively resolves fully masked sequences by inte",
       "matched_topics": [
         "foundation_model_agent"
       ],
@@ -54713,15 +54720,15 @@
       "relevance_score": 4.75,
       "novelty_score": 5.75,
       "importance_score": 5.1,
-      "why_it_matters": "这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。",
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
       "analysis_zh": "",
-      "category": "dataset",
-      "doi": "10.1101/2025.03.27.645630",
+      "category": "methods",
+      "doi": "10.64898/2026.10.22.761295",
       "arxiv_id": "",
       "pubmed_id": "",
-      "content_hash": "5bd3ca28ad5cbe46dad439dc3d1cd3917a2a7b442326aeeff4c0af6792db3ff6",
-      "first_seen_at": "2026-10-25T05:59:13.565723+00:00",
-      "last_seen_at": "2026-10-25T05:59:13.565723+00:00",
+      "content_hash": "26cbfae039a0734bdd4fce3e836ae6cbf82b19736a310e148791dc43707cc0ca",
+      "first_seen_at": "2026-10-26T06:03:34.652654+00:00",
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
@@ -104726,7 +104733,7 @@
       "date": "2026-10-23T00:00:00+00:00",
       "year": "2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42918280/",
-      "abstract": "Descriptive scientific metadata in public repositories are often incomplete and inconsistent with community standards and ontologies, limiting data FAIRness. Large language models (LLMs) offer a promising approach to automatically standardizing such metadata when the LLM is provided with knowledge of the relevant standards in machine-actionable form (e.g., as metadata templates from systems such as the CEDAR Workbench). Entry of metadata standards through prompt engineering offers only fixed snapshots of the relevant standards, however, and it relies on an LLM's pretrained knowledge to interpret and satisfy constraints related to the standard. We evaluate whether giving an LLM access to metadata specifications and authoritative terminology at runtime improves automated metadata standardization. We present ARMS, a tool-augmented LLM agent that retrieves complete CEDAR metadata templates and that queries authoritative biomedical terminology services dynamically at execution time. We compared ARMS with a prompt-based approach on 839 legacy metadata records describing experiment datasets from the Human BioMolecular Atlas Program (HuBMAP) with expert-standardized records serving as the reference standard. Across the corpus, ARMS outperformed the prompt-based approach in converting legacy metadata to standards-compliant form, increasing precision from 0.56 to 0.93 and recall from 0.51 to 0.85, with improvements across all field categories and assay types. The largest gains occurred for ontology-constrained fields, where precision increased from 0.36 to 0.92. Our findings show that access to appropriate metadata standards can substantially improve LLM-based standardization of legacy metadata. ARMS improves metadata standardization by giving LLMs runtime access to the authoritative resources that define valid metadata. Representation of metadata standards in machine-actionable form enhances the task of rectifying legacy metadata using LLM technology, especially when those standards can be queried dynamically.",
+      "abstract": "Descriptive scientific metadata in public repositories are often incomplete and inconsistent with community standards and ontologies, limiting data FAIRness. Large language models (LLMs) offer a promising approach to automatically standardizing such metadata when the LLM is provided with knowledge of the relevant standards in machine-actionable form (e.g., as metadata templates from systems such as the CEDAR Workbench). Entry of metadata standards through prompt engineering offers only fixed snapshots of the relevant standards, however, and it relies on an LLM's pretrained knowledge to interpret and satisfy constraints related to the standard. We evaluate whether giving an LLM access to metadata specifications and authoritative terminology at runtime improves automated metadata standardization. We present ARMS, a tool-using LLM agent that retrieves complete CEDAR metadata templates and that queries authoritative biomedical terminology services dynamically at execution time. We compared ARMS with a prompt-engineering approach on 839 legacy metadata records describing experiment datasets from the Human BioMolecular Atlas Program (HuBMAP) with expert-standardized records serving as the reference standard. Across the corpus, ARMS outperformed the prompt-engineering approach in converting legacy metadata to standards-compliant form, increasing precision from 0.56 to 0.93 and recall from 0.51 to 0.85, with improvements across all field categories and assay types. The largest gains occurred for ontology-constrained fields, where precision increased from 0.36 to 0.92. Our findings show that access to appropriate metadata standards can substantially improve LLM-based standardization of legacy metadata. ARMS improves metadata standardization by giving LLMs runtime access to the authoritative resources that define valid metadata. Representation of metadata standards in machine-actionable form enhances the task of rectifying legacy metadata using LLM technology, especially when those standards can be queried dynamically.",
       "abstract_zh": "",
       "abstract_short": "Descriptive scientific metadata in public repositories are often incomplete and inconsistent with community standards and ontologies, limiting data FAIRness. Large language models (LLMs) offer a promising approach to automatically standardizing such metadata when the LLM is provided with knowledge of the relevant standards in machine-actionable form (e.g., as metadata templates from systems such a",
       "matched_topics": [
@@ -104742,9 +104749,39 @@
       "doi": "10.1016/j.jbi.2026.105116",
       "arxiv_id": "",
       "pubmed_id": "42918280",
-      "content_hash": "68a2c68822009b8c21be8d0f25681d455a977c068da2ded94fcb9d84d89ef270",
+      "content_hash": "c214a98a9c908d07af62a1e146741def0c055bd074647bba2c36bfa1ae2bcfdf",
       "first_seen_at": "2026-10-24T05:43:03.417032+00:00",
-      "last_seen_at": "2026-10-25T05:59:13.565723+00:00",
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
+      "times_seen": 3,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1101/2025.03.27.645630": {
+      "paper_id": "doi:10.1101/2025.03.27.645630",
+      "title": "MouseGPT: A Large-scale Vision-Language Model for Mouse Behavior Analysis",
+      "source": "bioRxiv",
+      "date": "2026-10-23T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.03.27.645630v2",
+      "abstract": "Analyzing animal behavior is crucial in neuroscience, yet deciphering its intricate dynamics remains challenging. Traditional machine vision approaches detect spontaneous behaviors but are constrained by limited interpretability and reliance on manual labeling, restricting exploration of the full behavioral spectrum. Here, we introduce MouseGPT, an integrated vision-language model and analytical framework that translates raw video of animal activity into natural language to automate open-vocabulary behavior analysis. Built upon a comprehensive dataset of over 42 million frames spanning diverse psychiatric conditions, MouseGPT maps multi-view or single-camera recordings directly into computable semantic representations. An agentic framework leverages these representations for detailed behavior profiling, cross-view stable clustering, and zero-shot novel behavior discovery without requiring labor-intensive annotation. Surpassing conventional kinematics-based pipelines and generalist vision-language models in behavioral precision and adaptability, MouseGPT establishes continuous semantic representations as a powerful tool for deciphering complex ethological dynamics in animal models.",
+      "abstract_zh": "",
+      "abstract_short": "Analyzing animal behavior is crucial in neuroscience, yet deciphering its intricate dynamics remains challenging. Traditional machine vision approaches detect spontaneous behaviors but are constrained by limited interpretability and reliance on manual labeling, restricting exploration of the full behavioral spectrum. Here, we introduce MouseGPT, an integrated vision-language model and analytical f",
+      "matched_topics": [
+        "foundation_model_agent"
+      ],
+      "topic_count": 1,
+      "relevance_score": 4.75,
+      "novelty_score": 0.75,
+      "importance_score": 3.35,
+      "why_it_matters": "这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。",
+      "analysis_zh": "",
+      "category": "dataset",
+      "doi": "10.1101/2025.03.27.645630",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "content_hash": "5bd3ca28ad5cbe46dad439dc3d1cd3917a2a7b442326aeeff4c0af6792db3ff6",
+      "first_seen_at": "2026-10-25T05:59:13.565723+00:00",
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
       "times_seen": 2,
       "notes": [],
       "status": "active"
@@ -114692,6 +114729,34 @@
       "content_hash": "b81a3a0afb2a06b0aab5f95d7babbd3ae4b2c10d6b19d7ec82bd385506847781",
       "first_seen_at": "2026-10-05T06:54:50.822506+00:00",
       "last_seen_at": "2026-10-05T06:54:50.822506+00:00",
+      "times_seen": 1,
+      "notes": [],
+      "status": "active"
+    },
+    "doi:10.1016/j.yjmcc.2026.10.010": {
+      "paper_id": "doi:10.1016/j.yjmcc.2026.10.010",
+      "title": "Precision medicine approaches in diabetic cardiomyopathy: from molecular mechanisms to personalized therapeutic strategies.",
+      "source": "PubMed",
+      "date": "2026-10-24T00:00:00+00:00",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925888/",
+      "abstract": "Diabetic cardiomyopathy (DCM) is a distinct myocardial disease defined by the existence of abnormal myocardial structure and performance in diabetes mellitus patients without hypertension and coronary artery disease. DCM has been identified as a major cause of heart failure, hospitalisation and cardiovascular mortality with increasing global burden of diabetes. However, there is a large interindividual variation in disease susceptibility, disease progression and response to therapy, highlighting the limitations of conventional management strategies that are applied uniformly. Precision medicine provides a transformational approach through the integration of genomic, molecular, imaging, clinical and lifestyle data to allow for personalized risk assessment, early diagnosis, prognostication and treatment. This review presents the recent advances in the field of precision medicine for DCM with a focus on the molecular pathological mechanisms including metabolic disorders, oxidative stress, mitochondrial dysfunction, inflammation, fibrosis and microvascular injury. We discuss the relevance of genomics, pharmacogenomics, transcriptomics, proteomics, metabolomics, lipidomics and epigenomics in the context of disease heterogeneity and identification of novel therapeutic targets. Emerging biomarkers including circulating microRNAs, non-coding RNAs, inflammatory mediators, fibrosis-related markers and extracellular vesicles are discussed for their potential in personal diagnosis and prognosis. We also consider the increasing role of advanced cardiac imaging, digital phenotyping, wearable technologies, artificial intelligence, and machine learning in enhancing early detection and clinical decision-making. In this review, the therapeutic advances, including sodium-glucose cotransporter-2 inhibitors, glucagon-like peptide-1 receptor agonists, anti-fibrotic therapies, mitochondrial-targeted interventions, regenerative medicine, gene therapy, and RNA-based therapeutics, are discussed, with a focus on the precision medicine approach. Finally, we present current challenges in data integration, clinical validation, cost-effectiveness, and ethical issues, and highlight future directions in digital twins, multi-omics integration, and AI-driven personalized cardiology. The combination of these technologies has the potential to revolutionize the prevention and management of diabetic cardiomyopathy and improve cardiovascular outcomes in patients with diabetes.",
+      "abstract_zh": "",
+      "abstract_short": "Diabetic cardiomyopathy (DCM) is a distinct myocardial disease defined by the existence of abnormal myocardial structure and performance in diabetes mellitus patients without hypertension and coronary artery disease. DCM has been identified as a major cause of heart failure, hospitalisation and cardiovascular mortality with increasing global burden of diabetes. However, there is a large interindiv",
+      "matched_topics": [],
+      "topic_count": 0,
+      "relevance_score": 1.7,
+      "novelty_score": 5.25,
+      "importance_score": 2.942,
+      "why_it_matters": "这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。",
+      "analysis_zh": "",
+      "category": "methods",
+      "doi": "10.1016/j.yjmcc.2026.10.010",
+      "arxiv_id": "",
+      "pubmed_id": "42925888",
+      "content_hash": "517a398053090fe67d3e2091f96a0590820a167fb7257ed1613ba504e6abdb99",
+      "first_seen_at": "2026-10-26T06:03:34.652654+00:00",
+      "last_seen_at": "2026-10-26T06:03:34.652654+00:00",
       "times_seen": 1,
       "notes": [],
       "status": "active"
