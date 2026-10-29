@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-28T06:48:37.376725+00:00",
+  "fetched_at": "2026-10-29T06:58:15.084173+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 49,
+  "count": 37,
   "papers": [
     {
       "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
@@ -98,155 +98,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "DISCERN: Can AI Agents Work Like Scientists and Guide Discovery?",
-      "source": "arXiv",
-      "date": "2026-09-27T08:29:32+00:00",
-      "updated": "2026-10-26T05:50:43+00:00",
-      "url": "http://arxiv.org/abs/2609.33357v2",
-      "pdf_url": "https://arxiv.org/pdf/2609.33357v2",
-      "abstract": "Reliable automated research requires agents to vet data, verify analyses, and generate hypotheses grounded in trustworthy evidence, potentially reducing routine scientific workload while allowing scientists to focus on interpretation and discovery. Existing benchmarks often only assess analytical task completion or hypothesis generation separately rather than testing whether reliable evidence supports valid and novel claims. We introduce DISCERN (Data Integrity and Scientific Capability: Evidence, Reasoning, and Novelty), a controlled benchmark on real, publicly available datasets that evaluates three key levels of an automated research workflow. The first two levels test data integrity and analysis verification under confounds and tool traps, while the third tests hypothesis generation and revision under adversarial review, including counterfactual cases in which evidence consistent with real data and documented scientific phenomena conflicts with established expectations, motivating alternative explanations and testable hypotheses. Across 203 tasks, eight life-science tracks, and eight models, DISCERN shows that strong aggregate performance can mask level-specific weaknesses. Agents earn perfect scores in only 60.8% of Level 1, 34.2% of Level 2, and 0.6% of Level 3 evaluations, with penalties attributed to rejection of sound data, failure to carry recognized limitations into conclusions, and wide variation in hypothesis production. Cross-track rankings by token and code use are substantially more stable than rankings by evidence judgment, suggesting greater consistency in computational effort than in evidence-based reasoning. These profiles identify opportunities for supervised scientific assistance, but current agents do not yet demonstrate reliable autonomous analysis or discovery. Code and data: https://huggingface.co/datasets/discern-bench-anon/discern-benchmark",
-      "authors": [
-        "Nan Huang",
-        "Mario Tapia-Pacheco",
-        "Kun Zhou",
-        "Yiming Huang",
-        "Kevin José Barrientos Díaz",
-        "Tiffany Amariuta",
-        "Jingbo Shang"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.33357v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Closing the empirical loop: autonomous AI agents conduct end-to-end research with human participants",
-      "source": "arXiv",
-      "date": "2025-08-19T00:35:56+00:00",
-      "updated": "2026-10-26T00:21:11+00:00",
-      "url": "http://arxiv.org/abs/2508.13421v3",
-      "pdf_url": "https://arxiv.org/pdf/2508.13421v3",
-      "abstract": "Artificial intelligence systems are transforming scientific discovery by accelerating specific research tasks, from protein structure prediction to materials design, yet remain confined to narrow domains requiring substantial human oversight. Exponential growth of scientific literature and increasing domain specialisation constrain researchers capacity to synthesise knowledge across disciplines and develop unifying theories, motivating exploration of more general-purpose AI systems for science. Here we show that a domain-agnostic, agentic AI system can independently navigate the scientific workflow, from hypothesis generation through data collection to manuscript preparation. The system autonomously designed and executed three psychological studies on visual working memory, mental rotation, and imagery vividness, executed online data collection with 288 participants, developed analysis pipelines through over 8-hour continuous coding sessions, and produced completed manuscripts. The results demonstrate the capability of AI scientific discovery pipelines to conduct research with theoretical reasoning and methodological rigour comparable to experienced researchers, though with limitations in conceptual nuance and theoretical interpretation. This is a step toward embodied AI that can test hypotheses through real-world experiments, accelerating discovery by autonomously exploring regions of scientific space that human cognitive and resource constraints might otherwise leave unexplored. It raises important questions about the nature of scientific understanding and attribution of scientific credit.",
-      "authors": [
-        "Gabrielle Wehr",
-        "Reuben Rideaux",
-        "Amaya J. Fox",
-        "David R. Lightfoot",
-        "Jason Tangen",
-        "Jason B. Mattingley",
-        "Shane E. Ehrhardt"
-      ],
-      "doi": "10.1002/advs.76675",
-      "arxiv_id": "2508.13421v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Software Engineering for AI-Driven Science",
-      "source": "arXiv",
-      "date": "2026-10-25T21:14:20+00:00",
-      "updated": "2026-10-25T21:14:20+00:00",
-      "url": "http://arxiv.org/abs/2610.34573v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34573v1",
-      "abstract": "AI has made significant contributions to scientific discovery. Autonomous agents can now independently analyse complex problems, design experiments, write and execute code, analyse findings, and derive scientific conclusions. Nevertheless, errors in AI-generated code, experimental procedures, or evidence interpretation can lead to invalid research conclusions, undermining the reliability and reproducibility of automated scientific discovery. In this vision paper, we propose Software Engineering for AI-Driven Science (SE4AI4Sci) as an emerging research area for addressing this challenge. As an organising framework, we introduce the Scientific Assurance Chain, connecting intent, experimental design, implementation, execution, evidence, and claim. Through six documented failures in recent AI-for-science systems, we show where this chain can break, where existing assurance mechanisms fall short, and what new research challenges follow. We also outline a research agenda for adapting and extending software engineering techniques across the chain.",
-      "authors": [
-        "Lukas Twist",
-        "Xinjian Wu",
-        "Jingzhi Gong",
-        "Shuyin Ouyang",
-        "Ying Xiao",
-        "Benedetta Donato",
-        "Yaoqi Guo",
-        "Zhenpeng Chen",
-        "Leonardo Mariani",
-        "Helen Yannakoudakis",
-        "Jie M. Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34573v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Rethinking Scientific Discovery in the Agentic Era",
-      "source": "arXiv",
-      "date": "2026-07-04T13:09:33+00:00",
-      "updated": "2026-10-25T15:55:42+00:00",
-      "url": "http://arxiv.org/abs/2607.03863v3",
-      "pdf_url": "https://arxiv.org/pdf/2607.03863v3",
-      "abstract": "Artificial intelligence has advanced scientific discovery, but most AI4Science systems remain fragmented tools that rely on humans to coordinate problem formulation, literature grounding, model use, simulation, validation, and knowledge reuse. This paper presents \\textbf{SCION (Scientific Collaborative Innovation with Agentic Organizational Nexus)}, an agentic scientific operating system that acts as an \\textbf{organizational nexus}. Through a Science Agent serving as a \\textbf{Meta-Harness}, SCION connects scientific tasks, tools, agents, artifacts, and memory, transforming research into an executable, auditable, and reusable operational process. At its core is the \\textbf{Research Execution Plan (REP)}, which compiles high-level scientific intent into staged objectives, dependencies, verification checkpoints, tool requirements, expected artifacts, and fallback conditions. SCION further integrates hierarchical multi-agent execution, profile-driven specialization, selective context construction, governed delegation, and layered epistemic memory to support long-horizon scientific work. We formulate discovery under SCION as \\textbf{Target-conditioned Inverse Search} and extend it to hidden-target settings through batch active search under finite experimental budgets. Applications in materials analysis, molecule design, and protein or antibody screening, together with experiments on scientific reading, idea generation, molecule generation, and antibody screening, show that SCION outperforms existing autonomous research-agent baselines, especially in decomposition, verification, refinement, and memory reuse. Overall, SCION shifts AI from isolated tools toward a coordinated operational layer for traceable and reusable scientific innovation.",
-      "authors": [
-        "Yining Zheng",
-        "Yuxin Wang",
-        "Jiahao Lu",
-        "Shicheng Fang",
-        "Weiyi Wang",
-        "Yongzhuo Yang",
-        "Bowen Li",
-        "Haochen Ma",
-        "Chen Hu",
-        "Bowen Chen",
-        "Yang Wang",
-        "Huanhui Chen",
-        "Yitong Chen",
-        "Jiajun Chen",
-        "Zhiyuan Li",
-        "Yanlin Li",
-        "Zhuo Yang",
-        "Qifeng Wu",
-        "Jiaying He",
-        "Zhijie Jinluo",
-        "Xiaohu Xu",
-        "Yi Feng",
-        "Juncheng Qian",
-        "Yizhou Chen",
-        "Yang Cheng",
-        "Tong Zhu",
-        "Tianlei Ying",
-        "Hongyu Yu",
-        "Hongjun Xiang",
-        "Xipeng Qiu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.03863v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "GraphDancer: Training LLMs to Explore and Reason over Graphs via Curriculum Reinforcement Learning",
-      "source": "arXiv",
-      "date": "2026-01-24T02:44:49+00:00",
-      "updated": "2026-10-25T14:54:07+00:00",
-      "url": "http://arxiv.org/abs/2602.02518v3",
-      "pdf_url": "https://arxiv.org/pdf/2602.02518v3",
-      "abstract": "Large language models (LLMs) increasingly rely on external knowledge to improve factuality, yet many knowledge sources on the Web, such as scholarly indexes and product catalogs, are organized as heterogeneous graphs. Reasoning over such graph-structured knowledge poses two key challenges: (1) navigating structured, schema-defined relations requires precise function calls beyond similarity-based retrieval, and (2) answering complex questions often demands multi-hop evidence aggregation through iterative information seeking. We study how LLMs can learn these interaction capabilities and transfer them to unseen domains. We propose GraphDancer, a reinforcement learning (RL) framework that teaches LLMs to navigate graphs by interleaving reasoning and function execution. To improve RL for moderate-sized LLMs, we introduce a graph-aware curriculum that schedules training by the structural difficulty of questions using an easy-to-hard biased sampler. We evaluate GraphDancer on the multi-domain GRBench benchmark, training only on Academic and Biomedical graphs. Testing covers held-out questions from these domains as well as unseen E-commerce, Literature, and Legal graphs. With either Qwen2.5-3B-Instruct or Qwen3-14B as the backbone, GraphDancer outperforms graph-agent baselines using the same backbone across all evaluation domains. These results indicate that the learned graph exploration and reasoning capabilities transfer across domains. On average across unseen domains, GraphDancer with a 14B backbone also outperforms baselines powered by the closed-source models GPT-4.1-mini and GPT-5-nano. Trajectory analyses further show that GraphDancer retrieves answer-bearing evidence more often and achieves higher accuracy when such evidence is found, while substantially reducing invalid-protocol outcomes.",
-      "authors": [
-        "Yuyang Bai",
-        "Zhuofeng Li",
-        "Ping Nie",
-        "Jianwen Xie",
-        "Yu Wang",
-        "Yu Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.02518v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Agents for Experiments, Experiments for Agents: A Design Grammar for AI-Enabled Experimental Science",
-      "source": "arXiv",
-      "date": "2026-05-18T01:59:21+00:00",
-      "updated": "2026-10-25T09:38:50+00:00",
-      "url": "http://arxiv.org/abs/2605.17746v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.17746v2",
-      "abstract": "Human-AI experiments vary who receives information, who can act, and who holds decision authority. Precise descriptions of individual studies do not by themselves provide a common language for comparing these arrangements. This conceptual commentary proposes SEED (Structural Encoding for Experimental Discovery), a grammar that represents each experimental condition as a typed actor-flow graph. Its purpose is to organize publicly documented studies into a shared library of consistently represented conditions. Human researchers and AI systems can use this common reference to understand prior arrangements and propose extensions for new research questions. The grammar distinguishes structural changes from attribute variation; the scientific value of a proposed change requires substantive argument and evidence. Computational illustrations demonstrate how SEED can support design comparison and AI-assisted development of candidate experimental conditions. We discuss implications for future replication and provenance work, including under restricted data access, and risks of selective search. We call for community agreement on the grammar and coordinated construction and maintenance of the library.",
-      "authors": [
-        "Yingjie Zhang",
-        "Chun Feng",
-        "Weizhang Zhu",
-        "Tianshu Sun"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.17746v2",
-      "pubmed_id": ""
-    },
-    {
       "title": "Enhancing Clinical Classifier Robustness with Deep Representation Learning Based OOD Detection on DNA Methylation Data",
       "source": "arXiv",
       "date": "2026-10-26T22:11:07+00:00",
@@ -334,29 +185,6 @@
       ],
       "doi": "",
       "arxiv_id": "2610.35562v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "OmicsLM: A Multimodal Large Language Model for Multi-Sample Omics Reasoning",
-      "source": "arXiv",
-      "date": "2026-05-07T11:27:11+00:00",
-      "updated": "2026-10-25T08:32:57+00:00",
-      "url": "http://arxiv.org/abs/2605.06728v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.06728v2",
-      "abstract": "Large language models can reason over biological knowledge, but they are not naturally equipped to work with quantitative omics measurements. Existing approaches either convert expression profiles into long textual representations, often losing quantitative information, or connect omics encoders to language models for narrow tasks. We introduce OmicsLM, a 9B multimodal language model that represents each bulk or single-cell transcriptome as a compact continuous embedding that can be interleaved with natural-language instructions and with other samples in the same context. An key contribution is a training corpus that connects experimental measurements with biological knowledge and task supervision. We combine templates linking transcriptomic profiles to annotations and experimental outcomes, reasoning examples connecting evidence across sources, and LLM-generated supervision with task-specific quality checks. The instruction-tuning corpus spans 157 biological and general-purpose task groups. Training includes continued pretraining on 20 billion tokens and supervised fine-tuning on 5.21 million conversations. We further introduce GEO-OmicsQA, a publication-disjoint benchmark of 3,000 questions requiring models to interpret and compare expression profiles from real GEO studies. OmicsLM achieves the best results among the evaluated models on three of four held-out annotation tasks and on all six GEO-OmicsQA variants, and the best average performance among compared methods on PerturbQA perturbation-response prediction. Ablations show a clear advantage for continuous omics representations over a text-only gene-list representation. Together, these results show that quantitative transcriptomic measurements and biological language can be integrated within a general conversational model, enabling both predictive tasks and language-guided interpretation of experimental samples.",
-      "authors": [
-        "Maciej Sypetkowski",
-        "Łukasz Smoli{ń}ski",
-        "Remigiusz Kinas",
-        "Joanna Krawczyk",
-        "Bartłomiej Hofman",
-        "Aleksandra Mo{ż}wiłło",
-        "Michał Pikusa",
-        "Tomasz Jetka",
-        "Rafał Powalski"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.06728v2",
       "pubmed_id": ""
     },
     {
@@ -883,105 +711,13 @@
       "doi": "",
       "arxiv_id": "2610.35056v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "Adaptive Retrieval, Selective Answers: Evaluating Conformal Factuality in Agentic RAG",
-      "source": "arXiv",
-      "date": "2026-10-26T05:37:03+00:00",
-      "updated": "2026-10-26T05:37:03+00:00",
-      "url": "http://arxiv.org/abs/2610.34872v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34872v1",
-      "abstract": "Retrieval-augmented generation (RAG) can improve factual grounding without guaranteeing that every generated claim is supported. Previous work has studied claim-level conformal factuality in single-stage RAG and, more recently, multi-hop RAG. We examine its behavior in agentic RAG, where a language-model policy adaptively issues follow-up retrieval queries or terminates retrieval before response generation. We retain the retrieval-based relevance-scoring formulation and post-generation conformal filtering and evaluate six model-dataset configurations: GPT-6 Luna and Llama 3.1 8B on HotpotQA, Natural Questions, and TriviaQA. Each configuration uses 60 fixed questions, 100 seeded 30/30 calibration-test partitions, five conformal target levels, and a no-conformal-prediction baseline. Across the six configurations, higher target levels are accompanied by higher observed full-support rates and reduced answer availability. At the 95% target, non-empty response coverage ranges from 17.23% to 60.17%, claim retention from 10.72% to 43.16%, and full support among non-empty outputs from 89.14% to 95.56%. We formulate the adaptive retrieval trajectory explicitly and characterize the reliability-informativeness trade-off when conformal factuality is applied after agent termination.",
-      "authors": [
-        "Muhammad Aimal Rehman",
-        "Chi-Kuang Yeh"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34872v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "UniGFM-RAG: Unify Graph Foundation Models and Large Language Models for End-to-End Retrieval and Reasoning",
-      "source": "arXiv",
-      "date": "2026-10-26T05:30:07+00:00",
-      "updated": "2026-10-26T05:30:07+00:00",
-      "url": "http://arxiv.org/abs/2610.34866v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34866v1",
-      "abstract": "Large Language Models (LLMs) have shown remarkable capabilities across tasks, but they still struggle with complex reasoning that requires integrating scattered knowledge. Graph Retrieval-Augmented Generation (GraphRAG) addresses this challenge by organizing fragment knowledge as graphs, while recent Graph Foundation Models (GFMs) further improve GraphRAG with graph-native retrieval and reasoning capabilities. However, existing GraphRAG methods usually adopt decoupled retrieve-then-generate pipelines, which create objective misalignment between retrieval and reasoning, and training GFM retrievers typically depends on expensive human annotations. To address these limitations, we propose \\ourmethod, a unified end-to-end GraphRAG framework that tightly couples a GFM retriever with an LLM generator. Given a query, the GFM retriever first reasons over the graph to score and retrieve relevant document nodes. These node embeddings are then passed through a fully differentiable graph bridge, which projects them into soft-weighted graph prefixes according to retrieval scores and combines them with raw document texts to form graph-augmented prompts. In this way, structural information is injected directly into LLM generation, while the final answer loss can be back-propagated through the bridge to jointly optimize retrieval and reasoning. To stabilize training and reduce reliance on costly annotations, we further introduce a semantic-guided distillation module that provides auxiliary supervision using pseudo-labels derived from query-document semantic similarities. Extensive experiments on three multi-hop QA datasets and three out-of-domain GraphRAG benchmarks show that \\ourmethod consistently outperforms strong baseline methods and generalizes well, which demonstrates the effectiveness of end-to-end GraphRAG with tightly integrated GFM retrieval and LLM reasoning.",
-      "authors": [
-        "Zicheng Zhao",
-        "Linhao Luo",
-        "Zongji Yu",
-        "Junnan Dong",
-        "Yanchao Tan",
-        "Shirui Pan",
-        "Chen Gong"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34866v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
-      "source": "arXiv",
-      "date": "2026-10-26T05:27:57+00:00",
-      "updated": "2026-10-26T05:27:57+00:00",
-      "url": "http://arxiv.org/abs/2610.34865v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34865v1",
-      "abstract": "Urban heritage tours are often delivered through fixed scripts, leaving limited room for visitors' situated questions, language preferences, or requests for evidence. We present ECHOES, an adaptive LLM-powered AR glasses docent for evidence-grounded interpretation of historical buildings. Specifically, the agent adapts along three dimensions: it modifies response structure according to the type of visitor question (identification, architectural detail, evidence-seeking, or route inquiry); it accumulates session-level interest signals from repeated questions and expressed curiosity to shape later explanations; and it tracks language preference and retrieval context across turns to maintain conversational continuity. The core of ECHOES is an LLM agent initialized as a source-aware urban heritage docent that realizes this adaptation through dialogue and preference context maintained across the session. Around this agent, ECHOES integrates visual site grounding, a self-built historical knowledge base supporting retrieval-augmented generation, and concise multilingual AR output designed for glanceable use. Through a working prototype centered on Shanghai's East Nanjing Road and the Bund, we demonstrate how an adaptive LLM-powered AR docent can transform historical tours from scripted narration into situated, question-responsive, and source-aware conversations.",
-      "authors": [
-        "Bang Xiao",
-        "Baosheng Jin",
-        "Jinhan Niu",
-        "Xingchen Zhang",
-        "Hua Shen"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34865v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Logic Hijacking of RAG: Single-Document Poisoning via Local Optimization",
-      "source": "arXiv",
-      "date": "2026-10-26T04:23:01+00:00",
-      "updated": "2026-10-26T04:23:01+00:00",
-      "url": "http://arxiv.org/abs/2610.34829v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34829v1",
-      "abstract": "Single-document corpus poisoning under black-box access poses a severe threat to Retrieval-Augmented Generation (RAG). However, existing attacks predominantly rely on explicit factual refutations or imperative instruction overrides. Modern aligned LLMs often arbitrate such conflicts conservatively, rejecting overt contradictions in favor of parametric memory or clean retrieved context while triggering input guardrails. We propose MONOLOGUE, a single-document poisoning framework based on Logic Hijacking without explicit refutation. Rather than disputing the ground truth, our method concedes it as an authoritative historical baseline before introducing the update, weaving a grounded record-correction narrative (e.g., dated institutional reattributions) that presents the counterfactual target as the most recent update. To prevent suspicious live writes, payloads are refined entirely offline via local multi-dimensional gated optimization, coupling automated text quality audits with surrogate behavioral verification. Evaluations across three benchmarks, three retrieval backends, and four open-weight generator regimes show that our method achieves the strongest overall attack efficacy among the evaluated single-document poisoning attacks.",
-      "authors": [
-        "Hangyi Zhao",
-        "Bonan Zhang",
-        "Fusen Guo",
-        "Jiaheng Wei",
-        "Chao Chen",
-        "Tianqing Zhu"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34829v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation",
-      "source": "arXiv",
-      "date": "2026-10-26T04:00:15+00:00",
-      "updated": "2026-10-26T04:00:15+00:00",
-      "url": "http://arxiv.org/abs/2610.34816v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.34816v1",
-      "abstract": "Retrieval-augmented generation (RAG) systems often use a dedicated reranker to choose which retrieved candidates reach the language model. Reranking improves relevance but adds latency, so teams look for faster alternatives. System-1style decision models make direct, structured predictions instead of generating long responses. Could one provide comparable reranking quality with less inference overhead? We first screen 21 open-weight models on 11 benchmarks, then compare a promising decision model with a dedicated reranker on identical candidate lists. The default decision-model setup fails on many long candidate sets, so scoring only the requests it completes gives a misleading ranking. Limiting candidate text length largely restores reliability and makes some configurations competitive. A frozen evaluation on new retrieval data supports the reliability and ranking results, but confirms the latency requirement for only one of the two selected configurations. Across workloads, which model ranks better changes, and a tuned reranker remains faster and uses far less GPU memory. A decision model can perform competitive reranking, but replacing a reranker requires weighing quality, latency and memory together, and teams should tune the reranker they already run first.",
-      "authors": [
-        "Qiaomu Li",
-        "Ying Xie"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.34816v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 49,
+      "count": 37,
       "error": ""
     }
   ]
