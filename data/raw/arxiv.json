@@ -1,28 +1,8 @@
 {
-  "fetched_at": "2026-10-31T06:55:07.525145+00:00",
+  "fetched_at": "2026-11-01T07:25:33.522602+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 24,
+  "count": 15,
   "papers": [
-    {
-      "title": "SheafStain: Sheaf-Theoretic Schrödinger Bridge for Spatially and Biologically Coherent Virtual Staining",
-      "source": "arXiv",
-      "date": "2026-06-10T09:22:03+00:00",
-      "updated": "2026-10-28T09:40:58+00:00",
-      "url": "http://arxiv.org/abs/2606.11846v3",
-      "pdf_url": "https://arxiv.org/pdf/2606.11846v3",
-      "abstract": "Current virtual staining approaches offer the potential for time- and cost-efficient biomarker quantification in cancer diagnostics and prognostics. However, patch-wise inference for gigapixel whole-slide images fails to maintain spatial continuity, yielding artifacts that cause catastrophic mismatches with ground-truth images. Although pathology Vision Foundation Models (VFMs) offer rich representations, their self-attention causes varying global contexts to produce inconsistent embeddings for the same physical region. We formalize and validate this \"context contamination\" as a sheaf-theoretic problem where these embeddings form a presheaf whose sections disagree on overlaps, so no global section restricts to them. To address this, we propose SheafStain, a new approach that reinterprets VFM features as sheaf-like sections for spatially and biologically coherent virtual staining. Specifically, SheafStain integrates class and patch tokens into a Schrödinger Bridge framework as sheaf-like sections. While the class token anchors biological consistency, patch tokens form a per-position spatial map. A feature space from a single VFM encoder pretrained on Hematoxylin \\& Eosin and Immunohistochemistry supervises both input conditioning and output stain alignment. Departing from prior work that evaluates on isolated $256 \\times 256$ patches and either random-crops or resizes the $1024 \\times 1024$ ground truth, we translate at $256 \\times 256$ and evaluate on the stitched $1024 \\times 1024$ outputs across HER2, ER, PR, and Ki-67. SheafStain demonstrates promising results against six prior methods while mitigating patch-boundary stitching artifacts. Code is available at https://github.com/deepnoid-ai/SheafStain.",
-      "authors": [
-        "Hyeongyeol Lim",
-        "Hongjun Yoon",
-        "Eunjin Jang",
-        "Daeky Jeong",
-        "Won June Cho",
-        "Hwamin Lee"
-      ],
-      "doi": "",
-      "arxiv_id": "2606.11846v3",
-      "pubmed_id": ""
-    },
     {
       "title": "CauProphet: Teaching Agents to Develop Causal Cognition like Humans",
       "source": "arXiv",
@@ -315,173 +295,13 @@
       "doi": "",
       "arxiv_id": "2602.03423v2",
       "pubmed_id": ""
-    },
-    {
-      "title": "MRC-MMAgent: Reinforcement Learning for Multi-Role Collaboration in Multimodal Tool-Using Agents",
-      "source": "arXiv",
-      "date": "2026-10-29T04:06:46+00:00",
-      "updated": "2026-10-29T04:06:46+00:00",
-      "url": "http://arxiv.org/abs/2610.39324v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39324v1",
-      "abstract": "Multimodal tool-using agents augment vision-language models with access to external information and capabilities, enabling them to solve knowledge-intensive and visually complex tasks that cannot be addressed using visual context alone. However, existing reinforcement learning pipelines largely train single-role agents to search and answer using terminal rewards, overlooking how humans inspect retrieved evidence, reformulate queries, and revise conclusions during search. Consequently, they fail to optimize this self-corrective process over complete interaction trajectories. We propose MRC-MMAgent, a multi-role collaborative reinforcement learning framework that incorporates trajectory assessment and continuation directly into the executable agent loop. First, the framework establishes a multi-role collaborative loop that integrates solving, inspection, and continuation, enabling the agent to acquire evidence through tools, evaluate the preceding trajectory, and resume problem solving when the current answer is insufficiently supported. Second, we introduce a role-coupled learning objective that combines task success, interaction validity, and successful correction with full-trajectory policy optimization across the decisions generated by all roles. Extensive experiments show that, using only the original baseline training set without constructing additional datasets, our method consistently outperforms the corresponding base models and achieves leading or highly competitive performance across benchmarks.",
-      "authors": [
-        "Shengqin Wang",
-        "Jie Jin",
-        "Xiaofan Li",
-        "Wentao Yan",
-        "Yu Cheng",
-        "Qingsong HuYihang Chen",
-        "Weilin Luo",
-        "Jingyu Gong",
-        "Xin Tan",
-        "Yuan Xie",
-        "Zhizhong Zhang"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.39324v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Sequential Decision Framework for Evaluating LLM-Guided Search",
-      "source": "arXiv",
-      "date": "2026-10-29T02:50:13+00:00",
-      "updated": "2026-10-29T02:50:13+00:00",
-      "url": "http://arxiv.org/abs/2610.39231v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39231v1",
-      "abstract": "Recent systems applying retrieval-augmented generation (RAG) and \"deep research\" iteratively generate queries, retrieve documents, and examine their contents, using the resulting information to guide subsequent search steps. When this process is carried out autonomously rather than by a human searcher, the system must make explicit decisions about which search trajectories to explore and what objective the search is intended to optimize. We introduce a simple framework for reasoning about such search policies, providing a principled approach to evaluation. The framework models the search environment as a set of ranked lists and represents behavior using two primitive actions: select, which advances judgment through an existing ranking, and spawn, which generates a new ranking through query generation or reformulation. Each action produces a document to inspect, yields information that updates the search state, and contributes a reward for a task-specific objective. Within this abstraction, a variety of existing retrieval strategies can be expressed as policies operating over a common environment, while common retrieval objectives can be represented through reward and weighting functions over the resulting search trajectory, and the resulting formulation admits a natural reinforcement learning interpretation. We illustrate the approach using high-recall information retrieval (HRIR), where the goal is to identify as many relevant documents as possible with limited judging effort, showing how the framework provides a unified way to describe and reason about strategies for both classical retrieval tasks and emerging LLM-guided search systems. Through experiments, we demonstrate that both the underlying retrieval method and the \"deep research\" policy employed can materially affect performance.",
-      "authors": [
-        "Siqing Huo",
-        "Andrew Parry",
-        "Debasis Ganguly",
-        "Mark Smucker",
-        "Charles L. A. Clarke"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.39231v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI",
-      "source": "arXiv",
-      "date": "2026-10-29T02:50:00+00:00",
-      "updated": "2026-10-29T02:50:00+00:00",
-      "url": "http://arxiv.org/abs/2610.39230v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.39230v1",
-      "abstract": "Financial AI systems must support decision-bearing questions involving payments, collections, cash flow, and compliance while ensuring numerical accuracy, traceability, and auditability. Large language models (LLMs) enable natural language interaction but cannot independently guarantee reproducible calculations or evidence-grounded recommendations. We present a production-grounded architecture integrating three components: a financial knowledge graph for enterprise relationships, temporal context, and provenance; a deterministic optimization engine for financial calculations and decisions; and a multi-agent LLM layer for intent interpretation, task orchestration, explanation, and claim validation. A coordination layer, termed context engineering, selects, ranks, composes, and validates query-specific context across ERP systems, tools, and tenants. Based on observations from 15 deployments over approximately 11 months, single-agent pipelines exhibited hallucination rates of about 7-9% (5-10% across query types), including invented invoices and unsupported financial claims. Graph-backed multi-agent validation reduced observed rates to below 1%, although these findings are observational rather than causal. ERP data quality and tenant-specific schemas remained major implementation challenges. Reusable mappings, graph templates, and validation policies coincided with a reduction in deployment time from roughly six to two weeks. We argue that financial context engineering extends beyond text-centric retrieval-augmented generation by requiring structured relationships, temporal validity, exact numerical evidence, access controls, and validation against source records and solver outputs. We outline research challenges in evaluation, reproducibility, privacy, context quality, and cross-tenant generalization.",
-      "authors": [
-        "Pradeep Kumar GS",
-        "Ravi Tanniru"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.39230v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Learning Scientific Trajectories to Predict Future Biomedical Discoveries",
-      "source": "arXiv",
-      "date": "2026-10-28T19:15:38+00:00",
-      "updated": "2026-10-28T19:15:38+00:00",
-      "url": "http://arxiv.org/abs/2610.38719v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.38719v1",
-      "abstract": "AI co-scientists have expanded the use of large language models for generating scientific hypotheses and guiding experimental investigation. Here we investigate whether temporal patterns in the semantic representations of complete biomedical conclusions can guide hypothesis generation. We introduce ForeSCITE, a framework that identifies thematic clusters of published conclusions, estimates a direction separating earlier from more recent findings within each cluster, and projects existing conclusion embeddings along these directions. An embedding language model trained to reconstruct conclusions decodes the projected coordinates into natural-language hypotheses. Across 407 clusters derived from approximately three million pre-cutoff conclusions, we identify temporal structure and illustrate its retention after decoding. In retrospective, time-sliced evaluations, ForeSCITE increases semantic coverage beyond the historical corpus, biomedical entity-pair novelty and post-cutoff pair re-observation relative to five prompt-based and retrieval-augmented baselines. Expert review of prioritized CAR-T hypotheses identified 37 candidates as both novel and biologically plausible, and expert justifications for five selected hypotheses illustrate their biological rationale and subsequent literature support where available. These findings support temporal guidance in semantic space as a scalable mechanism for proposing biomedical hypotheses for subsequent scientific evaluation.",
-      "authors": [
-        "Chia-Hsuan Chang",
-        "Brian Ondov",
-        "Jiang Lv",
-        "Lan Jiang",
-        "Yunmai Wang",
-        "Haerin Song",
-        "Xueqing Peng",
-        "Qiaozhu Mei",
-        "Xiaolei Su",
-        "Hua Xu"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.38719v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Survey on Open Dataset Search in the LLM Era: Retrospectives and Perspectives",
-      "source": "arXiv",
-      "date": "2025-08-31T07:45:40+00:00",
-      "updated": "2026-10-28T10:18:11+00:00",
-      "url": "http://arxiv.org/abs/2509.00728v2",
-      "pdf_url": "https://arxiv.org/pdf/2509.00728v2",
-      "abstract": "High-quality datasets are typically required for accomplishing data-driven tasks, such as training medical diagnosis models, predicting real-time traffic conditions, or conducting experiments to validate research hypotheses. Consequently, open dataset search, which aims to ensure the efficient and accurate fulfillment of users' dataset requirements, has emerged as a critical research challenge and has attracted widespread interest. Recent studies have made notable progress in enhancing the flexibility and intelligence of open dataset search, and large language models (LLMs) have demonstrated strong potential in addressing long-standing challenges in this area. Therefore, a systematic and comprehensive review of the open dataset search problem is essential, detailing the current state of research and exploring future directions. In this survey, we focus on recent advances in open dataset search beyond traditional approaches that rely on metadata and keywords. From the perspective of dataset modalities, we place particular emphasis on example-based dataset search, advanced similarity measurement techniques based on dataset content, and efficient search acceleration techniques. In addition, we emphasize the mutually beneficial relationship between LLMs and open dataset search. On the one hand, LLMs help address complex challenges in query understanding, semantic modeling, and interactive guidance within open dataset search. In turn, advances in dataset search can support LLMs by enabling more effective integration into retrieval-augmented generation (RAG) frameworks and data selection processes, thereby enhancing downstream task performance. Finally, we summarize open research problems and outline promising directions for future work. This work aims to offer a structured reference for researchers and practitioners in the field of open dataset search.",
-      "authors": [
-        "Pengyue Li",
-        "Sheng Wang",
-        "Hua Dai",
-        "Zhiyu Chen",
-        "Zhifeng Bao",
-        "Brian D. Davison"
-      ],
-      "doi": "",
-      "arxiv_id": "2509.00728v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation",
-      "source": "arXiv",
-      "date": "2026-10-27T10:38:29+00:00",
-      "updated": "2026-10-28T10:00:44+00:00",
-      "url": "http://arxiv.org/abs/2610.36991v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.36991v2",
-      "abstract": "Retrieval-augmented generation (RAG) systems ground large language models (LLMs) by retrieving external evidence and conditioning generation on the retrieved context. Although dense retrieval is effective for local semantic matching, independently ranked retrieval can return redundant passages, miss cross-chunk dependencies, and provide incomplete evidence for multi-hop reasoning. We propose SpectRAG, a spectral graph-augmented retrieval framework that combines hybrid candidate seeding, weighted chunk graph construction, graph-based expansion, spectral relevance propagation, and token-budgeted context selection. Document chunks are represented by dense semantic embeddings and graph-spectral coordinates derived from a weighted chunk graph whose edges encode semantic similarity, document adjacency, section hierarchy, shared entities, citation links, and similarity between LLM-generated utility questions. At query time, SpectRAG builds a high-recall seed set using exact inner-product search and hybrid relevance signals, expands it over the chunk graph, re-scores candidates using graph proximity and spectral information, and assembles the final context under a fixed token budget. The goal is not merely to retrieve individually similar chunks, but to construct a context that is relevant, diverse, structurally connected, and sufficient for grounded reasoning. Experiments on MultiHopRAG, UltraDomain, and long-document question-answering settings show that SpectRAG improves broad evidence recovery and achieves competitive generation quality against dense, hybrid, HyDE, LightRAG, and NaiveRAG baselines. The results further indicate that graph-spectral structure is particularly useful for inference-oriented and cross-document retrieval, while highlighting trade-offs in early precision, computational cost, and domain-dependent performance.",
-      "authors": [
-        "Zafer Sahinoglu",
-        "Abdulazeez Mohammed",
-        "Buse Yaren Kazangirler",
-        "Cahit Berkay Kazangirler"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.36991v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Adaptive Query Routing: A Tier-Based Framework for Hybrid Retrieval Across Financial, Legal, and Medical Documents",
-      "source": "arXiv",
-      "date": "2026-04-14T10:48:13+00:00",
-      "updated": "2026-10-28T09:45:47+00:00",
-      "url": "http://arxiv.org/abs/2604.14222v2",
-      "pdf_url": "https://arxiv.org/pdf/2604.14222v2",
-      "abstract": "Retrieval-Augmented Generation (RAG) has become the standard paradigm for grounding Large Language Model outputs in external knowledge. Lumer et al. presented the first systematic evaluation comparing vector-based agentic RAG against hierarchical node-based reasoning systems for financial document QA across 1,200 SEC filings, finding vector-based systems achieved a 68% win rate. Concurrently, the PageIndex framework reported 98.7% accuracy on FinanceBench through purely reasoning-based retrieval. This paper extends their work by: (i) implementing and evaluating three retrieval configurations: Vector RAG, Tree Reasoning, and the proposed Adaptive Hybrid Retrieval (AHR), on a small controlled corpus of financial, legal, and medical documents; (ii) introducing a four-tier query complexity benchmark; and (iii) employing LLM-as-judge evaluation with GPT-4o-mini. Experiments reveal that Tree Reasoning achieves the highest overall score (0.900), but no single paradigm dominates across all tiers: AHR scores highest on cross-reference queries (0.850), all three methods tie on multi-section queries (0.929), and Vector RAG scores highest on the single multi-document query (0.900). Vector RAG has the lowest mean latency (1.61 s against 3.40 s for Tree Reasoning). On the first 50 publicly released FinanceBench questions, using the evidence snippets supplied with the benchmark as the retrieval corpus, Tree Reasoning scores 0.938, Hybrid AHR 0.901, and Vector RAG 0.821. Because the configurations also differ in document access, generation prompts and output length limits, these differences cannot be attributed to retrieval architecture alone. In these preliminary results the adaptive router does not outperform fixed tree reasoning overall (0.845 vs. 0.900); they motivate a larger evaluation of when query-based routing helps, rather than establishing its benefit.",
-      "authors": [
-        "Afshan Hashmi"
-      ],
-      "doi": "",
-      "arxiv_id": "2604.14222v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering",
-      "source": "arXiv",
-      "date": "2026-10-28T07:03:44+00:00",
-      "updated": "2026-10-28T07:03:44+00:00",
-      "url": "http://arxiv.org/abs/2610.38366v1",
-      "pdf_url": "https://arxiv.org/pdf/2610.38366v1",
-      "abstract": "Recent advances in large language models (LLMs) have spurred growing interest in temporal knowledge graph question answering (TKGQA). Most existing methods rely on semantic retrieval augmented generation (RAG), which suffers from fundamental limitations in complex temporal reasoning. On the one hand, semantic-based RAG methods struggle to capture the multi-hop causal knowledge required for complex temporal reasoning. On the other hand, these methods introduce excessive redundant knowledge, trapping LLMs in spurious reasoning chains that potentially result in erroneous answers. To address these problems, we propose a Temporal Causal Chain-guided RAG (TCC-RAG) to retrieve a concise yet sufficient set of causal knowledge to support complex temporal reasoning. Specifically, we reformulate the temporal knowledge graph into a multi-view causal cue graph, with causal cues inducing connections that explicitly encode temporal evolution and causal dynamics. Based on the causal cue graph, we construct a query-specific temporal causal chain to guide the retrieval process, enabling the model to focus on a concise set of causally relevant knowledge. Finally, we introduce a causal evidence filter to refine the retrieved knowledge, ensuring its causal consistency with the underlying temporal logic of the query. Experiments show that TCC-RAG achieves substantial performance gains of 10.72% and 8.40% on two TKGQA benchmarks, and delivers a remarkable 62.97% improvement for multi-step temporal reasoning.",
-      "authors": [
-        "Xinxun Zhang",
-        "Yuxiang Wang",
-        "Shanshan Feng",
-        "Jun Zhang",
-        "Tieyun Qian",
-        "Binhang Yuan",
-        "Kai Yin",
-        "Xiao Yan",
-        "Jiawei Jiang"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.38366v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 24,
+      "count": 15,
       "error": ""
     }
   ]
