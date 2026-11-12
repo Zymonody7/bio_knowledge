@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-11T07:42:24.038111+00:00",
+  "fetched_at": "2026-11-12T08:12:19.042981+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 63,
+  "count": 46,
   "papers": [
     {
       "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
@@ -105,21 +105,6 @@
       ],
       "doi": "",
       "arxiv_id": "2611.12798v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Short-term associations between wild-bird and mammalian high pathogenic avian influenza detection in the United States",
-      "source": "arXiv",
-      "date": "2026-11-09T07:40:10+00:00",
-      "updated": "2026-11-09T07:40:10+00:00",
-      "url": "http://arxiv.org/abs/2611.12005v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12005v1",
-      "abstract": "High pathogenic avian influenza (HPAI) detections in mammals have raised concern about repeated wildlife spillover and the targeting of mammalian surveillance. We evaluated whether wild-bird detection records contained short-term explanatory and predictive information about mammalian detections in the United States. Public surveillance records from April 2022 to July 2026 comprised 18,523 wild-bird and 815 mammalian detections. Monthly state-level mammalian counts were analysed using negative-binomial mixed models adjusted for seasonality, preceding mammalian detections and state-level heterogeneity. The selected model contained contemporaneous and one-month-lagged same-state wild-bird counts. A doubling of one plus the contemporaneous wild-bird count was associated with a 57.9% increase in the expected mammalian count (95% CI 43.5-73.8%), and a doubling of the preceding-month count with a 15.9% increase (5.2-27.8%). Bordering-state exposure did not improve fit. In a six-month temporal holdout, adding same-state wild-bird exposure reduced mean absolute error by 23.8% and root mean squared error by 27.9%, although total detections remained overpredicted. After exact-row deduplication, the corresponding effects were 59.7% and 13.3%. Wild-bird surveillance records contained short-term, geographically local information about mammalian HPAI detection activity, but the associations do not establish direct transmission and require further calibration before operational forecasting.",
-      "authors": [
-        "Hammed Olawale Fatoyinbo"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.12005v1",
       "pubmed_id": ""
     },
     {
@@ -403,85 +388,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
-      "source": "arXiv",
-      "date": "2026-11-09T07:51:52+00:00",
-      "updated": "2026-11-09T07:51:52+00:00",
-      "url": "http://arxiv.org/abs/2611.12014v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12014v1",
-      "abstract": "Large language models and the multi-agent systems built around them could accelerate materials discovery by connecting scientific knowledge with experimental decisions. Existing benchmarks establish capabilities in domain knowledge, multimodal interpretation and scientific tool use. As language models increasingly support materials research workflows, their ability to distinguish closely related material states and reason accurately with quantitative evidence remains insufficiently evaluated. These abilities are essential for comparing material responses, assessing mechanisms and maintaining reliable judgements as experimental evidence accumulates. We introduce MatScope to evaluate three connected capabilities. M1 tests unaided, condition-specific reasoning through 200 tasks spanning ten research functions, using aluminium and high-entropy alloys as representative material systems. M2 tests agent-assisted transfer of related knowledge to unresolved materials questions. MatEvoBench-20 tests initial forecasts across scientific dependency chains and revisions of still-hidden responses as observations accumulate. Across eleven model deployments, including GPT-6 Astra and Claude Fable 5.1, given-input calculations and many physical explanations are handled well. Fine-grained response estimates, comparisons between similar states and quantitatively supported choices remain substantially weaker. Related literature improves selected estimates, while condition and baseline mismatches limit transfer. Progressive observations calibrate some downstream responses and destabilize earlier accurate predictions. MatScope establishes measurable targets for developing reliable scientific reasoning in future self-evolving materials laboratories and materials-aware world models.",
-      "authors": [
-        "Xuyu Dong",
-        "Yixuan Li",
-        "Jianguo Huang",
-        "Feng Chen",
-        "Yiyun Zhou",
-        "Bo An",
-        "Zheng Liu",
-        "Da Shu"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.12014v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SpecXMaster Technical Report",
-      "source": "arXiv",
-      "date": "2026-03-24T11:49:41+00:00",
-      "updated": "2026-11-09T05:45:54+00:00",
-      "url": "http://arxiv.org/abs/2603.23101v6",
-      "pdf_url": "https://arxiv.org/pdf/2603.23101v6",
-      "abstract": "Intelligent spectroscopy serves as a pivotal element in AI-driven closed-loop scientific discovery, functioning as the critical bridge between matter structure and artificial intelligence. However, conventional expert-dependent spectral interpretation encounters substantial hurdles, including susceptibility to human bias and error, dependence on limited specialized expertise, and variability across interpreters. To address these challenges, we propose SpecXMaster, an intelligent framework leveraging Agentic Reinforcement Learning (RL) for NMR molecular spectral interpretation. SpecXMaster enables automated extraction of multiplicity information from both 1H and 13C spectra directly from raw FID (free induction decay) data. This end-to-end pipeline enables fully automated interpretation of NMR spectra into chemical structures. It demonstrates superior performance across multiple public NMR interpretation benchmarks and has been refined through iterative evaluations by professional chemical spectroscopists. We believe that SpecXMaster, as a novel methodological paradigm for spectral interpretation, will have a profound impact on the organic chemistry community.",
-      "authors": [
-        "Yutang Ge",
-        "Yaning Cui",
-        "Hanzheng Li",
-        "Jun-Jie Wang",
-        "Fanjie Xu",
-        "Jinhan Dong",
-        "Yongqi Jin",
-        "Dongxu Cui",
-        "Peng Jin",
-        "Guojiang Zhao",
-        "Hengxing Cai",
-        "Tianci Yangfeng",
-        "Xueqing Chen",
-        "Hongshuai Wang",
-        "Changhao Nai",
-        "Jiarun Liu",
-        "Zheng Zhang",
-        "Rong Zhu",
-        "Linfeng Zhang",
-        "Xiaohong Ji",
-        "Zhifeng Gao"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.23101v6",
-      "pubmed_id": ""
-    },
-    {
-      "title": "LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery",
-      "source": "arXiv",
-      "date": "2026-10-24T05:36:55+00:00",
-      "updated": "2026-11-08T15:11:50+00:00",
-      "url": "http://arxiv.org/abs/2610.33465v3",
-      "pdf_url": "https://arxiv.org/pdf/2610.33465v3",
-      "abstract": "Discovering equations from data provides governing laws, constitutive relations and closure models for scientific understanding and prediction. Yet a method that succeeds on one system may fail on another or on noisy data, so discovery depends on expert trial and error. Unsuccessful searches can still reveal useful parts of an equation, but these clues must be recognized and combined. We present LegoSR, a unified framework for agent-guided equation discovery built on composable discovery and cumulative experience. Seven complementary equation discovery methods and shared computational modules form reusable building blocks, connected through a common equation representation. Researchers can launch discovery with one command and guide it with partially known equations. LegoSR Agent selects methods, revises searches using feedback and combines partial findings into new hypotheses. Its Experience Library consolidates graded outcomes into lessons that guide later tasks across equation families. Evaluation covers 134 algebraic regression problems, 40 ordinary differential equation targets and 17 partial differential equation problems at several noise levels, together with three case studies. On noisy differential equation benchmarks, LegoSR Agent nearly matches the recovery coverage of seven expert-tuned methods combined and exceeds a generic agent with the same model, tools and budget by up to 29.4 percentage points, with 51-61% shorter median wall-clock time.",
-      "authors": [
-        "Hao Mao",
-        "Xu T. Liu",
-        "Hao Xu",
-        "Peng Zhao",
-        "Qian Li",
-        "Dongxiao Zhang",
-        "Jinyue Yan",
-        "Yuntian Chen"
-      ],
-      "doi": "",
-      "arxiv_id": "2610.33465v3",
-      "pubmed_id": ""
-    },
-    {
       "title": "FDR-Controlled Variable Selection for Generalized Linear Models and Cox Regression with Virtual Dummies",
       "source": "arXiv",
       "date": "2026-09-24T10:09:03+00:00",
@@ -549,102 +455,6 @@
       ],
       "doi": "",
       "arxiv_id": "2611.12107v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "BioFirewall: A genome-writing-native governance layer for design-stage biosecurity screening of agentic AI",
-      "source": "arXiv",
-      "date": "2026-08-15T17:14:49+00:00",
-      "updated": "2026-11-09T08:08:52+00:00",
-      "url": "http://arxiv.org/abs/2608.20413v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.20413v2",
-      "abstract": "AI design tools now plan genome-scale edits, and agentic systems execute those plans with progressively less human oversight. Biosecurity controls are limited to two points: refusal guardrails at the foundation model and sequence-identity screening at the synthesiser. The design stage between them, where the plan is specified, is governed by recommendations, not by any deployed system. We present BioFirewall, a rule-governed middleware that intercepts a genome-writing plan and returns allow, flag-for-review, or refuse across five genome-writing-native hazard axes: cargo, locus, edit type, germline and scale, with cited evidence, a signed design passport, a tamper-evident audit log, and tiered access. On a de-circularised benchmark of safe proxies scored against independent oracles, a function-aware cargo classifier reached a true-positive rate of 0.72 (95% CI 0.43 to 0.89) at a false-positive rate of 1.105%, the nearest attainable to 1%, on a held-out split. Language-model judges did not reliably screen these sequences: their engagement depended heavily on sequence class, so a rate conditioned on engagement does not measure screening performance. Under prompt injection, the blocking verdicts of the open-weight judges tested flipped to allow, while the deterministic screen remained invariant. None of the 288 legitimate plans was refused, giving a 95% upper bound on the false-refuse rate of 0.0103 for the evaluated corpus under an independence assumption, or 0.632 treating the three plan templates as independent units. On a held-out gene set, the locus axis was enriched for drivers of in vivo insertional oncogenesis (AUROC 0.605; odds ratio 3.34), and a session monitor intercepted the cross-call decomposition attacks it was built to detect. These results show design-stage governance is achievable within the evaluated scope. BioFirewall is open source under a permissive licence.",
-      "authors": [
-        "Anees Ahmed Mahaboob Ali",
-        "Radhakrishnan Delhibabu",
-        "Everette Jacob Remington Nelson"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.20413v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "HyPLM Technical Report",
-      "source": "arXiv",
-      "date": "2026-11-09T07:37:34+00:00",
-      "updated": "2026-11-09T07:37:34+00:00",
-      "url": "http://arxiv.org/abs/2611.12000v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.12000v1",
-      "abstract": "Protein language models (PLMs) are standard tools for variant-effect prediction, protein annotation and design, but the compute needed to train and serve them keeps growing. We present HyPLM-Flash, an efficient and open PLM trained by Hyra 2.0, the research agent developed by our team. HyPLM-Flash is a 650-million-parameter masked language model trained on 726 billion tokens, 0.73 times the data of ESM-2 650M and a fifth to an eighth of the data of E1-600M and ESM C 600M. It runs on an inference engine with fused kernels and INT8 matrix multiplication, embedding about 130,000 residues per second on a single NVIDIA H20 GPU, 1.9 to 2.7 times faster than other 600M-class encoders. In a matched evaluation against 28 public checkpoints on 32 tasks, HyPLM-Flash reaches a ProteinGym zero-shot Spearman correlation of 0.409, statistically tied with ESM-2 650M, ESM C 600M and E1-600M, and the highest organismal-fitness score among self-supervised single-sequence models. It gives the best long-range contact precision of all models evaluated, including ESM-2 15B and ESM C 6B, and a lower masked-residue loss than ESM-2 650M, ESM C 600M and E1-600M on held-out sequences and on recently released PDB chains. Matching state-of-the-art accuracy at a fraction of the training and inference cost, HyPLM-Flash sets a new Pareto frontier for protein language models. We have released the model weights and the inference engine at https://github.com/Tencent-Hunyuan/hyra-results/tree/main.",
-      "authors": [
-        "Haowei Lin",
-        "Cai Zhou",
-        "Xiangxin Zhou"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.12000v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "OriDynamics: Towards a World Model for Biomolecular Dynamics",
-      "source": "arXiv",
-      "date": "2026-11-09T06:20:58+00:00",
-      "updated": "2026-11-09T06:20:58+00:00",
-      "url": "http://arxiv.org/abs/2611.11958v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11958v1",
-      "abstract": "Biomolecular recognition and regulation depend on atomic interactions that change as molecular partners fluctuate and adopt alternative conformations. Modeling these processes requires ensembles that capture both conformational diversity and coordinated atomic fluctuations between interacting molecules. Here we present OriDynamics, a unified framework for all-atom ensemble generation across protein monomers and complexes with small molecules or protein partners. OriDynamics introduces a latent ensemble decomposition that couples broad conformational exploration in a compact structural latent space with local all-atom sampling around generated proposals. Ensemble-level supervision constrains mean positions, fluctuation amplitudes and joint coordinate covariance to capture coordinated atomic variability within and between molecular partners. Across benchmarks of proteins and their complexes, OriDynamics demonstrates superior overall performance in conformational coverage, atomic fluctuation fidelity and interaction geometry compared with leading baselines. Application studies further demonstrate recovery of alternative functional conformations and partner-dependent changes in conformational ensembles alongside sampling of configurations associated with ligand dissociation. These capabilities provide a foundation for a biomolecular world model that represents accessible molecular states and their dependence on interaction context.",
-      "authors": [
-        "Jiahao Yang",
-        "Dong Liu",
-        "Hongliang Li",
-        "Ji Chen",
-        "Yuehua Liu",
-        "Daoyun Ding",
-        "Duo An",
-        "Jun Li",
-        "Jiahua Rao",
-        "Ziqiao Zhang",
-        "Peicong Lin",
-        "Shuangjia Zheng"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11958v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Better Protein Function Prediction by Modeling Survivorship Bias",
-      "source": "arXiv",
-      "date": "2026-05-07T19:26:38+00:00",
-      "updated": "2026-11-09T05:05:50+00:00",
-      "url": "http://arxiv.org/abs/2605.06879v2",
-      "pdf_url": "https://arxiv.org/pdf/2605.06879v2",
-      "abstract": "Predicting whether a protein sequence possesses a biochemical property of interest is important for understanding and designing protein functionality. Modern protein sequence databases provide valuable training data for functional prediction, but they exhibit survivorship bias: natural selection favors variants that support organismal survival while eliminating many others before they can be observed, complicating classifier training. This setting motivates positive-unlabeled (PU) learning, which treats observed functional sequences as positive and unobserved sequences as unlabeled rather than nonfunctional. However, existing protein PU methods do not account for cross-sequence heterogeneity in evolutionary accessibility: sequences one nucleotide mutation away from a common variant arise far more readily than distant ones. We introduce PULSE: PU Learning with Surveillance and Evolution, a framework that trains a probabilistic classifier for a target protein function using an evolution-aware observation likelihood. When considering functionality of proteins with high genomic sequence coverage, PULSE combines a probabilistic classifier that estimates whether an amino acid sequence performs the target function with an evolutionary model that estimates the likelihood that its encoding nucleotide sequences emerge and are detected based on mutational accessibility, parental prevalence, and surveillance e!ciency. By coupling these two components, PULSE treats the absence of an evolutionarily accessible sequence as stronger evidence of non-functionality than the absence of one unlikely to arise. Tested on eleven tasks focusing on multiple Spike protein properties spanning five SARS-CoV-2 variants, PULSE ranks first or second on all of them, and achieves the best overall performance among all methods, including standard PU learning, one-class classification methods, and protein language models.",
-      "authors": [
-        "Zhongmou Chao",
-        "Poompol Buathong",
-        "Ekaterina Selivanovitch",
-        "Susan Daniel",
-        "Peter I. Frazier"
-      ],
-      "doi": "",
-      "arxiv_id": "2605.06879v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "PEN-STACK: A provenance-enforcing tool layer for language-model agents in genome writing",
-      "source": "arXiv",
-      "date": "2026-08-15T17:09:09+00:00",
-      "updated": "2026-11-08T22:05:10+00:00",
-      "url": "http://arxiv.org/abs/2608.20412v2",
-      "pdf_url": "https://arxiv.org/pdf/2608.20412v2",
-      "abstract": "Writing a gene into a human genome is a coupled design problem across locus, writer enzyme, cargo and delivery vehicle. Language-model agents are widely applied to such problems, but genome writing has no grounded tool layer. We present PEN-STACK, an open tool layer with enforced provenance that exposes ten design stages as twenty-two scope-aware tools over SDK, Model Context Protocol and REST interfaces. It integrates chromatin, enzyme, off-target, delivery and immunogenicity evidence under one typed contract: every reported quantity originates from a validated tool, and anything out of scope returns an explicit known-unknown. Given no tools and a naive prompt, three model families fabricated 97.1% to 100.0% of 240 required quantities. Coaching against fabrication reduced this to 0 of 240 on each of two families and 5 of 240 on a 1.5B-parameter local model, but each measured zero carries a 95% upper bound of 1.58%, so prompting yields no model-independent guarantee. With tool access on the same forty goals, all three families fabricated nothing, but 81% and 84% of required quantities resolved through a tool call for the two larger models against 27% for the local model: grounding confers fabrication safety, not capability. A pre-emission biosecurity screen matched its own probe specification on all eight designs, a self-consistency check with unmeasured error rates. A human position-effect model validated on held-out chromosomes (Spearman rho = 0.571, n = 1,506) but not on the features served by default (rho ~ 0.16), where the service withholds its validation flag. Ten claims were pre-specified in hash-locked specifications, though priority over scoring is not independently established; every outcome, including eight non-passes, is a machine-readable flag. Insertional-oncogenesis coverage is limited to documented loci. Code and three data resources are released openly.",
-      "authors": [
-        "Anees Ahmed Mahaboob Ali",
-        "Radhakrishnan Delhibabu",
-        "Everette Jacob Remington Nelson"
-      ],
-      "doi": "",
-      "arxiv_id": "2608.20412v2",
       "pubmed_id": ""
     },
     {
@@ -1147,154 +957,13 @@
       "doi": "",
       "arxiv_id": "2611.12085v1",
       "pubmed_id": ""
-    },
-    {
-      "title": "Event-Grounded Question Answering over Long Audio via Structured Retrieval",
-      "source": "arXiv",
-      "date": "2026-02-16T10:15:22+00:00",
-      "updated": "2026-11-09T07:02:15+00:00",
-      "url": "http://arxiv.org/abs/2602.14612v7",
-      "pdf_url": "https://arxiv.org/pdf/2602.14612v7",
-      "abstract": "Answering natural-language questions over multi-hour audio requires reliable event recognition, temporal grounding, and efficient retrieval. We present LA-RAG (Long Audio Retrieval-Augmented Generation), a structured framework that converts audio into timestamped event records, stores them in an event database, and answers questions using intent-aware retrieval and LLM-based generation. LA-RAG supports two deployment settings: offline grounding mode, in which long recordings are pre-indexed for low-latency querying, and inference-time grounding mode, which performs query-conditioned grounding over shorter, open-ended clips. We evaluate LA-RAG on two synthetic 24-hour benchmarks, Home-IoT and Industrial-IoT, and on CASTELLA-QA and SpotSound-Bench-QA, which are QA versions of two public audio temporal grounding benchmarks that we construct. The results demonstrate effective long-audio question answering with low query-time latency after grounding and indexing. They also reveal a substantial gap between event detection and temporal localization in current large audio-language models. Explicit timestamped grounding consistently improves temporal localization while maintaining competitive detection accuracy. These findings establish structured grounding and retrieval as a practical complement to generative audio-language models for deployment-oriented long-audio understanding.",
-      "authors": [
-        "Kartik Hegde",
-        "Arvind Krishna Sridhar",
-        "Naveen Vakada",
-        "Yinyi Guo",
-        "Erik Visser"
-      ],
-      "doi": "",
-      "arxiv_id": "2602.14612v7",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Retrieval as Exploration: Retriever-Free Retrieval via Corpus-Traversing MCTS",
-      "source": "arXiv",
-      "date": "2025-05-22T09:00:08+00:00",
-      "updated": "2026-11-09T06:48:45+00:00",
-      "url": "http://arxiv.org/abs/2505.16409v2",
-      "pdf_url": "https://arxiv.org/pdf/2505.16409v2",
-      "abstract": "Large Reasoning Models (LRMs) have demonstrated remarkable capabilities in multi-step reasoning and calling search tools at appropriate steps. However, existing retrieval-augmented reasoning approaches still rely on separate retrieval models, limiting LRMs to deciding when to retrieve and how to formulate queries rather than leveraging their pretrained knowledge and reasoning capabilities for retrieval itself. This structural separation introduces a representation bottleneck, as retrieval relies on separately learned representations that may obscure fine-grained distinctions needed for reasoning. Moreover, these approaches commonly employ fixed top-k retrieval, which can introduce superfluous documents and increase retrieval noise and context overhead. To address this, we reformulate retrieval from query-document relevance matching into the exploration of answer-containing paths within the corpus, and propose FREESON (Retriever-FREE Retrieval-Augmented ReaSONing), a framework that enables LRMs to directly navigate the original corpus text to locate information that satisfies their specific needs, serving as both the reasoner and the retriever. Specifically, we introduce CT-MCTS (Corpus-Traversing Monte Carlo Tree Search), a retrieval-specialized variant of Monte Carlo Tree Search (MCTS). CT-MCTS iteratively expands and evaluates exploration paths, starting from multiple promising entry points across the corpus. This allows LRMs to selectively reference specific segments identified during traversal, instead of fetching a fixed top-k set. Across nine benchmarks, FREESON improves average EM and F1 by 15 points over four retriever-based baselines on five general-domain QA tasks, matching the strongest baseline. It also gains 12 points on fact-checking and 13 points on medical QA under zero-shot transfer, performing on par with the much larger MedGemma-27B.",
-      "authors": [
-        "Chaeeun Kim",
-        "Seungone Kim"
-      ],
-      "doi": "",
-      "arxiv_id": "2505.16409v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Operation-aware Multimodal Clinical Decision Support System for ICU Discharge Risk Assessment",
-      "source": "arXiv",
-      "date": "2026-11-09T06:28:58+00:00",
-      "updated": "2026-11-09T06:28:58+00:00",
-      "url": "http://arxiv.org/abs/2611.11960v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11960v1",
-      "abstract": "Unplanned 30-day intensive care unit (ICU) readmission is a critical benchmark for evaluating healthcare quality. Most predictive models assume readmission risk depends solely on a patient's individual pathophysiological state, ignoring hospital operational context and resource capacity. In practice, discharge decisions are dynamic trade-offs between patient stability and bed turnover pressures. To address this gap, we develop an Operation-aware Multimodal Clinical Decision Support System (CDSS) for ICU discharge risk assessment. The system combines multi-agent collaborative extraction with self-evolving retrieval-augmented generation (RAG) to eliminate template noise from progress notes, while constructing departmental workload indicators alongside admission flow features, continuous vital signs, and sparse medical codes (ICD/DRG). Addressing severe class imbalance (about 10.5% readmissions) and alarm fatigue, we implement data normalization, class reweighting, and decision-threshold calibration. In 20 independent runs across 20,000 ICU stays from MIMIC-III, empirical findings demonstrate that: vital signs alone have limited predictive capacity under real-world class imbalance (PR-AUC of 0.1387 +/- 0.0086); directly concatenating raw text embeddings degrades decision tree performance (XGBoost and LightGBM PR-AUC drop to 0.3893 and 0.4030); whereas an end-to-end multimodal fine-tuning architecture (Transformer E2E FineTune) utilizing layer-wise parameter freezing and differential learning rates reverses text negative transfer, achieving the highest AUROC of 0.8288 +/- 0.0110, PR-AUC of 0.4373 +/- 0.0310, and F1-Score of 0.4757 +/- 0.0196. Operational indicators supply independent risk signals, laying an engineering foundation for high-utility clinical decision support tools.",
-      "authors": [
-        "Guoqing Zhang",
-        "Rafik Hadfi",
-        "Takayuki Ito"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11960v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "BharatSynthQA: A Context-Grounded Question Answering Dataset on Indian Temples and Religious Heritage",
-      "source": "arXiv",
-      "date": "2026-11-09T06:17:26+00:00",
-      "updated": "2026-11-09T06:17:26+00:00",
-      "url": "http://arxiv.org/abs/2611.11952v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11952v1",
-      "abstract": "India's temples and other places of worship are among its richest repositories of cultural heritage, bringing together religious tradition, history, architecture, and art. Due to the widespread curiosity, people increasingly turn to Artificial Intelligence (AI) assistants for information about them. Current models are rarely trained or evaluated on this domain. We present BharatSynthQA, a passage grounded question answering (QA) dataset focused on Indian temples, which also covers other religious sites connected to them. Our pipeline crawls Wikipedia from topics seeded by authentic heritage sources, filters articles for topical relevance, and locations in India. Further it generates Boolean, factoid, and explanatory QA pairs with a fewshot prompted LLM. An LLM judge filters the pairs on answer correctness, retaining 98,677 of 131,494 generated pairs. Additionally, 300 human-annotated pairs are released separately as a reference set. Human evaluation of the subsample of this dataset showed 89.83% of the questions were formed correctly. Benchmarking five current LLMs shows that factoid token F1 is only 0.18-0.30 without the source passage but 0.73-0.77 with it, indicating that this domain is poorly captured in model knowledge. The dataset is available at https://huggingface.co/datasets/theshivam7/bharatsynth-qa to support research on culturally grounded QA and retrieval-augmented generation for Indian heritage.",
-      "authors": [
-        "Riya Naik",
-        "Shivam Sharma",
-        "Swati Agarwal"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11952v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "ARMOR: Adaptive Curriculum Meta-Learning for Noise-Robust RAG Reasoning",
-      "source": "arXiv",
-      "date": "2026-11-09T02:22:48+00:00",
-      "updated": "2026-11-09T02:22:48+00:00",
-      "url": "http://arxiv.org/abs/2611.11771v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11771v1",
-      "abstract": "Retrieval-Augmented Generation (RAG) systems have demonstrated remarkable effectiveness in mitigating hallucinations by incorporating external knowledge. However, the retrieval process inevitably introduces noise, posing significant challenges to RAG robustness. Fundamentally, noise robustness is a composite competency encompassing noise identification, retrieval filtering, and robust reasoning. Unfortunately, existing methods often fail to capture this holistic nature, typically restricted to single-dimensional enhancements or hampered by noise-induced optimization interference. To address these limitations, we decompose RAG robustness into three sub-tasks: knowledge boundary perception, retrieval verification, and robust reasoning. Accordingly, we propose ARMOR, an Adaptive Curriculum Meta-Learning for Noise Robust RAG Reasoning. Inspired by the teaching process, ARMOR introduces an adaptive task scheduler as a teacher to curate training plans according to the absolute learning progress of RAG generators (Student). Distinct from GRPO, ARMOR utilizes inter-group advantage estimation during learning to effectively mitigate mode collapse caused by limited output spaces. Experiments on three complex reasoning datasets (2WikiMultiHopQA, MusiQue, and HotPotQA) indicate that ARMOR achieves synergistic improvements in retrieval noise robustness, significantly outperforming baselines in output quality.",
-      "authors": [
-        "Yan Wang",
-        "Yuxin Zhang",
-        "Shenyu Zhang",
-        "Yongrui Chen",
-        "Sheng Bi",
-        "Guilin Qi"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11771v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "A Graph-Based Approach for Mapping Kernel-Level Telemetry to MITRE ATT&CK",
-      "source": "arXiv",
-      "date": "2026-09-11T13:35:27+00:00",
-      "updated": "2026-11-08T13:09:40+00:00",
-      "url": "http://arxiv.org/abs/2609.12841v2",
-      "pdf_url": "https://arxiv.org/pdf/2609.12841v2",
-      "abstract": "Mapping observed system behavior to standardized frameworks such as MITRE ATT&CK is essential for threat-informed defense. Existing automated methods mostly depend on Cyber Threat Intelligence reports, which offer only retrospective accounts of attacks. Kernel-level telemetry, i.e., system calls, instead provides first-hand evidence of adversary behavior, but its volume and complexity have limited its use for automated mapping. Its content also makes it unsuitable for cloud-based analysis: command lines carry credentials, events carry user identifiers and network endpoints, and during an incident the telemetry reveals which defenses failed. In this work, we present Trace2ATT&CK, a framework that maps kernel-level telemetry to ATT&CK techniques entirely within the defender's infrastructure. Trace2ATT&CK collects events via eBPF, reconstructs the attacker's activity as a process-centric provenance graph, and condenses it into a compact execution graph. This graph is classified by locally deployed open-weight LLMs, using either pure prompting or retrieval-augmented generation (RAG) grounded in the ATT&CK knowledge base, producing ranked technique candidates with supporting rationales. We evaluate Trace2ATT&CK on 347 Linux Atomic Red Team tests with seven open-weight LLMs. The best local configuration reaches an HR@5 of 66.57\\% at the technique level. RAG improves over base prompting in every model and setting, by up to $+15.44$ percentage points, and the execution graph substantially outperforms raw telemetry while never exceeding the LLM context window. Finally, a frontier cloud model used as an upper-bound reference quantifies the cost of local inference at 24--28 percentage points. These results show that ATT&CK mapping from kernel-level telemetry is feasible without disclosing sensitive evidence to third-party services.",
-      "authors": [
-        "Matteo Lupinacci",
-        "Luigi Arena",
-        "Francesco Blefari",
-        "Angelo Furfaro"
-      ],
-      "doi": "",
-      "arxiv_id": "2609.12841v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "AOP-Smart-Finder: A High-Throughput Human-AI Hybrid Framework for AOP Discovery and Evidence Mapping from Large-Scale Literature",
-      "source": "arXiv",
-      "date": "2026-11-08T12:50:55+00:00",
-      "updated": "2026-11-08T12:50:55+00:00",
-      "url": "http://arxiv.org/abs/2611.11349v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11349v1",
-      "abstract": "The rapid growth of scientific literature and the high heterogeneity of biological terminology and mechanistic descriptions make it difficult for researchers to integrate scattered research evidence, identify connections among biological events, and construct mechanistic networks. Here, we developed a high-throughput human-AI hybrid framework, AOP-Smart-Finder, for biological event discovery, relationship mining, and Adverse Outcome Pathway (AOP) construction and evidence mapping from large-scale literature. This framework integrates Large Language Models (LLMs), AOP-Smart retrieval-augmented generation (RAG) technology, and Python-based automation, supporting two analysis modes: one based on a single compound and the other based on a predefined set of biological events. In the di(2-ethylhexyl) phthalate (DEHP) case, the system processed 12,983 articles within 30 min and included 1,093 of them, from which it extracted 1,589 biological events (including 458 official key events [KEs] and 1,131 candidate KEs) and 2,519 key event relationships (KERs). In the amyotrophic lateral sclerosis (ALS) case, the system identified 55 stressors from 437 articles and extracted 278 biological events and 548 event relationships. Following manual curation and Weight of Evidence (WoE) evaluation, a mechanistic network comprising 16 KEs and 23 KERs was ultimately constructed. This framework can either use existing AOPs as knowledge guidance for mechanistic expansion and evidence supplementation, or discover novel event connections and construct mechanistic networks around user-specified research topics. It provides a high-throughput, traceable, human-AI hybrid methodology for complex biological mechanism elucidation and AOP discovery driven by large-scale literature.",
-      "authors": [
-        "Qinjiang Niu",
-        "Lu Yan"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11349v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning",
-      "source": "arXiv",
-      "date": "2026-11-08T12:49:15+00:00",
-      "updated": "2026-11-08T12:49:15+00:00",
-      "url": "http://arxiv.org/abs/2611.11346v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.11346v1",
-      "abstract": "As intelligent personal assistants are increasingly deployed in real-world scenarios, recommendation paradigms are shifting from passive preference matching to inferring user intent from underspecified multimodal inputs. In practical interactions, users typically issue a reference image paired with a vague natural language query, keeping key visual attributes, personalized preferences, and item-side constraints implicit. Existing recommendation methods either leverage historical user interactions augmented with multimodal item features or assume fully articulated textual queries; both paradigms struggle to resolve underspecified multimodal queries for accurate item matching. To address this limitation, we propose IntentLens, a tool-augmented recommendation framework that grounds ambiguous multimodal queries into query-relevant evidence prior to user-item matching. IntentLens follows a ground-then-rank pipeline: a shared multimodal LLM leverages visual tools, user memory modules, and item attribute retrieval tools to (i) infer latent user intent from image-text inputs and (ii) augment each candidate item with fine-grained, query-conditioned evidence. Subsequently, a lightweight ranker scores candidates based on the grounded representations. To facilitate research in this novel setting, we construct two benchmarks with underspecified multimodal queries, namely \\textsc{GoogleReview-MMTool} and \\textsc{Yelp-MMTool}. Extensive experiments on these benchmarks demonstrate that IntentLens outperforms competitive MLLM and retrieval baselines, and exhibits strong generalization to unseen categories and datasets.",
-      "authors": [
-        "Xiao Chen",
-        "Dong Fang",
-        "Haitao Li",
-        "Qing Li"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.11346v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 63,
+      "count": 46,
       "error": ""
     }
   ]

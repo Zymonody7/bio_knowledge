@@ -1,8 +1,388 @@
 {
-  "fetched_at": "2026-11-11T07:43:32.715017+00:00",
+  "fetched_at": "2026-11-12T08:14:56.499129+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 59,
+  "count": 74,
   "papers": [
+    {
+      "title": "Nationwide molecular survey of Babesia and Theileria DNA in wild rodents and mites collected from rodents in Korea.",
+      "source": "PubMed",
+      "date": "2026-11-12T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014413/",
+      "abstract": "Piroplasm parasites of the genera Babesia and Theileria are widely distributed in wildlife and are maintained through complex host-vector transmission systems. Rodents play important roles as reservoir hosts for various arthropod-borne pathogens; however, comparative investigations integrating multiple host compartments and host-associated ectoparasites remain limited. In this study, we conducted a nationwide molecular survey of Babesia and Theileria species in wild rodents and mites collected from rodents in Korea. Rodent blood and liver tissues, together with mite pools, were examined using PCR-based detection methods, and spatial and seasonal variation in pathogen detection patterns was evaluated. Babesia microti was detected in both rodent blood and liver tissues, with higher positivity in blood and marked spatial and seasonal heterogeneity. The higher positivity observed in blood was consistent with the intraerythrocytic biology of B. microti, although differences in analytical sensitivity between sample types were not evaluated. Theileria capreoli DNA was detected exclusively at low frequency in mite pools, whereas Theileria luwenshuni DNA was detected at low frequency in both rodents and mite pools. Because mites are not established biological vectors of these Theileria species, detections in mite pools were interpreted as molecular occurrence rather than evidence of transmission or vector competence. Significant regional and seasonal variation was observed in blood and mite samples; however, overall detection frequencies were low, warranting cautious ecological interpretation. This nationwide, multi-compartment assessment highlights the ecological complexity of piroplasm circulation in wildlife systems and underscores the importance of integrated surveillance approaches when interpreting parasite DNA detection in arthropod assemblages.",
+      "authors": [
+        "Beoul Kim",
+        "You-Jeong Lee",
+        "Hyo-Min Woo",
+        "Jae-Woo Choi",
+        "Insu Choi",
+        "Yong-Myung Kang",
+        "Dongmi Kwak",
+        "Min-Goo Seo"
+      ],
+      "doi": "10.3347/PHD.26064",
+      "arxiv_id": "",
+      "pubmed_id": "43014413"
+    },
+    {
+      "title": "Deep Learning-Enabled Magnetic Bead-Capture Fluorescence In Situ Hybridization Enables Multiplex Identification and Digital Counting of Pathogenic Bacteria.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014755/",
+      "abstract": "Urinary tract infections (UTIs) are among the most prevalent infectious diseases worldwide. For complicated and antimicrobial-resistant cases, timely diagnosis is critical for guiding targeted therapy and improving patient outcomes. While conventional urine culture suffers from prolonged turnaround times and low positive detection rates, fluorescence in situ hybridization (FISH) has emerged as a rapid, highly specific alternative. However, its clinical application remains hindered by complicated sample pretreatment, insufficient sensitivity that often requires pre-enrichment by culture, and subjective bias in manual interpretation. To address these bottlenecks, we developed deep learning-enabled magnetic bead-capture fluorescence in situ hybridization (DeepMag-FISH), a culture-free platform that employs artificial intelligence (AI)-assisted digital counting for rapid identification and single-bacterium enumeration of pathogens. We adopted soluble β2-glycoprotein I (sβ2GPI)-coated magnetic beads for efficient pathogen enrichment, and utilized a modular dual-probe labeling strategy for multiplexed hybridization, thus enabling highly specific molecular labeling. Additionally, we integrated this sample processing pipeline with a YOLOv11-based deep learning framework for automatic multiscale feature extraction and precise single-bacterium counting. Validated using spiked urine specimens, DeepMag-FISH clearly differentiated Escherichia coli, Vibrio parahaemolyticus, and Klebsiella pneumoniae with negligible spectral crosstalk. The platform reaches a detection capability of 30 CFU/mL, completing the entire workflow, including all magnetic separation and washing steps, within approximately 3.5 h. By combining magnetic bead-based pathogen enrichment with AI-driven image analysis, this approach mitigates matrix interference and subjective bias in conventional methods, offering a rapid and quantitative approach for pathogen detection in spiked urine samples. Beyond UTI management, DeepMag-FISH may also be explored for potential applications in other fields, such as bloodstream infection diagnosis and food safety monitoring.",
+      "authors": [
+        "Lingyan Kong",
+        "Sijia Yan",
+        "Jun Wang",
+        "Xu Wang"
+      ],
+      "doi": "10.1021/acssensors.6c04513",
+      "arxiv_id": "",
+      "pubmed_id": "43014755"
+    },
+    {
+      "title": "Genetic and environmental etiology of pediatric and adult-onset multiple sclerosis.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014635/",
+      "abstract": "Multiple sclerosis (MS) is a chronic demyelinating disease of the central nervous system with complex etiology shaped by both genetic susceptibility and environmental exposures. This review synthesizes classic and emerging literature to provide an integrated framework for understanding MS risk, with emphasis on gene-environment interactions and their contribution to disease. We compile a comprehensive linkage disequilibrium-expanded MS genetic risk variant set identified through genome-wide association studies, including annotation of risk alleles. We discuss insights obtained from functional genomics studies that illuminate genotype-dependent regulatory mechanisms. Environmentally, we assess evidence implicating infectious agents (most notably Epstein-Barr virus) as well as vitamin D insufficiency, obesity, smoking, heavy metal exposure, and the gut microbiome, highlighting epidemiologic associations and areas where mechanistic understanding remains limited. We highlight current knowledge on individuals with pediatric-onset MS (POMS), a population underrepresented in etiologic studies despite its distinct clinical and immunological features. We compare genetic burden, environmental exposures, and immunopathology between pediatric- and adult-onset MS, identifying shared determinants as well as age-specific risk modifiers. Finally, we propose important future directions, including improved ancestry and age-range representation, functional validation of risk loci, and the use of treatment-naïve, tissue-derived patient samples.",
+      "authors": [
+        "Ellie Kim",
+        "Lucinda P Lawson",
+        "Elizabeth Wilson",
+        "W Daniel Chapman",
+        "Aram Zabeti",
+        "Leah C Kottyan",
+        "Matthew T Weirauch"
+      ],
+      "doi": "10.1016/j.autrev.2026.104234",
+      "arxiv_id": "",
+      "pubmed_id": "43014635"
+    },
+    {
+      "title": "Proteomic Remodeling and Altered Brain Energy Metabolic Homeostasis in TP53-Knockout Syrian Golden Hamsters.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014501/",
+      "abstract": "The tumor suppressor TP53 is a critical regulator of cell-cycle control, apoptosis, senescence, and cellular metabolism. However, its role in maintaining energy homeostasis in normal tissues, particularly in the brain, remains incompletely understood. In this study, proteomic profiling of brain, leukocytes, pancreas, and plasma from p53 knock-out (p53-/- ) Syrian Golden Hamsters (Mesocrecetus auratus) was investigated and compared with wild-type (WT) hamsters. We found a larger alternation in differentially expressed proteins in brain samples, while the pancreas showed a higher proportion of upregulated proteins. Functional enrichment analyses revealed significant changes in metabolic pathways, including oxidative phosphorylation and NAD(P)-binding processes. Notably, energy metabolism-associated pathways were predominantly downregulated in the brain of TP53-/- hamsters, involving candidate proteins Bcl2l1, Mta1, Nqo1, and Ube3a. Validation experiments confirmed dysregulated expression of these proteins at both transcript and protein levels, which is highly related to mitochondrial functions. ATP measurements further demonstrated unbalanced energy homeostasis in TP53-deficient brain tissue. The proteomic atlas of the p53-/- new animal model in this work provides a novel genetic and functional foundation for understanding the role of TP53 in mental disorders, which can be potentially significant for biological science and medicine.",
+      "authors": [
+        "Mengkai Yao",
+        "Zihan Li",
+        "Beibei Zhang",
+        "Huiqiao Zhang",
+        "Jun Wang",
+        "Haoran Guo",
+        "Jianyao Wang",
+        "Xia Xue",
+        "Jinxin Miao"
+      ],
+      "doi": "10.1016/j.ejphar.2026.179535",
+      "arxiv_id": "",
+      "pubmed_id": "43014501"
+    },
+    {
+      "title": "Helminth infections: from genomic discovery to public health interventions.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014337/",
+      "abstract": "Helminths infect more than a billion people worldwide and cause substantial chronic morbidity, impaired physical and cognitive development in children, and reduced wellbeing and economic productivity, particularly in low-income and middle-income countries. Preventive chemotherapy, sanitation, vector control, and integrated programmes have substantially reduced infection intensity and morbidity in many settings, although sustaining these gains and advancing towards elimination require complementary tools. Advances in genomics, multiomics, and computational biology have added a complementary, data-rich dimension to established parasitology, supporting systematic target identification, improved molecular diagnostics, and new insights into transmission and drug response. In this Review, we examine how these approaches are reshaping the study of helminth infections and the implications of these approaches for diagnosis, treatment, and control. Translating these technological and scientific advances into effective interventions still requires representative data, experimental and field validation, accessible infrastructure, trained personnel, and sustainable implementation, particularly in resource-constrained settings. Ultimately, integrating genomic and molecular discoveries with clinical, epidemiological, and public health strategies within a One Health framework will be central to achieving measurable and sustained improvements in helminth control.",
+      "authors": [
+        "Robin B Gasser",
+        "Jürg Utzinger",
+        "Jennifer Keiser"
+      ],
+      "doi": "10.1016/j.lanmic.2026.101553",
+      "arxiv_id": "",
+      "pubmed_id": "43014337"
+    },
+    {
+      "title": "Q&A with Dr. Philip Awadalla.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014278/",
+      "abstract": "Editor-in-Chief Laura Zahn asked Dr. Philip Awadalla from the University of Oxford to tell us about his research and his recent Cell Genomics paper, \"Pre-diagnosis plasma cell-free DNA reveals early signatures of prostate and breast cancer risk up to eight years prior to clinical detection.\"",
+      "authors": [
+        "Philip Awadalla"
+      ],
+      "doi": "10.1016/j.xgen.2026.101424",
+      "arxiv_id": "",
+      "pubmed_id": "43014278"
+    },
+    {
+      "title": "Comparative genomic analysis of Acinetobacter baumannii strains suggests possible human risk with environmentally distributed sequence type 1.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013236/",
+      "abstract": "Acinetobacter baumannii belongs to clinically significant opportunistic pathogens that has already been emerged as a major global health threat due to its remarkable capacity to acquire and disseminate antimicrobial resistance (AMR). Understanding the phenotypic and genotypic relationships between its clinical and environmental strains, hence is essential for tracking the dissemination of resistant strains and also for mitigating the spread of AMR. Comprehensive surveillance of clinical and environmental samples for A. baumannii is essential to identify the evolution of clinically relevant strains. In the study, detailed morphological characterization, antimicrobial susceptibility testing and biofilm formation assays were performed to screen the pathogenic strains of A. baumannii from clinical and environmental samples. Phenotypic screening conducted in the study has yielded 85 strains of A. baumannii, which included isolates from clinical (60), soil (16), and water (9) samples. Among these, 23 strains were multi-drug resistant (MDR), with 21 having clinical, and 2 with environmental origin respectively. Further to this extensively drug resistant (XDR) strain from each clinical and environmental origin was subjected to Whole Genome Sequencing (WGS) analysis. Bioinformatic pipelines, including PubMLST, RAST, CARD, MGE, PHASTER, PathogenFinder, and Mauve​ were further used to predict the resistomes, mobile genetic elements, and the functional metabolite biosynthetic potential of sequenced genome. The CARD analysis has further identified clinically significant antibiotic-resistance genes (ARGs) such as bla OXA-23 , bla OXA-69 and lpsB genes, along with plasmids Tn6018, ISAba26 and ISAba13 that carries genes related to major antibiotic resistance and gene encoding AbaQ efflux pump in the sequenced genome. Alignment between WGS data of sequenced A. baumannii strains such as C3 and E2 has further been carried out along with the comparative phylogenomic dataset composed of global (29) and Indian (16) A. baumannii genomes retrieved from from BV-BRC. Global phylogenetic analysis has demonstrated the environmental strain E2 to come under a novel Sequence Type ST3394 Pas . This was having close alignment with a distinct clinical clade containing the high-risk international clones GC1/ ST1. The two sequenced strains have also been observed to have shared K- and O- loci as similar to other clinically relevant ST1 clade. Subsequent pangenome and Mauve analyses have further confirmed the genetic homology and minimal structural rearrangements between the selected environmental and clinical strains of A. baumannii. The observed similarities suggest a possible epidemiological relationship or shared lineage between clinical and environmental A. baumannii strains isolated in the study, which need to be further confirmed by large scale isolation, comparison and analysis.",
+      "authors": [
+        "Radhika Murali",
+        "Riya Rachel Varghese",
+        "S Sreejith",
+        "Bicky Jerin Joseph",
+        "Vipina Vinod T N",
+        "Indira Singh",
+        "Jyothis Mathew",
+        "E K Radhakrishnan"
+      ],
+      "doi": "10.1007/s11274-026-05383-1",
+      "arxiv_id": "",
+      "pubmed_id": "43013236"
+    },
+    {
+      "title": "Evaluating facility-level variability in urinary antimicrobial susceptibility patterns in long-term care homes in Ontario, Canada.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012519/",
+      "abstract": "Antimicrobial resistance surveillance in long-term care homes is limited by its reliance on organism-specific summaries, most commonly Escherichia coli , which may not reflect the broader microbiological landscape in these settings. We evaluated how E. coli -based urinary susceptibility compared with weighted-incidence syndromic combination antibiograms (WISCA), a composite measure incorporating multiple pathogens, across 627 Ontario long-term care homes in 2023. Facility-level antimicrobial susceptibilities to eight antibiotics were estimated using 23,750 urinary isolates, with missing data addressed through imputation, and estimates stabilized using random-intercept logistic regression models. E. coli accounted for a mean of 50.6% (standard deviation = 1.9) of urinary isolates, with the remaining 49.5% mainly comprising Klebsiella pneumoniae (16.6% [0.8]), Proteus mirabilis (11.9% [1.2]), Enterococcus faecalis (6.6% [2.1]), and Pseudomonas aeruginosa (6.1% [0.1]). Organism-specific susceptibility varied substantially across antibiotics, particularly for ciprofloxacin susceptibility in P. mirabilis (78.7% [13.1]) and E. faecalis (48.9% [11.5]), and nitrofurantoin susceptibility in K. pneumoniae (48.5% [9.0]). Compared with E. coli -based estimates, WISCA susceptibilities were lower for seven of eight antibiotics, most notably for nitrofurantoin (WISCA: 70.6% vs E. coli: 96.8%). These findings suggest that reliance on E. coli alone may not fully capture facility-level urinary susceptibility patterns, as variation in pathogen distribution and organism-specific antibiotic susceptibilities across homes can produce substantially different susceptibility estimates. WISCA provides a more representative and stable measure by incorporating pathogen diversity and weighting organism prevalence. Integrating this into antimicrobial resistance surveillance for long-term care homes may improve the detection of emerging resistance trends and better inform antimicrobial stewardship strategies by identifying variable organism-antibiotic combinations.IMPORTANCEAntimicrobial resistance is a growing concern in long-term care homes, where infections are common, and antibiotics are frequently used. Surveillance in these settings often relies on Escherichia coli to estimate how well antibiotics will work, but this approach may not capture the range of urinary pathogens encountered in these settings, differences in resistance between organisms, or how these differences can vary across long-term care homes. In this study, E. coli represented only about half of the urinary infections, while other organisms including Klebsiella pneumoniae and Proteus mirabilis demonstrated differing susceptibility levels across antibiotics. These findings support the value of organism-inclusive surveillance, such as weighted-incidence syndromic combination antibiograms, to provide a more comprehensive picture of resistance and better inform antimicrobial stewardship strategies in long-term care homes.",
+      "authors": [
+        "Michelle K Wong",
+        "Nick Daneman",
+        "Bradley J Langford",
+        "Valerie Leung",
+        "Kevin L Schwartz",
+        "Sarah Swayze",
+        "Adan Amer",
+        "Thomas Braukmann",
+        "Derek R MacFadden",
+        "Kevin A Brown"
+      ],
+      "doi": "10.1128/jcm.00887-26",
+      "arxiv_id": "",
+      "pubmed_id": "43012519"
+    },
+    {
+      "title": "Multimodal single-cell analyses reveal distinct fusion-regulated transcriptional programs in Ewing sarcoma.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012345/",
+      "abstract": "Ewing sarcoma (EwS) is a fusion-driven malignancy, peaking in adolescence. Although EwS tumors are driven uniquely by EWS::FLI1 and related fusions, patient outcomes vary greatly. If and how tumor plasticity of EWS::FLI1-regulated transcriptional signatures contributes to disease progression is not known. To address this, we utilized a single-cell co-assay of RNA and chromatin accessibility (ATAC) sequencing to identify gene regulatory networks in EwS. By comprehensively characterizing regulatory elements across cell lines, we identified multiple unique modules of gene regulation. Differential usage and prevalence of these modules was evident across cell lines, associated with distinct epigenetic and transcriptomic signatures, and in specific cases, modifiable by exogenous TGF-β. When we examined primary EwS patient tumors, we observed these same regulatory modules were variably enriched both across and within tumors, highlighting the existence of intratumoral heterogeneity in gene regulatory networks. Our findings demonstrate that multiple, co-existing transcriptional programs shape the phenotypic diversity of EwS and suggest that the balance between these networks may have important implications for clinical outcomes and targeted therapy development.",
+      "authors": [
+        "Olivia G Waltner",
+        "April A Apfelbaum",
+        "Emma D Wrenn",
+        "Shruti S Bhise",
+        "Sami B Kanaan",
+        "Rula Green Gladden",
+        "Mark A Mendoza",
+        "Roger Volden",
+        "Zev Kronenberg",
+        "Anand G Patel",
+        "Michael A Dyer",
+        "Jay F Sarthy",
+        "Elizabeth R Lawlor",
+        "Scott N Furlan"
+      ],
+      "doi": "10.7554/eLife.109124",
+      "arxiv_id": "",
+      "pubmed_id": "43012345"
+    },
+    {
+      "title": "In-field crop disease surveillance: from phenotypes to molecules.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012344/",
+      "abstract": "Climate change and increasing ecological complexity intensify crop diseases, causing severe yield losses and threatening global food security. Timely and accurate in-field surveillance is essential for early warning and effective management of crop diseases. Advances in sensing technologies, flexible electronics, and synthetic biology are transforming crop disease surveillance from phenotypes to molecules. In this review, we first summarize major crop pathogens and pests as well as their associated disease biomarkers. We then examine field-deployable molecular detection approaches, including point-of-need assays, drone-equipped platforms, wearable devices, and sentinel plants, which enable in-field, real-time, broad-scale, and long-term surveillance of crop infection. We assess their technological readiness and applications in early crop infection detection, field pathogen survey, pesticide application instruction, and investigations of crop stress responses. Finally, we discuss the prospects of miniaturized, high-throughput analytical devices and the Internet of Things, as well as the challenges of translating in-field surveillance technologies into agricultural applications that will reshape crop disease management.",
+      "authors": [
+        "Xuhan Xia",
+        "Ting Zhang",
+        "Qiuyu Luo",
+        "Honghong Wu",
+        "Qingshan Wei",
+        "Ruijie Deng"
+      ],
+      "doi": "10.1039/d5cs01551k",
+      "arxiv_id": "",
+      "pubmed_id": "43012344"
+    },
+    {
+      "title": "A phage-displayed nanobody-based colorimetric-fluorescent dual-readout immunoassay using Eu-micelles for detecting Bacillus cereus in food.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009655/",
+      "abstract": "Bacillus cereus (B. cereus) is a common foodborne pathogen that contaminates agricultural products and induces emetic or diarrheal food poisoning. We report an europium(Eu)-micelle-mediated colorimetric-fluorescent dual-readout nanobody-based immunoassay for B. cereus detection. Four novel B. cereus-specific nanobodies were isolated for the first time from an immune Bactrian camel phage-displayed nanobody library. A sandwich immunoassay was established using a purified soluble nanobody (Nb23) for target capture and a phage-displayed Nb (phage-Nb23) for detection, leveraging an HRP-conjugated anti-M13 antibody to achieve phage-mediated primary signal amplification. Self-assembled Eu-micelles were introduced post-reaction as an independent fluorescent module. HRP-catalyzed oxidation of TMB generated a 652 nm colorimetric signal while concurrently quenching Eu-micelle red emission at 616 nm through a combination of inner filter effects and interfacial excited-state deactivation. Under optimized conditions, the limits of detection were 3.84 × 10 4 CFU/mL for the colorimetric channel and 8.57 × 10 3 CFU/mL for the fluorescent channel, demonstrating a 4.5-fold sensitivity enhancement. Spiked recoveries across diverse food matrices (rice, pork, bean sprouts, and juice) ranged from 92.48% to 116.42%, with relative standard deviations ≤ 5.54%. This dual-readout strategy offers mutual validation and broad applicability for food safety monitoring.",
+      "authors": [
+        "Guangsheng Ge",
+        "Mengnan Wang",
+        "Kai Zheng",
+        "Xueyi Fan",
+        "Qing Yao",
+        "Yuxin Miao",
+        "Min Ma",
+        "Jianlong Wang",
+        "Magnus Andersson",
+        "Yanru Wang"
+      ],
+      "doi": "10.1007/s00604-026-08537-y",
+      "arxiv_id": "",
+      "pubmed_id": "43009655"
+    },
+    {
+      "title": "Phage Cocktail-Mediated Ultrasensitive Real-Time Electrochemical Whole-Cell Detection of Klebsiella pneumoniae on a SPCE.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42954924/",
+      "abstract": "Rapid and selective detection of pathogenic bacteria is essential for timely clinical diagnosis and environmental surveillance. In this work, we report a bacteriophage-assisted electrochemical sensing platform for the selective detection of Klebsiella pneumoniae using an Er2O3/Co3O4/Au/polyethylenimine (PEI)-modified screen-printed carbon electrode (SPCE). The hierarchical nanocomposite was engineered to provide high surface area, enhanced charge transfer kinetics, and abundant functional sites for efficient phage immobilization. PEI served as a cationic linker to facilitate electrostatic attachment of lytic bacteriophages while maintaining their biological activity and host specificity. Upon target recognition, phage-bacteria binding at the electrode interface produced pronounced impedance changes due to interfacial blocking and altered electron transfer dynamics. The developed biosensor exhibited high selectivity for Klebsiella pneumoniae over nontarget bacteria and could distinguish live from dead bacteria. The sensor showed a wide linear detection range of 10-107 CFU/mL with a low detection limit of 7.36 CFU/mL and good repeatability with an RSD of ∼1.17%. The real-world applicability of the sensor was tested using aquarium water samples and demonstrated good performance, with recovery percentages ranging from ∼91.71 to 96.26%. This work establishes a robust nano-bio hybrid interface strategy that integrates rare-earth/transition metal oxide electrocatalysts with phage biorecognition on disposable SPCE platforms. The developed system shows strong potential for point-of-care pathogen monitoring in clinical, environmental, and food safety applications.",
+      "authors": [
+        "Yesurajan Allwin Richard",
+        "Malavika Binitha Hari",
+        "Aarathi Pradeep",
+        "Pradeesh Babu",
+        "Bipin Nair",
+        "Geetha Kumar",
+        "Satheesh Babu Thekkedath Gopalakrishnan"
+      ],
+      "doi": "10.1021/acsami.6c14664",
+      "arxiv_id": "",
+      "pubmed_id": "42954924"
+    },
+    {
+      "title": "Multicenter evaluation of the multiplex polymerase chain reaction QIAstat-Dx Meningitis/Encephalitis Panel for the detection of central nervous system pathogens directly in the cerebrospinal fluid.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42937305/",
+      "abstract": "Rapid and accurate detection of pathogens causing meningitis/encephalitis (MEN/EN) is critical to improving clinical outcomes. Multiplex polymerase chain reaction (PCR) enables simultaneous detection of multiple pathogens from the cerebrospinal fluid (CSF), offering advantages over traditional methods. This multicenter study evaluated the performance of the QIAstat-Dx Meningitis/Encephalitis (ME) Panel versus conventional methods, including the BioFire FilmArray ME (BFME) Panel. The CSF samples from patients with suspected MEN/EN along with contrived samples were tested across 13 sites in Europe/USA. Positive percent agreement (PPA) and negative percent agreement (NPA) between the QIAstat-Dx ME Panel and comparator methods were determined. A total of 1,667 clinical samples (1,527 prospective, 140 archived) were tested. Pathogens were detected by the QIAstat-Dx ME Panel in 115 (7.5%) prospective samples, including Streptococcus pneumoniae (1.1%), Haemophilus influenzae (0.5%), Listeria monocytogenes (0.3%), S. agalactiae (0.2%), Escherichia coli K1 (0.1%), Neisseria meningitidis (0.1%), S. pyogenes (0.1%), enterovirus (1.5%), human herpesvirus-6 (1.0%), herpes simplex virus-2 (0.9%) and -1 (0.3%), varicella zoster virus (0.7%), cytomegalovirus (0.3%), human parechovirus (0.3%), and Cryptococcus gattii/neoformans (0.4%). Overall PPA versus BFME ( n = 1,664) was 85.4%, increasing to 95.3% after discordance resolution. PPA was 100% for N. meningitidis , S. pneumoniae , and S. agalactiae . Overall NPA was 99.9%. Among 1,154 contrived positive samples, only 27 (2.3%) incorrect results were observed. The QIAstat-Dx ME Panel demonstrated high concordance with BFME, supporting its use as a reliable, fully automated multiplex PCR platform for rapid diagnosis of community-acquired MEN/EN.IMPORTANCEThis multicenter study demonstrated that the QIAstat-Dx ME Panel delivers clinical performance comparable to that of the BioFire FilmArray ME (BFME) Panel, supporting its validity as a reliable syndromic molecular diagnostic tool for MEN/EN. With its broad pathogen coverage, rapid turnaround time (TAT), and the ability to provide amplification curves and Ct values, the QIAstat-Dx ME Panel offers a valuable option for broad and timely detection of bacterial, viral, and fungal CNS pathogens. When used alongside the SoC diagnostic methods, this panel has the potential to improve early diagnosis, guide targeted therapy, and support effective clinical management of patients with suspected MEN/EN.",
+      "authors": [
+        "Christopher Farnsworth",
+        "Ping Ren",
+        "Juan José González-López",
+        "Johanna Bialas",
+        "Romney Humphries",
+        "Thomas Davis",
+        "Patricia J Simner",
+        "Nathan A Ledeboer",
+        "James Dunn",
+        "Neelam Dhiman",
+        "Yvan Caspar",
+        "Donna M Wolk",
+        "Melisa Rey",
+        "Sarah Fern",
+        "Alistair English",
+        "Sarah Johnson",
+        "Preeti Pancholi"
+      ],
+      "doi": "10.1128/jcm.00738-26",
+      "arxiv_id": "",
+      "pubmed_id": "42937305"
+    },
+    {
+      "title": "Native pathogen-phage networks reveal multilayered defense and gut-active anti-phage immunity.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849435/",
+      "abstract": "Bacteriophages drive pathogen evolution, yet the mechanisms governing phage susceptibility in native bacterial backgrounds, and their consequences within mammalian hosts, remain poorly understood. Here, we mapped >1,000 interactions between 20 diverse Salmonella isolates and 52 wild phages from global disease reservoirs, integrating genome-scale fitness profiling with comparative genomics. Receptor identity and surface phase variation, including Hin-mediated flagellar switching, explained ∼67% of phage susceptibility patterns, identifying cell-surface architecture as the major determinant of phage host range in Salmonella. Among resistance phenotypes not explained by surface features, we discovered anti-phage-packaging agent (AppA), a prophage-encoded defense factor that abrogates phage replication within its native host. AppA inhibits phage DNA packaging through functional mimicry of a terminase assembly interface, revealing a previously unrecognized mechanism of phage defense. AppA is expressed under conditions encountered during mammalian infection and suppresses phage expansion in the murine gut, demonstrating that prophage-encoded single-gene defenses can shape disease outcomes in vivo.",
+      "authors": [
+        "Benjamin X Wang",
+        "Ramya Narasimhan",
+        "Aisling Brady",
+        "Nicolas Wenner",
+        "Blanca Perez Sepulveda",
+        "Kelly Hughes",
+        "Yogesh Hooda",
+        "Senjuti Saha",
+        "Jay C D Hinton",
+        "Denise M Monack"
+      ],
+      "doi": "10.1016/j.chom.2026.09.009",
+      "arxiv_id": "",
+      "pubmed_id": "42849435"
+    },
+    {
+      "title": "Diagnostic challenges in Mycobacterium abscessus pulmonary disease, particularly in patients with cystic fibrosis: toward an integrated precision framework.",
+      "source": "PubMed",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788738/",
+      "abstract": "Mycobacterium abscessus has emerged as one of the most formidable pathogens affecting people with cystic fibrosis (pwCF), driven by intrinsic antimicrobial resistance, complex taxonomy, and substantial diagnostic uncertainty. Despite major technological advances, establishing a diagnosis of pulmonary disease remains challenging, as traditional culture-based workflows are constrained by limited sensitivity, prolonged turnaround times. However, recent progress in proteomic and genomic technologies has markedly improved organism detection and taxonomic resolution. This review examines the contemporary diagnostic architecture for M. abscessus pulmonary infection in pwCF, identifying persistent gaps, and proposes a precision-oriented framework in which culture, proteomics, genomics, and host-response biomarkers converge to support earlier and more individualized clinical decision-making.",
+      "authors": [
+        "Vincent Le Moigne",
+        "Anne-Laure Roux",
+        "Clémence Beauruelle",
+        "Geneviève Héry-Arnaud",
+        "Jean-Louis Herrmann"
+      ],
+      "doi": "10.1128/jcm.00812-26",
+      "arxiv_id": "",
+      "pubmed_id": "42788738"
+    },
+    {
+      "title": "Hyperporphyrin Effect-Driven Bandgap Narrowing in Cationic Fe3O4@ICOF for Boosted Photothermal Immunoassay.",
+      "source": "PubMed",
+      "date": "2026-11-10T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43010393/",
+      "abstract": "Molecular orbital engineering tackles the wide bandgaps and limited near-infrared (NIR) response that constrain conventional immunochromatographic assays (ICAs) by precisely tailoring the electronic properties of covalent organic frameworks (COFs), enabling ultrasensitive pathogen detection. Here, we report a methylation-mediated cationization strategy to construct core-shell Fe3O4@ICOF, where a cationic porphyrin COF shell is grown on a magnetic Fe3O4 core. The methylation triggers a hyperporphyrin effect that dramatically narrows the HOMO-LUMO gap from 2.634 eV to 1.997 eV, redirecting energy dissipation toward non-radiative thermal relaxation and yielding an ultrahigh photothermal conversion efficiency of 71.9% under 808 nm irradiation. The magnetic core enables facile enrichment, while the cationic surface promotes electrostatic capture of negatively charged Salmonella, synergistically enhancing sensitivity. Integrating colorimetric and photothermal readouts, the dual-modal ICA achieves detection limits of 100 CFU/mL (colorimetric) and 50 CFU/mL (photothermal), representing 500- to 1000-fold improvement over conventional AuNPs-based ICA, which shows satisfactory recoveries in real food matrices. This work establishes a clear structure-electronics-photothermal performance correlation, providing a design method for high-performance point-of-care pathogen sensors.",
+      "authors": [
+        "Lihong Su",
+        "Jiahui Xu",
+        "Yuechun Li",
+        "Lei Zhao",
+        "Huan Liu",
+        "Ibrahim A Darwish",
+        "Daohong Zhang"
+      ],
+      "doi": "10.1021/acs.analchem.6c05018",
+      "arxiv_id": "",
+      "pubmed_id": "43010393"
+    },
+    {
+      "title": "PAM-Free Programmable Enzymatic Cascade Design Enabling Highly Sensitive CRISPR/Cas12a Lateral Flow Assay for Foodborne Pathogen Detection.",
+      "source": "PubMed",
+      "date": "2026-11-10T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43010390/",
+      "abstract": "CRISPR/Cas12a-assisted nucleic acid assays have shown great potential for rapid pathogen detection. However, their implementation in lateral flow assays remains constrained by strict protospacer adjacent motif (PAM) requirements and low-contrast, signal-off readouts. To effectively address these limitations, we present a new PAM-free programmable enzymatic cascade-enabled CRISPR/Cas12a lateral flow assay (PAEC-LFA) for highly sensitive foodborne pathogen detection. In this strategy, target amplification products are enzymatically digested to generate programmable single-stranded DNA activators, enabling PAM-independent Cas12a activation and flexible target recognition. Upon activation, Cas12a exhibits efficient trans-cleavage activity, which subsequently triggers terminal deoxynucleotidyl transferase (TdT)-mediated extension, forming an enzymatic cascade that amplifies signal output and generates a high-contrast signal-on readout on lateral flow assays. Integrating RPA and enzymatic digestion with PAM-free Cas12a-TdT signal amplification into two sequential one-pot modules simplifies the workflow, minimizes contamination risk, and maintains effective amplification performance. Under optimized conditions, PAEC-LFA achieved detection limits of 1.05 CFU/mL for Salmonella and Staphylococcus aureus, and 3.13 CFU/mL for Pseudomonas aeruginosa. Visual detection limits in spiked food samples reached 10 CFU/mL for all three pathogens. This work establishes a generalizable PAM-free enzymatic cascade framework for highly sensitive CRISPR/Cas12a lateral flow assays, advancing practical pathogen detection in food safety applications.",
+      "authors": [
+        "Qi Chen",
+        "Zhaoran Chen",
+        "Yubo Peng",
+        "Hang Wang",
+        "Haoyang Xu",
+        "Bangben Yao",
+        "Noor Fatima",
+        "Wei Chen"
+      ],
+      "doi": "10.1021/acs.analchem.6c03699",
+      "arxiv_id": "",
+      "pubmed_id": "43010390"
+    },
+    {
+      "title": "Tick-borne pathogens in Swedish wild boar and their attached ticks: the first detection of Borrelia species in wild boar in northern Europe.",
+      "source": "PubMed",
+      "date": "2026-11-10T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009976/",
+      "abstract": "The wild boar (Sus scrofa) population has expanded in northern Europe, yet their role in the ecology of tick-borne pathogens remains poorly understood. This study investigated the occurrence of Anaplasma phagocytophilum and Borrelia burgdorferi sensu lato in 88 Swedish wild boar and their attached Ixodes ricinus ticks by analysing multiple tissues (spleen, heart, urinary bladder and skin) using quantitative PCR. Anaplasma phagocytophilum was detected in 20 (22.7%) wild boar, with infections (i.e. quantitative PCR positive) more common in juveniles than adults. Infection probability was lowest in spring but markedly higher in summer and autumn. Borrelia species DNA was detected in three juvenile males (3.4%), representing the first report of Borrelia species in wild boar in northern Europe. Thirty attached ticks were collected from 17 wild boar. Six ticks carried A. phagocytophilum, five carried Borrelia species, and one was coinfected. Ticks were more likely to be infected when collected from infected wild boar than from uninfected hosts, while feeding duration showed no detectable association with infection in either hosts or ticks. These findings provide new insight into the occurrence of tick-borne pathogens in wild boar and highlight the value of multi-tissue sampling and paired host-tick data for understanding pathogen dynamics in wildlife populations.",
+      "authors": [
+        "Hanna Lindell",
+        "Kari Lehtilä",
+        "Patrik Dinnétz"
+      ],
+      "doi": "10.1186/s13028-026-00898-x",
+      "arxiv_id": "",
+      "pubmed_id": "43009976"
+    },
+    {
+      "title": "Applying geographic information systems data linkages for an exposome-wide association study in the Personalized Environment and Genes Study.",
+      "source": "PubMed",
+      "date": "2026-11-10T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009536/",
+      "abstract": "Affordable genomics assays have enabled new study designs such as genome-wide association studies (GWAS), advancing scientific understanding of disease etiology, prevention, and treatment. A standardized process for linking study participants' residential histories with publicly available geospatial environmental data across existing and future epidemiologic cohorts could enable cost-effective geographic information systems (GIS)-based exposome-wide association studies (GIS-ExWAS), similarly expanding scientific understanding of disease. To explore this approach, we used open-source GIS software to link data from 7531 Personalized Environment and Genes Study (PEGS) participants on 11 common disease phenotypes with multiple types of GIS data from various sources to develop 88 GIS-based exposure indicators. We then estimated cross-sectional associations between these exposure indicators and the selected phenotypes using covariate-adjusted logistic regression, inverse probability of treatment weighted (IPTW), and the least absolute shrinkage and selection operator (LASSO) models. The IPTW and LASSO models identified GIS-phenotype associations complementary to those found in a prior ExWAS in questionnaire-based data from the PEGS cohort, including associations between air pollution and cardiovascular disease, as well as novel suggestive associations between several phenotypes and environmental factors not previously assessed by PEGS. Our results suggest GIS linkages can enhance exposome assessment but also highlight key methodological complexities that must be overcome to develop standardized GIS-based ExWAS that can be broadly applied. Developing standardized open-source tools for GIS data linkage and exposure assessment could enhance public health practice, precision medicine, and scientific understanding of the exposome's impacts on health. GIS linkages can enhance exposome assessment and offer benefits for public health and clinical research. Adding GIS-based exposome assessments to survey-based data from cohort studies can help detect exposure-phenotype associations not detectable in survey data alone. Developing a standardized exposome assay based on GIS data would enable low-cost baseline geospatial assessments of environmental quality using only a residential address. Open-source GIS data linkage tools leveraging geospatially linked publicly available data would improve research, clinical practice, and public health.",
+      "authors": [
+        "Nathaniel MacNell",
+        "Jonathan V Lewis",
+        "Steve B Ampah",
+        "Farida S Akhtari",
+        "Kyle P Messier",
+        "John S House",
+        "Dillon Lloyd",
+        "Charles P Schmitt",
+        "David C Fargo",
+        "Lawrence S Kirschner",
+        "Elizabeth H Scholl",
+        "Rebecca C Elmore",
+        "Deepak Mav",
+        "Janet E Hall",
+        "Alison A Motsinger-Reif"
+      ],
+      "doi": "10.1038/s41370-026-00986-0",
+      "arxiv_id": "",
+      "pubmed_id": "43009536"
+    },
     {
       "title": "Engineering DNA Nanoflowers with Programmable Architectures: From Design Paradigms to Biosensing.",
       "source": "PubMed",
@@ -283,6 +663,20 @@
       "pubmed_id": "42969431"
     },
     {
+      "title": "The spatiotemporal ecosystem of gallbladder cancer: From inflamed areas to invasive margins - Integrating biomechanical injury, the bile microenvironment, precursor lineages, and spatial niches.",
+      "source": "PubMed",
+      "date": "2026-11-10T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42778405/",
+      "abstract": "Gallbladder cancer (GBC) is usually described as the end point of chronic cholelithiasis-associated inflammation, and yet this linear formulation does not explain why only a small fraction of people with gallstones develop cancer, why histologically similar precursor lesions follow different evolutionary routes, or why invasion preferentially advances through anatomically and immunologically distinct interfaces. We propose a spatiotemporal ecosystem model that links five domains: gallstones and reflux as precipitating conditions; bile as a chemically active habitat; resident or transient microorganisms as context-dependent modifiers; metaplastic, biliary intraepithelial and intracholecystic precursor lineages as alternative epithelial trajectories; and stromal-immune niches that select for invasive phenotypes. Evidence from epidemiology, pathology, genomics, organoid and animal models, single-cell sequencing, and spatial profiling is integrated while preserving distinctions between association, mechanism, and clinical prediction. The strongest causal chain currently links prolonged mechanical or reflux injury with cycles of epithelial loss and repair, metaplastic or dysplastic changes, and acquisition of driver alterations. Microbial findings are biologically plausible and increasingly supported by functional Salmonella studies, but most human biliary microbiome datasets remain small and vulnerable to low-biomass contamination and treatment-related confounding. Precursor studies substantiate the existence of both BilIN progression in affected areas and alternative polypoid or BilIN-independent routes, arguing against a single obligatory sequence. Recent single-cell and spatial studies have identified organized, region-specific interactions among malignant epithelial states, macrophages, exhausted CD8 T cells, neutrophils, endothelial cells, fibroblasts, hepatocytes, and nerves at invasive margins. Liver-facing, serosal, perineural, lymphovascular, and nodal interfaces should not be assumed to share one ecology. These data shift the central question from which mutation is present to where a clone resides, which neighboring cells sustain it, and when the niche becomes permissive. The model suggests testable priorities: longitudinal sampling of high-risk gallbladders, paired bile-mucosa profiling with rigorous controls, lineage-resolved multi-section spatial analysis, and boundary-aware biomarkers validated in prospective cohorts.",
+      "authors": [
+        "Qingyang Meng",
+        "Houbao Liu"
+      ],
+      "doi": "10.5582/bst.2026.01237",
+      "arxiv_id": "",
+      "pubmed_id": "42778405"
+    },
+    {
       "title": "Genetic and laboratory predictors of bleeding severity in FVII deficiency: insights from the PRO-RBDD and EN-RBD databases.",
       "source": "PubMed",
       "date": "2026-11-10T00:00:00+00:00",
@@ -305,6 +699,57 @@
       "doi": "10.1182/bloodadvances.2026020732",
       "arxiv_id": "",
       "pubmed_id": "42480507"
+    },
+    {
+      "title": "Dual-recognition gold nanoparticle-based sandwich SERS biosensors for detecting Pseudomonas aeruginosa in milk.",
+      "source": "PubMed",
+      "date": "2026-11-09T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014060/",
+      "abstract": "Pseudomonas aeruginosa is an opportunistic pathogen frequently encountered in raw milk and dairy processing environments, where it accelerates milk spoilage and poses potential risks to public health. Rapid and ultrasensitive detection of pathogenic bacteria in complex food matrices remains a long-standing challenge due to matrix interference, nonspecific adsorption, and limited signal reproducibility. Herein, we report two dual-recognition sandwich-type surface-enhanced Raman scattering (SERS) biosensing platforms that integrate magnetic enrichment with plasmonic signal amplification for the ultrasensitive detection of P. aeruginosa in milk. Gold nanoparticle-coated chitosan starch magnetic beads functionalized with either antibody or aptamer were employed as capture probes, while aptamer-modified gold nanoparticles served as SERS signal tags. The synergistic combination of magnetic separation and spatially separated dual-recognition significantly enhanced capture efficiency and signal stability in complex matrices. The antibody-based and aptamer-based SERS platforms achieved detection limits of 1.78 and 1.29 CFU/mL, respectively, with relative standard deviations below 5%. Both systems exhibited excellent selectivity against non-target bacteria and maintained reliable quantitative performance in spiked milk samples, yielding recoveries of 93.33-105.84%. Notably, a systematic comparison between antibody- and aptamer-based recognition strategies within the same sensing framework revealed comparable analytical sensitivity but superior operational simplicity and matrix tolerance for the aptamer-based system. This work establishes a modular and matrix-tolerant dual-recognition SERS sensing framework that enables ultrasensitive bacterial detection and provides mechanistic insights into the practical trade-offs between antibody and aptamer recognition. Moreover, the adaptable design allows straightforward extension to other foodborne pathogens, offering a generalizable strategy for advanced biosensing in food safety applications.",
+      "authors": [
+        "Yujing Wang",
+        "Qiyue Sun",
+        "Junwei Wang",
+        "Rongbo Fan",
+        "Tongjun Guo",
+        "Ge Zhao",
+        "Qijing Du",
+        "Ying Cui",
+        "Rongwei Han",
+        "Yongxin Yang"
+      ],
+      "doi": "10.1016/j.ijfoodmicro.2026.112152",
+      "arxiv_id": "",
+      "pubmed_id": "43014060"
+    },
+    {
+      "title": "CRISPR Technology: From Bench to Bedside Applications.",
+      "source": "PubMed",
+      "date": "2026-11-01T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43011237/",
+      "abstract": "CRISPR-Cas genome editing represents one of the most transformative advances in modern molecular biology, enabling programmable site-specific genetic modification that has revolutionized functional genomics and precision therapeutic development. Beyond canonical Cas9 nucleases, the CRISPR toolkit has diversified into precision base editors, prime editors, CRISPR-associated transposases, and Cas12/Cas13 RNA-targeting effectors, each with distinct mechanistic properties. Clinically, ex vivo CRISPR therapies for hemoglobinopathies have secured regulatory approval, while base editing, prime editing, and in vivo Chimeric Antigen Receptor (CAR)-T candidates are advancing through trials for a broad spectrum of hematologic, oncologic, and rare genetic disorders. However, existing reviews largely address technical innovation or clinical translation in isolation, lacking a holistic, up-to-date synthesis of the full bench-to-bedside trajectory of CRISPR technology. This review systematically dissects the molecular mechanisms, advantages, and limitations of core CRISPR editing platforms; summarizes pivotal clinical data across hemoglobinopathies, CAR-T immunotherapy, muscular dystrophy, cystic fibrosis, cardiometabolic diseases and rare monogenic diseases; evaluates delivery systems including lipid nanoparticles and viral vectors; and discusses key translational barriers such as off-target genotoxicity and immunogenicity alongside emerging optimization strategies. This work provides a holistic bench-to-bedside framework for CRISPR research, offering critical insights to advance next-generation precision genetic medicine.",
+      "authors": [
+        "Xinzhi Ma",
+        "Lingyu Li",
+        "Yingli Sun"
+      ],
+      "doi": "10.1002/mco2.71011",
+      "arxiv_id": "",
+      "pubmed_id": "43011237"
+    },
+    {
+      "title": "Microfluidic Biosensors for the Detection of Foodborne Pathogens: A Comprehensive Review.",
+      "source": "PubMed",
+      "date": "2026-11-01T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43010997/",
+      "abstract": "Foodborne pathogen detection in complex foods remains challenging because sample preparation and signal readout can be affected by lipids, proteins, and background microorganisms. This review compares microfluidic biosensors by substrate, fabrication route, sample handling, and optical, electrochemical, or nucleic-acid readout. Published studies demonstrate rapid detection in selected food samples, but reported detection limits cannot be compared without their matrices, units, enrichment steps, and assay times. Laboratory performance also does not establish field readiness. Reproducible manufacture, reagent stability, integrated sample-to-answer operation, and validation in authentic foods remain major translational barriers. Orthogonal readouts, CRISPR-assisted assays, and AI-supported interpretation are promising, but their benefit over simpler methods requires direct comparison and independent validation. Future studies should report matrix-specific recovery and performance, test robustness across sites, and address usability, cost, and regulatory requirements before claiming commercial readiness.",
+      "authors": [
+        "Wanjiao Mao",
+        "Li Zhang"
+      ],
+      "doi": "10.1002/fsn3.72588",
+      "arxiv_id": "",
+      "pubmed_id": "43010997"
     },
     {
       "title": "Cu-N 4 Single-Atom Nanozyme with Multi-Enzyme Mimetic Activities Combined with In 2 O 3 /Bi 24 O 31 Br 10 Heterojunction: Toward Sensitive Triple-Mode Detection and Photocatalytic Inactivation of Vibrio Alginolyticus.",
@@ -592,181 +1037,6 @@
       "pubmed_id": "42816343"
     },
     {
-      "title": "Investigations into the Virome of Grasses Growing in the Environment of Sugarcane in Florida.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000789/",
-      "abstract": "Samples of 26 plant species and the aphid Melanaphis sorghi were collected in the Everglades Agricultural Area (South Florida) from 2017-2019 to investigate the virome of grasses growing in the environment of sugarcane. Leaf samples were obtained from cultivated as well as from wild species. Detection and identification of the viruses present in 388 plant and 11 aphid samples were performed using the virion-associated nucleic acid (VANA)-metagenomics approach. Twenty-four viruses were identified, and 12 plant species and the aphid were infected by at least one virus. Fourteen of these 24 viruses were known viruses whereas 10 were putatively new virus species, including an alphaendornavirus (family Endornaviridae), an alphanucleorhabdovirus (Rhabdoviridae), an amalgavirus (Amalgaviridae), a marafivirus (Tymoviridae), a mastrevirus (Geminiviridae), and a sobemovirus (Solemoviridae). The highest number of viruses was detected in Columbus grass and sorghum (10 and 11, respectively). Sugarcane mosaic virus (SCMV; Potyvirus sacchari, Potyviridae) and maize chlorotic dwarf virus (Waikavirus zeae, Secoviridae) were the most widespread viruses, occurring in nine and seven plant species, respectively, and were also detected in the aphid. In a phylogenetic tree constructed with partial genome sequences (4,000 nt) of SCMV obtained from GenBank and herein, virus isolates from eight plant species were distributed in three different lineages, thus suggesting significant diversity of this virus in Florida. Only two Saccharum-infecting viruses, SCMV and sugarcane yellow leaf virus (Polerovirus SCYLV, Solemoviridae) were detected in sorghum and other grasses. These plants may, therefore, serve as putative reservoirs for the causal agents of two sugarcane diseases in Florida.",
-      "authors": [
-        "Philippe C Rott",
-        "Denis Filloux",
-        "Jean-Heinrich Daugrois",
-        "Emmanuel Fernandez",
-        "Charlotte Julian",
-        "Serge Galzi",
-        "Robert Beiriger",
-        "D Calvin Odero",
-        "Sushma Gupta Sood",
-        "Philippe Roumagnac"
-      ],
-      "doi": "10.1094/PDIS-07-26-1474-RE",
-      "arxiv_id": "",
-      "pubmed_id": "43000789"
-    },
-    {
-      "title": "Genome-Informed Development of a Highly Specific Loop-Mediated Isothermal Amplification Assay for Detection of the Laurel Wilt Pathogen in Avocado.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000786/",
-      "abstract": "Laurel wilt, caused by the ambrosia fungus Harringtonia lauricola (HL), threatens Lauraceae forests and avocado production. Rapid and accurate diagnosis is critical for disease management, but current methods are often slow or difficult to implement directly from field-collected wood samples. A published loop-mediated isothermal amplification (LAMP) assay targeting the HL β-tubulin ( β-tub ) gene enables rapid detection but lacks extensive validation for avocado tissues and may produce ambiguous amplification products when applied to non-target fungi and crude plant extracts. This study evaluated the specificity, sensitivity, and inclusivity of the β-tub assay and developed a novel HL-specific LAMP marker (HL_0354) through comparative genomic analyses. Both assays were validated using fungal isolates, diverse HL strains, and naturally and artificially infected avocado wood samples. The β-tub assay produced late nonspecific amplification products with several non-HL species and consistently detected HL at 5 pg DNA. In contrast, HL_0354 showed no reproducible amplification from non-target fungi and reproducibly detected 0.5 pg of HL DNA in crude avocado DNA matrices (0.05 ng/µl), with amplifications typically occurring within 5-12 min. Inclusivity testing confirmed detection of all HL strains evaluated despite minor annealing-temperature variation among Southeast Asian isolates. When applied to field samples, HL_0354 achieved a true-positive rate of 97% and an overall diagnostic accuracy of 98%, outperforming the β-tub assay (90% and 94%, respectively), without false-positive detections. Coupled with a simple Chelex-based extraction protocol, HL_0354 provides a rapid, sensitive, and field-deployable approach for detection of H. lauricola in avocado wood samples, supporting laurel wilt surveillance and management.",
-      "authors": [
-        "Jorge Ronny Díaz-Valderrama",
-        "Monica Navia-Urrutia",
-        "Shelby Weber",
-        "Chellappan Padmanabhan",
-        "Liliana M Cano",
-        "Daniela E Cárdenas",
-        "Patricia Manosalva",
-        "Romina Gazis"
-      ],
-      "doi": "10.1094/PDIS-07-26-1461-RE",
-      "arxiv_id": "",
-      "pubmed_id": "43000786"
-    },
-    {
-      "title": "Development of Virus-Mimicking Artificial Positive Controls for TaqMan® real-time PCR assays.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000784/",
-      "abstract": "TaqMan® real time PCR is the gold standard for virus detection, yet laboratories face challenges with acquiring positive controls, due to biosecurity restrictions and limited supply. Building on virus-mimicking artificial positive controls (ViMAPC) used in endpoint PCR, we have developed ViMAPCs for TaqMan® PCR. We utilize a sister virus taxon to create a positive control template which contains the target virus primer and probe sequences. As a proof-of-concept the novel strategy has been tested using both RNA and DNA viruses. ViMAPCs were tested in parallel with targeted virus-infected material with cross-verification tests carried out in a second laboratory and all met preset equivalence criteria. The technology provides highly reproducible positive controls for virus diagnostics allowing for the use of TaqMan® PCR when the procurement of true positive controls is difficult, such as a new incursion or biosecurity breaches.",
-      "authors": [
-        "Habeeb Atanda",
-        "Daisy Stainton",
-        "Bolaji Osundahunsi",
-        "Andrea Sierra-Mejia",
-        "Shivani Singh",
-        "Ioannis Emmanouil Tzanetakis"
-      ],
-      "doi": "10.1094/PDIS-07-26-1392-SR",
-      "arxiv_id": "",
-      "pubmed_id": "43000784"
-    },
-    {
-      "title": "Pantoea Species Isolated from Onion Plants and Bulbs Across Different Regions of Chile.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000158/",
-      "abstract": "Onions are one of the main vegetables cultivated in Chile. In recent years, changing climate conditions have favored the emergence of new bacterial diseases, where Pantoea species have been reported as causal agents of onion leaf blight and bulb rot in central Chile. The objective of this work was to study the abundance of Pantoea spp. isolated from symptomatic onion plants sampled in different regions of Chile. The identification of Pantoea species was determined based on gyrB, leuS and rpoB genes sequences, revealing Pantoea agglomerans as the most frequently isolated species, followed by Pantoea ananatis and Pantoea eucalypti . Pathogenicity tests were performed. Only three of the 20 isolated strains showed clear symptoms of bulb damage, with P. ananatis exhibiting the most severe symptoms. The complete genome of a pathogenic strain of each identified species was sequenced. These genomes were used for the implementation of PCR-High Resolution Melting-based system determining characteristic profiles of each species in order to facilitate the identification of the isolates in onion samples. Six primer pairs of housekeeping genes previously used in multilocus analysis were used to test their ability to differentiate between Pantoea species. The primer pairs gyrB and leuS showed the greatest discrimination among the Pantoea species. In this study, the identification of Pantoea species isolated from onion crops in Chile, revealed that only a small proportion were pathogenic, even in diseased plants. This highlights complex plant-bacteria interactions and suggests PCR-HRM as a useful tool to study these populations and better understand disease development.",
-      "authors": [
-        "Gonzalo Calderón",
-        "Valentina Muñoz-Quiroz",
-        "Ingrid-Nicole Vásconez",
-        "Michael Seeger",
-        "Jeannette Guajardo",
-        "Michelle Pena MacLellan",
-        "Bhabesh Dutta",
-        "Verónica Guajardo",
-        "Miryam Valenzuela"
-      ],
-      "doi": "10.1094/PHYTO-04-26-0148-SA",
-      "arxiv_id": "",
-      "pubmed_id": "43000158"
-    },
-    {
-      "title": "Population Genomics and Virulence Analyses Reveal Migration Pathways of Puccinia striiformis f. sp. tritici Between Southeastern Tibet and Sichuan.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000123/",
-      "abstract": "Wheat stripe rust, caused by Puccinia striiformis f. sp. tritici ( Pst ), is one of the most damaging diseases of wheat in China. Southeastern Tibet has recently been identified as an important source of Pst inoculum; however, the population genetic relationships and dispersal pathways connecting this region to Sichuan remain unclear. In this study, 220 Pst isolates collected from southeastern Tibet and Sichuan in 2025 were characterized using 19 Chinese differentials, 18 Yr single-gene differentials, and a 5K genotyping-by-target sequencing platform to assess virulence diversity, population structure, and potential migration pathways. Virulence analyses identified 66 previously described and 76 additional races using the Chinese differentials, while 148 races were distinguished using the Yr single-gene differentials. None of the isolates exhibited virulence against Yr5 or Yr15 . Population genetic analyses revealed that the Qamdo (CD) population in eastern Tibet exhibited the highest genetic diversity and substantial admixture. Strong genetic connectivity between Qamdo and populations in southeastern Tibet and Sichuan suggested extensive regional gene flow. Close genetic relationships between Qamdo and populations from Garzê (SCGZ), Jiangyou (SCJY), and Guangyuan (SCGY) further indicated that Qamdo may serve as a bridge for pathogen dispersal. These findings support the potential contribution of oversummering Pst populations in southeastern Tibet to inoculum sources in Sichuan and highlight the epidemiological significance of the Nyingchi-Qamdo-Sichuan corridor. This study provides insights into regional Pst migration and informs resistance breeding and stripe rust management strategies.",
-      "authors": [
-        "Hanlin Lai",
-        "Yaning Liu",
-        "Hexin Chen",
-        "Li Geng",
-        "Hongyan Wang",
-        "Lili Huang",
-        "Zhensheng Kang",
-        "Gangming Zhan"
-      ],
-      "doi": "10.1094/PHYTO-06-26-0206-R",
-      "arxiv_id": "",
-      "pubmed_id": "43000123"
-    },
-    {
-      "title": "Rat hepatitis E virus RNA detection in isolated cases of acute undifferentiated febrile illness without acute hepatitis.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43000095/",
-      "abstract": "Rat hepatitis E virus (ratHEV; Rocahepevirus ratti) is an emerging zoonotic pathogen whose clinical spectrum is predominantly hepatic. Whether ratHEV causes acute undifferentiated febrile illness (AUFI) without acute hepatitis has not been systematically evaluated. This retrospective observational study at a southern Spain tertiary hospital (April 2021-October 2023) evaluated patients tested for Rickettsia spp. and/or Coxiella burnetii. AUFI was defined as community-acquired fever ≥38°C lasting <21 days without localizing features or initial etiology; patients with acute hepatitis were excluded. AUFI cases were compared with contemporaneous febrile patients presenting with a localizing focus. The primary outcome was sequence-confirmed infection. Detections without sequence recovery were classified as probable infections. Of 1,684 patients assessed, 312 were eligible: 81 with AUFI (median age 53 years [IQR, 37-64]; 54 [66.7%] men) and 231 comparators. Sequence-confirmed ratHEV infection occurred in 1/81 AUFI patients (1.2%; 95% CI, 0.2-6.7) and 0/231 comparators (0%; 95% CI, 0-1.6; P = 0.260). Two additional AUFI patients had detectable ratHEV RNA without sequence recovery. Combining confirmed and probable infections, ratHEV RNA was detected in 3/81 AUFI patients (3.7%; 95% CI, 1.3-10.3; P = 0.017). The confirmed infection presented as a self-limiting febrile illness without liver dysfunction, ratHEV RNA cleared upon fever resolution. The recovered genotype C1 sequence clustered with ratHEV rodent sequences from the same region. RatHEV RNA was detected exclusively among AUFI patients. These findings support prospectively evaluating ratHEV as a potential cause of AUFI where the virus circulates in animal reservoirs.",
-      "authors": [
-        "Lucia Rios-Muñoz",
-        "Claudia Ferreira-Tata",
-        "Marina Gallo-Marin",
-        "Ana Belen Perez",
-        "Maria Casares-Jimenez",
-        "Diana Corona-Mata",
-        "Javier Caballero-Gomez",
-        "Serafin Gutierrez",
-        "Mario Frias",
-        "Pedro Lopez-Lopez",
-        "Pedro Gámez-Beltrán",
-        "João R Mesquita",
-        "Antonio Rivero-Juarez",
-        "Antonio Rivero"
-      ],
-      "doi": "10.1016/j.ijid.2026.109227",
-      "arxiv_id": "",
-      "pubmed_id": "43000095"
-    },
-    {
-      "title": "Rapid and sensitive on-site detection of PBoV G3 using an EsCas13d-based platform.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42763167/",
-      "abstract": "Rapid, sensitive, and user-friendly nucleic acid diagnostic methods are crucial for controlling the spread of PBoV G3. In this study, we developed SENTRY (Single-step Enzymatic Nucleic acid Targeted Reporter Yield), a pathogen detection platform designed for on-site deployment in resource-limited settings. Combined with GENE (General Extraction-free Nucleic acid Exposure reagent), a room-temperature lysis protocol, SENTRY can release viral nucleic acids within 5 min. The addition of accessory proteins enhances the sensitivity of the one-step SENTRY platform and shortens the reaction time. SENTRY provides results within 30 min, with clinical sample detection rates matching those of qPCR, and shows no cross-reactivity with non-target viruses. The system operates efficiently at body temperature (∼37 °C) without requiring temperature control devices. Lyophilized reagents make SENTRY robust to transport conditions and extend shelf life. Overall, these features make SENTRY highly suitable for POCT outside conventional laboratory environments.",
-      "authors": [
-        "Peng-Fei Fu",
-        "Zhuo-Wei Zhang",
-        "Jun Hong",
-        "An-Xin Hu",
-        "Yi-Yang Shi",
-        "Jia-Wen Lin",
-        "Si-Yi Pi",
-        "Yu-Yan Zhang",
-        "Yan-Hong Wang",
-        "Min Lu",
-        "Guo-You Yin",
-        "Dong-Mei Wang"
-      ],
-      "doi": "10.1016/j.aca.2026.346108",
-      "arxiv_id": "",
-      "pubmed_id": "42763167"
-    },
-    {
-      "title": "Conventional and inverted SERS configurations in pathogen diagnostics on the basis of plasmonic gold nanostars ink.",
-      "source": "PubMed",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42763162/",
-      "abstract": "Conventional surface-enhanced Raman spectroscopy (SERS) methodologies typically depend on prefabricated substrates, which can constrain their utility for rapid, in-situ diagnostics. While nano-inks offer a route toward flexible sensing, their application typically still follows a direct, substrate-based paradigm. Trends toward the miniaturization of Raman spectroscopy and on-site diagnostics necessitate a fundamental rethinking of sensor design, prioritizing minimal sample preparation and direct analysis. Gold nanostar (AuNSs)-based plasmonic ink is presented as a versatile platform for surface-enhanced Raman spectroscopy (SERS)-based detection of pyocyanin - a key virulence factor of Pseudomonas aeruginosa. Two SERS configurations are explored: a conventional paper-based sensor, used to establish the analytical performance of the AuNSs ink (LOD 15 nM in saliva), and an inverted approach, where the ink is deposited directly onto a medical cotton swab pre-loaded with the sample. The inverted configuration, coupled with a portable Raman spectrometer (785 nm), enables direct, substrate-free detection of pyocyanin with a clinically relevant LOD of 5 μM and requires minimal sample pretreatment. Spike-and-recovery experiments in saliva yielded recoveries of 96-105% (s r ≤ 0.10), confirming the accuracy of the method. The inverted SERS approach on cotton swabs thus offers a practical, rapid, and simple route for point-of-care screening of P. aeruginosa infections, circumventing the need for prefabricated sensors or laboratory equipment. By transforming the standard clinical swab into an active SERS substrate, the inverted approach provides a practical, substrate-free, and equipment-light platform for direct pathogen screening at the patient's bedside. This strategy addresses key barriers to SERS implementation - reliance on prefabricated sensors, complex sample handling, and bulky instrumentation - offering a realistic and scalable solution for non-invasive screening. This approach is particularly significant for the analysis of potentially bio-contaminated surfaces, such as medical instruments or hospital environments, where direct contact with the analyte is hazardous or undesirable.",
-      "authors": [
-        "Evgenia Yu Afonyushkina",
-        "Olesya O Kapitanova",
-        "Ilya A Zavidovskiy",
-        "Nadezhda M Belozerova",
-        "Yixin Yu",
-        "Pavel V Evdokimov",
-        "Bela B Batchaeva",
-        "Alexander V Syuy",
-        "Aleksey V Arsenin",
-        "Valentyn S Volkov",
-        "Sergey M Novikov",
-        "Irina A Veselova"
-      ],
-      "doi": "10.1016/j.aca.2026.346102",
-      "arxiv_id": "",
-      "pubmed_id": "42763162"
-    },
-    {
       "title": "A single-cell transcriptomic atlas of the pigtail macaque lung",
       "source": "bioRxiv",
       "date": "2026-11-09T00:00:00+00:00",
@@ -1050,26 +1320,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Stressful life events recorded in 39.7 million clinical notes: associations with mental disorders, comorbidity, and frailty",
-      "source": "medRxiv",
-      "date": "2026-11-08T00:00:00+00:00",
-      "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367427v1",
-      "abstract": "Abstract Background: Despite being harmful to both mental and physical health, stressful life events are not recorded in structured electronic health records. They appear sporadically in narrative clinical notes, where they are difficult to analyze at scale. Natural language processing (NLP) has made clinical notes more available for research, but applications to stressful life events remain limited, leaving their documentation patterns and prognostic value understudied. By applying NLP, we identified stressful life events from clinical notes and examined their associations with mental disorders, comorbidity, and frailty. Methods: We analyzed 39.7 million clinical notes, recorded between 2010 and 2023, from 202,988 patients in Central Finland Wellbeing Services County. NLP was applied to identify stressful life events in five categories: grief, divorce, financial distress, violence, and family problems. Associations with the risk of mental disorders (stress-related disorders, anxiety, and depression) were estimated using time-varying Cox proportional hazards models, and associations with physical health outcomes (comorbidity and frailty) using generalized linear mixed models. Results: Stressful life events were identified from clinical notes with high accuracy (F1 scores 0.81-0.95). Event prevalences ranged from 0.5% for family problems to 22.1% for grief. Most individual events were associated with mental disorders, comorbidity, and frailty. The number of different life events was associated with a higher risk of stress-related (hazard ratio [HR], 1.62; 95% confidence interval [CI], 1.58-1.67), anxiety (HR, 2.08; 95% CI, 2.03-2.14), and depressive disorders (HR, 1.99; 95% CI, 1.94-2.03), and with higher comorbidity (rate ratio, 1.58; 95% CI, 1.56-1.59) and frailty (mean ratio, 1.57; 95% CI, 1.56-1.58). Conclusions: Stressful life events were accurately identified from clinical notes and were associated with a higher risk of mental disorders, comorbidity, and frailty. Even so, violence and financial distress, the two events with comparable national estimates, were documented substantially less often than those estimates, suggesting underrecording of stressful life events in clinical settings.",
-      "authors": [
-        "Peltola, A. A.",
-        "Khan, E.",
-        "Kaijansinkko, J.",
-        "Alexander, N.",
-        "Tirkkonen, A.",
-        "von Bonsdorff, M. B.",
-        "Lin, J.",
-        "Jylhava, J."
-      ],
-      "doi": "10.64898/2026.11.06.26367427",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
       "title": "Multi-Agent Generative Artificial Intelligence for Transfusion Reaction Feature Extraction",
       "source": "medRxiv",
       "date": "2026-11-09T00:00:00+00:00",
@@ -1237,13 +1487,41 @@
       "doi": "10.64898/2026.11.09.26367620",
       "arxiv_id": "",
       "pubmed_id": ""
+    },
+    {
+      "title": "The LAMp-LC Study: Unveiling the lung microbiome in Australians with early- and late-stage lung cancer using shotgun metagenomics",
+      "source": "medRxiv",
+      "date": "2026-11-11T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367577v1",
+      "abstract": "Lung cancer remains the leading cause of cancer-related mortality, yet the role of lower airway microbiota in disease development and progression is incompletely defined. Here, we characterised the lung microbiome in an Australian cohort (lung cancer n=106, healthy n=10) using shotgun metagenomics and semi-quantitative culture to evaluate site-specific microbial ecology across the tumour microenvironment (TME), contralateral airways, and oral cavity, to evaluate microbiome differences across early- and late-stage disease, and to quantify clinical covariate impacts on airway microbiota. Diversity analyses, multivariable linear modelling, and culture-based comparisons were performed, with adjustment for smoking pack-years, sex, and tumour characteristics. Cumulative smoking exposure caused significant, progressive core commensal depletion (Neisseria subflava, Gemella sanguinis, Rothia mucilaginosa), alongside Streptococcus mitis enrichment, with Mogibacterium diversum uniquely depleted within the TME of smokers. {beta} diversity in both early- and late-stage bronchial washes (BWs) significantly diverged from healthy controls, whilst Shannon diversity ( diversity) was significantly reduced in early-stage compared with late-stage BWs. The early-stage TME also demonstrated significantly reduced microbial cultivability compared with healthy and other lung cancer BWs. A small number of taxa were uniquely enriched (Sporothrix and Pseudomonas species) or depleted (Streptococcus parasanguinis, Streptococcus cristatus, R. mucilaginosa) within the TME, and 13 taxa were significantly enriched or depleted in both TME and contralateral airways compared with healthy airways. Only lung adenocarcinoma showed distinct oral {beta}-diversity restructuring. Taken together, our findings demonstrate that the lung cancer microbiome is characterised by early and progressive lower airway dysbiosis that is strongly shaped by tumour presence. Our findings point to potential new avenues for microbiome-based diagnostic and therapeutic strategies.",
+      "authors": [
+        "Baird, T.",
+        "Davey, T. R.",
+        "Chan, B. A.",
+        "Pattison, A.",
+        "Olagoke, O. S.",
+        "Littlejohn, M. L.",
+        "Greathouse, K. L.",
+        "Stone, J. K.",
+        "Fraser, T. A.",
+        "Webb, K. A.",
+        "Dunn, E. M.",
+        "Bell, P. T.",
+        "Dettrick, A.",
+        "Bint, M.",
+        "Sarovich, D. S.",
+        "Price, E. P."
+      ],
+      "doi": "10.64898/2026.11.10.26367577",
+      "arxiv_id": "",
+      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 39,
+      "count": 54,
       "error": ""
     },
     {
