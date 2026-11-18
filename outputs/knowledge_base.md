@@ -1,15 +1,15 @@
 # 论文知识库
 
-最近更新：2026-11-17 09:05:44
+最近更新：2026-11-18 08:28:28
 
-累计论文数：5089
-最近一次新增：31
+累计论文数：5107
+最近一次新增：40
 
 ## 概览
 
-- 来源分布：PubMed=418, arXiv=3655, bioRxiv=657, medRxiv=359
-- 类别分布：clinical_application=367, dataset=580, foundation_model=2414, general=164, methods=1564
-- 热门主题：foundation_model_agent=3388, pathogenomics=182, sequencing_bioinformatics=148, application_monitoring=59, data_fair_training=2
+- 来源分布：PubMed=419, arXiv=3670, bioRxiv=657, medRxiv=361
+- 类别分布：clinical_application=368, dataset=583, foundation_model=2423, general=165, methods=1568
+- 热门主题：foundation_model_agent=3398, pathogenomics=183, sequencing_bioinformatics=149, application_monitoring=59, data_fair_training=2
 
 ## 按类别索引
 
@@ -426,11 +426,6 @@
   相关度：4.75 | 新颖度：5.25 | 综合：4.925
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
-- [Somatic mutation probabilities learned from the DNA sequence](https://www.biorxiv.org/content/10.64898/2026.11.13.766380v1)
-  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
-  相关度：4.75 | 新颖度：5.25 | 综合：4.925
-  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
 - [Resolving Complex Structural Variants in Undiagnosed Rare Movement Disorders via Multimodal Genomics and Multi-omics.](https://pubmed.ncbi.nlm.nih.gov/42421598/)
   来源：PubMed | 日期：2026-07-09 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
   相关度：6.9 | 新颖度：1.25 | 综合：4.923
@@ -685,6 +680,11 @@
 - [A Comprehensive Benchmark of Histopathology Foundation Models for Kidney Histopathology](http://arxiv.org/abs/2603.15967v1)
   来源：arXiv | 日期：2026-03-16 | 主题：foundation_model_agent
   相关度：3.05 | 新颖度：6.75 | 综合：4.345
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [OICycle: Observe, Infer, and Intervene Cycle for Belief-State Learning in Longitudinal Clinical Decision Making](http://arxiv.org/abs/2611.22826v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：foundation_model_agent
+  相关度：3.05 | 新颖度：6.7 | 综合：4.327
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Towards autonomous medical artificial intelligence agents.](https://pubmed.ncbi.nlm.nih.gov/42310457/)
@@ -1042,11 +1042,6 @@
   相关度：1.7 | 新颖度：6.75 | 综合：3.467
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
-- [HEmIF-Bench: Benchmarking H&E-to-mIF Models BeyondVirtual-StainFidelity](http://arxiv.org/abs/2611.19905v1)
-  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
-  相关度：1.7 | 新颖度：6.75 | 综合：3.467
-  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
-
 - [OncoGen.AI: an integrated platform for automated genomic analysis and reporting in precision oncology.](https://pubmed.ncbi.nlm.nih.gov/42362719/)
   来源：PubMed | 日期：2026-06-27 | 主题：pathogenomics, sequencing_bioinformatics
   相关度：4.6 | 新颖度：1.25 | 综合：3.427
@@ -1101,6 +1096,11 @@
 - [BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance](http://arxiv.org/abs/2607.19262v1)
   来源：arXiv | 日期：2026-07-21 | 主题：pathogenomics, sequencing_bioinformatics
   相关度：4.6 | 新颖度：0.75 | 综合：3.252
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [Somatic mutation probabilities learned from the DNA sequence](https://www.biorxiv.org/content/10.64898/2026.11.13.766380v1)
+  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：0.25 | 综合：3.175
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Artificial intelligence and transforming cancer care.](https://pubmed.ncbi.nlm.nih.gov/42209847/)
@@ -1524,6 +1524,11 @@
 - [PDO Drug Screening Data for Evaluating and Training AI Drug Response Prediction Models](http://arxiv.org/abs/2611.15769v1)
   来源：arXiv | 日期：2026-11-11 | 主题：未命中主题
   相关度：2.4 | 新颖度：0.5 | 综合：1.735
+  说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
+
+- [HEmIF-Bench: Benchmarking H&E-to-mIF Models BeyondVirtual-StainFidelity](http://arxiv.org/abs/2611.19905v1)
+  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
+  相关度：1.7 | 新颖度：1.75 | 综合：1.717
   说明：这篇工作更接近临床/监测落地，适合评估其对快速识别、预警或治疗辅助的实际价值。
 
 - [Artificial intelligence-based gram stain classification: Accuracy and clinical utility in positive blood cultures.](https://pubmed.ncbi.nlm.nih.gov/41794133/)
@@ -2147,11 +2152,6 @@
   相关度：5.75 | 新颖度：6.25 | 综合：5.925
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
-- [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://www.biorxiv.org/content/10.64898/2026.11.13.766344v1)
-  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
-  相关度：5.75 | 新颖度：6.25 | 综合：5.925
-  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
 - [Lighting the Way for BRIGHT: Reproducible Baselines with Anserini, Pyserini, and RankLLM](http://arxiv.org/abs/2509.02558v2)
   来源：arXiv | 日期：2025-09-02 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：6.5 | 综合：5.818
@@ -2343,13 +2343,13 @@
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
-- [Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation](http://arxiv.org/abs/2611.09457v1)
-  来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
+- [Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation](http://arxiv.org/abs/2611.03747v2)
+  来源：arXiv | 日期：2026-11-02 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
-- [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](http://arxiv.org/abs/2611.19900v1)
-  来源：arXiv | 日期：2026-11-15 | 主题：foundation_model_agent
+- [Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation](http://arxiv.org/abs/2611.09457v1)
+  来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
@@ -2983,6 +2983,11 @@
   相关度：5.75 | 新颖度：1.25 | 综合：4.175
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
+- [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://www.biorxiv.org/content/10.64898/2026.11.13.766344v1)
+  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
+  相关度：5.75 | 新颖度：1.25 | 综合：4.175
+  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
 - [XRAG: eXamining the Core -- Benchmarking Foundational Components in Advanced Retrieval-Augmented Generation](http://arxiv.org/abs/2412.15529v4)
   来源：arXiv | 日期：2024-12-20 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：1.5 | 综合：4.068
@@ -3218,6 +3223,11 @@
 
 - [Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems](http://arxiv.org/abs/2611.13127v1)
   来源：arXiv | 日期：2026-11-09 | 主题：foundation_model_agent
+  相关度：5.45 | 新颖度：1.0 | 综合：3.893
+  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](http://arxiv.org/abs/2611.19900v1)
+  来源：arXiv | 日期：2026-11-15 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：1.0 | 综合：3.893
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
@@ -3646,11 +3656,6 @@
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
   中文摘要：针对现有类级代码生成数据集规模不足（如 ClassEval 仅 100 个类，RealClassEval 仅 400 个类）限制模型评估的问题，本文推出了 OpenClassGen，这是一个包含从 2,970 个开源项目中提取的 324,843 个 Python 类的大规模语料库。该数据集将人工编写的类与包含签名及文档字符串的自包含骨架配对，并集成了涵盖复杂...
 
-- [OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research](http://arxiv.org/abs/2504.15564v4)
-  来源：arXiv | 日期：2025-04-22 | 主题：未命中主题
-  相关度：1.4 | 新颖度：6.5 | 综合：3.185
-  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
-
 - [MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks](http://arxiv.org/abs/2512.08289v3)
   来源：arXiv | 日期：2025-12-09 | 主题：未命中主题
   相关度：1.4 | 新颖度：6.5 | 综合：3.185
@@ -3755,6 +3760,11 @@
   相关度：1.7 | 新颖度：5.75 | 综合：3.117
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
   中文摘要：检索增强生成（RAG）评估通常检查模型声明是否在检索文档中有事实依据，但往往忽略了证据是否归属于正确的实体。本研究定义了“欺骗性接地”（Deceptive Grounding, DG）：即临床 RAG 响应虽然通过了所有自动化检查（如零幻觉、高忠实度、真实引用），却将药物 Y 的临床证据误报为查询药物 X 的证据。通过对 13 个模型进行受控因子基准测试，发...
+
+- [StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics](http://arxiv.org/abs/2611.23225v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：未命中主题
+  相关度：0.7 | 新颖度：7.5 | 综合：3.08
+  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 - [SAGEO Arena: A Realistic Environment for Evaluating Search-Augmented Generative Engine Optimization](http://arxiv.org/abs/2602.12187v2)
   来源：arXiv | 日期：2026-02-12 | 主题：未命中主题
@@ -4066,6 +4076,11 @@
   相关度：0.7 | 新颖度：5.75 | 综合：2.467
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
+- [TUSI: A Citation-Grounded Graph-Based Benchmark](http://arxiv.org/abs/2611.21823v1)
+  来源：arXiv | 日期：2026-11-16 | 主题：未命中主题
+  相关度：0.7 | 新颖度：5.75 | 综合：2.467
+  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
 - [Momentum Memory for Knowledge Distillation in Computational Pathology](http://arxiv.org/abs/2602.21395v3)
   来源：arXiv | 日期：2026-02-24 | 主题：foundation_model_agent
   相关度：3.05 | 新颖度：1.25 | 综合：2.42
@@ -4294,6 +4309,11 @@
 - [Pep2Mol: 3D Molecule Generation Targeting Protein-Protein Interfaces with Diffusion Models](https://www.biorxiv.org/content/10.64898/2026.06.28.734975v1)
   来源：bioRxiv | 日期：2026-06-29 | 主题：未命中主题
   相关度：1.7 | 新颖度：1.25 | 综合：1.542
+  说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
+
+- [OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research](http://arxiv.org/abs/2504.15564v4)
+  来源：arXiv | 日期：2025-04-22 | 主题：未命中主题
+  相关度：1.4 | 新颖度：1.5 | 综合：1.435
   说明：这篇工作偏数据集或基准构建，适合判断是否能作为病原组学训练或评测资源。
 
 - [OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research](http://arxiv.org/abs/2504.15564v3)
@@ -5801,11 +5821,6 @@
   相关度：6.55 | 新颖度：6.5 | 综合：6.533
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [EcoToxFred: A knowledge-graph-grounded conversational agent for exploring ecotoxicological monitoring and hazard data](https://www.biorxiv.org/content/10.1101/2025.07.04.663152v2)
-  来源：bioRxiv | 日期：2026-11-15 | 主题：foundation_model_agent
-  相关度：6.55 | 新颖度：6.5 | 综合：6.533
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning](http://arxiv.org/abs/2603.17055v1)
   来源：arXiv | 日期：2026-03-17 | 主题：foundation_model_agent
   相关度：6.8 | 新颖度：6.0 | 综合：6.52
@@ -6215,11 +6230,6 @@
   相关度：6.55 | 新颖度：6.0 | 综合：6.357
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [System 1 agents: a method for local, reliable and fast agentic AI](http://arxiv.org/abs/2611.21053v1)
-  来源：arXiv | 日期：2026-11-16 | 主题：foundation_model_agent
-  相关度：6.45 | 新颖度：6.17 | 综合：6.352
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks](http://arxiv.org/abs/2502.17832v4)
   来源：arXiv | 日期：2025-02-25 | 主题：foundation_model_agent
   相关度：6.8 | 新颖度：5.5 | 综合：6.345
@@ -6312,11 +6322,6 @@
 
 - [ddkg.skill: A Compositional Agent Skill for Translating Biomedical and Bioinformatics Questions into Cypher for the Data Distillery Knowledge Graph](https://www.biorxiv.org/content/10.64898/2026.09.26.754400v1)
   来源：bioRxiv | 日期：2026-10-07 | 主题：foundation_model_agent
-  相关度：6.45 | 新颖度：6.0 | 综合：6.292
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Evaluating Language Models as Orchestrators in a Tool-First Biomedical Discovery Platform](https://www.biorxiv.org/content/10.64898/2026.11.13.766436v1)
-  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：6.0 | 综合：6.292
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -6525,6 +6530,11 @@
   相关度：6.15 | 新颖度：6.25 | 综合：6.185
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2611.21847v1)
+  来源：arXiv | 日期：2026-11-16 | 主题：foundation_model_agent
+  相关度：6.15 | 新颖度：6.25 | 综合：6.185
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [RNA-binding proteins in aging and age-related diseases: roles, mechanisms, and a large language model analysis.](https://pubmed.ncbi.nlm.nih.gov/42322462/)
   来源：PubMed | 日期：2026-06-20 | 主题：pathogenomics, sequencing_bioinformatics, foundation_model_agent
   相关度：9.1 | 新颖度：0.75 | 综合：6.178
@@ -6676,6 +6686,11 @@
   相关度：6.15 | 新颖度：5.75 | 综合：6.01
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering](http://arxiv.org/abs/2603.13950v2)
+  来源：arXiv | 日期：2026-03-14 | 主题：foundation_model_agent
+  相关度：6.15 | 新颖度：5.75 | 综合：6.01
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [SYMDIREC: A Neuro-Symbolic Divide-Retrieve-Conquer Framework for Enhanced RTL Synthesis and Summarization](http://arxiv.org/abs/2603.17208v1)
   来源：arXiv | 日期：2026-03-17 | 主题：foundation_model_agent
   相关度：6.15 | 新颖度：5.75 | 综合：6.01
@@ -6813,6 +6828,11 @@
   相关度：6.15 | 新颖度：5.75 | 综合：6.01
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Retrieving Complementary Evidence for Multi-Hop RAG with Semantic Gain Graphs](http://arxiv.org/abs/2610.15285v2)
+  来源：arXiv | 日期：2026-10-11 | 主题：foundation_model_agent
+  相关度：6.15 | 新颖度：5.75 | 综合：6.01
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [Data Governance for Generative and Agentic AI : Technology, Law, Economics, and Security](http://arxiv.org/abs/2610.33605v1)
   来源：arXiv | 日期：2026-10-24 | 主题：foundation_model_agent
   相关度：6.15 | 新颖度：5.75 | 综合：6.01
@@ -6916,6 +6936,11 @@
 
 - [LLM sequential decision making under uncertainty in biochemical domains](http://arxiv.org/abs/2609.33061v1)
   来源：arXiv | 日期：2026-09-27 | 主题：foundation_model_agent
+  相关度：5.75 | 新颖度：6.25 | 综合：5.925
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Evaluation of System One Models on Biomedical Texts](https://www.medrxiv.org/content/10.64898/2026.11.15.26368126v1)
+  来源：medRxiv | 日期：2026-11-17 | 主题：foundation_model_agent
   相关度：5.75 | 新颖度：6.25 | 综合：5.925
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -7872,6 +7897,11 @@
   相关度：5.45 | 新颖度：5.5 | 综合：5.468
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Human-Agentic AI Collaboration Workflow for Trend Analysis of ChatGPT Applications in Healthcare](https://www.medrxiv.org/content/10.64898/2026.11.14.26368120v1)
+  来源：medRxiv | 日期：2026-11-17 | 主题：foundation_model_agent
+  相关度：5.45 | 新颖度：5.5 | 综合：5.468
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [SleepGPT: A Sleep Stage Language Model for Efficient Sleep Assessment](https://www.medrxiv.org/content/10.1101/2024.10.26.24316166v5)
   来源：medRxiv | 日期：2026-07-23 | 主题：foundation_model_agent
   相关度：7.15 | 新颖度：2.25 | 综合：5.435
@@ -8512,11 +8542,6 @@
   相关度：4.75 | 新颖度：5.75 | 综合：5.1
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](http://arxiv.org/abs/2510.26130v3)
-  来源：arXiv | 日期：2025-10-30 | 主题：foundation_model_agent
-  相关度：4.75 | 新颖度：5.75 | 综合：5.1
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Intelligence Foundation Model: A New Perspective to Approach Artificial General Intelligence](http://arxiv.org/abs/2511.10119v4)
   来源：arXiv | 日期：2025-11-13 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：5.75 | 综合：5.1
@@ -9034,11 +9059,6 @@
   相关度：4.75 | 新颖度：5.25 | 综合：4.925
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v3)
-  来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
-  相关度：4.75 | 新颖度：5.25 | 综合：4.925
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Read Before You Fit: Text-Derived Constraints for Discovering Differential Equations from Noisy Biological Data](http://arxiv.org/abs/2611.19779v1)
   来源：arXiv | 日期：2026-11-15 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：5.25 | 综合：4.925
@@ -9536,6 +9556,11 @@
 
 - [Chain of Physics: Supporting Fault Diagnosis with Engineering-Inspired Large Language Model Reasoning](http://arxiv.org/abs/2611.14263v1)
   来源：arXiv | 日期：2026-11-10 | 主题：foundation_model_agent
+  相关度：6.55 | 新颖度：1.5 | 综合：4.783
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [EcoToxFred: A knowledge-graph-grounded conversational agent for exploring ecotoxicological monitoring and hazard data](https://www.biorxiv.org/content/10.1101/2025.07.04.663152v2)
+  来源：bioRxiv | 日期：2026-11-15 | 主题：foundation_model_agent
   相关度：6.55 | 新颖度：1.5 | 综合：4.783
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -10315,6 +10340,11 @@
   相关度：6.45 | 新颖度：1.0 | 综合：4.542
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Evaluating Language Models as Orchestrators in a Tool-First Biomedical Discovery Platform](https://www.biorxiv.org/content/10.64898/2026.11.13.766436v1)
+  来源：bioRxiv | 日期：2026-11-16 | 主题：foundation_model_agent
+  相关度：6.45 | 新颖度：1.0 | 综合：4.542
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery](http://arxiv.org/abs/2607.16038v1)
   来源：arXiv | 日期：2026-07-17 | 主题：foundation_model_agent
   相关度：3.75 | 新颖度：6.0 | 综合：4.537
@@ -10336,6 +10366,11 @@
   相关度：4.05 | 新颖度：5.25 | 综合：4.47
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
   中文摘要：传统观点认为角膜是免疫赦免组织，但近期研究在健康人类角膜中发现了特定病原体缺失（SPF）小鼠所不具备的T细胞。本研究结合多模态人类数据与小鼠模型，表征了角膜免疫监视的细胞基础。通过对临床非炎症人类供体组织进行免疫荧光染色和共聚焦成像，在角膜上皮中发现了CD3+ T细胞。流式细胞术证实这些细胞主要是具有组织驻留记忆T（TRM）细胞表型的CD8+细胞。活体共聚焦...
+
+- [AI Companions for Young Adult Caregivers: Practical Advice, Emotional Depth, and the Limits of Metric Evaluation](http://arxiv.org/abs/2611.23147v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：未命中主题
+  相关度：2.5 | 新颖度：8.09 | 综合：4.457
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
 - [RADD: Retrieval-Augmented Discrete Diffusion for Multi-Modal Knowledge Graph Completion](http://arxiv.org/abs/2604.25693v1)
   来源：arXiv | 日期：2026-04-28 | 主题：foundation_model_agent
@@ -10766,6 +10801,11 @@
 
 - [CPDD: Adapting an autoregressive DNA language model for bidirectional phage genome modeling](https://www.biorxiv.org/content/10.64898/2026.11.07.765118v1)
   来源：bioRxiv | 日期：2026-11-10 | 主题：foundation_model_agent
+  相关度：6.45 | 新颖度：0.5 | 综合：4.367
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [System 1 agents: a method for local, reliable and fast agentic AI](http://arxiv.org/abs/2611.21053v1)
+  来源：arXiv | 日期：2026-11-16 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：0.5 | 综合：4.367
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -12675,11 +12715,6 @@
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
   中文摘要：识别话语中重构（reformulation）的策略性用途是计算论证领域的核心挑战。虽然大语言模型（LLM）擅长检测表面相似性，但往往难以捕捉重构的语用功能（如在修辞话语中的作用）。本文提出一种比较式多智能体框架，旨在量化引入显式理论知识对该任务的增益。研究利用标注的政治辩论数据集，建立了涵盖五种重构功能的新标准：减弱（Deintensification）、增...
 
-- [GAAMA: Graph Augmented Associative Memory for Agents](http://arxiv.org/abs/2603.27910v3)
-  来源：arXiv | 日期：2026-03-29 | 主题：未命中主题
-  相关度：2.1 | 新颖度：6.25 | 综合：3.553
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Evolving Idea Graphs with Learnable Edits-and-Commits for Multi-Agent Scientific Ideation](http://arxiv.org/abs/2605.04922v2)
   来源：arXiv | 日期：2026-05-06 | 主题：未命中主题
   相关度：2.1 | 新颖度：6.25 | 综合：3.553
@@ -12974,6 +13009,11 @@
 
 - [MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization](http://arxiv.org/abs/2510.16635v2)
   来源：arXiv | 日期：2025-10-18 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：0.75 | 综合：3.35
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](http://arxiv.org/abs/2510.26130v3)
+  来源：arXiv | 日期：2025-10-30 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.75 | 综合：3.35
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -13599,6 +13639,11 @@
   相关度：4.75 | 新颖度：0.25 | 综合：3.175
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v3)
+  来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：0.25 | 综合：3.175
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v2)
   来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.25 | 综合：3.175
@@ -13800,6 +13845,11 @@
   相关度：1.4 | 新颖度：6.0 | 综合：3.01
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [In-Context Optimization for Retrieval-Augmented Generation: A Gradient-Descent Perspective](http://arxiv.org/abs/2605.26356v2)
+  来源：arXiv | 日期：2026-05-25 | 主题：未命中主题
+  相关度：1.4 | 新颖度：6.0 | 综合：3.01
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG](http://arxiv.org/abs/2605.27105v2)
   来源：arXiv | 日期：2026-05-26 | 主题：未命中主题
   相关度：1.4 | 新颖度：6.0 | 综合：3.01
@@ -13935,6 +13985,11 @@
 
 - [Agents Propose, Code Verifies, Humans Decide: Verified Agentic Ingestion of Heterogeneous Scientific Tables into Relational Databases](http://arxiv.org/abs/2611.11045v1)
   来源：arXiv | 日期：2026-11-08 | 主题：未命中主题
+  相关度：1.4 | 新颖度：6.0 | 综合：3.01
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't](http://arxiv.org/abs/2611.22179v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：未命中主题
   相关度：1.4 | 新颖度：6.0 | 综合：3.01
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -14363,11 +14418,6 @@
   相关度：0.7 | 新颖度：6.25 | 综合：2.643
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2610.18449v2)
-  来源：arXiv | 日期：2026-10-13 | 主题：未命中主题
-  相关度：0.7 | 新颖度：6.25 | 综合：2.643
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](http://arxiv.org/abs/2603.15080v3)
   来源：arXiv | 日期：2026-03-16 | 主题：未命中主题
   相关度：3.1 | 新颖度：1.75 | 综合：2.627
@@ -14607,6 +14657,11 @@
   相关度：0.7 | 新颖度：5.75 | 综合：2.467
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation](http://arxiv.org/abs/2611.22274v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：未命中主题
+  相关度：0.7 | 新颖度：5.75 | 综合：2.467
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [A Drug-Target Specificity Foundation Model for Off-target Prediction, Repurposing, and Generative Design](https://www.biorxiv.org/content/10.64898/2026.06.08.730844v1)
   来源：bioRxiv | 日期：2026-06-08 | 主题：未命中主题
   相关度：3.1 | 新颖度：1.25 | 综合：2.453
@@ -14731,11 +14786,6 @@
   相关度：0.7 | 新颖度：5.25 | 综合：2.292
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
-- [SIRI: Self-Internalizing Reinforcement Learning with Intrinsic Skills for LLM Agent Training](http://arxiv.org/abs/2606.02355v2)
-  来源：arXiv | 日期：2026-06-01 | 主题：未命中主题
-  相关度：0.7 | 新颖度：5.25 | 综合：2.292
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
 - [SciTrace: Trajectory-Aware Safety Reasoning for Scientific Discovery Agents](http://arxiv.org/abs/2606.08234v1)
   来源：arXiv | 日期：2026-06-06 | 主题：未命中主题
   相关度：0.7 | 新颖度：5.25 | 综合：2.292
@@ -14817,11 +14867,6 @@
 
 - [How Efficient Is Your Agent? Online Predictive Bounds under Budget Constraints](http://arxiv.org/abs/2611.11279v1)
   来源：arXiv | 日期：2026-11-08 | 主题：未命中主题
-  相关度：0.7 | 新颖度：5.25 | 综合：2.292
-  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
-
-- [Towards Agentic Scientific Discovery in Distributed Systems](http://arxiv.org/abs/2611.20031v1)
-  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
   相关度：0.7 | 新颖度：5.25 | 综合：2.292
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -15266,6 +15311,11 @@
 
 - [Boosting LLMs for Mutation Generation](http://arxiv.org/abs/2603.24560v1)
   来源：arXiv | 日期：2026-03-25 | 主题：未命中主题
+  相关度：2.1 | 新颖度：1.25 | 综合：1.803
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
+- [GAAMA: Graph Augmented Associative Memory for Agents](http://arxiv.org/abs/2603.27910v3)
+  来源：arXiv | 日期：2026-03-29 | 主题：未命中主题
   相关度：2.1 | 新颖度：1.25 | 综合：1.803
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
@@ -16643,6 +16693,11 @@
   相关度：0.7 | 新颖度：1.25 | 综合：0.892
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2610.18449v2)
+  来源：arXiv | 日期：2026-10-13 | 主题：未命中主题
+  相关度：0.7 | 新颖度：1.25 | 综合：0.892
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2610.18449v1)
   来源：arXiv | 日期：2026-10-13 | 主题：未命中主题
   相关度：0.7 | 新颖度：1.25 | 综合：0.892
@@ -17074,6 +17129,11 @@
   相关度：0.7 | 新颖度：0.25 | 综合：0.542
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [SIRI: Self-Internalizing Reinforcement Learning with Intrinsic Skills for LLM Agent Training](http://arxiv.org/abs/2606.02355v2)
+  来源：arXiv | 日期：2026-06-01 | 主题：未命中主题
+  相关度：0.7 | 新颖度：0.25 | 综合：0.542
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 - [ViMax: Agentic Video Generation](http://arxiv.org/abs/2606.07649v2)
   来源：arXiv | 日期：2026-06-02 | 主题：未命中主题
   相关度：0.7 | 新颖度：0.25 | 综合：0.542
@@ -17297,6 +17357,11 @@
   相关度：0.7 | 新颖度：0.25 | 综合：0.542
   说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
 
+- [Towards Agentic Scientific Discovery in Distributed Systems](http://arxiv.org/abs/2611.20031v1)
+  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
+  相关度：0.7 | 新颖度：0.25 | 综合：0.542
+  说明：这篇工作偏基础模型/Agent方向，可能影响病原检测任务的建模上限，值得关注其任务定义与评测设计。
+
 ### general
 
 - [Shadow Queries for Private Retrieval in Vector Databases](http://arxiv.org/abs/2609.04767v1)
@@ -17472,6 +17537,11 @@
   说明：arXiv 上的新论文与 foundation_model_agent 相关，可用于补充你当前的病原检测与模型监控视角。
 
 - [When Detection Does Not Guarantee Resistance: Reasoning and Poisoned Context in RAG](http://arxiv.org/abs/2608.17153v4)
+  来源：arXiv | 日期：2026-08-17 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：5.25 | 综合：4.925
+  说明：arXiv 上的新论文与 foundation_model_agent 相关，可用于补充你当前的病原检测与模型监控视角。
+
+- [When Detection Does Not Guarantee Resistance: Reasoning and Poisoned Context in RAG](http://arxiv.org/abs/2608.17153v5)
   来源：arXiv | 日期：2026-08-17 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：5.25 | 综合：4.925
   说明：arXiv 上的新论文与 foundation_model_agent 相关，可用于补充你当前的病原检测与模型监控视角。
@@ -17744,11 +17814,6 @@
   说明：Byte-Exact Deduplication in Retrieval-Au 与你的主题有弱匹配，暂时保留作低优先级跟踪。
   中文摘要：本研究针对检索增强生成（RAG）流程中的字节级块去重（byte-exact chunk-level deduplication）进行了实证分析。研究测量了三种不同运行场景下的上下文缩减效果：学术检索（基于2220万个BeIR段落，缩减0.16%）、构建的企业模式（缩减24.03%）以及多轮对话AI（缩减80.34%）。为验证去重后的质量保持情况，研究采用五人...
 
-- [Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning](http://arxiv.org/abs/2611.20045v1)
-  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
-  相关度：1.4 | 新颖度：6.0 | 综合：3.01
-  说明：Security of Deep Research Agents: Attack 与你的主题有弱匹配，暂时保留作低优先级跟踪。
-
 - [Separating Semantic Competition from Context Length in RAG Reading](http://arxiv.org/abs/2605.27294v1)
   来源：arXiv | 日期：2026-05-26 | 主题：未命中主题
   相关度：0.7 | 新颖度：7.2 | 综合：2.975
@@ -17938,6 +18003,11 @@
   来源：arXiv | 日期：2026-09-10 | 主题：未命中主题
   相关度：1.4 | 新颖度：1.0 | 综合：1.26
   说明：VikingRAG: Accurate and Token-efficient  与你的主题有弱匹配，暂时保留作低优先级跟踪。
+
+- [Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning](http://arxiv.org/abs/2611.20045v1)
+  来源：arXiv | 日期：2026-11-15 | 主题：未命中主题
+  相关度：1.4 | 新颖度：1.0 | 综合：1.26
+  说明：Security of Deep Research Agents: Attack 与你的主题有弱匹配，暂时保留作低优先级跟踪。
 
 - [Design Space and Implementation of RAG-Based Avatars for Virtual Archaeology](http://arxiv.org/abs/2603.23353v1)
   来源：arXiv | 日期：2026-03-24 | 主题：未命中主题
@@ -18439,6 +18509,11 @@
   相关度：6.8 | 新颖度：6.0 | 综合：6.52
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs](http://arxiv.org/abs/2608.25986v2)
+  来源：arXiv | 日期：2026-08-26 | 主题：foundation_model_agent
+  相关度：6.8 | 新颖度：6.0 | 综合：6.52
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling](http://arxiv.org/abs/2609.00396v1)
   来源：arXiv | 日期：2026-08-31 | 主题：foundation_model_agent
   相关度：6.8 | 新颖度：6.0 | 综合：6.52
@@ -18775,11 +18850,6 @@
   相关度：6.45 | 新颖度：5.5 | 综合：6.117
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [Noise-Space Reward Alignment for Few-Step Generative Models](http://arxiv.org/abs/2610.21125v2)
-  来源：arXiv | 日期：2026-10-15 | 主题：foundation_model_agent
-  相关度：6.45 | 新颖度：5.5 | 综合：6.117
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
 - [Automated Knowledge Graph Construction for CAR T Cell Receptor Design via Hybrid Text Mining](https://www.biorxiv.org/content/10.64898/2026.04.06.716719v2)
   来源：bioRxiv | 日期：2026-10-23 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：5.5 | 综合：6.117
@@ -18797,11 +18867,6 @@
 
 - [RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems](http://arxiv.org/abs/2611.09232v1)
   来源：arXiv | 日期：2026-11-06 | 主题：foundation_model_agent
-  相关度：6.45 | 新颖度：5.5 | 综合：6.117
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models](http://arxiv.org/abs/2611.20261v1)
-  来源：arXiv | 日期：2026-11-15 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：5.5 | 综合：6.117
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -19306,11 +19371,6 @@
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [ViSAR: Training-Free Adaptive-$k$ Retrieval for Document Visual Question Answering](http://arxiv.org/abs/2609.02486v3)
-  来源：arXiv | 日期：2026-09-02 | 主题：foundation_model_agent
-  相关度：5.45 | 新颖度：6.0 | 综合：5.643
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
 - [RAG-CT: Mitigating Privacy Risks on Retrieval-Augmented Generation Systems via Scanning Prompt Distribution](http://arxiv.org/abs/2609.16095v1)
   来源：arXiv | 日期：2026-09-14 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：6.0 | 综合：5.643
@@ -19706,6 +19766,11 @@
   相关度：5.75 | 新颖度：4.75 | 综合：5.4
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [StitchRAG: Constructing Compact and Evidence-Preserving Contexts for RAG with Diffusion-Based Stitching](http://arxiv.org/abs/2611.22766v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：6.6 | 综合：5.397
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [A pseudochromosomal reference genome of the golden jackal, Canis aureus.](https://pubmed.ncbi.nlm.nih.gov/41786621/)
   来源：PubMed | 日期：2026-03-06 | 主题：pathogenomics, sequencing_bioinformatics, application_monitoring
   相关度：5.6 | 新颖度：5.0 | 综合：5.39
@@ -19858,6 +19923,11 @@
 - [Retrieval Augmented Conversational Recommendation with Reinforcement Learning](http://arxiv.org/abs/2604.04457v1)
   来源：arXiv | 日期：2026-04-06 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：6.12 | 综合：5.229
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Auditing the adversarial robustness of genomic foundation models with SafeGenes.](https://pubmed.ncbi.nlm.nih.gov/43044595/)
+  来源：PubMed | 日期：2026-11-17 | 主题：pathogenomics, sequencing_bioinformatics
+  相关度：4.65 | 新颖度：6.25 | 综合：5.21
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Targeted Long-Read sequencing provides functional validation of variants predicted to alter splicing](https://www.medRxiv.org/content/10.64898/2026.03.02.26346984v1)
@@ -20216,11 +20286,6 @@
 
 - [Understanding LoRA as Knowledge Memory: An Empirical Analysis](http://arxiv.org/abs/2603.01097v2)
   来源：arXiv | 日期：2026-03-01 | 主题：foundation_model_agent
-  相关度：4.75 | 新颖度：5.25 | 综合：4.925
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D](http://arxiv.org/abs/2603.04614v2)
-  来源：arXiv | 日期：2026-03-04 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：5.25 | 综合：4.925
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -21047,6 +21112,11 @@
   相关度：6.45 | 新颖度：0.5 | 综合：4.367
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [Noise-Space Reward Alignment for Few-Step Generative Models](http://arxiv.org/abs/2610.21125v2)
+  来源：arXiv | 日期：2026-10-15 | 主题：foundation_model_agent
+  相关度：6.45 | 新颖度：0.5 | 综合：4.367
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [Multi-resolution humanness scoring of antibodies via a region-isolated language model](https://www.biorxiv.org/content/10.64898/2026.10.23.761395v2)
   来源：bioRxiv | 日期：2026-10-29 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：0.5 | 综合：4.367
@@ -21064,6 +21134,11 @@
 
 - [ThermoMutDB 2.0: semiautomated literature curation and structural enrichment of thermostability data for protein mutations.](https://pubmed.ncbi.nlm.nih.gov/43006150/)
   来源：PubMed | 日期：2026-11-10 | 主题：foundation_model_agent
+  相关度：6.45 | 新颖度：0.5 | 综合：4.367
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models](http://arxiv.org/abs/2611.20261v1)
+  来源：arXiv | 日期：2026-11-15 | 主题：foundation_model_agent
   相关度：6.45 | 新颖度：0.5 | 综合：4.367
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -21891,6 +21966,11 @@
 
 - [FashionKG-RAG: Knowledge Graph-Enhanced Retrieval-Augmented Generation for Fashion Question Answering](http://arxiv.org/abs/2608.22688v1)
   来源：arXiv | 日期：2026-08-24 | 主题：foundation_model_agent
+  相关度：5.45 | 新颖度：1.0 | 综合：3.893
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [ViSAR: Training-Free Adaptive-$k$ Retrieval for Document Visual Question Answering](http://arxiv.org/abs/2609.02486v3)
+  来源：arXiv | 日期：2026-09-02 | 主题：foundation_model_agent
   相关度：5.45 | 新颖度：1.0 | 综合：3.893
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -23043,11 +23123,6 @@
   相关度：2.05 | 新颖度：5.75 | 综合：3.345
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
-- [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v2)
-  来源：arXiv | 日期：2026-07-27 | 主题：foundation_model_agent
-  相关度：2.05 | 新颖度：5.75 | 综合：3.345
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
 - [From Observation to Insight: Mechanistic World Models and the Quest for Autonomous Discovery](http://arxiv.org/abs/2607.12474v1)
   来源：arXiv | 日期：2026-07-14 | 主题：未命中主题
   相关度：1.7 | 新颖度：6.39 | 综合：3.341
@@ -23120,6 +23195,11 @@
 - [Learning Biological Hierarchies in Single-Cell Foundation Models](http://arxiv.org/abs/2611.10838v1)
   来源：arXiv | 日期：2026-11-07 | 主题：未命中主题
   相关度：1.7 | 新颖度：6.25 | 综合：3.292
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing](http://arxiv.org/abs/2611.22991v1)
+  来源：arXiv | 日期：2026-11-17 | 主题：未命中主题
+  相关度：1.4 | 新颖度：6.77 | 综合：3.279
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Artificial Intelligence in Food-Nutrition-Health Research: From Multimodal Data Integration to Precision Intervention.](https://pubmed.ncbi.nlm.nih.gov/42535509/)
@@ -23210,6 +23290,11 @@
 
 - [Understanding LoRA as Knowledge Memory: An Empirical Analysis](http://arxiv.org/abs/2603.01097v4)
   来源：arXiv | 日期：2026-03-01 | 主题：foundation_model_agent
+  相关度：4.75 | 新颖度：0.25 | 综合：3.175
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D](http://arxiv.org/abs/2603.04614v2)
+  来源：arXiv | 日期：2026-03-04 | 主题：foundation_model_agent
   相关度：4.75 | 新颖度：0.25 | 综合：3.175
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
@@ -23746,11 +23831,6 @@
 - [GraphSteal: Structural Knowledge Stealing from Graph RAG via Traversal Reconstruction](http://arxiv.org/abs/2605.28645v1)
   来源：arXiv | 日期：2026-05-27 | 主题：未命中主题
   相关度：0.7 | 新颖度：7.01 | 综合：2.908
-  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
-
-- [Beating Hateful Narratives on Social Media with Facts: Retrieval-Augmented Counter-Speech Generation](http://arxiv.org/abs/2510.12316v2)
-  来源：arXiv | 日期：2025-10-14 | 主题：未命中主题
-  相关度：1.4 | 新颖度：5.5 | 综合：2.835
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [X-Talk: On the Underestimated Potential of Modular Speech-to-Speech Dialogue System](http://arxiv.org/abs/2512.18706v2)
@@ -24844,6 +24924,11 @@
   相关度：2.05 | 新颖度：0.75 | 综合：1.595
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
+- [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v2)
+  来源：arXiv | 日期：2026-07-27 | 主题：foundation_model_agent
+  相关度：2.05 | 新颖度：0.75 | 综合：1.595
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
 - [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v1)
   来源：arXiv | 日期：2026-07-27 | 主题：foundation_model_agent
   相关度：2.05 | 新颖度：0.75 | 综合：1.595
@@ -25438,6 +25523,11 @@
 - [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](http://arxiv.org/abs/2611.12184v1)
   来源：arXiv | 日期：2026-11-09 | 主题：未命中主题
   相关度：1.7 | 新颖度：0.25 | 综合：1.192
+  说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
+
+- [Beating Hateful Narratives on Social Media with Facts: Retrieval-Augmented Counter-Speech Generation](http://arxiv.org/abs/2510.12316v2)
+  来源：arXiv | 日期：2025-10-14 | 主题：未命中主题
+  相关度：1.4 | 新颖度：0.5 | 综合：1.085
   说明：这篇工作更像方法创新，可能直接关联 metagenomics、long-read 或 pathogen identification 流程优化。
 
 - [Origin Lens: A Privacy-First Mobile Framework for Cryptographic Image Provenance and AI Detection](http://arxiv.org/abs/2602.03423v2)
@@ -26581,7 +26671,6 @@
 - [NeuroGraph: An AI Graph-Driven Neuro-Symbolic Framework for Explainable Threat Reasoning in Advanced Manufacturing](http://arxiv.org/abs/2609.00604v2) | arXiv | 2026-09-01 | score=6.533
 - [AquiLLM: Evaluating Faithfulness in Open-Weight RAG-LLM Systems for Scientific Research](http://arxiv.org/abs/2609.16519v2) | arXiv | 2026-09-15 | score=6.533
 - [Post-Training Large Language Models with LLMON](http://arxiv.org/abs/2610.38120v1) | arXiv | 2026-10-28 | score=6.533
-- [EcoToxFred: A knowledge-graph-grounded conversational agent for exploring ecotoxicological monitoring and hazard data](https://www.biorxiv.org/content/10.1101/2025.07.04.663152v2) | bioRxiv | 2026-11-15 | score=6.533
 - [Towards Hyper-Efficient RAG Systems in VecDBs: Distributed Parallel Multi-Resolution Vector Search](http://arxiv.org/abs/2511.16681v2) | arXiv | 2025-11-12 | score=6.52
 - [PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning](http://arxiv.org/abs/2603.17055v1) | arXiv | 2026-03-17 | score=6.52
 - [Seeing the Scene Matters: Revealing Forgetting in Video Understanding Models with a Scene-Aware Long-Video Benchmark](http://arxiv.org/abs/2603.27259v1) | arXiv | 2026-03-28 | score=6.52
@@ -26594,6 +26683,7 @@
 - [FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness](http://arxiv.org/abs/2606.17642v3) | arXiv | 2026-06-16 | score=6.52
 - [ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval](http://arxiv.org/abs/2608.15698v1) | arXiv | 2026-08-16 | score=6.52
 - [ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval](http://arxiv.org/abs/2608.15698v2) | arXiv | 2026-08-16 | score=6.52
+- [Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs](http://arxiv.org/abs/2608.25986v2) | arXiv | 2026-08-26 | score=6.52
 - [SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling](http://arxiv.org/abs/2609.00396v1) | arXiv | 2026-08-31 | score=6.52
 - [Heading Hierarchy Reconstruction for Complex and Long Documents with Level-Wise Multimodal Memory](http://arxiv.org/abs/2610.18238v1) | arXiv | 2026-10-13 | score=6.52
 - [MMKG-R1: Constructing Multimodal Knowledge Graphs via Reinforcement Learning](http://arxiv.org/abs/2610.19341v1) | arXiv | 2026-10-14 | score=6.52
@@ -26693,7 +26783,6 @@
 - [DeFT-RAG: Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](http://arxiv.org/abs/2610.37826v2) | arXiv | 2026-10-27 | score=6.357
 - [DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](http://arxiv.org/abs/2610.37826v1) | arXiv | 2026-10-27 | score=6.357
 - [MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading](http://arxiv.org/abs/2611.18513v1) | arXiv | 2026-11-13 | score=6.357
-- [System 1 agents: a method for local, reliable and fast agentic AI](http://arxiv.org/abs/2611.21053v1) | arXiv | 2026-11-16 | score=6.352
 - [MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks](http://arxiv.org/abs/2502.17832v4) | arXiv | 2025-02-25 | score=6.345
 - [QA-Dragon: Query-Aware Dynamic RAG System for Knowledge-Intensive Visual Question Answering](http://arxiv.org/abs/2508.05197v2) | arXiv | 2025-08-07 | score=6.345
 - [mKG-RAG: Leveraging Multimodal Knowledge Graphs in Retrieval-Augmented Generation for Knowledge-intensive VQA](http://arxiv.org/abs/2508.05318v2) | arXiv | 2025-08-07 | score=6.345
@@ -26742,7 +26831,6 @@
 - [ddkg.skill: A Compositional Agent Skill for Translating Biomedical and Bioinformatics Questions into Cypher for the Data Distillery Knowledge Graph](https://www.biorxiv.org/content/10.64898/2026.09.26.754400v1) | bioRxiv | 2026-10-07 | score=6.292
 - [MADDIE: Multi-Agent Drug Discovery Engine](http://arxiv.org/abs/2610.16975v1) | arXiv | 2026-10-12 | score=6.292
 - [MADDIE: Multi-Agent Drug Discovery Engine](http://arxiv.org/abs/2610.16975v2) | arXiv | 2026-10-12 | score=6.292
-- [Evaluating Language Models as Orchestrators in a Tool-First Biomedical Discovery Platform](https://www.biorxiv.org/content/10.64898/2026.11.13.766436v1) | bioRxiv | 2026-11-16 | score=6.292
 - [Graph2Idea:Retrieval-Augmented Scientific Idea Generation with Graph-Structured Contexts](http://arxiv.org/abs/2606.09105v1) | arXiv | 2026-06-08 | score=6.283
 - [Is manual software optimization a thing of the past?](http://arxiv.org/abs/2609.37849v1) | arXiv | 2026-09-29 | score=6.279
 - [Triple-Phase Multimodal Knowledge Aggregation Framework for Microbial Keratitis Subtype Diagnosis on Slit-Lamp Photography](http://arxiv.org/abs/2607.03740v1) | arXiv | 2026-07-04 | score=6.26
@@ -26795,6 +26883,7 @@
 - [EvoMemState: Evolving Memory State for Personal Agents](http://arxiv.org/abs/2611.03743v1) | arXiv | 2026-11-02 | score=6.185
 - [CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment](http://arxiv.org/abs/2611.07393v2) | arXiv | 2026-11-05 | score=6.185
 - [RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving](http://arxiv.org/abs/2611.14949v1) | arXiv | 2026-11-11 | score=6.185
+- [Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery](http://arxiv.org/abs/2611.21847v1) | arXiv | 2026-11-16 | score=6.185
 - [RNA-binding proteins in aging and age-related diseases: roles, mechanisms, and a large language model analysis.](https://pubmed.ncbi.nlm.nih.gov/42322462/) | PubMed | 2026-06-20 | score=6.178
 - [Precision Grounding: augmenting large language models with evidence-based databases for trustworthy genetic variant summarization.](https://pubmed.ncbi.nlm.nih.gov/41950627/) | PubMed | 2026-07-01 | score=6.178
 - [Ruling Out to Rule In: Contrastive Hypothesis Retrieval for Medical Question Answering](http://arxiv.org/abs/2604.04593v1) | arXiv | 2026-04-06 | score=6.177
@@ -26840,14 +26929,12 @@
 - [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://www.biorxiv.org/content/10.64898/2026.10.05.756719v1) | bioRxiv | 2026-10-06 | score=6.117
 - [lisaR: An LLM-Inferred Semantic Annotation of biological categories for gene set enrichment analysis](https://www.biorxiv.org/content/10.64898/2026.09.29.755425v1) | bioRxiv | 2026-10-06 | score=6.117
 - [Noise-Space Reward Alignment for Few-Step Generative Models](http://arxiv.org/abs/2610.21125v1) | arXiv | 2026-10-15 | score=6.117
-- [Noise-Space Reward Alignment for Few-Step Generative Models](http://arxiv.org/abs/2610.21125v2) | arXiv | 2026-10-15 | score=6.117
 - [Automated Knowledge Graph Construction for CAR T Cell Receptor Design via Hybrid Text Mining](https://www.biorxiv.org/content/10.64898/2026.04.06.716719v2) | bioRxiv | 2026-10-23 | score=6.117
 - [Efficient biological design via genomic in-context learning](https://www.biorxiv.org/content/10.64898/2026.10.28.762643v1) | bioRxiv | 2026-10-29 | score=6.117
 - [Lineage-mixed neurodevelopmental programs in pediatric sarcomas nominate tumor-selective surface antigen pairs.](https://www.biorxiv.org/content/10.64898/2026.10.28.762504v1) | bioRxiv | 2026-10-29 | score=6.117
 - [RAG-TRACE: Tracing Measurement Evidence and Diagnostic Completeness in AI-Generated ECG Reports](http://arxiv.org/abs/2611.01409v1) | arXiv | 2026-11-01 | score=6.117
 - [Predicting dynamic expression patterns in budding yeast with a fungal DNA language model](https://www.biorxiv.org/content/10.1101/2025.09.19.677475v2) | bioRxiv | 2026-11-05 | score=6.117
 - [RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems](http://arxiv.org/abs/2611.09232v1) | arXiv | 2026-11-06 | score=6.117
-- [Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models](http://arxiv.org/abs/2611.20261v1) | arXiv | 2026-11-15 | score=6.117
 - [ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research](http://arxiv.org/abs/2609.25620v2) | arXiv | 2026-09-22 | score=6.103
 - [ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research](http://arxiv.org/abs/2609.25620v1) | arXiv | 2026-09-22 | score=6.103
 - [UltraSAM3: A Concept-Driven Foundation Model for Universal Ultrasound Image Segmentation](http://arxiv.org/abs/2607.29200v1) | arXiv | 2026-07-31 | score=6.1
@@ -26861,6 +26948,7 @@
 - [Language-Native Materials Processing Design by Lightly Structured Text Database and Reasoning Large Language Model](http://arxiv.org/abs/2509.06093v4) | arXiv | 2025-09-07 | score=6.01
 - [Exploiting Web Search Tools of AI Agents for Data Exfiltration](http://arxiv.org/abs/2510.09093v2) | arXiv | 2025-10-10 | score=6.01
 - [UltRAG: a Universal Simple Scalable Recipe for Knowledge Graph RAG](http://arxiv.org/abs/2603.28773v2) | arXiv | 2026-01-28 | score=6.01
+- [ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering](http://arxiv.org/abs/2603.13950v2) | arXiv | 2026-03-14 | score=6.01
 - [SYMDIREC: A Neuro-Symbolic Divide-Retrieve-Conquer Framework for Enhanced RTL Synthesis and Summarization](http://arxiv.org/abs/2603.17208v1) | arXiv | 2026-03-17 | score=6.01
 - [Context Selection for Hypothesis and Statistical Evidence Extraction from Full-Text Scientific Articles](http://arxiv.org/abs/2603.21193v1) | arXiv | 2026-03-22 | score=6.01
 - [Unlocking the potential of Capsicum Germplasm Collections for Climate Resilience and Fruit Quality](https://www.biorxiv.org/content/10.64898/2026.03.25.714358v1) | bioRxiv | 2026-03-28 | score=6.01
@@ -26898,6 +26986,7 @@
 - [Identifying Temporal Features within Transcoders for Time Sensitive Factual Recall](http://arxiv.org/abs/2609.33183v1) | arXiv | 2026-09-27 | score=6.01
 - [LawCompass: Navigating from Legal QA to Multi-Agent Deep Research with Grounded Evidence](http://arxiv.org/abs/2610.01027v1) | arXiv | 2026-10-01 | score=6.01
 - [SERA-IDS: Structured Experience Retrieval-Augmented Intrusion Detection with Small Language Models](http://arxiv.org/abs/2610.03999v2) | arXiv | 2026-10-02 | score=6.01
+- [Retrieving Complementary Evidence for Multi-Hop RAG with Semantic Gain Graphs](http://arxiv.org/abs/2610.15285v2) | arXiv | 2026-10-11 | score=6.01
 - [Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI](http://arxiv.org/abs/2610.25298v1) | arXiv | 2026-10-18 | score=6.01
 - [Data Governance for Generative and Agentic AI : Technology, Law, Economics, and Security](http://arxiv.org/abs/2610.33605v1) | arXiv | 2026-10-24 | score=6.01
 - [CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging](http://arxiv.org/abs/2611.01449v1) | arXiv | 2026-11-01 | score=6.01
@@ -26946,7 +27035,7 @@
 - [High-throughput mapping of kinase-substrate interactions with protein language models and phospho-PCA](https://www.biorxiv.org/content/10.64898/2026.10.26.762004v1) | bioRxiv | 2026-10-28 | score=5.925
 - [Massively parallel quantification and prediction of monomeric protein yield in Escherichia coli](https://www.biorxiv.org/content/10.64898/2026.11.02.763507v1) | bioRxiv | 2026-11-04 | score=5.925
 - [DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction](https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1) | bioRxiv | 2026-11-13 | score=5.925
-- [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://www.biorxiv.org/content/10.64898/2026.11.13.766344v1) | bioRxiv | 2026-11-16 | score=5.925
+- [Evaluation of System One Models on Biomedical Texts](https://www.medrxiv.org/content/10.64898/2026.11.15.26368126v1) | medRxiv | 2026-11-17 | score=5.925
 - [Exploring Knowledge Conflicts for Faithful LLM Reasoning: Benchmark and Method](http://arxiv.org/abs/2604.11209v1) | arXiv | 2026-04-13 | score=5.923
 - [scRNA-seq and genomics analyses reveal key mechanisms of inverted papilloma-associated sinonasal squamous cell carcinoma malignant transformation](https://www.biorxiv.org/content/10.64898/2026.06.01.729345v1) | bioRxiv | 2026-06-04 | score=5.912
 - [LEMUR 2: Unlocking Neural Network Diversity for AI](http://arxiv.org/abs/2607.06839v1) | arXiv | 2026-07-07 | score=5.905
@@ -27153,7 +27242,6 @@
 - [Bridging the Question-Answer Gap in Retrieval-Augmented Generation: Hypothetical Prompt Embeddings](http://arxiv.org/abs/2607.29402v1) | arXiv | 2026-07-31 | score=5.643
 - [Theory-Guided Deception Detection: A RAG-Based Artificial Intelligence Exploration](http://arxiv.org/abs/2608.08881v1) | arXiv | 2026-08-09 | score=5.643
 - [RAGSentinel: Certifiable Geometric Consensus for Robust Retrieval-Augmented Generation](http://arxiv.org/abs/2608.23965v1) | arXiv | 2026-08-25 | score=5.643
-- [ViSAR: Training-Free Adaptive-$k$ Retrieval for Document Visual Question Answering](http://arxiv.org/abs/2609.02486v3) | arXiv | 2026-09-02 | score=5.643
 - [Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation](http://arxiv.org/abs/2609.05363v1) | arXiv | 2026-09-04 | score=5.643
 - [Where to Look and What to Use: Retrieve-Localize-Generate for Long-Term Conversational Memory Question Answering](http://arxiv.org/abs/2609.07093v2) | arXiv | 2026-09-07 | score=5.643
 - [Individual Text Corpora Predict User-Specific Knowledge: Benchmarks of Individualized Knowledge Simulation](http://arxiv.org/abs/2609.08532v1) | arXiv | 2026-09-08 | score=5.643
@@ -27174,8 +27262,8 @@
 - [SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World](http://arxiv.org/abs/2610.37919v1) | arXiv | 2026-10-27 | score=5.643
 - [Small molecule structure elucidation from NMR spectra with generative and reasoning models](https://www.biorxiv.org/content/10.64898/2026.10.29.762711v1) | bioRxiv | 2026-10-31 | score=5.643
 - [Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation](http://arxiv.org/abs/2611.03747v1) | arXiv | 2026-11-02 | score=5.643
+- [Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation](http://arxiv.org/abs/2611.03747v2) | arXiv | 2026-11-02 | score=5.643
 - [Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation](http://arxiv.org/abs/2611.09457v1) | arXiv | 2026-11-06 | score=5.643
-- [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](http://arxiv.org/abs/2611.19900v1) | arXiv | 2026-11-15 | score=5.643
 - [Training-Free Test-Time Contrastive Learning for Large Language Models](http://arxiv.org/abs/2604.13552v1) | arXiv | 2026-04-15 | score=5.618
 - [MyeGPT: an AI agent for Multiple Myeloma](https://www.medrxiv.org/content/10.64898/2026.05.14.26353252v5) | medRxiv | 2026-06-14 | score=5.607
 - [MolSafeEval: A Benchmark for Uncovering Safety Risks in AI-Generated Molecules](http://arxiv.org/abs/2607.00464v1) | arXiv | 2026-07-01 | score=5.607
@@ -27349,6 +27437,7 @@
 - [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](http://arxiv.org/abs/2610.36991v3) | arXiv | 2026-10-27 | score=5.468
 - [Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies and Empirical Evidence](http://arxiv.org/abs/2610.37962v1) | arXiv | 2026-10-27 | score=5.468
 - [Harness engineering enables a multi-agent LLM system to generate cross-domain hypotheses beyond single-investigator reach](https://www.biorxiv.org/content/10.64898/2026.10.25.761203v1) | bioRxiv | 2026-10-30 | score=5.468
+- [Human-Agentic AI Collaboration Workflow for Trend Analysis of ChatGPT Applications in Healthcare](https://www.medrxiv.org/content/10.64898/2026.11.14.26368120v1) | medRxiv | 2026-11-17 | score=5.468
 - [LABBench2: An Improved Benchmark for AI Systems Performing Biology Research](http://arxiv.org/abs/2604.09554v2) | arXiv | 2026-02-04 | score=5.45
 - [ConnectoFM: A Foundation Model for Learning the Language of the Connectome](https://www.biorxiv.org/content/10.64898/2026.06.06.730367v1) | bioRxiv | 2026-06-10 | score=5.45
 - [SleepGPT: A Sleep Stage Language Model for Efficient Sleep Assessment](https://www.medrxiv.org/content/10.1101/2024.10.26.24316166v5) | medRxiv | 2026-07-23 | score=5.435
@@ -27402,6 +27491,7 @@
 - [Self-evolving AI agents for protein discovery and directed evolution](http://arxiv.org/abs/2603.27303v1) | arXiv | 2026-03-28 | score=5.415
 - [CliPepPI: Scalable prediction of domain-peptide specificityusing contrastive learning](https://www.biorxiv.org/content/10.64898/2026.03.18.712595v2) | bioRxiv | 2026-05-24 | score=5.41
 - [HyLnc: a hybrid deep learning and feature-based approach for long non-coding RNA prediction.](https://pubmed.ncbi.nlm.nih.gov/42716909/) | PubMed | 2026-12-31 | score=5.4
+- [StitchRAG: Constructing Compact and Evidence-Preserving Contexts for RAG with Diffusion-Based Stitching](http://arxiv.org/abs/2611.22766v1) | arXiv | 2026-11-17 | score=5.397
 - [Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations](http://arxiv.org/abs/2604.18146v1) | arXiv | 2026-04-20 | score=5.383
 - [Large language models enable consensus-level interpretation in metagenomic diagnostics](https://www.medrxiv.org/content/10.64898/2026.07.29.26358751v1) | medRxiv | 2026-07-31 | score=5.335
 - [Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control](http://arxiv.org/abs/2605.26754v1) | arXiv | 2026-05-26 | score=5.335
@@ -27576,7 +27666,6 @@
 - [Adaptive Minds: Empowering Agents with LoRA-as-Tools](http://arxiv.org/abs/2510.15416v2) | arXiv | 2025-10-17 | score=5.1
 - [MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization](http://arxiv.org/abs/2510.16635v3) | arXiv | 2025-10-18 | score=5.1
 - [User Misconceptions of LLM-Based Conversational Programming Assistants](http://arxiv.org/abs/2510.25662v3) | arXiv | 2025-10-29 | score=5.1
-- [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](http://arxiv.org/abs/2510.26130v3) | arXiv | 2025-10-30 | score=5.1
 - [Intelligence Foundation Model: A New Perspective to Approach Artificial General Intelligence](http://arxiv.org/abs/2511.10119v4) | arXiv | 2025-11-13 | score=5.1
 - [QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation](http://arxiv.org/abs/2512.19134v2) | arXiv | 2025-12-22 | score=5.1
 - [SentGraph: Hierarchical Sentence Graph for Multi-hop Retrieval-Augmented Question Answering](http://arxiv.org/abs/2601.03014v3) | arXiv | 2026-01-06 | score=5.1
@@ -27772,7 +27861,6 @@
 - [When RAG Hurts: Diagnosing and Mitigating Attention Distraction in Retrieval-Augmented LVLMs](http://arxiv.org/abs/2602.00344v2) | arXiv | 2026-01-30 | score=4.925
 - [Rethinking Retrieval-Augmented Generation as a Cooperative Decision-Making Problem](http://arxiv.org/abs/2602.18734v2) | arXiv | 2026-02-21 | score=4.925
 - [Understanding LoRA as Knowledge Memory: An Empirical Analysis](http://arxiv.org/abs/2603.01097v2) | arXiv | 2026-03-01 | score=4.925
-- [SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D](http://arxiv.org/abs/2603.04614v2) | arXiv | 2026-03-04 | score=4.925
 - [Research Paradigm of Materials Science Tetrahedra with Artificial Intelligence](http://arxiv.org/abs/2603.13744v1) | arXiv | 2026-03-14 | score=4.925
 - [$p^2$RAG: Privacy-Preserving RAG Service Supporting Arbitrary Top-$k$ Retrieval](http://arxiv.org/abs/2603.14778v1) | arXiv | 2026-03-16 | score=4.925
 - [P$^2$RAG: Efficient Privacy-Preserving RAG Service Supporting Arbitrary Top-$k$ Retrieval](http://arxiv.org/abs/2603.14778v2) | arXiv | 2026-03-16 | score=4.925
@@ -27829,6 +27917,7 @@
 - [Reasoning Reduces the Influence of Poisoned Context in RAG](http://arxiv.org/abs/2608.17153v3) | arXiv | 2026-08-17 | score=4.925
 - [Towards Safer RAG: Only Agents Capable of System 2 Thinking may Access Untrusted Documents](http://arxiv.org/abs/2608.17153v2) | arXiv | 2026-08-17 | score=4.925
 - [When Detection Does Not Guarantee Resistance: Reasoning and Poisoned Context in RAG](http://arxiv.org/abs/2608.17153v4) | arXiv | 2026-08-17 | score=4.925
+- [When Detection Does Not Guarantee Resistance: Reasoning and Poisoned Context in RAG](http://arxiv.org/abs/2608.17153v5) | arXiv | 2026-08-17 | score=4.925
 - [Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](http://arxiv.org/abs/2608.21156v1) | arXiv | 2026-08-21 | score=4.925
 - [PEARL: Front-Loading Relational Chains for Multi-Hop Table Retrieval](http://arxiv.org/abs/2608.30291v1) | arXiv | 2026-08-31 | score=4.925
 - [ExpArt-KG: Artwork Image Description Generation through Iterative Exploration of Knowledge Graphs](http://arxiv.org/abs/2609.00629v1) | arXiv | 2026-09-01 | score=4.925
@@ -27853,9 +27942,7 @@
 - [Auditing Biomedical Literature with Blinded AI Peer Review: Where Peer Review Works, Where It Fails, and How to Strengthen It](https://www.biorxiv.org/content/10.64898/2026.11.02.763753v1) | bioRxiv | 2026-11-04 | score=4.925
 - [Translating chemical reactions into enzyme sequences enables formate dehydrogenase engineering](https://www.biorxiv.org/content/10.64898/2026.11.04.764151v1) | bioRxiv | 2026-11-05 | score=4.925
 - [ROAM: Retrieval-Augmented Optimization for Feasible Multi-Day Itinerary Planning](http://arxiv.org/abs/2611.09407v1) | arXiv | 2026-11-06 | score=4.925
-- [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v3) | arXiv | 2026-11-06 | score=4.925
 - [Read Before You Fit: Text-Derived Constraints for Discovering Differential Equations from Noisy Biological Data](http://arxiv.org/abs/2611.19779v1) | arXiv | 2026-11-15 | score=4.925
-- [Somatic mutation probabilities learned from the DNA sequence](https://www.biorxiv.org/content/10.64898/2026.11.13.766380v1) | bioRxiv | 2026-11-16 | score=4.925
 - [Resolving Complex Structural Variants in Undiagnosed Rare Movement Disorders via Multimodal Genomics and Multi-omics.](https://pubmed.ncbi.nlm.nih.gov/42421598/) | PubMed | 2026-07-09 | score=4.923
 - [Incorporating LLM Embeddings for Variation Across the Human Genome](http://arxiv.org/abs/2509.20702v3) | arXiv | 2025-09-25 | score=4.91
 - [Incorporating LLM Embeddings for Variation Across the Human Genome](http://arxiv.org/abs/2509.20702v2) | arXiv | 2025-09-25 | score=4.91
@@ -27997,6 +28084,7 @@
 - [DrugCoding: A Scientific Programming Agent for Drug Discovery](http://arxiv.org/abs/2611.13651v1) | arXiv | 2026-11-10 | score=4.783
 - [Mobility-Aware Task Offloading in Mobile Edge Computing-Empowered Space-Air-Ground Integrated Internet-of-Things Networks](http://arxiv.org/abs/2611.14102v1) | arXiv | 2026-11-10 | score=4.783
 - [Chain of Physics: Supporting Fault Diagnosis with Engineering-Inspired Large Language Model Reasoning](http://arxiv.org/abs/2611.14263v1) | arXiv | 2026-11-10 | score=4.783
+- [EcoToxFred: A knowledge-graph-grounded conversational agent for exploring ecotoxicological monitoring and hazard data](https://www.biorxiv.org/content/10.1101/2025.07.04.663152v2) | bioRxiv | 2026-11-15 | score=4.783
 - [RS-Agent: Automating Remote Sensing Tasks through Intelligent Agent](http://arxiv.org/abs/2406.07089v4) | arXiv | 2024-06-11 | score=4.77
 - [mR$^2$AG: Multimodal Retrieval-Reflection-Augmented Generation for Knowledge-Based VQA](http://arxiv.org/abs/2411.15041v2) | arXiv | 2024-11-22 | score=4.77
 - [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](http://arxiv.org/abs/2505.19897v3) | arXiv | 2025-05-26 | score=4.77
@@ -28246,6 +28334,7 @@
 - [Figure format and the accuracy of AI-assisted reconstruction of Kaplan-Meier survival data](https://www.medrxiv.org/content/10.64898/2026.11.03.26367147v1) | medRxiv | 2026-11-05 | score=4.542
 - [GPCRAgent: an intelligent multi-agent platform integrating knowledge graphs and large language models for GPCR-targeted drug discovery.](https://pubmed.ncbi.nlm.nih.gov/43003299/) | PubMed | 2026-11-09 | score=4.542
 - [Beyond Sequence and Structure: Pretraining PLMs on Continuous Biophysical Fields](https://www.biorxiv.org/content/10.64898/2026.11.09.765464v1) | bioRxiv | 2026-11-11 | score=4.542
+- [Evaluating Language Models as Orchestrators in a Tool-First Biomedical Discovery Platform](https://www.biorxiv.org/content/10.64898/2026.11.13.766436v1) | bioRxiv | 2026-11-16 | score=4.542
 - [A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction](http://arxiv.org/abs/2604.03630v1) | arXiv | 2026-04-04 | score=4.537
 - [SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery](http://arxiv.org/abs/2607.16038v1) | arXiv | 2026-07-17 | score=4.537
 - [Population-scale drug target and variant prioritization with Varformer](https://www.biorxiv.org/content/10.64898/2026.10.16.759653v1) | bioRxiv | 2026-10-22 | score=4.537
@@ -28392,6 +28481,7 @@
 - [A generative language model decodes contextual constraints on codon choice for mRNA design](https://www.biorxiv.org/content/10.1101/2025.05.13.653614v3) | bioRxiv | 2026-10-05 | score=4.367
 - [MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities](http://arxiv.org/abs/2610.10879v1) | arXiv | 2026-10-07 | score=4.367
 - [ReproBAIT: Can coding agents build their own biological AI tools?](http://arxiv.org/abs/2610.19810v1) | arXiv | 2026-10-14 | score=4.367
+- [Noise-Space Reward Alignment for Few-Step Generative Models](http://arxiv.org/abs/2610.21125v2) | arXiv | 2026-10-15 | score=4.367
 - [Cognitive cartography of mammalian brains using meta-analysis of AI experts](https://www.biorxiv.org/content/10.64898/2025.12.01.691701v2) | bioRxiv | 2026-10-19 | score=4.367
 - [From clinician review to measurable human oversight of AI-drafted paediatric discharge documents](https://www.medrxiv.org/content/10.64898/2026.10.20.26365977v1) | medRxiv | 2026-10-22 | score=4.367
 - [From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries](http://arxiv.org/abs/2610.31467v1) | arXiv | 2026-10-22 | score=4.367
@@ -28401,12 +28491,15 @@
 - [Building Barricades: Red-Teaming Agentic Biosynthesis Planning](http://arxiv.org/abs/2611.08218v1) | arXiv | 2026-11-05 | score=4.367
 - [CPDD: Adapting an autoregressive DNA language model for bidirectional phage genome modeling](https://www.biorxiv.org/content/10.64898/2026.11.07.765118v1) | bioRxiv | 2026-11-10 | score=4.367
 - [ThermoMutDB 2.0: semiautomated literature curation and structural enrichment of thermostability data for protein mutations.](https://pubmed.ncbi.nlm.nih.gov/43006150/) | PubMed | 2026-11-10 | score=4.367
+- [Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models](http://arxiv.org/abs/2611.20261v1) | arXiv | 2026-11-15 | score=4.367
+- [System 1 agents: a method for local, reliable and fast agentic AI](http://arxiv.org/abs/2611.21053v1) | arXiv | 2026-11-16 | score=4.367
 - [Life Operators: a self-evolving framework for multiscale life modelling](http://arxiv.org/abs/2609.00068v1) | arXiv | 2026-08-30 | score=4.362
 - [Multimodal reasoning for broadly neutralizing antibody discovery from label-free human B cell repertoires across virus families](http://arxiv.org/abs/2610.03160v1) | arXiv | 2026-10-02 | score=4.362
 - [SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology](https://www.biorxiv.org/content/10.64898/2026.05.30.728937v2) | bioRxiv | 2026-06-04 | score=4.35
 - [OCellus: A Language-Model Framework for Single-Cell, Spatial, and Perturbation Biology with Natural-Language Reasoning](https://www.biorxiv.org/content/10.64898/2026.07.08.737248v1) | bioRxiv | 2026-07-12 | score=4.35
 - [Advances in Machine Learning for Drug Repurposing: From Methodologies to Precision Medicine with Case Studies in COVID-19, Parkinson's Disease, and Cancer.](https://pubmed.ncbi.nlm.nih.gov/42776876/) | PubMed | 2026-09-23 | score=4.35
 - [A Comprehensive Benchmark of Histopathology Foundation Models for Kidney Histopathology](http://arxiv.org/abs/2603.15967v1) | arXiv | 2026-03-16 | score=4.345
+- [OICycle: Observe, Infer, and Intervene Cycle for Belief-State Learning in Longitudinal Clinical Decision Making](http://arxiv.org/abs/2611.22826v1) | arXiv | 2026-11-17 | score=4.327
 - [Towards autonomous medical artificial intelligence agents.](https://pubmed.ncbi.nlm.nih.gov/42310457/) | PubMed | 2026-06-17 | score=4.313
 - [Distinguishing Social Isolation, Social Support, and Contextual False Positives in Clinical Notes Using Fine-Tuned Language Models: Multisite Validation Study](https://www.medrxiv.org/content/10.64898/2026.07.05.26357334v3) | medRxiv | 2026-09-16 | score=4.313
 - [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](http://arxiv.org/abs/2501.09136v4) | arXiv | 2025-01-15 | score=4.26
@@ -28548,6 +28641,7 @@
 - [DeePEn - A Depth sensitive benchmark for Protein Engineering](https://www.biorxiv.org/content/10.64898/2026.06.09.731073v2) | bioRxiv | 2026-11-12 | score=4.175
 - [Learning inhibitor interactions from protein deep mutational scanning data and deep learning models](https://www.biorxiv.org/content/10.64898/2026.11.01.763444v2) | bioRxiv | 2026-11-13 | score=4.175
 - [DeepCDS: Ab initio coding sequence prediction in prokaryotic metagenomic short reads](https://www.biorxiv.org/content/10.64898/2026.06.17.732633v3) | bioRxiv | 2026-11-15 | score=4.175
+- [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://www.biorxiv.org/content/10.64898/2026.11.13.766344v1) | bioRxiv | 2026-11-16 | score=4.175
 - [Evaluating Genomic Surveillance Methods for Shigella sonnei in a High-Income Setting](https://www.medrxiv.org/content/10.64898/2026.05.08.26352707v1) | medRxiv | 2026-05-12 | score=4.163
 - [Query Symbolically or Retrieve Semantically? A Dataset and Method for Semi-Structured Question Answering](http://arxiv.org/abs/2605.27164v1) | arXiv | 2026-05-26 | score=4.101
 - [XRAG: eXamining the Core -- Benchmarking Foundational Components in Advanced Retrieval-Augmented Generation](http://arxiv.org/abs/2412.15529v4) | arXiv | 2024-12-20 | score=4.068
@@ -28840,6 +28934,7 @@
 - [TAU-Agent: An Agentic Retrieval-Augmented Framework for Traffic Anomaly Understanding](http://arxiv.org/abs/2608.25935v1) | arXiv | 2026-08-26 | score=3.893
 - [Audited vibe coding suggests partial fetal-like convergence of tumor proteomes](https://www.biorxiv.org/content/10.64898/2026.08.26.745609v1) | bioRxiv | 2026-08-31 | score=3.893
 - [In Search of Ethical Procedures for LLM-Assisted Systematic Review Production: A Proof-of-Concept Evaluation of Selected Review Components](https://www.medrxiv.org/content/10.64898/2026.02.18.26346559v2) | medRxiv | 2026-09-02 | score=3.893
+- [ViSAR: Training-Free Adaptive-$k$ Retrieval for Document Visual Question Answering](http://arxiv.org/abs/2609.02486v3) | arXiv | 2026-09-02 | score=3.893
 - [Vague2Detect: Handling Ambiguous Prompts in Knowledge-Based Open-World Detection](http://arxiv.org/abs/2609.09949v1) | arXiv | 2026-09-09 | score=3.893
 - [RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety](http://arxiv.org/abs/2609.11758v1) | arXiv | 2026-09-10 | score=3.893
 - [Adolescent engagement and sentiment toward reproductive-health videos on Chinese social media: a cross-sectional content analysis](https://www.medrxiv.org/content/10.1101/2025.06.18.25329831v2) | medRxiv | 2026-09-13 | score=3.893
@@ -28875,6 +28970,7 @@
 - [Benchmarking Large Language AI Models Against Human Doctors Using an Emergency Medicine Simulation Approach](https://www.medrxiv.org/content/10.64898/2026.11.09.26367590v1) | medRxiv | 2026-11-10 | score=3.893
 - [OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation](http://arxiv.org/abs/2611.13675v2) | arXiv | 2026-11-10 | score=3.893
 - [OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation](http://arxiv.org/abs/2611.13675v1) | arXiv | 2026-11-10 | score=3.893
+- [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](http://arxiv.org/abs/2611.19900v1) | arXiv | 2026-11-15 | score=3.893
 - [The Blueprints of Intelligence: A Functional-Topological Foundation for Perception and Representation](http://arxiv.org/abs/2512.05089v6) | arXiv | 2025-12-04 | score=3.887
 - [OMG-Agent: Toward Robust Missing Modality Generation with Decoupled Coarse-to-Fine Agentic Workflows](http://arxiv.org/abs/2602.04144v2) | arXiv | 2026-02-04 | score=3.887
 - [VimRAG: Navigating Massive Visual Context in Retrieval-Augmented Generation via Multimodal Memory Graph](http://arxiv.org/abs/2602.12735v2) | arXiv | 2026-02-13 | score=3.887
@@ -29233,6 +29329,7 @@
 - [SimulRAG: Simulator-based RAG for Grounding LLMs in Long-form Scientific QA](http://arxiv.org/abs/2509.25459v4) | arXiv | 2025-09-29 | score=3.35
 - [SimulRAG: Simulator-based RAG for Grounding LLMs in Long-form Scientific QA](http://arxiv.org/abs/2509.25459v2) | arXiv | 2025-09-29 | score=3.35
 - [MA-SAPO: Multi-Agent Reasoning for Score-Aware Prompt Optimization](http://arxiv.org/abs/2510.16635v2) | arXiv | 2025-10-18 | score=3.35
+- [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](http://arxiv.org/abs/2510.26130v3) | arXiv | 2025-10-30 | score=3.35
 - [SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](http://arxiv.org/abs/2510.26615v3) | arXiv | 2025-10-30 | score=3.35
 - [KGFR: A Foundation Retriever for Generalized Knowledge Graph Question Answering](http://arxiv.org/abs/2511.04093v2) | arXiv | 2025-11-06 | score=3.35
 - [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](http://arxiv.org/abs/2511.05385v2) | arXiv | 2025-11-07 | score=3.35
@@ -29376,7 +29473,6 @@
 - [Agentic Graph Retrieval-Augmented Generation for Auditable Commercial Registry Analysis](http://arxiv.org/abs/2605.18770v3) | arXiv | 2026-04-15 | score=3.345
 - [Specification-Based Code-Text-Code Reengineering for LLM-Mediated Software Evolution](http://arxiv.org/abs/2605.25232v1) | arXiv | 2026-05-24 | score=3.345
 - [LAMAR: An Open Language-Aware Multilingual Alignment Reranker](http://arxiv.org/abs/2607.22042v1) | arXiv | 2026-07-24 | score=3.345
-- [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v2) | arXiv | 2026-07-27 | score=3.345
 - [Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets](http://arxiv.org/abs/2608.22045v1) | arXiv | 2026-08-22 | score=3.345
 - [AutoRecLab: Describe the Experiment, Get the Code!](http://arxiv.org/abs/2609.21863v1) | arXiv | 2026-09-18 | score=3.345
 - [Nereus: A Large-Scale Underwater Dataset for Fine-Grained Attribute Understanding and Grounded Counting Perception](http://arxiv.org/abs/2610.41705v1) | arXiv | 2026-10-30 | score=3.345
@@ -29418,6 +29514,7 @@
 - [InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation](http://arxiv.org/abs/2602.20294v2) | arXiv | 2026-02-23 | score=3.175
 - [Understanding LoRA as Knowledge Memory: An Empirical Analysis](http://arxiv.org/abs/2603.01097v5) | arXiv | 2026-03-01 | score=3.175
 - [Understanding LoRA as Knowledge Memory: An Empirical Analysis](http://arxiv.org/abs/2603.01097v4) | arXiv | 2026-03-01 | score=3.175
+- [SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D](http://arxiv.org/abs/2603.04614v2) | arXiv | 2026-03-04 | score=3.175
 - [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](http://arxiv.org/abs/2604.08552v4) | arXiv | 2026-03-10 | score=3.175
 - [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](http://arxiv.org/abs/2604.08552v3) | arXiv | 2026-03-10 | score=3.175
 - [CausalEvolve: Towards Open-Ended Discovery with Causal Scratchpad](http://arxiv.org/abs/2603.14575v2) | arXiv | 2026-03-15 | score=3.175
@@ -29526,10 +29623,12 @@
 - [Retrieving from Your Own Mistakes: On-Policy Training of Embedding Models for Multi-Hop Retrieval-Augmented Generation](http://arxiv.org/abs/2610.40409v1) | arXiv | 2026-10-29 | score=3.175
 - [Reimagining computational quantum research with AI scientists](http://arxiv.org/abs/2611.02833v1) | arXiv | 2026-11-02 | score=3.175
 - [RAGCompass: Generalizable Retriever Routing via Reranking](http://arxiv.org/abs/2611.05596v1) | arXiv | 2026-11-03 | score=3.175
+- [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v3) | arXiv | 2026-11-06 | score=3.175
 - [Discovering formally verified quantum programs with AI](http://arxiv.org/abs/2611.09822v2) | arXiv | 2026-11-06 | score=3.175
 - [Human medial frontal neurons represent integrated semantic content and sensory evidence to inform decision-making](https://www.biorxiv.org/content/10.64898/2026.11.06.764954v1) | bioRxiv | 2026-11-09 | score=3.175
 - [From Fluent Text to Ontology-Compatible Definitions: A Quality-Control Agentic Workflow](http://arxiv.org/abs/2611.12095v1) | arXiv | 2026-11-09 | score=3.175
 - [OptiCover: A Scalable and Multi-Surface Framework for Cold-Start Visual Optimization under Semantic Constraints](http://arxiv.org/abs/2611.12727v1) | arXiv | 2026-11-09 | score=3.175
+- [Somatic mutation probabilities learned from the DNA sequence](https://www.biorxiv.org/content/10.64898/2026.11.13.766380v1) | bioRxiv | 2026-11-16 | score=3.175
 - [CroSearch-R1: Better Leveraging Cross-lingual Knowledge for Retrieval-Augmented Generation](http://arxiv.org/abs/2604.25182v1) | arXiv | 2026-04-28 | score=3.17
 - [Didact: A Cross-Domain Capability Discovery System for Defence](http://arxiv.org/abs/2606.06942v1) | arXiv | 2026-06-05 | score=3.17
 - [An Agentic RAG and Evaluation Framework for Assurance Case Generation: Industrial Use Case for the EU Cyber Resilience Act Compliance](http://arxiv.org/abs/2608.19509v1) | arXiv | 2026-08-19 | score=3.17
@@ -29696,6 +29795,7 @@
 - [Retrieval-Augmented Multimodal Learning for Enzyme-Substrate Interaction Prediction Under Low-Homology Shift](http://arxiv.org/abs/2606.22823v1) | arXiv | 2026-06-22 | score=1.595
 - [TailorMind: Towards Preference-Aligned Multimodal Content Generation](http://arxiv.org/abs/2606.23643v1) | arXiv | 2026-06-22 | score=1.595
 - [VPA-Guard: Defending and Benchmarking Image-to-Video Generation Against Visual Prompt Attacks](http://arxiv.org/abs/2606.25592v1) | arXiv | 2026-06-24 | score=1.595
+- [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v2) | arXiv | 2026-07-27 | score=1.595
 - [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](http://arxiv.org/abs/2607.24402v1) | arXiv | 2026-07-27 | score=1.595
 - [One Graph, Multiple Gains: Single High-Quality Item-Item Graph for Multimodal Recommendation](http://arxiv.org/abs/2607.24607v1) | arXiv | 2026-07-27 | score=1.595
 - [VidTutorAssistant: Automating Responses to Programming Tutorial Questions](http://arxiv.org/abs/2609.29129v1) | arXiv | 2026-09-24 | score=1.595
@@ -29764,6 +29864,7 @@
 - [Advancing One Health genomics in Africa: opportunities and challenges for outbreak and antimicrobial resistance control.](https://pubmed.ncbi.nlm.nih.gov/42262139/) | PubMed | 2026-09-10 | score=5.483
 - [A pseudochromosomal reference genome of the golden jackal, Canis aureus.](https://pubmed.ncbi.nlm.nih.gov/41786621/) | PubMed | 2026-03-06 | score=5.39
 - [Advances in Pathogen Detection by Nanosensors: Biorecognition Strategies, Signal Amplification, and Platform Engineering.](https://pubmed.ncbi.nlm.nih.gov/41808396/) | PubMed | 2026-03-24 | score=5.213
+- [Auditing the adversarial robustness of genomic foundation models with SafeGenes.](https://pubmed.ncbi.nlm.nih.gov/43044595/) | PubMed | 2026-11-17 | score=5.21
 - [Generative embedding of sparse data with a tabular foundation model for dengue anticipatory action: a machine learning approach](https://www.medrxiv.org/content/10.64898/2026.07.03.26357228v1) | medRxiv | 2026-07-06 | score=5.17
 - [Comparative analysis of mitochondrial proteomes across the tree of life.](https://pubmed.ncbi.nlm.nih.gov/42822426/) | PubMed | 2026-10-01 | score=5.093
 - [The United States CADASIL Consortium: Baseline Findings from a Natural History Study](https://www.medrxiv.org/content/10.64898/2026.09.20.26363512v1) | medRxiv | 2026-09-22 | score=5.088
@@ -29961,6 +30062,7 @@
 - [A pseudochromosomal reference genome of the golden jackal, Canis aureus.](https://pubmed.ncbi.nlm.nih.gov/41786621/) | PubMed | 2026-03-06 | score=5.39
 - [Large language models enable consensus-level interpretation in metagenomic diagnostics](https://www.medrxiv.org/content/10.64898/2026.07.29.26358751v1) | medRxiv | 2026-07-31 | score=5.335
 - [ViralMap: Predicting Features in Viral Proteins from Primary Sequence](https://www.biorxiv.org/content/10.64898/2026.04.07.716565v1) | bioRxiv | 2026-04-09 | score=5.235
+- [Auditing the adversarial robustness of genomic foundation models with SafeGenes.](https://pubmed.ncbi.nlm.nih.gov/43044595/) | PubMed | 2026-11-17 | score=5.21
 - [Targeted Long-Read sequencing provides functional validation of variants predicted to alter splicing](https://www.medRxiv.org/content/10.64898/2026.03.02.26346984v1) | medRxiv | 2026-03-06 | score=5.188
 - [Generative embedding of sparse data with a tabular foundation model for dengue anticipatory action: a machine learning approach](https://www.medrxiv.org/content/10.64898/2026.07.03.26357228v1) | medRxiv | 2026-07-06 | score=5.17
 - [Comparative analysis of mitochondrial proteomes across the tree of life.](https://pubmed.ncbi.nlm.nih.gov/42822426/) | PubMed | 2026-10-01 | score=5.093

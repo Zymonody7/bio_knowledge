@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-17T09:05:40.535597+00:00",
+  "fetched_at": "2026-11-18T08:28:24.427979+00:00",
   "query": "(\"pathogenomics\"[Title/Abstract]) OR (\"infectious disease genomics\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND genomics[Title/Abstract])) OR (\"pathogen genomics\"[Title/Abstract] OR (pathogen[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genomics\"[Title/Abstract] OR (microbial[Title/Abstract] AND genomics[Title/Abstract])) OR (\"microbial genetics infectious disease\"[Title/Abstract] OR (microbial[Title/Abstract] AND genetics[Title/Abstract] AND infectious[Title/Abstract] AND disease[Title/Abstract])) OR (\"pathogen gene regulation\"[Title/Abstract] OR (pathogen[Title/Abstract] AND gene[Title/Abstract] AND regulation[Title/Abstract])) OR (\"pathogen virulence gene\"[Title/Abstract] OR (pathogen[Title/Abstract] AND virulence[Title/Abstract] AND gene[Title/Abstract])) OR (\"resistance gene pathogen\"[Title/Abstract] OR (resistance[Title/Abstract] AND gene[Title/Abstract] AND pathogen[Title/Abstract])) OR (\"host gene expression infection\"[Title/Abstract] OR (host[Title/Abstract] AND gene[Title/Abstract] AND expression[Title/Abstract] AND infection[Title/Abstract])) OR (\"host response transcriptomics infection\"[Title/Abstract] OR (host[Title/Abstract] AND response[Title/Abstract] AND transcriptomics[Title/Abstract] AND infection[Title/Abstract])) OR (\"pathogen evolution\"[Title/Abstract] OR (pathogen[Title/Abstract] AND evolution[Title/Abstract])) OR (\"pathogen surveillance\"[Title/Abstract] OR (pathogen[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"unknown pathogen discovery\"[Title/Abstract] OR (unknown[Title/Abstract] AND pathogen[Title/Abstract] AND discovery[Title/Abstract])) OR (\"clinical metagenomics\"[Title/Abstract] OR (clinical[Title/Abstract] AND metagenomics[Title/Abstract])) OR (\"metagenomics pathogen detection\"[Title/Abstract] OR (metagenomics[Title/Abstract] AND pathogen[Title/Abstract] AND detection[Title/Abstract])) OR (\"host-pathogen interaction\"[Title/Abstract] OR (host[Title/Abstract] AND pathogen[Title/Abstract] AND interaction[Title/Abstract])) OR (\"infectious disease surveillance\"[Title/Abstract] OR (infectious[Title/Abstract] AND disease[Title/Abstract] AND surveillance[Title/Abstract])) OR (\"pathogen variant tracking\"[Title/Abstract] OR (pathogen[Title/Abstract] AND variant[Title/Abstract] AND tracking[Title/Abstract]))",
-  "count": 37,
+  "count": 46,
   "papers": [
     {
       "title": "Analysis of a recent human parvovirus B19 outbreak using a new genomic surveillance system.",
@@ -21,26 +21,175 @@
       "pubmed_id": "43037164"
     },
     {
-      "title": "Nationwide clinical-genomic epidemiology of listeriosis in Taiwan, 2018-2025: disease manifestations in relation to clonal background.",
+      "title": "Biomarkers for tuberculosis detection, progression, and treatment optimisation: an umbrella review of systematic reviews.",
       "source": "PubMed",
-      "date": "2026-12-01T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42986129/",
-      "abstract": "Listeriosis is an uncommon but severe foodborne infection, yet nationwide data linking pathogen genomics with clinical manifestations remain limited. We analyzed 1,252 laboratory-confirmed symptomatic listeriosis cases reported through nationwide surveillance in Taiwan during 2018-2025, with whole-genome sequencing of the corresponding clinical Listeria monocytogenes isolate from every case. The average annual incidence was 6.68 cases per 1,000,000 person-years, and 30-day all-cause mortality was 11.4%. Incidence showed an age-dependent sex pattern, with higher incidence among females aged 15-44 years and a shift toward male predominance at older ages. The female excess at ages 15-44 years persisted after exclusion of documented maternal-neonatal cases (male-to-female incidence rate ratio, 0.57; 95% confidence interval, 0.36-0.89). Clonal complex 87 (CC87) was the predominant CC (35.9%), whereas CC1 and CC2 were associated with higher odds of central nervous system (CNS) infection. LIPI-4 occurred predominantly in CC87, and LIPI-4-positive isolates showed lower odds of CNS infection; however, this association could not be separated from clonal background. More broadly, most associations of pathogenicity islands, virulence genes, and their alleles with disease manifestations could not be separated from the underlying clonal backgrounds in which these markers occurred, and none of the estimable associations remained significant after CC adjustment. This nationwide clinical-genomic study characterizes the contemporary burden of listeriosis in Taiwan and highlights clonal background as essential context for interpreting associations between virulence markers and disease manifestations.",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43044621/",
+      "abstract": "Numerous tuberculosis biomarkers have been described, but evidence supporting their use remains fragmented. We conducted an umbrella review of systematic reviews on host-derived and pathogen-derived biomarkers for three tuberculosis use-cases: detection of disease, prediction of progression to disease, and treatment monitoring and optimisation. We searched MEDLINE, Web of Science, Global Index Medicus, and the Cochrane Library from inception to Sept 1, 2025, excluding reviews confined to WHO-endorsed tests for approved use cases. We appraised the quality of reviews using an adapted version of AMSTAR-2, extracted assessments of risk of bias in primary studies, synthesised evidence narratively across nine biomarker classes, and applied a quantitative prioritisation framework. We included 46 reviews: 40 on detection, seven on progression, and six on treatment monitoring. Some reviews addressed more than one use case. For detection, evidence was strongest for host proteins, host transcriptomics, and pathogen antigens; for progression, evidence was strongest for host transcriptomics, particularly for short-term risk prediction. For treatment monitoring, evidence for predicting clinical outcomes was scarce. Across all use cases, no biomarkers consistently met WHO target product profile accuracy thresholds. Most primary studies were at high risk of selection bias, and accuracy estimates varied widely. Prospective head-to-head studies in representative populations are needed to determine which biomarkers have potential to improve individual and public health outcomes.",
       "authors": [
-        "Chien-Shun Chiou",
-        "Kung-Ching Wang",
-        "Jui-Hsien Chang",
-        "Hsiao Lun Wei",
-        "Yu-Ping Hong",
-        "Ying-Shu Liao",
-        "You-Wun Wang",
-        "Shao-Chun Kuo",
-        "Ru-Hsiou Teng",
-        "Shiu-Yun Liang"
+        "Tiffeney Mann",
+        "James Greenan-Barrett",
+        "Sacha Wright",
+        "Ellen Steward",
+        "Thi Mai Nguyen",
+        "Khay Mar Aung",
+        "Linh Duong",
+        "Federico Fama",
+        "Chhavi Garg",
+        "Angus de Wilton",
+        "Nora Engel",
+        "Seda Yerlikaya",
+        "Ankur Gupta-Wright",
+        "Emily L-H MacLean",
+        "Rishi K Gupta"
       ],
-      "doi": "10.1080/22221751.2026.2760628",
+      "doi": "10.1016/j.lanmic.2026.101580",
       "arxiv_id": "",
-      "pubmed_id": "42986129"
+      "pubmed_id": "43044621"
+    },
+    {
+      "title": "Auditing the adversarial robustness of genomic foundation models with SafeGenes.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43044595/",
+      "abstract": "Genomic foundation models (GFMs) such as evolutionary scale modeling (ESM) are increasingly applied to variant effect prediction in clinical genomics, yet their adversarial robustness remains underexplored. We present SafeGenes, an evaluation framework combining input-space attacks, a discrete single-nucleotide variant (SNV)-reachable HotFlip attack, and a soft-prompt-triggered backdoor. Across cardiomyopathy and arrhythmia datasets, iterative attacks severely degrade discrimination: projected gradient descent (PGD) reduces the area under the curve (AUC) by more than 30 percentage points, and the false-positive rate at 95% sensitivity collapses to nearly 1.0, misclassifying virtually all benign variants as pathogenic. The backdoor selectively elevates the pseudo-log-likelihood ratio (PLLR) scores of benign variants and transfers across ESM architectures. A single population-observed background substitution inverts pathogenicity ranking below chance, lowering the AUC from 0.76 to 0.39, showing that these vulnerabilities are biologically realizable. SafeGenes provides an open auditing framework for adversarial robustness in genomic AI.",
+      "authors": [
+        "Huixin Zhan",
+        "Clovis Barbour",
+        "Jason H Moore"
+      ],
+      "doi": "10.1016/j.crmeth.2026.101667",
+      "arxiv_id": "",
+      "pubmed_id": "43044595"
+    },
+    {
+      "title": "Amyloid-β42 Drives Collagen-Independent Activation of Discoidin Domain Receptor 2 in Alzheimer's Disease.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042906/",
+      "abstract": "Discoidin domain receptor 2 (DDR2), a receptor tyrosine kinase (RTK) family member, plays a pivotal role in collagen-mediated signaling, influencing several key cellular processes. In Alzheimer's disease (AD), DDR2 expression and activity are significantly upregulated. While collagens, the endogenous ligands of DDR2, either remain unchanged or are downregulated in AD-like conditions, Amyloid-beta 42 (Aβ42) has been found to activate DDR2 noncanonically in the absence of collagen. Additionally, DDR2 naturally translocates to the nucleus in the neuroblastoma cell line SH-SY5Y, and the nuclear pool of DDR2 further increases in the presence of Aβ42, suggesting a novel pathological role for DDR2 in AD. The E113K mutant of DDR2, where the collagen-binding site has been compromised, fails to get activated by collagen, whereas Aβ42 could still activate it. Furthermore, the DDR2 inhibitor WRG-28 effectively inhibits Aβ42 induced phosphorylation of the protein. We have modeled the ectodomain of DDR2 in silico, extending it through the transmembrane helix and subsequently docked the Aβ42 pentamer to provide a structural hypothesis for elucidating the mechanistic basis of Aβ-mediated kinase activation. Additionally, we analyzed WRG-28 binding by forming a ternary complex among DDR2, Aβ42, and WRG-28. Our structural analyses offer key insights into the molecular mechanisms governing DDR2 activation by Aβ42 and its inhibition by WRG-28 in the AD cell model, providing a foundation for targeted therapeutic strategies.",
+      "authors": [
+        "Russa Das",
+        "Sampa Biswas",
+        "Debashis Mukhopadhyay"
+      ],
+      "doi": "10.1021/acs.biochem.6c00486",
+      "arxiv_id": "",
+      "pubmed_id": "43042906"
+    },
+    {
+      "title": "Supporting public health outbreak investigations with improved Legionella pneumophila isolate recovery using a comprehensive culture algorithm including an off-label use of a Legionella detection kit.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042822/",
+      "abstract": "Legionella pneumophila (Lpn) is a gram-negative, fastidious environmental pathogen that is the major cause of Legionnaires' disease (LD). In New York State (NYS), Lpn is responsible for multiple outbreaks each year. For source attribution during an outbreak, whole-genome sequencing of culture isolates is needed to assess relatedness. Isolation of Lpn from clinical and environmental samples may pose challenges due to overgrowth of competing organisms and the potential for the initiation of patient antimicrobial treatment prior to specimen collection. In this study, we evaluated the IDEXX Legiolert method to improve recovery of Lpn isolates in both PCR-positive clinical specimens and environmental water samples. Our initial prospective study of 43 respiratory (RES) and 16 environmental samples found that isolate recovery of Lpn was improved by 25.6% for RES specimens and 43.8% for non-potable (NP) water samples when IDEXX Legiolert method was compared to our existing culture method. When the validated IDEXX Legiolert method was employed during several major outbreaks in NYS over the course of 4 years (2019-2023), encompassing 22 RES and 68 environmental samples, Lpn recovery was also improved (35% RES, 42% NP), further confirming the significant impact the IDEXX Legiolert has on outbreak source attribution. Legionnaires' disease (LD) is a serious and potentially lethal form of pneumonia, primarily resulting from the inhalation of aerosols contaminated with Legionella from artificial water supply or cooling systems. LD is frequently underdiagnosed due to its lack of distinguishing clinical presentation, rarity as a cause of pneumonia, and need for specialized testing. Furthermore, obtaining a lower respiratory specimen from LD cases is often challenging, and even when these specimens are available, culturing requires specific media that may not be available in all microbiology laboratories. In the present study, we assessed and implemented a modification to the culture procedure that improved Legionella pneumophila isolate recovery from PCR-positive samples. This innovative method, utilizing an off-label IDEXX Legiolert culture step, provides an improvement over current methods for determining source attribution of LD outbreaks, particularly in situations where isolating Legionella is challenging.",
+      "authors": [
+        "Kailee J Cummings",
+        "Danielle Wroblewski",
+        "Amy Saylors",
+        "Julia Connors",
+        "Wolfgang Haas",
+        "Alexander C Keyel",
+        "Kimberlee A Musser",
+        "Elizabeth J Nazarian",
+        "Lisa A Mingle"
+      ],
+      "doi": "10.1128/spectrum.02911-26",
+      "arxiv_id": "",
+      "pubmed_id": "43042822"
+    },
+    {
+      "title": "Genomic characterization of greenhouse-associated Aspergillus fumigatus from China reveals population structure, antifungal resistance, and relationships with global lineages.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961116/",
+      "abstract": "Aspergillus fumigatus is a globally distributed saprophyte and a major opportunistic pathogen causing invasive aspergillosis. The emergence of azole-resistant A. fumigatus in agricultural environments poses a growing threat to human health, yet the genetic basis of resistance and the role of agricultural hotspots remain poorly understood. Here, we analyzed 226 greenhouse-derived isolates from Yunnan, China, within a global genomic framework. Although Yunnan isolates shared overall diversity patterns with worldwide populations, they exhibited pronounced population structure, with one well-supported clade (Clade B) enriched in greenhouse environments. To investigate cross-environment relationships, we further analyzed an expanded collection of isolates from greenhouse soils, air, agricultural markets, and clinical sources using multilocus genotyping. Identical or highly similar genotypes were detected across environments, including resistant strains carrying the TR₃₄/L98H allele, demonstrating that greenhouse and clinical isolates are genetically connected. Genome-wide association analyses identified candidate loci associated with antifungal resistance and stress tolerance beyond canonical cyp51A mutations, including genes involved in cell wall remodeling and mitochondrial dynamics. Together, these results reveal the genomic landscape of greenhouse-associated A. fumigatus in China and provide evidence for genetic connectivity between agricultural and clinical settings, underscoring the importance of surveillance at agricultural-clinical interfaces. Azole-resistant Aspergillus fumigatus is an increasing global health concern because resistant infections are difficult to treat and often fatal. Agricultural environments have been implicated as important sources of resistance, yet the mechanisms underlying the emergence, persistence, and transfer of resistance to human patients remain unclear. By integrating genomic and phenotypic analyses of greenhouse-derived isolates from Yunnan, China, we identified a distinct clade that is enriched in greenhouse environments and exhibits stable antifungal resistance. Resistant genotypes were repeatedly detected across greenhouses, local markets, and patients; notably, identical multilocus genotypes and cyp51A mutations were shared between market air samples and a patient with invasive aspergillosis, demonstrating genetic connectivity between agricultural and clinical settings. Beyond the well-known cyp51A mutations, genome-wide association analyses highlighted several candidate loci associated with antifungal resistance-including a dynamin-related GTPase and a strongly induced cell-wall peptidase-that may represent non-canonical resistance mechanisms. These findings provide insights into fungal adaptation and resistance evolution in agricultural contexts. They underscore the urgent need for integrated surveillance and stewardship across agricultural and medical sectors to mitigate the spread of antifungal resistance.",
+      "authors": [
+        "Chengyan Duan",
+        "Yue Wang",
+        "Jianchuan Gong",
+        "Jiarui Huang",
+        "Duanyong Zhou",
+        "Ying Zhang"
+      ],
+      "doi": "10.1128/msystems.01238-26",
+      "arxiv_id": "",
+      "pubmed_id": "42961116"
+    },
+    {
+      "title": "Phylogeography of clinical Burkholderia pseudomallei isolates in Cambodia demonstrates diversity, broad dispersal, and novel genes.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42904687/",
+      "abstract": "Burkholderia pseudomallei , the causative agent of melioidosis, is ubiquitous in Southeast Asia but remains understudied in many endemic countries. The species' high genetic diversity necessitates large-scale sampling to resolve fine-scale population structure. In countries bordering the Mekong River, the geographic range of B. pseudomallei strains may be increased by water-mediated dispersal. Between 2021 and 2023, we collected and sequenced 253 clinical B. pseudomallei isolates from patients admitted to six Cambodian hospitals and geotagged isolates by patient village. Isolates were genetically diverse and grouped into 11 clades, including one characterized by a chromosomal genomic island containing unique genes absent from other isolates, consistent with local evolution. Comparison with 3,234 publicly available global genomes revealed intermixing between Cambodian and other Southeast Asian isolates but clear distinction from Australian strains. Phylogeographic analyses further demonstrated spatial localization along major waterways, suggesting that river systems, including the Mekong, may contribute to bacterial dissemination in Cambodia. Taken together, these findings demonstrate the importance of localized data sets for contextualizing the population structure and evolution of this diverse pathogen in Southeast Asia.IMPORTANCE Burkholderia pseudomallei is a highly diverse bacterial species with genomic features that vary based on geographic sampling location. Existing data predominantly from Thailand show that isolates from Southeast Asia may be closely related to each other. Here, we sequenced isolates associated with human disease in Cambodia and compared these against genomes from public sequence repositories. We identified many distinct bacterial strains and found that some of these were localized either to the south or in the north of the country. We identified a unique group of genes in one cohort strain with putative roles in bacterial metabolism and genomic recombination. Finally, in a global phylogeny constructed from publicly available genomes, we found that Cambodian isolates intermixed with other Southeast Asian isolates. Our study is the largest genomic study of B. pseudomallei in Cambodia to date, with findings that contribute to the global understanding of the bacterium's diversity and evolution.",
+      "authors": [
+        "Christina Yek",
+        "Rachelle E Koch",
+        "Jiwoong Kim",
+        "Mengheng Oum",
+        "Sreyngim Lay",
+        "Sophana Chea",
+        "Lyhourng Long",
+        "Piseth Ly",
+        "Sreyneang Phoch",
+        "Sophathonin Chea",
+        "Andrea R Pacheco",
+        "Siari Coster",
+        "Meera Barochia",
+        "Sokna Ly",
+        "Ratanak Sath",
+        "Malin Srouen",
+        "Chamroeun Bin",
+        "Chanthou Chak",
+        "Sosorphea Seang",
+        "Vantha Te",
+        "Viso Srey",
+        "Kimsreng Lean",
+        "Bunna Chhor",
+        "Somary Nhem",
+        "Sivhour Chiek",
+        "Rina Dork",
+        "Xiaowei Zhan",
+        "Andrew E Clark",
+        "Shanmuga Sozhamannan",
+        "Bryan D Necciai",
+        "Jessica E Manning",
+        "Heng Seng",
+        "Sidonn Krang",
+        "Sovann Ly",
+        "Chanthap Lon",
+        "David E Greenberg"
+      ],
+      "doi": "10.1128/msystems.00869-26",
+      "arxiv_id": "",
+      "pubmed_id": "42904687"
+    },
+    {
+      "title": "A multivalent mRNA-lipid nanoparticle vaccine containing eight hemagglutinin antigens elicited broad neutralizing antibody responses and protected against influenza A virus challenge in swine.",
+      "source": "PubMed",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42852895/",
+      "abstract": "The diversity within H1 and H3 subtype influenza A viruses (IAVs) in swine prevents effective vaccine control approaches with inactivated whole-virus vaccines. We addressed the challenge of controlling co-circulating hemagglutinin (HA) clades of swine IAV with the development of a multivalent messenger RNA (mRNA)-lipid nanoparticle (LNP) vaccine expressing eight HA proteins to maximize genetic coverage. We applied a computational approach to select eight HA genes that represented 95% of the observed IAVs detected in the United States between 2022 and 2025. Piglets were vaccinated and boosted intramuscularly with either individual HA mRNA-LNP or an 8-HA multivalent mRNA-LNP. Serum was collected to evaluate systemic antibody levels. Twenty-one days post-boost, pigs were challenged with a field-relevant H1 1A.3.3.3-c3 IAV strain. The 8-HA multivalent mRNA-LNP vaccine induced neutralizing antibodies against all eight antigens, and vaccinees were protected against lung lesions, with lesion scores similar to non-challenged animals. Homologous monovalent vaccination significantly reduced IAV detection in nasal secretions and in the lungs. Heterologous monovalent vaccination was not cross-protective but did not induce vaccine-associated enhanced respiratory disease. We provide evidence that monovalent and multivalent mRNA-LNP influenza vaccines elicited neutralizing antibody responses in pigs and protected against viral challenge. The versatility and capacity for rapidly updating the mRNA-LNP vaccine platform make it an appealing tool to improve animal health and minimize the circulation and diversity of IAV in swine.IMPORTANCEInfluenza A virus (IAV) is an important respiratory pathogen in swine, and zoonotic transmission of swine strains to humans remains a public health risk. Control strategies against IAV in swine herds rely heavily on biosecurity measures and vaccination. However, the antigenic diversity of IAV circulating in swine challenges current vaccination programs, and there is a need for broadly protective vaccines or platforms that can rapidly update components to reflect circulating diversity. mRNA-LNP vaccines have emerged as promising vaccine platforms, offering simultaneous delivery of multiple antigens, rapid development, scalable manufacturing, and potent immunogenicity. In this study, we assessed the immunogenicity and protective capacity of monovalent and multivalent mRNA-LNP vaccines encoding eight representative IAV hemagglutinin (HA) antigens. To our knowledge, this is the first study to objectively select multiple representative endemic swine IAV strains by quantifying genetic diversity within the phylogeny and to apply this selection to rationally design and evaluate a multivalent HA mRNA-based influenza vaccine in the swine model.",
+      "authors": [
+        "Giovana Ciacci Zanella",
+        "Marissa L Vincent",
+        "Leo Flores",
+        "Ethan K Aljets",
+        "Rodrigo C Paiva",
+        "Alexey Markin",
+        "Blake Inderski",
+        "Garima Dwivedi",
+        "Drew Weissman",
+        "Meghan Wymore Brand",
+        "Jefferson J S Santos",
+        "Scott E Hensley",
+        "Tavis K Anderson",
+        "Phillip C Gauger",
+        "Amy L Baker"
+      ],
+      "doi": "10.1128/jvi.00848-26",
+      "arxiv_id": "",
+      "pubmed_id": "42852895"
     },
     {
       "title": "Exploration of tumor genomics associated with prolonged benefit from or resistance to talazoparib monotherapy in patients with metastatic castration-resistant prostate cancer.",
@@ -100,6 +249,28 @@
       "doi": "10.1016/j.ejca.2026.117443",
       "arxiv_id": "",
       "pubmed_id": "42826440"
+    },
+    {
+      "title": "Integration of molecular diagnostics and genomics to interpret silent rpo B mutations in Mycobacterium tuberculosis in Paraná State, Brazil.",
+      "source": "PubMed",
+      "date": "2026-11-16T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041093/",
+      "abstract": "To describe clinical isolates of Mycobacterium tuberculosis harboring the silent Phe433Phe mutation in the rpo B gene in Paraná State, Brazil, and to evaluate its role in diagnostic discordance and molecular surveillance. This study analyzed M. tuberculosis isolates processed at the Central Public Health Laboratory of Paraná between 2021 and 2023 showing discordant rifampicin resistance results between a molecular diagnostics assays line probe assay (LPA; GenoType MTBDR plus v2.0) and a rapid molecular test (GeneXpert® MTB/RIF Ultra). Phenotypic drug susceptibility testing was performed using an automated mycobacterial growth indicator tube system (BACTEC™ MGIT™ 960). Whole-genome sequencing was used to confirm mutations and assess genomic clustering. Among 3,351 isolates analyzed by LPA, 80 were classified as rifampicin-resistant by LPA, of which 31 (38.7%) exhibited an inferred mutation in the rpo B wt3 region while remaining susceptible according to rapid molecular testing and phenotypic assays. Most cases were concentrated in the 17 th Health Region (71.0%), including individuals deprived of liberty (25.8%). Whole-genome sequencing of 22 viable isolates confirmed the silent Phe433Phe mutation. Genomic analysis identified clustered isolates compatible with recent transmission, particularly within prison-related settings. The silent Phe433Phe mutation is a potential epidemiological marker and a source of diagnostic discordance. Integrating molecular and genomic approaches is essential for tuberculosis surveillance.",
+      "authors": [
+        "Flávia Kazumi Shibata",
+        "Laiz Mangini Cicchelero",
+        "Leticia Graziela Costa Santos",
+        "Aline Andrade Freund",
+        "Richard Steiner Salvato",
+        "Geovani de Oliveira Ribeiro",
+        "Andressa Sprada da Silva",
+        "Lavínia Nery Villa Stangler Arend",
+        "Célia Fagundes da Cruz",
+        "Regiane Bertin de Lima Scodro"
+      ],
+      "doi": "10.1080/17460913.2026.2761937",
+      "arxiv_id": "",
+      "pubmed_id": "43041093"
     },
     {
       "title": "PMA-qPCR for viability and phenotypic antibiotic susceptibility testing of Acinetobacter baumannii to four mechanistically distinct antibiotics in bronchoalveolar lavage.",
@@ -250,6 +421,21 @@
       "doi": "10.1093/infdis/jiag328",
       "arxiv_id": "",
       "pubmed_id": "42349887"
+    },
+    {
+      "title": "Multiomics Mining of Necrosis by Sodium Overload (NECSO)-Related Genes in Colorectal Cancer Highlights NOL3 as a Candidate Regulator: Functional Characterization via In Vitro Biological Experiments.",
+      "source": "PubMed",
+      "date": "2026-01-01T00:00:00+00:00",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041606/",
+      "abstract": "The present research sought to pinpoint crucial prognostic genes associated with colorectal cancer (CRC), develop a robust necrosis by sodium overload-related prognostic model, investigate the biological roles of NOL3-a candidate regulator gene in this context-and ultimately lay a theoretical foundation for the evaluation of CRC prognosis and the advancement of targeted therapeutic strategies. Transcriptome profiles and survival datasets related to CRC were retrieved from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) databases. Data preprocessing was executed using R software, with the assistance of packages including limma, pheatmap, survival, glmnet, and clusterProfiler. The Wilcoxon test was employed to screen for differentially expressed genes, applying the thresholds of |log2 fold change (log2FC)| > 0.585 and adjusted false discovery rate (PFDR) < 0.05. To annotate the functions of these differential genes, Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis was conducted. For prognostic analysis, the necrosis by overload gene set obtained from GeneCard was utilized, and circular univariate COX regression was performed with a significance level of p < 0.05. Based on TCGA data, a multivariate COX prognostic model was built through stepwise selection, and its validity was further confirmed using GEO data. SHAP (SHapley Additive exPlanations) analysis was adopted to assess the importance of each gene incorporated in the model. Time-dependent receiver operating characteristic (ROC) curves corresponding to 1-, 3-, and 5-year survival were generated to evaluate the predictive accuracy of the constructed model. To visualize the expression patterns of the genes in the model, single-cell analysis (implemented with tools such as Seurat and SingleR) and spatial transcriptome analysis (conducted using software like Seurat and ggplot2) were carried out. For the candidate regulator gene NOL3, a series of supporting analyses and experiments were performed: clinical correlation analysis (leveraging online databases), prediction of biological mechanisms (via gene set enrichment analysis [GSEA]), cell function experiments (SW620 cell lines), reverse transcription-polymerase chain reaction (RT-PCR) validation, and subcellular localization detection (using immunofluorescence technology). In addition, immune infiltration and immunotherapy-response-related signatures of NOL3 were analyzed in the TCGA cohort, including CIBERSORT immune-cell deconvolution, immune-checkpoint gene expression profiling, the T-cell-inflamed gene expression profile (GEP), and the cytolytic activity (CYT) score. Differential analysis of TCGA CRC data identified 5511 downregulated genes and 9451 upregulated genes (all p < 0.05). KEGG enrichment analysis revealed changes in signal pathways and molecular functions of differential genes. Prognostic analysis of necrosis by sodium overload-related differential genes obtained 82 prognostic genes. Results from the constructed prognostic model revealed that patients in the high-risk group exhibited significantly poorer overall survival (OS) compared with those in the low-risk group ( p < 0.05). For the risk scores derived from this model, the area under the curve (AUC) values were 0.745 for 1-year survival, 0.761 for 3-year survival, and 0.820 for 5-year survival. Additionally, multivariate COX regression analysis verified that the risk score served as an independent prognostic indicator for CRC, with statistical significance ( p < 0.05). The nomogram incorporating age and risk score had good calibration, with AUC values of 0.754 (1-year), 0.787 (3-year), and 0.848 (5-year). SHAP analysis indicated that CPT2 had the highest importance in the 25-gene model, whereas PGF and NOL3 had positive contributions. Single-cell and spatial transcriptome analyses visualized the expression of model genes in specific cell types and tissue regions. Clinical analysis showed that NOL3 was upregulated in CRC tissues (both mRNA and protein levels), widely distributed in normal human tissues, and served as a prognostic factor for CRC. GSEA analysis suggested that NOL3 might affect CRC cell function through pathways such as ECM. RT-PCR confirmed that NOL3 was significantly upregulated in HCT116, SW620, and RKO cells, and immunofluorescence showed its localization in the cell nucleus and cytoplasm. Through biological experiments, NOL3 was shown to regulate the proliferative capacity of the CRC cell line (SW620). Immune analysis further showed that high NOL3 expression was associated with significantly lower expression of seven immunomodulatory genes (TNFSF4, CD80, CD86, ICOS, PDCD1LG2, KLRC1, and TNFRSF9) and with reduced inferred infiltration of activated dendritic cells, suggesting an immune-modulatory role of NOL3 in CRC. This study successfully constructed a stable and reliable CRC prognostic model. The candidate regulator gene NOL3 is upregulated in CRC, affects CRC cell function, and serves as a potential prognostic biomarker and therapeutic target for CRC.",
+      "authors": [
+        "Ke Sun",
+        "Wenxue Zhu",
+        "Jingyu Wu"
+      ],
+      "doi": "10.1155/ijog/2293151",
+      "arxiv_id": "",
+      "pubmed_id": "43041606"
     },
     {
       "title": "Advancements in understanding the pathogenic mechanisms of Treponema pallidum.",
@@ -424,84 +610,6 @@
       "pubmed_id": "42241888"
     },
     {
-      "title": "Azole resistance in Aspergillus series Nigri and possible link with environmental selection route.",
-      "source": "PubMed",
-      "date": "2026-11-14T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43033930/",
-      "abstract": "Resistance to medical azoles has been well investigated in Aspergillus fumigatus, which is primarily driven by exposure to azole fungicides. Azole resistance selection in other Aspergillus species remains understudied. We investigated azole resistance selection in Aspergillus series Nigri. 165 clinical series Nigri isolates were collected from Dutch and Belgian hospitals and 77 environmental isolates were obtained from air and other environmental sources, including known hotspots for azole resistance selection. Isolates were screened for resistance to medical azoles and selected fungicides using the EUCAST microbroth dilution reference method. Epidemiological cut-off values were used to identify non-wildtype isolates. All isolates were subjected to whole-genome sequencing, and global sequence databases were used for population genomic analyses. Clinical information was collected for azole-resistant isolates. Aspergillus tubingensis was the dominant species lineage among the clinical isolates (120/165, 72·7%), whereas species of the A. niger lineage were more frequently identified in environmental samples (55/78, 70·5%). Overall A. tubingensis isolates showed higher minimum inhibitory concentrations than A. niger isolates; 27 clinical isolates (17·0%) showed a non-wildtype phenotype for medical azoles as well as 24 of 78 (30·8%) environmental isolates. Sequencing revealed a worldwide distribution of multiple clonal groups. Cross resistance between medical azoles and azole fungicides was observed in A. tubingensis lineage isolates, which were recovered from hotspots, air and patient samples. Pan-azole resistant A. tubingensis was recovered from five mould-active azole-naïve patients, including a patient with proven invasive aspergillosis. Our study shows azole resistance in A. tubingensis lineage isolates and evidence that supports environmental resistance selection. Population genomics indicate a risk of global migration of resistant clones in A. tubingensis. Next to confirmative studies regarding black aspergilli, mycobiome analysis of hotspots are needed to identify potential selection of intrinsic or acquired resistant fungal species that may cause infections.",
-      "authors": [
-        "Maarten Punt",
-        "Jianhua Zhang",
-        "Bo Briggeman",
-        "Eelco F J Meijer",
-        "Jos Houbraken",
-        "Jochem B Buil",
-        "Sjoerd Kuiling",
-        "James Groot",
-        "Marlou Tehupeiory-Kooreman",
-        "Sijmen Schoustra",
-        "Lize Cuypers",
-        "Katrien Lagrou",
-        "Paul E Verweij",
-        "Auke de Jong"
-      ],
-      "doi": "10.1016/j.jinf.2026.106897",
-      "arxiv_id": "",
-      "pubmed_id": "43033930"
-    },
-    {
-      "title": "Host-specific distribution of antimicrobial resistance in non-clinical Salmonella: a one health analysis of 791,298 isolates.",
-      "source": "PubMed",
-      "date": "2026-11-14T00:00:00+00:00",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43033283/",
-      "abstract": "The environmental distribution of antimicrobial resistance (AMR) is frequently attributed to diffuse agricultural and aquatic reservoirs. To evaluate source-associated differences in AMR carriage, pre-computed genomic metadata for 791,298 Salmonella enterica isolates from the NCBI Pathogen Detection database were analyzed. Multivariate logistic regression, adjusted for serovar, geographic location, and database submission year, stratified non-clinical isolates into specific ecological niches against a human clinical baseline. Historical resistance (tetracycline) and mobilized colistin resistance (mcr) demonstrated profound concentration in poultry and swine environments. Crucially, while Extended-Spectrum Beta-Lactamase (ESBL) carriage was negatively associated with swine, bovine, and generalized aquatic environments, poultry isolates exhibited an over four-fold increased relative prevalence (Adjusted OR = 4.03). Conversely, general aquatic environments consistently demonstrated a negative association across all resistance classes. These findings indicate that environmental AMR carriage within this database is highly compartmentalized, highlighting direct livestock production interfaces as primary targets for genomic surveillance.",
-      "authors": [
-        "Gagandeep Singh"
-      ],
-      "doi": "10.1007/s11274-026-05412-z",
-      "arxiv_id": "",
-      "pubmed_id": "43033283"
-    },
-    {
-      "title": "Peripheral detection of viruses shapes brain immunity and behavior in zebrafish",
-      "source": "bioRxiv",
-      "date": "2026-11-14T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.1101/2023.03.17.533129v4",
-      "abstract": "Olfactory sensory neurons (OSNs) are constantly exposed to pathogens, including viruses. However, serious brain infection via the olfactory route rarely occurs. When OSNs detect a virus, they coordinate local antiviral immune responses to stop virus progression to the brain. Despite effective immune control in the olfactory periphery, pathogen-triggered neuronal signals reach the CNS via the olfactory bulb (OB). We hypothesized that neuronal detection of a virus by OSNs initiates neuroimmune responses in the OB that prevent pathogen invasion. Using zebrafish (Danio rerio) as a model, we demonstrate viral-specific neuronal activation of OSNs projecting into the OB, indicating that OSNs are electrically activated by viruses. Further, behavioral changes are seen in both adult and larval zebrafish after viral exposure. By profiling the transcription of single cells in the OB after OSNs are exposed to virus, we found that both microglia and neurons enter a protective state. Microglia and macrophage populations in the OB respond within minutes of nasal viral delivery followed decreased expression of neuronal differentiation factors and enrichment of genes in the neuropeptide signaling pathway in neuronal clusters. Pituitary adenylate-cyclase-activating polypeptide (pacap), a known antimicrobial, was especially enriched in a neuronal cluster. We confirm that PACAP is antiviral in vitro and that PACAP expression increases in the OB 1 day post-viral treatment. Our work reveals how encounters with viruses in the olfactory periphery shape the vertebrate brain by inducing antimicrobial programs in neurons and by altering host behavior.",
-      "authors": [
-        "Kraus, A.",
-        "Garcia, B.",
-        "Ma, J.",
-        "Herrera, K. J.",
-        "Zwaka, H.",
-        "Harpaz, R.",
-        "Wong, R.",
-        "Engert, F.",
-        "Salinas, I."
-      ],
-      "doi": "10.1101/2023.03.17.533129",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Kymograph classifiers predict CMT2A disease-relevant mitochondrial motility phenotypes in iPSC motor neurons",
-      "source": "bioRxiv",
-      "date": "2026-11-14T00:00:00+00:00",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712192v2",
-      "abstract": "Charcot-Marie-Tooth disease type 2A (CMT2A) is a genetic disease characterized by autosomal dominant MFN2 mutations and dysregulated mitochondrial trafficking. While there is currently no FDA-approved CMT2A therapy, the recent development of iPSC motor neuron model systems, high-throughput imaging platforms, and CRISPR-based gene editing technologies holds promise for screening new therapies at scale in vitro. A critical roadblock for therapeutic screening is the development of scalable and robust computational methods to assess the mitochondrial trafficking phenotypes, healthy or diseased, of each iPSC motor neuron sample. To address this gap, we developed a vision transformer (ViT) based classification framework that predicts disease phenotypes using kymographs, an image transformation that captures particle movement along a prespecified path, such as mitochondrial movement along axons. We show that our classification approach more accurately discriminates healthy MFN2 wild-type (WT) from diseased MFN2 R364W-mutant (R364W) iPSCs than alternative summary statistics, such as mitochondrial speed and fraction of stationary mitochondria that are directly extracted from kymographs. Furthermore, we show that our model maintains high accuracy when deployed on a biological replicate holdout dataset. An analysis of ViT patch embeddings of the kymographs shows that mitochondria with highly variable sizes and many intersection events most strongly associate with R364W diseased kymographs. The computational approach demonstrated in this paper has broad applicability for future high-throughput screens where organelle trafficking along axons plays a key role in disease pathogenesis.",
-      "authors": [
-        "Weiner, A. C.",
-        "Macklin, B.",
-        "Epstein, L.",
-        "Kelly, K. R.",
-        "Conklin, B. R.",
-        "Engelhardt, B. E."
-      ],
-      "doi": "10.64898/2026.03.16.712192",
-      "arxiv_id": "",
-      "pubmed_id": ""
-    },
-    {
       "title": "EcoToxFred: A knowledge-graph-grounded conversational agent for exploring ecotoxicological monitoring and hazard data",
       "source": "bioRxiv",
       "date": "2026-11-15T00:00:00+00:00",
@@ -628,24 +736,45 @@
       "pubmed_id": ""
     },
     {
-      "title": "Systematic Benchmarking and Optimization of Retrieval-Augmented Generation (RAG) for Clinical Phenotyping: A Type II Diabetes Case Study in an ICD-Screened Cohort",
-      "source": "medRxiv",
-      "date": "2026-11-14T00:00:00+00:00",
-      "url": "https://www.medrxiv.org/content/10.1101/2025.04.29.25326696v5",
-      "abstract": "Traditional EHR phenotyping methods can require substantial disease-specific development and long-term maintenance. While integrating large language models (LLMs) with Retrieval-Augmented Generation (RAG) is promising, the impact of RAG configurations remains underexplored. We systematically evaluated these design choices for type 2 diabetes mellitus (T2DM) phenotyping in an ICD-screened cohort. Using GPT-4o, we processed 170,678 clinical notes from 275 patients. We evaluated seven embedding models and three prompt strategies (baseline, improved zero-shot, and few-shot). Using the improved zero-shot prompt, we tested 350 embedding model-chunk size-retrieval depth combinations on the training set and selected eight optimized configurations for test-set evaluation. Combined with three prompts, these yielded 24 prompt-configuration combinations for comparison with ICD codes and the institutional PheNorm method. RAG achieved a mean sensitivity of 0.9019 (95% CI: 0.8866-0.9172), specificity of 0.7907 (0.7749-0.8066), PPV of 0.9405 (0.9365-0.9445), NPV of 0.6967 (0.6653-0.7281), and F1-score of 0.9204 (0.9124-0.9283). All combinations achieved higher PPV than ICD codes (0.7838). Compared with PheNorm, sensitivity was significantly higher (Holm-adjusted p < 0.001), while specificity differences were not significant. Paired bootstrap analyses showed higher NPV and F1-score , with no significant PPV difference. General-purpose embeddings showed higher sensitivity, whereas biomedical embeddings exhibited higher specificity and PPV. Few-shot prompting increased specificity and PPV but reduced sensitivity. Token usage varied substantially across embedding models. These findings suggest the importance of aligning RAG design with task-specific clinical priorities and token efficiency.",
+      "title": "Detection, Persistence, and Antimicrobial Resistance Profiles of Escherichia coli and Shiga Toxin-Producing E. coli in Nut Orchards with Integrated Grazing Animals",
+      "source": "bioRxiv",
+      "date": "2026-11-16T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766593v1",
+      "abstract": "Integrating grazing animals into nut orchards can introduce foodborne pathogens including Salmonella enterica and Shiga toxin-producing Escherichia coli (STEC) into crop production environments. This study investigated pathogen transfer and persistence in the soil following livestock grazing (sheep/chicken) in two organic almond orchards and one walnut orchard in California. Soil and fecal samples were collected periodically for 120 days after grazing. Enrichment, selective culture and PCR were used for STEC and Salmonella enterica detection. Antimicrobial resistance (AMR) was assessed using microdilution assays, and whole genome sequencing (WGS) was used to characterize AMR genes, virulence genes and population structure. All 284 soil and 79 fecal samples collected tested negative for Salmonella enterica and E. coli O157. Presumptive STEC was detected by colony PCR in 3.2% (n = 9/284, 95% CI 1.7-5.9%) of the soil samples, and 34.2% (n = 27/79, 95% CI 24.7-45.2%) of fecal samples. Shiga toxin genes were confirmed by WGS in 15 of 31 sequenced isolates. Predominant subtypes were stx1c and stx2b, and O176:H4 and O174:H2 were the most common serotypes. Phenotypic AMR was detected in 33.3% (n = 12/36) of isolates, with multidrug resistance in 8.3% (n = 3/36). A soil and a sheep fecal isolate differed by one core-genome single nucleotide polymorphism and shared a closed multidrug-resistance plasmid of identical gene content, consistent with a lineage resident in the flock that transferred to soil. Confirmed STEC in orchard soil was rare and transient. These results provide evidence to inform food safety guidelines on crops integrated with livestock.",
       "authors": [
-        "Park, H.",
-        "Rees, M.",
-        "Kruger, N.",
-        "Fuse, K.",
-        "Castro, V. M.",
-        "Gainer, V.",
-        "Wattanasin, N.",
-        "Benoit, B.",
-        "Wagholikar, K. B.",
-        "Murphy, S."
+        "Rothwell, J. G.",
+        "Cheong, S.",
+        "Schlesener, C.",
+        "Miramontes, C.",
+        "Shaw, C.",
+        "Pereira, R. V. V.",
+        "Weimer, B. C.",
+        "Pires, A."
       ],
-      "doi": "10.1101/2025.04.29.25326696",
+      "doi": "10.64898/2026.11.13.766593",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "SIRT3 preserves mitochondrial DNA integrity to restrain cGAS-STING signaling and autoimmune inflammation",
+      "source": "bioRxiv",
+      "date": "2026-11-16T00:00:00+00:00",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766791v1",
+      "abstract": "Mitochondria play critical roles beyond energy production, including regulation of innate immunity through release of damage-associated molecular patterns such as mitochondrial DNA (mtDNA). Sirtuin 3 (SIRT3), a mitochondrial deacetylase, modulates mitochondrial function, reactive oxygen species (ROS) levels, and inflammation. Here, we investigate the role of SIRT3 in controlling Type I interferon (IFN) responses in macrophages. We show that Sirt3 depletion in mouse macrophages increases basal mtDNA release into the cytosol, activating the cGAS-STING pathway and enhancing the expression of IFN-{beta} and downstream interferon-stimulated genes (ISGs). Accordingly, Sirt3-deficient cells exhibit markedly increased resistance to vesicular stomatitis virus infection. Secreted IFN-{beta} also acts in a paracrine manner, priming neighboring cells and reinforcing antiviral defenses. Using mtDNA-deficient ({rho}0) cells, we demonstrate that intact mtDNA is essential for this amplified interferon response, as mtDNA depletion abolishes IFN-{beta} induction following Sirt3 knockdown. Mechanistically, increased mitochondrial ROS (mtROS) in SIRT3-deficient cells promotes mtDNA leakage and cGAS-STING activation, effects that are attenuated by the mitochondrial superoxide scavenger MitoTEMPO. In vivo, SIRT3 protects against chlorhexidine gluconate-induced peritoneal fibrosis by restraining macrophage infiltration, ISGs expression and fibrotic remodeling, underscoring its role in modulating STING-dependent inflammation and tissue damage. Finally, reanalysis of transcriptomic datasets from patients with lupus nephritis and rheumatoid arthritis reveals reduced SIRT3 expression, suggesting that SIRT3 downregulation is also associated with human inflammatory diseases. Collectively, our findings identify SIRT3 as an important regulator of mitochondrial integrity and oxidative stress that modulates innate immune and antiviral responses.",
+      "authors": [
+        "Merono, C.",
+        "Cuesta, Y.",
+        "Marchant, V.",
+        "Oliva, A.",
+        "Carrancho, A.",
+        "Gonzalez-Moreno, L.",
+        "Rodriguez-Pulido, M.",
+        "Sack, M. N.",
+        "Saiz, M.",
+        "Ruiz-Ortega, M.",
+        "Traba, J."
+      ],
+      "doi": "10.64898/2026.11.15.766791",
       "arxiv_id": "",
       "pubmed_id": ""
     },
@@ -755,13 +884,89 @@
       "doi": "10.64898/2026.11.13.26368067",
       "arxiv_id": "",
       "pubmed_id": ""
+    },
+    {
+      "title": "Integrated Genomic and Transcriptomic Profiling Reveals Distinct Biological Programs and Therapeutic Opportunities in Cancer of Unknown Primary",
+      "source": "medRxiv",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.14.26368097v1",
+      "abstract": "Background: Cancer of unknown primary (CUP) is a metastatic, heterogeneous malignancy accounting for 2-5% of cancer diagnoses globally. Failure to identify the primary site precludes tumor-type-specific therapy and, together with an aggressive clinical course, contributes to poor survival. The biological mechanisms driving these behaviors remain poorly understood. A deeper understanding of CUP biology is therefore essential to improve diagnostic precision and therapeutic strategies. To address this knowledge gap, we comprehensively characterized the multi-omics landscape of CUP and identified biological and potentially therapeutic targets beyond tissue-of-origin (ToO) assignment. Methods: Whole-genome sequencing (WGS) data from 283 CUP patients were analyzed for ToO predictions, mutational signatures, driver alterations, genetic immune escape (GIE), and clinically actionable alterations. Matched RNA-sequencing (RNA-seq) data from 79 cases were used to characterize functional gene expression signatures and define transcriptomic subtypes. Clinical, WGS, and RNA-seq data were integrated via weighted gene co-expression network analysis (WGCNA). Results: High-confidence ToO predictions (likelihood >80%) were obtained for 58% of CUPs, most commonly predicting lung, gastrointestinal, and biliary tract origins. Mutational signatures clustering revealed four subgroups dominated by tobacco smoking, defective DNA mismatch repair (dMMR), UV exposure, and APOBEC activity, while a fifth group, comprising most tumors (n=169; 60%), showed mixed mutational processes. The cohort also frequently exhibited mutations in established cancer driver genes, including TP53, CDKN2A, KRAS, and epigenetic modifiers ARID1A, SMARCA4, and ARID2. GIE alterations occurred in 35% of tumors, mostly involving HLA-I genes. Transcriptomic profiling defined five subtypes with different degrees of immune infiltration, fibrosis, and tumor proliferation. These subtypes were not significantly associated with clinical or genomic features, indicating that the tumor microenvironment (TME) represents another layer of CUP heterogeneity. WGCNA further linked proliferative programs to cell-cycle, DNA-replication, and neuroendocrine features. WGS data identified potentially targetable alterations in 64% of the CUP patients. Conclusions: CUP comprises biologically heterogeneous tumors with diverse predicted origins, mutational histories, and TME subtypes. Transcriptomic profiling and integrated genomics suggest that immune escape and rapid proliferation contribute to the clinical aggressive behavior. Together, these findings provide a molecular framework for understanding CUP heterogeneity and support therapeutic stratification by both ToO predictions and tumor-specific molecular alterations.",
+      "authors": [
+        "Wang, W.",
+        "Olsman, R.",
+        "Grashof, D. G. B.",
+        "Scheffers, L.",
+        "Leenders, M.",
+        "Robbrecht, D. G. J.",
+        "Snaebjornsson, P.",
+        "Katsikis, P. D.",
+        "van de Wouw, Y. A. J.",
+        "van de Werken, H. J. G."
+      ],
+      "doi": "10.64898/2026.11.14.26368097",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Human-Agentic AI Collaboration Workflow for Trend Analysis of ChatGPT Applications in Healthcare",
+      "source": "medRxiv",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.14.26368120v1",
+      "abstract": "Background: With the rapid advancement of artificial intelligence (AI), large language models (LLMs) such as ChatGPT have demonstrated strong potential to transform healthcare research and practice. However, LLMs are probabilistic and generate inherently variable outputs, which create risk and uncertainty in healthcare applications. Therefore, analyzing the current research landscape of ChatGPT applications is imperative to understand applied techniques and related concerns and to facilitate their practical integration into healthcare information systems. Objective: Leveraging LLM-based agentic AI with domain experts to analyze trends in ChatGPT healthcare applications and to examine the collaborative and interpretative capacities of LLM agents in broader contexts beyond narrowly defined topics. Methods: The review used a systematic search of the PubMed and Web of Science databases, following PRISMA-ScR guidelines, and focused on ChatGPT applications, associated concerns, applied techniques, and usage factors. To support the review process, an adaptive, iterative LLM-based agentic AI with a human-in-the-loop mechanism was employed for automated metadata extraction, identification, classification, and knowledge synthesis. The extracted information was subsequently used for temporal and thematic analyses, citation network construction, and main-path analysis. Results: Across 192 papers, the review identified 511 ChatGPT application types, 690 concern items, and 368 influence usage factors distinct from traditional IT, achieving a metadata error rate of 1.04%. The human-agentic AI workflow enabled efficient synthesis of contextual information across studies, addressing the growing challenge of timely evidence integration in medical knowledge. The findings provide insights into the evolving trajectories of ChatGPT applications in healthcare and demonstrate the value of an expert-validated human-agentic AI workflow in supporting literature analysis and streamlining review processes. Conclusion: This review provides a comprehensive overview of emerging ChatGPT applications, associated concerns, applied techniques, and usage factors in healthcare. The study further provides meaningful insights into the operational mechanisms of agentic AI, demonstrating the potential of human-AI collaboration for medical informatics research.",
+      "authors": [
+        "Chou, P. J.",
+        "Lin, Y. H.",
+        "Li, E. Y."
+      ],
+      "doi": "10.64898/2026.11.14.26368120",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Evaluation of System One Models on Biomedical Texts",
+      "source": "medRxiv",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.11.15.26368126v1",
+      "abstract": "Objective To compare the performance and cost of System One models (SOMs) with general-purpose large language models (LLMs) on biomedical tasks and evaluate confidence-based routing. Materials and Methods We evaluated three SOMs and three LLMs across seven datasets and eight endpoints covering question answering, error detection, structured extraction, and clinical-note assessment. Outcomes included task-specific performance, recorded inference cost and latency, and confidence calibration. Calibration data determined routing schemes and confidence thresholds to evaluate test predictions, with cost-matched random referral as a comparator. Results Claude Opus 5.5 had the highest primary performance on all eight endpoints. The strongest SOM, Jev, had competitive performance with the evaluated LLMs and cost less than 1% of Opus on most datasets. Three selected SOM-to-LLM routes reduced costs by 30.0%-71.7% relative to the receiving LLM, with modest reductions in performance. On one benchmark, SOM-to-SOM routing achieved 91.1% accuracy, compared with 82.3% and 82.2% for the individual models. Discussion SOMs offered favorable performance-cost tradeoffs for most tasks. The magnitude of the advantages depended on task structure and prompting requirements. Confidence-based routing between SOMs and LLMs can leverage complementary model strengths and offers additional flexibility in performance-cost tradeoffs. The price advantages offered by SOMs can facilitate experimentation and development of workflows. This warrants further evaluation on closed datasets. Conclusion For biomedical tasks with predefined choices, SOMs represent a competitive stand-alone or first-stage approach.",
+      "authors": [
+        "Chen, A. F.",
+        "Yang, A.",
+        "Guth, D. R.",
+        "Berl, F. M.",
+        "Guth, S. C.",
+        "Yuan, W."
+      ],
+      "doi": "10.64898/2026.11.15.26368126",
+      "arxiv_id": "",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Multi-Model Comparison of Deep and Classical Architectures for ECG Diagnostic Superclass Classification on PTB-XL",
+      "source": "medRxiv",
+      "date": "2026-11-17T00:00:00+00:00",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.10.25.26366433v3",
+      "abstract": "Objective. It remains unclear which architecture best sorts 12-lead electrocardiograms into diagnostic superclasses, and whether added model complexity pays off. Methods. Using 21,375 PTB-XL records under one patient-level split, we compared a Mamba-style state space model, a residual convolutional network, a bidirectional long short-term memory network, a convolutional-recurrent network with attention, soft-voting ensembles of these networks, and MiniRocket features with LightGBM. Each record took the superclass of its highest-likelihood diagnostic code, and we scored saved predictions with paired patient-level bootstrap intervals. Results. No model clearly outperformed MiniRocket with LightGBM, which needs no graphics processor. The ensemble of the three deep models with the highest validation macro F1 score reached 0.656, against 0.645 for MiniRocket with LightGBM (difference +0.011, 95% confidence interval -0.007 to +0.031), and an ensemble of all four deep models reached 0.657. An exploratory ensemble, whose members we chose after seeing test results, reached 0.665 and was the only ensemble whose interval excluded zero (+0.021, 0.002 to 0.040); we regard that margin as optimistic. Hypertrophy was the hardest class (F1 0.33 to 0.41), and differences in its recall mostly reflected threshold placement. Conclusions. Under one shared split, deep ensembles added little over a classical pipeline. Significance. These results give biomedical informatics researchers a statistically grounded reference for judging whether complex models justify their cost on this benchmark. With one dataset, one split, one training seed per model, and no external validation, they do not show readiness for clinical use.",
+      "authors": [
+        "Bhatt, V.",
+        "Strom, J. B.",
+        "Lopez-Jimenez, F.",
+        "Adedinsewo, D.",
+        "Murthy, V. L.",
+        "Hammond, A.",
+        "Diale, T.",
+        "Ng, F. S.",
+        "Cowie, M."
+      ],
+      "doi": "10.64898/2026.10.25.26366433",
+      "arxiv_id": "",
+      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "PubMed",
       "success": true,
-      "count": 22,
+      "count": 28,
       "error": ""
     },
     {
@@ -773,7 +978,7 @@
     {
       "source": "medRxiv",
       "success": true,
-      "count": 5,
+      "count": 8,
       "error": ""
     }
   ]
