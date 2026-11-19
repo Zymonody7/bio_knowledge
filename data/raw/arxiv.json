@@ -1,8 +1,71 @@
 {
-  "fetched_at": "2026-11-18T08:28:05.352599+00:00",
+  "fetched_at": "2026-11-19T08:40:33.067821+00:00",
   "query": "(ti:\"pathogen foundation model\" OR abs:\"pathogen foundation model\" OR (all:pathogen AND all:foundation AND all:model)) OR (ti:\"biological foundation model pathogen\" OR abs:\"biological foundation model pathogen\" OR (all:biological AND all:foundation AND all:model)) OR (ti:\"llm for pathogen genomics\" OR abs:\"llm for pathogen genomics\" OR (all:pathogen AND all:genomics)) OR (ti:\"llm for pathogen detection\" OR abs:\"llm for pathogen detection\" OR (all:pathogen AND all:detection)) || (ti:\"agent for clinical microbiology\" OR abs:\"agent for clinical microbiology\" OR (all:agent AND all:clinical AND all:microbiology)) OR (ti:\"multimodal pathogen model\" OR abs:\"multimodal pathogen model\" OR (all:multimodal AND all:pathogen AND all:model)) OR (ti:\"biomedical ai agent\" OR abs:\"biomedical ai agent\" OR (all:biomedical AND all:agent)) OR (ti:\"scientific discovery agent biology\" OR abs:\"scientific discovery agent biology\" OR (all:scientific AND all:discovery AND all:agent)) || (ti:\"llm bioinformatics\" OR abs:\"llm bioinformatics\") OR (ti:\"llm genomics\" OR abs:\"llm genomics\") OR (ti:\"llm proteomics\" OR abs:\"llm proteomics\") OR (ti:\"llm clinical genomics\" OR abs:\"llm clinical genomics\" OR (all:clinical AND all:genomics)) || (ti:\"gene language model\" OR abs:\"gene language model\" OR (all:gene AND all:language AND all:model)) OR (ti:\"protein foundation model\" OR abs:\"protein foundation model\" OR (all:protein AND all:foundation AND all:model)) OR (ti:\"protein language model biomedical\" OR abs:\"protein language model biomedical\" OR (all:protein AND all:language AND all:model)) OR (ti:\"clinical agent infectious disease\" OR abs:\"clinical agent infectious disease\" OR (all:clinical AND all:agent AND all:infectious)) || (ti:\"medical agent microbiology\" OR abs:\"medical agent microbiology\" OR (all:medical AND all:agent AND all:microbiology)) OR (ti:\"language model infectious disease\" OR abs:\"language model infectious disease\" OR (all:language AND all:model AND all:infectious)) OR (ti:\"ai copilot bioinformatics\" OR abs:\"ai copilot bioinformatics\" OR (all:copilot AND all:bioinformatics)) OR (ti:\"multi-agent biomedical research\" OR abs:\"multi-agent biomedical research\" OR (all:multi AND all:agent AND all:biomedical)) || (ti:\"retrieval augmented generation biomedical\" OR abs:\"retrieval augmented generation biomedical\" OR (all:retrieval AND all:augmented AND all:generation)) OR (ti:\"rag clinical microbiology\" OR abs:\"rag clinical microbiology\" OR (all:clinical AND all:microbiology)) OR (ti:\"genomics agent workflow\" OR abs:\"genomics agent workflow\" OR (all:genomics AND all:agent AND all:workflow)) OR (ti:\"fair pathogen dataset\" OR abs:\"fair pathogen dataset\" OR (all:fair AND all:pathogen AND all:dataset))",
-  "count": 45,
+  "count": 47,
   "papers": [
+    {
+      "title": "Hierarchical Control of Antiphase Synchronization in Biomorphic Spiking Neural Architectures for Locomotor Control",
+      "source": "arXiv",
+      "date": "2026-11-17T11:55:19+00:00",
+      "updated": "2026-11-18T11:10:15+00:00",
+      "url": "http://arxiv.org/abs/2611.22639v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.22639v2",
+      "abstract": "Central pattern generators (CPGs) provide a biologically inspired foundation for adaptive locomotor control, yet systematically characterizing their dynamic regimes in spiking neural networks remains challenging. This study introduces a framework for identifying and stabilizing antiphase synchronization in a biomorphic spiking CPG model embedded in a closed neuromuscular loop. A composite synchronization metric is developed, integrating phase coherence, amplitude balance, and temporal stability. Its performance is evaluated across systematically varied stimulation waveforms and synaptic configurations. Statistical analysis reveals that stimulation type dominates regime determination, with tonic drive yielding the most robust antiphase synchronization. Periodic inputs induce nonlinear saturation and context-dependent network routing. Although synaptic weights alone show limited discriminative power, they significantly modulate robustness within a given stimulation context, with reciprocal Ia interneuron connections emerging as key stabilizers. The proposed composite metric achieves robust antiphase detection, outperforming traditional phase-only measures while preserving biophysical interpretability. These findings establish a statistically validated, hierarchical modeling approach in which external drive defines the operating regime and targeted synaptic configurations fine-tune dynamic stability, providing actionable guidelines for closed-loop neuromechanical controllers and adaptive neuroprosthetic interfaces.",
+      "authors": [
+        "Artem Guba",
+        "Nikolay Kovalev",
+        "Alexey Zharinov",
+        "Vacheslav Demin",
+        "Viktor B. Kazantsev"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.22639v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Cardiac MRI-informed electrocardiography enables biologically grounded cardiomyopathy detection",
+      "source": "arXiv",
+      "date": "2026-11-18T06:16:55+00:00",
+      "updated": "2026-11-18T06:16:55+00:00",
+      "url": "http://arxiv.org/abs/2611.23925v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23925v1",
+      "abstract": "Precise myocardial phenotyping at population scale is limited by the cost and accessibility of cardiac magnetic resonance (CMR), whereas electrocardiography (ECG) is widely available but reflects electrical rather than structural and functional information. Here we develop MyoECG, a cross-modal representation learning framework that distils myocardial structural and functional knowledge from CMR into standard 12-lead ECGs, enabling imaging-informed cardiomyopathy detection and subtype classification from ECGs alone. MyoECG was pretrained on 45,241 paired ECG-CMR examinations from UK Biobank and a tertiary cardiovascular centre, then developed and validated across more than 1.8 million ECGs from seven independent datasets. Across internal and external datasets spanning prevalences of 0.2-54.7%, MyoECG outperformed five pretrained ECG foundation models, with AUROCs of 0.800-0.974 for cardiomyopathy detection. In a multi-reader study of six cardiologists, MyoECG assistance improved mean sensitivity by 0.109 (95% CI, 0.041-0.175; P = 0.009) and specificity by 0.056 (95% CI, 0.004-0.108; P = 0.040). In 41,128 UK Biobank participants, the MyoECG score showed genetic correlations with cardiomyopathy (rg = 0.409) and dilated cardiomyopathy (rg = 0.371), genome-wide associations at four loci, including regions mapped to NFIA and KCNQ1, and associations with 69 circulating proteins related to myocardial stress, cell adhesion, vascular biology and metabolism. The cardiomyopathy correlation attenuated to non-significance after adjustment for 27 measured CMR traits (rg = 0.131; P = 0.143), indicating that the score captures CMR-derived information rather than dataset-specific shortcuts. MyoECG offers a scalable route to CMR-informed cardiomyopathy assessment and a strategy for transferring knowledge from resource-intensive imaging to widely deployable physiological signals.",
+      "authors": [
+        "Zhengyao Ding",
+        "Kewen Wang",
+        "Yujian Hu",
+        "Ziyu Li",
+        "Yiheng Mao",
+        "Yue Wang",
+        "Haitao Li",
+        "Dengnan Zhang",
+        "Xuanhong Liu",
+        "Yue Wang",
+        "Jing Wang",
+        "Yue Chen",
+        "Longbo Wang",
+        "Mengjia Chen",
+        "Chengchen Zhao",
+        "Xuesen Chu",
+        "Yubin Zhang",
+        "Mor Peleg",
+        "Judith Somekh",
+        "Mingxuan Yuan",
+        "Hui Yan",
+        "Yue Gu",
+        "Fan Yi",
+        "Zhilong Jia",
+        "Zhentao Tang",
+        "Xi Hu",
+        "Fei Wu",
+        "Hongkun Zhang",
+        "Ting Chen",
+        "Zhengxing Huang"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.23925v1",
+      "pubmed_id": ""
+    },
     {
       "title": "Inferring Locations and Correcting Bias in Infectious Disease Data Using Human Mobility",
       "source": "arXiv",
@@ -54,25 +117,6 @@
       "pubmed_id": ""
     },
     {
-      "title": "Hierarchical Control of Antiphase Synchronization in Biomorphic Spiking Neural Architectures for Locomotor Control",
-      "source": "arXiv",
-      "date": "2026-11-17T11:55:19+00:00",
-      "updated": "2026-11-17T11:55:19+00:00",
-      "url": "http://arxiv.org/abs/2611.22639v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.22639v1",
-      "abstract": "Central pattern generators (CPGs) provide a biologically inspired foundation for adaptive locomotor control, yet systematically characterizing their dynamic regimes in spiking neural networks remains challenging. This study introduces a framework for identifying and stabilizing antiphase synchronization in a biomorphic spiking CPG model embedded in a closed neuromuscular loop. A composite synchronization metric is developed, integrating phase coherence, amplitude balance, and temporal stability. Its performance is evaluated across systematically varied stimulation waveforms and synaptic configurations. Statistical analysis reveals that stimulation type dominates regime determination, with tonic drive yielding the most robust antiphase synchronization. Periodic inputs induce nonlinear saturation and context-dependent network routing. Although synaptic weights alone show limited discriminative power, they significantly modulate robustness within a given stimulation context, with reciprocal Ia interneuron connections emerging as key stabilizers. The proposed composite metric achieves robust antiphase detection, outperforming traditional phase-only measures while preserving biophysical interpretability. These findings establish a statistically validated, hierarchical modeling approach in which external drive defines the operating regime and targeted synaptic configurations fine-tune dynamic stability, providing actionable guidelines for closed-loop neuromechanical controllers and adaptive neuroprosthetic interfaces.",
-      "authors": [
-        "Artem Guba",
-        "Nikolay Kovalev",
-        "Alexey Zharinov",
-        "Vacheslav Demin",
-        "Viktor B. Kazantsev"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.22639v1",
-      "pubmed_id": ""
-    },
-    {
       "title": "Temporal Pseudo-RGB Encoding for Label-Free Detection of VEEV Infection in Human Brain Endothelial Cells",
       "source": "arXiv",
       "date": "2026-11-16T21:06:52+00:00",
@@ -110,26 +154,75 @@
       "pubmed_id": ""
     },
     {
-      "title": "CellChain: Benchmarking Cross-Scale Evidence Use for Perturbation Reasoning",
+      "title": "Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents",
       "source": "arXiv",
-      "date": "2026-10-12T08:04:27+00:00",
-      "updated": "2026-11-16T05:28:51+00:00",
-      "url": "http://arxiv.org/abs/2610.16346v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.16346v2",
-      "abstract": "Recent advances in foundation models and large-scale cellular perturbation datasets have driven growing interest in using LLMs to predict and reason about cellular responses. Biological reasoning in this setting involves relating molecular mechanisms, cellular responses, and functional outcomes across scales. Evaluating foundation models therefore requires assessing not only whether their predictions are correct, but also how those predictions depend on the biological evidence provided. We introduce CellChain, an experimentally grounded benchmark comprising 590 biological cases and 2,360 matched evidence-condition instances across gene-dependency prediction, cytokine-axis identification, and drug-sensitivity ranking. CellChain links perturbation experiments and external biological resources through a provenance-aware evidence graph spanning molecular, pathway, transcriptional, and phenotypic information. Task-specific conditions vary evidence coverage, composition, or assignment while preserving questions, candidate answers, reference targets, and scoring rules. Across 18 foundation models, the highest accuracies under prespecified target-evidence conditions are 57.5%, 75.5%, and 70.8%, respectively, and broader evidence coverage does not consistently improve accuracy. On the drug-sensitivity benchmark cohort, matched reference histories outperform swapped histories by an average of 13.0 percentage points in cluster-weighted accuracy. Decision-transition analysis separates corrections, newly introduced errors, and wrong-answer switches, revealing substantial answer changes hidden by small net accuracy differences. CellChain provides controlled comparisons for attributing changes in model predictions to prespecified expansions of biological context, including changes in evidence coverage, composition, and biological assignment.",
+      "date": "2026-11-18T16:36:18+00:00",
+      "updated": "2026-11-18T16:36:18+00:00",
+      "url": "http://arxiv.org/abs/2611.24711v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24711v1",
+      "abstract": "Agents that do science must choose informative experiments and reason from their results, but most discovery benchmarks cannot separate that skill from recall, unstated scoring rules or shortcut policies. We introduce Openhagen Worlds, a suite of 27 procedurally generated environments (some with finite truth spaces), from classic puzzles of experimental reasoning to simulator-grounded physics and chemistry, in which an agent runs experiments under a budget and commits an answer that a deterministic verifier checks against a hidden truth. Every observation states the complete scoring rule, and each of the 178 difficulty levels is calibrated: it is admitted only if, on 64 development instances, a scripted oracle succeeds on at least 0.75, the strongest plausible non-deductive policy on at most 0.25 and each gated shortcut on at most 0.35. The 92 core levels span all 27 families and are sized to train small models; the 86 frontier rungs extend the 15 discovery worlds with harder questions and with campaigns of three, five and eight or more committed stages on one hidden system. On the same 84 withheld frontier instances, one per family and rung, DeepSeek V4.1 Flash solves 32 at its default reasoning effort with 16,384 tokens per call and 57 at its maximum effort with up to 393,216 tokens per call (oracle: 79); the headroom that remains is largest in eight-stage campaigns. On-policy expert iteration gives a 9B model modest gains: its core-tier success on trained families rises from 0.090 to 0.148, partly through better action format, with no detectable loss on GPQA Diamond. A hosted service plays the core tier's withheld instances.",
       "authors": [
-        "Xue Xia",
-        "Yue Wang",
-        "Shuizhou Chen",
-        "Lang Yu",
-        "Hao Wu",
-        "Wenxuan Huang",
-        "Chengkai Yao",
-        "Zhangyang Gao",
-        "Siqi Sun"
+        "Alexander Boesgaard Lorup"
       ],
       "doi": "",
-      "arxiv_id": "2610.16346v2",
+      "arxiv_id": "2611.24711v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "automodel: A Skill for Agentic Model Discovery",
+      "source": "arXiv",
+      "date": "2026-11-18T12:43:45+00:00",
+      "updated": "2026-11-18T12:43:45+00:00",
+      "url": "http://arxiv.org/abs/2611.24347v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24347v1",
+      "abstract": "The search for better models, whether expressed as analytical equations or neural architectures, has increasingly shifted from manual design toward data-driven automation. While a multitude of algorithms exist, ranging from exhaustive search to AlphaEvolve, recent advances in general-purpose coding agents such as Claude Code and OpenAI Codex raise the question: could providing such systems with a \"model discovery recipe\" be enough to discover or improve models? We present automodel, an agent skill for general model discovery. With case studies in astrophysics, cardiovascular dynamics, precision agriculture, traffic flow, and vehicle tire dynamics, we show how commercial agents equipped with automodel can successfully identify novel and scientifically-relevant models. Our findings suggest that encoding model-discovery methodology as a portable agent skill can provide a simple, interactive, powerful and broadly applicable alternative to domain-specific automated discovery pipelines. The skill is available at: https://github.com/unlayer-ai/automodel.",
+      "authors": [
+        "Marco Virgolin",
+        "Harry Desmond",
+        "Ester Bergantin",
+        "Giorgio Morales",
+        "John W. Sheppard",
+        "Luigi Romano",
+        "Alessandro Lucantonio"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.24347v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery from Clinical Data",
+      "source": "arXiv",
+      "date": "2026-11-06T03:08:38+00:00",
+      "updated": "2026-11-18T07:09:55+00:00",
+      "url": "http://arxiv.org/abs/2611.08922v2",
+      "pdf_url": "https://arxiv.org/pdf/2611.08922v2",
+      "abstract": "Automated scientific discovery has the potential to advance understanding of disease mechanisms and accelerate identification of early disease markers. Manual data annotation is infeasible at population scale, motivating methods that automatically extract pre-defined phenotypes from multimodal and unstructured clinical data. Such pre-defined feature sets determine and limit which associations these approaches can discover. This limitation extends to agentic AI systems that use these tools to query population-scale data. In contrast, foundation models (FMs) trained on large volumes of clinical data can perform tasks beyond their training objectives. This suggests their latent embeddings may represent novel or unexplored features that could yield insights into disease mechanisms, yet such latent features remain difficult to interpret. To address this challenge, we introduce Glyph, an automated multistage framework that extracts features from multimodal and unstructured clinical data using FMs and sparse autoencoders, interprets them as coded clinical concepts, and evaluates their value for clinical scientific discovery. We applied Glyph to abdominal CT volumes, CT radiology reports and laboratory measurements from 41,628 patients across different institutions. We identified 397 predictive concepts supported by 4,463 Bonferroni-significant associations. Moreover, a majority of discovered associations were automatically reproducible in held-out cohorts across different sites. Glyph concepts provided complementary associations to literature-derived markers, leading to gains in predictive capability. More broadly, these findings suggest that foundation model features revealed through interpretability methods could expand clinical understanding of disease. We release Glyph at https://github.com/StanfordMIMI/Glyph.",
+      "authors": [
+        "Robbie Holland",
+        "Ashwin Kumar",
+        "Mateus A. Esmeraldo",
+        "David Le",
+        "Andrea Fisher",
+        "Jiazhen Pan",
+        "Louisa Fay",
+        "Magdalini Paschali",
+        "Vasiliki Sideri-Lampretsa",
+        "Ates Fettahoglu",
+        "Stefania Moroianu",
+        "Philipp Wesp",
+        "Ivan Lopez",
+        "Tom Nuno Wolf",
+        "McKenzie S. White",
+        "Eduardo Pontes Reis",
+        "Fatima Rodriguez",
+        "Curtis P. Langlotz",
+        "Vasilis Syrgkanis",
+        "Imon Banerjee",
+        "Akshay S. Chaudhari",
+        "Sergios Gatidis"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.08922v2",
       "pubmed_id": ""
     },
     {
@@ -207,52 +300,29 @@
       "pubmed_id": ""
     },
     {
-      "title": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+      "title": "The Effectiveness and Durability of Pretraining Data Filtering in Protein Language Models",
       "source": "arXiv",
-      "date": "2026-10-13T14:18:56+00:00",
-      "updated": "2026-11-16T02:06:56+00:00",
-      "url": "http://arxiv.org/abs/2610.18449v2",
-      "pdf_url": "https://arxiv.org/pdf/2610.18449v2",
-      "abstract": "AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial release comprising six budgeted design-build-test-learn campaigns grounded in published experiments across biology, chemistry, and materials science. Agents select batches of designs, receive measurements from a lab service, and use the results to guide subsequent experiments before delivering a predictive model. Success requires passing two calibrated gates: a discovery gate, which evaluates the designs the agent measured, and a learning gate, which evaluates its model's ranking of held-out designs. In a pilot evaluation of ten agent-model configurations and 180 trials, the best configuration succeeds in 72% of trials, while the hardest campaign is solved in only five of 30 attempts. The two gates reveal different weaknesses: some agents build accurate rankings but find too few promising designs, while others find promising designs but fail to predict which unseen designs will perform well. These differences are obscured by overall success rates alone. We release version 0.1 of the campaigns, lab runtime, and public leaderboard at https://asb.open-ssi.org/.",
+      "date": "2026-10-19T16:08:59+00:00",
+      "updated": "2026-11-18T04:18:12+00:00",
+      "url": "http://arxiv.org/abs/2610.26651v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.26651v2",
+      "abstract": "Pretraining filtering is one of the most common safeguards for open-weight language models. Here we study its effectiveness, durability and scalability using the ESM-2 family of protein language models. We find that filtering viral proteins from the pretraining data meaningfully degrades masked language modelling, mutation effect prediction and long-range contact prediction on viral proteins, while largely preserving performance on non-viral proteins. These effects are concentrated among proteins from human-infecting viruses, and grow as we scale models from 8M to 3B parameters. As models increase in size, we find that stringent filtering becomes more effective. However, fine-tuning on sequences from the removed viral families restores the lost performance. Although the cost to recover performance increases with model scale, even for the largest models it costs about 80 USD of H100 time. This work establishes pretraining filtering as moderately effective at selectively degrading performance on viral proteins, but not durable against fine-tuning with modest computational resources and access to relevant data.",
       "authors": [
-        "Yibo Wen",
-        "Han Liu"
+        "Aaron Maiwald",
+        "Roderick McNeill",
+        "Jaeyoung Lee",
+        "Matthew A. Clarke",
+        "Lennart Justen",
+        "Alejandro Acelas",
+        "Ivo Andrews",
+        "Giles Harper-Donnelly",
+        "Adam Moore",
+        "Sophie Rose",
+        "Oliver M. Crook",
+        "Felix Jackson"
       ],
       "doi": "",
-      "arxiv_id": "2610.18449v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Towards Agentic Scientific Discovery in Distributed Systems",
-      "source": "arXiv",
-      "date": "2026-11-15T14:23:15+00:00",
-      "updated": "2026-11-15T14:23:15+00:00",
-      "url": "http://arxiv.org/abs/2611.20031v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20031v1",
-      "abstract": "We investigate when adaptive tool selection helps identify a shared equation across clients with different input coverage. Query-ATLAS (query-conditioned Agentic Tool-based Learning for Aggregating Symbolic Equations) uses an LLM to guide symbolic search from client errors and previous proposals in a simulated distributed system. A four-architecture comparison reveals task-dependent opportunities: relative to fixed PySR-LLM, validation acceptances rise from 3/12 to 7/12 on CRK3 and from 11/12 to 12/12 on oscillator2, while MatSci3 favors the fixed workflow. Across 72 settings in a post-hoc six-task subset of eight development tasks, Query-ATLAS achieves 64 validation and 64 in-distribution passes, versus 62 and 59 for the fixed workflow; both pass 47/60 eligible out-of-distribution tests. The fixed workflow retains lower median errors and cost. Broader query coverage emerges as a promising benefit, motivating task-aware tool selection and client-aware fitting for scientific agents.",
-      "authors": [
-        "Rashmita Soni",
-        "Abhirup Ghosh",
-        "Soumya Banerjee"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.20031v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "How did data sharing evolve in the decade since the FAIR Principles?",
-      "source": "arXiv",
-      "date": "2026-11-15T23:29:17+00:00",
-      "updated": "2026-11-15T23:29:17+00:00",
-      "url": "http://arxiv.org/abs/2611.20319v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20319v1",
-      "abstract": "A decade after the publication of the FAIR Guiding Principles, what have we learned about data sharing, and what do data availability statements (DAS) and other materials accrued over that period tell us about how data-sharing practices, attitudes, and infrastructures evolved? Here, we present a large-scale longitudinal analysis of over 6.8 million biomedical articles from the PMC Open Access Subset, spanning 2011 to 2025. Using an automated pipeline, we extracted and classified DAS, repository links, accession numbers, and supplementary materials, assigning each article a data-sharing score and independently FAIR-assessing a subset of cited dataset URLs. We find that explicit DAS adoption rose from ~2% in 2011 to 68% in 2025, while \"available on request\" statements grew in parallel from near zero to over 19%. The corpus growth amplifies both patterns: articles with a DAS containing an explicit repository mention rose from 132 in 2011 to 94,697 in 2025, while \"available on request\" articles rose from 77 to 173,474 over this span. Structural biology and genomics consistently achieved the highest data-sharing scores, while clinical research and public health ranked lowest. Gold Open Access journals showed a small advantage over subscription journals, while Diamond Open Access journals outperformed both. Internationally collaborative articles scored higher than domestic ones. A gender gap emerged: female first-authored articles' scores declined more than male first-authored ones. The analysis further covered additional dimensions, from compliance with funder/journal mandates and JATS XML tagging standards to computational reproducibility signals and the co-occurrence of DAS with ethics statements. A decade on, the gap between declaring data availability and actually sharing machine-readable, reusable data persists across fields, infrastructures and demographics.",
-      "authors": [
-        "Sheeba Samuel",
-        "Daniel Mietchen"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.20319v1",
+      "arxiv_id": "2610.26651v2",
       "pubmed_id": ""
     },
     {
@@ -302,19 +372,191 @@
       "pubmed_id": ""
     },
     {
-      "title": "HEmIF-Bench: Benchmarking H&E-to-mIF Models BeyondVirtual-StainFidelity",
+      "title": "Toward Agentic Retrieval-Augmented Generation for Enterprise Retail Workflows over Heterogeneous Data Sources",
       "source": "arXiv",
-      "date": "2026-11-15T09:34:47+00:00",
-      "updated": "2026-11-15T09:34:47+00:00",
-      "url": "http://arxiv.org/abs/2611.19905v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.19905v1",
-      "abstract": "Hematoxylin and eosin (H&E)-to-multiplex immunofluorescence (mIF) generators predict spatial protein expression from routine histology, yet pixel-level marker reconstruction does not establish downstream utility. We present HEmIF-Bench, evaluating five frozen generators across eight datasets spanning molecular, cellular, tissue, and patient scales. HEmIF-Bench decouples internal encoder features from generated outputs, benchmarking both against the pathology foundation reference UNI2. Mirroring the clinical workflow where pathologists rely on mIF to define cell phenotypes, delineate tertiary lymphoid structures (TLSs) and germinal centers (GCs), and stratify patient risk, we evaluate external CD3 recovery, single-cell classification, dense nuclear segmentation, TLS/GC segmentation, and patient survival prediction. Across the benchmark, foundation-model-based MIPHEI-ViT leads among the generators, while non-foundation models show task-specific strengths. Comparing the two routes reveals that internal encoder features generally outperform generated outputs, and larger output marker panels do not guarantee stronger downstream utility across datasets. Moreover, neither internal encoder features nor generated outputs consistently surpass frozen UNI2. These findings show that pixel-level stain fidelity does not equate to downstream utility, and that generators trained at current paired-data scales have yet to surpass large-scale pure-H&E foundation models. With the expansion of paired translation cohorts and the advancement of foundation-based generative architectures, HEmIF-Bench establishes a definitive benchmark for tracking when H&E-to-mIF generation crosses the threshold to deliver genuine value beyond routine histology for tumor microenvironment analysis and precision oncology.",
+      "date": "2026-10-18T08:15:12+00:00",
+      "updated": "2026-11-18T14:56:15+00:00",
+      "url": "http://arxiv.org/abs/2610.25096v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.25096v3",
+      "abstract": "Enterprise retail workflows require agents to chain evidence across heterogeneous sources, from structured product and order records to unstructured inquiries and reviews, yet existing agentic RAG benchmarks rarely capture this challenge. To enable controlled evaluation of such workflows, we introduce RetailBridge, a compositional retail benchmark built from persona-driven simulations. Its questions are constructed by linking entities and intermediate answers across heterogeneous sources, requiring agents to identify the relevant sources, carry evidence between them, and produce a grounded answer. To systematically evaluate LLMs on these retail workflows, we develop RetailRAG, a retail-aware framework equipped with auto-schema briefing, source-routed plan chaining, and diagnostic plan revision. RetailRAG consistently outperforms existing agentic RAG baselines across all evaluation axes, serving as a strong reference system for assessing LLM agents on retail workflows. On RetailBridge, evaluating ten LLM backbones with RetailRAG reveals multi-source chaining as the dominant bottleneck across providers and model scales, suggesting that reliable retail agents require explicit cross-source orchestration rather than scaling alone. Code and data are publicly available at https://github.com/DISL-Lab/RetailBridge.",
       "authors": [
-        "Fuxian Zhao",
-        "Hyokeun Park"
+        "Jeonghwan Choi",
+        "Jibin Hwang",
+        "Hayoon Park",
+        "Hyeonjae Cheon",
+        "Hwanjun Song"
       ],
       "doi": "",
-      "arxiv_id": "2611.19905v1",
+      "arxiv_id": "2610.25096v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "MemeLogos: Knowledge-Driven Retrieval-Augmented Reasoning for Harmful Meme Detection",
+      "source": "arXiv",
+      "date": "2026-10-11T09:02:32+00:00",
+      "updated": "2026-11-18T12:52:09+00:00",
+      "url": "http://arxiv.org/abs/2610.15463v3",
+      "pdf_url": "https://arxiv.org/pdf/2610.15463v3",
+      "abstract": "With the rapid proliferation of social media, harmful memes have become a growing threat to online ecosystems. Their harmfulness is often implicitly conveyed through complex interactions among visual, textual, and contextual cues, making accurate detection challenging. Recent studies have introduced Retrieval-Augmented Generation (RAG) and external knowledge into harmful meme detection. However, existing methods mainly retrieve similar instances or auxiliary information, limiting their ability to capture reusable harmfulness knowledge and underlying reasoning mechanisms, and thus constraining both detection performance and interpretability. To address these challenges, we propose MemeLogos, a knowledge-driven retrieval-augmented reasoning framework for harmful meme detection. MemeLogos abstracts recurring harmfulness patterns and reasoning structures from diverse harmful cases into reusable knowledge units and organizes them into a dedicated star-shaped knowledge graph. By combining structured knowledge retrieval with an explicit multi-stage reasoning process inspired by cognitive mechanisms, MemeLogos leverages retrieved knowledge to guide harmfulness reasoning, improving both detection reliability and interpretability. Extensive experiments show that MemeLogos consistently outperforms existing harmful meme detection methods while generating more coherent and interpretable reasoning, demonstrating the effectiveness of structured harmfulness knowledge for multimodal content understanding.",
+      "authors": [
+        "Hexiang Gu",
+        "Saihui Hou",
+        "Changlan Liu",
+        "Min Ren",
+        "Huijia Wu",
+        "Hongxun Gu",
+        "Zhaofeng He"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.15463v3",
+      "pubmed_id": ""
+    },
+    {
+      "title": "KnowledgeClaw: Towards Agentic Knowledge Engineering via Omnimodal Hypergraphs",
+      "source": "arXiv",
+      "date": "2026-11-18T12:06:06+00:00",
+      "updated": "2026-11-18T12:06:06+00:00",
+      "url": "http://arxiv.org/abs/2611.24294v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24294v1",
+      "abstract": "Knowledge engineering (KE) turns raw files into a reasoning-ready knowledge base, a task now within reach of LLM agents. KE has progressed from chunk and graph retrieval-augmented generation (RAG) to memory agents, agentic KE and multimodal KE. However, a live knowledge base needs omnimodality, a closed-loop lifecycle and multi-granular application at once, yet existing systems meet at most two and no benchmark measures all three. We formalize Omnimodal Knowledge Engineering (OmniKE) and release OmniKE-Bench, six tasks with 1,829 model-free items over 3,960 real files in five modalities. We further propose KnowledgeClaw, an agentic system that builds an omnimodal typed hypergraph, keeps it current with a closed-loop lifecycle agent and routes each query to the granularity it needs. Against 30 baselines, it ranks first on all six tasks with an overall OKE of 55.9, +14.6 over the strongest baseline. Our software and data are publicly available at https://github.com/LHRLAB/KnowledgeClaw.",
+      "authors": [
+        "Haoran Luo",
+        "Jiapu Wang",
+        "Linhao Luo",
+        "Luu Anh Tuan"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.24294v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "HYPER: Hypothesis-Guided Planning for Evidence-Seeking Retrieval",
+      "source": "arXiv",
+      "date": "2026-03-19T15:15:58+00:00",
+      "updated": "2026-11-18T12:02:07+00:00",
+      "url": "http://arxiv.org/abs/2603.19008v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.19008v2",
+      "abstract": "Retrieval-Augmented Generation (RAG) improves Large Language Models (LLMs) by grounding generation in external, non-parametric knowledge. However, when a task requires choosing among competing possibilities, such as a diagnosis among plausible alternatives, topically relevant context is often insufficient to drive the final decision. To address this issue, we propose HYPER: Hypothesis-Guided Planning for Evidence-Seeking Retrieval, a training-free pre-retrieval planning framework that reorients RAG from topic-oriented retrieval to evidence-oriented retrieval. HYPER uses a provisional answer hypothesis as a planning anchor. It then decomposes retrieval into three evidence roles. Support seeks evidence for the provisional answer. Distinction retrieves criteria that separate competing alternatives. Feature grounds salient question features needed for the decision. This planning step steers retrieval toward evidence near the decision boundary, enabling the generator to answer from context that is more directly aligned with the required choice. On MedQA and MMLU-Med, where single-query retrieval falls below no-retrieval chain-of-thought prompting, HYPER achieves the best average accuracy among ten baselines, improving over Simple RAG by 5.9 and 3.6 points, respectively. Its gains transfer to the 14 subjects of MMLU-Pro, at the cost of two additional LLM calls per question. Code is available at https://github.com/hangeol/HypothesisRAG.",
+      "authors": [
+        "Hangeol Chang",
+        "Changsun Lee",
+        "Seungjoon Rho",
+        "Junho Yeo",
+        "Jong Chul Ye"
+      ],
+      "doi": "",
+      "arxiv_id": "2603.19008v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning",
+      "source": "arXiv",
+      "date": "2026-11-18T08:39:46+00:00",
+      "updated": "2026-11-18T08:39:46+00:00",
+      "url": "http://arxiv.org/abs/2611.24049v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24049v1",
+      "abstract": "The growth of deceptive online opinions poses a critical risk of misinformation and fraud. This paper proposes a Retrieval-Augmented Generation (RAG) system to automatically distinguish spam reviews. The architecture integrates RoBERTa with Low-Rank Adaptation (LoRA) classification, FAISS semantic vector retrieval, and a Large Language Model (LLM) for final reasoning. The system was evaluated across balanced and severely imbalanced real-world scenarios. Results demonstrate that five epochs of fine-tuning enable robust domain transfer, achieving an F1-score of 0.90 in cross-domain evaluation, outperforming baselines (OpenAI Detector,F1 = 0.82) and demonstrating competitive performance against specialized in-domain SOTA models (fakeRoBERTa,F1 = 0.97). The proposed architecture provides evidence-backed explainability and statistically significant precision gains while maintaining comparable overall detection performance.",
+      "authors": [
+        "Andrei Kostin",
+        "José Ángel Diaz-Garcia",
+        "Karel Gutiérrez-Batista"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.24049v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
+      "source": "arXiv",
+      "date": "2026-11-18T08:28:02+00:00",
+      "updated": "2026-11-18T08:28:02+00:00",
+      "url": "http://arxiv.org/abs/2611.24039v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24039v1",
+      "abstract": "Agentic AI platforms-systems in which LLM agents plan, invoke tools, retain memory and coordinate to change the state of enterprise systems-are being procured faster than they can be measured. Public agent benchmarks score models in fixed harnesses; enterprises buy integrated platforms whose orchestration, memory, governance and tooling layers dominate outcomes, and they buy them largely on the strength of vendor demonstrations. We report an industrial evaluation programme (\"bakeoff\") run by the innovation laboratory of a global bank in which ten platforms-spanning open-source frameworks, proprietary products and hyperscaler ecosystems-were assessed by a cross-functional panel on nine capability dimensions across three financial-services workloads: counterparty credit risk, retrieval-augmented generation and process automation. Scores separate the field into three tiers that are stable under alternative weightings, and surface workload-specific strengths that aggregates hide. A secondary analysis, however, finds Cronbach's alpha = 0.98 across nominally distinct dimensions and rank correlations >= 0.93 with the total for eight of nine: a halo effect indicating that demonstration-based scoring measures presentation as much as capability. From these lessons we propose a gate-then-score evaluation protocol with four layers (capability, execution reliability, governance gates, business value), trace-level reliability metrics estimated over repeated runs, an autonomy-readiness scale and a reproducibility protocol. We state precisely what the present evidence supports, and what a controlled harness must add to turn enterprise platform evaluation from structured judgement into measurement.",
+      "authors": [
+        "Abbas Raza Ali",
+        "Muhammad Ajmal Siddiqui",
+        "Moona Zahid"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.24039v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Know Before You Fetch: When Does Confidence-Based Retrieval-Budget Allocation Pay Off?",
+      "source": "arXiv",
+      "date": "2026-06-29T08:36:33+00:00",
+      "updated": "2026-11-18T06:30:49+00:00",
+      "url": "http://arxiv.org/abs/2606.29959v2",
+      "pdf_url": "https://arxiv.org/pdf/2606.29959v2",
+      "abstract": "Adaptive retrieval-augmented generation uses a signal from the reader, such as its confidence when answering without retrieval (closed-book), to decide whether and how much to retrieve. We compare such methods not with always retrieving many passages but with the best simple policy under the same cap on average passages per query: a fixed depth or a random mixture of fixed depths. Policies allocate zero, one or five passages and are scored on held-out questions. Seven settings of about 2,000 questions combine TriviaQA, Natural Questions and MS MARCO, Qwen3-8B and Qwen3-32B readers, and two retrieval sources: per-question passage pools and a 3.5-million-passage Wikipedia index. Allocation by confidence could gain in three ways. It rations a scarce budget: at a cap of half a passage per query it beats the best simple policy in all seven settings, by 0.010 to 0.075 in accuracy. It avoids harmful retrieval: at caps of one passage or more, substantial gains appear only on Wikipedia, where passages often overwrite known answers, most robustly for Qwen3-8B on TriviaQA (+0.051, also under exact match and F1). It barely helps to choose depth: closed-book confidence ranks which queries a first passage helps but ranks the choice between one and five passages little better than chance, and with passage pools a fixed depth of two or three passages is as good or better. Once the probe's latency is charged, gains remain only where the gate skips retrieval for most queries; for the larger reader they also depend on the answer metric.",
+      "authors": [
+        "Zhe Dong",
+        "Fang Qin",
+        "Manish Shah"
+      ],
+      "doi": "",
+      "arxiv_id": "2606.29959v2",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Quantifying the Intrusiveness of Retrofitting Retrieval-Augmented Generation onto Legacy Software Systems",
+      "source": "arXiv",
+      "date": "2026-11-18T06:22:21+00:00",
+      "updated": "2026-11-18T06:22:21+00:00",
+      "url": "http://arxiv.org/abs/2611.23931v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23931v1",
+      "abstract": "Enterprises increasingly add retrieval-augmented generation (RAG) to existing REST and monolithic systems, usually by writing an ad hoc HTTP call into a handler, and have no way to quantify how intrusive that choice is. We present (1) a taxonomy of three retrofit patterns, sidecar, SDK-embed and naive-invasive; (2) the Legacy Intrusion Score (LIS), three code sub-metrics (churn, breadth, coupling), and an extension, LIS-X, with three operational sub-metrics measured on a live system (run-time overhead, fault propagation and silent feature degradation); (3) a static evaluation on five legacy systems, two of them real open-source codebases fetched from their repositories at pinned commits; and (4) a live case study that deploys all three patterns as separate OS processes. The code-level ranking sidecar < SDK-embed < naive-invasive holds in all five systems and under 2,000 random weightings, but it follows from component-wise dominance of the sub-metrics, so it validates the metric rather than testing a hypothesis. In the live study, outcomes are not fixed by definition. The sidecar adds no detectable latency to the legacy endpoint (0.07 ms, 95% CI [-0.10, 0.24]), whereas SDK-embed and naive-invasive add 569 and 475 ms and are not distinguishable from each other (p=0.62). Both pass a 2 s dependency delay on to legacy requests, and when the RAG layer fails fast they keep returning successful responses that no longer contain the AI field. Load on the RAG layer slows the legacy service by 1.51-1.57x on a shared host, and sidecar staleness averages 911 ms with a 2 s polling interval. Retrieval hit@1 is 0.95; three hosted LLMs answer all 12 test questions correctly and a local model 9/12, and the four backends are swapped by changing one request field. All dynamic results come from one host and one system.",
+      "authors": [
+        "K. M. Tahlil Mahfuz Faruk",
+        "Rakib Abdullah"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.23931v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "Evidence-Based Credit Assignment for Search-Augmented Language Models",
+      "source": "arXiv",
+      "date": "2026-11-18T04:24:51+00:00",
+      "updated": "2026-11-18T04:24:51+00:00",
+      "url": "http://arxiv.org/abs/2611.23824v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.23824v1",
+      "abstract": "Reinforcement learning from terminal answer rewards enables search-augmented language models to interleave reasoning and retrieval without step-level annotations, yet outcome supervision assigns identical credit to every search in a trajectory regardless of whether it retrieved useful information. This limitation is especially severe when all sampled rollouts for a question fail, collapsing group-centered outcome advantages to zero even when trajectories gather markedly different evidence. We present Evidence-based Credit Assignment (ECA), which augments terminal outcome rewards with a training-only auxiliary signal measuring how retrieved documents improve the likelihood of a reference answer. Rather than scoring the full dialogue prefix, ECA queries a frozen snapshot of the current policy under an evidence-only prompt containing solely the question and the deduplicated documents observed so far, isolating the utility of retrieved passages from surface variations in generated thoughts or search queries. Within this framework, we compare two return formulations, ECA-Step (which accumulates step-clipped potential increments) and ECA-Horizon (which preserves the telescoping horizon gain in potential), paired with cross-fold group normalization, novelty gating, and search-local token assignment. Across seven Search QA benchmarks, ECA-Horizon improves strict macro exact match over an outcome-only GRPO baseline by 1.03 and 4.80 percentage points on Qwen2.5-3B- and 7B-Instruct, respectively, outperforming both RLOO and GiGPO. Zero-shot evaluation on MultiHop-RAG further demonstrates strong transfer to multi-hop inference queries.",
+      "authors": [
+        "Wen Wang",
+        "Jindong Wang",
+        "Jiahua Bao",
+        "Tu Yongsiqi",
+        "Yihao Liu",
+        "Junwei He",
+        "Wenkui Fan"
+      ],
+      "doi": "",
+      "arxiv_id": "2611.23824v1",
+      "pubmed_id": ""
+    },
+    {
+      "title": "TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering",
+      "source": "arXiv",
+      "date": "2026-10-28T07:03:44+00:00",
+      "updated": "2026-11-18T01:47:48+00:00",
+      "url": "http://arxiv.org/abs/2610.38366v2",
+      "pdf_url": "https://arxiv.org/pdf/2610.38366v2",
+      "abstract": "Recent advances in large language models (LLMs) have spurred growing interest in temporal knowledge graph question answering (TKGQA). Most existing methods rely on semantic retrieval augmented generation (RAG), which suffers from fundamental limitations in complex temporal reasoning. On the one hand, semantic-based RAG methods struggle to capture the multi-hop causal knowledge required for complex temporal reasoning. On the other hand, these methods introduce excessive redundant knowledge, trapping LLMs in spurious reasoning chains that potentially result in erroneous answers. To address these problems, we propose a Temporal Causal Chain-guided RAG (TCC-RAG) to retrieve a concise yet sufficient set of causal knowledge to support complex temporal reasoning. Specifically, we reformulate the temporal knowledge graph into a multi-view causal cue graph, with causal cues inducing connections that explicitly encode temporal evolution and causal dynamics. Based on the causal cue graph, we construct a query-specific temporal causal chain to guide the retrieval process, enabling the model to focus on a concise set of causally relevant knowledge. Finally, we introduce a causal evidence filter to refine the retrieved knowledge, ensuring its causal consistency with the underlying temporal logic of the query. Experiments show that TCC-RAG achieves substantial performance gains of 10.72% and 8.40% on two TKGQA benchmarks, and delivers a remarkable 62.97% improvement for multi-step temporal reasoning.",
+      "authors": [
+        "Xinxun Zhang",
+        "Yuxiang Wang",
+        "Shanshan Feng",
+        "Jun Zhang",
+        "Tieyun Qian",
+        "Binhang Yuan",
+        "Kai Yin",
+        "Xiao Yan",
+        "Jiawei Jiang"
+      ],
+      "doi": "",
+      "arxiv_id": "2610.38366v2",
       "pubmed_id": ""
     },
     {
@@ -804,168 +1046,13 @@
       "doi": "",
       "arxiv_id": "2605.13534v2",
       "pubmed_id": ""
-    },
-    {
-      "title": "CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation",
-      "source": "arXiv",
-      "date": "2026-07-27T13:19:55+00:00",
-      "updated": "2026-11-16T07:04:42+00:00",
-      "url": "http://arxiv.org/abs/2607.24402v2",
-      "pdf_url": "https://arxiv.org/pdf/2607.24402v2",
-      "abstract": "Generative recommendation reformulates next-item prediction as identifier sequence generation, yet existing methods mainly treat the generated identifiers as target sequences to be memorized, leaving their hierarchical and relational structure underused for explicit reasoning. We propose CogRec, a structure-cognitive fast-and-slow reasoning framework that grounds intermediate reasoning in the same SID topology used for target generation. CogRec augments the vertical SID hierarchy with intra-layer semantic graphs and introduces SID Routing to represent recommendation reasoning through layer-wise Match, LateralJump, and Explore operations. These operations provide a structural interpretation of fast localization and slow navigation. A supervised multi-stage pipeline aligns newly introduced SID tokens, establishes direct generation, and trains natural-language and SID Routing branches from a shared checkpoint. Experiments on three Amazon Reviews 2014 categories show dataset-dependent effects of SID Routing. Routing improves Hit@10 and NDCG@10 over its direct-generation counterpart on Beauty and Sports, while reducing both metrics on Toys. These results characterize the benefits and dataset-dependent behavior of SID-grounded intermediate reasoning for generative recommendation. Code is available at https://github.com/caskcsg/CogRec.",
-      "authors": [
-        "Xiang Liu",
-        "Jingsong Su",
-        "Shuqi Zhao",
-        "Pengbo Mo",
-        "Yiming Qiu",
-        "Huimu Wang",
-        "Mingming Li",
-        "Jiao Dai",
-        "Jizhong Han",
-        "Songlin Hu"
-      ],
-      "doi": "",
-      "arxiv_id": "2607.24402v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models",
-      "source": "arXiv",
-      "date": "2026-11-15T21:36:53+00:00",
-      "updated": "2026-11-15T21:36:53+00:00",
-      "url": "http://arxiv.org/abs/2611.20261v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20261v1",
-      "abstract": "Objective: Hospital care prices in the United States have increased substantially, yet patients lack effective tools to access and compare costs. We aimed to develop and evaluate an LLM-based approach for improving access to and use of hospital price transparency (PT) data. Materials and Methods: To estimate visit prices, we used a retrieval-augmented generation (RAG) framework to analyze PT files from three major hospitals in Maryland and the surrounding region. We compared BM25, OpenAI embedding models, and a GPT-BM25 hybrid against a no-RAG baseline for cost estimation of individual procedures and procedure groups, then evaluated the best approach for symptom-based visit cost estimation using synthetic simulations. Results: Across hospitals, the GPT-BM25 retriever achieved the best performance, with average price MAPE of 19.44% for individual procedures and 4.90% for groups, compared with 147.98% and 82.82%, respectively, for the no-RAG baseline. In simulations, our framework correctly identified approximately 50% of reference procedures and reduced MAPE relative to the LLM-only baseline at two of the three hospitals, while achieving comparable performance at the third. Discussion: Our framework uses RAG to improve care price estimation in real-world settings. Compared with the no-RAG baseline, it substantially improved cost estimates for both individual procedures and procedure groups. Improvements were smaller in synthetic simulations, likely because inferring procedures from clinical information is more complex. Practical challenges remain, including heterogeneous PT file formats, unexplained duplicate entries, and limited availability of insurer-negotiated rates. Conclusion: LLMs that effectively integrate PT data show strong potential to provide patients with more accessible and accurate healthcare cost estimates.",
-      "authors": [
-        "Kurmanbek Kaiyrbekov",
-        "Nicholas J Dobbins",
-        "Sean D Mooney"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.20261v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "SGR3 Model: Scene Graph Retrieval-Reasoning Model in 3D",
-      "source": "arXiv",
-      "date": "2026-03-04T21:19:54+00:00",
-      "updated": "2026-11-15T20:41:14+00:00",
-      "url": "http://arxiv.org/abs/2603.04614v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.04614v2",
-      "abstract": "3D scene graphs provide a structured representation of object entities and their relationships, enabling high-level interpretation and reasoning for robots while remaining intuitively understandable to humans. Existing approaches for 3D scene graph generation typically combine scene reconstruction with graph neural networks (GNNs). However, such pipelines require multi-modal data that may not always be available, and their reliance on heuristic graph construction can constrain the prediction of relationship triplets. In this work, we introduce a Scene Graph Retrieval-Reasoning Model in 3D (SGR3 Model), a training-free framework that leverages multi-modal large language models (MLLMs) with retrieval-augmented generation (RAG) for semantic scene graph generation. SGR3 Model bypasses the need for explicit 3D reconstruction. Instead, it enhances relational reasoning by incorporating semantically aligned scene graphs retrieved via a ColPali-style cross-modal framework. To improve retrieval robustness, we further introduce a weighted patch-level similarity selection mechanism that mitigates the negative impact of blurry or semantically uninformative regions. Experiments demonstrate that SGR3 Model achieves competitive performance compared to training-free baselines and on par with GNN-based expert models. Moreover, an ablation study on the retrieval module and knowledge base scale reveals that retrieved external information is explicitly integrated into the token generation process, rather than being implicitly internalized through abstraction.",
-      "authors": [
-        "Zirui Wang",
-        "Ruiping Liu",
-        "Yufan Chen",
-        "Junwei Zheng",
-        "Weijia Fan",
-        "Kunyu Peng",
-        "Di Wen",
-        "Jiale Wei",
-        "Jiaming Zhang",
-        "Rainer Stiefelhagen"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.04614v2",
-      "pubmed_id": ""
-    },
-    {
-      "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
-      "source": "arXiv",
-      "date": "2025-04-22T03:33:57+00:00",
-      "updated": "2026-11-15T17:15:20+00:00",
-      "url": "http://arxiv.org/abs/2504.15564v4",
-      "pdf_url": "https://arxiv.org/pdf/2504.15564v4",
-      "abstract": "Existing class-level code generation datasets are either synthetic (ClassEval: 100 classes) or insufficient in scale for modern training needs (RealClassEval: 400 classes), hindering robust evaluation and empirical analysis. We present OpenClassGen, a large-scale corpus of 324,843 Python classes extracted from 2,970 engineered open-source projects. Each entry pairs a human-written class with its corresponding skeleton, which comprises class and method signatures with associated docstrings, and is enriched with 27 static code metrics covering complexity, coupling, cohesion, and inheritance properties. Unlike prior benchmarks that require repository-level context resolution, OpenClassGen provides self-contained class skeletons that serve as complete generation specifications. We demonstrate the corpus's utility by evaluating three LLMs (GPT-o4-mini, Claude-4-Sonnet, Qwen-3-Coder) on a curated, executable subset of 300 classes, enriched with test suites achieving 58% branch coverage. Results show strong semantic similarity (CodeBERTScore-F3: 0.89) but moderate functional correctness (pass rate: 0.33), with substantial variance across models. This variance, along with diverse class characteristics, confirms that OpenClassGen enables meaningful differentiation of LLM capabilities. The dataset supports diverse use cases, including fine-tuning, retrieval-augmented generation, difficulty modelling, and failure mode analysis. The complete dataset and curation scripts are publicly available at https://zenodo.org/records/18409150.",
-      "authors": [
-        "Musfiqur Rahman",
-        "SayedHassan Khatoonabadi",
-        "Emad Shihab"
-      ],
-      "doi": "",
-      "arxiv_id": "2504.15564v4",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation",
-      "source": "arXiv",
-      "date": "2025-10-30T04:30:23+00:00",
-      "updated": "2026-11-15T17:11:44+00:00",
-      "url": "http://arxiv.org/abs/2510.26130v3",
-      "pdf_url": "https://arxiv.org/pdf/2510.26130v3",
-      "abstract": "Large language models (LLMs) have advanced rapidly from well-studied function-level code generation to emerging repository-level approaches, yet this progression reveals a critical gap: class-level code generation, which is the fundamental building block connecting individual functions to complete repositories, remains systematically underexplored. Understanding class-level capabilities is a prerequisite to repository-level success, as current approaches cannot distinguish whether failures stem from basic implementation deficiencies or sophisticated context management issues. We introduce RealClassEval, a benchmark derived from real-world open-source repositories, comprising 400 classes divided into seen and unseen partitions based on model training cutoffs. Our systematic evaluation across seven state-of-the-art LLMs reveals fundamental limitations masked by synthetic benchmarks: while LLMs achieve 84 to 89% correctness on synthetic tasks, they attain only 25 to 34% on real-world classes, with minimal distinction between seen and unseen codebases. Notably, this performance range converges with concurrent work using rich natural language descriptions and repository context, suggesting that specification complexity cannot overcome core implementation bottlenecks. Documentation provides marginal improvements (1 to 3%), while retrieval augmentation yields greater gains (4 to7%), specifically with incomplete specifications. Error analysis reveals AttributeError, TypeError, and AssertionError dominate 84% of failures, with distinct patterns between synthetic (logic-focused) and real-world (object-oriented) scenarios. These findings establish the diagnostic foundation necessary for advancing both fundamental LLM capabilities and sophisticated repository-level approaches, while providing actionable guidance for production deployment strategies.",
-      "authors": [
-        "Musfiqur Rahman",
-        "SayedHassan Khatoonabadi",
-        "Emad Shihab"
-      ],
-      "doi": "",
-      "arxiv_id": "2510.26130v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "GAAMA: Graph Augmented Associative Memory for Agents",
-      "source": "arXiv",
-      "date": "2026-03-29T23:33:38+00:00",
-      "updated": "2026-11-15T15:58:38+00:00",
-      "url": "http://arxiv.org/abs/2603.27910v3",
-      "pdf_url": "https://arxiv.org/pdf/2603.27910v3",
-      "abstract": "AI agents that talk with users across many sessions need long-term memory to stay coherent and personalized. Existing approaches use either flat retrieval-augmented generation (RAG) that ignores how memories connect, or entity-centric knowledge graphs. Entity-centric graphs split each message into separate triples, which loses its context, and in conversations the speakers become hubs linked to almost every message, so propagation through them tells retrieval little. We present GAAMA, a graph-augmented associative memory that organizes conversations around topics. It keeps verbatim episodes, uses an LLM to distill them into atomic facts and topic concepts, and then synthesizes higher-order reflections. These four node types are linked by five kinds of structural edges, and topic concepts supply the cross-cutting paths, so mega-hubs do not form. Retrieval blends nearest-neighbor similarity search with Personalized PageRank whose transitions depend on edge type. We also introduce GRAFT (Graph Repair by Augmenting Facts & Topology), an offline repair step: for questions whose retrieved evidence fell short, a bounded ReAct agent searches memory again and records the grounded answer as a fresh fact, so later questions find it directly without extra query-time cost. On LoCoMo10, GAAMA achieves the highest average score of all compared methods (79.1%) and is competitive in every question category; GRAFT adds a small further gain. In a controlled comparison, replacing GAAMA's concept-linked facts with entityrelation triples lowers reward by 3.0 pp. On MemoryArena, GAAMA also has the best average across the three datasets.",
-      "authors": [
-        "Swarna Kamal Paul",
-        "Shubhendu Sharma",
-        "Nitin Sareen"
-      ],
-      "doi": "",
-      "arxiv_id": "2603.27910v3",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning",
-      "source": "arXiv",
-      "date": "2026-11-15T14:44:28+00:00",
-      "updated": "2026-11-15T14:44:28+00:00",
-      "url": "http://arxiv.org/abs/2611.20045v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.20045v1",
-      "abstract": "Deep research and agentic search agents autonomously retrieve content from the open web and generate reports with citations, and their outputs are often taken directly as research conclusions. This paper systematizes security research in this area along four stages, namely retrieval, planning, evidence integration, and report generation. We present a unified threat model, a taxonomy of attacks and defenses, and a review of evaluation benchmarks, and we align the area dimension by dimension with retrieval-augmented generation (RAG) poisoning, prompt injection, and generative engine optimization (GEO). Coding 34 primary studies shows that only 26.5% of them involve the planning stage, and none performs an end-to-end poisoning evaluation on commercial products. To address this gap, we propose the agenda seeding attack, in which the attacker writes no instructions and only introduces a fictitious evaluation metric. Across 3,520 sandboxed research runs under the same budget, GEO and prompt injection are nearly ineffective, whereas agenda seeding makes the attacker's target the top pick in 16% to 28% of reports. Injection detection and query anchoring fail against it, verification prompting hurts utility, and our proposed provenance tagging preserves utility but can be bypassed by multi-site bait. Finally, we propose eight research directions.",
-      "authors": [
-        "Yang Luo",
-        "Guangpu Chen",
-        "Yichen Liu",
-        "Zhaoyu Chen",
-        "Yifeng Gao",
-        "Zhiyang Ding",
-        "Qingni Shen",
-        "Zhonghai Wu"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.20045v1",
-      "pubmed_id": ""
-    },
-    {
-      "title": "Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web",
-      "source": "arXiv",
-      "date": "2026-11-15T09:29:27+00:00",
-      "updated": "2026-11-15T09:29:27+00:00",
-      "url": "http://arxiv.org/abs/2611.19900v1",
-      "pdf_url": "https://arxiv.org/pdf/2611.19900v1",
-      "abstract": "Retrieval-augmented systems that research companies are judged by how much they find, yet in markets where public evidence is sparse, a confident answer without support costs more than no answer. We introduce AfriBizClaims, a benchmark of 150 company-research queries across six African markets in English, French and Portuguese, including queries about fictitious companies that a correct system must decline. Each claim a system makes is judged against the page it cites by an AI judge, checked against a second AI judge from another model family and against two human annotators, and abstentions are scored against answerability labels. We compare BM25 over a pooled corpus, standard web retrieval-augmented generation, and a multi-step agent pipeline (Konexium V1), all using the same language model. The two simple baselines are well attributed: 98% of their judged claims are supported by the page they cite, and they decline every field of every fictitious company. Counting claims about a company other than the one asked about as errors, the agent pipeline's per-query precision is 68%, and it never answers a question about a named company correctly: it substitutes other firms, including for 5 of the 24 fictitious names, and it is the least stable between runs and the most expensive. In the pipeline we evaluated, more steps between the query and the evidence did not buy more grounded answers. We will release the queries, system outputs, labels and short evidence excerpts.",
-      "authors": [
-        "Bakary Gibba",
-        "Muhammad Abba Mandara",
-        "Karim Ismail Abd-Ellah Mohamed"
-      ],
-      "doi": "",
-      "arxiv_id": "2611.19900v1",
-      "pubmed_id": ""
     }
   ],
   "source_statuses": [
     {
       "source": "arXiv",
       "success": true,
-      "count": 45,
+      "count": 47,
       "error": ""
     }
   ]
